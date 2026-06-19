@@ -1,0 +1,62 @@
+{
+  "name": "babylonjs-docs-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing the BabylonJS (3D WebGL engine) documentation so AI agents can browse, read, and search it.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "babylonjs-docs-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "smoke": "node scripts/smoke-test.mjs",
+    "lint": "node scripts/lint-preprocessed.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && npm run lint && npm run smoke",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "babylonjs",
+    "babylon-js",
+    "webgl",
+    "webgpu",
+    "webxr",
+    "3d",
+    "gamedev",
+    "documentation",
+    "ai",
+    "llm"
+  ],
+  "author": "VGFP <45914819+VGFP@users.noreply.github.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/VGFP/babylonjs-docs-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VGFP/babylonjs-docs-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VGFP/babylonjs-docs-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

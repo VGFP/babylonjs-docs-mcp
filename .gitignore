@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# env & logs
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+
+# npm package tarballs
+*.tgz

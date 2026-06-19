@@ -40,7 +40,7 @@ import {
 import { searchDocs, type SearchHit } from "./lib/search.js";
 
 const SERVER_NAME = "babylonjs-docs-mcp";
-const SERVER_VERSION = "9.13.0";
+const SERVER_VERSION = "9.13.0-mcp.1";
 
 const docsDir = resolveDocsDir();
 let index: DocIndexEntry[];

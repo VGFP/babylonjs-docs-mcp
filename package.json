@@ -1,6 +1,6 @@
 {
   "name": "babylonjs-docs-mcp",
-  "version": "9.13.0",
+  "version": "9.13.0-mcp.1",
   "description": "MCP server exposing the BabylonJS (3D WebGL engine) documentation so AI agents can browse, read, and search it.",
   "type": "module",
   "main": "dist/index.js",

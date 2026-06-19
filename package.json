@@ -22,7 +22,11 @@
     "lint": "node scripts/lint-preprocessed.mjs",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "npm run build && npm run lint && npm run smoke",
-    "prepublishOnly": "npm run clean && npm run build"
+    "prepublishOnly": "npm run clean && npm run build",
+    "docs:clone-source": "bash scripts/clone-babylonjs-source.sh",
+    "docs:clone-docs": "bash scripts/clone-babylonjs-docs.sh",
+    "docs:generate": "bash scripts/generate-docs-for-mcp.sh",
+    "docs:regenerate": "bash scripts/regenerate-docs.sh"
   },
   "keywords": [
     "mcp",

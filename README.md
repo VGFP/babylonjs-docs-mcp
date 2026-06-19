@@ -212,32 +212,53 @@ two top-level directories:
 - `docs/api/`  TypeDoc API reference (generated from source)
 - `docs/examples/`  Guides, tutorials, and feature deep dives
 
-To refresh from the upstream sources:
+Three scripts in `scripts/` rebuild this snapshot from the upstream sources.
+They read the BabylonJS version from this package's `version` field (the
+`-mcp.N` suffix is stripped, so `9.13.0-mcp.1` regenerates docs for BabylonJS
+`9.13.0`). The intermediate clones land in `babylonjs-source/` and
+`babylonjs-docs/` (both gitignored) so you can re-run the generator without
+re-cloning.
 
 ```sh
-# 1. Generate TypeDoc API docs from the Babylon.js monorepo
-#    (uses the Babylon.js documentation-generation tooling)
-#
-# 2. Clone the Babylon.js documentation repo for examples:
-git clone https://github.com/BabylonJS/Documentation.git upstream-examples
+# One-shot: clone both sources, generate docs/, and run lint + smoke.
+npm run docs:regenerate
 
-# 3. Replace the snapshot:
+# Or run the steps individually:
+npm run docs:clone-source   # git clone Babylon.js monorepo at the version tag
+npm run docs:clone-docs     # git clone BabylonJS Documentation repo (shallow)
+npm run docs:generate       # TypeDoc API docs + copy examples -> docs/
+npm run lint && npm run smoke   # validate the regenerated snapshot
+```
+
+When you're done, clean up the intermediate repos:
+
+```sh
+rm -rf babylonjs-source babylonjs-docs
+```
+
+> Note: These scripts live in `scripts/` but are **not** shipped with the npm
+> package  the `files` field in `package.json` is an allowlist
+> (`dist`, `docs`, `README.md`, `LICENSE`), so published consumers only get the
+> pre-built MCP server and the bundled `docs/` snapshot.
+
+If you only need to pull in upstream example changes (no API regeneration),
+skip TypeDoc and replace just `docs/examples/`:
+
+```sh
+git clone --depth 1 https://github.com/BabylonJS/Documentation.git upstream-examples
 rm -rf docs/examples && cp -r upstream-examples/content docs/examples
+rm -rf upstream-examples
 npm run lint && npm run smoke
 ```
 
 ## Releasing
 
-Releases are automated via GitHub Actions. To publish a new version to npm:
+Releases are automated via GitHub Actions. Pushing a `v*` tag triggers
+`.github/workflows/release.yml`, which builds and publishes to npm (with
+provenance). The `NPM_TOKEN` secret must be set in the repository's Actions
+secrets.
 
-```sh
-npm version patch   # or minor / major
-git push --follow-tags
-```
-
-Pushing a `v*` tag triggers `.github/workflows/release.yml`, which builds and
-publishes to npm (with provenance). The `NPM_TOKEN` secret must be set in the
-repository's Actions secrets.
+There are two release flows depending on whether the BabylonJS docs changed.
 
 ### Version naming convention
 
@@ -250,16 +271,45 @@ suffix to distinguish MCP-only releases against the same docs:
    BabylonJS docs version   MCP release counter
 ```
 
-- **Bump the docs segment** (e.g. `9.13.0` → `9.14.0`) when refreshing the
-  `docs/` snapshot from a newer upstream BabylonJS release.
-- **Bump the `-mcp.N` counter** for MCP-only changes (tools, search, server
-  logic) against the *same* docs snapshot:
+- **Bump the docs segment** (e.g. `9.13.0` → `9.14.0`) and reset `-mcp.N` to
+  `1` when refreshing `docs/` from a newer upstream BabylonJS release.
+- **Bump only the `-mcp.N` counter** for MCP-only changes (tools, search, server
+  logic) against the *same* docs snapshot.
 
-  ```sh
-  npm version prerelease --preid=mcp   # 9.13.0-mcp.1 → 9.13.0-mcp.2
-  ```
+### Flow A  New BabylonJS release (e.g. 9.13  9.14)
 
-- When the docs are bumped, reset the prerelease counter to `-mcp.1`.
+Use this when BabylonJS publishes a new version and you want to ship a fresh
+`docs/` snapshot. Bump the version **first**  the regen scripts derive the
+BabylonJS tag to check out from `pkg.version` (e.g. `9.14.0-mcp.1` 
+BabylonJS `9.14.0`).
+
+```sh
+# 1. Bump the MCP version: new docs segment, reset -mcp.N to 1.
+npm version 9.14.0-mcp.1
+
+# 2. Regenerate the docs/ snapshot (clones BabylonJS source @ 9.14.0 tag,
+#    clones the Documentation repo, runs TypeDoc + copy, then lint + smoke).
+npm run docs:regenerate
+
+# 3. Commit the regenerated docs (step 1 already committed the version bump).
+git add docs/ && git commit -m "docs: refresh snapshot to BabylonJS 9.14.0"
+
+# 4. Clean up the intermediate clones (~GBs on disk, gitignored).
+rm -rf babylonjs-source babylonjs-docs
+
+# 5. Push. The v9.14.0-mcp.1 tag triggers release.yml.
+git push --follow-tags
+```
+
+### Flow B  MCP-only release (e.g. 9.13.0-mcp.1  9.13.0-mcp.2)
+
+Use this for changes to the server itself (tools, search, performance) that
+do **not** touch the bundled docs.
+
+```sh
+npm version prerelease --preid=mcp   # 9.13.0-mcp.1 -> 9.13.0-mcp.2
+git push --follow-tags
+```
 
 ## Project layout
 
@@ -272,7 +322,11 @@ babylonjs-docs-mcp/
 │   ├── api/               # TypeDoc API reference
 │   └── examples/          # Guides, tutorials, feature deep dives
 ├── scripts/
-│   ├── smoke-test.mjs     # End-to-end JSON-RPC exercise of every tool/resource
+│   ├── clone-babylonjs-source.sh   # Clone Babylon.js monorepo at version tag
+│   ├── clone-babylonjs-docs.sh     # Clone BabylonJS Documentation repo
+│   ├── generate-docs-for-mcp.sh    # TypeDoc + copy -> docs/
+│   ├── regenerate-docs.sh          # End-to-end wrapper for the three above
+│   ├── smoke-test.mjs              # End-to-end JSON-RPC exercise of every tool/resource
 │   └── lint-preprocessed.mjs
 ├── src/
 │   ├── index.ts           # MCP server registration + stdio transport

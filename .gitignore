@@ -19,3 +19,7 @@ npm-debug.log*
 
 # npm package tarballs
 *.tgz
+
+# intermediate doc-generation clones (kept locally, never committed)
+babylonjs-source/
+babylonjs-docs/

@@ -6,7 +6,7 @@
 
 # Class: Action
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L82)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L82)
 
 The action to be carried out following a trigger
 
@@ -40,7 +40,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions#available-act
 
 > **new Action**(`triggerOptions`, `condition?`): `Action`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L109)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L109)
 
 Creates a new Action
 
@@ -68,7 +68,7 @@ an optional determinant of action
 
 > **onBeforeExecuteObservable**: [`Observable`](Observable.md)\<`Action`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L102)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L102)
 
 An event triggered prior to action being executed.
 
@@ -78,7 +78,7 @@ An event triggered prior to action being executed.
 
 > **trigger**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L86)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L86)
 
 Trigger for the action
 
@@ -92,7 +92,7 @@ Trigger for the action
 
 > **triggerOptions**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L111)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L111)
 
 the trigger, with or without parameters, for the action
 
@@ -106,7 +106,7 @@ the trigger, with or without parameters, for the action
 
 > **execute**(`evt?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L191)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L191)
 
 Execute placeholder for child classes
 
@@ -128,7 +128,7 @@ optional action event
 
 > **getTriggerParameter**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L137)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L137)
 
 Gets the trigger parameter
 
@@ -148,7 +148,7 @@ the trigger parameter
 
 > **serialize**(`parent`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L244)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L244)
 
 Serialize placeholder for child classes
 
@@ -176,7 +176,7 @@ the serialized object
 
 > **setTriggerParameter**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L145)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L145)
 
 Sets the trigger parameter
 
@@ -198,7 +198,7 @@ defines the new trigger parameter
 
 > **skipToNextActiveAction**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L196)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L196)
 
 Skips to next active action
 
@@ -212,7 +212,7 @@ Skips to next active action
 
 > **then**(`action`): `Action`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/action.pure.ts#L214)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L214)
 
 Adds action to chain of actions, may be a DoNothingAction
 

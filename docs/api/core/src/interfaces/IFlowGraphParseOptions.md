@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphParseOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L62)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L82)
 
 Options for parsing a flow graph.
 
@@ -16,7 +16,7 @@ Options for parsing a flow graph.
 
 > **coordinator**: [`FlowGraphCoordinator`](../classes/FlowGraphCoordinator.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L74)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L94)
 
 The flow graph coordinator.
 
@@ -26,7 +26,7 @@ The flow graph coordinator.
 
 > `optional` **pathConverter?**: [`IPathToObjectConverter`](IPathToObjectConverter.md)\<[`IObjectAccessor`](IObjectAccessor.md)\<`any`, `any`, `any`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L78)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L98)
 
 A function that converts a path to an object accessor.
 
@@ -36,7 +36,7 @@ A function that converts a path to an object accessor.
 
 > `optional` **valueParseFunction?**: (`key`, `serializationObject`, `assetsContainer`, `scene`) => `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L70)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L90)
 
 A function that parses complex values in a scene.
 

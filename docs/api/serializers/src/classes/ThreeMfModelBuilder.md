@@ -6,7 +6,10 @@
 
 # Class: ThreeMfModelBuilder
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L306)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:338](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L338)
+
+Fluent builder for a 3MF model, the root part of a 3MF document.
+It aggregates the resources (materials, meshes and components) and the build items that reference them.
 
 ## Constructors
 
@@ -24,7 +27,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **\_model**: [`ThreeMfModel`](ThreeMfModel.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:315](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L315)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L347)
+
+The 3MF model currently being built.
 
 ***
 
@@ -32,7 +37,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **\_objects**: `Map`\<`string`, [`I3mfObject`](../interfaces/I3mfObject.md)\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L319)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L351)
+
+The object resources added to the model, indexed by resource id.
 
 ***
 
@@ -40,7 +47,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > `static` **KnownMetaSet**: `Set`\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L310)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:342](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L342)
+
+The lower cased set of the metadata names defined by the 3MF specification.
 
 ## Methods
 
@@ -48,11 +57,19 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **build**(): [`ThreeMfModel`](ThreeMfModel.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:422](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L422)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:455](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L455)
+
+Validates and returns the model that has been built.
 
 #### Returns
 
 [`ThreeMfModel`](ThreeMfModel.md)
+
+The built 3MF model.
+
+#### Throws
+
+When the model has no object resource or no build item.
 
 ***
 
@@ -60,11 +77,15 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **reset**(): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L412)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:444](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L444)
+
+Discards the current model and starts building a new one.
 
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -72,7 +93,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withBuild**(`objectid`, `transform?`, `partnumber?`): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:392](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L392)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:424](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L424)
+
+Adds a build item, which places an object resource in the build plate.
 
 #### Parameters
 
@@ -80,17 +103,25 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 `number`
 
+The resource id of the object to place.
+
 ##### transform?
 
 [`Matrix3d`](Matrix3d.md)
+
+The optional transform applied to the object.
 
 ##### partnumber?
 
 `string`
 
+The optional part number identifying the produced part.
+
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -98,7 +129,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withComponents**(`components`): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L376)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L408)
+
+Adds a components object to the model resources.
 
 #### Parameters
 
@@ -106,9 +139,13 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`I3mfObject`](../interfaces/I3mfObject.md) \| [`ThreeMfComponentsBuilder`](ThreeMfComponentsBuilder.md)
 
+The object resource, or a builder that produces one.
+
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -116,7 +153,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withMaterial**(`material`): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L345)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:377](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L377)
+
+Adds a base materials group to the model resources.
 
 #### Parameters
 
@@ -124,9 +163,13 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`I3mfBaseMaterials`](../interfaces/I3mfBaseMaterials.md) \| [`ThreeMfMaterialBuilder`](ThreeMfMaterialBuilder.md)
 
+The base materials resource, or a builder that produces one.
+
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -134,7 +177,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withMesh**(`object`): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L362)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:394](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L394)
+
+Adds a mesh object to the model resources.
 
 #### Parameters
 
@@ -142,9 +187,13 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`I3mfObject`](../interfaces/I3mfObject.md) \| [`ThreeMfMeshBuilder`](ThreeMfMeshBuilder.md)
 
+The object resource, or a builder that produces one.
+
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -152,7 +201,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withMetaData**(`name`, `value`, `preserve?`, `type?`): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L329)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:361](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L361)
+
+Adds a metadata entry to the model.
 
 #### Parameters
 
@@ -160,21 +211,31 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 `string`
 
+The metadata name. Names outside of the 3MF specification must be namespace qualified.
+
 ##### value
 
 `string`
+
+The metadata value.
 
 ##### preserve?
 
 `boolean`
 
+Whether consumers must preserve this entry when editing the document.
+
 ##### type?
 
 `string`
 
+The XML schema type of the value. Defaults to `xs:string`.
+
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -182,7 +243,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withUnit**(`unit`): `ThreeMfModelBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:403](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L403)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L435)
+
+Sets the unit in which the model coordinates are expressed.
 
 #### Parameters
 
@@ -190,6 +253,10 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`ST_Unit`](../enumerations/ST_Unit.md)
 
+The 3MF unit (micron, millimeter, centimeter, inch, foot or meter).
+
 #### Returns
 
 `ThreeMfModelBuilder`
+
+This builder, to allow chaining.

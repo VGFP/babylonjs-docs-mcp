@@ -6,7 +6,7 @@
 
 # Class: EXT\_lights\_area
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.ts#L28)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L28)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/master/extensions/2.0/Khronos/EXT_lights_area/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/E
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.ts#L33)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L33)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"EXT_lights_area"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.ts#L30)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L30)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > **required**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.ts#L36)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L36)
 
 Defines whether this extension is required
 
@@ -62,7 +62,7 @@ Defines whether this extension is required
 
 > **postExportNodeAsync**(`context`, `node`, `babylonNode`, `nodeMap`, `convertToRightHanded`): `Promise`\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`INode`\>\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.ts#L73)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L73)
 
 Define this method to modify the default behavior when exporting a node
 

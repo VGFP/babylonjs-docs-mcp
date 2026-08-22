@@ -6,7 +6,7 @@
 
 # Interface: IExplorerExtensibilityGroup
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L39)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L39)
 
 Defines a group of actions associated with a predicate to use when extending the Inspector scene explorer
 
@@ -16,7 +16,7 @@ Defines a group of actions associated with a predicate to use when extending the
 
 > **entries**: [`IExplorerExtensibilityOption`](IExplorerExtensibilityOption.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L47)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L47)
 
 Gets the list of options added to a type
 
@@ -26,7 +26,7 @@ Gets the list of options added to a type
 
 > **predicate**: (`entity`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Debug/debugLayer.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Debug/debugLayer.pure.ts#L43)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L43)
 
 Defines a predicate to test if a given type mut be extended
 

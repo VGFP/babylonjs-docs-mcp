@@ -6,7 +6,7 @@
 
 # Class: GaussianSplattingGpuPickingMaterialPlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L22)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L22)
 
 **`Experimental`**
 
@@ -26,7 +26,7 @@ The picking color is computed on the CPU by encoding a 24-bit picking ID as RGB
 
 > **new GaussianSplattingGpuPickingMaterialPlugin**(`material`, `maxPartCount?`): `GaussianSplattingGpuPickingMaterialPlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L37)
 
 **`Experimental`**
 
@@ -60,7 +60,7 @@ The maximum number of parts supported for compound meshes.
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 **`Experimental`**
 
@@ -76,7 +76,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 **`Experimental`**
 
@@ -96,7 +96,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 **`Experimental`**
 
@@ -112,7 +112,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 **`Experimental`**
 
@@ -128,7 +128,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 **`Experimental`**
 
@@ -144,7 +144,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 **`Experimental`**
 
@@ -162,7 +162,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **set** **enableDepthPicking**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L51)
 
 **`Experimental`**
 
@@ -186,7 +186,7 @@ Enables writing the GPU picker depth MRT attachment.
 
 > **set** **enablePackedDepthPicking**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L63)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L63)
 
 **`Experimental`**
 
@@ -210,7 +210,7 @@ Enables byte-packed depth output for the GPU picker depth MRT attachment.
 
 > **get** **isCompound**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L101)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L101)
 
 **`Experimental`**
 
@@ -224,7 +224,7 @@ Gets whether this material is for a compound mesh with per-part picking.
 
 > **set** **isCompound**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L93)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L93)
 
 **`Experimental`**
 
@@ -248,7 +248,7 @@ Sets whether this material is for a compound mesh with per-part picking.
 
 > **set** **meshId**(`id`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L86)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L86)
 
 **`Experimental`**
 
@@ -275,7 +275,7 @@ The 24-bit picking ID.
 
 > **set** **partMeshIds**(`ids`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L110)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L110)
 
 **`Experimental`**
 
@@ -300,7 +300,7 @@ Array mapping part index to picking ID.
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 **`Experimental`**
 
@@ -342,7 +342,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L286)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L286)
 
 **`Experimental`**
 
@@ -388,7 +388,7 @@ the submesh being rendered
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 **`Experimental`**
 
@@ -414,7 +414,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 **`Experimental`**
 
@@ -442,7 +442,7 @@ define the config where to copy the info
 
 > **dispose**(`_forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
 
 **`Experimental`**
 
@@ -470,7 +470,7 @@ Forces the disposal of all textures.
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 **`Experimental`**
 
@@ -498,7 +498,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`_activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
 
 **`Experimental`**
 
@@ -526,7 +526,7 @@ Array of BaseTextures
 
 > **getAnimatables**(`_animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
 
 **`Experimental`**
 
@@ -554,7 +554,7 @@ Array of animatable textures.
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 **`Experimental`**
 
@@ -594,7 +594,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L138)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L138)
 
 **`Experimental`**
 
@@ -614,7 +614,7 @@ the class name
 
 > **getCustomCode**(`shaderType`, `shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L185)
 
 **`Experimental`**
 
@@ -650,7 +650,7 @@ null or a map of injection point names to code strings
 
 > **getSamplers**(`_samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
 
 **`Experimental`**
 
@@ -678,7 +678,7 @@ list that the sampler names should be added to.
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 **`Experimental`**
 
@@ -706,7 +706,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L268)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L268)
 
 **`Experimental`**
 
@@ -744,7 +744,7 @@ uniform descriptions
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 **`Experimental`**
 
@@ -790,7 +790,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 **`Experimental`**
 
@@ -812,7 +812,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`_texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
 
 **`Experimental`**
 
@@ -842,7 +842,7 @@ Base texture to use.
 
 > **isCompatible**(`shaderLanguage`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L147)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L147)
 
 **`Experimental`**
 
@@ -872,7 +872,7 @@ true for GLSL and WGSL
 
 > **isReadyForSubMesh**(`_defines`, `_scene`, `_engine`, `_subMesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L165)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L165)
 
 **`Experimental`**
 
@@ -920,7 +920,7 @@ true
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 **`Experimental`**
 
@@ -960,7 +960,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L173)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L173)
 
 **`Experimental`**
 
@@ -988,7 +988,7 @@ the list of defines to update
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 **`Experimental`**
 
@@ -1028,7 +1028,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 **`Experimental`**
 
@@ -1050,7 +1050,7 @@ Serializes this plugin configuration.
 
 > **setPartActive**(`activeParts`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L124)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L124)
 
 **`Experimental`**
 
@@ -1075,7 +1075,7 @@ Array of part indices that should be pickable.
 
 > `static` **EncodeIdToColor**(`id`): \[`number`, `number`, `number`\]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L77)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingGpuPickingMaterialPlugin.pure.ts#L77)
 
 **`Experimental`**
 

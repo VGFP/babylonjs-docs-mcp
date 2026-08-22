@@ -8,7 +8,7 @@
 
 > `const` **GLTFLoaderDefaultOptions**: `GLTFLoaderBaseOptions`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:330](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L330)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L331)
 
 The default GLTF loader options.
 Override the properties of this object to globally change the default loader options.

@@ -6,7 +6,7 @@
 
 # Class: ArrayItem
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts#L105)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L105)
 
 Helper class for working with arrays when loading the glTF asset
 
@@ -26,7 +26,7 @@ Helper class for working with arrays when loading the glTF asset
 
 > `static` **Assign**(`array?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts#L139)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L139)
 
 Assign an `index` field to each item of the given array.
 
@@ -48,7 +48,7 @@ The array of items
 
 > `static` **Get**\<`T`\>(`context`, `array`, `index`): `T`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts#L113)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L113)
 
 Gets an item from the given array.
 
@@ -90,7 +90,7 @@ The array item
 
 > `static` **TryGet**\<`T`\>(`array`, `index`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoader.ts#L127)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L127)
 
 Gets an item from the given array or returns null if not available.
 

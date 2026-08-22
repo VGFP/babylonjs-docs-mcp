@@ -8,7 +8,7 @@
 
 > **addToBlockFactory**(`module`, `blockName`, `factory`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/flowGraphBlockFactory.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/flowGraphBlockFactory.ts#L21)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/flowGraphBlockFactory.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/flowGraphBlockFactory.ts#L21)
 
 If you want to add a new block to the block factory, you should use this function.
 Please be sure to choose a unique name and define the responsible module.

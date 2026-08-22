@@ -6,7 +6,7 @@
 
 # Class: MultiObserver\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.extensions.pure.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.extensions.pure.ts#L10)
+Defined in: [packages/dev/core/src/Misc/observable.extensions.pure.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.extensions.pure.ts#L10)
 
 Represent a list of observers registered to multiple Observables object.
 
@@ -32,7 +32,7 @@ Represent a list of observers registered to multiple Observables object.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.extensions.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.extensions.pure.ts#L17)
+Defined in: [packages/dev/core/src/Misc/observable.extensions.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.extensions.pure.ts#L17)
 
 Release associated resources
 
@@ -46,7 +46,7 @@ Release associated resources
 
 > `static` **Watch**\<`T`\>(`observables`, `callback`, `mask?`, `scope?`): `MultiObserver`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.extensions.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.extensions.pure.ts#L36)
+Defined in: [packages/dev/core/src/Misc/observable.extensions.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.extensions.pure.ts#L36)
 
 Raise a callback when one of the observable will notify
 

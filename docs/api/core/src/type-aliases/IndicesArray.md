@@ -8,6 +8,6 @@
 
 > **IndicesArray** = `number`[] \| `Int32Array` \| `Uint32Array` \| `Uint16Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L135)
+Defined in: [packages/dev/core/src/types.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/types.ts#L135)
 
 Alias type for number array or Float32Array or Int32Array or Uint32Array or Uint16Array

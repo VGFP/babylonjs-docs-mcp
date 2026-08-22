@@ -6,7 +6,7 @@
 
 # Class: WebXRLayers
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L37)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L45)
 
 Exposes the WebXR Layers API.
 
@@ -20,7 +20,7 @@ Exposes the WebXR Layers API.
 
 > **new WebXRLayers**(`_xrSessionManager`, `_options?`): `WebXRLayers`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L61)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L72)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -60,7 +60,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -74,7 +74,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -88,7 +88,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -102,7 +102,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -116,7 +116,7 @@ Observers registered here will be executed when the feature is detached
 
 > `readonly` `static` **Name**: `"xr-layers"` = `WebXRFeatureName.LAYERS`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L41)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L49)
 
 The module's name
 
@@ -126,7 +126,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L47)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L55)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -140,7 +140,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -162,7 +162,7 @@ Is this feature attached
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -174,7 +174,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -198,9 +198,9 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 ### addFullscreenAdvancedDynamicTexture()
 
-> **addFullscreenAdvancedDynamicTexture**(`texture`, `options?`): `WebXRCompositionLayerWrapper`
+> **addFullscreenAdvancedDynamicTexture**(`texture`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<`WebXRCompositionLayerWrapper`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L202)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L299)
 
 **`Experimental`**
 
@@ -225,9 +225,9 @@ optional parameters for the layer
 
 #### Returns
 
-`WebXRCompositionLayerWrapper`
+[`Nullable`](../type-aliases/Nullable.md)\<`WebXRCompositionLayerWrapper`\>
 
-a composition layer containing the texture
+a composition layer containing the texture, or null when WebGPU quad layers are unavailable
 
 ***
 
@@ -235,7 +235,7 @@ a composition layer containing the texture
 
 > **addXRSessionLayer**(`wrappedLayer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L310)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L416)
 
 Add a new layer to the already-existing list of layers
 
@@ -257,7 +257,7 @@ the new layer to add to the existing ones
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L75)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L86)
 
 Attach this feature.
 Will usually be called by the features manager.
@@ -278,7 +278,7 @@ true if successful.
 
 > **createProjectionLayer**(`params?`, `multiview?`): `WebXRProjectionLayerWrapper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L143)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L171)
 
 Creates a new XRProjectionLayer.
 
@@ -308,7 +308,7 @@ the projection layer
 
 > **createXRWebGLLayer**(`params?`): `WebXRWebGLLayerWrapper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L110)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L138)
 
 Creates a new XRWebGLLayer.
 
@@ -332,7 +332,7 @@ the XRWebGLLayer
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L93)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L121)
 
 detach this feature.
 
@@ -352,7 +352,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L344)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L456)
 
 Dispose this feature and all of the resources attached.
 
@@ -370,7 +370,7 @@ Dispose this feature and all of the resources attached.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L336)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L442)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it
@@ -391,7 +391,7 @@ whether or not the feature is compatible in this environment
 
 > **setXRSessionLayers**(`wrappedLayers?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRLayers.pure.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L324)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L430)
 
 Sets the layers to be used by the XR session.
 Note that you must call this function with any layers you wish to render to

@@ -6,7 +6,7 @@
 
 # Interface: IReadonlyObservable\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L137)
+Defined in: [packages/dev/core/src/Misc/observable.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.pure.ts#L137)
 
 An interface that defines the reader side of an Observable (receive notifications).
 
@@ -22,7 +22,7 @@ An interface that defines the reader side of an Observable (receive notification
 
 > **add**(`callback`, `mask?`, `insertFirst?`, `scope?`, `unregisterOnFirstCall?`): [`IObserver`](IObserver.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L147)
+Defined in: [packages/dev/core/src/Misc/observable.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.pure.ts#L147)
 
 Create a new Observer with the specified callback
 
@@ -70,7 +70,7 @@ the new observer created for the callback
 
 > **addOnce**(`callback`): [`IObserver`](IObserver.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L154)
+Defined in: [packages/dev/core/src/Misc/observable.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.pure.ts#L154)
 
 Create a new Observer with the specified callback and unregisters after the next notification
 

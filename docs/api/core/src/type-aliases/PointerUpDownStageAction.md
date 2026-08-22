@@ -8,7 +8,7 @@
 
 > **PointerUpDownStageAction** = (`unTranslatedPointerX`, `unTranslatedPointerY`, `pickResult`, `evt`, `doubleClick`) => [`Nullable`](Nullable.md)\<[`PickingInfo`](../classes/PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L232)
+Defined in: [packages/dev/core/src/sceneComponent.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L232)
 
 Strong typing of a pointer up/down action.
 

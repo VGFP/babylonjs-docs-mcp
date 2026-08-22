@@ -6,7 +6,7 @@
 
 # Class: AsyncLock
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/asyncLock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/asyncLock.ts#L18)
+Defined in: [packages/dev/core/src/Misc/asyncLock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/asyncLock.ts#L18)
 
 Provides a simple way of creating the rough equivalent of an async critical section.
 
@@ -39,7 +39,7 @@ private async MyFuncAsync(): Promise<void> {
 
 > **lockAsync**\<`T`\>(`func`, `signal?`): `Promise`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/asyncLock.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/asyncLock.ts#L28)
+Defined in: [packages/dev/core/src/Misc/asyncLock.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/asyncLock.ts#L28)
 
 Executes the provided function when the lock is acquired (e.g. when the previous operation finishes).
 
@@ -75,7 +75,7 @@ A promise that resolves when the func finishes executing.
 
 > `static` **LockAsync**\<`T`\>(`func`, `locks`, `signal?`): `Promise`\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/asyncLock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/asyncLock.ts#L56)
+Defined in: [packages/dev/core/src/Misc/asyncLock.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/asyncLock.ts#L56)
 
 Executes the provided function when all the specified locks are acquired.
 

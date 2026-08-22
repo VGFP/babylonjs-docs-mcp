@@ -8,7 +8,7 @@
 
 > **CreateLineSystem**(`name`, `options`, `scene?`): [`LinesMesh`](../classes/LinesMesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts#L127)
+Defined in: [packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts#L127)
 
 Creates a line system mesh. A line system is a pool of many lines gathered in a single mesh
 * A line system mesh is considered as a parametric shape since it has no predefined original shape. Its shape is determined by the passed array of lines as an input parameter

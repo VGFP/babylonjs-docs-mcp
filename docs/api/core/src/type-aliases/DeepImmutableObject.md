@@ -8,7 +8,7 @@
 
 > **DeepImmutableObject**\<`T`\> = `{ readonly [K in keyof T]: DeepImmutable<T[K]> }`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L197)
+Defined in: [packages/dev/core/src/types.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/types.ts#L187)
 
 Type modifier to make object properties readonly.
 

@@ -6,7 +6,7 @@
 
 # Class: GradientHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L108)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L108)
 
 Helper used to simplify some generic gradient tasks
 
@@ -26,7 +26,7 @@ Helper used to simplify some generic gradient tasks
 
 > `static` **GetCurrentGradient**(`ratio`, `gradients`, `updateFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L115)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L115)
 
 Gets the current gradient from an array of IValueGradient
 

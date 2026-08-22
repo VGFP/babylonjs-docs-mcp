@@ -6,7 +6,7 @@
 
 # Class: VertexDataMaterialInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L81)
+Defined in: [packages/dev/core/src/Meshes/mesh.vertexData.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.vertexData.ts#L81)
 
 Class used to attach material info to sub section of a vertex data class
 
@@ -26,7 +26,7 @@ Class used to attach material info to sub section of a vertex data class
 
 > **indexCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L91)
+Defined in: [packages/dev/core/src/Meshes/mesh.vertexData.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.vertexData.ts#L91)
 
 Defines indices count
 
@@ -36,7 +36,7 @@ Defines indices count
 
 > **indexStart**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L89)
+Defined in: [packages/dev/core/src/Meshes/mesh.vertexData.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.vertexData.ts#L89)
 
 Defines index start
 
@@ -46,7 +46,7 @@ Defines index start
 
 > **materialIndex**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L83)
+Defined in: [packages/dev/core/src/Meshes/mesh.vertexData.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.vertexData.ts#L83)
 
 Defines the material index to use
 
@@ -56,7 +56,7 @@ Defines the material index to use
 
 > **verticesCount**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L87)
+Defined in: [packages/dev/core/src/Meshes/mesh.vertexData.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.vertexData.ts#L87)
 
 Defines vertices count
 
@@ -66,6 +66,6 @@ Defines vertices count
 
 > **verticesStart**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/mesh.vertexData.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/mesh.vertexData.ts#L85)
+Defined in: [packages/dev/core/src/Meshes/mesh.vertexData.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.vertexData.ts#L85)
 
 Defines vertex index start

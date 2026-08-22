@@ -6,7 +6,7 @@
 
 # Interface: ILatLonAltLike
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L10)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L10)
 
 Latitude and longitude in radians, and altitude, typically meters.
 
@@ -20,7 +20,7 @@ Latitude and longitude in radians, and altitude, typically meters.
 
 > **alt**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L12)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L12)
 
 The height above the surface, typically meters.
 
@@ -30,7 +30,7 @@ The height above the surface, typically meters.
 
 > **lat**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L4)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L4)
 
 Latitude in radians.
 
@@ -44,7 +44,7 @@ Latitude in radians.
 
 > **lon**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.ts#L6)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L6)
 
 Longitude in radians.
 

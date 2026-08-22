@@ -8,7 +8,7 @@
 
 > **InputModifiers** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L11)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L11)
 
 Modifier key state, shared across input sources that support modifiers.
 
@@ -18,7 +18,7 @@ Modifier key state, shared across input sources that support modifiers.
 
 > `optional` **alt?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L17)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L17)
 
 Alt key pressed
 
@@ -28,7 +28,7 @@ Alt key pressed
 
 > `optional` **ctrl?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L13)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L13)
 
 Ctrl key pressed
 
@@ -38,6 +38,6 @@ Ctrl key pressed
 
 > `optional` **shift?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L15)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L15)
 
 Shift key pressed

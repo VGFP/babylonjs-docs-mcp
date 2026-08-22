@@ -8,6 +8,6 @@
 
 > **NodeMaterialTextureBlocks** = [`TextureBlock`](../classes/TextureBlock.md) \| [`ReflectionTextureBaseBlock`](../classes/ReflectionTextureBaseBlock.md) \| [`RefractionBlock`](../classes/RefractionBlock.md) \| [`CurrentScreenBlock`](../classes/CurrentScreenBlock.md) \| [`ParticleTextureBlock`](../classes/ParticleTextureBlock.md) \| [`ImageSourceBlock`](../classes/ImageSourceBlock.md) \| [`TriPlanarBlock`](../classes/TriPlanarBlock.md) \| [`BiPlanarBlock`](../classes/BiPlanarBlock.md) \| [`PrePassTextureBlock`](../classes/PrePassTextureBlock.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L242)
+Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L243)
 
 Blocks that manage a texture

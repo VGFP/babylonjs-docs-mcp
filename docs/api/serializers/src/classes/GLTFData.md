@@ -6,7 +6,7 @@
 
 # Class: GLTFData
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/glTFData.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L7)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFData.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L7)
 
 Class for holding and downloading glTF file data
 
@@ -26,7 +26,7 @@ Class for holding and downloading glTF file data
 
 > `readonly` **files**: `object` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/glTFData.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L11)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFData.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L11)
 
 Object which contains the file name as the key and its data as the value
 
@@ -42,7 +42,7 @@ Object which contains the file name as the key and its data as the value
 
 > **get** **glTFFiles**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/glTFData.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L16)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFData.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L16)
 
 ##### Deprecated
 
@@ -58,7 +58,7 @@ Use files instead
 
 > **downloadFiles**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/glTF/2.0/glTFData.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L23)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFData.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFData.ts#L23)
 
 Downloads the glTF data as files based on their names and data
 

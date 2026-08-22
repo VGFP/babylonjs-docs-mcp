@@ -6,7 +6,7 @@
 
 # Class: FrameGraphObjectList
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts#L6)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphObjectList.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts#L6)
 
 Structure used by the frame graph to reference objects.
 
@@ -26,7 +26,7 @@ Structure used by the frame graph to reference objects.
 
 > **meshes**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts#L10)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphObjectList.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts#L10)
 
 The meshes in the object list.
 
@@ -36,6 +36,6 @@ The meshes in the object list.
 
 > **particleSystems**: [`Nullable`](../type-aliases/Nullable.md)\<[`IParticleSystem`](../interfaces/IParticleSystem.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts#L14)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphObjectList.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphObjectList.ts#L14)
 
 The particle systems in the object list.

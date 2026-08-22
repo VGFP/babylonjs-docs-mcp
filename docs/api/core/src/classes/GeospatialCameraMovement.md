@@ -6,7 +6,7 @@
 
 # Class: GeospatialCameraMovement
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L63)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L63)
 
 Geospatial-specific camera movement system that extends the base movement with
 raycasting and altitude-aware zoom constraints.
@@ -29,7 +29,7 @@ This class encapsulates geospatial camera movement logic:
 
 > **new GeospatialCameraMovement**(`scene`, `limits`, `cameraPosition`, `_cameraCenter`, `_cameraLookAt`, `pickPredicate?`, `behavior?`): `GeospatialCameraMovement`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L92)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L92)
 
 #### Parameters
 
@@ -77,7 +77,7 @@ Geospatial bounds (min/max latitude, longitude, altitude, etc.) used to clamp ca
 
 > **activeInput**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L27)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L27)
 
 Should be set by input classes to indicate whether there is active input this frame.
 This helps differentiate between 0 pixel delta due to no input vs user actively holding still.
@@ -92,7 +92,7 @@ This helps differentiate between 0 pixel delta due to no input vs user actively 
 
 > `optional` **computedPerFrameZoomPickPoint?**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L72)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L72)
 
 World-space picked point under the cursor, computed each frame that zoom input is active.
 Used to determine the zoom direction when `zoomToCursor` is true.
@@ -104,7 +104,7 @@ Undefined when there is no active zoom or the pick misses the globe.
 
 > `readonly` **input**: [`InputMapper`](InputMapper.md)\<[`GeospatialHandlers`](../type-aliases/GeospatialHandlers.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L81)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L81)
 
 Input system that maps physical inputs to interactions and dispatches to handlers.
 
@@ -114,7 +114,7 @@ Input system that maps physical inputs to interactions and dispatches to handler
 
 > **limits**: `GeospatialLimits`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L95)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L95)
 
 Geospatial bounds (min/max latitude, longitude, altitude, etc.) used to clamp camera motion.
 
@@ -124,7 +124,7 @@ Geospatial bounds (min/max latitude, longitude, altitude, etc.) used to clamp ca
 
 > **panAccumulatedPixels**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L121)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L121)
 
 Accumulated pixel delta (by input classes) for panning this frame
 Read by computeCurrentFrameDeltas() function and converted into panDeltaCurrentFrame (taking speed into account)
@@ -140,7 +140,7 @@ Reset to zero after each frame
 
 > **panDeltaCurrentFrame**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L141)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L141)
 
 Pan delta to apply to camera this frame, computed by computeCurrentFrameDeltas() from panPixelDelta (taking speed into account)
 
@@ -154,7 +154,7 @@ Pan delta to apply to camera this frame, computed by computeCurrentFrameDeltas()
 
 > **panInertia**: `number` = `0.9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L95)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L95)
 
 Inertia applied to the panning velocity when there is no user input.
 Higher inertia === slower decay, velocity retains more of its value each frame.
@@ -171,7 +171,7 @@ Note: ArcRotateCamera overrides this from `camera.panningInertia` (which default
 
 > **panSpeed**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L46)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L46)
 
 Desired coordinate unit movement per input pixel when panning
 
@@ -185,7 +185,7 @@ Desired coordinate unit movement per input pixel when panning
 
 > `optional` **pickPredicate?**: [`MeshPredicate`](../type-aliases/MeshPredicate.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L65)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L65)
 
 Predicate function to determine which meshes to pick against (e.g., globe mesh)
 
@@ -195,7 +195,7 @@ Predicate function to determine which meshes to pick against (e.g., globe mesh)
 
 > **referenceFrameRate**: `number` = `DefaultReferenceFrameRate`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L166)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L166)
 
 Framerate (Hz) at which inertia values are calibrated. Default 60 matches legacy camera feel
 at any actual refresh rate. Override to 120, 144, etc. only if your app was tuned on that
@@ -212,7 +212,7 @@ preserve that exact decay characteristic. Most applications should leave this at
 
 > **rotationAccumulatedPixels**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L127)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L127)
 
 Accumulated pixel delta (by input classes) for rotation this frame
 Read by computeCurrentFrameDeltas() function and converted into rotationDeltaCurrentFrame (taking speed into account)
@@ -228,7 +228,7 @@ Reset to zero after each frame
 
 > **rotationDeltaCurrentFrame**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L145)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L145)
 
 Rotation delta to apply to camera this frame, computed by computeCurrentFrameDeltas() from rotationPixelDelta (taking speed into account)
 
@@ -242,7 +242,7 @@ Rotation delta to apply to camera this frame, computed by computeCurrentFrameDel
 
 > **rotationInertia**: `number` = `0.9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L103)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L103)
 
 Inertia applied to the rotation velocity when there is no user input.
 Higher inertia === slower decay, velocity retains more of its value each frame.
@@ -260,7 +260,7 @@ To tune independently, override inside `scene.onBeforeRenderObservable` after `c
 
 > **rotationXSpeed**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L50)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L50)
 
 Desired radians movement per input pixel when rotating along x axis
 
@@ -274,7 +274,7 @@ Desired radians movement per input pixel when rotating along x axis
 
 > **rotationYSpeed**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L54)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L54)
 
 Desired radians movement per input pixel when rotating along y axis
 
@@ -288,7 +288,7 @@ Desired radians movement per input pixel when rotating along y axis
 
 > **speed**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L38)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L38)
 
 Global speed multiplier applied to all movement (pan, rotation, zoom).
 Acts as a master scale factor on top of the individual speed properties.
@@ -303,7 +303,7 @@ Acts as a master scale factor on top of the individual speed properties.
 
 > **zoomAccumulatedPixels**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L115)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L115)
 
 Accumulated pixel delta (by input classes) for zoom this frame
 Read by computeCurrentFrameDeltas() function and converted into zoomDeltaCurrentFrame (taking speed into account)
@@ -319,7 +319,7 @@ Reset to zero after each frame
 
 > **zoomDeltaCurrentFrame**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L137)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L137)
 
 Zoom delta to apply to camera this frame, computed by computeCurrentFrameDeltas() from zoomPixelDelta (taking speed into account)
 
@@ -333,7 +333,7 @@ Zoom delta to apply to camera this frame, computed by computeCurrentFrameDeltas(
 
 > **zoomInertia**: `number` = `0.9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L88)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L88)
 
 Inertia applied to the zoom velocity when there is no user input.
 Higher inertia === slower decay, velocity retains more of its value each frame.
@@ -351,7 +351,7 @@ To tune independently, override inside `scene.onBeforeRenderObservable` after `c
 
 > **zoomSpeed**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L42)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L42)
 
 Desired coordinate unit movement per input pixel when zooming
 
@@ -365,7 +365,7 @@ Desired coordinate unit movement per input pixel when zooming
 
 > **zoomToCursor**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L78)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L78)
 
 When true, zooming moves toward the point under the cursor.
 When false, zooming moves along the camera's look vector.
@@ -378,7 +378,7 @@ When false, zooming moves along the camera's look vector.
 
 > **get** **isDragging**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L304)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:304](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L304)
 
 Returns true when a drag gesture is active (between startDrag and stopDrag).
 
@@ -394,7 +394,7 @@ Returns true when a drag gesture is active (between startDrag and stopDrag).
 
 > **get** **isInterpolating**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L298)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L298)
 
 Returns true when the camera is playing an interpolating (fly-to) animation.
 Useful for suppressing user-input movement while a programmatic animation is active.
@@ -413,7 +413,7 @@ Useful for suppressing user-input movement while a programmatic animation is act
 
 > **calculateUpVectorFromPointToRef**(`point`, `result`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L157)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L157)
 
 Function to calculate the up vector from a given point.
 Can be overridden to support non-spherical planets or custom up vector logic.
@@ -445,7 +445,7 @@ The calculated up vector
 
 > **computeCurrentFrameDeltas**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L262)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L262)
 
 Consumes the per-frame accumulated pan/rotate/zoom deltas and applies them to the camera state,
 with geospatial-specific dampening (e.g. slower panning near the poles, parallax-based pan compensation).
@@ -465,7 +465,7 @@ Called once per frame by the scene's render loop via `_checkInputs`.
 
 > **getFrameIndependentDecay**(`inertia`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L310)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L310)
 
 Returns the per-frame decay factor for a given inertia, adjusted to this frame's `dt`.
 At the reference frame rate, returns `inertia` unchanged (matches legacy per-frame `*= inertia`).
@@ -496,7 +496,7 @@ The decay factor to multiply a value by this frame.
 
 > **getFrameIndependentInputScale**(`inertia`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L325)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L325)
 
 Returns the input-scale factor to apply to an impulse injected into a decaying accumulator
 so that the integrated total is framerate-independent and matches legacy at 60fps.
@@ -527,7 +527,7 @@ The scaling factor to multiply an impulse by before adding it to the accumulator
 
 > **handleDrag**(`pointerX`, `pointerY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L227)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:227](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L227)
 
 Updates the drag gesture by recalculating the intersection with the drag plane
 and accumulating the resulting pan delta.
@@ -556,7 +556,7 @@ Current screen Y coordinate
 
 > **handleZoom**(`zoomDelta`, `toCursor`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L313)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:313](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L313)
 
 Accumulates a zoom delta and determines the zoom target point via raycasting.
 
@@ -584,7 +584,7 @@ When true, zoom toward the point under the cursor; when false, zoom along the lo
 
 > **pickAlongVector**(`vector`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L334)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L334)
 
 Casts a ray from the camera position along the given direction and returns the pick result.
 
@@ -608,7 +608,7 @@ The pick result, or null if no hit
 
 > **resetPanVelocity**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L280)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L280)
 
 Resets the pan velocity and accumulated pixels, stopping any in-progress pan inertia.
 
@@ -626,7 +626,7 @@ Resets the pan velocity and accumulated pixels, stopping any in-progress pan ine
 
 > **resetRotationVelocity**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L272)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L272)
 
 Resets the rotation velocity and accumulated pixels, stopping any in-progress rotation inertia.
 Called when inertialAlphaOffset or inertialBetaOffset are explicitly zeroed (backward compat).
@@ -645,7 +645,7 @@ Called when inertialAlphaOffset or inertialBetaOffset are explicitly zeroed (bac
 
 > **resetZoomVelocity**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/cameraMovement.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/cameraMovement.ts#L289)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:289](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L289)
 
 Resets the zoom velocity and accumulated pixels, stopping any in-progress zoom inertia.
 Called when inertialRadiusOffset is explicitly zeroed out (backward compat).
@@ -664,7 +664,7 @@ Called when inertialRadiusOffset is explicitly zeroed out (backward compat).
 
 > **startDrag**(`pointerX`, `pointerY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L167)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L167)
 
 Begins a drag (pan) gesture by picking the globe at the given screen position
 and establishing a drag plane for subsequent updates.
@@ -693,7 +693,7 @@ Screen Y coordinate of the pointer
 
 > **stopDrag**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L183)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L183)
 
 Ends the current drag gesture, releasing the drag plane.
 

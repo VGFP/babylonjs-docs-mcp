@@ -6,7 +6,7 @@
 
 # Class: WebXRFeaturesManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:324](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L324)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:330](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L330)
 
 The WebXR features manager is responsible of enabling or disabling features required for the current XR session.
 It is mainly used in AR sessions.
@@ -23,7 +23,7 @@ A feature can have a version that is defined by Babylon (and does not correspond
 
 > **new WebXRFeaturesManager**(`_xrSessionManager`): `WebXRFeaturesManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L355)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:361](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L361)
 
 constructs a new features manages.
 
@@ -45,7 +45,7 @@ an instance of WebXRSessionManager
 
 > **\_extendXRSessionInitObject**(`xrSessionInit`): `Promise`\<`XRSessionInit`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:635](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L635)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:658](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L658)
 
 This function will extend the session creation configuration object with enabled features.
 If, for example, the anchors feature is enabled, it will be automatically added to the optional or required features list,
@@ -71,7 +71,7 @@ an extended XRSessionInit object
 
 > **attachFeature**(`featureName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:460](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L460)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L466)
 
 Attach a feature to the current session. Mainly used when session started to start the feature effect.
 Can be used during a session to start a feature
@@ -94,7 +94,7 @@ the name of feature to attach
 
 > **detachFeature**(`featureName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:474](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L474)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L492)
 
 Can be used inside a session or when the session ends to detach a specific feature
 
@@ -116,7 +116,7 @@ the name of the feature to detach
 
 > **disableFeature**(`featureName`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L491)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:509](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L509)
 
 Used to disable an already-enabled feature
 The feature will be disposed and will be recreated once enabled.
@@ -141,7 +141,7 @@ true if disable was successful
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L507)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:525](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L525)
 
 dispose this features manager
 
@@ -159,7 +159,7 @@ dispose this features manager
 
 > **enableFeature**\<`T`\>(`featureName`, `version?`, `moduleOptions?`, `attachIfPossible?`, `required?`): [`ResolveWebXRFeature`](../type-aliases/ResolveWebXRFeature.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:525](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L525)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:543](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L543)
 
 Enable a feature using its name and a version. This will enable it in the scene, and will be responsible to attach it when the session starts.
 If used twice, the old version will be disposed and a new one will be constructed. This way you can re-enable with different configuration.
@@ -214,7 +214,7 @@ a new constructed feature or throws an error if feature not found or conflicts w
 
 > **getEnabledFeature**\<`T`\>(`featureName`): [`ResolveWebXRFeature`](../type-aliases/ResolveWebXRFeature.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:615](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L615)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:638](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L638)
 
 get the implementation of an enabled feature.
 
@@ -244,7 +244,7 @@ the feature class, if found
 
 > **getEnabledFeatures**(): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:623](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L623)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L646)
 
 Get the list of enabled features
 
@@ -260,7 +260,7 @@ an array of enabled features
 
 > `static` **AddWebXRFeature**(`featureName`, `constructorFunction`, `version?`, `stable?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:389](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L389)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:395](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L395)
 
 Used to register a module. After calling this function a developer can use this feature in the scene.
 Mainly used internally.
@@ -301,7 +301,7 @@ is that a stable version of this module
 
 > `static` **ConstructFeature**(`featureName`, `version?`, `xrSessionManager`, `options?`): () => [`IWebXRFeature`](../interfaces/IWebXRFeature.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L409)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:415](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L415)
 
 Returns a constructor of a specific feature.
 
@@ -343,7 +343,7 @@ a function that, when called, will return a new instance of this feature
 
 > `static` **GetAvailableFeatures**(): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L424)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:430](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L430)
 
 Can be used to return the list of features currently registered
 
@@ -359,7 +359,7 @@ an Array of available features
 
 > `static` **GetAvailableVersions**(`featureName`): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L433)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:439](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L439)
 
 Gets the versions available for a specific feature
 
@@ -383,7 +383,7 @@ an array with the available versions
 
 > `static` **GetLatestVersionOfFeature**(`featureName`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L442)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:448](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L448)
 
 Return the latest unstable version of this feature
 
@@ -407,7 +407,7 @@ the version number. if not found will return -1
 
 > `static` **GetStableVersionOfFeature**(`featureName`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRFeaturesManager.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRFeaturesManager.ts#L451)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:457](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L457)
 
 Return the latest stable version of this feature
 

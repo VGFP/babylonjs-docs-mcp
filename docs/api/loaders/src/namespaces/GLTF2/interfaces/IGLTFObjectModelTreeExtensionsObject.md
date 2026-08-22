@@ -6,7 +6,11 @@
 
 # Interface: IGLTFObjectModelTreeExtensionsObject
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L250)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L365)
+
+Accessor tree describing root-level glTF extensions exposed through the
+Object Model. Currently covers the punctual / area / IES / image-based
+light extension families.
 
 ## Properties
 
@@ -14,7 +18,9 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **EXT\_lights\_area**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L266)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:383](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L383)
+
+Accessor tree for `/extensions/EXT_lights_area`.
 
 #### lights
 
@@ -50,7 +56,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 ##### lights.length
 
-> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IEXTLightsArea_Light`[], [`Light`](../../../../../core/src/classes/Light.md)[], `number`\>
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IEXTLightsArea_Light`[], [`Light`](../../../../../core/src/classes/Light.md)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
 ***
 
@@ -58,7 +64,9 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **EXT\_lights\_ies**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L280)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:398](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L398)
+
+Accessor tree for `/extensions/EXT_lights_ies`.
 
 #### lights
 
@@ -66,7 +74,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 ##### lights.length
 
-> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IKHRLightsPunctual_Light`[], [`Light`](../../../../../core/src/classes/Light.md)[], `number`\>
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IKHRLightsPunctual_Light`[], [`Light`](../../../../../core/src/classes/Light.md)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
 ***
 
@@ -74,7 +82,9 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **EXT\_lights\_image\_based**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L285)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:404](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L404)
+
+Accessor tree for `/extensions/EXT_lights_image_based`.
 
 #### lights
 
@@ -98,7 +108,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 ##### lights.length
 
-> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IEXTLightsImageBased_LightImageBased`[], [`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)[], `number`\>
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IEXTLightsImageBased_LightImageBased`[], [`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
 ***
 
@@ -106,7 +116,9 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **KHR\_lights\_punctual**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L251)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:367](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L367)
+
+Accessor tree for `/extensions/KHR_lights_punctual`.
 
 #### lights
 
@@ -146,4 +158,4 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 ##### lights.length
 
-> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IKHRLightsPunctual_Light`[], [`Light`](../../../../../core/src/classes/Light.md)[], `number`\>
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`IKHRLightsPunctual_Light`[], [`Light`](../../../../../core/src/classes/Light.md)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>

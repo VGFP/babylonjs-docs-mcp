@@ -6,7 +6,9 @@
 
 # Interface: IQualifiedName
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L4)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L4)
+
+Describes an XML qualified name with an optional namespace.
 
 ## Properties
 
@@ -14,7 +16,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L8)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L8)
+
+The local XML name.
 
 ***
 
@@ -22,4 +26,6 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > `optional` **ns?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L6)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L6)
+
+The namespace URI or prefix.

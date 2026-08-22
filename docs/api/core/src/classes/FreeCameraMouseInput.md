@@ -6,7 +6,7 @@
 
 # Class: FreeCameraMouseInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L14)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L14)
 
 Manage the mouse inputs to control the movement of a free camera.
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **new FreeCameraMouseInput**(`touchEnabled?`): `FreeCameraMouseInput`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L82)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L82)
 
 Manage the mouse inputs to control the movement of a free camera.
 
@@ -50,7 +50,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **angularSensibility**: `number` = `2000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L30)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L30)
 
 Defines the pointer angular sensibility  along the X and Y axis or how fast is the camera rotating.
 
@@ -60,7 +60,7 @@ Defines the pointer angular sensibility  along the X and Y axis or how fast is t
 
 > **buttons**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L24)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L24)
 
 Defines the buttons associated with the input to handle camera move.
 
@@ -70,7 +70,7 @@ Defines the buttons associated with the input to handle camera move.
 
 > **camera**: [`FreeCamera`](FreeCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L18)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L18)
 
 Defines the camera the input is attached to.
 
@@ -84,7 +84,7 @@ Defines the camera the input is attached to.
 
 > **onPointerMovedObservable**: [`Observable`](Observable.md)\<\{ `offsetX`: `number`; `offsetY`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L40)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L40)
 
 Observable for when a pointer move event occurs containing the move offset
 
@@ -94,7 +94,7 @@ Observable for when a pointer move event occurs containing the move offset
 
 > **touchEnabled**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L86)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L86)
 
 [true] Define if touch is enabled in the mouse input
 
@@ -104,7 +104,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMou
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L93)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L93)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -130,7 +130,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L228)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L228)
 
 Detach the current controls from the specified dom element.
 
@@ -148,7 +148,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L257)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L257)
 
 Gets the class name of the current input.
 
@@ -168,7 +168,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L265)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L265)
 
 Get the friendly name associated with the input class.
 
@@ -188,7 +188,7 @@ the input friendly name
 
 > **onContextMenu**(`evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L221)
+Defined in: [packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/freeCameraMouseInput.ts#L221)
 
 Called on JS contextmenu event.
 Override this method to provide functionality.

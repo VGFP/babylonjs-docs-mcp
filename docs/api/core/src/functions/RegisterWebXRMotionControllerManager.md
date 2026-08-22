@@ -8,7 +8,7 @@
 
 > **RegisterWebXRMotionControllerManager**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L281)
+Defined in: [packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRMotionControllerManager.pure.ts#L281)
 
 Register side effects for webXRMotionControllerManager.
 Safe to call multiple times; only the first call has an effect.

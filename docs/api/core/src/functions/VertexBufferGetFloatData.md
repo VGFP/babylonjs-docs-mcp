@@ -8,7 +8,7 @@
 
 > **VertexBufferGetFloatData**(`data`, `size`, `type`, `byteOffset`, `byteStride`, `normalized`, `totalVertices`, `forceCopy?`): [`FloatArray`](../type-aliases/FloatArray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/buffer.pure.ts:972](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/buffer.pure.ts#L972)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:972](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L972)
 
 Gets the given data array as a float array. Float data is constructed if the data array cannot be returned directly.
 

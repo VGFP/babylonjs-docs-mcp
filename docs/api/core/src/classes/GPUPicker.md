@@ -6,7 +6,7 @@
 
 # Class: GPUPicker
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L129)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L130)
 
 Class used to perform a picking operation using GPU
 GPUPicker can pick meshes, instances and thin instances
@@ -29,7 +29,7 @@ GPUPicker can pick meshes, instances and thin instances
 
 > **get** **defaultRenderMaterials**(): readonly [`Nullable`](../type-aliases/Nullable.md)\<[`ShaderMaterial`](ShaderMaterial.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L204)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L205)
 
 Gets the default render materials used by the picker.
 
@@ -47,7 +47,7 @@ readonly [`Nullable`](../type-aliases/Nullable.md)\<[`ShaderMaterial`](ShaderMat
 
 > **get** **enableDepthPicking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L219)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L220)
 
 Gets or sets a boolean indicating if depth-based pickedPoint and normal reconstruction should be enabled.
 
@@ -67,7 +67,7 @@ may be missing or incorrect.
 
 > **set** **enableDepthPicking**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L223)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:224](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L224)
 
 ##### Parameters
 
@@ -87,7 +87,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:223]
 
 > **get** **pickingInProgress**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L195)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L196)
 
 Gets a boolean indicating if the picking is in progress
 
@@ -103,7 +103,7 @@ Gets a boolean indicating if the picking is in progress
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L186)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L187)
 
 Gets the shader language used in this generator.
 
@@ -117,7 +117,7 @@ Gets the shader language used in this generator.
 
 > **addPickingList**(`list`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:519](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L519)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:520](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L520)
 
 Add array of meshes to the current picking list
 
@@ -139,7 +139,7 @@ defines the array of meshes to add to the current picking list
 
 > **boxPickAsync**(`x1`, `y1`, `x2`, `y2`, `disposeWhenDone?`): `Promise`\<[`Nullable`](../type-aliases/Nullable.md)\<[`IGPUMultiPickingInfo`](../interfaces/IGPUMultiPickingInfo.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:883](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L883)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:884](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L884)
 
 Execute a picking operation on box defined by two screen coordinates
 
@@ -187,7 +187,7 @@ A promise with the picking results. Contains one entry for each picked pixel in 
 
 > **clearPickingList**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:456](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L456)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:457](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L457)
 
 Clear the current picking list and free resources
 
@@ -201,7 +201,7 @@ Clear the current picking list and free resources
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:1898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L1898)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:1909](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L1909)
 
 Release the resources
 
@@ -215,7 +215,7 @@ Release the resources
 
 > **multiPickAsync**(`xy`, `disposeWhenDone?`, `options?`): `Promise`\<[`Nullable`](../type-aliases/Nullable.md)\<[`IGPUMultiPickingInfo`](../interfaces/IGPUMultiPickingInfo.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:787](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L787)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:788](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L788)
 
 Execute a picking operation on multiple coordinates
 
@@ -251,7 +251,7 @@ A promise with the picking results. Always returns an array with the same length
 
 > **pickAsync**(`x`, `y`, `disposeWhenDone?`): `Promise`\<[`Nullable`](../type-aliases/Nullable.md)\<[`IGPUPickingInfo`](../interfaces/IGPUPickingInfo.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:751](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L751)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:752](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L752)
 
 Execute a picking operation
 
@@ -287,7 +287,7 @@ A promise with the picking results
 
 > **setPickingList**(`list`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L437)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:438](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L438)
 
 Set the list of meshes to pick from
 Set that value to null to clear the list (and avoid leaks)

@@ -6,9 +6,9 @@
 
 # Function: editableInPropertyPage()
 
-> **editableInPropertyPage**(`displayName`, `propertyType?`, `groupName?`, `options?`): (`target`, `propertyKey`) => `void`
+> **editableInPropertyPage**(`displayName`, `propertyType?`, `groupName?`, `options?`): (`_value`, `context`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Decorators/nodeDecorator.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Decorators/nodeDecorator.ts#L104)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L105)
 
 Decorator that flags a property in a node block as being editable
 
@@ -42,4 +42,4 @@ the options of the property
 
 the decorator
 
-(`target`, `propertyKey`) => `void`
+(`_value`, `context`) => `void`

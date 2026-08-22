@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphBlockConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L43)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L43)
 
 Configuration for a block.
 
@@ -34,8 +34,10 @@ Configuration for a block.
 - [`IFlowGraphBitwiseBlockConfiguration`](IFlowGraphBitwiseBlockConfiguration.md)
 - [`IFlowGraphCombineMatrixBlockConfiguration`](IFlowGraphCombineMatrixBlockConfiguration.md)
 - [`IFlowGraphMatrixBlockConfiguration`](IFlowGraphMatrixBlockConfiguration.md)
+- [`IFlowGraphMatrixDecomposeBlockConfiguration`](IFlowGraphMatrixDecomposeBlockConfiguration.md)
 - [`IFlowGraphNormalizeBlockConfiguration`](IFlowGraphNormalizeBlockConfiguration.md)
 - [`IFlowGraphTransformBlockConfiguration`](IFlowGraphTransformBlockConfiguration.md)
+- [`IFlowGraphQuaternionFromAnglesBlockConfiguration`](IFlowGraphQuaternionFromAnglesBlockConfiguration.md)
 - [`IFlowGraphJsonPointerParserBlockConfiguration`](IFlowGraphJsonPointerParserBlockConfiguration.md)
 - [`IFlowGraphFloatToIntConfiguration`](IFlowGraphFloatToIntConfiguration.md)
 - [`IFlowGraphMeshPickEventBlockConfiguration`](IFlowGraphMeshPickEventBlockConfiguration.md)
@@ -57,6 +59,6 @@ Configuration for a block.
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.

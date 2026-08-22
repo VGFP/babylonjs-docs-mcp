@@ -6,7 +6,7 @@
 
 # Interface: IOctreeContainer\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L10)
+Defined in: [packages/dev/core/src/Culling/Octrees/octreeBlock.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L10)
 
 Contains an array of blocks representing the octree
 
@@ -22,6 +22,6 @@ Contains an array of blocks representing the octree
 
 > **blocks**: [`OctreeBlock`](../classes/OctreeBlock.md)\<`T`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/Octrees/octreeBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L14)
+Defined in: [packages/dev/core/src/Culling/Octrees/octreeBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/Octrees/octreeBlock.ts#L14)
 
 Blocks within the octree

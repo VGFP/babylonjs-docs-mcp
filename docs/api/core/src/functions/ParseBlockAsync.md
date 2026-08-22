@@ -8,7 +8,7 @@
 
 > **ParseBlockAsync**(`serializationObject`, `parseOptions`): `Promise`\<[`FlowGraphBlock`](../classes/FlowGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphParser.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphParser.ts#L352)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphParser.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphParser.ts#L352)
 
 Parses a block from a serialization object
 This function is async due to the factory method that is used to create the block's class. If you load the class externally use ParseBlockWithClassType

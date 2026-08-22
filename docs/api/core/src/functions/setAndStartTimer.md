@@ -8,7 +8,7 @@
 
 > **setAndStartTimer**\<`T`\>(`options`): [`Nullable`](../type-aliases/Nullable.md)\<[`Observer`](../classes/Observer.md)\<`T`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/timer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/timer.ts#L97)
+Defined in: [packages/dev/core/src/Misc/timer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L97)
 
 A simple version of the timer. Will take options and start the timer immediately after calling it
 

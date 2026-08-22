@@ -6,7 +6,7 @@
 
 # Class: OnAfterEnteringVRObservableEvent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L235)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L238)
 
 Event containing information after VR has been entered
 
@@ -26,6 +26,6 @@ Event containing information after VR has been entered
 
 > **success**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L239)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L242)
 
 If entering vr was successful

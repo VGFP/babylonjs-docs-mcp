@@ -8,7 +8,7 @@
 
 > **RegisterFlowGraphInteger**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L108)
+Defined in: [packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/CustomTypes/flowGraphInteger.pure.ts#L108)
 
 Register side effects for flowGraphInteger.
 Safe to call multiple times; only the first call has an effect.

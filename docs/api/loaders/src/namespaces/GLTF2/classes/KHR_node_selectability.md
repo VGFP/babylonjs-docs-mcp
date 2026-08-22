@@ -6,7 +6,7 @@
 
 # Class: KHR\_node\_selectability
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.ts#L115)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.pure.ts#L19)
 
 Loader extension for KHR_selectability
 
@@ -20,7 +20,7 @@ Loader extension for KHR_selectability
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.ts#L123)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.pure.ts#L27)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_node_selectability"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.ts#L119)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.pure.ts#L23)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.ts#L146)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.pure.ts#L50)
 
 Releases all held resources
 
@@ -66,7 +66,7 @@ Releases all held resources
 
 > **onReady**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.ts#L136)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_selectability.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_selectability.pure.ts#L40)
 
 Called after the loader state changes to READY.
 

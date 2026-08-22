@@ -6,7 +6,7 @@
 
 # Interface: GizmoAxisCache
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L24)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L24)
 
 Cache built by each axis. Used for managing state between all elements of gizmo for enhanced UI
 
@@ -16,7 +16,7 @@ Cache built by each axis. Used for managing state between all elements of gizmo 
 
 > **active**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L36)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L36)
 
 Used to indicate Active state of the Gizmo
 
@@ -26,7 +26,7 @@ Used to indicate Active state of the Gizmo
 
 > **colliderMeshes**: [`Mesh`](../classes/Mesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L28)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L28)
 
 Mesh used to detect user interaction with Gizmo
 
@@ -36,7 +36,7 @@ Mesh used to detect user interaction with Gizmo
 
 > **disableMaterial**: [`StandardMaterial`](../classes/StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L34)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L34)
 
 Material used to indicate disabled state of the Gizmo
 
@@ -46,7 +46,7 @@ Material used to indicate disabled state of the Gizmo
 
 > **dragBehavior**: [`PointerDragBehavior`](../classes/PointerDragBehavior.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L38)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L38)
 
 DragBehavior
 
@@ -56,7 +56,7 @@ DragBehavior
 
 > **gizmoMeshes**: [`Mesh`](../classes/Mesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L26)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L26)
 
 Mesh used to render the Gizmo
 
@@ -66,7 +66,7 @@ Mesh used to render the Gizmo
 
 > **hoverMaterial**: [`StandardMaterial`](../classes/StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L32)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L32)
 
 Material used to indicate hover state of the Gizmo
 
@@ -76,6 +76,6 @@ Material used to indicate hover state of the Gizmo
 
 > **material**: [`StandardMaterial`](../classes/StandardMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gizmos/gizmo.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gizmos/gizmo.ts#L30)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L30)
 
 Material used to indicate color of gizmo mesh

@@ -6,7 +6,7 @@
 
 # Interface: SceneLoaderPluginOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L382)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L382)
 
 Defines options for SceneLoader plugins. This interface is extended by specific plugins.
 
@@ -24,7 +24,7 @@ Defines options for SceneLoader plugins. This interface is extended by specific 
 
 > **bvh**: `Partial`\<`BVHLoadingOptions`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L21)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.types.ts#L12)
 
 Defines options for the bvh loader.
 
@@ -32,9 +32,9 @@ Defines options for the bvh loader.
 
 ### fbx
 
-> **fbx**: [`FBXFileLoaderOptions`](../../../loaders/src/interfaces/FBXFileLoaderOptions.md)
+> **fbx**: `Partial`\<[`FBXFileLoaderOptions`](../../../loaders/src/interfaces/FBXFileLoaderOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L78)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.types.ts#L12)
 
 Defines options for the FBX loader.
 
@@ -42,9 +42,9 @@ Defines options for the FBX loader.
 
 ### gltf
 
-> **gltf**: `Partial`\<`GLTFLoaderOptions`\>
+> **gltf**: `Partial`\<[`GLTFLoaderOptions`](../../../loaders/src/interfaces/GLTFLoaderOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L48)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.types.ts#L12)
 
 Defines options for the glTF loader.
 
@@ -54,7 +54,7 @@ Defines options for the glTF loader.
 
 > **obj**: `Partial`\<[`OBJLoadingOptions`](../../../loaders/src/type-aliases/OBJLoadingOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/OBJ/objFileLoader.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/OBJ/objFileLoader.ts#L30)
+Defined in: [packages/dev/loaders/src/OBJ/objFileLoader.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/OBJ/objFileLoader.types.ts#L12)
 
 Defines options for the obj loader.
 
@@ -64,7 +64,7 @@ Defines options for the obj loader.
 
 > **splat**: `Partial`\<[`SPLATLoadingOptions`](../../../loaders/src/type-aliases/SPLATLoadingOptions.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/splatFileLoader.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/splatFileLoader.ts#L38)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.types.ts#L12)
 
 Defines options for the splat loader.
 
@@ -74,6 +74,6 @@ Defines options for the splat loader.
 
 > **stl**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/STL/stlFileLoader.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/STL/stlFileLoader.ts#L19)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.types.ts#L11)
 
 Defines options for the stl loader.

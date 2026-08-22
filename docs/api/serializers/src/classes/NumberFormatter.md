@@ -6,7 +6,7 @@
 
 # Class: NumberFormatter
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L107)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L107)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > **new NumberFormatter**(`o`): `NumberFormatter`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L114)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L114)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > **o**: [`IXmlSerializerFormatOptions`](../interfaces/IXmlSerializerFormatOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L114)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L114)
 
 ## Methods
 
@@ -44,7 +44,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.seri
 
 > **toString**(`x`): `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L128)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.format.ts#L128)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Interface: PhysicShapeOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L15)
+Defined in: [packages/dev/core/src/Physics/v2/physicsShape.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsShape.ts#L15)
 
 Options for creating a physics shape
 
@@ -16,7 +16,7 @@ Options for creating a physics shape
 
 > `optional` **parameters?**: [`PhysicsShapeParameters`](PhysicsShapeParameters.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L23)
+Defined in: [packages/dev/core/src/Physics/v2/physicsShape.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsShape.ts#L23)
 
 The parameters of the shape. Varies depending of the shape type.
 
@@ -26,7 +26,7 @@ The parameters of the shape. Varies depending of the shape type.
 
 > `optional` **pluginData?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L27)
+Defined in: [packages/dev/core/src/Physics/v2/physicsShape.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsShape.ts#L27)
 
 Reference to an already existing physics shape in the plugin.
 
@@ -36,6 +36,6 @@ Reference to an already existing physics shape in the plugin.
 
 > `optional` **type?**: [`PhysicsShapeType`](../enumerations/PhysicsShapeType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsShape.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsShape.ts#L19)
+Defined in: [packages/dev/core/src/Physics/v2/physicsShape.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsShape.ts#L19)
 
 The type of the shape. This can be one of the following: SPHERE, BOX, CAPSULE, CYLINDER, CONVEX_HULL, MESH, HEIGHTFIELD, CONTAINER

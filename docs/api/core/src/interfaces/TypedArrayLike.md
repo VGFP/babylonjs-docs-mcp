@@ -6,7 +6,7 @@
 
 # Interface: TypedArrayLike
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L216)
+Defined in: [packages/dev/core/src/types.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/types.ts#L206)
 
 Type for typed array like objects
 
@@ -24,6 +24,6 @@ Type for typed array like objects
 
 > `readonly` **length**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L220)
+Defined in: [packages/dev/core/src/types.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/types.ts#L210)
 
 The size in bytes of the array.

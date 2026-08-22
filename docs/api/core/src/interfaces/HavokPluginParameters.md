@@ -6,17 +6,29 @@
 
 # Interface: HavokPluginParameters
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L329)
+Defined in: [packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L329)
 
 Configuration parameters for the Havok plugin
 
 ## Properties
 
+### disableWorldRegions?
+
+> `optional` **disableWorldRegions?**: `boolean`
+
+Defined in: [packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:339](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L339)
+
+Whether to disable Havok world regions when floating origin mode is enabled.
+Set this when the application manages physics precision through its own rebasing system.
+Default is false.
+
+***
+
 ### floatingOriginWorldRadius?
 
 > `optional` **floatingOriginWorldRadius?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L340)
+Defined in: [packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:346](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L346)
 
 Radius of each floating origin world region.
 Bodies within this radius of a world region's origin will use that world.
@@ -29,6 +41,6 @@ Default is 100000 units.
 
 > `optional` **maxQueryCollectorHits?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L333)
+Defined in: [packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/Plugins/havokPlugin.ts#L333)
 
 Maximum number of raycast hits to process

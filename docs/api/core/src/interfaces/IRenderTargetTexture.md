@@ -6,7 +6,7 @@
 
 # Interface: IRenderTargetTexture
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L12)
+Defined in: [packages/dev/core/src/Engines/renderTargetWrapper.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/renderTargetWrapper.ts#L12)
 
 An interface enforcing the renderTarget accessor to used by render target textures.
 
@@ -16,6 +16,6 @@ An interface enforcing the renderTarget accessor to used by render target textur
 
 > **renderTarget**: [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetWrapper`](../classes/RenderTargetWrapper.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/renderTargetWrapper.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/renderTargetWrapper.ts#L16)
+Defined in: [packages/dev/core/src/Engines/renderTargetWrapper.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/renderTargetWrapper.ts#L16)
 
 Entry point to access the wrapper on a texture.

@@ -6,7 +6,7 @@
 
 # Class: TouchCamera
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L15)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L15)
 
 This represents a FPS type of camera controlled by touch.
 This is like a universal camera minus the Gamepad controls.
@@ -29,7 +29,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_introduction#
 
 > **new TouchCamera**(`name`, `position`, `scene?`): `TouchCamera`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L65)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L65)
 
 Instantiates a new touch camera.
 This represents a FPS type of camera controlled by touch.
@@ -73,7 +73,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_introduction#
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L173)
+Defined in: [packages/dev/core/src/node.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L175)
 
 Gets a list of Animations associated with the node
 
@@ -87,7 +87,7 @@ Gets a list of Animations associated with the node
 
 > **applyGravity**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L51)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L51)
 
 Enable or disable gravity on the camera.
 
@@ -101,7 +101,7 @@ Enable or disable gravity on the camera.
 
 > **cameraDirection**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L32)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L32)
 
 Define the current direction the camera is moving to
 
@@ -115,7 +115,7 @@ Define the current direction the camera is moving to
 
 > **cameraRigMode**: `number` = `Camera.RIG_MODE_NONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L364)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L364)
 
 Rig mode of the camera.
 This is useful to create the camera with two "eyes" instead of one to create VR or stereoscopic scenes.
@@ -131,7 +131,7 @@ This is normally controlled byt the camera themselves as internal use.
 
 > **cameraRotation**: [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L36)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L36)
 
 Define the current rotation the camera is rotating to
 
@@ -145,7 +145,7 @@ Define the current rotation the camera is rotating to
 
 > **checkCollisions**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L45)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L45)
 
 Enable or disable collisions of the camera with the rest of the scene objects.
 
@@ -159,7 +159,7 @@ Enable or disable collisions of the camera with the rest of the scene objects.
 
 > **customRenderTargets**: [`RenderTargetTexture`](RenderTargetTexture.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L391)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L391)
 
 Defines the list of custom render target which are rendered to and then used as the input to this camera's render. Eg. display another camera view on a TV in the main scene
 This is pretty helpful if you wish to make a camera render to a texture you could reuse somewhere
@@ -177,7 +177,7 @@ To change the final output target of the camera, camera.outputRenderTarget shoul
 
 > **ellipsoid**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L31)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L31)
 
 Define the collision ellipsoid of the camera.
 This is helpful to simulate a camera body like the player body around the camera
@@ -196,7 +196,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions#ar
 
 > **ellipsoidOffset**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L39)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L39)
 
 Define an offset for the position of the ellipsoid around the camera.
 This can be helpful to determine the center of the body near the gravity center of the body
@@ -212,7 +212,7 @@ instead of its head.
 
 > **fov**: `number` = `0.8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L264)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L264)
 
 Field Of View is set in Radians. (default is 0.8)
 
@@ -226,7 +226,7 @@ Field Of View is set in Radians. (default is 0.8)
 
 > **fovMode**: `number` = `Camera.FOVMODE_VERTICAL_FIXED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L356)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L356)
 
 fovMode sets the camera frustum bounds to the viewport bounds. (default is FOVMODE_VERTICAL_FIXED)
 
@@ -240,7 +240,7 @@ fovMode sets the camera frustum bounds to the viewport bounds. (default is FOVMO
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L95)
+Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L97)
 
 Gets or sets the id of the node
 
@@ -254,7 +254,7 @@ Gets or sets the id of the node
 
 > **ignoreCameraMaxZ**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:382](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L382)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L382)
 
 Ignores camera maxZ when computing the projection matrix (ie. use 0 instead of maxZ), meaning objects won't be culled by the far plane
 
@@ -268,7 +268,7 @@ Ignores camera maxZ when computing the projection matrix (ie. use 0 instead of m
 
 > **inputs**: [`FreeCameraInputsManager`](FreeCameraInputsManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L56)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L56)
 
 Define the input manager associated to the camera.
 
@@ -282,7 +282,7 @@ Define the input manager associated to the camera.
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L127)
+Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L129)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -300,7 +300,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **interaxialDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L370)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L370)
 
 Defines the distance between both "eyes" in case of a RIG
 
@@ -314,7 +314,7 @@ Defines the distance between both "eyes" in case of a RIG
 
 > **inverseRotationSpeed**: `number` = `0.2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L114)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L114)
 
 Speed multiplier for inverse camera panning
 
@@ -328,7 +328,7 @@ Speed multiplier for inverse camera panning
 
 > **invertRotation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L109)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L109)
 
 Reverses mouselook direction to 'natural' panning as opposed to traditional direct
 panning
@@ -343,7 +343,7 @@ panning
 
 > **isIntermediate**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L337)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L337)
 
 Define whether the camera is intermediate.
 This is useful to not present the output directly to the screen in case of rig without post process for instance
@@ -358,7 +358,7 @@ This is useful to not present the output directly to the screen in case of rig w
 
 > **isRigCamera**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L421)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:421](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L421)
 
 Is this camera a part of a rig system?
 
@@ -372,7 +372,7 @@ Is this camera a part of a rig system?
 
 > **isStereoscopicSideBySide**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:376](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L376)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:376](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L376)
 
 Defines if stereoscopic rendering is done side by side or over under.
 
@@ -386,7 +386,7 @@ Defines if stereoscopic rendering is done side by side or over under.
 
 > **layerMask**: `number` = `0x0fffffff`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L350)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L350)
 
 Restricts the camera to viewing objects with the same layerMask.
 A camera with a layerMask of 1 will render mesh.layerMask & camera.layerMask!== 0
@@ -401,7 +401,7 @@ A camera with a layerMask of 1 will render mesh.layerMask & camera.layerMask!== 
 
 > **lockedTarget**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L134)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L134)
 
 Define the current target of the camera as an object or a position.
 Please note that locking a target will disable panning.
@@ -416,7 +416,7 @@ Please note that locking a target will disable panning.
 
 > **maxZ**: `number` = `10000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L297)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L297)
 
 Define the maximum distance the camera can see to.  (default is 10000)
 This is important to note that the depth buffer are not infinite and the further it end
@@ -432,7 +432,7 @@ the more your scene might encounter depth fighting issue.
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L113)
+Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L115)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -446,7 +446,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **minZ**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L289)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L289)
 
 Define the minimum distance the camera can see from.
 This is important to note that the depth buffer are not infinite and the closer it starts
@@ -462,7 +462,7 @@ the more your scene might encounter depth fighting issue.
 
 > **movement**: [`TargetCameraMovement`](TargetCameraMovement.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L64)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L67)
 
 Framerate-independent movement controller for the free camera, exposing the configurable
 [InputMapper](InputMapper.md) (`movement.input`) consulted by the free-camera input classes. Narrows
@@ -479,7 +479,7 @@ created by the [TargetCamera](TargetCamera.md) constructor.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L89)
+Defined in: [packages/dev/core/src/node.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L91)
 
 Gets or sets the name of the node
 
@@ -493,7 +493,7 @@ Gets or sets the name of the node
 
 > **noRotationConstraint**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L103)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L103)
 
 Add constraint to the camera to prevent it to move freely in all directions and
 around all axis.
@@ -508,7 +508,7 @@ around all axis.
 
 > **oblique**: [`Nullable`](../type-aliases/Nullable.md)\<[`IObliqueParams`](../interfaces/IObliqueParams.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L157)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L157)
 
 Object containing oblique projection values (only used with ORTHOGRAPHIC_CAMERA)
 
@@ -522,7 +522,7 @@ Object containing oblique projection values (only used with ORTHOGRAPHIC_CAMERA)
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L146)
+Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L148)
 
 Observable fired when an accessibility tag is changed
 
@@ -536,7 +536,7 @@ Observable fired when an accessibility tag is changed
 
 > **onAfterCheckInputsObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:412](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L412)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L412)
 
 Observable triggered when the inputs have been processed.
 
@@ -550,7 +550,7 @@ Observable triggered when the inputs have been processed.
 
 > **onCollide**: (`collidedMesh`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L283)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L286)
 
 Event raised when the camera collide with a mesh in the scene.
 
@@ -574,7 +574,7 @@ Event raised when the camera collide with a mesh in the scene.
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L350)
+Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L352)
 
 An event triggered when the mesh is disposed
 
@@ -588,7 +588,7 @@ An event triggered when the mesh is disposed
 
 > **onProjectionMatrixChangedObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L408)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L408)
 
 Observable triggered when the camera Projection matrix has changed.
 
@@ -602,7 +602,7 @@ Observable triggered when the camera Projection matrix has changed.
 
 > **onReady**: [`Nullable`](../type-aliases/Nullable.md)\<(`node`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L179)
+Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L181)
 
 Callback raised when the node is ready to be used
 
@@ -616,7 +616,7 @@ Callback raised when the node is ready to be used
 
 > **onRestoreStateObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L416)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L416)
 
 Observable triggered when reset has been called and applied to the camera.
 
@@ -630,7 +630,7 @@ Observable triggered when reset has been called and applied to the camera.
 
 > **onViewMatrixChangedObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L404)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L404)
 
 Observable triggered when the camera view matrix has changed.
 Beware of reentrance! Some methods like Camera.getViewMatrix and Camera.getWorldMatrix can trigger the onViewMatrixChangedObservable
@@ -646,7 +646,7 @@ observable, so using them inside an observer will require additional logic to av
 
 > **outputRenderTarget**: [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L397)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L397)
 
 When set, the camera will render to this render target instead of the default canvas
 
@@ -662,7 +662,7 @@ If the desire is to use the output of a camera as a texture in the scene conside
 
 > **projectionPlaneTilt**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L281)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L281)
 
 Projection plane tilt around the X axis (horizontal), set in Radians. (default is 0)
 Can be used to make vertical lines in world space actually vertical on the screen.
@@ -678,7 +678,7 @@ See https://forum.babylonjs.com/t/add-vertical-shift-to-3ds-max-exporter-babylon
 
 > **renderPassId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L432)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L432)
 
 Render pass id used by the camera to render into the main framebuffer
 
@@ -692,7 +692,7 @@ Render pass id used by the camera to render into the main framebuffer
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L121)
+Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L123)
 
 For internal use only. Please do not use.
 
@@ -706,7 +706,7 @@ For internal use only. Please do not use.
 
 > `optional` **rigParent?**: [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:427](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L427)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:427](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L427)
 
 If isRigCamera set to true this will be set with the parent camera.
 The parent camera is not (!) necessarily the .parent of this camera (like in the case of XR)
@@ -721,7 +721,7 @@ The parent camera is not (!) necessarily the .parent of this camera (like in the
 
 > **rotation**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L86)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L86)
 
 Define the current rotation of the camera
 
@@ -735,7 +735,7 @@ Define the current rotation of the camera
 
 > **rotationQuaternion**: [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L91)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L91)
 
 Define the current rotation of the camera as a quaternion to prevent Gimbal lock
 
@@ -749,7 +749,7 @@ Define the current rotation of the camera as a quaternion to prevent Gimbal lock
 
 > **speed**: `number` = `2.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L97)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L97)
 
 Define the current speed of the camera
 
@@ -763,7 +763,7 @@ Define the current speed of the camera
 
 > **state**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L107)
+Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L109)
 
 Gets or sets a string used to store user defined state for the node
 
@@ -777,7 +777,7 @@ Gets or sets a string used to store user defined state for the node
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L101)
+Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L103)
 
 Gets or sets the unique id of the node
 
@@ -791,7 +791,7 @@ Gets or sets the unique id of the node
 
 > **updateUpVectorFromRotation**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L80)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L80)
 
 When set, the up vector of the camera will be updated by the rotation of the camera
 
@@ -805,7 +805,7 @@ When set, the up vector of the camera will be updated by the rotation of the cam
 
 > **viewport**: [`Viewport`](Viewport.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L343)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L343)
 
 Define the viewport of the camera.
 This correspond to the portion of the screen the camera will render to in normalized 0 to 1 unit.
@@ -820,7 +820,7 @@ This correspond to the portion of the screen the camera will render to in normal
 
 > `static` **ForceAttachControlToAlwaysPreventDefault**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L117)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L117)
 
 Defines if by default attaching controls should prevent the default javascript event to continue.
 
@@ -834,7 +834,7 @@ Defines if by default attaching controls should prevent the default javascript e
 
 > `readonly` `static` **FOVMODE\_HORIZONTAL\_FIXED**: `1` = `Constants.FOVMODE_HORIZONTAL_FIXED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L76)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L76)
 
 This setting aligns the left and right bounds of the viewport to the left and right bounds of the camera frustum.
 
@@ -848,7 +848,7 @@ This setting aligns the left and right bounds of the viewport to the left and ri
 
 > `readonly` `static` **FOVMODE\_VERTICAL\_FIXED**: `0` = `Constants.FOVMODE_VERTICAL_FIXED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L72)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L72)
 
 This is the default FOV mode for perspective cameras.
 This setting aligns the upper and lower bounds of the viewport to the upper and lower bounds of the camera frustum.
@@ -863,7 +863,7 @@ This setting aligns the upper and lower bounds of the viewport to the upper and 
 
 > `readonly` `static` **ORTHOGRAPHIC\_CAMERA**: `1` = `Constants.ORTHOGRAPHIC_CAMERA`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L66)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L66)
 
 This helps creating camera with an orthographic mode.
 Orthographic is commonly used in engineering as a means to produce object specifications that communicate dimensions unambiguously, each line of 1 unit length (cm, meter..whatever) will appear to have the same length everywhere on the drawing. This allows the drafter to dimension only a subset of lines and let the reader know that other lines of that length on the drawing are also that length in reality. Every parallel line in the drawing is also parallel in the object.
@@ -878,7 +878,7 @@ Orthographic is commonly used in engineering as a means to produce object specif
 
 > `readonly` `static` **PERSPECTIVE\_CAMERA**: `0` = `Constants.PERSPECTIVE_CAMERA`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L61)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L61)
 
 This is the default projection mode used by the cameras.
 It helps recreating a feeling of perspective and better appreciate depth.
@@ -894,7 +894,7 @@ This is the best way to simulate real life cameras.
 
 > `readonly` `static` **RIG\_MODE\_CUSTOM**: `22` = `Constants.RIG_MODE_CUSTOM`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L112)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L112)
 
 Custom rig mode allowing rig cameras to be populated manually with any number of cameras
 
@@ -908,7 +908,7 @@ Custom rig mode allowing rig cameras to be populated manually with any number of
 
 > `readonly` `static` **RIG\_MODE\_NONE**: `0` = `Constants.RIG_MODE_NONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L82)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L82)
 
 This specifies there is no need for a camera rig.
 Basically only one eye is rendered corresponding to the camera.
@@ -923,7 +923,7 @@ Basically only one eye is rendered corresponding to the camera.
 
 > `readonly` `static` **RIG\_MODE\_STEREOSCOPIC\_ANAGLYPH**: `10` = `Constants.RIG_MODE_STEREOSCOPIC_ANAGLYPH`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L87)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L87)
 
 Simulates a camera Rig with one blue eye and one red eye.
 This can be use with 3d blue and red glasses.
@@ -938,7 +938,7 @@ This can be use with 3d blue and red glasses.
 
 > `readonly` `static` **RIG\_MODE\_STEREOSCOPIC\_INTERLACED**: `14` = `Constants.RIG_MODE_STEREOSCOPIC_INTERLACED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L103)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L103)
 
 Defines that both eyes of the camera will be rendered on successive lines interlaced for passive 3d monitors.
 
@@ -952,7 +952,7 @@ Defines that both eyes of the camera will be rendered on successive lines interl
 
 > `readonly` `static` **RIG\_MODE\_STEREOSCOPIC\_OVERUNDER**: `13` = `Constants.RIG_MODE_STEREOSCOPIC_OVERUNDER`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L99)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L99)
 
 Defines that both eyes of the camera will be rendered over under each other.
 
@@ -966,7 +966,7 @@ Defines that both eyes of the camera will be rendered over under each other.
 
 > `readonly` `static` **RIG\_MODE\_STEREOSCOPIC\_SIDEBYSIDE\_CROSSEYED**: `12` = `Constants.RIG_MODE_STEREOSCOPIC_SIDEBYSIDE_CROSSEYED`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L95)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L95)
 
 Defines that both eyes of the camera will be rendered side by side with a none parallel target.
 
@@ -980,7 +980,7 @@ Defines that both eyes of the camera will be rendered side by side with a none p
 
 > `readonly` `static` **RIG\_MODE\_STEREOSCOPIC\_SIDEBYSIDE\_PARALLEL**: `11` = `Constants.RIG_MODE_STEREOSCOPIC_SIDEBYSIDE_PARALLEL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L91)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L91)
 
 Defines that both eyes of the camera will be rendered side by side with a parallel target.
 
@@ -994,7 +994,7 @@ Defines that both eyes of the camera will be rendered side by side with a parall
 
 > `readonly` `static` **RIG\_MODE\_VR**: `20` = `Constants.RIG_MODE_VR`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L108)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L108)
 
 Defines that both eyes of the camera should be renderered in a VR mode (carbox).
 
@@ -1010,7 +1010,7 @@ Defines that both eyes of the camera should be renderered in a VR mode (carbox).
 
 > **get** **absoluteRotation**(): [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1477](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1477)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1477](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1477)
 
 Returns the current camera absolute rotation
 
@@ -1030,7 +1030,7 @@ Returns the current camera absolute rotation
 
 > **get** **accessibilityTag**(): [`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L137)
+Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L139)
 
 ##### Returns
 
@@ -1040,7 +1040,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:137](https://github.
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L132)
+Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L134)
 
 Gets or sets the accessibility tag to describe the node for accessibility purpose.
 
@@ -1066,7 +1066,7 @@ Gets or sets the accessibility tag to describe the node for accessibility purpos
 
 > **get** **angularSensibility**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L70)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L73)
 
 Gets the input sensibility for a mouse input. (default is 2000.0)
 Higher values reduce sensitivity.
@@ -1079,7 +1079,7 @@ Higher values reduce sensitivity.
 
 > **set** **angularSensibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L83)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L86)
 
 Sets the input sensibility for a mouse input. (default is 2000.0)
 Higher values reduce sensitivity.
@@ -1106,7 +1106,7 @@ Higher values reduce sensitivity.
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L325)
+Defined in: [packages/dev/core/src/node.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L327)
 
 Gets or sets the animation properties override
 
@@ -1118,7 +1118,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L332)
+Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L334)
 
 ##### Parameters
 
@@ -1142,7 +1142,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:332](https://github.
 
 > **get** **behaviors**(): [`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L472)
+Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L485)
 
 Gets the list of attached behaviors
 
@@ -1166,7 +1166,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **collisionMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L350)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L353)
 
 Define a collision mask to limit the list of object the camera can collide with
 
@@ -1178,7 +1178,7 @@ Define a collision mask to limit the list of object the camera can collide with
 
 > **set** **collisionMask**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L354)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L357)
 
 ##### Parameters
 
@@ -1202,7 +1202,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:3
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L151)
+Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L153)
 
 Gets or sets a boolean used to define if the node must be serialized
 
@@ -1214,7 +1214,7 @@ Gets or sets a boolean used to define if the node must be serialized
 
 > **set** **doNotSerialize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L163)
+Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L165)
 
 ##### Parameters
 
@@ -1238,7 +1238,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:163](https://github.
 
 > **get** **globalPosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L583)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L583)
 
 Gets the current world space position of the camera.
 
@@ -1258,7 +1258,7 @@ Gets the current world space position of the camera.
 
 > **get** **hasMoved**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L439)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L439)
 
 Gets a flag indicating that the camera has moved in some way since the last call to Camera.update()
 
@@ -1278,7 +1278,7 @@ Gets a flag indicating that the camera has moved in some way since the last call
 
 > **get** **inertia**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L62)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L62)
 
 Defines the inertia (decay coefficient applied per reference frame at 60fps) of the camera.
 This helps giving a smooth feeling to the camera movement.
@@ -1301,7 +1301,7 @@ native-ESM dev keeps real `super`. See the `babylonjs/no-super-in-accessor` lint
 
 > **set** **inertia**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L66)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L66)
 
 Define the default inertia of the camera.
 This helps giving a smooth feeling to the camera movement.
@@ -1328,7 +1328,7 @@ This helps giving a smooth feeling to the camera movement.
 
 > **get** **inheritVisibility**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L269)
+Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L271)
 
 If set to true, this node, when renderable, will only be visible if its parent(s) are also visible.
 
@@ -1346,7 +1346,7 @@ false
 
 > **set** **inheritVisibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L273)
+Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L275)
 
 ##### Parameters
 
@@ -1370,7 +1370,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:273](https://github.
 
 > **get** **isLeftCamera**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1251)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1251)
 
 Gets the left camera of a rig setup in case of Rigged Camera
 
@@ -1390,7 +1390,7 @@ Gets the left camera of a rig setup in case of Rigged Camera
 
 > **get** **isRightCamera**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1260)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1260)
 
 Gets the right camera of a rig setup in case of Rigged Camera
 
@@ -1410,7 +1410,7 @@ Gets the right camera of a rig setup in case of Rigged Camera
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L281)
+Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L283)
 
 Gets or sets a boolean indicating whether this node is visible, either this node itself when it is renderable or its renderable child nodes when `inheritVisibility` is true.
 
@@ -1428,7 +1428,7 @@ true
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L289)
+Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L291)
 
 ##### Parameters
 
@@ -1452,7 +1452,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:289](https://github.
 
 > **get** **keysDown**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L131)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L134)
 
 Gets or Set the list of keyboard keys used to control the backward move of the camera.
 
@@ -1464,7 +1464,7 @@ Gets or Set the list of keyboard keys used to control the backward move of the c
 
 > **set** **keysDown**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L140)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L143)
 
 ##### Parameters
 
@@ -1488,7 +1488,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:1
 
 > **get** **keysDownward**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L150)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L153)
 
 Gets or Set the list of keyboard keys used to control the downward move of the camera.
 
@@ -1500,7 +1500,7 @@ Gets or Set the list of keyboard keys used to control the downward move of the c
 
 > **set** **keysDownward**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L159)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L162)
 
 ##### Parameters
 
@@ -1524,7 +1524,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:1
 
 > **get** **keysLeft**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L169)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L172)
 
 Gets or Set the list of keyboard keys used to control the left strafe move of the camera.
 
@@ -1536,7 +1536,7 @@ Gets or Set the list of keyboard keys used to control the left strafe move of th
 
 > **set** **keysLeft**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L178)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L181)
 
 ##### Parameters
 
@@ -1560,7 +1560,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:1
 
 > **get** **keysRight**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L188)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L191)
 
 Gets or Set the list of keyboard keys used to control the right strafe move of the camera.
 
@@ -1572,7 +1572,7 @@ Gets or Set the list of keyboard keys used to control the right strafe move of t
 
 > **set** **keysRight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L197)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L200)
 
 ##### Parameters
 
@@ -1596,7 +1596,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:1
 
 > **get** **keysRotateDown**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L264)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L267)
 
 Gets or Set the list of keyboard keys used to control the down rotation move of the camera.
 
@@ -1608,7 +1608,7 @@ Gets or Set the list of keyboard keys used to control the down rotation move of 
 
 > **set** **keysRotateDown**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L273)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L276)
 
 ##### Parameters
 
@@ -1632,7 +1632,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:2
 
 > **get** **keysRotateLeft**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L207)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L210)
 
 Gets or Set the list of keyboard keys used to control the left rotation move of the camera.
 
@@ -1644,7 +1644,7 @@ Gets or Set the list of keyboard keys used to control the left rotation move of 
 
 > **set** **keysRotateLeft**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L216)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L219)
 
 ##### Parameters
 
@@ -1668,7 +1668,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:2
 
 > **get** **keysRotateRight**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L226)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L229)
 
 Gets or Set the list of keyboard keys used to control the right rotation move of the camera.
 
@@ -1680,7 +1680,7 @@ Gets or Set the list of keyboard keys used to control the right rotation move of
 
 > **set** **keysRotateRight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L235)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L238)
 
 ##### Parameters
 
@@ -1704,7 +1704,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:2
 
 > **get** **keysRotateUp**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L245)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L248)
 
 Gets or Set the list of keyboard keys used to control the up rotation move of the camera.
 
@@ -1716,7 +1716,7 @@ Gets or Set the list of keyboard keys used to control the up rotation move of th
 
 > **set** **keysRotateUp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L254)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L257)
 
 ##### Parameters
 
@@ -1740,7 +1740,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:2
 
 > **get** **keysUp**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L93)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L96)
 
 Gets or Set the list of keyboard keys used to control the forward move of the camera.
 
@@ -1752,7 +1752,7 @@ Gets or Set the list of keyboard keys used to control the forward move of the ca
 
 > **set** **keysUp**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L102)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L105)
 
 ##### Parameters
 
@@ -1776,7 +1776,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:1
 
 > **get** **keysUpward**(): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L112)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L115)
 
 Gets or Set the list of keyboard keys used to control the upward move of the camera.
 
@@ -1788,7 +1788,7 @@ Gets or Set the list of keyboard keys used to control the upward move of the cam
 
 > **set** **keysUpward**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L121)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L124)
 
 ##### Parameters
 
@@ -1812,7 +1812,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:1
 
 > **get** **leftCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FreeCamera`](FreeCamera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1267)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1267)
 
 Gets the left camera of a rig setup in case of Rigged Camera
 
@@ -1832,7 +1832,7 @@ Gets the left camera of a rig setup in case of Rigged Camera
 
 > **get** **mode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L329)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L329)
 
 ##### Returns
 
@@ -1842,7 +1842,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:329](
 
 > **set** **mode**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L319)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L319)
 
 Define the mode of the camera (Camera.PERSPECTIVE_CAMERA or Camera.ORTHOGRAPHIC_CAMERA)
 
@@ -1868,7 +1868,7 @@ Define the mode of the camera (Camera.PERSPECTIVE_CAMERA or Camera.ORTHOGRAPHIC_
 
 > **get** **needMoveForGravity**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L434)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L437)
 
 When true, gravity is applied whether there is user input or not.
 
@@ -1880,7 +1880,7 @@ When true, gravity is applied whether there is user input or not.
 
 > **set** **needMoveForGravity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:427](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L427)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L430)
 
 Enable movement without a user input. This allows gravity to always be applied.
 
@@ -1906,7 +1906,7 @@ Enable movement without a user input. This allows gravity to always be applied.
 
 > **get** **onClonedObservable**(): [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L373)
+Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L386)
 
 An event triggered when the node is cloned
 
@@ -1926,7 +1926,7 @@ An event triggered when the node is cloned
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L356)
+Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L358)
 
 Sets a callback that will be raised when the node will be disposed
 
@@ -1946,15 +1946,39 @@ Sets a callback that will be raised when the node will be disposed
 
 ***
 
+### onEffectiveEnabledStateChangedObservable
+
+#### Get Signature
+
+> **get** **onEffectiveEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
+
+Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L379)
+
+An event triggered when the effective enabled state of the node changes, i.e. whenever the value returned by [isEnabled](Node.md#isenabled) changes.
+Unlike [onEnabledStateChangedObservable](Node.md#onenabledstatechangedobservable), this fires for changes caused by an ancestor's enabled state as well as this node's own state.
+The observable is created on first access, so no cost is incurred for nodes that never observe it.
+
+##### Returns
+
+[`Observable`](Observable.md)\<`boolean`\>
+
+#### Inherited from
+
+[`FreeCamera`](FreeCamera.md).[`onEffectiveEnabledStateChangedObservable`](FreeCamera.md#oneffectiveenabledstatechangedobservable)
+
+***
+
 ### onEnabledStateChangedObservable
 
 #### Get Signature
 
 > **get** **onEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L366)
+Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L370)
 
-An event triggered when the enabled state of the node changes
+An event triggered when the enabled state of the node changes.
+This only reflects changes to the node's own enabled flag (as set via [setEnabled](Node.md#setenabled)), not changes inherited from an ancestor.
+Use [onEffectiveEnabledStateChangedObservable](Node.md#oneffectiveenabledstatechangedobservable) to also be notified when an ancestor's enabled state changes the effective enabled state.
 
 ##### Returns
 
@@ -1972,7 +1996,7 @@ An event triggered when the enabled state of the node changes
 
 > **get** **orthoBottom**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L237)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L237)
 
 ##### Returns
 
@@ -1982,7 +2006,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:237](
 
 > **set** **orthoBottom**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L228)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L228)
 
 Define the current limit on the bottom side for an orthographic camera
 In scene unit
@@ -2009,7 +2033,7 @@ In scene unit
 
 > **get** **orthoLeft**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L199)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L199)
 
 ##### Returns
 
@@ -2019,7 +2043,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:199](
 
 > **set** **orthoLeft**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L190)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L190)
 
 Define the current limit on the left side for an orthographic camera
 In scene unit
@@ -2046,7 +2070,7 @@ In scene unit
 
 > **get** **orthoRight**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L218)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L218)
 
 ##### Returns
 
@@ -2056,7 +2080,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:218](
 
 > **set** **orthoRight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L209)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L209)
 
 Define the current limit on the right side for an orthographic camera
 In scene unit
@@ -2083,7 +2107,7 @@ In scene unit
 
 > **get** **orthoTop**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L256)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L256)
 
 ##### Returns
 
@@ -2093,7 +2117,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:256](
 
 > **set** **orthoTop**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L247)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L247)
 
 Define the current limit on the top side for an orthographic camera
 In scene unit
@@ -2120,7 +2144,7 @@ In scene unit
 
 > **get** **parent**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L261)
+Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L263)
 
 ##### Returns
 
@@ -2130,7 +2154,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/node.ts:261](https://github.
 
 > **set** **parent**(`parent`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L222)
+Defined in: [packages/dev/core/src/node.ts:224](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L224)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -2160,7 +2184,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L131)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L131)
 
 Define the current local position of the camera in the scene
 
@@ -2172,7 +2196,7 @@ Define the current local position of the camera in the scene
 
 > **set** **position**(`newPosition`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L135)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L135)
 
 ##### Parameters
 
@@ -2196,7 +2220,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:135](
 
 > **get** **rightCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FreeCamera`](FreeCamera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1277)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1277)
 
 Gets the right camera of a rig setup in case of Rigged Camera
 
@@ -2216,7 +2240,7 @@ Gets the right camera of a rig setup in case of Rigged Camera
 
 > **get** **rigPostProcess**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:777](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L777)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:777](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L777)
 
 Gets the post process used by the rig cameras
 
@@ -2236,7 +2260,7 @@ Gets the post process used by the rig cameras
 
 > **get** **screenArea**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L162)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L162)
 
 The screen area in scene units squared
 
@@ -2256,7 +2280,7 @@ The screen area in scene units squared
 
 > **get** **target**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L345)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L345)
 
 Defines the target point of the camera.
 The camera looks towards it form the radius distance.
@@ -2269,7 +2293,7 @@ The camera looks towards it form the radius distance.
 
 > **set** **target**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L348)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L348)
 
 ##### Parameters
 
@@ -2293,7 +2317,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts
 
 > **get** **touchAngularSensibility**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L20)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L20)
 
 Defines the touch sensibility for rotation.
 The higher the faster.
@@ -2306,7 +2330,7 @@ The higher the faster.
 
 > **set** **touchAngularSensibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L29)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L29)
 
 ##### Parameters
 
@@ -2326,7 +2350,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:
 
 > **get** **touchMoveSensibility**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L40)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L40)
 
 Defines the touch sensibility for move.
 The higher the faster.
@@ -2339,7 +2363,7 @@ The higher the faster.
 
 > **set** **touchMoveSensibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L49)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L49)
 
 ##### Parameters
 
@@ -2359,7 +2383,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:
 
 > **get** **upVector**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L150)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L150)
 
 ##### Returns
 
@@ -2369,7 +2393,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:150](
 
 > **set** **upVector**(`vec`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L146)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L146)
 
 The vector the camera should consider as up.
 (default is Vector3(0, 1, 0) aka Vector3.Up())
@@ -2396,7 +2420,7 @@ The vector the camera should consider as up.
 
 > **get** **worldMatrixFromCache**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L516)
+Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L529)
 
 Returns directly the latest state of the mesh World matrix.
 A Matrix is returned.
@@ -2415,7 +2439,7 @@ A Matrix is returned.
 
 > **\_getFirstPostProcess**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:785](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L785)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:785](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L785)
 
 Internal, gets the first post process.
 
@@ -2435,7 +2459,7 @@ the first post process to be run on this camera.
 
 > **addBehavior**(`behavior`, `attachImmediately?`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L421)
+Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L434)
 
 Attach a behavior to the node
 
@@ -2473,7 +2497,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **applyVerticalCorrection**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L574)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:574](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L574)
 
 Automatically tilts the projection plane, using `projectionPlaneTilt`, to correct the perspective effect on vertical lines.
 
@@ -2507,7 +2531,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L316)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L319)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -2531,7 +2555,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **attachControl**(`ignored`, `noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L323)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L326)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -2564,7 +2588,7 @@ BACK COMPAT SIGNATURE ONLY.
 
 > **attachPostProcess**(`postProcess`, `insertAt?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:828](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L828)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:828](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L828)
 
 Attach a post process to the camera.
 
@@ -2602,7 +2626,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/usePostProcess
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:902](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L902)
+Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L956)
 
 Will start the animation sequence
 
@@ -2648,7 +2672,7 @@ the object created for this animation. If range does not exist, it will return n
 
 > **clone**(`name`, `newParent?`): [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1448](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1448)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1448](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1448)
 
 Clones the current camera.
 
@@ -2682,7 +2706,7 @@ the cloned camera
 
 > **computeWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1520](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1520)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1520](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1520)
 
 Compute the world  matrix of the camera.
 
@@ -2702,7 +2726,7 @@ the camera world matrix
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L819)
+Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L873)
 
 Creates an animation range for this node
 
@@ -2740,7 +2764,7 @@ defines the end key
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:836](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L836)
+Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L890)
 
 Delete a specific animation range
 
@@ -2772,7 +2796,7 @@ defines if animation frames from the range must be deleted as well
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L337)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L340)
 
 Detach the current controls from the specified dom element.
 
@@ -2790,7 +2814,7 @@ Detach the current controls from the specified dom element.
 
 > **detachPostProcess**(`postProcess`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:856](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L856)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:856](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L856)
 
 Detach a post process to the camera.
 
@@ -2820,7 +2844,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/usePostProcess
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/freeCamera.pure.ts:455](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/freeCamera.pure.ts#L455)
+Defined in: [packages/dev/core/src/Cameras/freeCamera.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/freeCamera.pure.ts#L458)
 
 Destroy the camera and release the current resources hold by it.
 
@@ -2838,7 +2862,7 @@ Destroy the camera and release the current resources hold by it.
 
 > **freezeProjectionMatrix**(`projection?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:933](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L933)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:933](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L933)
 
 Freeze the projection matrix.
 It will prevent the cache check of the camera projection compute and can speed up perf
@@ -2866,7 +2890,7 @@ Defines manually a projection if necessary
 
 > **getActiveMeshes**(): [`SmartArray`](SmartArray.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L591)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:591](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L591)
 
 Gets the list of active meshes this frame (meshes no culled or excluded by lod s in the frame)
 
@@ -2886,7 +2910,7 @@ the active meshe list
 
 > **getAnimationByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:801](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L801)
+Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L855)
 
 Get an animation by name
 
@@ -2914,7 +2938,7 @@ null if not found else the requested animation
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L850)
+Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L904)
 
 Get an animation range by name
 
@@ -2942,7 +2966,7 @@ null if not found else the requested animation range
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:885](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L885)
+Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L939)
 
 Gets the list of all animation ranges defined on this node
 
@@ -2962,7 +2986,7 @@ an array
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:482](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L482)
+Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L495)
 
 Gets an attached behavior by name
 
@@ -3010,7 +3034,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getChildMeshes**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:727](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L727)
+Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L781)
 
 Get all child-meshes of this node
 
@@ -3048,7 +3072,7 @@ an array of AbstractMesh
 
 > **getChildMeshes**(`directDescendantsOnly?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L735)
+Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L789)
 
 Get all child-meshes of this node
 
@@ -3098,7 +3122,7 @@ defines if true only direct descendants of 'this' will be considered, if false d
 
 > **getChildren**\<`T`\>(`predicate?`, `directDescendantsOnly?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:757](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L757)
+Defined in: [packages/dev/core/src/node.ts:811](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L811)
 
 Get all direct children of this node
 
@@ -3136,7 +3160,7 @@ an array of Node
 
 > **getChildren**(`predicate?`, `directDescendantsOnly?`): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:765](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L765)
+Defined in: [packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L819)
 
 Get all direct children of this node
 
@@ -3170,7 +3194,7 @@ an array of Node
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/touchCamera.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/touchCamera.pure.ts#L76)
+Defined in: [packages/dev/core/src/Cameras/touchCamera.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/touchCamera.pure.ts#L76)
 
 Gets the current object class name.
 
@@ -3206,7 +3230,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDescendants**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:697](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L697)
+Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L751)
 
 Will return all nodes that have this node as ascendant
 
@@ -3244,7 +3268,7 @@ all children nodes of all types
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Node`](Node.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:705](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L705)
+Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L759)
 
 Will return all nodes that have this node as ascendant
 
@@ -3278,7 +3302,7 @@ all children nodes of all types
 
 > **getDirection**(`localAxis`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1466](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1466)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1466)
 
 Gets the direction of the camera relative to a given local axis.
 
@@ -3306,7 +3330,7 @@ the direction
 
 > **getDirectionToRef**(`localAxis`, `result`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1488](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1488)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1488](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1488)
 
 Gets the direction of the camera relative to a given local axis into a passed vector.
 
@@ -3338,7 +3362,7 @@ Defines the vector to store the result in
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L407)
+Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L420)
 
 Gets the engine of the node
 
@@ -3358,7 +3382,7 @@ a Engine
 
 > **getForwardRay**(`length?`, `transform?`, `origin?`): [`Ray`](Ray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1158)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1158)
 
 Gets a ray in the forward direction from the camera.
 
@@ -3398,7 +3422,7 @@ the forward ray
 
 > **getForwardRayToRef**(`refRay`, `length?`, `transform?`, `origin?`): [`Ray`](Ray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1172)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1172)
 
 Gets a ray in the forward direction from the camera.
 
@@ -3444,7 +3468,7 @@ the forward ray
 
 > **getFrontPosition**(`distance`): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L186)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L186)
 
 Gets the position in front of the camera at a given distance.
 
@@ -3472,7 +3496,7 @@ the position
 
 > **getHierarchyBoundingVectors**(`includeDescendants?`, `predicate?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:1002](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L1002)
+Defined in: [packages/dev/core/src/node.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1058)
 
 Return the minimum and maximum world vectors of the entire hierarchy under current node
 
@@ -3514,7 +3538,7 @@ the new bounding vectors
 
 > **getLeftTarget**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1288)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1288)
 
 Gets the left camera target of a rig setup in case of Rigged Camera
 
@@ -3534,7 +3558,7 @@ the target position
 
 > **getProjectionMatrix**(`force?`): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:952](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L952)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:952](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L952)
 
 Gets the current projection matrix of the camera.
 
@@ -3562,7 +3586,7 @@ the projection matrix
 
 > **getRightTarget**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1299)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1299)
 
 Gets the right camera target of a rig setup in case of Rigged Camera
 
@@ -3582,7 +3606,7 @@ the target position
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L399)
+Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L412)
 
 Gets the scene of the node
 
@@ -3602,7 +3626,7 @@ a scene
 
 > **getTarget**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L356)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L356)
 
 Return the current target position of the camera. This value is expressed in local space.
 
@@ -3622,7 +3646,7 @@ the target position
 
 > **getTransformationMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1087](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1087)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1087](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1087)
 
 Gets the transformation matrix (ie. the multiplication of view by projection matrices)
 
@@ -3642,7 +3666,7 @@ a Matrix
 
 > **getViewMatrix**(`force?`): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:895](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L895)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:895](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L895)
 
 Gets the current view matrix of the camera.
 
@@ -3670,7 +3694,7 @@ the view matrix
 
 > **getWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L874)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L874)
 
 Gets the current world matrix of the camera
 
@@ -3690,7 +3714,7 @@ the world matrix
 
 > **hasStateStored**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L514)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:514](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L514)
 
 Returns true if a state has been stored by calling storeState method.
 
@@ -3710,7 +3734,7 @@ true if state has been stored.
 
 > **isActiveMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:600](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L600)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:600](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L600)
 
 Check whether a mesh is part of the current active mesh list of the camera
 
@@ -3738,7 +3762,7 @@ true if active, false otherwise
 
 > **isCompletelyInFrustum**(`target`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1143)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1143)
 
 Checks if a cullable object (mesh...) is in the camera frustum
 Unlike isInFrustum this checks the full bounding box
@@ -3767,7 +3791,7 @@ true if the object is in frustum otherwise false
 
 > **isDescendantOf**(`ancestor`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:659](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L659)
+Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L713)
 
 Is this node a descendant of the given node?
 The function will iterate up the hierarchy until the ancestor was found or no more parents defined
@@ -3796,7 +3820,7 @@ a boolean indicating if this node is a descendant of the given node
 
 > **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L214)
+Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L216)
 
 Gets a boolean indicating if the node has been disposed
 
@@ -3816,7 +3840,7 @@ true if the node was disposed
 
 > **isEnabled**(`checkAncestors?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:617](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L617)
+Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L633)
 
 Is this node enabled?
 If the node has a parent, all ancestors will be checked and false will be returned if any are false (not enabled), otherwise will return true
@@ -3835,6 +3859,11 @@ indicates if this method should check the ancestors. The default is to check the
 
 whether this node (and its parent) is enabled
 
+#### Remarks
+
+To observe changes to the value returned when calling this with `checkAncestors` set to true (the default, i.e. the effective enabled state), subscribe to [onEffectiveEnabledStateChangedObservable](Node.md#oneffectiveenabledstatechangedobservable).
+To observe changes to the value returned when calling this with `checkAncestors` set to false (i.e. this node's own enabled state only), subscribe to [onEnabledStateChangedObservable](Node.md#onenabledstatechangedobservable).
+
 #### Inherited from
 
 [`FreeCamera`](FreeCamera.md).[`isEnabled`](FreeCamera.md#isenabled)
@@ -3845,7 +3874,7 @@ whether this node (and its parent) is enabled
 
 > **isInFrustum**(`target`, `checkRigCameras?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1122)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1122)
 
 Checks if a cullable object (mesh...) is in the camera frustum
 This checks the bounding box center. See isCompletelyInFrustum for a full bounding check
@@ -3880,7 +3909,7 @@ true if the object is in frustum otherwise false
 
 > **isReady**(`completeCheck?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L609)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L609)
 
 Is this camera ready to be used/rendered
 
@@ -3908,7 +3937,7 @@ true if the camera is ready
 
 > **markAsDirty**(`_property?`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:605](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L605)
+Defined in: [packages/dev/core/src/node.ts:618](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L618)
 
 Flag the  node as dirty (Forcing it to update everything)
 
@@ -3936,7 +3965,7 @@ this node
 
 > **removeBehavior**(`behavior`): [`Node`](Node.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L451)
+Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L464)
 
 Remove an attached behavior
 
@@ -3968,7 +3997,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **restoreState**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L535)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L535)
 
 Restored camera state. You must call storeState() first.
 
@@ -3988,7 +4017,7 @@ true if restored and false otherwise
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1418)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1418)
 
 Serialiaze the camera setup to a json representation
 
@@ -4008,7 +4037,7 @@ the JSON representation
 
 > **serializeAnimationRanges**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:916](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L916)
+Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L970)
 
 Serialize animation ranges into a JSON compatible object
 
@@ -4028,7 +4057,7 @@ serialization object
 
 > **setEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:644](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L644)
+Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L685)
 
 Set the enabled state of this node
 
@@ -4054,7 +4083,7 @@ defines the new enabled state
 
 > **setFocalLength**(`value`, `sensorSize?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L271)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L271)
 
 Sets the camera's field of view in radians based on the focal length and sensor size.
 
@@ -4086,7 +4115,7 @@ the sensor width size of the camera in mm. (default is 36mm, which is a full fra
 
 > **setTarget**(`target`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L314)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L314)
 
 Defines the target the camera should look at.
 
@@ -4112,7 +4141,7 @@ Defines the new target as a Vector
 
 > **storeState**(): [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/targetCamera.pure.ts:220](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/targetCamera.pure.ts#L220)
+Defined in: [packages/dev/core/src/Cameras/targetCamera.pure.ts:220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCamera.pure.ts#L220)
 
 Store current camera state of the camera (fov, position, rotation, etc..)
 
@@ -4132,7 +4161,7 @@ the camera
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:560](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L560)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:560](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L560)
 
 Gets a string representation of the camera useful for debug purpose.
 
@@ -4160,7 +4189,7 @@ the string representation
 
 > **unfreezeProjectionMatrix**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:943](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L943)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:943](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L943)
 
 Unfreeze the projection matrix if it has previously been freezed by freezeProjectionMatrix.
 
@@ -4178,7 +4207,7 @@ Unfreeze the projection matrix if it has previously been freezed by freezeProjec
 
 > **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L750)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L750)
 
 Update the camera state according to the different inputs gathered during the frame.
 
@@ -4196,7 +4225,7 @@ Update the camera state according to the different inputs gathered during the fr
 
 > `static` **AddNodeConstructor**(`type`, `constructorFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L61)
+Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L63)
 
 Add a new node constructor
 
@@ -4228,7 +4257,7 @@ defines the constructor function
 
 > `static` **Construct**(`type`, `name`, `scene`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<() => [`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L73)
+Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L75)
 
 Returns a node constructor based on type name
 
@@ -4274,7 +4303,7 @@ the new constructor or null
 
 > `static` **GetConstructorFromName**(`type`, `name`, `scene`, `interaxial_distance?`, `isStereoscopicSideBySide?`): () => [`Camera`](Camera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/camera.pure.ts:1502](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/camera.pure.ts#L1502)
+Defined in: [packages/dev/core/src/Cameras/camera.pure.ts:1502](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/camera.pure.ts#L1502)
 
 Gets a camera constructor for a given camera type
 
@@ -4326,7 +4355,7 @@ a factory method to construct the camera
 
 > `static` **ParseAnimationRanges**(`node`, `parsedNode`, `_scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/node.ts:988](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/node.ts#L988)
+Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1044)
 
 Parse animation range data from a serialization object and store them into a given node
 

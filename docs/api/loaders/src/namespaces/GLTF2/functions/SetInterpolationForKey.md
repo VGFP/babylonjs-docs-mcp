@@ -8,7 +8,7 @@
 
 > **SetInterpolationForKey**(`key`, `interpolation?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:1142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L1142)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:1756](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L1756)
 
 Set interpolation for a specific key in the object model
 

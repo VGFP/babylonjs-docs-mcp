@@ -6,7 +6,7 @@
 
 # Interface: ITexturePackerJSON
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L88)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/packer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L88)
 
 Defines the basic interface of a TexturePacker JSON File
 
@@ -16,7 +16,7 @@ Defines the basic interface of a TexturePacker JSON File
 
 > **frames**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L107)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/packer.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L107)
 
 The frame data of the Packer
 
@@ -26,7 +26,7 @@ The frame data of the Packer
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L92)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/packer.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L92)
 
 The frame ID
 
@@ -36,7 +36,7 @@ The frame ID
 
 > **options**: [`ITexturePackerOptions`](ITexturePackerOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L102)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/packer.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L102)
 
 The options of the Packer
 
@@ -46,6 +46,6 @@ The options of the Packer
 
 > **sets**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/packer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L97)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/packer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/packer.ts#L97)
 
 The base64 channel data

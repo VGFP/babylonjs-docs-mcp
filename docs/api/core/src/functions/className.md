@@ -8,7 +8,7 @@
 
 > **className**(`name`, `module?`): (`target`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1619)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1631](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1631)
 
 Use this className as a decorator on a given class definition to add it a name and optionally its module.
 You can then use the Tools.getClassName(obj) on an instance to retrieve its class name.

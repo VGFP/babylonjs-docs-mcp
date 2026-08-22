@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractSound
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L53)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L53)
 
 Abstract class representing a sound in the audio engine.
 
@@ -25,7 +25,7 @@ Abstract class representing a sound in the audio engine.
 
 > `readonly` **engine**: [`AudioEngineV2`](AudioEngineV2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L39)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L39)
 
 The audio engine this node belongs to.
 
@@ -39,7 +39,7 @@ The audio engine this node belongs to.
 
 > `readonly` **onDisposeObservable**: [`Observable`](Observable.md)\<[`AbstractAudioNode`](AbstractAudioNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L44)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L44)
 
 Observable for when the audio node is disposed.
 
@@ -53,7 +53,7 @@ Observable for when the audio node is disposed.
 
 > `readonly` **onEndedObservable**: [`Observable`](Observable.md)\<`AbstractSound`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L64)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L64)
 
 Observable for when the sound stops playing.
 
@@ -63,7 +63,7 @@ Observable for when the sound stops playing.
 
 > `readonly` **onNameChangedObservable**: [`Observable`](Observable.md)\<\{ `newName`: `string`; `node`: [`AbstractNamedAudioNode`](AbstractNamedAudioNode.md); `oldName`: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L170)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L170)
 
 Observable for when the audio node is renamed.
 
@@ -77,7 +77,7 @@ Observable for when the audio node is renamed.
 
 > `abstract` **stereo**: [`AbstractStereoAudio`](AbstractStereoAudio.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L96)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L124)
 
 The stereo features of the sound.
 
@@ -93,7 +93,7 @@ The stereo features of the sound.
 
 > **set** **\_isSpatial**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L127)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L155)
 
 ##### Parameters
 
@@ -117,7 +117,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **activeInstancesCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L73)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L73)
 
 The number of active instances of the sound that are currently playing.
 
@@ -133,7 +133,7 @@ The number of active instances of the sound that are currently playing.
 
 > **get** **analyzer**(): [`AbstractAudioAnalyzer`](AbstractAudioAnalyzer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L28)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L28)
 
 The audio analyzer features.
 
@@ -153,7 +153,7 @@ The audio analyzer features.
 
 > **get** **autoplay**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L80)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L80)
 
 Whether the sound should start playing automatically. Defaults to `false`.
 
@@ -169,7 +169,7 @@ Whether the sound should start playing automatically. Defaults to `false`.
 
 > **get** **currentTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L87)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L87)
 
 The current playback time of the sound, in seconds.
 
@@ -181,7 +181,7 @@ The current playback time of the sound, in seconds.
 
 > **set** **currentTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L92)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L92)
 
 ##### Parameters
 
@@ -201,7 +201,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **loop**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L104)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L104)
 
 Whether the sound should loop. Defaults to `false`.
 
@@ -213,7 +213,7 @@ Whether the sound should loop. Defaults to `false`.
 
 > **set** **loop**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L108)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L108)
 
 ##### Parameters
 
@@ -233,7 +233,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **maxInstances**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L115)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L120)
 
 The maximum number of instances that can play at the same time. Defaults to `Infinity`.
 
@@ -245,7 +245,7 @@ The maximum number of instances that can play at the same time. Defaults to `Inf
 
 > **set** **maxInstances**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L119)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L124)
 
 ##### Parameters
 
@@ -265,7 +265,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L183)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L183)
 
 The name of the audio node.
 - Triggers `onNameChangedObservable` when changed.
@@ -282,7 +282,7 @@ The name of the audio node.
 
 > **set** **name**(`newName`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L187)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L187)
 
 ##### Parameters
 
@@ -306,7 +306,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **outBus**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PrimaryAudioBus`](../type-aliases/PrimaryAudioBus.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L51)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L79)
 
 The output bus for the sound.
 
@@ -322,7 +322,7 @@ The output bus for the sound.
 
 > **set** **outBus**(`outBus`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L55)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L83)
 
 ##### Parameters
 
@@ -346,7 +346,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **spatial**(): [`AbstractSpatialAudio`](AbstractSpatialAudio.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L86)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSoundSource.ts#L114)
 
 The spatial audio features.
 
@@ -366,7 +366,7 @@ The spatial audio features.
 
 > **get** **startOffset**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L126)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L131)
 
 The time within the sound buffer to start playing at, in seconds. Defaults to `0`.
 
@@ -378,7 +378,7 @@ The time within the sound buffer to start playing at, in seconds. Defaults to `0
 
 > **set** **startOffset**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L130)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L135)
 
 ##### Parameters
 
@@ -398,7 +398,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **get** **state**(): [`SoundState`](../enumerations/SoundState.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L137)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L142)
 
 The state of the sound.
 
@@ -414,7 +414,7 @@ The state of the sound.
 
 > **get** **volume**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L35)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L35)
 
 The audio output volume.
 
@@ -426,7 +426,7 @@ The audio output volume.
 
 > **set** **volume**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L39)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L39)
 
 ##### Parameters
 
@@ -448,7 +448,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstra
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L144)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L149)
 
 Releases associated resources.
 
@@ -466,7 +466,7 @@ Releases associated resources.
 
 > `abstract` **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L90)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L90)
 
 Gets a string identifying the name of the class
 
@@ -486,7 +486,7 @@ the class's name as a string
 
 > **pause**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L165)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L170)
 
 Pauses the sound.
 
@@ -500,7 +500,7 @@ Pauses the sound.
 
 > `abstract` **play**(`options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L160)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L165)
 
 Plays the sound.
 - Triggers `onEndedObservable` if played for the full duration and the `loop` option is not set.
@@ -521,11 +521,19 @@ The options to use when playing the sound. Options set here override the sound's
 
 ### resume()
 
-> **resume**(): `void`
+> **resume**(`options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L178)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L184)
 
 Resumes the sound.
+
+#### Parameters
+
+##### options?
+
+`Partial`\<[`IAbstractSoundPlayOptions`](../interfaces/IAbstractSoundPlayOptions.md)\>
+
+The options to use when resuming the sound. Only options explicitly set here override the paused instance's current options; unset options keep their paused values so playback continues from where it was paused.
 
 #### Returns
 
@@ -537,7 +545,7 @@ Resumes the sound.
 
 > **setVolume**(`value`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L68)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioOutNode.ts#L68)
 
 Sets the audio output volume with optional ramping.
 If the duration is 0 then the volume is set immediately, otherwise it is ramped to the new value over the given duration using the given shape.
@@ -571,7 +579,7 @@ The options to use for ramping the volume change.
 
 > `abstract` **stop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L196)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L202)
 
 Stops the sound.
 - Triggers `onEndedObservable` if the sound is playing.

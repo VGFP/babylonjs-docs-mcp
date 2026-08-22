@@ -6,7 +6,7 @@
 
 # Class: AnimationGroup
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L81)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L82)
 
 Use this class to create coordinated animations on multiple targets
 
@@ -20,7 +20,7 @@ Use this class to create coordinated animations on multiple targets
 
 > **new AnimationGroup**(`name`, `scene?`, `weight?`, `playOrder?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:477](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L477)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L478)
 
 Instantiates a new Animation Group.
 This helps managing several animations at once.
@@ -65,7 +65,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/groupAnimations
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L141)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L142)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -75,7 +75,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L479)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:480](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L480)
 
 The name of the animation group
 
@@ -85,7 +85,7 @@ The name of the animation group
 
 > **onAnimationEndObservable**: [`Observable`](Observable.md)\<[`TargetedAnimation`](TargetedAnimation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L111)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L112)
 
 This observable will notify when one animation have ended
 
@@ -95,7 +95,7 @@ This observable will notify when one animation have ended
 
 > **onAnimationGroupEndObservable**: [`Observable`](Observable.md)\<`AnimationGroup`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L126)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L127)
 
 This observable will notify when all animations have ended.
 
@@ -105,7 +105,7 @@ This observable will notify when all animations have ended.
 
 > **onAnimationGroupLoopObservable**: [`Observable`](Observable.md)\<`AnimationGroup`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L121)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L122)
 
 Observer raised when all animations have looped
 
@@ -115,7 +115,7 @@ Observer raised when all animations have looped
 
 > **onAnimationGroupPauseObservable**: [`Observable`](Observable.md)\<`AnimationGroup`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L131)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L132)
 
 This observable will notify when all animations have paused.
 
@@ -125,7 +125,7 @@ This observable will notify when all animations have paused.
 
 > **onAnimationGroupPlayObservable**: [`Observable`](Observable.md)\<`AnimationGroup`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L136)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L137)
 
 This observable will notify when all animations are playing.
 
@@ -135,7 +135,7 @@ This observable will notify when all animations are playing.
 
 > **onAnimationLoopObservable**: [`Observable`](Observable.md)\<[`TargetedAnimation`](TargetedAnimation.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L116)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L117)
 
 Observer raised when one animation loops
 
@@ -145,7 +145,7 @@ Observer raised when one animation loops
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L106)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L107)
 
 Gets or sets the unique id of the node
 
@@ -157,7 +157,7 @@ Gets or sets the unique id of the node
 
 > **get** **animatables**(): [`Animatable`](Animatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L365)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:366](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L366)
 
 returning the list of animatables controlled by this animation group.
 
@@ -173,7 +173,7 @@ returning the list of animatables controlled by this animation group.
 
 > **get** **blendingSpeed**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:425](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L425)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L426)
 
 Gets or sets the animation blending speed
 Note that a null value means that each animation will use their own existing blending configuration (Animation.blendingSpeed)
@@ -186,7 +186,7 @@ Note that a null value means that each animation will use their own existing ble
 
 > **set** **blendingSpeed**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L429)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L430)
 
 ##### Parameters
 
@@ -206,7 +206,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **children**(): [`TargetedAnimation`](TargetedAnimation.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L372)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L373)
 
 Gets the list of target animations
 
@@ -222,7 +222,7 @@ Gets the list of target animations
 
 > **get** **enableBlending**(): [`Nullable`](../type-aliases/Nullable.md)\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L403)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L404)
 
 Allows the animations of the animation group to blend with current running animations
 Note that a null value means that each animation will use their own existing blending configuration (Animation.enableBlending)
@@ -235,7 +235,7 @@ Note that a null value means that each animation will use their own existing ble
 
 > **set** **enableBlending**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L407)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L408)
 
 ##### Parameters
 
@@ -255,7 +255,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **from**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L225)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L226)
 
 Gets or sets the first frame
 
@@ -267,7 +267,7 @@ Gets or sets the first frame
 
 > **set** **from**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L229)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L230)
 
 ##### Parameters
 
@@ -287,7 +287,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **isAdditive**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L322)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L323)
 
 Gets or sets if all animations should be evaluated additively
 
@@ -299,7 +299,7 @@ Gets or sets if all animations should be evaluated additively
 
 > **set** **isAdditive**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L326)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L327)
 
 ##### Parameters
 
@@ -319,7 +319,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **isPlaying**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L272)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L273)
 
 Gets a value indicating that the current group is playing
 
@@ -335,7 +335,7 @@ Gets a value indicating that the current group is playing
 
 > **get** **isStarted**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L265)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:266](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L266)
 
 Define if the animations are started
 
@@ -351,7 +351,7 @@ Define if the animations are started
 
 > **get** **loopAnimation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L302)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:303](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L303)
 
 Gets or sets if all animations should loop or not
 
@@ -363,7 +363,7 @@ Gets or sets if all animations should loop or not
 
 > **set** **loopAnimation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L306)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:307](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L307)
 
 ##### Parameters
 
@@ -383,7 +383,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **mask**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationGroupMask`](AnimationGroupMask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L148)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L149)
 
 Gets or sets the mask associated with this animation group. This mask is used to filter which objects should be animated.
 
@@ -395,7 +395,7 @@ Gets or sets the mask associated with this animation group. This mask is used to
 
 > **set** **mask**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L152)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L153)
 
 ##### Parameters
 
@@ -415,7 +415,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **playOrder**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L379)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L380)
 
 Gets or sets the order of play of the animation group (default: 0)
 
@@ -427,7 +427,7 @@ Gets or sets the order of play of the animation group (default: 0)
 
 > **set** **playOrder**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L383)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L384)
 
 ##### Parameters
 
@@ -447,7 +447,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **speedRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L279)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L280)
 
 Gets or sets the speed ratio to use for all animations
 
@@ -459,7 +459,7 @@ Gets or sets the speed ratio to use for all animations
 
 > **set** **speedRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L286)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L287)
 
 Gets or sets the speed ratio to use for all animations
 
@@ -481,7 +481,7 @@ Gets or sets the speed ratio to use for all animations
 
 > **get** **targetedAnimations**(): [`TargetedAnimation`](TargetedAnimation.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L358)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L359)
 
 Gets the targeted animations for this animation group
 
@@ -497,7 +497,7 @@ Gets the targeted animations for this animation group
 
 > **get** **to**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L245)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L246)
 
 Gets or sets the last frame
 
@@ -509,7 +509,7 @@ Gets or sets the last frame
 
 > **set** **to**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L249)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L250)
 
 ##### Parameters
 
@@ -529,7 +529,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **get** **weight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L342)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L343)
 
 Gets or sets the weight to apply to all animations of the group
 
@@ -541,7 +541,7 @@ Gets or sets the weight to apply to all animations of the group
 
 > **set** **weight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L346)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L347)
 
 ##### Parameters
 
@@ -559,7 +559,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pu
 
 > **addTargetedAnimation**(`animation`, `target`): [`TargetedAnimation`](TargetedAnimation.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L498)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:501](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L501)
 
 Add an animation (with its target) in the group
 
@@ -589,7 +589,7 @@ the TargetedAnimation object
 
 > **clone**(`newName`, `targetConverter?`, `cloneAnimations?`, `cloneAnimationKeys?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:904](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L904)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:907](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L907)
 
 Clone the current animation group and returns a copy
 
@@ -631,7 +631,7 @@ the new animation group
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:853](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L853)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:856](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L856)
 
 Dispose all associated resources
 
@@ -649,7 +649,7 @@ Dispose all associated resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:967](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L967)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:970](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L970)
 
 Returns the string "AnimationGroup"
 
@@ -665,7 +665,7 @@ Returns the string "AnimationGroup"
 
 > **getCurrentFrame**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:846](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L846)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:849](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L849)
 
 Helper to get the current frame. This will return 0 if the AnimationGroup is not running, and it might return wrong results if multiple animations are running in different frames.
 
@@ -681,7 +681,7 @@ current animation frame.
 
 > **getLength**(`from?`, `to?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L451)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:452](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L452)
 
 Gets the length (in seconds) of the animation group
 This function assumes that all animations are played at the same framePerSecond speed!
@@ -713,7 +713,7 @@ The length in seconds
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:464](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L464)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:465](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L465)
 
 Gets the scene the animation group belongs to
 
@@ -729,7 +729,7 @@ The scene the animation group belongs to
 
 > **goToFrame**(`frame`, `useWeight?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L829)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:832](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L832)
 
 Goes to a specific frame in this animation group. Note that the animation group must be in playing or paused status
 
@@ -759,7 +759,7 @@ the animationGroup
 
 > **normalize**(`beginFrame?`, `endFrame?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L546)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L549)
 
 This function will normalize every animation in the group to make sure they all go from beginFrame to endFrame
 It can add constant keys at begin or end
@@ -790,7 +790,7 @@ the animation group
 
 > **pause**(): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L673)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:676](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L676)
 
 Pause all animations
 
@@ -806,7 +806,7 @@ the animation group
 
 > **play**(`loop?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L696)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:699](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L699)
 
 Play all animations to initial state
 This function will start() the animations if they were not started or will restart() them if they were paused
@@ -831,7 +831,7 @@ the animation group
 
 > **removeTargetedAnimation**(`animation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:530](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L530)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:533](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L533)
 
 Remove an animation from the group
 
@@ -853,7 +853,7 @@ defines the animation we want to remove
 
 > **removeUnmaskedAnimations**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L195)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L196)
 
 Removes all animations for the targets not retained by the animation group mask.
 Use this function if you know you won't need those animations anymore and if you want to free memory.
@@ -868,7 +868,7 @@ Use this function if you know you won't need those animations anymore and if you
 
 > **reset**(): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:715](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L715)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L718)
 
 Reset all animations to initial state
 
@@ -884,7 +884,7 @@ the animation group
 
 > **restart**(): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L735)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:738](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L738)
 
 Restart animations from after pausing it
 
@@ -900,7 +900,7 @@ the animation group
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:931](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L931)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:934](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L934)
 
 Serializes the animationGroup to an object
 
@@ -916,7 +916,7 @@ Serialized object
 
 > **setWeightForAllAnimatables**(`weight`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L799)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:802](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L802)
 
 **`Since`**
 
@@ -950,7 +950,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **start**(`loop?`, `speedRatio?`, `from?`, `to?`, `isAdditive?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:620](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L620)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L623)
 
 Start all animations on given targets
 
@@ -998,7 +998,7 @@ the current animation group
 
 > **stop**(`skipOnAnimationEnd?`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:759](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L759)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:762](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L762)
 
 Stop all animations
 
@@ -1022,7 +1022,7 @@ the animation group
 
 > **syncAllAnimationsWith**(`root`): `AnimationGroup`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:814](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L814)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:817](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L817)
 
 Synchronize and normalize all animatables with a source animatable
 
@@ -1050,7 +1050,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **syncWithMask**(`forceUpdate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L167)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L168)
 
 Makes sure that the animations are either played or stopped according to the animation group mask.
 Note however that the call won't have any effect if the animation group has not been started yet.
@@ -1073,7 +1073,7 @@ If true, forces to loop over the animatables even if no mask is defined (used in
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L976)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:979](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L979)
 
 Creates a detailed string about the object
 

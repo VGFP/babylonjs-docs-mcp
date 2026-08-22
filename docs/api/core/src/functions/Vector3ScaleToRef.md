@@ -8,7 +8,7 @@
 
 > **Vector3ScaleToRef**\<`T`\>(`a`, `scale`, `result`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.vector.functions.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.vector.functions.ts#L87)
+Defined in: [packages/dev/core/src/Maths/math.vector.functions.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vector.functions.ts#L87)
 
 Stores the scaled values of a vector into the result.
 

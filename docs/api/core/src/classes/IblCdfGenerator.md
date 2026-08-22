@@ -6,7 +6,7 @@
 
 # Class: IblCdfGenerator
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L25)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L25)
 
 Build cdf maps to be used for IBL importance sampling.
 
@@ -16,7 +16,7 @@ Build cdf maps to be used for IBL importance sampling.
 
 > **new IblCdfGenerator**(`sceneOrEngine`): `IblCdfGenerator`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L201)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:201](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L201)
 
 Instanciates the CDF renderer
 
@@ -40,7 +40,7 @@ The CDF renderer
 
 > **debugEnabled**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L155)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L155)
 
 Enable the debug view for this pass
 
@@ -50,7 +50,7 @@ Enable the debug view for this pass
 
 > **onGeneratedObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L229)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L229)
 
 Observable that triggers when the CDF renderer is ready
 
@@ -60,7 +60,7 @@ Observable that triggers when the CDF renderer is ready
 
 > **onTextureChangedObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:236](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L236)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:236](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L236)
 
 Observable that triggers when CDF texture references change.
 It is raised after disposing textures (so fallback ICDF can be used)
@@ -74,7 +74,7 @@ and after creating new textures (so consumers can rebind immediately).
 
 > **get** **debugPassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L173)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L173)
 
 The name of the debug pass post process
 
@@ -90,7 +90,7 @@ The name of the debug pass post process
 
 > **get** **iblSource**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L55)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L55)
 
 Gets the IBL source texture being used by the CDF renderer
 
@@ -102,7 +102,7 @@ Gets the IBL source texture being used by the CDF renderer
 
 > **set** **iblSource**(`source`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L63)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L63)
 
 Sets the IBL source texture to be used by the CDF renderer.
 This will trigger recreation of the CDF assets.
@@ -125,7 +125,7 @@ This will trigger recreation of the CDF assets.
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L44)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L44)
 
 Returns whether the CDF renderer is supported by the current engine
 
@@ -139,7 +139,7 @@ Returns whether the CDF renderer is supported by the current engine
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:514](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L514)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:514](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L514)
 
 Disposes the CDF renderer and associated resources
 
@@ -153,7 +153,7 @@ Disposes the CDF renderer and associated resources
 
 > **findDominantDirection**(): `Promise`\<[`Vector3`](Vector3.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L475)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:475](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L475)
 
 Finds the average direction of the highest intensity areas of the IBL source
 
@@ -169,7 +169,7 @@ Async promise that resolves to the dominant direction of the IBL source
 
 > **getDebugPassPP**(): [`PostProcess`](PostProcess.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L182)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L182)
 
 Gets the debug pass post process
 
@@ -185,7 +185,7 @@ The post process
 
 > **getIcdfTexture**(): [`Texture`](Texture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L150)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L150)
 
 Return the cumulative distribution function (CDF) texture
 
@@ -201,7 +201,7 @@ Return the cumulative distribution function (CDF) texture
 
 > **isReady**(): `boolean` \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L411)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:411](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L411)
 
 Checks if the CDF renderer is ready
 
@@ -217,7 +217,7 @@ true if the CDF renderer is ready
 
 > **renderWhenReady**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:432](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L432)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:432](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L432)
 
 Explicitly trigger generation of CDF maps when they are ready to render.
 
@@ -233,7 +233,7 @@ Promise that resolves when the CDF maps are rendered.
 
 > **setDebugDisplayParams**(`x`, `y`, `widthScale`, `heightScale`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/iblCdfGenerator.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L166)
+Defined in: [packages/dev/core/src/Rendering/iblCdfGenerator.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/iblCdfGenerator.ts#L166)
 
 Sets params that control the position and scaling of the debug display on the screen.
 

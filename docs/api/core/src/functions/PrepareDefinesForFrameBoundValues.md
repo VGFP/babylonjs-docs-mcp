@@ -8,7 +8,7 @@
 
 > **PrepareDefinesForFrameBoundValues**(`scene`, `engine`, `material`, `defines`, `useInstances`, `useClipPlane?`, `useThinInstances?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:1032](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.functions.ts#L1032)
+Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:1111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialHelper.functions.ts#L1111)
 
 Helper used to prepare the list of defines associated with frame values for shader compilation
 

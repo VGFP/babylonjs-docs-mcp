@@ -6,7 +6,7 @@
 
 # Interface: IActionEvent
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L10)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L10)
 
 Interface used to define ActionEvent
 
@@ -16,7 +16,7 @@ Interface used to define ActionEvent
 
 > `optional` **additionalData?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L22)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L22)
 
 additional data for the event
 
@@ -26,7 +26,7 @@ additional data for the event
 
 > **meshUnderPointer**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](../classes/AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L18)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L18)
 
 The mesh that is currently pointed at (can be null)
 
@@ -36,7 +36,7 @@ The mesh that is currently pointed at (can be null)
 
 > **pointerX**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L14)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L14)
 
 The X mouse cursor position at the time of the event
 
@@ -46,7 +46,7 @@ The X mouse cursor position at the time of the event
 
 > **pointerY**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L16)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L16)
 
 The Y mouse cursor position at the time of the event
 
@@ -56,7 +56,7 @@ The Y mouse cursor position at the time of the event
 
 > **source**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L12)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L12)
 
 The mesh or sprite that triggered the action
 
@@ -66,6 +66,6 @@ The mesh or sprite that triggered the action
 
 > `optional` **sourceEvent?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/actionEvent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/actionEvent.ts#L20)
+Defined in: [packages/dev/core/src/Actions/actionEvent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/actionEvent.ts#L20)
 
 the original (browser) event that triggered the ActionEvent

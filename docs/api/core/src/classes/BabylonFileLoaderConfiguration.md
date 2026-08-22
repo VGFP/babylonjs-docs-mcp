@@ -6,7 +6,7 @@
 
 # Class: BabylonFileLoaderConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts#L47)
+Defined in: [packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts#L48)
 
 Helps setting up some configuration for the babylon file loader.
 
@@ -26,7 +26,7 @@ Helps setting up some configuration for the babylon file loader.
 
 > `static` **LoaderInjectedPhysicsEngine**: `any` = `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts#L53)
+Defined in: [packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/Plugins/babylonFileLoader.pure.ts#L54)
 
 The loader does not allow injecting custom physics engine into the plugins.
 Unfortunately in ES6, we need to manually inject them into the plugin.

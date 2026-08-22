@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractSpatialAudio
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L154)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L154)
 
 Abstract class representing the `spatial` audio property on a sound or audio bus.
 
@@ -30,7 +30,7 @@ Abstract class representing the `spatial` audio property on a sound or audio bus
 
 > `abstract` **attachedNode**: [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L195)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L195)
 
 The scene node this spatial audio is currently attached to, or `null` if not attached.
 
@@ -40,7 +40,7 @@ The scene node this spatial audio is currently attached to, or `null` if not att
 
 > `abstract` **attachmentType**: [`SpatialAudioAttachmentType`](../enumerations/SpatialAudioAttachmentType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L207)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L207)
 
 Which components (position, rotation, or both) of the attached scene node's world transform drive the spatial audio.
 - Only meaningful while [isAttached](#isattached) is `true`.
@@ -51,7 +51,7 @@ Which components (position, rotation, or both) of the attached scene node's worl
 
 > `abstract` **coneInnerAngle**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L159)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L159)
 
 The spatial cone inner angle, in radians. Defaults to 2π.
 - When the listener is inside the cone inner angle, the volume is at its maximum.
@@ -62,7 +62,7 @@ The spatial cone inner angle, in radians. Defaults to 2π.
 
 > `abstract` **coneOuterAngle**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L166)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L166)
 
 The spatial cone outer angle, in radians. Defaults to 2π.
 - When the listener is between the the cone inner and outer angles, the volume fades to its minimum as the listener approaches the outer angle.
@@ -74,7 +74,7 @@ The spatial cone outer angle, in radians. Defaults to 2π.
 
 > `abstract` **coneOuterVolume**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L171)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L171)
 
 The amount of volume reduction outside the [coneOuterAngle](#coneouterangle). Defaults to 0.
 
@@ -84,7 +84,7 @@ The amount of volume reduction outside the [coneOuterAngle](#coneouterangle). De
 
 > `abstract` **distanceModel**: `"linear"` \| `"inverse"` \| `"exponential"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L185)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L185)
 
 The algorithm to use to reduce the volume of the audio source as it moves away from the listener. Defaults to "inverse".
 
@@ -105,7 +105,7 @@ Possible values are:
 
 > `abstract` **isAttached**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L190)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L190)
 
 Whether the audio source is attached to a mesh or transform node.
 
@@ -115,7 +115,7 @@ Whether the audio source is attached to a mesh or transform node.
 
 > `abstract` **maxDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L214)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L214)
 
 The maximum distance between the audio source and the listener, after which the volume is not reduced any further. Defaults to 10000.
 - This value is used only when the [distanceModel](#distancemodel) is set to `"linear"`.
@@ -130,7 +130,7 @@ The maximum distance between the audio source and the listener, after which the 
 
 > `abstract` **minDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L221)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L221)
 
 The distance for reducing volume as the audio source moves away from the listener – i.e. the distance the volume reduction starts at. Defaults to 1.
 - This value is used by all distance models.
@@ -145,7 +145,7 @@ The distance for reducing volume as the audio source moves away from the listene
 
 > `abstract` **minUpdateTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:227](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L227)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:227](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L227)
 
 The minimum update time in seconds of the spatialization if it is attached to a mesh or transform node. Defaults to `0`.
 - The spatialization's position and rotation will not update faster than this time, but they may update slower depending on the frame rate.
@@ -156,7 +156,7 @@ The minimum update time in seconds of the spatialization if it is attached to a 
 
 > `abstract` **orientation**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L232)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L232)
 
 The spatial orientation used to determine the direction of the audio source. Defaults to (0, 0, -1).
 
@@ -166,7 +166,7 @@ The spatial orientation used to determine the direction of the audio source. Def
 
 > `abstract` **panningEnabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L240)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L240)
 
 Whether to spatially pan the audio source. Defaults to `true`.
 
@@ -179,7 +179,7 @@ Sound cone attenuation is not applied while panning is disabled.
 
 > `abstract` **panningModel**: `"equalpower"` \| `"HRTF"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L249)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:249](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L249)
 
 The spatial panning model. Defaults to "equalpower".
 
@@ -193,7 +193,7 @@ Possible values are:
 
 > `abstract` **position**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L254)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L254)
 
 The spatial position. Defaults to (0, 0, 0).
 
@@ -203,7 +203,7 @@ The spatial position. Defaults to (0, 0, 0).
 
 > `abstract` **rolloffFactor**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L261)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L261)
 
 How quickly the volume is reduced as the source moves away from the listener. Defaults to 1.
 - This value is used by all distance models.
@@ -218,7 +218,7 @@ How quickly the volume is reduced as the source moves away from the listener. De
 
 > `abstract` **rotation**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L266)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:266](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L266)
 
 The spatial rotation used to determine the direction of the audio source. Defaults to (0, 0, 0).
 
@@ -228,7 +228,7 @@ The spatial rotation used to determine the direction of the audio source. Defaul
 
 > `abstract` **rotationQuaternion**: [`Quaternion`](Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:271](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L271)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L271)
 
 The spatial rotation quaternion used to determine the direction of the audio source. Defaults to (0, 0, 0, 1).
 
@@ -238,7 +238,7 @@ The spatial rotation quaternion used to determine the direction of the audio sou
 
 > `abstract` **useBoundingBox**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L201)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:201](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L201)
 
 Whether the spatial audio is positioned using the attached scene node's bounding box (when the node is a mesh) instead of its world transform.
 - Only meaningful while [isAttached](#isattached) is `true`.
@@ -249,7 +249,7 @@ Whether the spatial audio is positioned using the attached scene node's bounding
 
 > `abstract` **attach**(`sceneNode`, `useBoundingBox?`, `attachmentType?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L283)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L283)
 
 Attaches to a scene node.
 
@@ -286,7 +286,7 @@ Whether to attach to the node's position and/or rotation. Defaults to `PositionA
 
 > `abstract` **detach**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L288)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L288)
 
 Detaches from the scene node if attached.
 
@@ -300,7 +300,7 @@ Detaches from the scene node if attached.
 
 > `abstract` **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L300)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L300)
 
 Releases associated resources.
 
@@ -314,7 +314,7 @@ Releases associated resources.
 
 > `abstract` **update**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L295)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts:295](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudio.ts#L295)
 
 Updates the position and rotation of the associated audio engine object in the audio rendering graph.
 

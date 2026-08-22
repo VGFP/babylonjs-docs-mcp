@@ -6,7 +6,7 @@
 
 # Class: WebXREnterExitUIButton
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXREnterExitUI.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXREnterExitUI.ts#L10)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L10)
 
 Button which can be used to enter a different mode of XR
 
@@ -16,7 +16,7 @@ Button which can be used to enter a different mode of XR
 
 > **new WebXREnterExitUIButton**(`element`, `sessionMode`, `referenceSpaceType`): `WebXREnterExitUIButton`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXREnterExitUI.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXREnterExitUI.ts#L17)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L17)
 
 Creates a WebXREnterExitUIButton
 
@@ -50,7 +50,7 @@ the type of reference space to be used
 
 > **element**: `HTMLElement`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXREnterExitUI.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXREnterExitUI.ts#L19)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L19)
 
 button element
 
@@ -60,7 +60,7 @@ button element
 
 > **referenceSpaceType**: `XRReferenceSpaceType`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXREnterExitUI.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXREnterExitUI.ts#L23)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L23)
 
 Reference space type
 
@@ -70,7 +70,7 @@ Reference space type
 
 > **sessionMode**: `XRSessionMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXREnterExitUI.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXREnterExitUI.ts#L21)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L21)
 
 XR initialization options for the button
 
@@ -80,7 +80,7 @@ XR initialization options for the button
 
 > **update**(`activeButton`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXREnterExitUI.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXREnterExitUI.ts#L31)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L31)
 
 Extendable function which can be used to update the button's visuals when the state changes
 

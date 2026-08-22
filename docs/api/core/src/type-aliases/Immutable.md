@@ -8,7 +8,7 @@
 
 > **Immutable**\<`T`\> = `T` *extends* `Primitive` ? `T` : `T` *extends* infer U[] ? `ReadonlyArray`\<`U`\> : [`DeepImmutable`](DeepImmutable.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L167)
+Defined in: [packages/dev/core/src/types.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/types.ts#L157)
 
 Type modifier to make all the properties of an object Readonly
 

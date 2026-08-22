@@ -6,7 +6,7 @@
 
 # Interface: IGPUMultiPickingInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L56)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L57)
 
 Stores the result of a multi GPU picking operation
 
@@ -16,7 +16,7 @@ Stores the result of a multi GPU picking operation
 
 > **meshes**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](../classes/AbstractMesh.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L60)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L61)
 
 Picked mesh
 
@@ -26,7 +26,7 @@ Picked mesh
 
 > `optional` **normals?**: [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](../classes/Vector3.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L78)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L79)
 
 Reconstructed normals in world space.
 
@@ -39,7 +39,7 @@ Custom picking materials or special material plugins that do not write the depth
 
 > `optional` **pickedPoints?**: [`Nullable`](../type-aliases/Nullable.md)\<[`Vector3`](../classes/Vector3.md)\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L71)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L72)
 
 Picked points in world space.
 
@@ -52,6 +52,6 @@ Custom picking materials or special material plugins that do not write the depth
 
 > `optional` **thinInstanceIndexes?**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L64)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L65)
 
 Picked thin instance index

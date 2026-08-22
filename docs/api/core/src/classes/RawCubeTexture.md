@@ -6,7 +6,7 @@
 
 # Class: RawCubeTexture
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L13)
+Defined in: [packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L13)
 
 Raw cube texture where the raw buffers are passed in
 
@@ -20,7 +20,7 @@ Raw cube texture where the raw buffers are passed in
 
 > **new RawCubeTexture**(`scene`, `data`, `size`, `format?`, `type?`, `generateMipMaps?`, `invertY?`, `samplingMode?`, `compression?`): `RawCubeTexture`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L26)
+Defined in: [packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L26)
 
 Creates a cube texture where the raw buffers are passed in.
 
@@ -94,7 +94,7 @@ defines the compression used (null by default)
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L487)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L487)
 
 Define the list of animation attached to the texture.
 
@@ -108,7 +108,7 @@ Define the list of animation attached to the texture.
 
 > **anisotropicFilteringLevel**: `number` = `BaseTexture.DEFAULT_ANISOTROPIC_FILTERING_LEVEL`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L222)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L222)
 
 With compliant hardware and browser (supporting anisotropic filtering)
 this defines the level of anisotropic filtering in the texture.
@@ -124,7 +124,7 @@ The higher the better but the slower. This defaults to 4 as it seems to be the b
 
 > **boundingBoxPosition**: [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L95)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L96)
 
 Gets or sets the center of the bounding box associated with the cube texture.
 It must define where the camera used to render the texture was set
@@ -143,7 +143,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/reflectionTe
 
 > **delayLoadState**: `number` = `Constants.DELAYLOADSTATE_NONE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L66)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L66)
 
 Define the current state of the loading sequence when in delayed load mode.
 
@@ -157,7 +157,7 @@ Define the current state of the loading sequence when in delayed load mode.
 
 > **displayName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L49)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L49)
 
 Define the display name of the texture, which is used as tree item name of the dedicated node in the inspector
 
@@ -171,7 +171,7 @@ Define the display name of the texture, which is used as tree item name of the d
 
 > **invertZ**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L352)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L352)
 
 Is Z inverted in the texture (useful in a cube texture).
 
@@ -185,7 +185,7 @@ Is Z inverted in the texture (useful in a cube texture).
 
 > **isRenderTarget**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L451)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L451)
 
 Define if the texture is a render target.
 
@@ -199,7 +199,7 @@ Define if the texture is a render target.
 
 > **level**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L111)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L111)
 
 Intensity or strength of the texture.
 It is commonly used by materials to fine tune the intensity of the texture
@@ -214,7 +214,7 @@ It is commonly used by materials to fine tune the intensity of the texture
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L55)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L55)
 
 Gets or sets an object used to store user defined information.
 
@@ -228,7 +228,7 @@ Gets or sets an object used to store user defined information.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L43)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L43)
 
 Define the name of the texture.
 
@@ -242,7 +242,7 @@ Define the name of the texture.
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L492)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L492)
 
 An event triggered when the texture is disposed.
 
@@ -256,7 +256,7 @@ An event triggered when the texture is disposed.
 
 > **onLoadObservable**: [`Observable`](Observable.md)\<[`CubeTexture`](CubeTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L81)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L82)
 
 Observable triggered once the texture has been loaded.
 
@@ -270,7 +270,7 @@ Observable triggered once the texture has been loaded.
 
 > **optimizeUVAllocation**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L121)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L121)
 
 Gets or sets a boolean indicating that the texture should try to reduce shader code if there is no UV manipulation.
 (ie. when texture.getTextureMatrix().isIdentityAs3x2() returns true)
@@ -285,7 +285,7 @@ Gets or sets a boolean indicating that the texture should try to reduce shader c
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L63)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L63)
 
 For internal use only. Please do not use.
 
@@ -299,7 +299,7 @@ For internal use only. Please do not use.
 
 > **sphericalPolynomial**: [`Nullable`](../type-aliases/Nullable.md)\<[`SphericalPolynomial`](SphericalPolynomial.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L11)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L11)
 
 Get the polynomial representation of the texture data.
 This is mainly use as a fast way to recover IBL Diffuse irradiance data.
@@ -318,7 +318,7 @@ https://learnopengl.com/PBR/IBL/Diffuse-irradiance
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L37)
 
 Gets or sets the unique id of the texture
 
@@ -332,7 +332,7 @@ Gets or sets the unique id of the texture
 
 > **url**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L87)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L88)
 
 The url of the texture
 
@@ -346,7 +346,7 @@ The url of the texture
 
 > **wrapR**: `number` = `Constants.TEXTURE_WRAP_ADDRESSMODE`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L214)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L214)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -364,7 +364,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > `static` **DEFAULT\_ANISOTROPIC\_FILTERING\_LEVEL**: `number` = `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L31)
 
 Default anisotropic filtering level for the application.
 It is set to 4 as a good tradeoff between perf and quality.
@@ -381,7 +381,7 @@ It is set to 4 as a good tradeoff between perf and quality.
 
 > **get** **boundingBoxSize**(): [`Vector3`](Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L120)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L121)
 
 Returns the bounding box size
 
@@ -397,7 +397,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/reflectionTe
 
 > **set** **boundingBoxSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L105)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L106)
 
 Gets or sets the size of the bounding box associated with the cube texture
 When defined, the cubemap will switch to local mode
@@ -434,7 +434,7 @@ https://www.babylonjs-playground.com/#RNASML
 
 > **get** **canRescale**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:635](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L635)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:635](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L635)
 
 Get if the texture can rescale.
 
@@ -454,7 +454,7 @@ Get if the texture can rescale.
 
 > **get** **coordinatesIndex**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L138)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L138)
 
 ##### Returns
 
@@ -464,7 +464,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **set** **coordinatesIndex**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L127)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L127)
 
 Define the UV channel to use starting from 0 and defaulting to 0.
 This is part of the texture as textures usually maps to one uv set.
@@ -491,7 +491,7 @@ This is part of the texture as textures usually maps to one uv set.
 
 > **get** **coordinatesMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L172)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L172)
 
 How a texture is mapped.
 Unused in thin texture mode.
@@ -504,7 +504,7 @@ Unused in thin texture mode.
 
 > **set** **coordinatesMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L161)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L161)
 
 How a texture is mapped.
 
@@ -543,7 +543,7 @@ How a texture is mapped.
 
 > **get** **errorObject**(): \{ `exception?`: `any`; `message?`: `string`; \} \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L538)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L538)
 
 If a loading error occurred this object will be populated with information about the error.
 
@@ -563,7 +563,7 @@ If a loading error occurred this object will be populated with information about
 
 > **get** **forcedExtension**(): [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L160)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L161)
 
 Gets the forced extension (if any)
 
@@ -583,7 +583,7 @@ Gets the forced extension (if any)
 
 > **get** **gammaSpace**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L297)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L297)
 
 Define if the texture contains data in gamma space (most of the png/jpg aside bump).
 HDR texture are usually stored in linear space.
@@ -597,7 +597,7 @@ This only impacts the PBR and Background materials
 
 > **set** **gammaSpace**(`gamma`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L309)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L309)
 
 ##### Parameters
 
@@ -621,7 +621,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **getAlphaFromRGB**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L102)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L102)
 
 ##### Returns
 
@@ -631,7 +631,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **set** **getAlphaFromRGB**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L91)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L91)
 
 Defines if the alpha value should be determined via the rgb values.
 If true the luminance of the pixel might be used to find the corresponding alpha value.
@@ -658,7 +658,7 @@ If true the luminance of the pixel might be used to find the corresponding alpha
 
 > **get** **hasAlpha**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L81)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L81)
 
 ##### Returns
 
@@ -668,7 +668,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **set** **hasAlpha**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L70)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L70)
 
 Define if the texture is having a usable alpha value (can be use for transparency or glossiness for instance).
 
@@ -694,7 +694,7 @@ Define if the texture is having a usable alpha value (can be use for transparenc
 
 > **get** **irradianceTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L426)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L426)
 
 In case a better definition than spherical harmonics is required for the diffuse part of the environment.
 You can set the irradiance texture to rely on a texture instead of the spherical approach.
@@ -708,7 +708,7 @@ This texture need to have the same characteristics than its parent (Cube vs 2d, 
 
 > **set** **irradianceTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L433)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L433)
 
 ##### Parameters
 
@@ -732,7 +732,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **is2DArray**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L272)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L272)
 
 Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
@@ -744,7 +744,7 @@ Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
 > **set** **is2DArray**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L281)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L281)
 
 Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
@@ -770,7 +770,7 @@ Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
 > **get** **is3D**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L251)
 
 Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
@@ -782,7 +782,7 @@ Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
 > **set** **is3D**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L260)
 
 Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
@@ -808,7 +808,7 @@ Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
 > **get** **isBlocking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L515)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L515)
 
 Define if the texture is preventing a material to render or not.
 If not and the texture is not ready, the engine will use a default black texture instead.
@@ -829,7 +829,7 @@ If not and the texture is not ready, the engine will use a default black texture
 
 > **get** **isCube**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L230)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L230)
 
 Define if the texture is a cube texture or if false a 2d texture.
 
@@ -841,7 +841,7 @@ Define if the texture is a cube texture or if false a 2d texture.
 
 > **set** **isCube**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L239)
 
 Define if the texture is a cube texture or if false a 2d texture.
 
@@ -867,7 +867,7 @@ Define if the texture is a cube texture or if false a 2d texture.
 
 > **get** **isRGBD**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L331)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L331)
 
 Gets or sets whether or not the texture contains RGBD data.
 
@@ -879,7 +879,7 @@ Gets or sets whether or not the texture contains RGBD data.
 
 > **set** **isRGBD**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L334)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L334)
 
 ##### Parameters
 
@@ -903,7 +903,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **linearSpecularLOD**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L407)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L407)
 
 With prefiltered texture, defined if the specular generation is based on a linear ramp.
 By default we are using a log2 of the linear roughness helping to keep a better resolution for
@@ -917,7 +917,7 @@ average roughness values.
 
 > **set** **linearSpecularLOD**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L414)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L414)
 
 ##### Parameters
 
@@ -941,7 +941,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **loadingError**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L531)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L531)
 
 Was there any loading error?
 
@@ -961,7 +961,7 @@ Was there any loading error?
 
 > **get** **lodGenerationOffset**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L371)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L371)
 
 With prefiltered texture, defined the offset used during the prefiltering steps.
 
@@ -973,7 +973,7 @@ With prefiltered texture, defined the offset used during the prefiltering steps.
 
 > **set** **lodGenerationOffset**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L378)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L378)
 
 ##### Parameters
 
@@ -997,7 +997,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **lodGenerationScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L388)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L388)
 
 With prefiltered texture, defined the scale used during the prefiltering steps.
 
@@ -1009,7 +1009,7 @@ With prefiltered texture, defined the scale used during the prefiltering steps.
 
 > **set** **lodGenerationScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L395)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L395)
 
 ##### Parameters
 
@@ -1033,7 +1033,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **noMipmap**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L144)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L145)
 
 Are mip maps generated for this texture or not.
 
@@ -1053,7 +1053,7 @@ Are mip maps generated for this texture or not.
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L499)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L499)
 
 Callback triggered when the texture has been disposed.
 Kept for back compatibility, you can use the onDisposeObservable instead.
@@ -1080,7 +1080,7 @@ Kept for back compatibility, you can use the onDisposeObservable instead.
 
 > **get** **rotationY**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L137)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L138)
 
 Gets texture matrix rotation angle around Y axis radians.
 
@@ -1092,7 +1092,7 @@ Gets texture matrix rotation angle around Y axis radians.
 
 > **set** **rotationY**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L130)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L131)
 
 Sets texture matrix rotation angle around Y axis in radians.
 
@@ -1118,7 +1118,7 @@ Sets texture matrix rotation angle around Y axis in radians.
 
 > **get** **samplingMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L254)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L254)
 
 Get the current sampling mode associated with the texture.
 
@@ -1138,7 +1138,7 @@ Get the current sampling mode associated with the texture.
 
 > **get** **textureFormat**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L696)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L696)
 
 Get the texture underlying format (RGB, RGBA...)
 
@@ -1158,7 +1158,7 @@ Get the texture underlying format (RGB, RGBA...)
 
 > **get** **textureType**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L685)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L685)
 
 Get the texture underlying type (INT, FLOAT...)
 
@@ -1178,7 +1178,7 @@ Get the texture underlying type (INT, FLOAT...)
 
 > **get** **uid**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L456)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L456)
 
 Define the unique id of the texture in the scene.
 
@@ -1198,7 +1198,7 @@ Define the unique id of the texture in the scene.
 
 > **get** **wrapU**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L184)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L184)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -1214,7 +1214,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **set** **wrapU**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L187)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L187)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -1244,7 +1244,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **get** **wrapV**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L199)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L199)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -1260,7 +1260,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **set** **wrapV**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L202)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L202)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -1288,7 +1288,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTextu
 
 > **clone**(): [`CubeTexture`](CubeTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L72)
+Defined in: [packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L72)
 
 Clones the raw cube texture.
 
@@ -1308,7 +1308,7 @@ a new cube texture
 
 > **delayLoad**(`forcedExtension?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L355)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L358)
 
 Delays loading of the cube texture
 
@@ -1334,7 +1334,7 @@ defines the extension to use
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:840](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L840)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:840](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L840)
 
 Dispose the texture and release its associated resources.
 
@@ -1352,7 +1352,7 @@ Dispose the texture and release its associated resources.
 
 > **forceSphericalPolynomialsRecompute**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L17)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L17)
 
 Force recomputation of spherical polynomials.
 Can be useful if you generate a cubemap multiple times (from a probe for eg) and you need the proper polynomials each time
@@ -1371,7 +1371,7 @@ Can be useful if you generate a cubemap multiple times (from a probe for eg) and
 
 > **getBaseSize**(): [`ISize`](../interfaces/ISize.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L230)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L230)
 
 Get the base size of the texture.
 It can be different from the size if the texture has been resized for POT for instance
@@ -1392,7 +1392,7 @@ the base size
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L267)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L270)
 
 Get the current class name of the texture useful for serialization or dynamic coding.
 
@@ -1412,7 +1412,7 @@ Get the current class name of the texture useful for serialization or dynamic co
 
 > **getInternalTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L199)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L199)
 
 Get the underlying lower level texture from Babylon.
 
@@ -1432,7 +1432,7 @@ the internal texture
 
 > **getReflectionTextureMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L371)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L374)
 
 Returns the reflection texture matrix
 
@@ -1452,7 +1452,7 @@ the reflection texture matrix
 
 > **getRefractionTextureMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:411](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L411)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L414)
 
 Gets a suitable rotate/transform matrix when the texture is used for refraction.
 There's a separate function from getReflectionTextureMatrix because refraction requires a special configuration of the matrix in right-handed mode.
@@ -1473,7 +1473,7 @@ The refraction matrix
 
 > **getScene**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L583)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L583)
 
 Get the scene the texture belongs to.
 
@@ -1493,7 +1493,7 @@ the scene or null if undefined
 
 > **getSize**(): [`ISize`](../interfaces/ISize.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L207)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L207)
 
 Get the size of the texture.
 
@@ -1513,7 +1513,7 @@ the texture size.
 
 > **getTextureMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L596)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:596](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L596)
 
 Get the texture transform matrix used to offset tile the texture for instance.
 
@@ -1533,7 +1533,7 @@ the transformation matrix
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L177)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L177)
 
 Get if the texture is ready to be used (downloaded, converted, mip mapped...).
 
@@ -1553,7 +1553,7 @@ true if fully ready
 
 > **isReadyOrNotBlocking**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:621](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L621)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:621](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L621)
 
 Get if the texture is ready to be consumed (either it is ready or it is not blocking)
 
@@ -1573,7 +1573,7 @@ true if ready, not blocking or if there was an error loading the texture
 
 > **readPixels**(`faceIndex?`, `level?`, `buffer?`, `flushRenderer?`, `noDataConversion?`, `x?`, `y?`, `width?`, `height?`): [`Nullable`](../type-aliases/Nullable.md)\<`Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:733](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L733)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:733](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L733)
 
 Reads the pixels stored in the webgl texture and returns them as an ArrayBuffer.
 This will returns an RGBA array buffer containing either in values (0-255) or
@@ -1652,7 +1652,7 @@ The Array buffer promise containing the pixels data.
 
 > **releaseInternalTexture**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L296)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L296)
 
 Release and destroy the underlying lower level texture aka internalTexture.
 
@@ -1670,7 +1670,7 @@ Release and destroy the underlying lower level texture aka internalTexture.
 
 > **scale**(`ratio`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:630](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L630)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:630](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L630)
 
 Scales the texture if is `canRescale()`
 
@@ -1696,7 +1696,7 @@ the resize factor we want to use to rescale
 
 > **serialize**(`allowEmptyName?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:880](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L880)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:880](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L880)
 
 Serialize the texture into a JSON representation that can be parsed later on.
 
@@ -1724,7 +1724,7 @@ the JSON representation of the texture
 
 > **setReflectionTextureMatrix**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L379)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L382)
 
 Sets the reflection texture matrix
 
@@ -1750,7 +1750,7 @@ Reflection texture matrix
 
 > **toString**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L472)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L472)
 
 Return a string representation of the texture.
 
@@ -1770,7 +1770,7 @@ the texture as a string
 
 > **update**(`data`, `format`, `type`, `invertY`, `compression?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L50)
+Defined in: [packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L50)
 
 Updates the raw cube texture.
 
@@ -1816,7 +1816,7 @@ defines the compression used (null by default)
 
 > **updateRGBDAsync**(`data`, `sphericalPolynomial?`, `lodScale?`, `lodOffset?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L63)
+Defined in: [packages/dev/core/src/Materials/Textures/rawCubeTexture.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawCubeTexture.ts#L63)
 
 Updates a raw cube texture with RGBD encoded data.
 
@@ -1858,7 +1858,7 @@ a promise that resolves when the operation is complete
 
 > **updateSamplingMode**(`samplingMode`, `generateMipMaps?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/thinTexture.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/thinTexture.ts#L287)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L287)
 
 Update the sampling mode of the texture.
 Default is Trilinear mode.
@@ -1910,7 +1910,7 @@ Define if the texture should generate mip maps or not. Default is false.
 
 > **updateURL**(`url`, `forcedExtension?`, `onLoad?`, `prefiltered?`, `onError?`, `extensions?`, `delayLoad?`, `files?`, `buffer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L283)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L286)
 
 Update the url (and optional buffer) of this texture if url was null during construction.
 
@@ -1984,7 +1984,7 @@ the buffer to use instead of loading from the url
 
 > `static` **WhenAllReady**(`textures`, `callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L898)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L898)
 
 Helper function to be called back once a list of texture contains only ready textures.
 

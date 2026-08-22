@@ -6,7 +6,7 @@
 
 # Class: GreasedLineSimpleMaterial
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L19)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L19)
 
 GreasedLineSimpleMaterial
 
@@ -24,7 +24,7 @@ GreasedLineSimpleMaterial
 
 > **new GreasedLineSimpleMaterial**(`name`, `scene`, `options`): `GreasedLineSimpleMaterial`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L49)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L49)
 
 GreasedLineSimple material constructor
 
@@ -62,7 +62,7 @@ material options
 
 > **allowShaderHotSwapping**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L258)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L258)
 
 Gets or sets a boolean indicating that the material is allowed (if supported) to do shader hot swapping.
 This means that the material can keep using a previous shader while a new one is being compiled.
@@ -78,7 +78,7 @@ This is mostly used when shader parallel compilation is supported (true by defau
 
 > **animations**: [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)[]\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L565)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L565)
 
 Stores the animations for the material
 
@@ -92,7 +92,7 @@ Stores the animations for the material
 
 > **checkReadyOnEveryCall**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:339](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L339)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:339](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L339)
 
 Specifies if the ready state should be checked on each call
 
@@ -106,7 +106,7 @@ Specifies if the ready state should be checked on each call
 
 > **checkReadyOnlyOnce**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L345)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L345)
 
 Specifies if the ready state should be checked once
 
@@ -120,7 +120,7 @@ Specifies if the ready state should be checked once
 
 > **clipPlane**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:877](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L877)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:878](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L878)
 
 Gets or sets the active clipplane 1
 
@@ -134,7 +134,7 @@ Gets or sets the active clipplane 1
 
 > **clipPlane2**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:882](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L882)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:883](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L883)
 
 Gets or sets the active clipplane 2
 
@@ -148,7 +148,7 @@ Gets or sets the active clipplane 2
 
 > **clipPlane3**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:887](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L887)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:888](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L888)
 
 Gets or sets the active clipplane 3
 
@@ -162,7 +162,7 @@ Gets or sets the active clipplane 3
 
 > **clipPlane4**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:892](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L892)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:893](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L893)
 
 Gets or sets the active clipplane 4
 
@@ -176,7 +176,7 @@ Gets or sets the active clipplane 4
 
 > **clipPlane5**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:897](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L897)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L898)
 
 Gets or sets the active clipplane 5
 
@@ -190,7 +190,7 @@ Gets or sets the active clipplane 5
 
 > **clipPlane6**: [`Nullable`](../type-aliases/Nullable.md)\<[`Plane`](Plane.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:902](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L902)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:903](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L903)
 
 Gets or sets the active clipplane 6
 
@@ -204,7 +204,7 @@ Gets or sets the active clipplane 6
 
 > **customShaderNameResolve**: (`shaderName`, `uniforms`, `uniformBuffers`, `samplers`, `defines`, `attributes?`, `options?`) => `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L238)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L238)
 
 Custom callback helping to override the default shader used in the material.
 
@@ -252,7 +252,7 @@ Custom callback helping to override the default shader used in the material.
 
 > **depthFunction**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L764)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:765](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L765)
 
 Specifies the depth function that should be used. 0 means the default engine function
 
@@ -266,7 +266,7 @@ Specifies the depth function that should be used. 0 means the default engine fun
 
 > **disableColorWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:752](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L752)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:753](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L753)
 
 Specifies if color writing should be disabled
 
@@ -280,7 +280,7 @@ Specifies if color writing should be disabled
 
 > **disableDepthWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:746](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L746)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:747](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L747)
 
 Specifies if depth writing should be disabled
 
@@ -294,7 +294,7 @@ Specifies if depth writing should be disabled
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:555](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L555)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:555](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L555)
 
 Specifies if the material should be serialized
 
@@ -308,7 +308,7 @@ Specifies if the material should be serialized
 
 > **forceDepthWrite**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:758](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L758)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L759)
 
 Specifies if depth writing should be forced
 
@@ -322,7 +322,7 @@ Specifies if depth writing should be forced
 
 > **getRenderTargetTextures**: [`Nullable`](../type-aliases/Nullable.md)\<() => [`SmartArray`](SmartArray.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\>\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L541)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L541)
 
 Callback triggered to get the render target textures
 
@@ -336,7 +336,7 @@ Callback triggered to get the render target textures
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L304)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L304)
 
 The ID of the material
 
@@ -350,7 +350,7 @@ The ID of the material
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L372)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L372)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -368,7 +368,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:325](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L325)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L325)
 
 Gets or sets user defined metadata
 
@@ -382,7 +382,7 @@ Gets or sets user defined metadata
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L319)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L319)
 
 The name of the material
 
@@ -396,7 +396,7 @@ The name of the material
 
 > **onCompiled**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L531)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L531)
 
 Callback triggered when the material is compiled
 
@@ -410,7 +410,7 @@ Callback triggered when the material is compiled
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:570](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L570)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:570](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L570)
 
 An event triggered when the material is disposed
 
@@ -424,7 +424,7 @@ An event triggered when the material is disposed
 
 > **onError**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`, `errors`) => `void`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:536](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L536)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:536](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L536)
 
 Callback triggered when an error occurs
 
@@ -438,7 +438,7 @@ Callback triggered when an error occurs
 
 > `optional` **pluginManager?**: [`MaterialPluginManager`](MaterialPluginManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginManager.types.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginManager.types.ts#L8)
+Defined in: [packages/dev/core/src/Materials/materialPluginManager.types.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginManager.types.ts#L8)
 
 Plugin manager for this material
 
@@ -452,7 +452,7 @@ Plugin manager for this material
 
 > **pointSize**: `number` = `1.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:800](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L800)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:801](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L801)
 
 Stores the size of points
 
@@ -466,7 +466,7 @@ Stores the size of points
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L333)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L333)
 
 For internal use only. Please do not use.
 
@@ -480,7 +480,7 @@ For internal use only. Please do not use.
 
 > **separateCullingPass**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:770](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L770)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:771](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L771)
 
 Specifies if there should be a separate pass for culling
 
@@ -494,7 +494,7 @@ Specifies if there should be a separate pass for culling
 
 > **shadowDepthWrapper**: [`Nullable`](../type-aliases/Nullable.md)\<[`ShadowDepthWrapper`](ShadowDepthWrapper.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L251)
 
 Custom shadow depth material to use for shadow rendering instead of the in-built one
 
@@ -508,7 +508,7 @@ Custom shadow depth material to use for shadow rendering instead of the in-built
 
 > **sideOrientation**: [`Nullable`](../type-aliases/Nullable.md)\<`number`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L526)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L526)
 
 Stores the value for side orientation
 
@@ -522,7 +522,7 @@ Stores the value for side orientation
 
 > **snippetId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L169)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L169)
 
 Snippet ID if the material was created from the snippet server
 
@@ -536,7 +536,7 @@ Snippet ID if the material was created from the snippet server
 
 > **state**: `string` = `""`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L351)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L351)
 
 The state of the material
 
@@ -550,7 +550,7 @@ The state of the material
 
 > `readonly` **stencil**: [`MaterialStencilState`](MaterialStencilState.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L907)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:908](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L908)
 
 Gives access to the stencil properties of the material
 
@@ -564,7 +564,7 @@ Gives access to the stencil properties of the material
 
 > **textureRepetitionHexTilingParams**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L459)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L459)
 
 Parameters for the hex tiling texture repetition mode (TEXTURE_REPETITION_HEX_TILING).
 x = rotation strength (0..1, default 1.0) — how much each hex tile is rotated.
@@ -586,7 +586,7 @@ https://jcgt.org/published/0011/03/05/
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L310)
 
 Gets or sets the unique id of the material
 
@@ -600,7 +600,7 @@ Gets or sets the unique id of the material
 
 > **zOffset**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:806](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L806)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:807](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L807)
 
 Stores the z offset Factor value
 
@@ -614,7 +614,7 @@ Stores the z offset Factor value
 
 > **zOffsetUnits**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L812)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:813](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L813)
 
 Stores the z offset Units value
 
@@ -628,7 +628,7 @@ Stores the z offset Units value
 
 > `readonly` `static` **AllDirtyFlag**: `127` = `Constants.MATERIAL_AllDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L173)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L173)
 
 The all dirty flag value
 
@@ -642,7 +642,7 @@ The all dirty flag value
 
 > `readonly` `static` **AttributesDirtyFlag**: `8` = `Constants.MATERIAL_AttributesDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L158)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L158)
 
 The dirty attribute flag value
 
@@ -656,7 +656,7 @@ The dirty attribute flag value
 
 > `readonly` `static` **ClockWiseSideOrientation**: `0` = `Constants.MATERIAL_ClockWiseSideOrientation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L128)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L128)
 
 Stores the clock-wise side orientation
 
@@ -670,7 +670,7 @@ Stores the clock-wise side orientation
 
 > `readonly` `static` **CounterClockWiseSideOrientation**: `1` = `Constants.MATERIAL_CounterClockWiseSideOrientation`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L133)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L133)
 
 Stores the counter clock-wise side orientation
 
@@ -684,7 +684,7 @@ Stores the counter clock-wise side orientation
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L23)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L23)
 
 Force to use GLSL in WebGPU
 
@@ -694,7 +694,7 @@ Force to use GLSL in WebGPU
 
 > `static` **ForceVertexOutputInvariant**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L233)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L233)
 
 If true, all materials will have their vertex output set to invariant (see the vertexOutputInvariant property).
 
@@ -708,7 +708,7 @@ If true, all materials will have their vertex output set to invariant (see the v
 
 > `readonly` `static` **FresnelDirtyFlag**: `4` = `Constants.MATERIAL_FresnelDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L153)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L153)
 
 The dirty fresnel flag value
 
@@ -722,7 +722,7 @@ The dirty fresnel flag value
 
 > `readonly` `static` **ImageProcessingDirtyFlag**: `64` = `Constants.MATERIAL_ImageProcessingDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L138)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L138)
 
 The dirty image processing flag value
 
@@ -736,7 +736,7 @@ The dirty image processing flag value
 
 > `readonly` `static` **LightDirtyFlag**: `2` = `Constants.MATERIAL_LightDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L148)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L148)
 
 The dirty light flag value
 
@@ -750,7 +750,7 @@ The dirty light flag value
 
 > `readonly` `static` **LIGHTFALLOFF\_GLTF**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L217)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L217)
 
 PBRMaterialLightFalloff gltf: light is falling off as described in the gltf moving to PBR document
 to enhance interoperability with other engines.
@@ -765,7 +765,7 @@ to enhance interoperability with other engines.
 
 > `readonly` `static` **LIGHTFALLOFF\_PHYSICAL**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L211)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L211)
 
 PBRMaterialLightFalloff Physical: light is falling off following the inverse squared distance law.
 
@@ -779,7 +779,7 @@ PBRMaterialLightFalloff Physical: light is falling off following the inverse squ
 
 > `readonly` `static` **LIGHTFALLOFF\_STANDARD**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L223)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L223)
 
 PBRMaterialLightFalloff Standard: light is falling off like in the standard material
 to enhance interoperability with other materials.
@@ -794,7 +794,7 @@ to enhance interoperability with other materials.
 
 > `readonly` `static` **LineListDrawMode**: `4` = `Constants.MATERIAL_LineListDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L107)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L107)
 
 Returns the line list draw mode
 
@@ -808,7 +808,7 @@ Returns the line list draw mode
 
 > `readonly` `static` **LineLoopDrawMode**: `5` = `Constants.MATERIAL_LineLoopDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L111)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L111)
 
 Returns the line loop draw mode
 
@@ -822,7 +822,7 @@ Returns the line loop draw mode
 
 > `readonly` `static` **LineStripDrawMode**: `6` = `Constants.MATERIAL_LineStripDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L115)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L115)
 
 Returns the line strip draw mode
 
@@ -836,7 +836,7 @@ Returns the line strip draw mode
 
 > `readonly` `static` **MATERIAL\_ALPHABLEND**: `2` = `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L188)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L188)
 
 MaterialTransparencyMode: Pixels are blended (according to the alpha mode) with the already drawn pixels in the current frame buffer.
 
@@ -850,7 +850,7 @@ MaterialTransparencyMode: Pixels are blended (according to the alpha mode) with 
 
 > `readonly` `static` **MATERIAL\_ALPHATEST**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L183)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L183)
 
 MaterialTransparencyMode: Alpha Test mode, pixel are discarded below a certain threshold defined by the alpha cutoff value.
 
@@ -864,7 +864,7 @@ MaterialTransparencyMode: Alpha Test mode, pixel are discarded below a certain t
 
 > `readonly` `static` **MATERIAL\_ALPHATESTANDBLEND**: `3` = `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L194)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L194)
 
 MaterialTransparencyMode: Pixels are blended (according to the alpha mode) with the already drawn pixels in the current frame buffer.
 They are also discarded below the alpha cutoff threshold to improve performances.
@@ -879,7 +879,7 @@ They are also discarded below the alpha cutoff threshold to improve performances
 
 > `readonly` `static` **MATERIAL\_NORMALBLENDMETHOD\_RNM**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L206)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L206)
 
 The Reoriented Normal Mapping method is used to blend normals.
 Details of the algorithm can be found here: https://blog.selfshadow.com/publications/blending-in-detail/
@@ -894,7 +894,7 @@ Details of the algorithm can be found here: https://blog.selfshadow.com/publicat
 
 > `readonly` `static` **MATERIAL\_NORMALBLENDMETHOD\_WHITEOUT**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L200)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L200)
 
 The Whiteout method is used to blend normals.
 Details of the algorithm can be found here: https://blog.selfshadow.com/publications/blending-in-detail/
@@ -909,7 +909,7 @@ Details of the algorithm can be found here: https://blog.selfshadow.com/publicat
 
 > `readonly` `static` **MATERIAL\_OPAQUE**: `0` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L178)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L178)
 
 MaterialTransparencyMode: No transparency mode, Alpha channel is not use.
 
@@ -923,7 +923,7 @@ MaterialTransparencyMode: No transparency mode, Alpha channel is not use.
 
 > `readonly` `static` **MiscDirtyFlag**: `16` = `Constants.MATERIAL_MiscDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L163)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L163)
 
 The dirty misc flag value
 
@@ -937,7 +937,7 @@ The dirty misc flag value
 
 > `static` **OnEventObservable**: [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L228)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L228)
 
 Event observable which raises global events common to all materials (like MaterialPluginEvent.Created)
 
@@ -951,7 +951,7 @@ Event observable which raises global events common to all materials (like Materi
 
 > `readonly` `static` **PointFillMode**: `2` = `Constants.MATERIAL_PointFillMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L99)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L99)
 
 Returns the point fill mode
 
@@ -965,7 +965,7 @@ Returns the point fill mode
 
 > `readonly` `static` **PointListDrawMode**: `3` = `Constants.MATERIAL_PointListDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L103)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L103)
 
 Returns the point list draw mode
 
@@ -979,7 +979,7 @@ Returns the point list draw mode
 
 > `readonly` `static` **PrePassDirtyFlag**: `32` = `Constants.MATERIAL_PrePassDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L168)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L168)
 
 The dirty prepass flag value
 
@@ -993,7 +993,7 @@ The dirty prepass flag value
 
 > `static` **SnippetUrl**: `string` = `Constants.SnippetUrl`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L166)
 
 Define the Url to load snippets
 
@@ -1007,7 +1007,7 @@ Define the Url to load snippets
 
 > `readonly` `static` **TextureDirtyFlag**: `1` = `Constants.MATERIAL_TextureDirtyFlag`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L143)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L143)
 
 The dirty texture flag value
 
@@ -1021,7 +1021,7 @@ The dirty texture flag value
 
 > `readonly` `static` **TriangleFanDrawMode**: `8` = `Constants.MATERIAL_TriangleFanDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L123)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L123)
 
 Returns the triangle fan draw mode
 
@@ -1035,7 +1035,7 @@ Returns the triangle fan draw mode
 
 > `readonly` `static` **TriangleFillMode**: `0` = `Constants.MATERIAL_TriangleFillMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L91)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L91)
 
 Returns the triangle fill mode
 
@@ -1049,7 +1049,7 @@ Returns the triangle fill mode
 
 > `readonly` `static` **TriangleStripDrawMode**: `7` = `Constants.MATERIAL_TriangleStripDrawMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L119)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L119)
 
 Returns the triangle strip draw mode
 
@@ -1063,7 +1063,7 @@ Returns the triangle strip draw mode
 
 > `readonly` `static` **WireFrameFillMode**: `1` = `Constants.MATERIAL_WireFrameFillMode`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L95)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L95)
 
 Returns the wireframe mode
 
@@ -1079,7 +1079,7 @@ Returns the wireframe mode
 
 > **get** **alpha**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L394)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:394](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L394)
 
 Gets the alpha value of the material
 
@@ -1091,7 +1091,7 @@ Gets the alpha value of the material
 
 > **set** **alpha**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L377)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L377)
 
 Sets the alpha value of the material
 
@@ -1117,7 +1117,7 @@ Sets the alpha value of the material
 
 > **get** **alphaMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L685)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:686](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L686)
 
 Gets the value of the alpha mode
 
@@ -1129,7 +1129,7 @@ Gets the value of the alpha mode
 
 > **set** **alphaMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:674](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L674)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L675)
 
 Sets the value of the alpha mode.
 
@@ -1156,6 +1156,7 @@ Sets the value of the alpha mode.
 | 18 | ALPHA_MIN | Defines that alpha blending is COLOR=MIN(SRC, DEST), ALPHA=MIN(SRC_ALPHA, DEST_ALPHA) |
 | 19 | ALPHA_MAX | Defines that alpha blending is COLOR=MAX(SRC, DEST), ALPHA=MAX(SRC_ALPHA, DEST_ALPHA) |
 | 20 | ALPHA_DUAL_SRC0_ADD_SRC1xDST | Defines that alpha blending uses dual source blending and is COLOR=SRC + SRC1 * DEST, ALPHA=DST_ALPHA |
+| 21 | ALPHA_REPLACE_COLOR | Defines that alpha blending is COLOR=SRC, ALPHA=SRC_ALPHA + (1 - SRC_ALPHA) * DEST_ALPHA |
 
 ##### Parameters
 
@@ -1179,7 +1180,7 @@ Sets the value of the alpha mode.
 
 > **get** **alphaModes**(): readonly `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L692)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:693](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L693)
 
 Gets the list of alpha modes (length greater than 1 for multi-targets)
 
@@ -1199,7 +1200,7 @@ readonly `number`[]
 
 > **get** **backFaceCulling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L418)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L418)
 
 Gets the culling state
 
@@ -1211,7 +1212,7 @@ Gets the culling state
 
 > **set** **backFaceCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L407)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L407)
 
 Sets the culling state (true to enable culling, false to disable)
 
@@ -1237,7 +1238,7 @@ Sets the culling state (true to enable culling, false to disable)
 
 > **get** **blockDirtyMechanism**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L491)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L491)
 
 Block the dirty-mechanism for this specific material
 When set to false after being true the material will be marked as dirty.
@@ -1250,7 +1251,7 @@ When set to false after being true the material will be marked as dirty.
 
 > **set** **blockDirtyMechanism**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:495](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L495)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L495)
 
 ##### Parameters
 
@@ -1274,7 +1275,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:4
 
 > **get** **canRenderToMRT**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L356)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L356)
 
 If the material can be rendered to several textures with MRT extension
 
@@ -1294,7 +1295,7 @@ If the material can be rendered to several textures with MRT extension
 
 > **get** **color**(): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L391)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L391)
 
 Gets the color of the line
 
@@ -1306,7 +1307,7 @@ Gets the color of the line
 
 > **set** **color**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:399](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L399)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:399](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L399)
 
 Sets the color of the line
 
@@ -1337,7 +1338,7 @@ Defaults to White.
 
 > **get** **colorMode**(): [`GreasedLineMeshColorMode`](../enumerations/GreasedLineMeshColorMode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:436](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L436)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:436](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L436)
 
 Gets the mixing mode of the color and colors paramaters. Default value is GreasedLineMeshColorMode.SET.
 MATERIAL_TYPE_SIMPLE mixes the color and colors of the greased line material.
@@ -1354,7 +1355,7 @@ GreasedLineMeshColorMode
 
 > **set** **colorMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L445)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:445](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L445)
 
 Sets the mixing mode of the color and colors paramaters. Default value is GreasedLineMeshColorMode.SET.
 MATERIAL_TYPE_SIMPLE mixes the color and colors of the greased line material.
@@ -1393,7 +1394,7 @@ GreasedLineMeshColorMode
 
 > **get** **colors**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](Color3.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L192)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L192)
 
 Returns the colors used to colorize the line
 
@@ -1405,7 +1406,7 @@ Returns the colors used to colorize the line
 
 > **set** **colors**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L199)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L199)
 
 Sets the colors used to colorize the line
 
@@ -1434,7 +1435,7 @@ Defaults to empty.
 
 > **get** **colorsDistributionType**(): [`GreasedLineMeshColorDistributionType`](../enumerations/GreasedLineMeshColorDistributionType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:417](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L417)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:417](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L417)
 
 Gets the color distributiopn type
 
@@ -1446,7 +1447,7 @@ Gets the color distributiopn type
 
 > **set** **colorsDistributionType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:426](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L426)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L426)
 
 Sets the color distribution type
 
@@ -1482,7 +1483,7 @@ Or you can use line distribution when the colors are distributed evenly along th
 
 > **get** **colorsSampling**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L286)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:286](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L286)
 
 The type of sampling of the colors texture. The values are the same when using with textures.
 
@@ -1494,7 +1495,7 @@ The type of sampling of the colors texture. The values are the same when using w
 
 > **set** **colorsSampling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L293)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:293](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L293)
 
 The type of sampling of the colors texture. The values are the same when using with textures.
 
@@ -1516,7 +1517,7 @@ The type of sampling of the colors texture. The values are the same when using w
 
 > **get** **colorsTexture**(): [`RawTexture`](RawTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L243)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:243](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L243)
 
 Gets the colors texture
 
@@ -1528,7 +1529,7 @@ Gets the colors texture
 
 > **set** **colorsTexture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L250)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L250)
 
 Sets the colorsTexture
 
@@ -1556,7 +1557,7 @@ You can provide a colorsTexture to use instead of one generated from the 'colors
 
 > **get** **cullBackFaces**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L481)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L481)
 
 Gets the type of faces that should be culled
 
@@ -1568,7 +1569,7 @@ Gets the type of faces that should be culled
 
 > **set** **cullBackFaces**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L470)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:470](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L470)
 
 Sets the type of faces that should be culled (true for back faces, false for front faces)
 
@@ -1594,7 +1595,7 @@ Sets the type of faces that should be culled (true for back faces, false for fro
 
 > **get** **dashCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L359)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:359](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L359)
 
 Gets the number of dashes in the line
 
@@ -1606,7 +1607,7 @@ Gets the number of dashes in the line
 
 > **set** **dashCount**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L366)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:366](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L366)
 
 Sets the number of dashes in the line
 
@@ -1640,7 +1641,7 @@ Defaults to 1.
 
 > **get** **dashOffset**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L329)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L329)
 
 Gets the dash offset
 
@@ -1652,7 +1653,7 @@ Gets the dash offset
 
 > **set** **dashOffset**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L336)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L336)
 
 Sets the dash offset
 
@@ -1680,7 +1681,7 @@ Dash offset
 
 > **get** **dashRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L344)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:344](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L344)
 
 Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
@@ -1692,7 +1693,7 @@ Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
 > **set** **dashRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:351](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L351)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L351)
 
 Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
@@ -1720,7 +1721,7 @@ Length of the dash. 0 to 1. 0.5 means half empty, half drawn.
 
 > **get** **fillMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:858](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L858)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:859](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L859)
 
 Gets the material fill mode
 
@@ -1732,7 +1733,7 @@ Gets the material fill mode
 
 > **set** **fillMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:865](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L865)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:866](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L866)
 
 Sets the material fill mode
 
@@ -1758,7 +1759,7 @@ Sets the material fill mode
 
 > **get** **fogEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:792](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L792)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:793](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L793)
 
 Gets the value of the fog enabled state
 
@@ -1770,7 +1771,7 @@ Gets the value of the fog enabled state
 
 > **set** **fogEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:781](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L781)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:782](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L782)
 
 Sets the state for enabling fog
 
@@ -1796,7 +1797,7 @@ Sets the state for enabling fog
 
 > **get** **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L546)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:546](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L546)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -1816,7 +1817,7 @@ Gets a boolean indicating that current material needs to register RTT
 
 > **get** **isFrozen**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1158)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1159)
 
 Specifies if updates for the material been locked
 
@@ -1836,7 +1837,7 @@ Specifies if updates for the material been locked
 
 > **get** **isMultiview**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L229)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L229)
 
 is multiview set to true?
 
@@ -1856,7 +1857,7 @@ is multiview set to true?
 
 > **get** **isPrePassCapable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:738](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L738)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:739](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L739)
 
 Can this material render to prepass
 
@@ -1876,7 +1877,7 @@ Can this material render to prepass
 
 > **get** **isVertexOutputInvariant**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:942](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L942)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:943](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L943)
 
 Gets or sets the vertex output invariant state
 Setting this property to true will force the shader compiler to disable some optimization to make sure the vertex output is always calculated
@@ -1892,7 +1893,7 @@ Note that this may have an impact on performance, so leave this option disabled 
 
 > **set** **isVertexOutputInvariant**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:946](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L946)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:947](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L947)
 
 ##### Parameters
 
@@ -1916,7 +1917,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:9
 
 > **get** **needDepthPrePass**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:731](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L731)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:732](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L732)
 
 Gets the depth pre-pass value
 
@@ -1928,7 +1929,7 @@ Gets the depth pre-pass value
 
 > **set** **needDepthPrePass**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L718)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:719](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L719)
 
 Sets the need depth pre-pass value
 
@@ -1954,7 +1955,7 @@ Sets the need depth pre-pass value
 
 > **set** **onBind**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L609)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L609)
 
 Called during a bind event
 
@@ -1980,7 +1981,7 @@ Called during a bind event
 
 > **get** **onBindObservable**(): [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L593)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L593)
 
 An event triggered when the material is bound
 
@@ -2000,7 +2001,7 @@ An event triggered when the material is bound
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L581)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L581)
 
 Called during a dispose event
 
@@ -2026,7 +2027,7 @@ Called during a dispose event
 
 > **get** **onEffectCreatedObservable**(): [`Observable`](Observable.md)\<\{ `effect`: [`Effect`](Effect.md); `subMesh`: [`Nullable`](../type-aliases/Nullable.md)\<[`SubMesh`](SubMesh.md)\>; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:632](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L632)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:632](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L632)
 
 An event triggered when the effect is (re)created
 
@@ -2046,7 +2047,7 @@ An event triggered when the effect is (re)created
 
 > **get** **onUnBindObservable**(): [`Observable`](Observable.md)\<[`Material`](Material.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:619](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L619)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:619](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L619)
 
 An event triggered when the material is unbound
 
@@ -2066,7 +2067,7 @@ An event triggered when the material is unbound
 
 > **get** **options**(): [`IShaderMaterialOptions`](../interfaces/IShaderMaterialOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L222)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L222)
 
 Gets the options used to compile the shader.
 They can be modified to trigger a new compilation
@@ -2087,7 +2088,7 @@ They can be modified to trigger a new compilation
 
 > **get** **pointsCloud**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:837](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L837)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:838](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L838)
 
 Gets the value specifying if point clouds are enabled
 
@@ -2099,7 +2100,7 @@ Gets the value specifying if point clouds are enabled
 
 > **set** **pointsCloud**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L850)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:851](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L851)
 
 Sets the state of point cloud mode
 
@@ -2125,7 +2126,7 @@ Sets the state of point cloud mode
 
 > **get** **resolution**(): [`Vector2`](Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L453)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:453](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L453)
 
 Gets the resolution
 
@@ -2137,7 +2138,7 @@ Gets the resolution
 
 > **set** **resolution**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:461](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L461)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:461](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L461)
 
 Sets the resolution
 
@@ -2168,7 +2169,7 @@ Rendering resolution
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L296)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L296)
 
 Gets the shader language used in this material.
 
@@ -2188,7 +2189,7 @@ Gets the shader language used in this material.
 
 > **get** **shaderPath**(): `string` \| [`IShaderPath`](../type-aliases/IShaderPath.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L206)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L206)
 
 Gets the shader path used to define the shader code
 It can be modified to trigger a new compilation
@@ -2201,7 +2202,7 @@ It can be modified to trigger a new compilation
 
 > **set** **shaderPath**(`shaderPath`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L214)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L214)
 
 Sets the shader path used to define the shader code
 It can be modified to trigger a new compilation
@@ -2228,7 +2229,7 @@ It can be modified to trigger a new compilation
 
 > **get** **sizeAttenuation**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L375)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L375)
 
 False means 1 unit in width = 1 unit on scene, true means 1 unit in width is reduced on the screen to make better looking lines
 
@@ -2240,7 +2241,7 @@ False means 1 unit in width = 1 unit on scene, true means 1 unit in width is red
 
 > **set** **sizeAttenuation**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:383](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L383)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:383](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L383)
 
 Turn on/off attenuation of the width option and widths array.
 
@@ -2271,7 +2272,7 @@ Defaults to false.
 
 > **get** **textureRepetitionMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L446)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L446)
 
 Gets the texture repetition breaking mode.
 
@@ -2287,7 +2288,7 @@ https://iquilezles.org/articles/texturerepetition/
 
 > **set** **textureRepetitionMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L433)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L433)
 
 Sets the texture repetition breaking mode.
 Use one of the Constants.TEXTURE_REPETITION_* values to break visible texture tiling patterns.
@@ -2321,7 +2322,7 @@ Not supported on WebGL1 — the mode will be forced to NONE.
 
 > **get** **transparencyMode**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1255](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1255)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1256](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1256)
 
 Gets the current transparency mode.
 
@@ -2333,7 +2334,7 @@ Gets the current transparency mode.
 
 > **set** **transparencyMode**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1270)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1271)
 
 Sets the transparency mode of the material.
 
@@ -2366,7 +2367,7 @@ Sets the transparency mode of the material.
 
 > **get** **useColors**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L274)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:274](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L274)
 
 Whether to use the colors option to colorize the line
 
@@ -2378,7 +2379,7 @@ Whether to use the colors option to colorize the line
 
 > **set** **useColors**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:278](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L278)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:278](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L278)
 
 Whether to use the colors option to colorize the line
 
@@ -2406,7 +2407,7 @@ Whether to use the colors option to colorize the line
 
 > **get** **useDash**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L314)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L314)
 
 Turns on/off dash mode
 
@@ -2418,7 +2419,7 @@ Turns on/off dash mode
 
 > **set** **useDash**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L321)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:321](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L321)
 
 Turns on/off dash mode
 
@@ -2446,7 +2447,7 @@ Turns on/off dash mode
 
 > **get** **useLogarithmicDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:917](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L917)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:918](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L918)
 
 In case the depth buffer does not allow enough depth precision for your scene (might be the case in large scenes)
 You can try switching to logarithmic depth.
@@ -2463,7 +2464,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/logarithm
 
 > **set** **useLogarithmicDepth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:921](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L921)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:922](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L922)
 
 ##### Parameters
 
@@ -2487,7 +2488,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:9
 
 > **get** **useVertexPulling**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L270)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L270)
 
 Tells the engine to draw geometry using vertex pulling instead of index drawing. This will automatically
 set the vertex buffers as storage buffers and make them accessible to the vertex shader (WebGPU only).
@@ -2500,7 +2501,7 @@ set the vertex buffers as storage buffers and make them accessible to the vertex
 
 > **set** **useVertexPulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L274)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:274](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L274)
 
 ##### Parameters
 
@@ -2524,7 +2525,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:2
 
 > **get** **visibility**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L302)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L302)
 
 Normalized value of how much of the line will be visible
 0 - 0% of the line will be visible
@@ -2538,7 +2539,7 @@ Normalized value of how much of the line will be visible
 
 > **set** **visibility**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:306](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L306)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L306)
 
 Normalized value of how much of the line will be visible
 0 - 0% of the line will be visible
@@ -2570,7 +2571,7 @@ Normalized value of how much of the line will be visible
 
 > **get** **width**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L259)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L259)
 
 Line base width. At each point the line width is calculated by widths[pointIndex] * width
 
@@ -2582,7 +2583,7 @@ Line base width. At each point the line width is calculated by widths[pointIndex
 
 > **set** **width**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L266)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:266](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L266)
 
 Line base width. At each point the line width is calculated by widths[pointIndex] * width
 
@@ -2610,7 +2611,7 @@ Line base width. At each point the line width is calculated by widths[pointIndex
 
 > **get** **wireframe**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:814](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L814)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:815](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L815)
 
 ##### Returns
 
@@ -2620,7 +2621,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:8
 
 > **set** **wireframe**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L829)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:830](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L830)
 
 Sets the state of wireframe mode
 
@@ -2644,7 +2645,7 @@ Sets the state of wireframe mode
 
 > **atomicMaterialsUpdate**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L513)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L513)
 
 This allows you to modify the material without marking it as dirty after every change.
 This function should be used if you need to make more than one dirty-enabling change to the material - adding a texture, setting a new fill mode and so on.
@@ -2672,7 +2673,7 @@ the callback to be executed that will update the material
 
 > **bind**(`world`, `mesh?`, `effectOverride?`, `subMesh?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:1042](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1042)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:1042](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1042)
 
 Binds the material to the mesh
 
@@ -2716,7 +2717,7 @@ defines the submesh to bind the material to
 
 > **bindEyePosition**(`effect`, `variableName?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1507](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1507)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1508](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1508)
 
 Binds the view matrix to the effect
 
@@ -2748,7 +2749,7 @@ name of the shader variable that will hold the eye position
 
 > **bindForSubMesh**(`world`, `mesh`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:1031](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1031)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:1031](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1031)
 
 Binds the submesh to this material by preparing the effect and shader to draw
 
@@ -2786,7 +2787,7 @@ defines the submesh to bind the material to
 
 > **bindOnlyNormalMatrix**(`normalMatrix`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L68)
+Defined in: [packages/dev/core/src/Materials/pushMaterial.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/pushMaterial.ts#L68)
 
 Binds the given normal matrix to the active effect
 
@@ -2812,7 +2813,7 @@ the matrix to bind
 
 > **bindOnlyWorldMatrix**(`world`, `effectOverride?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:998](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L998)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:998](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L998)
 
 Binds the world matrix to the material
 
@@ -2844,7 +2845,7 @@ If provided, use this effect instead of internal effect
 
 > **bindView**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1480](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1480)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1481)
 
 Binds the view matrix to the effect
 
@@ -2870,7 +2871,7 @@ defines the effect to bind the view matrix to
 
 > **bindViewProjection**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1492)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1493](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1493)
 
 Binds the view projection and projection matrices to the effect
 
@@ -2896,7 +2897,7 @@ defines the effect to bind the view projection and projection matrices to
 
 > **buildUniformLayout**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1444)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1445](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1445)
 
 Initializes the uniform buffer layout for the shader.
 
@@ -2914,7 +2915,7 @@ Initializes the uniform buffer layout for the shader.
 
 > **clone**(`name`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:1352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1352)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:1352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1352)
 
 Makes a duplicate of the material, and gives it a new name
 
@@ -2942,7 +2943,7 @@ the cloned material
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L169)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L169)
 
 Disposes the plugin material.
 
@@ -2960,7 +2961,7 @@ Disposes the plugin material.
 
 > **forceCompilation**(`mesh`, `onCompiled?`, `options?`, `onError?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1673)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1674](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1674)
 
 Force shader compilation
 
@@ -3004,7 +3005,7 @@ defines a function to execute if the material fails compiling
 
 > **forceCompilationAsync**(`mesh`, `options?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1753](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1753)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1754](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1754)
 
 Force shader compilation
 
@@ -3038,7 +3039,7 @@ a promise that resolves when the compilation completes
 
 > **freeze**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1180)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1181)
 
 Locks updates for the material.
 
@@ -3071,7 +3072,7 @@ influences and `freeze()` again afterwards.
 
 > **getActiveTextures**(): [`BaseTexture`](BaseTexture.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:1295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1295)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:1295](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1295)
 
 Gets the active textures from the material
 
@@ -3091,7 +3092,7 @@ an array of textures
 
 > **getAlphaTestTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1367)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1368](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1368)
 
 Gets the texture used for the alpha test
 
@@ -3111,7 +3112,7 @@ the texture to use for alpha testing
 
 > **getAnimatables**(): [`IAnimatable`](../interfaces/IAnimatable.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1589)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1590](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1590)
 
 Returns the animatable textures.
 
@@ -3131,7 +3132,7 @@ Returns the animatable textures.
 
 > **getBindedMeshes**(): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1650](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1650)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1651](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1651)
 
 Gets the meshes bound to the material
 
@@ -3151,7 +3152,7 @@ an array of meshes bound to the material
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L238)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L238)
 
 Gets the current class name of the material e.g. "ShaderMaterial"
 Mainly use in serialization.
@@ -3172,7 +3173,7 @@ the class name
 
 > **getEffect**(): [`Effect`](Effect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/pushMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/pushMaterial.ts#L23)
+Defined in: [packages/dev/core/src/Materials/pushMaterial.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/pushMaterial.ts#L23)
 
 Returns the material effect
 
@@ -3192,7 +3193,7 @@ the effect associated with the material
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1237)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1238)
 
 Returns the current scene
 
@@ -3212,7 +3213,7 @@ a Scene
 
 > **hasTexture**(`texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:1317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1317)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:1317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L1317)
 
 Specifies if the material uses a texture
 
@@ -3240,7 +3241,7 @@ a boolean specifying if the material uses the texture
 
 > **isReady**(`mesh?`, `useInstances?`, `subMesh?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:699](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L699)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:699](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L699)
 
 Checks if the material is ready to render the requested mesh
 
@@ -3280,7 +3281,7 @@ true if ready, otherwise false
 
 > **isReadyForSubMesh**(`mesh`, `subMesh`, `useInstances?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L688)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L688)
 
 Specifies that the submesh is ready to be used
 
@@ -3320,7 +3321,7 @@ a boolean indicating that the submesh is ready or not
 
 > **markAsDirty**(`flag`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1799](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1799)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1800](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1800)
 
 Marks a define in the material to indicate that it needs to be re-computed
 
@@ -3346,7 +3347,7 @@ defines a flag used to determine which parts of the material have to be marked a
 
 > **markDirty**(`forceMaterialDirty?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1375](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1375)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1376](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1376)
 
 Marks the material to indicate that it needs to be re-calculated
 
@@ -3372,7 +3373,7 @@ Forces the material to be marked as dirty for all components (same as this.markA
 
 > **needAlphaBlending**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L246)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L246)
 
 Specifies if the material will require alpha blending
 
@@ -3392,7 +3393,7 @@ a boolean specifying if alpha blending is needed
 
 > **needAlphaBlendingForMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1321)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1322)
 
 Specifies if the mesh will require alpha blending
 
@@ -3420,7 +3421,7 @@ a boolean specifying if alpha blending is needed for the mesh
 
 > **needAlphaTesting**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L254)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L254)
 
 Specifies if this material should be rendered in alpha test mode
 
@@ -3440,7 +3441,7 @@ a boolean specifying if an alpha test is needed.
 
 > **needAlphaTestingForMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1355)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1356](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1356)
 
 Specifies if material alpha testing should be turned on for the mesh
 
@@ -3468,7 +3469,7 @@ a boolean specifying if alpha testing should be turned on for the mesh
 
 > **parse**(`source`, `scene`, `_rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:506](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L506)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:506](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L506)
 
 Parses a serialized objects
 
@@ -3502,7 +3503,7 @@ root url for textures
 
 > **removeTexture**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L298)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L298)
 
 Remove a texture from the material.
 
@@ -3528,7 +3529,7 @@ Define the name of the texture to remove
 
 > **resetDrawCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1844](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1844)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1845](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1845)
 
 Resets the draw wrappers cache for all submeshes that are using this material
 
@@ -3546,7 +3547,7 @@ Resets the draw wrappers cache for all submeshes that are using this material
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:471](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L471)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:471](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L471)
 
 Serializes this plugin material
 
@@ -3566,7 +3567,7 @@ serializationObjec
 
 > **setAlphaMode**(`value`, `targetIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:701](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L701)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:702](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L702)
 
 Sets the value of the alpha mode for a specific target index.
 
@@ -3598,7 +3599,7 @@ The index of the target to set the alpha mode for. Defaults to 0.
 
 > **setArray2**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:577](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L577)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:577](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L577)
 
 Set a vec2 array in the shader from a number array.
 
@@ -3632,7 +3633,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setArray3**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:590](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L590)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:590](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L590)
 
 Set a vec3 array in the shader from a number array.
 
@@ -3666,7 +3667,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setArray4**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:603](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L603)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:603](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L603)
 
 Set a vec4 array in the shader from a number array.
 
@@ -3700,7 +3701,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L408)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L408)
 
 Sets the color of the line. If set the whole line will be mixed with this color according to the colorMode option.
 The simple material always needs a color to be set. If you set it to null it will set the color to the default color (GreasedLineSimpleMaterial.DEFAULT_COLOR).
@@ -3727,7 +3728,7 @@ color
 
 > **setColor3**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L393)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L393)
 
 Set a vec3 in the shader from a Color3.
 
@@ -3761,7 +3762,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setColor3Array**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L406)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L406)
 
 Set a vec3 array in the shader from a IColor3Like array.
 
@@ -3795,7 +3796,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setColor4**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:421](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L421)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:421](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L421)
 
 Set a vec4 in the shader from a Color4.
 
@@ -3829,7 +3830,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setColor4Array**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L434)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L434)
 
 Set a vec4 array in the shader from a IColor4Like array.
 
@@ -3863,7 +3864,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setColors**(`colors`, `lazy?`, `forceNewTexture?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L209)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L209)
 
 Creates or updates the colors texture
 
@@ -3901,7 +3902,7 @@ force creation of a new texture
 
 > **setDefine**(`define`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:665](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L665)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:665](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L665)
 
 Adds, removes, or replaces the specified shader define and value.
 * setDefine("MY_DEFINE", true); // enables a boolean define
@@ -3939,7 +3940,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setExternalTexture**(`name`, `texture`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L326)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L326)
 
 Set an internal texture in the shader.
 
@@ -3973,7 +3974,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setFloat**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L341)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L341)
 
 Set a float in the shader.
 
@@ -4007,7 +4008,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setFloats**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L380)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L380)
 
 Set an array of floats in the shader.
 
@@ -4041,7 +4042,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setInt**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L354)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L354)
 
 Set a int in the shader.
 
@@ -4075,7 +4076,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setInternalTexture**(`name`, `texture`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L285)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L285)
 
 Set an internal texture in the shader.
 
@@ -4109,7 +4110,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setMatrices**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:529](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L529)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:529](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L529)
 
 Set a float32Array in the shader from a matrix array.
 
@@ -4143,7 +4144,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setMatrix**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:516](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L516)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:516](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L516)
 
 Set a mat4 in the shader from a Matrix.
 
@@ -4177,7 +4178,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setMatrix2x2**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:564](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L564)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:564](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L564)
 
 Set a mat2 in the shader from a Float32Array.
 
@@ -4211,7 +4212,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setMatrix3x3**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L551)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L551)
 
 Set a mat3 in the shader from a Float32Array.
 
@@ -4245,7 +4246,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1998](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1998)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1999](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1999)
 
 Sets the required values to the prepass renderer.
 
@@ -4273,7 +4274,7 @@ true if the pre pass is needed.
 
 > **setQuaternion**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:488](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L488)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:488](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L488)
 
 Set a vec4 in the shader from a Quaternion.
 
@@ -4307,7 +4308,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setQuaternionArray**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:501](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L501)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:501](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L501)
 
 Set a vec4 array in the shader from a Quaternion array.
 
@@ -4341,7 +4342,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setStorageBuffer**(`name`, `buffer`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L646)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L646)
 
 Set a storage buffer in the shader
 
@@ -4375,7 +4376,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setTexture**(`name`, `texture`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L270)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L270)
 
 Set a texture in the shader.
 
@@ -4409,7 +4410,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setTextureArray**(`name`, `textures`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L308)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L308)
 
 Set a texture array in the shader.
 
@@ -4443,7 +4444,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setTextureSampler**(`name`, `sampler`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:631](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L631)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:631](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L631)
 
 Set a texture sampler in the shader
 
@@ -4477,7 +4478,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setUInt**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L367)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L367)
 
 Set a unsigned int in the shader.
 
@@ -4511,7 +4512,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setUniformBuffer**(`name`, `buffer`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:616](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L616)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:616](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L616)
 
 Set a uniform buffer in the shader
 
@@ -4545,7 +4546,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setVector2**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L449)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L449)
 
 Set a vec2 in the shader from a Vector2.
 
@@ -4579,7 +4580,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setVector3**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:462](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L462)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:462](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L462)
 
 Set a vec3 in the shader from a Vector3.
 
@@ -4613,7 +4614,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **setVector4**(`name`, `value`): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderMaterial.pure.ts:475](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L475)
+Defined in: [packages/dev/core/src/Materials/shaderMaterial.pure.ts:475](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderMaterial.pure.ts#L475)
 
 Set a vec4 in the shader from a Vector4.
 
@@ -4647,7 +4648,7 @@ the material itself allowing "fluent" like uniform updates
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1137)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1138)
 
 Returns a string representation of the current material
 
@@ -4675,7 +4676,7 @@ a string with material information
 
 > **unbind**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1562](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1562)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1563](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1563)
 
 Unbinds the material from the mesh
 
@@ -4693,7 +4694,7 @@ Unbinds the material from the mesh
 
 > **unfreeze**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:1188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L1188)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L1189)
 
 Unlocks updates for the material
 
@@ -4711,7 +4712,7 @@ Unlocks updates for the material
 
 > **updateLazy**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L183)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineSimpleMaterial.ts#L183)
 
 Updates the material. Use when material created in lazy mode.
 
@@ -4729,7 +4730,7 @@ Updates the material. Use when material created in lazy mode.
 
 > `static` **ParseAlphaMode**(`parsedMaterial`, `material`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.pure.ts:2143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.pure.ts#L2143)
+Defined in: [packages/dev/core/src/Materials/material.pure.ts:2144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.pure.ts#L2144)
 
 Parses the alpha mode from the material data to parse
 

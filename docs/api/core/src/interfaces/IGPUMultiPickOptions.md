@@ -6,7 +6,7 @@
 
 # Interface: IGPUMultiPickOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L102)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L103)
 
 Options used to tune multi GPU picking.
 
@@ -16,7 +16,7 @@ Options used to tune multi GPU picking.
 
 > `optional` **individualReadbackAreaRatio?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L122)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L123)
 
 Minimum rectangle-area / individual-area ratio required before the automatic path uses individual readbacks.
 This value is ignored when readbackStrategy is set to GPUMultiPickReadbackStrategy.Rectangle or GPUMultiPickReadbackStrategy.Individual.
@@ -29,7 +29,7 @@ Defaults to 16.
 
 > `optional` **maxIndividualReadbackCount?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L115)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L116)
 
 Maximum number of in-bounds points allowed for the automatic individual readback path.
 This value is ignored when readbackStrategy is set to GPUMultiPickReadbackStrategy.Rectangle or GPUMultiPickReadbackStrategy.Individual.
@@ -42,7 +42,7 @@ Defaults to 32.
 
 > `optional` **readbackStrategy?**: [`GPUMultiPickReadbackStrategy`](../enumerations/GPUMultiPickReadbackStrategy.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Collisions/gpuPicker.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Collisions/gpuPicker.ts#L108)
+Defined in: [packages/dev/core/src/Collisions/gpuPicker.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Collisions/gpuPicker.ts#L109)
 
 Defines how multi pick texture readbacks should be performed.
 

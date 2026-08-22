@@ -6,7 +6,7 @@
 
 # Interface: IWebXRTrackedImage
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L33)
 
 An object representing an image tracked by the system
 
@@ -16,7 +16,7 @@ An object representing an image tracked by the system
 
 > `optional` **emulated?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L42)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L41)
 
 Is the transformation provided emulated. If it is, the system "guesses" its real position. Otherwise it can be considered as exact position.
 
@@ -26,7 +26,7 @@ Is the transformation provided emulated. If it is, the system "guesses" its real
 
 > **id**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L37)
 
 The ID of this image (which is the same as the position in the array that was used to initialize the feature)
 
@@ -36,7 +36,7 @@ The ID of this image (which is the same as the position in the array that was us
 
 > **originalBitmap**: `ImageBitmap`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L46)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L45)
 
 Just in case it is needed - the image bitmap that is being tracked
 
@@ -46,7 +46,7 @@ Just in case it is needed - the image bitmap that is being tracked
 
 > `optional` **ratio?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L62)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L61)
 
 The width/height ratio of this image. can be used to calculate the size of the detected object/image
 
@@ -56,7 +56,7 @@ The width/height ratio of this image. can be used to calculate the size of the d
 
 > `optional` **realWorldWidth?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L54)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L53)
 
 Width in real world (meters)
 
@@ -66,7 +66,7 @@ Width in real world (meters)
 
 > **transformationMatrix**: [`Matrix`](../classes/Matrix.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L57)
 
 A transformation matrix of this current image in the current reference space.
 
@@ -76,6 +76,6 @@ A transformation matrix of this current image in the current reference space.
 
 > `optional` **xrTrackingResult?**: `XRImageTrackingResult`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L50)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L49)
 
 The native XR result image tracking result, untouched

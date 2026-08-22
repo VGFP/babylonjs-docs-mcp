@@ -6,7 +6,7 @@
 
 # Class: SerializationHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L83)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L85)
 
 Class used to help serialization objects
 
@@ -26,7 +26,7 @@ Class used to help serialization objects
 
 > `static` **AllowLoadingUniqueId**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L87)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L89)
 
 Gets or sets a boolean to indicate if the UniqueId property should be serialized
 
@@ -36,7 +36,7 @@ Gets or sets a boolean to indicate if the UniqueId property should be serialized
 
 > `static` **AppendSerializedAnimations**(`source`, `destination`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L122)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L124)
 
 Appends the serialized animations from the source animations
 
@@ -64,7 +64,7 @@ Target to store the animations
 
 > `static` **Clone**\<`T`\>(`creationFunction`, `source`, `options?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L311)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:319](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L319)
 
 Clones an object
 
@@ -106,7 +106,7 @@ the cloned object
 
 > `static` **Instanciate**\<`T`\>(`creationFunction`, `source`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L321)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L329)
 
 Instanciates a new object based on a source one (some data will be shared between both object)
 
@@ -142,7 +142,7 @@ the new object
 
 > `static` **Parse**\<`T`\>(`creationFunction`, `source`, `scene`, `rootUrl?`): `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L291)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L299)
 
 Creates a new entity from a serialization data object
 
@@ -190,7 +190,7 @@ a new entity
 
 > `static` **ParseProperties**(`source`, `destination`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L217)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L222)
 
 Given a source json and a destination object in a scene, this function will parse the source and will try to apply its content to the destination object
 
@@ -230,7 +230,7 @@ root url to use to load assets
 
 > `static` **Serialize**\<`T`\>(`entity`, `serializationObject?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.serialization.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.serialization.ts#L139)
+Defined in: [packages/dev/core/src/Misc/decorators.serialization.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.serialization.ts#L141)
 
 Static function used to serialized a specific entity
 

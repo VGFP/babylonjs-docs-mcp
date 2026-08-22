@@ -6,7 +6,7 @@
 
 # Enumeration: GreasedLineRibbonPointsMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L18)
 
 In POINTS_MODE_POINTS every array of points will become the center (backbone) of the ribbon. The ribbon will be expanded by `width / 2` to `+direction` and `-direction` as well.
 In POINTS_MODE_PATHS every array of points specifies an edge. These will be used to build one ribbon.
@@ -17,7 +17,7 @@ In POINTS_MODE_PATHS every array of points specifies an edge. These will be used
 
 > **POINTS\_MODE\_PATHS**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L20)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L20)
 
 ***
 
@@ -25,4 +25,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLi
 
 > **POINTS\_MODE\_POINTS**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L19)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L19)

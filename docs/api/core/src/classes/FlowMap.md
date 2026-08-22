@@ -6,7 +6,7 @@
 
 # Class: FlowMap
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L32)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L32)
 
 Class used to represent a particle flow map.
 #5DM02T#7
@@ -19,7 +19,7 @@ GPUParts: #5DM02T#13 (webgpu)
 
 > **new FlowMap**(`width`, `height`, `data`): `FlowMap`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L39)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L39)
 
 Create a new flow map.
 
@@ -53,7 +53,7 @@ defines the data of the flow map
 
 > `readonly` **data**: `Uint8ClampedArray`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L42)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L42)
 
 defines the data of the flow map
 
@@ -63,7 +63,7 @@ defines the data of the flow map
 
 > `readonly` **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L41)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L41)
 
 defines the height of the flow map
 
@@ -73,7 +73,7 @@ defines the height of the flow map
 
 > `readonly` **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L40)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L40)
 
 defines the width of the flow map
 
@@ -83,7 +83,7 @@ defines the width of the flow map
 
 > **processFlowable**(`flowable`, `strength?`, `flowMapSamplePosOrTransformationMatrix?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L51)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L51)
 
 Applies the flow map to a flowable object.
 
@@ -117,7 +117,7 @@ defines the flow map sample position or transformation matrix
 
 > `static` **ExtractFromTextureAsync**(`texture`): `Promise`\<`FlowMap`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L133)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L133)
 
 Load from a texture
 
@@ -141,7 +141,7 @@ a promise fulfilled when image data is loaded
 
 > `static` **FromUrlAsync**(`url`): `Promise`\<`FlowMap`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/flowMap.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/flowMap.ts#L103)
+Defined in: [packages/dev/core/src/Particles/flowMap.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/flowMap.ts#L103)
 
 Creates a FlowMap from a url.
 

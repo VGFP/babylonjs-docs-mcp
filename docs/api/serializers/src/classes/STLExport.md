@@ -6,7 +6,7 @@
 
 # Class: STLExport
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/stl/stlSerializer.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/stl/stlSerializer.ts#L9)
+Defined in: [packages/dev/serializers/src/stl/stlSerializer.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/stl/stlSerializer.ts#L9)
 
 Class for generating STL data from a Babylon scene.
 
@@ -26,7 +26,7 @@ Class for generating STL data from a Babylon scene.
 
 > `static` **CreateSTL**(`meshes`, `download?`, `fileName?`, `binary?`, `isLittleEndian?`, `doNotBakeTransform?`, `supportInstancedMeshes?`, `exportIndividualMeshes?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/stl/stlSerializer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/stl/stlSerializer.ts#L22)
+Defined in: [packages/dev/serializers/src/stl/stlSerializer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/stl/stlSerializer.ts#L22)
 
 Exports the geometry of a Mesh array in .STL file format (ASCII)
 

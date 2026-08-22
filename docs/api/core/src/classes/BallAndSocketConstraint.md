@@ -6,7 +6,7 @@
 
 # Class: BallAndSocketConstraint
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L346)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:346](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L346)
 
 Represents a Ball and Socket Constraint, used to simulate a joint
 This class is useful for simulating a joint between two bodies in a physics engine.
@@ -52,7 +52,7 @@ The scene the constraint is applied to
 
 > **new BallAndSocketConstraint**(`pivotA`, `pivotB`, `axisA`, `axisB`, `scene`): `BallAndSocketConstraint`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:347](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L347)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L347)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint
 
 > **\_pluginData**: `any` = `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L23)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L23)
 
 V2 Physics plugin private data for a physics material
 
@@ -106,7 +106,7 @@ V2 Physics plugin private data for a physics material
 
 > **get** **isCollisionsEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L118)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L118)
 
 Gets whether collisions are enabled for this physics object.
 
@@ -120,7 +120,7 @@ Gets whether collisions are enabled for this physics object.
 
 > **set** **isCollisionsEnabled**(`isEnabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L108)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L108)
 
 Enables or disables collisions for the physics engine.
 
@@ -148,7 +148,7 @@ A boolean value indicating whether collisions should be enabled or disabled.
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:98](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L98)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L98)
 
 ##### Returns
 
@@ -160,7 +160,7 @@ true if constraint is enabled
 
 > **set** **isEnabled**(`isEnabled`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L90)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L90)
 
 Enable/disable the constraint
 
@@ -188,7 +188,7 @@ value for the constraint
 
 > **get** **options**(): [`PhysicsConstraintParameters`](../interfaces/PhysicsConstraintParameters.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L82)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L82)
 
 Retrieves the options of the physics constraint.
 
@@ -210,7 +210,7 @@ The physics constraint parameters.
 
 > **get** **type**(): [`PhysicsConstraintType`](../enumerations/PhysicsConstraintType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L72)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L72)
 
 Gets the type of the constraint.
 
@@ -230,7 +230,7 @@ The type of the constraint.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L135)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L135)
 
 Disposes the constraint from the physics engine.
 
@@ -250,7 +250,7 @@ This method is useful for cleaning up the physics engine when a body is no longe
 
 > **getBodiesUsingConstraint**(): [`ConstrainedBodyPair`](../type-aliases/ConstrainedBodyPair.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/physicsConstraint.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L126)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L126)
 
 Gets all bodies that are using this constraint
 

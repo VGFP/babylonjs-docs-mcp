@@ -8,7 +8,7 @@
 
 > **IShaderPath** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L30)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L30)
 
 Defines the route to the shader code. The priority is as follows:
  * object: `{ vertexSource: "vertex shader code string", fragmentSource: "fragment shader code string" }` for directly passing the shader code
@@ -22,7 +22,7 @@ Defines the route to the shader code. The priority is as follows:
 
 > `optional` **fragment?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L49)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L49)
 
 Used with Effect.ShadersStore. If the `fragment` is set to `"custom`, then
 Babylon.js will read from Effect.ShadersStore["customFragmentShader"]
@@ -33,7 +33,7 @@ Babylon.js will read from Effect.ShadersStore["customFragmentShader"]
 
 > `optional` **fragmentElement?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L57)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L57)
 
 Used with shader code in script tags
 
@@ -43,7 +43,7 @@ Used with shader code in script tags
 
 > `optional` **fragmentSource?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L39)
 
 Directly pass the shader code
 
@@ -53,7 +53,7 @@ Directly pass the shader code
 
 > `optional` **spectorName?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L61)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L61)
 
 Defines the name appearing in spector when framgent/vertex...source are being used
 
@@ -63,7 +63,7 @@ Defines the name appearing in spector when framgent/vertex...source are being us
 
 > `optional` **vertex?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L44)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L44)
 
 Used with Effect.ShadersStore. If the `vertex` is set to `"custom`, then
 Babylon.js will read from Effect.ShadersStore["customVertexShader"]
@@ -74,7 +74,7 @@ Babylon.js will read from Effect.ShadersStore["customVertexShader"]
 
 > `optional` **vertexElement?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L53)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L53)
 
 Used with shader code in script tags
 
@@ -84,6 +84,6 @@ Used with shader code in script tags
 
 > `optional` **vertexSource?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L35)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L35)
 
 Directly pass the shader code

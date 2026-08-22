@@ -6,7 +6,7 @@
 
 # Interface: AutoReleaseWorkerPoolOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L84)
+Defined in: [packages/dev/core/src/Misc/workerPool.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/workerPool.ts#L84)
 
 Options for AutoReleaseWorkerPool
 
@@ -16,6 +16,6 @@ Options for AutoReleaseWorkerPool
 
 > **idleTimeElapsedBeforeRelease**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/workerPool.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/workerPool.ts#L88)
+Defined in: [packages/dev/core/src/Misc/workerPool.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/workerPool.ts#L88)
 
 Idle time elapsed before workers are terminated.

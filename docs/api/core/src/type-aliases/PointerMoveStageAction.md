@@ -8,7 +8,7 @@
 
 > **PointerMoveStageAction** = (`unTranslatedPointerX`, `unTranslatedPointerY`, `pickResult`, `isMeshPicked`, `element`) => [`Nullable`](Nullable.md)\<[`PickingInfo`](../classes/PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/sceneComponent.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/sceneComponent.ts#L221)
+Defined in: [packages/dev/core/src/sceneComponent.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L221)
 
 Strong typing of a pointer move action.
 

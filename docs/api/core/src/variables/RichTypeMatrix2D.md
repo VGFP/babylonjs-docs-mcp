@@ -8,4 +8,4 @@
 
 > `const` **RichTypeMatrix2D**: [`RichType`](../classes/RichType.md)\<[`FlowGraphMatrix2D`](../classes/FlowGraphMatrix2D.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L83)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L83)

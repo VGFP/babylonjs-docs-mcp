@@ -6,7 +6,7 @@
 
 # Enumeration: ParticleLocalVariableBlockScope
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts#L10)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts#L10)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/partic
 
 > **Loop**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts#L12)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts#L12)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/partic
 
 > **Particle**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts#L11)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleLocalVariableBlock.pure.ts#L11)

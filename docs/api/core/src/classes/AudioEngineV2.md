@@ -6,7 +6,7 @@
 
 # Abstract Class: AudioEngineV2
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:61](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L61)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L61)
 
 Abstract base class for v2 audio engines.
 
@@ -22,7 +22,7 @@ A v2 audio engine based on the WebAudio API can be created with the [CreateAudio
 
 > `abstract` `readonly` **currentTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L126)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L126)
 
 The elapsed time since the audio engine was started, in seconds.
 
@@ -32,7 +32,7 @@ The elapsed time since the audio engine was started, in seconds.
 
 > `abstract` `readonly` **listener**: [`AbstractSpatialAudioListener`](AbstractSpatialAudioListener.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L149)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L149)
 
 The spatial audio listener properties for the audio engine.
 - Each audio engine has exactly one listener.
@@ -43,7 +43,7 @@ The spatial audio listener properties for the audio engine.
 
 > `abstract` `readonly` **mainOut**: [`AbstractAudioNode`](AbstractAudioNode.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L155)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L155)
 
 The main output node.
 - This is the last node in the audio graph before the audio is sent to the speakers.
@@ -54,7 +54,7 @@ The main output node.
 
 > `abstract` `readonly` **state**: [`AudioEngineV2State`](../type-aliases/AudioEngineV2State.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L166)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L166)
 
 The current state of the audio engine.
 
@@ -70,7 +70,7 @@ Possible values are:
 
 > `abstract` **volume**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:171](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L171)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L171)
 
 The output volume of the audio engine.
 
@@ -82,7 +82,7 @@ The output volume of the audio engine.
 
 > **get** **defaultMainBus**(): [`Nullable`](../type-aliases/Nullable.md)\<[`MainAudioBus`](MainAudioBus.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L133)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L133)
 
 The default main bus that will be used for audio buses and sounds if their `outBus` option is not set.
 
@@ -103,7 +103,7 @@ The default main bus that will be used for audio buses and sounds if their `outB
 
 > **get** **nodes**(): `ReadonlySet`\<[`AbstractNamedAudioNode`](AbstractNamedAudioNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L197)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L197)
 
 The list of top-level audio nodes (sounds, sound sources, buses, main buses) owned by the audio engine.
 
@@ -119,7 +119,7 @@ The list of top-level audio nodes (sounds, sound sources, buses, main buses) own
 
 > **get** **onDisposeObservable**(): [`IReadonlyObservable`](../interfaces/IReadonlyObservable.md)\<`AudioEngineV2`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L104)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L104)
 
 Observable that notifies when this engine is disposed.
 - Fires from [AudioEngineV2.dispose](#dispose) after the engine has been removed from [AudioEngineV2.Instances](#instances).
@@ -136,7 +136,7 @@ Observable that notifies when this engine is disposed.
 
 > **get** **onNodeAddedObservable**(): [`IReadonlyObservable`](../interfaces/IReadonlyObservable.md)\<[`AbstractNamedAudioNode`](AbstractNamedAudioNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L89)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L89)
 
 Observable that notifies when a top-level audio node (sound, sound source, bus, or main bus) is added to this engine.
 
@@ -152,7 +152,7 @@ Observable that notifies when a top-level audio node (sound, sound source, bus, 
 
 > **get** **onNodeRemovedObservable**(): [`IReadonlyObservable`](../interfaces/IReadonlyObservable.md)\<[`AbstractNamedAudioNode`](AbstractNamedAudioNode.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L96)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L96)
 
 Observable that notifies when a top-level audio node (sound, sound source, bus, or main bus) is removed from this engine.
 
@@ -168,7 +168,7 @@ Observable that notifies when a top-level audio node (sound, sound source, bus, 
 
 > **get** **parameterRampDuration**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L176)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L176)
 
 The smoothing duration to use when changing audio parameters, in seconds. Defaults to `0.01` (10 milliseconds).
 
@@ -180,7 +180,7 @@ The smoothing duration to use when changing audio parameters, in seconds. Defaul
 
 > **set** **parameterRampDuration**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L180)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:180](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L180)
 
 ##### Parameters
 
@@ -200,7 +200,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioE
 
 > **get** **sounds**(): readonly [`AbstractSound`](AbstractSound.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L187)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L187)
 
 The list of static and streaming sounds created by the audio engine.
 
@@ -216,7 +216,7 @@ readonly [`AbstractSound`](AbstractSound.md)[]
 
 > **get** `static` **Instances**(): readonly `AudioEngineV2`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L66)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L66)
 
 The list of v2 audio engines that have been created and not yet disposed.
 - Engines are added on construction and removed on [AudioEngineV2.dispose](#dispose).
@@ -231,7 +231,7 @@ readonly `AudioEngineV2`[]
 
 > `abstract` **createBusAsync**(`name`, `options?`): `Promise`\<[`AudioBus`](AudioBus.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L207)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L207)
 
 Creates a new audio bus.
 
@@ -261,7 +261,7 @@ A promise that resolves with the created audio bus.
 
 > `abstract` **createMainBusAsync**(`name`, `options?`): `Promise`\<[`MainAudioBus`](MainAudioBus.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L215)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:215](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L215)
 
 Creates a new main audio bus.
 
@@ -291,7 +291,7 @@ A promise that resolves with the created main audio bus.
 
 > `abstract` **createMicrophoneSoundSourceAsync**(`name`, `options?`): `Promise`\<[`AbstractSoundSource`](AbstractSoundSource.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L223)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L223)
 
 Creates a new microphone sound source.
 
@@ -321,7 +321,7 @@ A promise that resolves to the created sound source.
 
 > `abstract` **createSoundAsync**(`name`, `source`, `options?`): `Promise`\<[`StaticSound`](StaticSound.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L232)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L232)
 
 Creates a new static sound.
 
@@ -357,7 +357,7 @@ A promise that resolves to the created static sound.
 
 > `abstract` **createSoundBufferAsync**(`source`, `options?`): `Promise`\<[`StaticSoundBuffer`](StaticSoundBuffer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L244)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:244](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L244)
 
 Creates a new static sound buffer.
 
@@ -387,7 +387,7 @@ A promise that resolves to the created static sound buffer.
 
 > `abstract` **createSoundSourceAsync**(`name`, `source`, `options?`): `Promise`\<[`AbstractSoundSource`](AbstractSoundSource.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L256)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:256](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L256)
 
 Creates a new sound source.
 
@@ -423,7 +423,7 @@ A promise that resolves to the created sound source.
 
 > `abstract` **createStreamingSoundAsync**(`name`, `source`, `options?`): `Promise`\<[`StreamingSound`](StreamingSound.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L265)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L265)
 
 Creates a new streaming sound.
 
@@ -459,7 +459,7 @@ A promise that resolves to the created streaming sound.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L270)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L270)
 
 Releases associated resources.
 
@@ -477,7 +477,7 @@ Releases associated resources.
 
 > `abstract` **isFormatValid**(`format`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L299)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L299)
 
 Checks if the specified format is valid.
 
@@ -501,7 +501,7 @@ The format to check as an audio file extension like "mp3" or "wav".
 
 > `abstract` **pauseAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L305)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:305](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L305)
 
 Pauses the audio engine if it is running.
 
@@ -517,7 +517,7 @@ A promise that resolves when the audio engine is paused.
 
 > `abstract` **resumeAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:311](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L311)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:311](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L311)
 
 Resumes the audio engine if it is not running.
 
@@ -533,7 +533,7 @@ A promise that resolves when the audio engine is running.
 
 > `abstract` **setVolume**(`value`, `options?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L320)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L320)
 
 Sets the audio output volume with optional ramping.
 If the duration is 0 then the volume is set immediately, otherwise it is ramped to the new value over the given duration using the given shape.
@@ -563,7 +563,7 @@ The options to use for ramping the volume change.
 
 > **unlockAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:328](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L328)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:328](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L328)
 
 Unlocks the audio engine if it is locked.
 - Note that the returned promise may already be resolved if the audio engine is already unlocked.

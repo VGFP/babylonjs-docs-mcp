@@ -6,7 +6,7 @@
 
 # Class: WebXRDepthSensing
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L298)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L458)
 
 **`Since`**
 
@@ -23,7 +23,7 @@ WebXR Feature for WebXR Depth Sensing Module
 
 > **new WebXRDepthSensing**(`_xrSessionManager`, `options`): `WebXRDepthSensing`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L422)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:587](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L587)
 
 Creates a new instance of the depth sensing feature
 
@@ -55,7 +55,7 @@ options for WebXR Depth Sensing Feature
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -69,7 +69,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -83,7 +83,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -97,7 +97,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -111,7 +111,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -125,7 +125,7 @@ Observers registered here will be executed when the feature is detached
 
 > **onGetDepthInMetersAvailable**: [`Observable`](Observable.md)\<`GetDepthInMetersType`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L391)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:556](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L556)
 
 Event that notify when `DepthInformation.getDepthInMeters` is available.
 `getDepthInMeters` method needs active XRFrame (not available for cached XRFrame)
@@ -136,7 +136,7 @@ Event that notify when `DepthInformation.getDepthInMeters` is available.
 
 > `readonly` **options**: [`IWebXRDepthSensingOptions`](../interfaces/IWebXRDepthSensingOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L424)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:589](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L589)
 
 options for WebXR Depth Sensing Feature
 
@@ -146,7 +146,7 @@ options for WebXR Depth Sensing Feature
 
 > `readonly` `static` **Name**: `"xr-depth-sensing"` = `WebXRFeatureName.DEPTH_SENSING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L408)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:573](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L573)
 
 The module's name
 
@@ -156,7 +156,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L415)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L580)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -170,7 +170,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -192,7 +192,7 @@ Is this feature attached
 
 > **get** **depthDataFormat**(): [`WebXRDepthDataFormat`](../type-aliases/WebXRDepthDataFormat.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L352)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:517](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L517)
 
 Describes which depth sensing data format ("ushort" or "float") is used.
 
@@ -208,7 +208,7 @@ Describes which depth sensing data format ("ushort" or "float") is used.
 
 > **get** **depthUsage**(): [`WebXRDepthUsage`](../type-aliases/WebXRDepthUsage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L340)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:505](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L505)
 
 Describes which depth-sensing usage ("cpu" or "gpu") is used.
 
@@ -224,7 +224,7 @@ Describes which depth-sensing usage ("cpu" or "gpu") is used.
 
 > **get** **height**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L319)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:484](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L484)
 
 Height of depth data. If depth data is not exist, returns null.
 
@@ -240,7 +240,7 @@ Height of depth data. If depth data is not exist, returns null.
 
 > **get** **latestDepthBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L379)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:544](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L544)
 
 cached depth buffer
 
@@ -256,7 +256,7 @@ cached depth buffer
 
 > **get** **latestDepthImageTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`RawTexture`](RawTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L396)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:561](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L561)
 
 Latest cached Texture of depth image which is made from the depth buffer data.
 
@@ -272,7 +272,7 @@ Latest cached Texture of depth image which is made from the depth buffer data.
 
 > **get** **latestInternalTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L368)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:533](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L533)
 
 Latest cached InternalTexture which containing depth buffer information.
 This can be used when the depth usage is "gpu".
@@ -293,7 +293,7 @@ This will be removed in the future. Use latestDepthImageTexture
 
 > **get** **normDepthBufferFromNormView**(): [`Nullable`](../type-aliases/Nullable.md)\<`XRRigidTransform`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:333](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L333)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L498)
 
 An XRRigidTransform that needs to be applied when indexing into the depth buffer.
 
@@ -309,7 +309,7 @@ An XRRigidTransform that needs to be applied when indexing into the depth buffer
 
 > **get** **rawValueToMeters**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L326)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L491)
 
 Scale factor by which the raw depth values must be multiplied in order to get the depths in meters.
 
@@ -325,7 +325,7 @@ Scale factor by which the raw depth values must be multiplied in order to get th
 
 > **get** **width**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L312)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:477](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L477)
 
 Width of depth data. If depth data is not exist, returns null.
 
@@ -341,7 +341,7 @@ Width of depth data. If depth data is not exist, returns null.
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -353,7 +353,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -379,7 +379,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(`force?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L442)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:615](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L615)
 
 attach this feature
 Will usually be called by the features manager
@@ -408,7 +408,7 @@ true if successful.
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L485)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L688)
 
 detach this feature.
 
@@ -428,7 +428,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L502)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:726](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L726)
 
 Dispose this feature and all of the resources attached
 
@@ -446,7 +446,7 @@ Dispose this feature and all of the resources attached
 
 > **getXRSessionInitExtension**(): `Promise`\<`Partial`\<`XRSessionInit`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:642](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L642)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L976)
 
 Extends the session init object if needed
 
@@ -462,7 +462,7 @@ augmentation object for the xr session init object.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

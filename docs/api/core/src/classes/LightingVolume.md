@@ -6,7 +6,7 @@
 
 # Class: LightingVolume
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L21)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L21)
 
 Class used to create a lighting volume from a directional light's shadow generator.
 
@@ -16,7 +16,7 @@ Class used to create a lighting volume from a directional light's shadow generat
 
 > **new LightingVolume**(`name`, `scene`, `shadowGenerator?`, `tesselation?`): `LightingVolume`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L149)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L149)
 
 Creates a new LightingVolume.
 
@@ -58,7 +58,7 @@ The tesselation level of the lighting volume (default: 64).
 
 > **get** **firstUpdate**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L126)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L126)
 
 Indicates whether this is the first update of the lighting volume.
 If true, the volume has not yet been updated for the first time.
@@ -75,7 +75,7 @@ If true, the volume has not yet been updated for the first time.
 
 > **get** **frequency**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L99)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L99)
 
 The frequency (in number of times you call updateMesh) at which the lighting volume is updated.
 
@@ -87,7 +87,7 @@ The frequency (in number of times you call updateMesh) at which the lighting vol
 
 > **set** **frequency**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L103)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L103)
 
 ##### Parameters
 
@@ -107,7 +107,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.t
 
 > **get** **mesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L90)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L90)
 
 The mesh used as a support for the lighting volume.
 Note that this mesh is not automatically added to the scene's mesh array.
@@ -125,7 +125,7 @@ If you want to render it, you need to add it manually.
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L111)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L111)
 
 The name of the lighting volume.
 
@@ -137,7 +137,7 @@ The name of the lighting volume.
 
 > **set** **name**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L115)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L115)
 
 ##### Parameters
 
@@ -157,7 +157,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.t
 
 > **get** **shadowGenerator**(): [`ShadowGenerator`](ShadowGenerator.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L49)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L49)
 
 The shadow generator used to create the lighting volume.
 
@@ -169,7 +169,7 @@ The shadow generator used to create the lighting volume.
 
 > **set** **shadowGenerator**(`sg`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L53)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L53)
 
 ##### Parameters
 
@@ -189,7 +189,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.t
 
 > **get** **tesselation**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L76)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L76)
 
 The tesselation level of the lighting volume.
 
@@ -201,7 +201,7 @@ The tesselation level of the lighting volume.
 
 > **set** **tesselation**(`n`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L80)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L80)
 
 ##### Parameters
 
@@ -219,7 +219,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.t
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L270)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L270)
 
 Disposes the lighting volume and associated resources.
 
@@ -233,7 +233,7 @@ Disposes the lighting volume and associated resources.
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L193)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L193)
 
 Checks if the lighting volume is ready to be updated.
 
@@ -249,7 +249,7 @@ True if the volume is ready to be updated.
 
 > **update**(`forceUpdate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Lights/lightingVolume.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Lights/lightingVolume.pure.ts#L208)
+Defined in: [packages/dev/core/src/Lights/lightingVolume.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightingVolume.pure.ts#L208)
 
 Updates the lighting volume mesh.
 

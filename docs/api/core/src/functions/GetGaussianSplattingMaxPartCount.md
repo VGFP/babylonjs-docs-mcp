@@ -8,7 +8,7 @@
 
 > **GetGaussianSplattingMaxPartCount**(`engine`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingMaterial.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingMaterial.pure.ts#L41)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingMaterial.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingMaterial.pure.ts#L41)
 
 Computes the maximum number of Gaussian Splatting compound parts supported by the given engine.
 The limit is derived from the engine's maximum vertex uniform vectors capability.

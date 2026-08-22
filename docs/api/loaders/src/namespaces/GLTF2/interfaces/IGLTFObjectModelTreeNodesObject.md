@@ -6,7 +6,11 @@
 
 # Interface: IGLTFObjectModelTreeNodesObject\<GLTFTargetType, BabylonTargetType\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L44)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L71)
+
+Accessor tree describing the `/nodes` section of the glTF Object Model.
+Exposes per-node TRS, ref-typed parent/children/camera/mesh/skin links,
+morph-target weights and node-extension properties.
 
 ## Type Parameters
 
@@ -24,11 +28,33 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **\_\_array\_\_**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L46)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L74)
 
 #### \_\_target\_\_
 
 > **\_\_target\_\_**: `boolean`
+
+#### camera
+
+> **camera**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `any`, `string` \| `undefined`\>
+
+#### children
+
+> **children**: `object`
+
+##### children.\_\_array\_\_
+
+> **\_\_array\_\_**: `object` & [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`any`, `any`, `string`\>
+
+###### Type Declaration
+
+###### \_\_target\_\_
+
+> **\_\_target\_\_**: `boolean`
+
+##### children.length
+
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`number`[], `any`, [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
 #### extensions
 
@@ -62,6 +88,14 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **matrix**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `BabylonTargetType`, [`Matrix`](../../../../../core/src/classes/Matrix.md)\>
 
+#### mesh
+
+> **mesh**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `any`, `string` \| `undefined`\>
+
+#### parent
+
+> **parent**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `any`, `string` \| `undefined`\>
+
 #### rotation
 
 > **rotation**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `BabylonTargetType`, [`Quaternion`](../../../../../core/src/classes/Quaternion.md)\>
@@ -69,6 +103,10 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 #### scale
 
 > **scale**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `BabylonTargetType`, [`Vector3`](../../../../../core/src/classes/Vector3.md)\>
+
+#### skin
+
+> **skin**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `any`, `string` \| `undefined`\>
 
 #### translation
 
@@ -82,7 +120,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 ###### \_\_array\_\_
 
-> **\_\_array\_\_**: `object` & [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `BabylonTargetType`, `number`\>
+> **\_\_array\_\_**: `object` & [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `any`, `number`\>
 
 ###### Type Declaration
 
@@ -90,14 +128,22 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **\_\_target\_\_**: `boolean`
 
+###### \_\_passThroughTarget\_\_?
+
+> `optional` **\_\_passThroughTarget\_\_?**: `boolean`
+
+When true, the path converter skips objectTree traversal for this property, keeping the parent target.
+
 ###### length
 
-> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `BabylonTargetType`, `number`\>
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`, `BabylonTargetType`, [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
 ***
 
 ### length
 
-> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`[], `BabylonTargetType`[], `number`\>
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`GLTFTargetType`[], `BabylonTargetType`[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L45)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L73)
+
+Number of nodes in the array.

@@ -6,7 +6,7 @@
 
 # Interface: ImportMeshOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L441)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:441](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L441)
 
 Defines options for ImportMeshAsync.
 
@@ -20,7 +20,7 @@ Defines options for ImportMeshAsync.
 
 > `optional` **meshNames?**: `string` \| readonly `string`[] \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L445)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:445](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L445)
 
 An array of mesh names, a single mesh name, or empty string for all meshes that filter what meshes are imported
 
@@ -30,7 +30,7 @@ An array of mesh names, a single mesh name, or empty string for all meshes that 
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:423](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L423)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:423](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L423)
 
 Defines the filename, if the data is binary
 
@@ -44,7 +44,7 @@ Defines the filename, if the data is binary
 
 > `optional` **onProgress?**: (`event`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:413](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L413)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L413)
 
 A callback with a progress event for each file being loaded
 
@@ -68,7 +68,7 @@ A callback with a progress event for each file being loaded
 
 > `optional` **pluginExtension?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:418](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L418)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L418)
 
 The extension used to determine the plugin
 
@@ -82,7 +82,7 @@ The extension used to determine the plugin
 
 > `optional` **pluginOptions?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L428)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L428)
 
 Defines options for the registered plugins
 
@@ -327,6 +327,18 @@ Defines if the extension is enabled
 Defines options for the KHR_draco_mesh_compression extension.
 
 ##### gltf.extensionOptions.KHR\_draco\_mesh\_compression.enabled?
+
+> `optional` **enabled?**: `boolean`
+
+Defines if the extension is enabled
+
+##### gltf.extensionOptions.KHR\_gaussian\_splatting?
+
+> `optional` **KHR\_gaussian\_splatting?**: `object`
+
+Defines options for the KHR_gaussian_splatting extension.
+
+##### gltf.extensionOptions.KHR\_gaussian\_splatting.enabled?
 
 > `optional` **enabled?**: `boolean`
 
@@ -925,6 +937,18 @@ Defines if the loader should also compile materials with clip planes. Defaults t
 If true, the loader will derive the name for Babylon textures from the glTF texture name, image name, or image url. Defaults to false.
 Note that it is possible for multiple Babylon textures to share the same name when the Babylon textures load from the same glTF texture or image.
 
+##### gltf.useMaxMorphTargetInfluencers?
+
+> `optional` **useMaxMorphTargetInfluencers?**: `boolean` = `true`
+
+When loading a mesh with morph targets, configure its MorphTargetManager so the morph shader is compiled
+once for all targets (`numMaxInfluencers = numTargets`, `optimizeInfluencers = false`). This prevents the
+shader from being recompiled (and the resulting one-frame visual glitch) when an animated morph target
+influence passes through zero and the active influencer count changes.
+Disable to restore the previous behavior, where only the currently active (non-zero) influencers drive the
+shader. That is cheaper per frame for meshes with very large morph target counts, but recompiles the shader
+during animation. Defaults to true.
+
 ##### gltf.useOpenPBR?
 
 > `optional` **useOpenPBR?**: `boolean` = `false`
@@ -1157,7 +1181,7 @@ Defines if the plugin is enabled
 
 > `optional` **rootUrl?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/sceneLoader.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/sceneLoader.ts#L408)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L408)
 
 A string that defines the root url for the scene and resources or the concatenation of rootURL and filename (e.g. http://example.com/test.glb)
 

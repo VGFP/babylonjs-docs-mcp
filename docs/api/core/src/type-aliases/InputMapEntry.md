@@ -8,7 +8,7 @@
 
 > **InputMapEntry**\<`TInteraction`\> = [`PointerInputMapEntry`](PointerInputMapEntry.md)\<`TInteraction`\> \| [`WheelInputMapEntry`](WheelInputMapEntry.md)\<`TInteraction`\> \| [`TouchInputMapEntry`](TouchInputMapEntry.md)\<`TInteraction`\> \| [`KeyboardInputMapEntry`](KeyboardInputMapEntry.md)\<`TInteraction`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L128)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L128)
 
 A single mapping rule: source + optional conditions → interaction type.
 The inputMap is an ordered array on the movement class; first matching entry wins.

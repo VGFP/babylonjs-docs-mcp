@@ -8,7 +8,7 @@
 
 > **PrepareDefinesForAttributes**(`mesh`, `defines`, `useVertexColor`, `useBones`, `useMorphTargets?`, `useVertexAlpha?`, `useBakedVertexAnimation?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:1214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.functions.ts#L1214)
+Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:1293](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialHelper.functions.ts#L1293)
 
 Prepares the defines used in the shader depending on the attributes data available in the mesh
 

@@ -6,7 +6,7 @@
 
 # Interface: IPhysicsShapeProximityCastQuery
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L8)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L8)
 
 Query for shape proximity.
 
@@ -16,7 +16,7 @@ Query for shape proximity.
 
 > `optional` **ignoreBody?**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L32)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L32)
 
 Ignores the body passed if it is in the query
 
@@ -26,7 +26,7 @@ Ignores the body passed if it is in the query
 
 > **maxDistance**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L24)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L24)
 
 Maximum distance to check for collisions. Can be set to 0 to check for overlaps.
 
@@ -36,7 +36,7 @@ Maximum distance to check for collisions. Can be set to 0 to check for overlaps.
 
 > **position**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L16)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L16)
 
 The position of shape
 
@@ -46,7 +46,7 @@ The position of shape
 
 > **rotation**: [`Quaternion`](../classes/Quaternion.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L20)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L20)
 
 The rotation of shape
 
@@ -56,7 +56,7 @@ The rotation of shape
 
 > **shape**: [`PhysicsShape`](../classes/PhysicsShape.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L12)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L12)
 
 The shape to test proximity against
 
@@ -66,6 +66,6 @@ The shape to test proximity against
 
 > **shouldHitTriggers**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L28)
+Defined in: [packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsShapeProximityCastQuery.ts#L28)
 
 Should trigger collisions be considered in the query?

@@ -6,7 +6,7 @@
 
 # Class: GaussianSplattingDebugMaterialPlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L82)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L82)
 
 Debug plugin for GaussianSplattingMaterial.
 Provides runtime controls for clipping, opacity/size culling, opacity scaling,
@@ -27,7 +27,7 @@ Global settings act as defaults; per-part settings override them for that part i
 
 > **new GaussianSplattingDebugMaterialPlugin**(`material`): `GaussianSplattingDebugMaterialPlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L119)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L119)
 
 Creates a new GaussianSplattingDebugMaterialPlugin.
 
@@ -53,7 +53,7 @@ The GaussianSplattingMaterial to attach the plugin to.
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -67,7 +67,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -85,7 +85,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -99,7 +99,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -113,7 +113,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -127,7 +127,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -143,7 +143,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **get** **clippingBox**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: [`Vector3`](Vector3.md); `min`: [`Vector3`](Vector3.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L265)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L265)
 
 World-space axis-aligned clipping box. Splats outside are not rendered.
 Set to null to disable clipping.
@@ -157,7 +157,7 @@ Example: `{ min: new Vector3(-2,-2,-2), max: new Vector3(2,2,2) }`
 
 > **set** **clippingBox**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L268)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L268)
 
 ##### Parameters
 
@@ -177,7 +177,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **opacityCulling**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L277)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L277)
 
 Opacity culling range [0..1]. Splats whose stored opacity falls outside this
 range are not rendered. Set to null to disable.
@@ -190,7 +190,7 @@ range are not rendered. Set to null to disable.
 
 > **set** **opacityCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L280)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L280)
 
 ##### Parameters
 
@@ -210,7 +210,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **opacitySaturate**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L314)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L314)
 
 When true, replaces the Gaussian spatial falloff with a flat uniform opacity,
 making each splat appear as a solid disk with its raw alpha value.
@@ -223,7 +223,7 @@ making each splat appear as a solid disk with its raw alpha value.
 
 > **set** **opacitySaturate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L317)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L317)
 
 ##### Parameters
 
@@ -243,7 +243,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **opacityScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L302)
 
 Scalar multiplier applied to every splat's opacity after all other modifiers.
 1.0 (default) = no change.
@@ -256,7 +256,7 @@ Scalar multiplier applied to every splat's opacity after all other modifiers.
 
 > **set** **opacityScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L305)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L305)
 
 ##### Parameters
 
@@ -276,7 +276,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **partCount**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L172)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L172)
 
 Number of parts in compound mode. Set automatically by GaussianSplattingDebugger.addMesh().
 When 0 (non-compound), setPartOptions() logs an error.
@@ -291,7 +291,7 @@ the part count
 
 > **set** **partCount**(`count`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L175)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L175)
 
 ##### Parameters
 
@@ -311,7 +311,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **shDc**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L323)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L323)
 
 Include the DC (base) color from colorsTexture. Default: true.
 
@@ -323,7 +323,7 @@ Include the DC (base) color from colorsTexture. Default: true.
 
 > **set** **shDc**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L326)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L326)
 
 ##### Parameters
 
@@ -343,7 +343,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **shOrder1**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L332)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L332)
 
 Include SH band 1 contribution. Default: true.
 
@@ -355,7 +355,7 @@ Include SH band 1 contribution. Default: true.
 
 > **set** **shOrder1**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L335)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L335)
 
 ##### Parameters
 
@@ -375,7 +375,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **shOrder2**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L341)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L341)
 
 Include SH band 2 contribution. Default: true.
 
@@ -387,7 +387,7 @@ Include SH band 2 contribution. Default: true.
 
 > **set** **shOrder2**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L344)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L344)
 
 ##### Parameters
 
@@ -407,7 +407,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **shOrder3**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L350)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L350)
 
 Include SH band 3 contribution. Default: true.
 
@@ -419,7 +419,7 @@ Include SH band 3 contribution. Default: true.
 
 > **set** **shOrder3**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L353)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L353)
 
 ##### Parameters
 
@@ -439,7 +439,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **shOrder4**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L359)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L359)
 
 Include SH band 4 contribution. Default: true.
 
@@ -451,7 +451,7 @@ Include SH band 4 contribution. Default: true.
 
 > **set** **shOrder4**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L362)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L362)
 
 ##### Parameters
 
@@ -471,7 +471,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **get** **sizeCulling**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L290)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L290)
 
 Size culling range. Size is pow(|det(Σ)|, 1/6) of the 3D covariance matrix,
 equal to the geometric mean of the principal radii. Use GaussianSplattingMeshBase.splatSizeRange
@@ -485,7 +485,7 @@ to find the asset's range. Set to null to disable.
 
 > **set** **sizeCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L293)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L293)
 
 ##### Parameters
 
@@ -503,7 +503,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -543,7 +543,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:777](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L777)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:777](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L777)
 
 Binds uniform values each frame. Scalar uniforms are uploaded for non-compound mode;
 the per-part data texture is updated and bound for compound mode.
@@ -588,7 +588,7 @@ the submesh being rendered
 
 > **clearPartOptions**(`partIndex`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L231)
 
 Clears all per-part debug overrides for the given part index,
 falling back to global settings.
@@ -611,7 +611,7 @@ The zero-based part index.
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -635,7 +635,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -661,7 +661,7 @@ define the config where to copy the info
 
 > **dispose**(`_forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:815](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L815)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:815](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L815)
 
 Disposes the per-part data texture.
 
@@ -687,7 +687,7 @@ unused; the LUT texture is always disposed as it is owned by this plugin
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -713,7 +713,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`_activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
 
 Returns an array of the actively used textures.
 
@@ -739,7 +739,7 @@ Array of BaseTextures
 
 > **getAnimatables**(`_animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
 
 Returns the animatable textures.
 
@@ -765,7 +765,7 @@ Array of animatable textures.
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -803,7 +803,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L378)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L378)
 
 #### Returns
 
@@ -821,7 +821,7 @@ the class name of this plugin
 
 > **getCustomCode**(`shaderType`, `shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L435)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L435)
 
 Returns shader code injections for the debug features.
 
@@ -855,7 +855,7 @@ map of injection-point name to injected code, or null
 
 > **getSamplers**(`samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L373)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L373)
 
 Adds the per-part debug data texture name to the sampler list so the effect can bind it.
 
@@ -881,7 +881,7 @@ the sampler list to populate
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -907,7 +907,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L685)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L685)
 
 Declares the non-compound scalar debug uniform names as external so the Effect can
 resolve their locations. WGSL uniforms are declared inline in getCustomCode() injections.
@@ -944,7 +944,7 @@ uniform descriptor with externalUniforms list
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -988,7 +988,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -1008,7 +1008,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`_texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
 
 Checks to see if a texture is used in the material.
 
@@ -1036,7 +1036,7 @@ Base texture to use.
 
 > **isCompatible**(`shaderLanguage`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L386)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L386)
 
 #### Parameters
 
@@ -1062,7 +1062,7 @@ true for GLSL and WGSL
 
 > **isReadyForSubMesh**(`_defines`, `_scene`, `_engine`, `_subMesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L404)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L404)
 
 Always ready — no async resources.
 
@@ -1108,7 +1108,7 @@ true
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -1146,7 +1146,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:415](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L415)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:415](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L415)
 
 Sets shader defines from current property state. GS_DBG_ENABLED is set to true
 only when at least one feature is non-default, ensuring zero overhead otherwise.
@@ -1175,7 +1175,7 @@ the defines object
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
 
@@ -1213,7 +1213,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 
@@ -1233,7 +1233,7 @@ Serializes this plugin configuration.
 
 > **setPartOptions**(`partIndex`, `options`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L188)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L188)
 
 Sets per-part debug overrides for the given part index.
 Only valid on compound meshes (partCount \> 0); logs an error otherwise.

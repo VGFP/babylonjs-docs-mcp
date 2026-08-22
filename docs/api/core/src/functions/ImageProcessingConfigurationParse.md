@@ -8,7 +8,7 @@
 
 > **ImageProcessingConfigurationParse**(`source`): [`ImageProcessingConfiguration`](../classes/ImageProcessingConfiguration.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L646)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L646)
 
 Parses the image processing from a json representation.
 

@@ -6,7 +6,7 @@
 
 # Enumeration: ConversionMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L14)
+Defined in: [packages/dev/core/src/Misc/copyTextureToTexture.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/copyTextureToTexture.ts#L14)
 
 Conversion modes available when copying a texture into another one
 
@@ -16,7 +16,7 @@ Conversion modes available when copying a texture into another one
 
 > **None**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L15)
+Defined in: [packages/dev/core/src/Misc/copyTextureToTexture.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/copyTextureToTexture.ts#L15)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts
 
 > **ToGammaSpace**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L17)
+Defined in: [packages/dev/core/src/Misc/copyTextureToTexture.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/copyTextureToTexture.ts#L17)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts
 
 > **ToLinearSpace**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTextureToTexture.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTextureToTexture.ts#L16)
+Defined in: [packages/dev/core/src/Misc/copyTextureToTexture.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/copyTextureToTexture.ts#L16)

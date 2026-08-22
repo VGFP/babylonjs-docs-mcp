@@ -6,7 +6,7 @@
 
 # Class: ArcRotateCameraPointersInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L15)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L15)
 
 Manage the pointers inputs to control an arc rotate camera.
 Uses the inputMap on the movement class to determine which button maps to which interaction.
@@ -39,7 +39,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **angularSensibilityX**: `number` = `1000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L45)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L45)
 
 Defines the pointer angular sensibility  along the X axis or how fast is
 the camera rotating.
@@ -50,7 +50,7 @@ the camera rotating.
 
 > **angularSensibilityY**: `number` = `1000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L52)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L52)
 
 Defines the pointer angular sensibility along the Y axis or how fast is
 the camera rotating.
@@ -61,7 +61,7 @@ the camera rotating.
 
 > **buttons**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L38)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L38)
 
 Defines the buttons associated with the input to handle camera move.
 
@@ -75,7 +75,7 @@ Defines the buttons associated with the input to handle camera move.
 
 > **camera**: [`ArcRotateCamera`](ArcRotateCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L19)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L19)
 
 Defines the camera the input is attached to.
 
@@ -89,7 +89,7 @@ Defines the camera the input is attached to.
 
 > **multiTouchPanAndZoom**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L29)
+Defined in: [packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L29)
 
 Defines whether panning is enabled for both pan (2 fingers swipe) and
 zoom (pinch) through multitouch.
@@ -104,7 +104,7 @@ zoom (pinch) through multitouch.
 
 > **multiTouchPanning**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L22)
+Defined in: [packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L22)
 
 Defines whether panning (2 fingers swipe) is enabled through multitouch.
 
@@ -118,7 +118,7 @@ Defines whether panning (2 fingers swipe) is enabled through multitouch.
 
 > **panningSensibility**: `number` = `1000.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L82)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L82)
 
 Defines the pointer panning sensibility or how fast is the camera moving.
 
@@ -128,7 +128,7 @@ Defines the pointer panning sensibility or how fast is the camera moving.
 
 > **pinchDeltaPercentage**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L67)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L67)
 
 pinchDeltaPercentage will be used instead of pinchPrecision if different
 from 0.
@@ -141,7 +141,7 @@ pinch zoom is used.
 
 > **pinchInwards**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L87)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L87)
 
 Revers pinch action direction.
 
@@ -151,7 +151,7 @@ Revers pinch action direction.
 
 > **pinchPrecision**: `number` = `12.0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L58)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L58)
 
 Defines the pointer pinch precision or how fast is the camera zooming.
 
@@ -161,7 +161,7 @@ Defines the pointer pinch precision or how fast is the camera zooming.
 
 > **pinchZoom**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L16)
+Defined in: [packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L16)
 
 Defines whether zoom (2 fingers pinch) is enabled through multitouch
 
@@ -175,7 +175,7 @@ Defines whether zoom (2 fingers pinch) is enabled through multitouch
 
 > **useNaturalPinchZoom**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L76)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L76)
 
 When useNaturalPinchZoom is true, multi touch zoom will zoom in such
 that any object in the plane at the camera's target point will scale
@@ -188,7 +188,7 @@ Overrides pinchDeltaPercentage and pinchPrecision.
 
 > `static` **MinimumRadiusForPinch**: `number` = `0.001`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L24)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L24)
 
 The minimum radius used for pinch, to avoid radius lock at 0
 
@@ -198,7 +198,7 @@ The minimum radius used for pinch, to avoid radius lock at 0
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -224,7 +224,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
 
 Detach the current controls from the specified dom element.
 
@@ -242,7 +242,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L30)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L30)
 
 Gets the class name of the current input.
 
@@ -262,7 +262,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
 
 Get the friendly name associated with the input class.
 
@@ -282,7 +282,7 @@ the input friendly name
 
 > **onButtonDown**(`evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L219)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:219](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L219)
 
 Called each time a new POINTERDOWN event occurs. Ie, for each button
 press.
@@ -309,7 +309,7 @@ Defines the event to track
 
 > **onButtonUp**(`_evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L233)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:233](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L233)
 
 Called each time a new POINTERUP event occurs. Ie, for each button
 release.
@@ -336,7 +336,7 @@ Defines the event to track
 
 > **onContextMenu**(`evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L346)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L347)
 
 Called on JS contextmenu event.
 Override this method to provide functionality.
@@ -363,7 +363,7 @@ the event to be handled
 
 > **onDoubleTap**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:186](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L186)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L186)
 
 Called on pointer POINTERDOUBLETAP event.
 
@@ -381,7 +381,7 @@ Called on pointer POINTERDOUBLETAP event.
 
 > **onLostFocus**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L241)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:241](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L241)
 
 Called when window becomes inactive.
 
@@ -399,7 +399,7 @@ Called when window becomes inactive.
 
 > **onMultiTouch**(`pointA`, `pointB`, `previousPinchSquaredDistance`, `pinchSquaredDistance`, `previousMultiTouchPanPosition`, `multiTouchPanPosition`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L201)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:201](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L201)
 
 Called on pointer POINTERMOVE event if multiple touches are active.
 
@@ -455,7 +455,7 @@ multi-touch position in current step
 
 > **onTouch**(`point`, `offsetX`, `offsetY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L156)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraPointersInput.ts#L156)
 
 Called on pointer POINTERMOVE event if only a single touch is active.
 

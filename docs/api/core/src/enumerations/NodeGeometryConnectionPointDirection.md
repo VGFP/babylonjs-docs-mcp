@@ -6,7 +6,7 @@
 
 # Enumeration: NodeGeometryConnectionPointDirection
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L23)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L23)
 
 Defines the direction of a connection point
 
@@ -16,7 +16,7 @@ Defines the direction of a connection point
 
 > **Input**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L25)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L25)
 
 Input
 
@@ -26,6 +26,6 @@ Input
 
 > **Output**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L27)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L27)
 
 Output

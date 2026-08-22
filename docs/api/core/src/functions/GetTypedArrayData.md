@@ -8,7 +8,7 @@
 
 > **GetTypedArrayData**(`data`, `size`, `type`, `byteOffset`, `byteStride`, `totalVertices`, `forceCopy?`): [`VertexDataTypedArray`](../type-aliases/VertexDataTypedArray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Buffers/bufferUtils.ts:300](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Buffers/bufferUtils.ts#L300)
+Defined in: [packages/dev/core/src/Buffers/bufferUtils.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/bufferUtils.ts#L300)
 
 Gets the given data array as a typed array that matches the component type. If the data cannot be used directly, a copy is made to support the new typed array.
 If the data is number[], byteOffset and byteStride must be a multiple of 4, as data will be treated like a list of floats.

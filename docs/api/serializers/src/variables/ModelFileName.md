@@ -8,4 +8,4 @@
 
 > `const` **ModelFileName**: `"3dmodel.model"`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L32)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L32)

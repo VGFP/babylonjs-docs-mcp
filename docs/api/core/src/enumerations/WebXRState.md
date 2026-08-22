@@ -6,7 +6,7 @@
 
 # Enumeration: WebXRState
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L7)
+Defined in: [packages/dev/core/src/XR/webXRTypes.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRTypes.ts#L7)
 
 States of the webXR experience
 
@@ -16,7 +16,7 @@ States of the webXR experience
 
 > **ENTERING\_XR**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L11)
+Defined in: [packages/dev/core/src/XR/webXRTypes.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRTypes.ts#L11)
 
 Transitioning to being in XR mode
 
@@ -26,7 +26,7 @@ Transitioning to being in XR mode
 
 > **EXITING\_XR**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L15)
+Defined in: [packages/dev/core/src/XR/webXRTypes.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRTypes.ts#L15)
 
 Transitioning to non XR mode
 
@@ -36,7 +36,7 @@ Transitioning to non XR mode
 
 > **IN\_XR**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L19)
+Defined in: [packages/dev/core/src/XR/webXRTypes.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRTypes.ts#L19)
 
 In XR mode and presenting
 
@@ -46,6 +46,6 @@ In XR mode and presenting
 
 > **NOT\_IN\_XR**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRTypes.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRTypes.ts#L23)
+Defined in: [packages/dev/core/src/XR/webXRTypes.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRTypes.ts#L23)
 
 Not entered XR mode

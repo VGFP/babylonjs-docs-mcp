@@ -6,7 +6,7 @@
 
 # Interface: TwgslOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L8)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L8)
 
 Options to load the associated Twgsl library
 
@@ -16,7 +16,7 @@ Options to load the associated Twgsl library
 
 > `optional` **jsPath?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L16)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L16)
 
 Defines the URL of the twgsl JS File.
 
@@ -26,7 +26,7 @@ Defines the URL of the twgsl JS File.
 
 > `optional` **twgsl?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L12)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L12)
 
 Defines an existing instance of Twgsl (useful in modules who do not access the global instance).
 
@@ -36,6 +36,6 @@ Defines an existing instance of Twgsl (useful in modules who do not access the g
 
 > `optional` **wasmPath?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L20)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuTintWASM.ts#L20)
 
 Defines the URL of the twgsl WASM File.

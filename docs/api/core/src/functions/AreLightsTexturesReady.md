@@ -8,7 +8,7 @@
 
 > **AreLightsTexturesReady**(`scene`, `mesh`, `maxSimultaneousLights`, `disableLighting?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialHelper.functions.ts:673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialHelper.functions.ts#L673)
+Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:741](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialHelper.functions.ts#L741)
 
 Checks whether the texture resources used by the lights that will affect the given mesh are ready.
 This mirrors the light iteration performed by [PrepareDefinesForLights](PrepareDefinesForLights.md) and [BindLights](BindLights.md):

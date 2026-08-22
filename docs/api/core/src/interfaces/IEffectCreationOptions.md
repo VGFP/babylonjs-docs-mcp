@@ -6,7 +6,7 @@
 
 # Interface: IEffectCreationOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L67)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L67)
 
 Options to be used when creating an effect.
 
@@ -16,7 +16,7 @@ Options to be used when creating an effect.
 
 > **attributes**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L71)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L71)
 
 Attributes that will be used in the shader.
 
@@ -26,7 +26,7 @@ Attributes that will be used in the shader.
 
 > **defines**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L87)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L87)
 
 Define statements that will be set in the shader.
 
@@ -36,7 +36,7 @@ Define statements that will be set in the shader.
 
 > `optional` **disableParallelShaderCompilation?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L141)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L141)
 
 If set to true the shader will not be compiles asynchronously, even if the engine allows it.
 
@@ -46,7 +46,7 @@ If set to true the shader will not be compiles asynchronously, even if the engin
 
 > `optional` **existingPipelineContext?**: [`IPipelineContext`](IPipelineContext.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L132)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L132)
 
 Provide an existing pipeline context to avoid creating a new one
 
@@ -56,7 +56,7 @@ Provide an existing pipeline context to avoid creating a new one
 
 > `optional` **extraInitializationsAsync?**: () => `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L136)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L136)
 
 Additional async code to run before preparing the effect
 
@@ -70,7 +70,7 @@ Additional async code to run before preparing the effect
 
 > **fallbacks**: [`Nullable`](../type-aliases/Nullable.md)\<[`IEffectFallbacks`](IEffectFallbacks.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L91)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L91)
 
 Possible fallbacks for this effect to improve performance when needed.
 
@@ -80,7 +80,7 @@ Possible fallbacks for this effect to improve performance when needed.
 
 > `optional` **indexParameters?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L103)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L103)
 
 Parameters to be used with Babylons include syntax to iterate over an array (eg. {lights: 10})
 
@@ -90,7 +90,7 @@ Parameters to be used with Babylons include syntax to iterate over an array (eg.
 
 > `optional` **maxSimultaneousLights?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L107)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L107)
 
 Max number of lights that can be used in the shader.
 
@@ -100,7 +100,7 @@ Max number of lights that can be used in the shader.
 
 > `optional` **multiTarget?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L123)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L123)
 
 Is this effect rendering to several color attachments ?
 
@@ -110,7 +110,7 @@ Is this effect rendering to several color attachments ?
 
 > **onCompiled**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`) => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L95)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L95)
 
 Callback that will be called when the shader is compiled.
 
@@ -120,7 +120,7 @@ Callback that will be called when the shader is compiled.
 
 > **onError**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`, `errors`) => `void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L99)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L99)
 
 Callback that will be called if an error occurs during shader compilation.
 
@@ -130,7 +130,7 @@ Callback that will be called if an error occurs during shader compilation.
 
 > `optional` **processCodeAfterIncludes?**: [`Nullable`](../type-aliases/Nullable.md)\<`ShaderCustomProcessingFunction`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L119)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L119)
 
 If provided, will be called two times with the vertex and fragment code so that this code can be updated after the #include have been processed
 
@@ -140,7 +140,7 @@ If provided, will be called two times with the vertex and fragment code so that 
 
 > `optional` **processFinalCode?**: [`Nullable`](../type-aliases/Nullable.md)\<`ShaderCustomProcessingFunction`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L115)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L115)
 
 If provided, will be called two times with the vertex and fragment code so that this code can be updated before it is compiled by the GPU
 
@@ -150,7 +150,7 @@ If provided, will be called two times with the vertex and fragment code so that 
 
 > **samplers**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L83)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L83)
 
 Sampler texture variable names that will be set in the shader.
 
@@ -160,7 +160,7 @@ Sampler texture variable names that will be set in the shader.
 
 > `optional` **shaderLanguage?**: [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L127)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L127)
 
 The language the shader is written in (default: GLSL)
 
@@ -170,7 +170,7 @@ The language the shader is written in (default: GLSL)
 
 > `optional` **transformFeedbackVaryings?**: [`Nullable`](../type-aliases/Nullable.md)\<`string`[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L111)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L111)
 
 See https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/transformFeedbackVaryings
 
@@ -180,7 +180,7 @@ See https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/tran
 
 > `optional` **uniformBuffersNames?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L79)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L79)
 
 Uniform buffer variable names that will be set in the shader.
 
@@ -190,6 +190,6 @@ Uniform buffer variable names that will be set in the shader.
 
 > **uniformsNames**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/effect.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/effect.pure.ts#L75)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L75)
 
 Uniform variable names that will be set in the shader.

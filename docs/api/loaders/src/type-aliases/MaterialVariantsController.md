@@ -8,7 +8,7 @@
 
 > **MaterialVariantsController** = `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.ts#L23)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.types.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.types.ts#L8)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_
 
 > **selectedVariant**: `string`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.ts#L32)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.types.ts#L17)
 
 Gets or sets the selected variant.
 
@@ -26,6 +26,6 @@ Gets or sets the selected variant.
 
 > `readonly` **variants**: readonly `string`[]
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.ts#L27)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.types.ts#L12)
 
 The list of available variant names for this asset.

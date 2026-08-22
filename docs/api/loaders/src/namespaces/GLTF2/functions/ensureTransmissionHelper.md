@@ -8,7 +8,7 @@
 
 > **ensureTransmissionHelper**(`loader`, `babylonMaterial`): `void`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:521](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L521)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:525](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L525)
 
 Ensures a TransmissionHelper exists on the scene and has all of the loader's material
 implementations registered with it. Creates the helper if one does not yet exist on the

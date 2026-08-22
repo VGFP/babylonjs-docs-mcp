@@ -6,4 +6,68 @@
 
 # Interface: IGLTFObjectModelTreeMeshesObject
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L248)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L308)
+
+Accessor tree describing the `/meshes` section of the glTF Object Model.
+Exposes per-mesh primitives (and their material refs) and the mesh-level
+morph-target weights array.
+
+## Properties
+
+### \_\_array\_\_
+
+> **\_\_array\_\_**: `object`
+
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:311](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L311)
+
+#### \_\_target\_\_
+
+> **\_\_target\_\_**: `boolean`
+
+#### primitives
+
+> **primitives**: `object`
+
+##### primitives.\_\_array\_\_
+
+> **\_\_array\_\_**: `object`
+
+##### primitives.\_\_array\_\_.\_\_target\_\_
+
+> **\_\_target\_\_**: `boolean`
+
+##### primitives.\_\_array\_\_.material
+
+> **material**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`any`, `any`, `string` \| `undefined`\>
+
+##### primitives.length
+
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMeshPrimitive`](IMeshPrimitive.md)[], `any`, [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
+
+#### weights
+
+> **weights**: `object`
+
+##### weights.\_\_array\_\_
+
+> **\_\_array\_\_**: `object` & [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`any`, `any`, `number`\>
+
+###### Type Declaration
+
+###### \_\_target\_\_
+
+> **\_\_target\_\_**: `boolean`
+
+##### weights.length
+
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`number`[], `any`, [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
+
+***
+
+### length
+
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMesh`](IMesh.md)[], ([`Mesh`](../../../../../core/src/classes/Mesh.md) \| `undefined`)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
+
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L310)
+
+Number of meshes in the array.

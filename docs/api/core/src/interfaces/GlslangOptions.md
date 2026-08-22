@@ -6,7 +6,7 @@
 
 # Interface: GlslangOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L118)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L119)
 
 Options to load the associated Glslang library
 
@@ -16,7 +16,7 @@ Options to load the associated Glslang library
 
 > `optional` **glslang?**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L122)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L123)
 
 Defines an existing instance of Glslang (useful in modules who do not access the global instance).
 
@@ -26,7 +26,7 @@ Defines an existing instance of Glslang (useful in modules who do not access the
 
 > `optional` **jsPath?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L126)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L127)
 
 Defines the URL of the glslang JS File.
 
@@ -36,6 +36,6 @@ Defines the URL of the glslang JS File.
 
 > `optional` **wasmPath?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/webgpuEngine.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L130)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L131)
 
 Defines the URL of the glslang WASM File.

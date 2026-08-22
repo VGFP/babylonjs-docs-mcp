@@ -6,7 +6,7 @@
 
 # Interface: ICanvas
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L4)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L4)
 
 Class used to abstract a canvas
 
@@ -16,7 +16,7 @@ Class used to abstract a canvas
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L13)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L13)
 
 Canvas height.
 
@@ -26,7 +26,7 @@ Canvas height.
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L8)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L8)
 
 Canvas width.
 
@@ -36,7 +36,7 @@ Canvas width.
 
 > **getContext**(`contextType`, `contextAttributes?`): [`ICanvasRenderingContext`](ICanvasRenderingContext.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L21)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L21)
 
 returns a drawing context on the canvas.
 
@@ -66,7 +66,7 @@ ICanvasRenderingContext object.
 
 > `optional` **remove**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L34)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L34)
 
 Removes the canvas from the document.
 Offscreen canvases don't have the remove function, so we need to make it optional.
@@ -81,7 +81,7 @@ Offscreen canvases don't have the remove function, so we need to make it optiona
 
 > **toDataURL**(`mime`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/ICanvas.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/ICanvas.ts#L28)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L28)
 
 returns a data URI containing a representation of the image in the format specified by the type parameter.
 

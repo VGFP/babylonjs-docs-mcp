@@ -8,7 +8,7 @@
 
 > **RegisterClearBlock**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Textures/clearBlock.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Textures/clearBlock.pure.ts#L182)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Textures/clearBlock.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Textures/clearBlock.pure.ts#L182)
 
 Register side effects for clearBlock.
 Safe to call multiple times; only the first call has an effect.

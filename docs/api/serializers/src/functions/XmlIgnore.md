@@ -6,12 +6,12 @@
 
 # Function: XmlIgnore()
 
-> **XmlIgnore**(): (`target`, `prop`) => `void`
+> **XmlIgnore**(): (`_value`, `context`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L71)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L105)
 
 tell the serializer to ignore the property
 
 ## Returns
 
-(`target`, `prop`) => `void`
+(`_value`, `context`) => `void`

@@ -6,7 +6,7 @@
 
 # Interface: ITexturePackerFrame
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/frame.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L6)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/frame.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L6)
 
 Defines the basic options interface of a TexturePacker Frame
 
@@ -16,7 +16,7 @@ Defines the basic options interface of a TexturePacker Frame
 
 > **id**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/frame.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L10)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/frame.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L10)
 
 The frame ID
 
@@ -26,7 +26,7 @@ The frame ID
 
 > **offset**: [`Vector2`](../classes/Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/frame.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L20)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/frame.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L20)
 
 The Frames offset
 
@@ -36,6 +36,6 @@ The Frames offset
 
 > **scale**: [`Vector2`](../classes/Vector2.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/Packer/frame.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L15)
+Defined in: [packages/dev/core/src/Materials/Textures/Packer/frame.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Packer/frame.ts#L15)
 
 The frames Scale

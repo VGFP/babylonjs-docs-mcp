@@ -6,7 +6,7 @@
 
 # Class: EngineFactory
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineFactory.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineFactory.ts#L10)
+Defined in: [packages/dev/core/src/Engines/engineFactory.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/engineFactory.ts#L10)
 
 Helper class to create the best engine depending on the current hardware
 
@@ -26,7 +26,7 @@ Helper class to create the best engine depending on the current hardware
 
 > `static` **CreateAsync**(`canvas`, `options?`): `Promise`\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engineFactory.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engineFactory.ts#L17)
+Defined in: [packages/dev/core/src/Engines/engineFactory.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/engineFactory.ts#L17)
 
 Creates an engine based on the capabilities of the underlying hardware
 

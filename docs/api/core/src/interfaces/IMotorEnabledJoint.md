@@ -6,7 +6,7 @@
 
 # Interface: IMotorEnabledJoint
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L280)
+Defined in: [packages/dev/core/src/Physics/v1/physicsJoint.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsJoint.ts#L280)
 
 Interface for a motor enabled joint
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > **physicsJoint**: `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L284)
+Defined in: [packages/dev/core/src/Physics/v1/physicsJoint.ts:284](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsJoint.ts#L284)
 
 Physics joint
 
@@ -30,7 +30,7 @@ Physics joint
 
 > **setLimit**(`upperLimit`, `lowerLimit?`, `motorIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:298](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L298)
+Defined in: [packages/dev/core/src/Physics/v1/physicsJoint.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsJoint.ts#L298)
 
 Sets the limit of the motor
 
@@ -64,7 +64,7 @@ The index of the motor
 
 > **setMotor**(`force?`, `maxForce?`, `motorIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v1/physicsJoint.ts:291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v1/physicsJoint.ts#L291)
+Defined in: [packages/dev/core/src/Physics/v1/physicsJoint.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsJoint.ts#L291)
 
 Sets the motor of the motor-enabled joint
 

@@ -6,7 +6,7 @@
 
 # Class: FBXFileLoader
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L92)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L82)
 
 FBX file loader plugin for Babylon.js.
 Pure TypeScript implementation — no Autodesk FBX SDK dependency.
@@ -22,7 +22,7 @@ Pure TypeScript implementation — no Autodesk FBX SDK dependency.
 
 > **new FBXFileLoader**(`options?`): `FBXFileLoader`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L112)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L102)
 
 Creates a new FBX loader.
 
@@ -44,7 +44,7 @@ Options controlling FBX loading behavior
 
 > `readonly` **extensions**: `object` = `FBXFileLoaderMetadata.extensions`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L101)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L91)
 
 Defines the extension the plugin is able to load.
 
@@ -66,7 +66,7 @@ Defines the extension the plugin is able to load.
 
 > `readonly` **name**: `"fbx"` = `FBXFileLoaderMetadata.name`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L96)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L86)
 
 Defines the name of the plugin.
 
@@ -80,7 +80,7 @@ Defines the name of the plugin.
 
 > **createPlugin**(`options`): [`ISceneLoaderPluginAsync`](../../../core/src/interfaces/ISceneLoaderPluginAsync.md)
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L123)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L113)
 
 Creates an FBX loader plugin instance with options from SceneLoader.
 
@@ -108,7 +108,7 @@ The configured FBX loader
 
 > **importMeshAsync**(`meshesNames`, `scene`, `data`, `rootUrl`, `_onProgress?`, `_fileName?`): `Promise`\<[`ISceneLoaderAsyncResult`](../../../core/src/interfaces/ISceneLoaderAsyncResult.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L137)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L127)
 
 Imports meshes from an FBX file and adds them to the scene.
 
@@ -166,7 +166,7 @@ A promise containing the loaded meshes, particle systems, skeletons, animation g
 
 > **loadAssetContainerAsync**(`scene`, `data`, `rootUrl`, `_onProgress?`, `_fileName?`): `Promise`\<[`AssetContainer`](../../../core/src/classes/AssetContainer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L174)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L164)
 
 Loads all FBX content into an asset container.
 
@@ -218,7 +218,7 @@ A promise containing the loaded asset container
 
 > **loadAsync**(`scene`, `data`, `rootUrl`, `_onProgress?`, `_fileName?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/FBX/fbxFileLoader.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/FBX/fbxFileLoader.ts#L159)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L149)
 
 Loads all FBX content into the scene.
 

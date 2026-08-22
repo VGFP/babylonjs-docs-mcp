@@ -6,7 +6,7 @@
 
 # Enumeration: ParticleVectorMathBlockOperations
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts#L15)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts#L15)
 
 Operations supported by the Vector Math block
 
@@ -16,7 +16,7 @@ Operations supported by the Vector Math block
 
 > **Distance**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts#L19)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts#L19)
 
 Distance between two vectors
 
@@ -26,6 +26,6 @@ Distance between two vectors
 
 > **Dot**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleVectorMathBlock.pure.ts#L17)
 
 Dot product

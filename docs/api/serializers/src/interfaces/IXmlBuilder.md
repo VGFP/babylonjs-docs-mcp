@@ -6,7 +6,9 @@
 
 # Interface: IXmlBuilder
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L12)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L12)
+
+Provides a fluent interface for writing XML content.
 
 ## Methods
 
@@ -14,7 +16,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **att**(`ns`, `n`, `v`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L14)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L28)
+
+Writes an XML attribute.
 
 #### Parameters
 
@@ -22,17 +26,25 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 `string` \| `null`
 
+defines the attribute namespace
+
 ##### n
 
 `string`
+
+defines the attribute name
 
 ##### v
 
 `string`
 
+defines the attribute value
+
 #### Returns
 
 `IXmlBuilder`
+
+the XML builder
 
 ***
 
@@ -40,7 +52,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **dec**(`version`, `encoding?`, `standalone?`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L13)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L20)
+
+Writes the XML declaration.
 
 #### Parameters
 
@@ -48,17 +62,25 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 `string`
 
+defines the XML version
+
 ##### encoding?
 
 `string`
+
+defines the optional XML encoding
 
 ##### standalone?
 
 `boolean`
 
+defines the optional standalone flag
+
 #### Returns
 
 `IXmlBuilder`
+
+the XML builder
 
 ***
 
@@ -66,7 +88,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **ele**(`ns`, `n`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L15)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L35)
+
+Writes an XML element.
 
 #### Parameters
 
@@ -74,13 +98,19 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 `string` \| `null`
 
+defines the element namespace
+
 ##### n
 
 `string`
 
+defines the element name
+
 #### Returns
 
 `IXmlBuilder`
+
+the XML builder
 
 ***
 
@@ -88,11 +118,15 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **end**(): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L17)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L46)
+
+Ends the current XML element.
 
 #### Returns
 
 `IXmlBuilder`
+
+the XML builder
 
 ***
 
@@ -100,7 +134,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **text**(`txt`): `IXmlBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L16)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L41)
+
+Writes text content.
 
 #### Parameters
 
@@ -108,6 +144,10 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 `string`
 
+defines the text to write
+
 #### Returns
 
 `IXmlBuilder`
+
+the XML builder

@@ -6,7 +6,10 @@
 
 # Interface: IGLTFObjectModelTreeCamerasObject
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L69)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L114)
+
+Accessor tree describing the `/cameras` section of the glTF Object Model.
+Exposes orthographic and perspective camera properties.
 
 ## Properties
 
@@ -14,7 +17,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **\_\_array\_\_**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L70)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L117)
 
 #### \_\_target\_\_
 
@@ -59,3 +62,13 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 ##### perspective.znear
 
 > **znear**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`ICamera`](ICamera.md), [`ICamera`](ICamera.md), `number`\>
+
+***
+
+### length
+
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`ICamera`](ICamera.md)[], `any`, [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
+
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L116)
+
+Number of cameras in the array.

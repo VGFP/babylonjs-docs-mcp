@@ -6,7 +6,7 @@
 
 # Interface: INodeRenderGraphEditorOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L31)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L31)
 
 Interface used to configure the node render graph editor
 
@@ -16,7 +16,7 @@ Interface used to configure the node render graph editor
 
 > `optional` **editorURL?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L33)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L33)
 
 Define the URL to load node editor script from
 
@@ -26,7 +26,7 @@ Define the URL to load node editor script from
 
 > `optional` **nodeRenderGraphEditorConfig?**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L35)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Types/nodeRenderGraphTypes.ts#L35)
 
 Additional configuration for the FGE
 

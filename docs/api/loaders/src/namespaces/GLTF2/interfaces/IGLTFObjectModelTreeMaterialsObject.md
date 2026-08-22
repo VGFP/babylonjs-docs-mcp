@@ -6,7 +6,10 @@
 
 # Interface: IGLTFObjectModelTreeMaterialsObject
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L87)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L138)
+
+Accessor tree describing the `/materials` section of the glTF Object Model.
+Covers core PBR properties as well as the family of KHR_materials_* extensions.
 
 ## Properties
 
@@ -14,11 +17,19 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 
 > **\_\_array\_\_**: `object`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L88)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L141)
 
 #### \_\_target\_\_
 
 > **\_\_target\_\_**: `boolean`
+
+#### alphaCutoff
+
+> **alphaCutoff**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMaterial`](IMaterial.md), [`PBRMaterial`](../../../../../core/src/classes/PBRMaterial.md), `number`\>
+
+#### doubleSided
+
+> **doubleSided**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMaterial`](IMaterial.md), [`PBRMaterial`](../../../../../core/src/classes/PBRMaterial.md), `boolean`\>
 
 #### emissiveFactor
 
@@ -411,3 +422,13 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/objec
 ##### pbrMetallicRoughness.roughnessFactor
 
 > **roughnessFactor**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMaterial`](IMaterial.md), [`PBRMaterial`](../../../../../core/src/classes/PBRMaterial.md), [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`number`\>\>
+
+***
+
+### length
+
+> **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMaterial`](IMaterial.md)[], [`PBRMaterial`](../../../../../core/src/classes/PBRMaterial.md)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
+
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L140)
+
+Number of materials in the array.

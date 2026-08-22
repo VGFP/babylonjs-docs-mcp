@@ -6,7 +6,7 @@
 
 # Interface: IPathToObjectConverter\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L20)
+Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L20)
 
 Interface for a converter that takes a string path and transforms
 it into an ObjectAccessorContainer.
@@ -23,7 +23,7 @@ it into an ObjectAccessorContainer.
 
 > **convert**(`path`): [`IObjectInfo`](IObjectInfo.md)\<`T`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L26)
+Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L26)
 
 Convert a path to an object that can be used to access properties of a base object
 

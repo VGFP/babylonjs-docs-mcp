@@ -8,4 +8,4 @@
 
 > **NodeRenderGraphValueType** = [`InternalTexture`](../classes/InternalTexture.md) \| [`Camera`](../classes/Camera.md) \| [`FrameGraphObjectList`](../classes/FrameGraphObjectList.md) \| [`IShadowLight`](../interfaces/IShadowLight.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/inputBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/inputBlock.pure.ts#L24)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/inputBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/inputBlock.pure.ts#L24)

@@ -6,7 +6,7 @@
 
 # Class: FilesInputStore
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInputStore.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInputStore.ts#L5)
+Defined in: [packages/dev/core/src/Misc/filesInputStore.ts:5](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/filesInputStore.ts#L5)
 
 Class used to help managing file picking and drag'n'drop
 File Storage
@@ -27,7 +27,7 @@ File Storage
 
 > `static` **FilesToLoad**: `object` = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/filesInputStore.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/filesInputStore.ts#L9)
+Defined in: [packages/dev/core/src/Misc/filesInputStore.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/filesInputStore.ts#L9)
 
 List of files ready to be loaded
 

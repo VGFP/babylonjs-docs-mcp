@@ -8,7 +8,7 @@
 
 > **GenerateBase64StringFromPixelData**(`pixels`, `size`, `invertY?`): [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/copyTools.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/copyTools.ts#L14)
+Defined in: [packages/dev/core/src/Misc/copyTools.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/copyTools.ts#L14)
 
 Transform some pixel data to a base64 string
 

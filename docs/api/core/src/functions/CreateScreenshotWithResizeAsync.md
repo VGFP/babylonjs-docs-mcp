@@ -8,7 +8,7 @@
 
 > **CreateScreenshotWithResizeAsync**(`engine`, `camera`, `width`, `height`, `mimeType?`, `quality?`, `useFill?`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/screenshotTools.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/screenshotTools.pure.ts#L218)
+Defined in: [packages/dev/core/src/Misc/screenshotTools.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/screenshotTools.pure.ts#L218)
 
 Captures and automatically downloads a screenshot of the current rendering for a specific size. This will render the entire canvas but will generate a blink (due to canvas resize)
 If screenshot image data is needed, use [CreateScreenshotAsync](CreateScreenshotAsync.md) instead.

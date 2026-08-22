@@ -6,7 +6,7 @@
 
 # Class: AsyncLoop
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1629](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1629)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1641](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1641)
 
 An implementation of a loop for asynchronous functions.
 
@@ -16,7 +16,7 @@ An implementation of a loop for asynchronous functions.
 
 > **new AsyncLoop**(`iterations`, `func`, `successCallback`, `offset?`): `AsyncLoop`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1645](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1645)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1657](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1657)
 
 Constructor.
 
@@ -56,7 +56,7 @@ starting offset.
 
 > **index**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1633](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1633)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1645](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1645)
 
 Defines the current index of the loop.
 
@@ -66,7 +66,7 @@ Defines the current index of the loop.
 
 > **iterations**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1649](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1649)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1661](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1661)
 
 Defines the number of iterations for the loop
 
@@ -76,7 +76,7 @@ Defines the number of iterations for the loop
 
 > **breakLoop**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1677](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1677)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1689](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1689)
 
 Break the loop and run the success callback.
 
@@ -90,7 +90,7 @@ Break the loop and run the success callback.
 
 > **executeNext**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1663)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1675)
 
 Execute the next iteration. Must be called after the last iteration was finished.
 
@@ -104,7 +104,7 @@ Execute the next iteration. Must be called after the last iteration was finished
 
 > `static` **Run**(`iterations`, `fn`, `successCallback`, `offset?`): `AsyncLoop`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1690](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1690)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1702](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1702)
 
 Create and run an async loop.
 
@@ -146,7 +146,7 @@ the created async loop object
 
 > `static` **SyncAsyncForLoop**(`iterations`, `syncedIterations`, `fn`, `callback`, `breakFunction?`, `timeout?`): `AsyncLoop`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/tools.pure.ts:1708](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/tools.pure.ts#L1708)
+Defined in: [packages/dev/core/src/Misc/tools.pure.ts:1720](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/tools.pure.ts#L1720)
 
 A for-loop that will run a given number of iterations synchronous and the rest async.
 

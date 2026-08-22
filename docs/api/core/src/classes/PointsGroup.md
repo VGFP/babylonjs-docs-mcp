@@ -6,7 +6,7 @@
 
 # Class: PointsGroup
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L198)
+Defined in: [packages/dev/core/src/Particles/cloudPoint.ts:198](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/cloudPoint.ts#L198)
 
 Represents a group of points in a points cloud system
  * PCS internal tool, don't use it manually.
@@ -19,7 +19,7 @@ Represents a group of points in a points cloud system
 
 > **get** **groupID**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:204](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L204)
+Defined in: [packages/dev/core/src/Particles/cloudPoint.ts:204](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/cloudPoint.ts#L204)
 
 Get or set the groupId
 
@@ -35,7 +35,7 @@ Please use groupId instead
 
 > **set** **groupID**(`groupID`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/cloudPoint.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/cloudPoint.ts#L208)
+Defined in: [packages/dev/core/src/Particles/cloudPoint.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/cloudPoint.ts#L208)
 
 ##### Parameters
 

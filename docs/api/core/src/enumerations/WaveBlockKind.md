@@ -6,7 +6,7 @@
 
 # Enumeration: WaveBlockKind
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L15)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L15)
 
 Operations supported by the Wave block
 
@@ -16,7 +16,7 @@ Operations supported by the Wave block
 
 > **SawTooth**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L17)
 
 SawTooth
 
@@ -26,7 +26,7 @@ SawTooth
 
 > **Square**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L19)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L19)
 
 Square
 
@@ -36,6 +36,6 @@ Square
 
 > **Triangle**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/waveBlock.pure.ts#L21)
 
 Triangle

@@ -8,7 +8,7 @@
 
 > **ArcRotateHandlers** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L17)
+Defined in: [packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L17)
 
 Handler shape for arc-rotate camera interactions.
 Property names are the canonical interaction type strings used in inputMap entries.
@@ -20,7 +20,7 @@ All handlers are plain functions since none need multi-method lifecycle.
 
 > **pan**: (`deltaX`, `deltaY`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L19)
+Defined in: [packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L19)
 
 Pan by pre-scaled pixel deltas
 
@@ -44,7 +44,7 @@ Pan by pre-scaled pixel deltas
 
 > **rotate**: (`deltaX`, `deltaY`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L21)
+Defined in: [packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L21)
 
 Orbit by pre-scaled pixel deltas
 
@@ -68,7 +68,7 @@ Orbit by pre-scaled pixel deltas
 
 > **zoom**: (`delta`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L23)
+Defined in: [packages/dev/core/src/Cameras/arcRotateCameraMovement.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/arcRotateCameraMovement.ts#L23)
 
 Zoom by a pre-computed delta (already scaled by input)
 

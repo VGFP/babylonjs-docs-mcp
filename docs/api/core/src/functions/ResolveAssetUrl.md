@@ -8,7 +8,7 @@
 
 > **ResolveAssetUrl**(`assetUrl`, `baseUrl`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L86)
+Defined in: [packages/dev/core/src/SmartAssets/smartAssetSerializer.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/SmartAssets/smartAssetSerializer.ts#L86)
 
 Resolves an asset URL relative to a base URL.
 Absolute URLs (http://, https://) and data URIs are returned as-is.

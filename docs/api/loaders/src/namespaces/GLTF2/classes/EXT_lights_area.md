@@ -6,7 +6,7 @@
 
 # Class: EXT\_lights\_area
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_area.ts#L32)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L21)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_lights_area/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_area.ts#L41)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L30)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"EXT_lights_area"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_area.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_area.ts#L36)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_area.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_area.pure.ts#L25)
 
 The name of this extension.
 

@@ -22,6 +22,7 @@
 - [InteractivityGraphToFlowGraphParser](classes/InteractivityGraphToFlowGraphParser.md)
 - [KHR\_animation\_pointer](classes/KHR_animation_pointer.md)
 - [KHR\_draco\_mesh\_compression](classes/KHR_draco_mesh_compression.md)
+- [KHR\_gaussian\_splatting](classes/KHR_gaussian_splatting.md)
 - [KHR\_interactivity](classes/KHR_interactivity.md)
 - [KHR\_lights](classes/KHR_lights.md)
 - [KHR\_materials\_anisotropy](classes/KHR_materials_anisotropy.md)
@@ -73,6 +74,8 @@
 - [IGLTFObjectModelTreeMaterialsObject](interfaces/IGLTFObjectModelTreeMaterialsObject.md)
 - [IGLTFObjectModelTreeMeshesObject](interfaces/IGLTFObjectModelTreeMeshesObject.md)
 - [IGLTFObjectModelTreeNodesObject](interfaces/IGLTFObjectModelTreeNodesObject.md)
+- [IGLTFObjectModelTreeScenesObject](interfaces/IGLTFObjectModelTreeScenesObject.md)
+- [IGLTFObjectModelTreeSkinsObject](interfaces/IGLTFObjectModelTreeSkinsObject.md)
 - [IGLTFToFlowGraphMapping](interfaces/IGLTFToFlowGraphMapping.md)
 - [IImage](interfaces/IImage.md)
 - [IMaterial](interfaces/IMaterial.md)
@@ -94,6 +97,7 @@
 ## Type Aliases
 
 - [GLTFExtensionFactory](type-aliases/GLTFExtensionFactory.md)
+- [MaterialVariantsController](type-aliases/MaterialVariantsController.md)
 
 ## Variables
 
@@ -110,7 +114,49 @@
 - [getMappingForFullOperationName](functions/getMappingForFullOperationName.md)
 - [GetMappingForKey](functions/GetMappingForKey.md)
 - [GetPathToObjectConverter](functions/GetPathToObjectConverter.md)
+- [RegisterEXT\_lights\_area](functions/RegisterEXT_lights_area.md)
+- [RegisterEXT\_lights\_ies](functions/RegisterEXT_lights_ies.md)
+- [RegisterEXT\_lights\_image\_based](functions/RegisterEXT_lights_image_based.md)
+- [RegisterEXT\_mesh\_gpu\_instancing](functions/RegisterEXT_mesh_gpu_instancing.md)
+- [RegisterEXT\_meshopt\_compression](functions/RegisterEXT_meshopt_compression.md)
+- [RegisterEXT\_texture\_avif](functions/RegisterEXT_texture_avif.md)
+- [RegisterEXT\_texture\_webp](functions/RegisterEXT_texture_webp.md)
+- [RegisterExtrasAsMetadata](functions/RegisterExtrasAsMetadata.md)
 - [registerGLTFExtension](functions/registerGLTFExtension.md)
+- [RegisterKHR\_animation\_pointer](functions/RegisterKHR_animation_pointer.md)
+- [RegisterKHR\_draco\_mesh\_compression](functions/RegisterKHR_draco_mesh_compression.md)
+- [RegisterKHR\_gaussian\_splatting](functions/RegisterKHR_gaussian_splatting.md)
+- [RegisterKHR\_interactivity](functions/RegisterKHR_interactivity.md)
+- [RegisterKHR\_lights](functions/RegisterKHR_lights.md)
+- [RegisterKHR\_materials\_anisotropy](functions/RegisterKHR_materials_anisotropy.md)
+- [RegisterKHR\_materials\_clearcoat](functions/RegisterKHR_materials_clearcoat.md)
+- [RegisterKHR\_materials\_coat](functions/RegisterKHR_materials_coat.md)
+- [RegisterKHR\_materials\_diffuse\_roughness](functions/RegisterKHR_materials_diffuse_roughness.md)
+- [RegisterKHR\_materials\_diffuse\_transmission](functions/RegisterKHR_materials_diffuse_transmission.md)
+- [RegisterKHR\_materials\_dispersion](functions/RegisterKHR_materials_dispersion.md)
+- [RegisterKHR\_materials\_emissive\_strength](functions/RegisterKHR_materials_emissive_strength.md)
+- [RegisterKHR\_materials\_fuzz](functions/RegisterKHR_materials_fuzz.md)
+- [RegisterKHR\_materials\_ior](functions/RegisterKHR_materials_ior.md)
+- [RegisterKHR\_materials\_iridescence](functions/RegisterKHR_materials_iridescence.md)
+- [RegisterKHR\_materials\_pbrSpecularGlossiness](functions/RegisterKHR_materials_pbrSpecularGlossiness.md)
+- [RegisterKHR\_materials\_sheen](functions/RegisterKHR_materials_sheen.md)
+- [RegisterKHR\_materials\_specular](functions/RegisterKHR_materials_specular.md)
+- [RegisterKHR\_materials\_transmission](functions/RegisterKHR_materials_transmission.md)
+- [RegisterKHR\_materials\_unlit](functions/RegisterKHR_materials_unlit.md)
+- [RegisterKHR\_materials\_variants](functions/RegisterKHR_materials_variants.md)
+- [RegisterKHR\_materials\_volume](functions/RegisterKHR_materials_volume.md)
+- [RegisterKHR\_materials\_volume\_scatter](functions/RegisterKHR_materials_volume_scatter.md)
+- [RegisterKHR\_mesh\_quantization](functions/RegisterKHR_mesh_quantization.md)
+- [RegisterKHR\_node\_hoverability](functions/RegisterKHR_node_hoverability.md)
+- [RegisterKHR\_node\_selectability](functions/RegisterKHR_node_selectability.md)
+- [RegisterKHR\_node\_visibility](functions/RegisterKHR_node_visibility.md)
+- [RegisterKHR\_texture\_basisu](functions/RegisterKHR_texture_basisu.md)
+- [RegisterKHR\_texture\_transform](functions/RegisterKHR_texture_transform.md)
+- [RegisterKHR\_xmp\_json\_ld](functions/RegisterKHR_xmp_json_ld.md)
+- [RegisterMSFT\_audio\_emitter](functions/RegisterMSFT_audio_emitter.md)
+- [RegisterMSFT\_lod](functions/RegisterMSFT_lod.md)
+- [RegisterMSFT\_minecraftMesh](functions/RegisterMSFT_minecraftMesh.md)
+- [RegisterMSFT\_sRGBFactors](functions/RegisterMSFT_sRGBFactors.md)
 - [SetInterpolationForKey](functions/SetInterpolationForKey.md)
 - [unregisterGLTFExtension](functions/unregisterGLTFExtension.md)
 
@@ -119,9 +165,3 @@
 ### GLTFFileLoader
 
 Re-exports [GLTFFileLoader](../../classes/GLTFFileLoader.md)
-
-***
-
-### MaterialVariantsController
-
-Re-exports [MaterialVariantsController](../../type-aliases/MaterialVariantsController.md)

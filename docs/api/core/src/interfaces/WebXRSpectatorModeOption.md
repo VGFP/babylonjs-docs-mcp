@@ -6,7 +6,7 @@
 
 # Interface: WebXRSpectatorModeOption
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRExperienceHelper.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRExperienceHelper.ts#L19)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L18)
 
 Options for setting up XR spectator camera.
 
@@ -16,7 +16,7 @@ Options for setting up XR spectator camera.
 
 > `optional` **fps?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRExperienceHelper.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRExperienceHelper.ts#L23)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L22)
 
 Expected refresh rate (frames per sec) for a spectator camera.
 
@@ -26,6 +26,6 @@ Expected refresh rate (frames per sec) for a spectator camera.
 
 > `optional` **preferredCameraIndex?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRExperienceHelper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRExperienceHelper.ts#L27)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L26)
 
 The index of rigCameras array in a WebXR camera.

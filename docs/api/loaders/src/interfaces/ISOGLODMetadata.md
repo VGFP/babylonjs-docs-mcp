@@ -6,7 +6,7 @@
 
 # Interface: ISOGLODMetadata
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L62)
+Defined in: [packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L71)
 
 Parsed contents of a PlayCanvas-style `lod-meta.json` file.
 
@@ -16,7 +16,7 @@ Parsed contents of a PlayCanvas-style `lod-meta.json` file.
 
 > `optional` **environment?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L68)
+Defined in: [packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L77)
 
 Optional always-on environment `.sog` bundle, relative to the metadata file.
 
@@ -26,7 +26,7 @@ Optional always-on environment `.sog` bundle, relative to the metadata file.
 
 > **filenames**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L66)
+Defined in: [packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L75)
 
 SOG `meta.json` paths, relative to the metadata file, indexed by `ISOGLODEntry.file`.
 
@@ -36,7 +36,7 @@ SOG `meta.json` paths, relative to the metadata file, indexed by `ISOGLODEntry.f
 
 > **lodLevels**: `number`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L64)
+Defined in: [packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L73)
 
 Number of LOD levels (0 = highest detail).
 
@@ -46,6 +46,6 @@ Number of LOD levels (0 = highest detail).
 
 > **tree**: `ISOGLODNode`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L70)
+Defined in: [packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L79)
 
 Root of the LOD octree.

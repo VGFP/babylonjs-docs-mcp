@@ -6,7 +6,7 @@
 
 # Class: PBRBRDFConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L26)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L26)
 
 Plugin that implements the BRDF component of the PBR material
 
@@ -20,7 +20,7 @@ Plugin that implements the BRDF component of the PBR material
 
 > **new PBRBRDFConfiguration**(`material`, `addToPluginList?`): `PBRBRDFConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L183)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L183)
 
 #### Parameters
 
@@ -42,41 +42,11 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfigu
 
 ## Properties
 
-### baseDiffuseModel
-
-> **baseDiffuseModel**: `number` = `PBRBRDFConfiguration.DEFAULT_DIFFUSE_MODEL`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L149)
-
-Defines the base diffuse roughness model of the material.
-
-***
-
-### conductorSpecularModel
-
-> **conductorSpecularModel**: `number` = `PBRBRDFConfiguration.DEFAULT_CONDUCTOR_SPECULAR_MODEL`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L165)
-
-The material model to use for specular lighting.
-
-***
-
-### dielectricSpecularModel
-
-> **dielectricSpecularModel**: `number` = `PBRBRDFConfiguration.DEFAULT_DIELECTRIC_SPECULAR_MODEL`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:157](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L157)
-
-The material model to use for specular lighting of dielectric materials.
-
-***
-
 ### doNotSerialize
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -90,7 +60,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -104,23 +74,11 @@ Helper function to mark defines as being dirty.
 
 ***
 
-### mixIblRadianceWithIrradiance
-
-> **mixIblRadianceWithIrradiance**: `boolean` = `PBRBRDFConfiguration.DEFAULT_MIX_IBL_RADIANCE_WITH_IRRADIANCE`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L132)
-
-Defines if IBL irradiance is used to augment rough radiance.
-If activated, irradiance is blended into the radiance contribution when the material is rough.
-This better approximates raytracing results for rough surfaces.
-
-***
-
 ### name
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -134,7 +92,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -148,7 +106,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -162,7 +120,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -172,11 +130,141 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 ***
 
+### DEFAULT\_CONDUCTOR\_SPECULAR\_MODEL
+
+> `static` **DEFAULT\_CONDUCTOR\_SPECULAR\_MODEL**: `number` = `Constants.MATERIAL_CONDUCTOR_SPECULAR_MODEL_GLTF`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L78)
+
+Defines the default conductor specular model used by the material.
+
+***
+
+### DEFAULT\_DIELECTRIC\_SPECULAR\_MODEL
+
+> `static` **DEFAULT\_DIELECTRIC\_SPECULAR\_MODEL**: `number` = `Constants.MATERIAL_DIELECTRIC_SPECULAR_MODEL_GLTF`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L73)
+
+Defines the default dielectric specular model used by the material.
+
+***
+
+### DEFAULT\_DIFFUSE\_MODEL
+
+> `static` **DEFAULT\_DIFFUSE\_MODEL**: `number` = `Constants.MATERIAL_DIFFUSE_MODEL_E_OREN_NAYAR`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L68)
+
+Defines the default diffuse model used by the material.
+
+***
+
+### DEFAULT\_MIX\_IBL\_RADIANCE\_WITH\_IRRADIANCE
+
+> `static` **DEFAULT\_MIX\_IBL\_RADIANCE\_WITH\_IRRADIANCE**: `boolean` = `true`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L58)
+
+Default value for whether IBL irradiance is used to augment rough radiance.
+If activated, irradiance is blended into the radiance contribution when the material is rough.
+This better approximates raytracing results for rough surfaces.
+
+***
+
+### DEFAULT\_USE\_ENERGY\_CONSERVATION
+
+> `static` **DEFAULT\_USE\_ENERGY\_CONSERVATION**: `boolean` = `true`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L31)
+
+Default value used for the energy conservation.
+This should only be changed to adapt to the type of texture in scene.environmentBRDFTexture.
+
+***
+
+### DEFAULT\_USE\_LEGACY\_SPECULAR\_ENERGY\_CONSERVATION
+
+> `static` **DEFAULT\_USE\_LEGACY\_SPECULAR\_ENERGY\_CONSERVATION**: `boolean` = `true`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L63)
+
+Default value for whether the legacy specular energy conservation is used.
+
+***
+
+### DEFAULT\_USE\_SMITH\_VISIBILITY\_HEIGHT\_CORRELATED
+
+> `static` **DEFAULT\_USE\_SMITH\_VISIBILITY\_HEIGHT\_CORRELATED**: `boolean` = `true`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L37)
+
+Default value used for the Smith Visibility Height Correlated mode.
+This should only be changed to adapt to the type of texture in scene.environmentBRDFTexture.
+
+***
+
+### DEFAULT\_USE\_SPECULAR\_GLOSSINESS\_INPUT\_ENERGY\_CONSERVATION
+
+> `static` **DEFAULT\_USE\_SPECULAR\_GLOSSINESS\_INPUT\_ENERGY\_CONSERVATION**: `boolean` = `true`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L51)
+
+Default value used for activating energy conservation for the specular workflow.
+If activated, the albedo color is multiplied with (1. - maxChannel(specular color)).
+If deactivated, a material is only physically plausible, when (albedo color + specular color) < 1.
+
+***
+
+### DEFAULT\_USE\_SPHERICAL\_HARMONICS
+
+> `static` **DEFAULT\_USE\_SPHERICAL\_HARMONICS**: `boolean` = `true`
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L44)
+
+Default value used for the IBL diffuse part.
+This can help switching back to the polynomials mode globally which is a tiny bit
+less GPU intensive at the drawback of a lower quality.
+
+## Accessors
+
+### baseDiffuseModel
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L149)
+
+Defines the base diffuse roughness model of the material.
+
+***
+
+### conductorSpecularModel
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L165)
+
+The material model to use for specular lighting.
+
+***
+
+### dielectricSpecularModel
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L157)
+
+The material model to use for specular lighting of dielectric materials.
+
+***
+
+### mixIblRadianceWithIrradiance
+
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L132)
+
+Defines if IBL irradiance is used to augment rough radiance.
+If activated, irradiance is blended into the radiance contribution when the material is rough.
+This better approximates raytracing results for rough surfaces.
+
+***
+
 ### useEnergyConservation
 
-> **useEnergyConservation**: `boolean` = `PBRBRDFConfiguration.DEFAULT_USE_ENERGY_CONSERVATION`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L86)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L86)
 
 Defines if the material uses energy conservation.
 
@@ -184,9 +272,7 @@ Defines if the material uses energy conservation.
 
 ### useLegacySpecularEnergyConservation
 
-> **useLegacySpecularEnergyConservation**: `boolean` = `PBRBRDFConfiguration.DEFAULT_USE_LEGACY_SPECULAR_ENERGY_CONSERVATION`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L141)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L141)
 
 Defines if the legacy specular energy conservation is used.
 If activated, the specular color is multiplied with (1. - maxChannel(albedo color)).
@@ -195,9 +281,7 @@ If activated, the specular color is multiplied with (1. - maxChannel(albedo colo
 
 ### useSmithVisibilityHeightCorrelated
 
-> **useSmithVisibilityHeightCorrelated**: `boolean` = `PBRBRDFConfiguration.DEFAULT_USE_SMITH_VISIBILITY_HEIGHT_CORRELATED`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L99)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L99)
 
 LEGACY Mode set to false
 Defines if the material uses height smith correlated visibility term.
@@ -210,9 +294,7 @@ Not relying on height correlated will also disable energy conservation.
 
 ### useSpecularGlossinessInputEnergyConservation
 
-> **useSpecularGlossinessInputEnergyConservation**: `boolean` = `PBRBRDFConfiguration.DEFAULT_USE_SPECULAR_GLOSSINESS_INPUT_ENERGY_CONSERVATION`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L122)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L122)
 
 Defines if the material uses energy conservation, when the specular workflow is active.
 If activated, the albedo color is multiplied with (1. - maxChannel(specular color)).
@@ -223,9 +305,7 @@ In the deactivated case, the material author has to ensure energy conservation, 
 
 ### useSphericalHarmonics
 
-> **useSphericalHarmonics**: `boolean` = `PBRBRDFConfiguration.DEFAULT_USE_SPHERICAL_HARMONICS`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L111)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L111)
 
 LEGACY Mode set to false
 Defines if the material uses spherical harmonics vs spherical polynomials for the
@@ -233,111 +313,13 @@ diffuse part of the IBL.
 The harmonics despite a tiny bigger cost has been proven to provide closer results
 to the ground truth.
 
-***
-
-### DEFAULT\_CONDUCTOR\_SPECULAR\_MODEL
-
-> `static` **DEFAULT\_CONDUCTOR\_SPECULAR\_MODEL**: `number` = `Constants.MATERIAL_CONDUCTOR_SPECULAR_MODEL_GLTF`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L78)
-
-Defines the default conductor specular model used by the material.
-
-***
-
-### DEFAULT\_DIELECTRIC\_SPECULAR\_MODEL
-
-> `static` **DEFAULT\_DIELECTRIC\_SPECULAR\_MODEL**: `number` = `Constants.MATERIAL_DIELECTRIC_SPECULAR_MODEL_GLTF`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L73)
-
-Defines the default dielectric specular model used by the material.
-
-***
-
-### DEFAULT\_DIFFUSE\_MODEL
-
-> `static` **DEFAULT\_DIFFUSE\_MODEL**: `number` = `Constants.MATERIAL_DIFFUSE_MODEL_E_OREN_NAYAR`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L68)
-
-Defines the default diffuse model used by the material.
-
-***
-
-### DEFAULT\_MIX\_IBL\_RADIANCE\_WITH\_IRRADIANCE
-
-> `static` **DEFAULT\_MIX\_IBL\_RADIANCE\_WITH\_IRRADIANCE**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L58)
-
-Default value for whether IBL irradiance is used to augment rough radiance.
-If activated, irradiance is blended into the radiance contribution when the material is rough.
-This better approximates raytracing results for rough surfaces.
-
-***
-
-### DEFAULT\_USE\_ENERGY\_CONSERVATION
-
-> `static` **DEFAULT\_USE\_ENERGY\_CONSERVATION**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L31)
-
-Default value used for the energy conservation.
-This should only be changed to adapt to the type of texture in scene.environmentBRDFTexture.
-
-***
-
-### DEFAULT\_USE\_LEGACY\_SPECULAR\_ENERGY\_CONSERVATION
-
-> `static` **DEFAULT\_USE\_LEGACY\_SPECULAR\_ENERGY\_CONSERVATION**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L63)
-
-Default value for whether the legacy specular energy conservation is used.
-
-***
-
-### DEFAULT\_USE\_SMITH\_VISIBILITY\_HEIGHT\_CORRELATED
-
-> `static` **DEFAULT\_USE\_SMITH\_VISIBILITY\_HEIGHT\_CORRELATED**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L37)
-
-Default value used for the Smith Visibility Height Correlated mode.
-This should only be changed to adapt to the type of texture in scene.environmentBRDFTexture.
-
-***
-
-### DEFAULT\_USE\_SPECULAR\_GLOSSINESS\_INPUT\_ENERGY\_CONSERVATION
-
-> `static` **DEFAULT\_USE\_SPECULAR\_GLOSSINESS\_INPUT\_ENERGY\_CONSERVATION**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L51)
-
-Default value used for activating energy conservation for the specular workflow.
-If activated, the albedo color is multiplied with (1. - maxChannel(specular color)).
-If deactivated, a material is only physically plausible, when (albedo color + specular color) < 1.
-
-***
-
-### DEFAULT\_USE\_SPHERICAL\_HARMONICS
-
-> `static` **DEFAULT\_USE\_SPHERICAL\_HARMONICS**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L44)
-
-Default value used for the IBL diffuse part.
-This can help switching back to the polynomials mode globally which is a tiny bit
-less GPU intensive at the drawback of a lower quality.
-
 ## Methods
 
 ### addFallbacks()
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -377,7 +359,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L160)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L160)
 
 Binds the material data.
 
@@ -421,7 +403,7 @@ the submesh to bind data for
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -445,7 +427,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -471,7 +453,7 @@ define the config where to copy the info
 
 > **dispose**(`_forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
 
 Disposes the resources of the material.
 
@@ -497,7 +479,7 @@ Forces the disposal of all textures.
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -523,7 +505,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`_activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
 
 Returns an array of the actively used textures.
 
@@ -549,7 +531,7 @@ Array of BaseTextures
 
 > **getAnimatables**(`_animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
 
 Returns the animatable textures.
 
@@ -575,7 +557,7 @@ Array of animatable textures.
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -613,7 +595,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:206](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L206)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L206)
 
 Gets the current class name useful for serialization or dynamic coding.
 
@@ -633,7 +615,7 @@ The class name.
 
 > **getCustomCode**(`_shaderType`, `_shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
 
 Returns a list of custom shader code fragments to customize the shader.
 
@@ -670,7 +652,7 @@ replaced by the code provided.
 
 > **getSamplers**(`_samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
 
 Gets the samplers used by the plugin.
 
@@ -696,7 +678,7 @@ list that the sampler names should be added to.
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -722,7 +704,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(`_shaderLanguage?`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L289)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L289)
 
 Gets the description of the uniforms to add to the ubo (if engine supports ubos) or to inject directly in the vertex/fragment shaders (if engine does not support ubos)
 
@@ -766,7 +748,7 @@ the description of the uniforms
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -810,7 +792,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -830,7 +812,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`_texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
 
 Checks to see if a texture is used in the material.
 
@@ -858,7 +840,7 @@ Base texture to use.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L179)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L179)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language.
 
@@ -878,7 +860,7 @@ true if the plugin is compatible with the shader language
 
 > **isReadyForSubMesh**(`_defines`, `_scene`, `_engine`, `_subMesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L140)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L140)
 
 Specifies that the submesh is ready to be used.
 
@@ -924,7 +906,7 @@ the submesh to check for readiness
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -962,7 +944,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:194](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L194)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts:194](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrBRDFConfiguration.ts#L194)
 
 Updates the material defines for BRDF settings.
 
@@ -988,7 +970,7 @@ defines the material defines to update
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
 
@@ -1026,7 +1008,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 

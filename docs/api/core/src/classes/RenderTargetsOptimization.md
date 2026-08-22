@@ -6,7 +6,7 @@
 
 # Class: RenderTargetsOptimization
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:316](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L316)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:316](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L316)
 
 Defines an optimization used to turn render targets off
 
@@ -24,7 +24,7 @@ More details at https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneO
 
 > **new RenderTargetsOptimization**(`priority?`): `RenderTargetsOptimization`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L37)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L37)
 
 Creates the SceneOptimization object
 
@@ -50,7 +50,7 @@ defines the priority of this optimization (0 by default which means first in the
 
 > **priority**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L41)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L41)
 
 [0] Defines the priority of this optimization (0 by default which means first in the list)
 
@@ -64,7 +64,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:41](h
 
 > **apply**(`scene`, `optimizer`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L331)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L331)
 
 This function will be called by the SceneOptimizer when its priority is reached in order to apply the change required by the current optimization
 
@@ -98,7 +98,7 @@ true if everything that can be done was applied
 
 > **getDescription**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:321](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L321)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:321](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L321)
 
 Gets a string describing the action executed by the current optimization
 

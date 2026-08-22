@@ -6,7 +6,7 @@
 
 # Class: ThinEngine
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L113)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L113)
 
 The base engine class (root of all engines)
 
@@ -24,7 +24,7 @@ The base engine class (root of all engines)
 
 > **new ThinEngine**(`canvasOrContext`, `antialias?`, `options?`, `adaptToDeviceRatio?`): `ThinEngine`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L272)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L261)
 
 Creates a new engine
 
@@ -68,7 +68,7 @@ defines whether to adapt to the device's viewport characteristics (default: fals
 
 > **activeView**: [`Nullable`](../type-aliases/Nullable.md)\<[`EngineView`](EngineView.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L35)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L35)
 
 Gets the current engine view
 
@@ -86,7 +86,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/multiCanvas
 
 > **adaptToDeviceRatio**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2034](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2034)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2052](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2052)
 
 If set to true zooming in and out in the browser will rescale the hardware-scaling correctly.
 
@@ -100,9 +100,9 @@ If set to true zooming in and out in the browser will rescale the hardware-scali
 
 > **canvasTabIndex**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:486](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L486)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L494)
 
-Gets or sets the tab index to set to the rendering canvas. 1 is the minimum value to set to be able to capture keyboard events
+Gets or sets the tab index to set to the rendering canvas. Any value >= 0 makes the canvas focusable to capture keyboard events and adds it to the tab order; use -1 to keep it focusable programmatically but out of the tab order
 
 #### Inherited from
 
@@ -114,7 +114,7 @@ Gets or sets the tab index to set to the rendering canvas. 1 is the minimum valu
 
 > **cullBackFaces**: [`Nullable`](../type-aliases/Nullable.md)\<`boolean`\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2454)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2473](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2473)
 
 Gets or sets a boolean indicating if back faces must be culled. If false, front faces are culled instead (true by default)
 If non null, this takes precedence over the value from the material
@@ -129,7 +129,7 @@ If non null, this takes precedence over the value from the material
 
 > **currentRenderPassId**: `number` = `Constants.RENDERPASS_MAIN`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L473)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L481)
 
 Gets or sets the current render pass id
 
@@ -139,11 +139,25 @@ Gets or sets the current render pass id
 
 ***
 
+### currentSampleCount
+
+> `readonly` **currentSampleCount**: `number`
+
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.alphaToCoverage.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.alphaToCoverage.types.ts#L23)
+
+Gets the number of samples used by the current render target.
+
+#### Returns
+
+the current sample count, or 1 when multisampling is disabled
+
+***
+
 ### customAnimationFrameRequester
 
 > **customAnimationFrameRequester**: [`Nullable`](../type-aliases/Nullable.md)\<[`ICustomAnimationFrameRequester`](../interfaces/ICustomAnimationFrameRequester.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:866](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L866)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L874)
 
 If set, will be used to request the next animation frame for the render loop
 
@@ -157,7 +171,7 @@ If set, will be used to request the next animation frame for the render loop
 
 > **disableContextMenu**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:468](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L468)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:476](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L476)
 
 Gets or sets a boolean to enable/disable the context menu (right-click) from appearing on the main canvas
 
@@ -171,7 +185,7 @@ Gets or sets a boolean to enable/disable the context menu (right-click) from app
 
 > **disableManifestCheck**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L463)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L471)
 
 Gets or sets a boolean to enable/disable checking manifest if IndexedDB support is enabled (js will always consider the database is up to date)
 
@@ -185,7 +199,7 @@ Gets or sets a boolean to enable/disable checking manifest if IndexedDB support 
 
 > **disablePerformanceMonitorInBackground**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L337)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L345)
 
 Turn this value on if you want to pause FPS computation when in background
 
@@ -199,7 +213,7 @@ Turn this value on if you want to pause FPS computation when in background
 
 > **disableUniformBuffers**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L177)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L177)
 
 Gets or sets a boolean indicating that uniform buffers must be disabled even if they are supported
 
@@ -209,7 +223,7 @@ Gets or sets a boolean indicating that uniform buffers must be disabled even if 
 
 > **disableVertexArrayObjects**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L342)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:350](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L350)
 
 Gets or sets a boolean indicating that vertex array object must be disabled even if they are supported
 
@@ -223,7 +237,7 @@ Gets or sets a boolean indicating that vertex array object must be disabled even
 
 > **enableOfflineSupport**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L458)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L466)
 
 Gets or sets a boolean to enable/disable IndexedDB support and avoid XHR on .manifest
 
@@ -237,7 +251,7 @@ Gets or sets a boolean to enable/disable IndexedDB support and avoid XHR on .man
 
 > **enableUnpackFlipYCached**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3274](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3274)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3263)
 
 In case you are sharing the context with other applications, it might
 be interested to not cache the unpack flip y state to ensure a consistent
@@ -249,7 +263,7 @@ value would be set.
 
 > **forcePOTTextures**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L169)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L169)
 
 Gets or sets a boolean that indicates if textures must be forced to power of 2 size even if not required
 
@@ -259,7 +273,7 @@ Gets or sets a boolean that indicates if textures must be forced to power of 2 s
 
 > `readonly` **hasOriginBottomLeft**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:591](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L591)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:599](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L599)
 
 Indicates that the origin of the texture/framebuffer space is the bottom left corner. If false, the origin is top left
 
@@ -273,7 +287,7 @@ Indicates that the origin of the texture/framebuffer space is the bottom left co
 
 > **hostInformation**: [`HostInformation`](../interfaces/HostInformation.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L446)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:454](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L454)
 
 Gets information about the current host
 
@@ -287,7 +301,7 @@ Gets information about the current host
 
 > **inputElement**: [`Nullable`](../type-aliases/Nullable.md)\<`HTMLElement`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L14)
 
 Gets or sets the  HTML element to use for attaching events
 
@@ -301,7 +315,7 @@ Gets or sets the  HTML element to use for attaching events
 
 > **isFullscreen**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:453](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L453)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:461](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L461)
 
 Gets a boolean indicating if the engine is currently rendering in fullscreen mode
 
@@ -315,7 +329,7 @@ Gets a boolean indicating if the engine is currently rendering in fullscreen mod
 
 > `readonly` **isNDCHalfZRange**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:586](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L586)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:594](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L594)
 
 Indicates if the z range in NDC space is 0..1 (value: true) or -1..1 (value: false)
 
@@ -329,7 +343,7 @@ Indicates if the z range in NDC space is 0..1 (value: true) or -1..1 (value: fal
 
 > **isPointerLock**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L478)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:486](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L486)
 
 Gets a boolean indicating if the pointer is currently locked
 
@@ -343,7 +357,7 @@ Gets a boolean indicating if the pointer is currently locked
 
 > **loadingScreen**: [`ILoadingScreen`](../interfaces/ILoadingScreen.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L21)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L21)
 
 Gets or sets the current loading screen object
 
@@ -361,7 +375,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **loadingUIBackgroundColor**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L33)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L33)
 
 Sets the current loading screen background color
 
@@ -379,7 +393,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **loadingUIText**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L27)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L27)
 
 Sets the current loading screen text
 
@@ -397,7 +411,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **onAfterShaderCompilationObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1187](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1187)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1205)
 
 Observable raised when the engine has just compiled a shader
 
@@ -411,7 +425,7 @@ Observable raised when the engine has just compiled a shader
 
 > `readonly` **onAfterViewRenderObservable**: [`Observable`](Observable.md)\<[`EngineView`](EngineView.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L29)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L29)
 
 Will be triggered after the view rendered
 
@@ -425,7 +439,7 @@ Will be triggered after the view rendered
 
 > **onBeforeShaderCompilationObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1182)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1200)
 
 Observable raised when the engine is about to compile a shader
 
@@ -439,7 +453,7 @@ Observable raised when the engine is about to compile a shader
 
 > **onBeforeTextureInitObservable**: [`Observable`](Observable.md)\<[`Texture`](Texture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:774](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L774)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:782](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L782)
 
 Observable event triggered before each texture is initialized
 
@@ -453,7 +467,7 @@ Observable event triggered before each texture is initialized
 
 > `readonly` **onBeforeViewRenderObservable**: [`Observable`](Observable.md)\<[`EngineView`](EngineView.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L25)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L25)
 
 Will be triggered before the view renders
 
@@ -467,7 +481,7 @@ Will be triggered before the view renders
 
 > **onBeginFrameObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1192)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1210)
 
 Observable raised when the engine begins a new frame
 
@@ -481,7 +495,7 @@ Observable raised when the engine begins a new frame
 
 > **onCanvasBlurObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L308)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L316)
 
 Observable event triggered each time the canvas loses focus
 
@@ -495,7 +509,7 @@ Observable event triggered each time the canvas loses focus
 
 > **onCanvasFocusObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L312)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L320)
 
 Observable event triggered each time the canvas gains focus
 
@@ -509,7 +523,7 @@ Observable event triggered each time the canvas gains focus
 
 > **onCanvasPointerOutObservable**: [`Observable`](Observable.md)\<`PointerEvent`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:327](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L327)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:335](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L335)
 
 Observable event triggered each time the canvas receives pointerout event
 
@@ -523,7 +537,7 @@ Observable event triggered each time the canvas receives pointerout event
 
 > **onContextLostObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1913](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1913)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1931](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1931)
 
 Observable signaled when a context lost event is raised
 
@@ -537,7 +551,7 @@ Observable signaled when a context lost event is raised
 
 > **onContextRestoredObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1917](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1917)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1935](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1935)
 
 Observable signaled when a context restored event is raised
 
@@ -551,7 +565,7 @@ Observable signaled when a context restored event is raised
 
 > `readonly` **onDisposeObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2725](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2725)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2749](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2749)
 
 An event triggered when the engine is disposed.
 
@@ -565,7 +579,7 @@ An event triggered when the engine is disposed.
 
 > **onEffectErrorObservable**: [`Observable`](Observable.md)\<\{ `effect`: [`Effect`](Effect.md); `errors`: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L332)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L340)
 
 Observable event triggered each time an effect compilation fails
 
@@ -579,7 +593,7 @@ Observable event triggered each time an effect compilation fails
 
 > **onEndFrameObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1197)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1215](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1215)
 
 Observable raised when the engine ends the current frame (requires a render loop, e.g. 'engine.runRenderLoop(...)')
 
@@ -593,7 +607,7 @@ Observable raised when the engine ends the current frame (requires a render loop
 
 > **onNewSceneAddedObservable**: [`Observable`](Observable.md)\<[`Scene`](Scene.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L317)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L325)
 
 Event raised when a new scene is created
 
@@ -607,7 +621,7 @@ Event raised when a new scene is created
 
 > `readonly` **onReleaseEffectsObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2730](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2730)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2754](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2754)
 
 An event triggered when a global cleanup of all effects is required
 
@@ -621,7 +635,7 @@ An event triggered when a global cleanup of all effects is required
 
 > **onResizeObservable**: [`Observable`](Observable.md)\<[`AbstractEngine`](AbstractEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L322)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L330)
 
 Observable event triggered each time the rendering canvas is resized
 
@@ -635,7 +649,7 @@ Observable event triggered each time the rendering canvas is resized
 
 > **postProcesses**: [`PostProcess`](PostProcess.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L483)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:491](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L491)
 
 Gets the list of created postprocesses
 
@@ -649,7 +663,7 @@ Gets the list of created postprocesses
 
 > **premultipliedAlpha**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2029](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2029)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2047](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2047)
 
 Defines whether the engine has been created with the premultipliedAlpha option on or not.
 
@@ -663,7 +677,7 @@ Defines whether the engine has been created with the premultipliedAlpha option o
 
 > **preventCacheWipeBetweenFrames**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:784](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L784)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:792](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L792)
 
 Gets or sets a boolean indicating that cache can be kept between frames
 
@@ -677,7 +691,7 @@ Gets or sets a boolean indicating that cache can be kept between frames
 
 > **renderEvenInBackground**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:779](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L779)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:787](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L787)
 
 Gets or sets a boolean indicating if the engine must keep rendering even if the window is not in foreground
 
@@ -691,7 +705,7 @@ Gets or sets a boolean indicating if the engine must keep rendering even if the 
 
 > **scenes**: [`Scene`](Scene.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:742](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L742)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L750)
 
 Gets the list of created scenes
 
@@ -705,7 +719,7 @@ Gets the list of created scenes
 
 > **skipFrameRender**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:966](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L966)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:984](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L984)
 
 Skip frame rendering but keep the frame heartbeat (begin/end frame).
 This is useful if you need all the plumbing but not the rendering work.
@@ -721,7 +735,7 @@ This is useful if you need all the plumbing but not the rendering work.
 
 > `readonly` **startTime**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1994](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1994)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2012](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2012)
 
 The time (in milliseconds elapsed since the current page has been loaded) when the engine was initialized
 
@@ -735,7 +749,7 @@ The time (in milliseconds elapsed since the current page has been loaded) when t
 
 > `readonly` **textureFormatInUse**: [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L19)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L19)
 
 Gets the texture format in use
 
@@ -749,7 +763,7 @@ Gets the texture format in use
 
 > `readonly` **texturesSupported**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L14)
 
 Gets the list of texture formats supported
 
@@ -763,7 +777,7 @@ Gets the list of texture formats supported
 
 > `readonly` **useExactSrgbConversions**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L596)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:604](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L604)
 
 Gets a boolean indicating if the exact sRGB conversions or faster approximations are used for converting to and from linear space.
 
@@ -777,7 +791,7 @@ Gets a boolean indicating if the exact sRGB conversions or faster approximations
 
 > **validateShaderPrograms**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L172)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L172)
 
 Gets or sets a boolean indicating if the engine should validate programs after compilation
 
@@ -787,7 +801,7 @@ Gets or sets a boolean indicating if the engine should validate programs after c
 
 > **views**: [`EngineView`](EngineView.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L38)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L38)
 
 Gets or sets the list of views
 
@@ -801,7 +815,7 @@ Gets or sets the list of views
 
 > `static` **\_RescalePostProcessFactory**: [`Nullable`](../type-aliases/Nullable.md)\<(`engine`) => [`PostProcess`](PostProcess.md)\> = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2819)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2843](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2843)
 
 Method called to create the default rescale post process on each engine.
 
@@ -815,7 +829,7 @@ Method called to create the default rescale post process on each engine.
 
 > `static` **audioEngine**: [`Nullable`](../type-aliases/Nullable.md)\<[`IAudioEngine`](../interfaces/IAudioEngine.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2837](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2837)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2861](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2861)
 
 Gets the audio engine
 
@@ -837,7 +851,7 @@ please use AudioEngineV2 instead
 
 > `static` **AudioEngineFactory**: (`hostElement`, `audioContext`, `audioDestination`) => [`IAudioEngine`](../interfaces/IAudioEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2844](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2844)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2868](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2868)
 
 Default AudioEngine factory responsible of creating the Audio Engine.
 By default, this will create a BabylonJS Audio Engine if the workload has been embedded.
@@ -874,7 +888,7 @@ please use AudioEngineV2 instead
 
 > `static` **CollisionsEpsilon**: `number` = `0.001`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2876](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2876)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2900](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2900)
 
 Gets or sets the epsilon value used by collision engine
 
@@ -888,7 +902,7 @@ Gets or sets the epsilon value used by collision engine
 
 > `static` **ExceptionList**: (\{ `capture`: `string`; `captureConstraint`: `number`; `key`: `string`; `targets`: `string`[]; \} \| \{ `capture`: `null`; `captureConstraint`: `null`; `key`: `string`; `targets`: `string`[]; \})[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L118)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L118)
 
 Use this array to turn off some WebGL2 features on known buggy browsers version
 
@@ -898,7 +912,7 @@ Use this array to turn off some WebGL2 features on known buggy browsers version
 
 > `static` **OfflineProviderFactory**: (`urlToScene`, `callbackManifestChecked`, `disableManifestCheck`) => [`IOfflineProvider`](../interfaces/IOfflineProvider.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2854](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2854)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2878](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2878)
 
 Default offline support factory responsible of creating a tool used to store data locally.
 By default, this will create a Database object if the workload has been embedded.
@@ -931,7 +945,7 @@ By default, this will create a Database object if the workload has been embedded
 
 > `static` **QueueNewFrame**: (`func`, `requester?`) => `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2884](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2884)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2908](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2908)
 
 Queue a new function into the requested animation frame pool (ie. this function will be executed by the browser (or the javascript engine) for the next frame)
 
@@ -967,7 +981,7 @@ frame number
 
 > **get** **activeRenderLoops**(): readonly () => `void`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:872](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L872)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L890)
 
 Gets the list of current active render loop functions
 
@@ -989,7 +1003,7 @@ a read only array with the current render loop functions
 
 > **get** **alphaState**(): `AlphaState`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L565)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:573](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L573)
 
 Gets the alpha state manager
 
@@ -1009,7 +1023,7 @@ Gets the alpha state manager
 
 > **get** **compatibilityMode**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1170)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1188](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1188)
 
 (WebGPU only) True (default) to be in compatibility mode, meaning rendering all existing scenes without artifacts (same rendering than WebGL).
 Setting the property to false will improve performances but may not work in some scenes if some precautions are not taken.
@@ -1023,7 +1037,7 @@ See https://doc.babylonjs.com/setup/support/webGPU/webGPUOptimization/webGPUNonC
 
 > **set** **compatibilityMode**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1174)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1192)
 
 ##### Parameters
 
@@ -1047,7 +1061,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.
 
 > **get** **currentViewport**(): [`Nullable`](../type-aliases/Nullable.md)\<`IViewportLike`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1510](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1510)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1528](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1528)
 
 Gets the current viewport
 
@@ -1067,7 +1081,7 @@ Gets the current viewport
 
 > **get** **depthCullingState**(): `DepthCullingState`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:558](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L558)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:566](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L566)
 
 Gets the depth culling state manager
 
@@ -1087,7 +1101,7 @@ Gets the depth culling state manager
 
 > **get** **description**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1581)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1599](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1599)
 
 Returns a string describing the current engine
 
@@ -1107,7 +1121,7 @@ Returns a string describing the current engine
 
 > **get** **doNotHandleContextLost**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2070](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2070)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2088](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2088)
 
 Gets or sets a boolean indicating if resources should be retained to be able to handle context lost events
 
@@ -1123,7 +1137,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#ha
 
 > **set** **doNotHandleContextLost**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2074](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2074)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2092](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2092)
 
 ##### Parameters
 
@@ -1147,7 +1161,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.
 
 > **get** **emptyCubeTexture**(): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:839](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L839)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:847](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L847)
 
 Gets the default empty cube texture
 
@@ -1167,7 +1181,7 @@ Gets the default empty cube texture
 
 > **get** **emptyTexture**(): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:797](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L797)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:805](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L805)
 
 Gets the default empty texture
 
@@ -1187,7 +1201,7 @@ Gets the default empty texture
 
 > **get** **emptyTexture2DArray**(): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:819](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L819)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:827](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L827)
 
 Gets the default empty 2D array texture
 
@@ -1207,7 +1221,7 @@ Gets the default empty 2D array texture
 
 > **get** **emptyTexture3D**(): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:808](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L808)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:816](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L816)
 
 Gets the default empty 3D texture
 
@@ -1227,10 +1241,9 @@ Gets the default empty 3D texture
 
 > **set** **framebufferDimensionsObject**(`dimensions`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L254)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:882](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L882)
 
 sets the object from which width and height will be taken from when getting render width and height
-Will fallback to the gl object
 
 ##### Parameters
 
@@ -1244,6 +1257,10 @@ the framebuffer width and height that will be used.
 
 `void`
 
+#### Inherited from
+
+[`AbstractEngine`](AbstractEngine.md).[`framebufferDimensionsObject`](AbstractEngine.md#framebufferdimensionsobject)
+
 ***
 
 ### frameId
@@ -1252,7 +1269,7 @@ the framebuffer width and height that will be used.
 
 > **get** **frameId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L349)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L357)
 
 Gets the current frame id
 
@@ -1272,7 +1289,7 @@ Gets the current frame id
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:735](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L735)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:743](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L743)
 
 Gets a boolean indicating if the engine was disposed
 
@@ -1292,7 +1309,7 @@ Gets a boolean indicating if the engine was disposed
 
 > **get** **isStencilEnable**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2084](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2084)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2102)
 
 Returns true if the stencil buffer has been enabled through the creation option of the context.
 
@@ -1312,7 +1329,7 @@ Returns true if the stencil buffer has been enabled through the creation option 
 
 > **get** **isWebGPU**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L355)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:363](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L363)
 
 Gets a boolean indicating if the engine runs in WebGPU or not.
 
@@ -1332,7 +1349,7 @@ Gets a boolean indicating if the engine runs in WebGPU or not.
 
 > **get** **maxFPS**(): `number` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:969](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L969)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:987](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L987)
 
 Gets or sets max frame per second allowed. Will return undefined if not capped
 
@@ -1344,7 +1361,7 @@ Gets or sets max frame per second allowed. Will return undefined if not capped
 
 > **set** **maxFPS**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:973](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L973)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:991](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L991)
 
 ##### Parameters
 
@@ -1368,7 +1385,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L141)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L141)
 
 Gets or sets the name of the engine
 
@@ -1380,7 +1397,7 @@ Gets or sets the name of the engine
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L145)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L145)
 
 Gets or sets the name of the engine
 
@@ -1406,7 +1423,7 @@ Gets or sets the name of the engine
 
 > **get** **needPOTTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L205)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L205)
 
 Gets a boolean indicating that only power of 2 textures are supported
 Please note that you can still use non power of 2 textures but in this case the engine will forcefully convert them
@@ -1427,7 +1444,7 @@ Please note that you can still use non power of 2 textures but in this case the 
 
 > **get** **performanceMonitor**(): [`PerformanceMonitor`](PerformanceMonitor.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1044)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1033](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1033)
 
 Gets the performance monitor attached to this engine
 
@@ -1451,7 +1468,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimize_your_scene#en
 
 > **get** **shaderPlatformName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L439)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L447)
 
 Gets the shader platform name used by the effects.
 
@@ -1471,7 +1488,7 @@ Gets the shader platform name used by the effects.
 
 > **get** **snapshotRendering**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:754](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L754)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:762](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L762)
 
 Enables or disables the snapshot rendering mode
 Note that the WebGL engine does not support snapshot rendering so setting the value won't have any effect for this engine
@@ -1484,7 +1501,7 @@ Note that the WebGL engine does not support snapshot rendering so setting the va
 
 > **set** **snapshotRendering**(`activate`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:758](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L758)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:766](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L766)
 
 ##### Parameters
 
@@ -1508,7 +1525,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.
 
 > **get** **snapshotRenderingMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:765](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L765)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:773](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L773)
 
 Gets or sets the snapshot rendering mode
 
@@ -1520,7 +1537,7 @@ Gets or sets the snapshot rendering mode
 
 > **set** **snapshotRenderingMode**(`mode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:769](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L769)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:777](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L777)
 
 ##### Parameters
 
@@ -1544,7 +1561,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.
 
 > **get** **stencilState**(): `StencilState`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:572](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L572)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L580)
 
 Gets the stencil state manager
 
@@ -1564,7 +1581,7 @@ Gets the stencil state manager
 
 > **get** **stencilStateComposer**(): `StencilStateComposer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:579](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L579)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:587](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L587)
 
 Gets the stencil state composer
 
@@ -1584,7 +1601,7 @@ Gets the stencil state composer
 
 > **get** **supportsUniformBuffers**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L183)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L183)
 
 Gets a boolean indicating that the engine supports uniform buffers
 
@@ -1608,7 +1625,7 @@ https://doc.babylonjs.com/setup/support/webGL2#uniform-buffer-objets
 
 > **get** **useReverseDepthBuffer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:518](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L518)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:526](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L526)
 
 Gets or sets a boolean indicating if depth buffer should be reverse, going from far to near.
 This can provide greater z depth for distant objects.
@@ -1621,7 +1638,7 @@ This can provide greater z depth for distant objects.
 
 > **set** **useReverseDepthBuffer**(`useReverse`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:522](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L522)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:530](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L530)
 
 ##### Parameters
 
@@ -1645,7 +1662,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.
 
 > **get** **version**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L152)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L152)
 
 Returns the version of the engine
 
@@ -1665,7 +1682,7 @@ Returns the version of the engine
 
 > **get** **webGLVersion**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:865](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L865)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:854](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L854)
 
 Gets version of the current webGL context
 Keep it for back compat - use version instead
@@ -1682,7 +1699,7 @@ Keep it for back compat - use version instead
 
 > **get** `static` **HasMajorPerformanceCaveat**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4695](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4695)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4684](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4684)
 
 Gets a boolean indicating if the engine can be instantiated on a performant device (ie. if a webGL context can be found and it does not use a slow implementation)
 
@@ -1698,7 +1715,7 @@ Gets a boolean indicating if the engine can be instantiated on a performant devi
 
 > **get** `static` **IsSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4664](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4664)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4653](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4653)
 
 Gets a boolean indicating if the engine can be instantiated (ie. if a webGL context can be found)
 
@@ -1714,7 +1731,7 @@ Gets a boolean indicating if the engine can be instantiated (ie. if a webGL cont
 
 > **get** `static` **IsSupportedAsync**(): `Promise`\<`boolean`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4657](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4657)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4646)
 
 Gets a Promise<boolean> indicating if the engine can be instantiated (ie. if a webGL context can be found)
 
@@ -1730,7 +1747,7 @@ Gets a Promise<boolean> indicating if the engine can be instantiated (ie. if a w
 
 > **get** `static` **NpmPackage**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1980](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1980)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1998](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1998)
 
 Returns the current npm package of the sdk
 
@@ -1750,7 +1767,7 @@ Returns the current npm package of the sdk
 
 > **get** `static` **ShadersRepository**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L159)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L159)
 
 Gets or sets the relative url used to load shaders if using the engine in non-minified mode
 
@@ -1762,7 +1779,7 @@ Gets or sets the relative url used to load shaders if using the engine in non-mi
 
 > **set** `static` **ShadersRepository**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L162)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L162)
 
 ##### Parameters
 
@@ -1782,7 +1799,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1
 
 > **get** `static` **Version**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1987](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1987)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2005)
 
 Returns the current version of the framework
 
@@ -1802,7 +1819,7 @@ Returns the current version of the framework
 
 > **\_createDepthStencilCubeTexture**(`size`, `options`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L19)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L19)
 
 Creates a depth stencil cube texture.
 This is only available in WebGL 2.
@@ -1835,7 +1852,7 @@ The cube texture
 
 > **\_createDepthStencilCubeTexture**(`size`, `options`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L20)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L20)
 
 Creates a depth stencil cube texture.
 This is only available in WebGL 2.
@@ -1870,7 +1887,7 @@ The cube texture
 
 > **\_createImageBitmapFromSource**(`imageSource`, `options?`): `Promise`\<`ImageBitmap`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2592](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2592)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2611](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2611)
 
 Engine abstraction for loading and creating an image bitmap from a given source string.
 
@@ -1902,7 +1919,7 @@ An object that sets options for the image's extraction.
 
 > **\_getInternalFormatFromDepthTextureFormat**(`textureFormat`, `hasDepth`, `hasStencil`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3672](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3672)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3661](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3661)
 
 #### Parameters
 
@@ -1928,7 +1945,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3
 
 > **\_getWebGLTextureTypeFromDepthTextureFormat**(`textureFormat`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3700](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3700)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3689](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3689)
 
 #### Parameters
 
@@ -1948,7 +1965,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3
 
 > **\_loadFileAsync**(`url`, `offlineProvider?`, `useArrayBuffer?`): `Promise`\<`ArrayBuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts#L9)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts#L9)
 
 ##### Parameters
 
@@ -1976,7 +1993,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstr
 
 > **\_loadFileAsync**(`url`, `offlineProvider?`, `useArrayBuffer?`): `Promise`\<`string` \| `ArrayBuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts#L10)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadFile.types.ts#L10)
 
 ##### Parameters
 
@@ -2006,7 +2023,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstr
 
 > **\_updateRenderBuffer**(`renderBuffer`, `width`, `height`, `samples`, `internalFormat`, `msInternalFormat`, `attachment`, `unbindBuffer?`): [`Nullable`](../type-aliases/Nullable.md)\<`WebGLRenderbuffer`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3768](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3768)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3757](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3757)
 
 #### Parameters
 
@@ -2052,7 +2069,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3
 
 > **applyStates**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2762](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2762)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2751](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2751)
 
 Apply all cached states (depth, culling, stencil and alpha)
 
@@ -2070,7 +2087,7 @@ Apply all cached states (depth, culling, stencil and alpha)
 
 > **areAllComputeEffectsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L87)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L87)
 
 Gets a boolean indicating if all created compute effects are ready
 
@@ -2090,7 +2107,7 @@ true if all effects are ready
 
 > **areAllEffectsReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:483](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L483)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L472)
 
 Gets a boolean indicating if all created effects are ready
 
@@ -2110,7 +2127,7 @@ true if all effects are ready
 
 > **attachContextLostEvent**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4221)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4210)
 
 Attach a new callback raised when context lost event is fired
 
@@ -2132,7 +2149,7 @@ defines the callback to call
 
 > **attachContextRestoredEvent**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4231)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4220)
 
 Attach a new callback raised when context restored event is fired
 
@@ -2154,7 +2171,7 @@ defines the callback to call
 
 > **beginFrame**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:934](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L934)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:952](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L952)
 
 Begin a new frame
 
@@ -2172,7 +2189,7 @@ Begin a new frame
 
 > **beginOcclusionQuery**(`algorithmType`, `query`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L35)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L35)
 
 Initiates an occlusion query
 
@@ -2210,7 +2227,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **bindArrayBuffer**(`buffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1422](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1422)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1411](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1411)
 
 Bind a webGL buffer to the webGL context
 
@@ -2234,7 +2251,7 @@ defines the buffer to bind
 
 > **bindAttachments**(`attachments`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L54)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L54)
 
 Select a subsets of attachments to draw to.
 
@@ -2258,7 +2275,7 @@ gl attachments
 
 > **bindAttachments**(`attachments`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L55)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L55)
 
 Select a subsets of attachments to draw to.
 
@@ -2284,7 +2301,7 @@ gl attachments
 
 > **bindBuffers**(`vertexBuffers`, `indexBuffer`, `effect`, `overrideVertexBuffers?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1695](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1695)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1684](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1684)
 
 Bind a list of vertex buffers to the webGL context
 
@@ -2324,7 +2341,7 @@ defines optional list of avertex buffers that overrides the entries in vertexBuf
 
 > **bindBuffersDirectly**(`vertexBuffer`, `indexBuffer`, `vertexDeclaration`, `vertexStrideSize`, `effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1650](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1650)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1639](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1639)
 
 Bind webGl buffers directly to the webGL context
 
@@ -2370,7 +2387,7 @@ defines the effect associated with the vertex buffer
 
 > **bindFramebuffer**(`rtWrapper`, `faceIndex?`, `requiredWidth?`, `requiredHeight?`, `forceFullscreenViewport?`, `lodLevel?`, `layer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1058)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1047)
 
 Binds the frame buffer to the specified texture.
 
@@ -2432,7 +2449,7 @@ Defines the 2d array index to bind to the frame buffer if the render target wrap
 
 > **bindInstancesBuffer**(`instancesBuffer`, `attributesInfo`, `computeStride?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1792](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1792)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1781](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1781)
 
 Bind the content of a webGL buffer used with instantiation
 
@@ -2466,7 +2483,7 @@ defines Whether to compute the strides from the info or use the default 0
 
 > **bindSamplers**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3850](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3850)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3839](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3839)
 
 Binds an effect to the webGL context
 
@@ -2494,7 +2511,7 @@ defines the effect to bind
 
 > **bindUniformBlock**(`pipelineContext`, `blockName`, `index`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1435)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1424](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1424)
 
 Bind a specific block at a given index in a specific shader program
 
@@ -2530,7 +2547,7 @@ defines the index where to bind the block
 
 > **bindUniformBlock**(`pipelineContext`, `blockName`, `index`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:55](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L55)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L55)
 
 Bind a specific block at a given index in a specific shader program
 
@@ -2568,7 +2585,7 @@ defines the index where to bind the block
 
 > **bindUniformBuffer**(`buffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L39)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L39)
 
 Bind an uniform buffer to the current webGL context
 
@@ -2590,7 +2607,7 @@ defines the buffer to bind
 
 > **bindUniformBufferBase**(`buffer`, `location`, `name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L47)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L47)
 
 Bind a buffer to the current webGL context at a given location
 
@@ -2628,7 +2645,7 @@ Name of the uniform variable to bind
 
 > **bindVertexArrayObject**(`vertexArrayObject`, `indexBuffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1629](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1629)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1618](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1618)
 
 Bind a specific vertex array object
 
@@ -2662,7 +2679,7 @@ https://doc.babylonjs.com/setup/support/webGL2#vertex-array-objects
 
 > **buildTextureLayout**(`textureStatus`, `backBufferLayout?`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L62)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L62)
 
 Creates a layout object to draw/clear on specific textures in a MRT
 
@@ -2694,7 +2711,7 @@ A layout to be fed to the engine, calling `bindAttachments`.
 
 > **buildTextureLayout**(`textureStatus`, `backBufferLayout?`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L63)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L63)
 
 Creates a layout object to draw/clear on specific textures in a MRT
 
@@ -2728,7 +2745,7 @@ A layout to be fed to the engine, calling `bindAttachments`.
 
 > **cacheStencilState**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L167)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L167)
 
 Caches the state of the stencil buffer
 
@@ -2746,7 +2763,7 @@ Caches the state of the stencil buffer
 
 > **captureGPUFrameTime**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts#L17)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts#L17)
 
 Enable or disable the GPU frame time capture
 
@@ -2772,7 +2789,7 @@ True to enable, false to disable
 
 > **clear**(`color`, `backBuffer`, `depth`, `stencil?`, `stencilClearValue?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:955](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L955)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:944](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L944)
 
 Clear the current render buffer or the current render target (if any is set up)
 
@@ -2822,7 +2839,7 @@ defines the value to use to clear the stencil buffer (default is 0)
 
 > **clearInternalTexturesCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1931](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1931)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1949](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1949)
 
 Clears the list of texture accessible through engine.
 This can help preventing texture load conflict due to name collision.
@@ -2841,7 +2858,7 @@ This can help preventing texture load conflict due to name collision.
 
 > **computeDispatch**(`effect`, `context`, `bindings`, `x`, `y?`, `z?`, `bindingsMapping?`, `gpuPerfCounter?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L52)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L52)
 
 Dispatches a compute shader
 
@@ -2909,7 +2926,7 @@ GPU time computed for the compute shader will be assigned to this object
 
 > **computeDispatchIndirect**(`effect`, `context`, `bindings`, `buffer`, `offset?`, `bindingsMapping?`, `gpuPerfCounter?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L73)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L73)
 
 Dispatches a compute shader
 
@@ -2971,7 +2988,7 @@ GPU time computed for the compute shader will be assigned to this object
 
 > **createCanvas**(`width`, `height`): [`ICanvas`](../interfaces/ICanvas.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2647](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2647)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2666](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2666)
 
 Create a canvas. This method is overridden by other engines
 
@@ -3005,7 +3022,7 @@ ICanvas interface
 
 > **createCanvasImage**(): [`IImage`](../interfaces/IImage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1565)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1583)
 
 Create an image to use with canvas
 
@@ -3025,7 +3042,7 @@ IImage interface
 
 > **createCanvasPath2D**(`d?`): [`IPath2D`](../interfaces/IPath2D.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1574)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1592](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1592)
 
 Create a 2D path to use with canvas
 
@@ -3053,7 +3070,7 @@ IPath2D interface
 
 > **createComputeContext**(): `IComputeContext` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L39)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L39)
 
 Creates a new compute context
 
@@ -3073,7 +3090,7 @@ the new context
 
 > **createComputeEffect**(`baseName`, `options`): [`ComputeEffect`](ComputeEffect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L17)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L17)
 
 Creates a new compute effect
 
@@ -3107,7 +3124,7 @@ The new compute effect
 
 > **createComputePipelineContext**(): `IComputePipelineContext`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L33)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L33)
 
 Creates a new compute pipeline context
 
@@ -3129,7 +3146,7 @@ the new pipeline
 
 > **createCubeTexture**(`rootUrl`, `scene`, `files`, `noMipmap`, `onLoad`, `onError`, `format`, `forcedExtension`, `createPolynomials`, `lodScale`, `lodOffset`, `fallback`, `loaderOptions`, `useSRGBBuffer`, `buffer`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L40)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L40)
 
 Creates a cube texture
 
@@ -3239,7 +3256,7 @@ the cube texture as an InternalTexture
 
 > **createCubeTexture**(`rootUrl`, `scene`, `files`, `noMipmap`, `onLoad`, `onError`, `format`, `forcedExtension`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:70](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L70)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L70)
 
 Creates a cube texture
 
@@ -3307,7 +3324,7 @@ the cube texture as an InternalTexture
 
 > **createCubeTexture**(`rootUrl`, `scene`, `files`, `noMipmap`, `onLoad`, `onError`, `format`, `forcedExtension`, `createPolynomials`, `lodScale`, `lodOffset`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L96)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L96)
 
 Creates a cube texture
 
@@ -3393,7 +3410,7 @@ the cube texture as an InternalTexture
 
 > **createCubeTexture**(`rootUrl`, `scene`, `files`, `noMipmap`, `onLoad`, `onError`, `format`, `forcedExtension`, `createPolynomials`, `lodScale`, `lodOffset`, `fallback`, `loaderOptions`, `useSRGBBuffer`, `buffer`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L41)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L41)
 
 Creates a cube texture
 
@@ -3503,7 +3520,7 @@ the cube texture as an InternalTexture
 
 > **createCubeTexture**(`rootUrl`, `scene`, `files`, `noMipmap`, `onLoad`, `onError`, `format`, `forcedExtension`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L71)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L71)
 
 Creates a cube texture
 
@@ -3571,7 +3588,7 @@ the cube texture as an InternalTexture
 
 > **createCubeTexture**(`rootUrl`, `scene`, `files`, `noMipmap`, `onLoad`, `onError`, `format`, `forcedExtension`, `createPolynomials`, `lodScale`, `lodOffset`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L97)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L97)
 
 Creates a cube texture
 
@@ -3659,7 +3676,7 @@ the cube texture as an InternalTexture
 
 > **createDepthStencilTexture**(`size`, `options`, `rtWrapper`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.texture.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.texture.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.texture.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.texture.types.ts#L15)
 
 Creates a depth stencil texture.
 This is only available in WebGL 2 or with the depth texture extension available.
@@ -3700,7 +3717,7 @@ The texture
 
 > **createDrawContext**(): [`IDrawContext`](../interfaces/IDrawContext.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2178)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2167)
 
 Creates a new draw context
 
@@ -3722,7 +3739,7 @@ the new context
 
 > **createDynamicTexture**(`width`, `height`, `generateMipMaps`, `samplingMode`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts#L15)
 
 Creates a dynamic texture
 
@@ -3766,7 +3783,7 @@ the dynamic texture inside an InternalTexture
 
 > **createDynamicTexture**(`width`, `height`, `generateMipMaps`, `samplingMode`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts#L15)
 
 Creates a dynamic texture
 
@@ -3812,7 +3829,7 @@ the dynamic texture inside an InternalTexture
 
 > **createDynamicUniformBuffer**(`elements`, `label?`): [`DataBuffer`](DataBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L23)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L23)
 
 Create a dynamic uniform buffer
 
@@ -3850,7 +3867,7 @@ https://doc.babylonjs.com/setup/support/webGL2#uniform-buffer-objets
 
 > **createDynamicVertexBuffer**(`data`, `_label?`): [`DataBuffer`](DataBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1358)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1347)
 
 Creates a dynamic vertex buffer
 
@@ -3884,7 +3901,7 @@ the new WebGL dynamic buffer
 
 > **createEffect**(`baseName`, `attributesNamesOrOptions`, `uniformsNamesOrEngine`, `samplers?`, `defines?`, `fallbacks?`, `onCompiled?`, `onError?`, `indexParameters?`, `shaderLanguage?`, `extraInitializationsAsync?`): [`Effect`](Effect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2027](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2027)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2016](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2016)
 
 Create a new effect (used to store vertex/fragment shaders)
 
@@ -3972,7 +3989,7 @@ the new Effect
 
 > **createEffectForParticles**(`fragmentName`, `uniformsNames`, `samplers`, `defines`, `fallbacks?`, `onCompiled?`, `onError?`, `particleSystem?`, `shaderLanguage?`, `vertexName?`): [`Effect`](Effect.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Particles/particleSystemComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Particles/particleSystemComponent.types.ts#L24)
+Defined in: [packages/dev/core/src/Particles/particleSystemComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/particleSystemComponent.types.ts#L24)
 
 Create an effect to use with particle systems.
 Please note that some parameters like animation sheets or not being billboard are not supported in this configuration, except if you pass
@@ -4056,7 +4073,7 @@ the new Effect
 
 > **createImageBitmap**(`image`, `options?`): `Promise`\<`ImageBitmap`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2603](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2603)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2622](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2622)
 
 Engine abstraction for createImageBitmap
 
@@ -4090,7 +4107,7 @@ ImageBitmap
 
 > **createIndexBuffer**(`indices`, `updatable?`, `_label?`): [`DataBuffer`](DataBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1374](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1374)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1363](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1363)
 
 Creates a new index buffer
 
@@ -4130,7 +4147,7 @@ a new webGL buffer
 
 > **createMaterialContext**(): `IMaterialContext` \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2170)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2159)
 
 Creates a new material context
 
@@ -4152,7 +4169,7 @@ the new context
 
 > **createMultipleRenderTarget**(`size`, `options`, `initializeBuffers?`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L25)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L25)
 
 Create a multi render target texture
 
@@ -4194,7 +4211,7 @@ https://doc.babylonjs.com/setup/support/webGL2#multiple-render-target
 
 > **createMultipleRenderTarget**(`size`, `options`, `initializeBuffers?`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L25)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L25)
 
 Create a multi render target texture
 
@@ -4238,7 +4255,7 @@ https://doc.babylonjs.com/setup/support/webGL2#multiple-render-target
 
 > **createPipelineContext**(`shaderProcessingContext`): [`IPipelineContext`](../interfaces/IPipelineContext.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2156)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2145)
 
 Creates a new pipeline context
 
@@ -4266,7 +4283,7 @@ the new pipeline
 
 > **createPrefilteredCubeTexture**(`rootUrl`, `scene`, `lodScale`, `lodOffset`, `onLoad?`, `onError?`, `format?`, `forcedExtension?`, `createPolynomials?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.prefilteredCubeTexture.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.prefilteredCubeTexture.types.ts#L20)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.prefilteredCubeTexture.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.prefilteredCubeTexture.types.ts#L20)
 
 Create a cube texture from prefiltered data (ie. the mipmaps contain ready to use data for PBR reflection)
 
@@ -4342,7 +4359,7 @@ the cube texture as an InternalTexture
 
 > **createQuery**(): [`Nullable`](../type-aliases/Nullable.md)\<`OcclusionQuery`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L10)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L10)
 
 Create a new webGL query (you must be sure that queries are supported by checking getCaps() function)
 
@@ -4364,7 +4381,7 @@ the new query
 
 > **createRawCubeTexture**(`data`, `size`, `format`, `type`, `generateMipMaps`, `invertY`, `samplingMode`, `compression?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2372)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2391)
 
 Creates a new raw cube texture
 
@@ -4432,7 +4449,7 @@ the cube texture as an InternalTexture
 
 > **createRawCubeTexture**(`data`, `size`, `format`, `type`, `generateMipMaps`, `invertY`, `samplingMode`, `compression`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L50)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L50)
 
 Creates a new raw cube texture
 
@@ -4504,7 +4521,7 @@ the cube texture as an InternalTexture
 
 > **createRawCubeTextureFromUrl**(`url`, `scene`, `size`, `format`, `type`, `noMipmap`, `callback`, `mipmapGenerator`, `onLoad`, `onError`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L82)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L82)
 
 Creates a new raw cube texture from a specified url
 
@@ -4584,7 +4601,7 @@ the cube texture as an InternalTexture
 
 > **createRawCubeTextureFromUrl**(`url`, `scene`, `size`, `format`, `type`, `noMipmap`, `callback`, `mipmapGenerator`, `onLoad`, `onError`, `samplingMode`, `invertY`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L111)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L111)
 
 Creates a new raw cube texture from a specified url
 
@@ -4676,7 +4693,7 @@ the cube texture as an InternalTexture
 
 > **createRawCubeTextureFromUrl**(`url`, `scene`, `size`, `format`, `type`, `noMipmap`, `callback`, `mipmapGenerator`, `onLoad`, `onError`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L108)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L108)
 
 Creates a new raw cube texture from a specified url
 
@@ -4756,7 +4773,7 @@ the cube texture as an InternalTexture
 
 > **createRawCubeTextureFromUrl**(`url`, `scene`, `size`, `format`, `type`, `noMipmap`, `callback`, `mipmapGenerator`, `onLoad`, `onError`, `samplingMode`, `invertY`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L137)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L137)
 
 Creates a new raw cube texture from a specified url
 
@@ -4850,7 +4867,7 @@ the cube texture as an InternalTexture
 
 > **createRawShaderProgram**(`pipelineContext`, `vertexCode`, `fragmentCode`, `context?`, `transformFeedbackVaryings?`): `WebGLProgram`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2103)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2092](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2092)
 
 Directly creates a webGL program
 
@@ -4898,7 +4915,7 @@ the new webGL program
 
 > **createRawTexture**(`data`, `width`, `height`, `format`, `generateMipMaps`, `invertY`, `samplingMode`, `compression?`, `type?`, `creationFlags?`, `useSRGBBuffer?`, `mipLevelCount?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2342](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2342)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2361](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2361)
 
 Creates a raw texture
 
@@ -4992,7 +5009,7 @@ the raw texture inside an InternalTexture
 
 > **createRawTexture2DArray**(`data`, `width`, `height`, `depth`, `format`, `generateMipMaps`, `invertY`, `samplingMode`, `compression?`, `textureType?`, `creationFlags?`, `mipLevelCount?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2433](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2433)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2452](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2452)
 
 Creates a new raw 2D array texture
 
@@ -5086,7 +5103,7 @@ a new raw 2D array texture (stored in an InternalTexture)
 
 > **createRawTexture3D**(`data`, `width`, `height`, `depth`, `format`, `generateMipMaps`, `invertY`, `samplingMode`, `compression?`, `textureType?`, `creationFlags?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2400](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2400)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2419)
 
 Creates a new raw 3D texture
 
@@ -5174,7 +5191,7 @@ a new raw 3D texture (stored in an InternalTexture)
 
 > **createRenderPassId**(`name?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L23)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L23)
 
 Creates a render pass id
 
@@ -5204,7 +5221,7 @@ the id of the new render pass
 
 > **createRenderTargetCubeTexture**(`size`, `options?`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.renderTargetCube.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.renderTargetCube.types.ts#L12)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.renderTargetCube.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.renderTargetCube.types.ts#L12)
 
 Creates a new render target cube wrapper
 
@@ -5236,7 +5253,7 @@ a new render target cube wrapper
 
 > **createRenderTargetCubeTexture**(`size`, `options?`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetCube.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetCube.types.ts#L12)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetCube.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetCube.types.ts#L12)
 
 Creates a new render target cube wrapper
 
@@ -5272,7 +5289,7 @@ a new render target cube wrapper
 
 > **createRenderTargetTexture**(`size`, `options`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts#L14)
 
 Creates a new render target texture
 
@@ -5304,7 +5321,7 @@ a new render target wrapper ready to render texture
 
 > **createRenderTargetTexture**(`size`, `options`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts#L14)
 
 Creates a new render target texture
 
@@ -5338,7 +5355,7 @@ a new render target wrapper ready to render texture
 
 > **createShaderProgram**(`pipelineContext`, `vertexCode`, `fragmentCode`, `defines`, `context?`, `transformFeedbackVaryings?`): `WebGLProgram`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2126)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2115)
 
 Creates a webGL program
 
@@ -5392,7 +5409,7 @@ the new webGL program
 
 > **createTexture**(`url`, `noMipmap`, `invertY`, `scene`, `samplingMode?`, `onLoad?`, `onError?`, `buffer?`, `fallback?`, `format?`, `forcedExtension?`, `mimeType?`, `loaderOptions?`, `creationFlags?`, `useSRGBBuffer?`): [`InternalTexture`](InternalTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3145)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3134)
 
 Usually called from Texture.ts.
 Passed information to create a WebGLTexture
@@ -5508,7 +5525,7 @@ a InternalTexture for assignment back into BABYLON.Texture
 
 > **createUniformBuffer**(`elements`, `label?`): [`DataBuffer`](DataBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L14)
 
 Create an uniform buffer
 
@@ -5546,7 +5563,7 @@ https://doc.babylonjs.com/setup/support/webGL2#uniform-buffer-objets
 
 > **createVertexBuffer**(`data`, `_updatable?`, `_label?`): [`DataBuffer`](DataBuffer.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1319](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1319)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1308)
 
 Creates a vertex buffer
 
@@ -5586,7 +5603,7 @@ the new WebGL static buffer
 
 > **createVideoElement**(`constraints`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2519](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2519)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2538](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2538)
 
 creates and returns a new video element
 
@@ -5614,7 +5631,7 @@ video element
 
 > **deleteQuery**(`query`): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L16)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L16)
 
 Delete and release a webGL query
 
@@ -5642,7 +5659,7 @@ the current engine
 
 > **disableAttributeByIndex**(`attributeLocation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1862](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1862)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1851](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1851)
 
 Disable the attribute corresponding to the location in parameter
 
@@ -5664,7 +5681,7 @@ defines the attribute location of the attribute to disable
 
 > **disableInstanceAttribute**(`attributeLocation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1842](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1842)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1831](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1831)
 
 Disable the instance attribute corresponding to the location in parameter
 
@@ -5686,7 +5703,7 @@ defines the attribute location of the attribute to disable
 
 > **disableInstanceAttributeByName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1829](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1829)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1818](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1818)
 
 Disable the instance attribute corresponding to the name in parameter
 
@@ -5708,7 +5725,7 @@ defines the name of the attribute to disable
 
 > **disableScissor**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts#L20)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts#L20)
 
 Disable previously set scissor test rectangle
 
@@ -5726,7 +5743,7 @@ Disable previously set scissor test rectangle
 
 > **displayLoadingUI**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L9)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L9)
 
 Display the loading screen
 
@@ -5748,7 +5765,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4182)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4171)
 
 Dispose and release all associated resources
 
@@ -5766,7 +5783,7 @@ Dispose and release all associated resources
 
 > **draw**(`useTriangles`, `indexStart`, `indexCount`, `instancesCount?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1875](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1875)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1864](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1864)
 
 Send a draw order
 
@@ -5806,7 +5823,7 @@ defines the number of instances to draw (if instantiation is enabled)
 
 > **drawArraysType**(`fillMode`, `verticesStart`, `verticesCount`, `instancesCount?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1932](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1932)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1921](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1921)
 
 Draw a list of unindexed primitives
 
@@ -5850,7 +5867,7 @@ defines the number of instances to draw (if instantiation is enabled)
 
 > **drawElementsType**(`fillMode`, `indexStart`, `indexCount`, `instancesCount?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1907](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1907)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1896](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1896)
 
 Draw a list of indexed primitives
 
@@ -5894,7 +5911,7 @@ defines the number of instances to draw (if instantiation is enabled)
 
 > **drawPointClouds**(`verticesStart`, `verticesCount`, `instancesCount?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1885](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1885)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1874](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1874)
 
 Draw a list of points
 
@@ -5928,7 +5945,7 @@ defines the number of instances to draw (if instantiation is enabled)
 
 > **drawUnIndexed**(`useTriangles`, `verticesStart`, `verticesCount`, `instancesCount?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1896](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1896)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1885](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1885)
 
 Draw a list of unindexed primitives
 
@@ -5968,7 +5985,7 @@ defines the number of instances to draw (if instantiation is enabled)
 
 > **enableEffect**(`effect`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2295)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2284](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2284)
 
 Activates an effect, making it the current one (ie. the one used for rendering)
 
@@ -5994,7 +6011,7 @@ defines the effect to activate
 
 > **enableScissor**(`x`, `y`, `width`, `height`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts#L15)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.scissor.ts#L15)
 
 Enable scissor test on a specific rectangle (ie. render will only be executed on a specific portion of the screen)
 
@@ -6038,7 +6055,7 @@ defines the height of the scissor rectangle
 
 > **endFrame**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1032](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1032)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1021](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1021)
 
 End the current frame
 
@@ -6056,7 +6073,7 @@ End the current frame
 
 > **endOcclusionQuery**(`algorithmType`): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L42)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L42)
 
 Ends an occlusion query
 
@@ -6088,7 +6105,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **endTimeQuery**(`token`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.query.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.query.types.ts#L29)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.query.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.query.types.ts#L29)
 
 Ends a time query
 
@@ -6112,7 +6129,7 @@ the time spent (in ns)
 
 > **enterFullscreen**(`requestPointerLock`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L48)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L48)
 
 Enters full screen mode
 
@@ -6138,7 +6155,7 @@ defines if a pointer lock should be requested from the user
 
 > **exitFullscreen**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L53)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L53)
 
 Exits full screen mode
 
@@ -6156,7 +6173,7 @@ Exits full screen mode
 
 > **extractDriverInfo**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:912](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L912)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:901](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L901)
 
 Gets driver info if available
 
@@ -6174,7 +6191,7 @@ Gets driver info if available
 
 > **flushFramebuffer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1284](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1284)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1273)
 
 Force a webGL flush (ie. a flush of all waiting webGL commands)
 
@@ -6192,7 +6209,7 @@ Force a webGL flush (ie. a flush of all waiting webGL commands)
 
 > **generateMipmaps**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1219](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1219)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1208)
 
 Generates the mipmaps for a texture
 
@@ -6220,7 +6237,7 @@ texture to generate the mipmaps for
 
 > **generateMipMapsForCubemap**(`texture`, `unbind?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L135)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.cubeTexture.types.ts#L135)
 
 Force the mipmap generation for the given render target texture
 
@@ -6250,7 +6267,7 @@ defines whether or not to unbind the texture after generation. Defaults to true.
 
 > **generateMipMapsForCubemap**(`texture`, `unbind?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L170)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.cubeTexture.types.ts#L170)
 
 Force the mipmap generation for the given render target texture
 
@@ -6282,7 +6299,7 @@ defines whether or not to unbind the texture after generation. Defaults to true.
 
 > **generateMipMapsFramebuffer**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1253](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1253)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1242)
 
 Generates mipmaps for the texture of the (single) render target
 
@@ -6310,7 +6327,7 @@ The render target containing the texture to generate the mipmaps for
 
 > **generateMipMapsMultiFramebuffer**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L41)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L41)
 
 Generates mipmaps for the texture of the (multi) render target
 
@@ -6334,7 +6351,7 @@ The render target containing the textures to generate the mipmaps for
 
 > **generateMipMapsMultiFramebuffer**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L41)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L41)
 
 Generates mipmaps for the texture of the (multi) render target
 
@@ -6360,7 +6377,7 @@ The render target containing the textures to generate the mipmaps for
 
 > **getAlphaEquation**(`targetIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L71)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L71)
 
 Gets the current alpha equation.
 
@@ -6388,7 +6405,7 @@ the current alpha equation
 
 > **getAlphaMode**(`targetIndex?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L64)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L64)
 
 Gets the current alpha mode
 
@@ -6416,11 +6433,27 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/transpare
 
 ***
 
+### getAlphaToCoverage()
+
+> **getAlphaToCoverage**(): `boolean`
+
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.alphaToCoverage.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.alphaToCoverage.types.ts#L11)
+
+Gets a boolean indicating if alpha-to-coverage is enabled.
+
+#### Returns
+
+`boolean`
+
+true if alpha-to-coverage is enabled
+
+***
+
 ### getAspectRatio()
 
 > **getAspectRatio**(`viewportOwner`, `useScreen?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L30)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L30)
 
 Gets current aspect ratio
 
@@ -6454,7 +6487,7 @@ a number defining the aspect ratio
 
 > **getAttributes**(`pipelineContext`, `attributesNames`): `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2276)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2265)
 
 Gets the list of active attributes for a given webGL program
 
@@ -6484,7 +6517,7 @@ an array of indices indicating the offset of each attribute
 
 > **getAudioContext**(): [`Nullable`](../type-aliases/Nullable.md)\<`AudioContext`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2013](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2013)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2031](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2031)
 
 Gets the audio context specified in engine initialization options
 
@@ -6508,7 +6541,7 @@ please use AudioEngineV2 instead
 
 > **getAudioDestination**(): [`Nullable`](../type-aliases/Nullable.md)\<`AudioDestinationNode` \| `MediaStreamAudioDestinationNode`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2022](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2022)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2040](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2040)
 
 Gets the audio destination specified in engine initialization options
 
@@ -6532,7 +6565,7 @@ please use AudioEngineV2 instead
 
 > **getCaps**(): [`EngineCapabilities`](../interfaces/EngineCapabilities.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1944](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1944)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1962](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1962)
 
 Gets the object containing all engine capabilities
 
@@ -6552,7 +6585,7 @@ the EngineCapabilities object
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:873](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L873)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:862](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L862)
 
 Gets a string identifying the name of the class
 
@@ -6572,7 +6605,7 @@ Gets a string identifying the name of the class
 
 > **getColorWrite**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L551)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:559](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L559)
 
 Gets a boolean indicating if color writing is enabled
 
@@ -6592,7 +6625,7 @@ the current color writing state
 
 > **getCreationOptions**(): [`AbstractEngineOptions`](../interfaces/AbstractEngineOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2096](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2096)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2114)
 
 Gets the options used for engine creation
 NOTE that modifying the object after engine creation will have no effect
@@ -6613,7 +6646,7 @@ EngineOptions object
 
 > **getCurrentRenderPassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L16)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L16)
 
 Gets the name of the current render pass
 
@@ -6633,7 +6666,7 @@ name of the current render pass
 
 > **getDeltaTime**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2548)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2567](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2567)
 
 Gets the time spent between current and previous frame
 
@@ -6653,7 +6686,7 @@ a number representing the delta time in ms
 
 > **getDepthBuffer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1103)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1121)
 
 Gets a boolean indicating if depth testing is enabled
 
@@ -6673,7 +6706,7 @@ the current state
 
 > **getDepthFunction**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L9)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L9)
 
 Gets the current depth function
 
@@ -6693,7 +6726,7 @@ a number defining the depth function
 
 > **getDepthWrite**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L41)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L41)
 
 Gets a boolean indicating if depth writing is enabled
 
@@ -6713,7 +6746,7 @@ the current depth writing state
 
 > **getError**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4242)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4231)
 
 Get the current error code of the webGL context
 
@@ -6737,7 +6770,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/getError
 
 > **getFontOffset**(`font`): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2627](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2627)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2646)
 
 Get Font size information
 
@@ -6775,7 +6808,7 @@ font name
 
 > **getFps**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2540)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2559](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2559)
 
 Gets the current framerate
 
@@ -6795,7 +6828,7 @@ a number representing the framerate
 
 > **getGlInfo**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:903](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L903)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:892](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L892)
 
 Gets an object containing information about the current webGL context
 
@@ -6823,7 +6856,7 @@ an object containing the vendor, the renderer and the version of the current web
 
 > **getGPUFrameTimeCounter**(): [`PerfCounter`](PerfCounter.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts#L12)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.timeQuery.types.ts#L12)
 
 Get the performance counter associated with the frame time computation
 
@@ -6843,7 +6876,7 @@ the perf counter
 
 > **getHardwareScalingLevel**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2059](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2059)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2077](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2077)
 
 Gets the current hardware scaling level.
 By default the hardware scaling level is computed from the window device ratio.
@@ -6865,7 +6898,7 @@ a number indicating the current hardware scaling level
 
 > **getHostDocument**(): [`Nullable`](../type-aliases/Nullable.md)\<`Document`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1901](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1901)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1919](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1919)
 
 Gets host document
 
@@ -6885,7 +6918,7 @@ the host document object
 
 > **getHostWindow**(): [`Nullable`](../type-aliases/Nullable.md)\<`Window`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1153)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1171)
 
 Gets host window
 
@@ -6905,7 +6938,7 @@ the host window object
 
 > **getInfo**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:895](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L895)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:884](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L884)
 
 Gets an object containing information about the current engine context
 
@@ -6933,7 +6966,7 @@ an object containing the vendor, the renderer and the version of the current eng
 
 > **getInputElement**(): [`Nullable`](../type-aliases/Nullable.md)\<`HTMLElement`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L10)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L10)
 
 Gets the HTML element used to attach event listeners
 
@@ -6953,7 +6986,7 @@ a HTML element
 
 > **getInputElementClientRect**(): [`Nullable`](../type-aliases/Nullable.md)\<`ClientRect`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L22)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L22)
 
 Gets the client rect of the HTML element used for events
 
@@ -6973,7 +7006,7 @@ a client rectangle
 
 > **getLoadedTexturesCache**(): [`InternalTexture`](InternalTexture.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1923](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1923)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1941](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1941)
 
 Gets the list of loaded textures
 
@@ -6993,7 +7026,7 @@ an array containing all loaded textures
 
 > **getLockstepMaxSteps**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2574](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2574)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2593](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2593)
 
 Gets the max steps when engine is running in deterministic lock step
 
@@ -7017,7 +7050,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **getQueryResult**(`query`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L27)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L27)
 
 Gets the value of a given query
 
@@ -7045,7 +7078,7 @@ the value of the query
 
 > **getRenderHeight**(`useScreen?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:939](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L939)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:928](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L928)
 
 Gets the current render height
 
@@ -7073,7 +7106,7 @@ a number defining the current render height
 
 > **getRenderingCanvas**(): [`Nullable`](../type-aliases/Nullable.md)\<`HTMLCanvasElement`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2004](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2004)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2022](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2022)
 
 Gets the HTML canvas attached with the current webGL context
 
@@ -7093,7 +7126,7 @@ a HTML canvas
 
 > **getRenderingCanvasClientRect**(): [`Nullable`](../type-aliases/Nullable.md)\<`ClientRect`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L16)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L16)
 
 Gets the client rect of the HTML canvas attached with the current webGL context
 
@@ -7113,7 +7146,7 @@ a client rectangle
 
 > **getRenderPassNames**(): `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L10)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L10)
 
 Gets the names of the render passes that are currently created
 
@@ -7133,7 +7166,7 @@ list of the render pass names
 
 > **getRenderWidth**(`useScreen?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:926](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L926)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:915](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L915)
 
 Gets the current render width
 
@@ -7161,7 +7194,7 @@ a number defining the current render width
 
 > **getScreenAspectRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L36)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L36)
 
 Gets current screen aspect ratio
 
@@ -7181,7 +7214,7 @@ a number defining the aspect ratio
 
 > **getStencilBackFunction**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L66)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L66)
 
 Gets the current back stencil function
 
@@ -7201,7 +7234,7 @@ a number defining the back stencil function to use
 
 > **getStencilBackOperationDepthFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L126)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L126)
 
 Gets the current back stencil operation when depth fails
 
@@ -7221,7 +7254,7 @@ a number defining back stencil operation to use when depth fails
 
 > **getStencilBackOperationFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L114)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L114)
 
 Gets the current back stencil operation when stencil fails
 
@@ -7241,7 +7274,7 @@ a number defining back stencil operation to use when stencil fails
 
 > **getStencilBackOperationPass**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L31)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L31)
 
 Gets the current back stencil operation when stencil passes
 
@@ -7261,7 +7294,7 @@ a number defining back stencil operation to use when stencil passes
 
 > **getStencilBuffer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L37)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L37)
 
 Gets a boolean indicating if stencil buffer is enabled
 
@@ -7281,7 +7314,7 @@ the current stencil buffer state
 
 > **getStencilFunction**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L60)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L60)
 
 Gets the current stencil function
 
@@ -7301,7 +7334,7 @@ a number defining the stencil function to use
 
 > **getStencilFunctionMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L78)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L78)
 
 Gets the current stencil mask
 
@@ -7321,7 +7354,7 @@ a number defining the stencil mask to use
 
 > **getStencilFunctionReference**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L72)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L72)
 
 Gets the current stencil reference value
 
@@ -7341,7 +7374,7 @@ a number defining the stencil reference value to use
 
 > **getStencilMask**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L49)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L49)
 
 Gets the current stencil mask
 
@@ -7361,7 +7394,7 @@ a number defining the new stencil mask to use
 
 > **getStencilOperationDepthFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L120)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L120)
 
 Gets the current stencil operation when depth fails
 
@@ -7381,7 +7414,7 @@ a number defining stencil operation to use when depth fails
 
 > **getStencilOperationFail**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:108](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L108)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L108)
 
 Gets the current stencil operation when stencil fails
 
@@ -7401,7 +7434,7 @@ a number defining stencil operation to use when stencil fails
 
 > **getStencilOperationPass**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L25)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L25)
 
 Gets the current stencil operation when stencil passes
 
@@ -7421,7 +7454,7 @@ a number defining stencil operation to use when stencil passes
 
 > **getTimeStep**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2582](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2582)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2601](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2601)
 
 Returns the time in ms between steps when using deterministic lock step.
 
@@ -7441,7 +7474,7 @@ time step in (ms)
 
 > **getUniforms**(`pipelineContext`, `uniformsNames`): [`Nullable`](../type-aliases/Nullable.md)\<`WebGLUniformLocation`\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2259)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2248)
 
 Gets the list of webGL uniform locations associated with a specific program based on a list of uniform names
 
@@ -7471,7 +7504,7 @@ an array of webGL uniform locations
 
 > **getZOffset**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1127](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1127)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1145)
 
 Gets the current value of the zOffset Factor
 
@@ -7491,7 +7524,7 @@ the current zOffset Factor state
 
 > **getZOffsetUnits**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1144)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1162)
 
 Gets the current value of the zOffset Units
 
@@ -7511,7 +7544,7 @@ the current zOffset Units state
 
 > **hideLoadingUI**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.loadingScreen.types.ts#L15)
 
 Hide the loading screen
 
@@ -7533,7 +7566,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **inlineShaderCode**(`code`): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2146)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2135)
 
 Inline functions in shader code that are marked to be inlined
 
@@ -7561,7 +7594,7 @@ inlined code
 
 > **isDeterministicLockStep**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2565](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2565)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2584](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2584)
 
 Gets a boolean indicating that the engine is running in deterministic lock step mode
 
@@ -7585,7 +7618,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **isQueryResultAvailable**(`query`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L21)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L21)
 
 #### Parameters
 
@@ -7607,7 +7640,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstr
 
 > **readPixels**(`x`, `y`, `width`, `height`, `hasAlpha?`, `flushRenderer?`, `data?`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4629](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4629)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4618](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4618)
 
 Reads pixels from the current frame buffer. Please note that this function can be slow
 
@@ -7671,7 +7704,7 @@ a ArrayBufferView promise (Uint8Array) containing RGBA colors
 
 > **recordVertexArrayObject**(`vertexBuffers`, `indexBuffer`, `effect`, `overrideVertexBuffers?`): `WebGLVertexArrayObject`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1596](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1596)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1585](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1585)
 
 Records a vertex array object
 
@@ -7713,7 +7746,7 @@ https://doc.babylonjs.com/setup/support/webGL2#vertex-array-objects
 
 > **registerView**(`canvas`, `camera?`, `clearBeforeCopy?`): [`EngineView`](EngineView.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L47)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L47)
 
 **`Since`**
 
@@ -7755,7 +7788,7 @@ the associated view
 
 > **releaseComputeEffects**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L92)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.computeShader.types.ts#L92)
 
 Forces the engine to release all cached compute effects. This means that next effect compilation will have to be done completely even if a similar effect was already compiled
 
@@ -7773,7 +7806,7 @@ Forces the engine to release all cached compute effects. This means that next ef
 
 > **releaseEffects**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4174](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4174)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4163](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4163)
 
 Force the engine to release all cached effects. This means that next effect compilation will have to be done completely even if a similar effect was already compiled
 
@@ -7791,7 +7824,7 @@ Force the engine to release all cached effects. This means that next effect comp
 
 > **releaseRenderPassId**(`id`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L29)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.renderPass.types.ts#L29)
 
 Releases a render pass id
 
@@ -7817,7 +7850,7 @@ id of the render pass to release
 
 > **releaseVertexArrayObject**(`vao`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1733](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1733)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1722](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1722)
 
 Release and free the memory of a vertex array object
 
@@ -7839,7 +7872,7 @@ defines the vertex array object to delete
 
 > **resetTextureCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1951](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1951)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1969](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1969)
 
 Reset the texture cache to empty state
 
@@ -7857,7 +7890,7 @@ Reset the texture cache to empty state
 
 > **resize**(`forceSetSize?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2154)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2173)
 
 Resize the view according to the canvas' size
 
@@ -7883,7 +7916,7 @@ true to force setting the sizes of the underlying canvas
 
 > **resizeImageBitmap**(`image`, `bufferWidth`, `bufferHeight`): `Uint8Array`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2613](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2613)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2632](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2632)
 
 Resize an image and returns the image data as an uint8array
 
@@ -7921,7 +7954,7 @@ destination buffer height
 
 > **resolveFramebuffer**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1264)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1253](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1253)
 
 Resolves the MSAA texture of the (single) render target into its non-MSAA version.
 Note that if "texture" is not a MSAA render target, no resolve is performed.
@@ -7950,7 +7983,7 @@ The render target texture containing the MSAA textures to resolve
 
 > **resolveMultiFramebuffer**(`texture`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L48)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L48)
 
 Resolves the MSAA textures of the (multi) render target into their non-MSAA version.
 Note that if "texture" is not a MSAA render target, no resolve is performed.
@@ -7975,7 +8008,7 @@ The render target texture containing the MSAA textures to resolve
 
 > **resolveMultiFramebuffer**(`texture`, `resolveColors?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L49)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L49)
 
 Resolves the MSAA textures of the (multi) render target into their non-MSAA version.
 Note that if "texture" is not a MSAA render target, no resolve is performed.
@@ -8008,7 +8041,7 @@ If true, resolve the color textures (default: true) - still subject to texture.r
 
 > **restoreDefaultFramebuffer**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1291](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1291)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1280)
 
 Unbind the current render target and bind the default framebuffer
 
@@ -8028,7 +8061,7 @@ Unbind the current render target and bind the default framebuffer
 
 > **restoreSingleAttachment**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L68)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L68)
 
 Restores the webgl state to only draw on the main color attachment
 when the frame buffer associated is the canvas frame buffer
@@ -8045,7 +8078,7 @@ when the frame buffer associated is the canvas frame buffer
 
 > **restoreSingleAttachment**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L69)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L69)
 
 Restores the webgl state to only draw on the main color attachment
 when the frame buffer associated is the canvas frame buffer
@@ -8066,7 +8099,7 @@ when the frame buffer associated is the canvas frame buffer
 
 > **restoreSingleAttachmentForRenderTarget**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L74)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L74)
 
 Restores the webgl state to only draw on the main color attachment
 when the frame buffer associated is not the canvas frame buffer
@@ -8083,7 +8116,7 @@ when the frame buffer associated is not the canvas frame buffer
 
 > **restoreSingleAttachmentForRenderTarget**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L75)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L75)
 
 Restores the webgl state to only draw on the main color attachment
 when the frame buffer associated is not the canvas frame buffer
@@ -8102,7 +8135,7 @@ when the frame buffer associated is not the canvas frame buffer
 
 > **restoreStencilState**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:172](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L172)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L172)
 
 Restores the state of the stencil buffer
 
@@ -8120,7 +8153,7 @@ Restores the state of the stencil buffer
 
 > **runRenderLoop**(`renderFunction`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1086)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1104)
 
 Register and execute a render loop. The engine can have more than one render function
 
@@ -8146,7 +8179,7 @@ defines the function to continuously execute
 
 > **setAlphaConstants**(`r`, `g`, `b`, `a`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L56)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L56)
 
 Sets alpha constants used by some alpha blending modes
 
@@ -8190,7 +8223,7 @@ defines the alpha component
 
 > **setAlphaEquation**(`equation`, `targetIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.alpha.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.alpha.types.ts#L11)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.alpha.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.alpha.types.ts#L11)
 
 Sets the current alpha equation
 
@@ -8224,7 +8257,7 @@ defines the index of the target to set the equation for (default is 0)
 
 > **setAlphaMode**(`mode`, `noDepthWriteChange?`, `targetIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.alpha.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.alpha.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.alpha.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.alpha.types.ts#L15)
 
 Sets the current alpha mode
 
@@ -8264,7 +8297,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/transpare
 
 > **setAlphaMode**(`mode`, `noDepthWriteChange?`, `targetIndex?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.alpha.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.alpha.types.ts#L13)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.alpha.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.alpha.types.ts#L13)
 
 Sets the current alpha mode
 
@@ -8302,11 +8335,33 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/transpare
 
 ***
 
+### setAlphaToCoverage()
+
+> **setAlphaToCoverage**(`enable`): `void`
+
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.alphaToCoverage.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.alphaToCoverage.types.ts#L17)
+
+Enable or disable alpha-to-coverage.
+
+#### Parameters
+
+##### enable
+
+`boolean`
+
+defines the state to set
+
+#### Returns
+
+`void`
+
+***
+
 ### setArray()
 
 > **setArray**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2585](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2585)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2574](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2574)
 
 Set the value of an uniform to an array of number
 
@@ -8336,7 +8391,7 @@ true if the value was set
 
 > **setArray2**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2603](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2603)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2592](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2592)
 
 Set the value of an uniform to an array of number (stored as vec2)
 
@@ -8366,7 +8421,7 @@ true if the value was set
 
 > **setArray3**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2618](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2618)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2607](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2607)
 
 Set the value of an uniform to an array of number (stored as vec3)
 
@@ -8396,7 +8451,7 @@ true if the value was set
 
 > **setArray4**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2633](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2633)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2622](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2622)
 
 Set the value of an uniform to an array of number (stored as vec4)
 
@@ -8426,7 +8481,7 @@ true if the value was set
 
 > **setColorWrite**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L540)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:548](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L548)
 
 Enable or disable color writing
 
@@ -8452,7 +8507,7 @@ defines the state to set
 
 > **setCompressedTextureExclusions**(`skippedFiles`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L27)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L27)
 
 Set the compressed texture extensions or file names to skip.
 
@@ -8479,7 +8534,7 @@ Example: [".dds", ".env", "myfile.png"]
 
 > **setDepthBuffer**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1111)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1129)
 
 Enable or disable depth buffering
 
@@ -8505,7 +8560,7 @@ defines the state to set
 
 > **setDepthFunction**(`depthFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L15)
 
 Sets the current depth function
 
@@ -8531,7 +8586,7 @@ defines the function to use
 
 > **setDepthFunctionToGreater**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L20)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L20)
 
 Sets the current depth function to GREATER
 
@@ -8549,7 +8604,7 @@ Sets the current depth function to GREATER
 
 > **setDepthFunctionToGreaterOrEqual**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L25)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L25)
 
 Sets the current depth function to GEQUAL
 
@@ -8567,7 +8622,7 @@ Sets the current depth function to GEQUAL
 
 > **setDepthFunctionToLess**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L30)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L30)
 
 Sets the current depth function to LESS
 
@@ -8585,7 +8640,7 @@ Sets the current depth function to LESS
 
 > **setDepthFunctionToLessOrEqual**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L35)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L35)
 
 Sets the current depth function to LEQUAL
 
@@ -8605,7 +8660,7 @@ Sets the current depth function to LEQUAL
 
 > **setDepthStencilTexture**(`channel`, `uniform`, `texture`, `name?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.renderTargetTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.renderTargetTexture.types.ts#L13)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.renderTargetTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.renderTargetTexture.types.ts#L13)
 
 Sets a depth stencil texture from a render target to the according uniform.
 
@@ -8647,7 +8702,7 @@ The texture name
 
 > **setDepthStencilTexture**(`channel`, `uniform`, `texture`, `name?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetTexture.types.ts#L13)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTargetTexture.types.ts#L13)
 
 Sets a depth stencil texture from a render target to the according uniform.
 
@@ -8691,7 +8746,7 @@ The texture name
 
 > **setDepthWrite**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L47)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.states.types.ts#L47)
 
 Enable or disable depth writing
 
@@ -8717,7 +8772,7 @@ defines the state to set
 
 > **setFloat**(`uniform`, `value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2693](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2693)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2682](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2682)
 
 Set the value of an uniform to a number (float)
 
@@ -8747,7 +8802,7 @@ true if the value was transferred
 
 > **setFloat2**(`uniform`, `x`, `y`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2710](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2710)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2699](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2699)
 
 Set the value of an uniform to a vec2
 
@@ -8783,7 +8838,7 @@ true if the value was set
 
 > **setFloat3**(`uniform`, `x`, `y`, `z`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2728](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2728)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2717](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2717)
 
 Set the value of an uniform to a vec3
 
@@ -8825,7 +8880,7 @@ true if the value was set
 
 > **setFloat4**(`uniform`, `x`, `y`, `z`, `w`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2747](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2747)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2736](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2736)
 
 Set the value of an uniform to a vec4
 
@@ -8873,7 +8928,7 @@ true if the value was set
 
 > **setHardwareScalingLevel**(`level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2048](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2048)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2066](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2066)
 
 Defines the hardware scaling level.
 By default the hardware scaling level is computed from the window device ratio.
@@ -8901,7 +8956,7 @@ defines the level to use
 
 > **setInt**(`uniform`, `value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2323](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2323)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2312](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2312)
 
 Set the value of an uniform to a number (int)
 
@@ -8931,7 +8986,7 @@ true if the value was set
 
 > **setInt2**(`uniform`, `x`, `y`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2340)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2329)
 
 Set the value of an uniform to a int2
 
@@ -8967,7 +9022,7 @@ true if the value was set
 
 > **setInt3**(`uniform`, `x`, `y`, `z`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2358)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2347)
 
 Set the value of an uniform to a int3
 
@@ -9009,7 +9064,7 @@ true if the value was set
 
 > **setInt4**(`uniform`, `x`, `y`, `z`, `w`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2377](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2377)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2366](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2366)
 
 Set the value of an uniform to a int4
 
@@ -9057,7 +9112,7 @@ true if the value was set
 
 > **setIntArray**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2393](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2393)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2382)
 
 Set the value of an uniform to an array of int32
 
@@ -9087,7 +9142,7 @@ true if the value was set
 
 > **setIntArray2**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2409](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2409)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2398](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2398)
 
 Set the value of an uniform to an array of int32 (stored as vec2)
 
@@ -9117,7 +9172,7 @@ true if the value was set
 
 > **setIntArray3**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2424](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2424)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2413)
 
 Set the value of an uniform to an array of int32 (stored as vec3)
 
@@ -9147,7 +9202,7 @@ true if the value was set
 
 > **setIntArray4**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2439)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2428)
 
 Set the value of an uniform to an array of int32 (stored as vec4)
 
@@ -9177,7 +9232,7 @@ true if the value was set
 
 > **setMatrices**(`uniform`, `matrices`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2648](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2648)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2637](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2637)
 
 Set the value of an uniform to an array of float32 (stored as matrices)
 
@@ -9207,7 +9262,7 @@ true if the value was set
 
 > **setMatrix2x2**(`uniform`, `matrix`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2678](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2678)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2667](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2667)
 
 Set the value of an uniform to a matrix (2x2)
 
@@ -9237,7 +9292,7 @@ true if the value was set
 
 > **setMatrix3x3**(`uniform`, `matrix`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2663](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2663)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2652](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2652)
 
 Set the value of an uniform to a matrix (3x3)
 
@@ -9267,7 +9322,7 @@ true if the value was set
 
 > **setSize**(`width`, `height`, `forceSetSize?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2191](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2191)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2210)
 
 Force a specific size of the canvas
 
@@ -9307,7 +9362,7 @@ true if the size was changed
 
 > **setState**(`culling`, `zOffset?`, `force?`, `reverseSide?`, `cullBackFaces?`, `stencil?`, `zOffsetUnits?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1158)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1147)
 
 Set various states to the webGL context
 
@@ -9369,7 +9424,7 @@ defines the value to apply to zOffsetUnits (0 by default)
 
 > **setStateCullFaceType**(`cullBackFaces?`, `force?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1141)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1130)
 
 Sets the type of faces to cull
 
@@ -9401,7 +9456,7 @@ defines if states must be applied even if cache is up to date
 
 > **setStencilBackFunction**(`stencilFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L90)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L90)
 
 Sets the current back stencil function
 
@@ -9427,7 +9482,7 @@ defines the new back stencil function to use
 
 > **setStencilBackOperationDepthFail**(`operation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:150](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L150)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L150)
 
 Sets the back stencil operation to use when depth fails
 
@@ -9453,7 +9508,7 @@ defines the back stencil operation to use when depth fails
 
 > **setStencilBackOperationFail**(`operation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L138)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L138)
 
 Sets the back stencil operation to use when stencil fails
 
@@ -9479,7 +9534,7 @@ defines the back stencil operation to use when stencil fails
 
 > **setStencilBackOperationPass**(`operation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:162](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L162)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L162)
 
 Sets the back stencil operation to use when stencil passes
 
@@ -9505,7 +9560,7 @@ defines the back stencil operation to use when stencil passes
 
 > **setStencilBuffer**(`enable`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L43)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L43)
 
 Enable or disable the stencil buffer
 
@@ -9531,7 +9586,7 @@ defines if the stencil buffer must be enabled or disabled
 
 > **setStencilFunction**(`stencilFunc`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L84)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L84)
 
 Sets the current stencil function
 
@@ -9557,7 +9612,7 @@ defines the new stencil function to use
 
 > **setStencilFunctionMask**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L102)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L102)
 
 Sets the current stencil mask
 
@@ -9583,7 +9638,7 @@ defines the new stencil mask to use
 
 > **setStencilFunctionReference**(`reference`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:96](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L96)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L96)
 
 Sets the current stencil reference
 
@@ -9609,7 +9664,7 @@ defines the new stencil reference to use
 
 > **setStencilMask**(`mask`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L54)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L54)
 
 Sets the current stencil mask
 
@@ -9635,7 +9690,7 @@ defines the new stencil mask to use
 
 > **setStencilOperationDepthFail**(`operation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L144)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L144)
 
 Sets the stencil operation to use when depth fails
 
@@ -9661,7 +9716,7 @@ defines the stencil operation to use when depth fails
 
 > **setStencilOperationFail**(`operation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L132)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L132)
 
 Sets the stencil operation to use when stencil fails
 
@@ -9687,7 +9742,7 @@ defines the stencil operation to use when stencil fails
 
 > **setStencilOperationPass**(`operation`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L156)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.stencil.types.ts#L156)
 
 Sets the stencil operation to use when stencil passes
 
@@ -9713,7 +9768,7 @@ defines the stencil operation to use when stencil passes
 
 > **setTexture**(`channel`, `uniform`, `texture`, `name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3951](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3951)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3940](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3940)
 
 Sets a texture to the according uniform.
 
@@ -9757,7 +9812,7 @@ The name of the uniform in the effect
 
 > **setTextureArray**(`channel`, `uniform`, `textures`, `name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4088](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4088)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4077](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4077)
 
 Sets an array of texture to the webGL context
 
@@ -9801,7 +9856,7 @@ name of the channel
 
 > **setTextureFormatToUse**(`formatsAvailable`): [`Nullable`](../type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L49)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.textureSelector.types.ts#L49)
 
 Set the compressed texture format to use, based on the formats you have, and the formats
 supported by the hardware / browser.
@@ -9843,7 +9898,7 @@ The extension selected.
 
 > **setTextureFromPostProcess**(`channel`, `postProcess`, `name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcess.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcess.types.ts#L12)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.types.ts#L12)
 
 Sets a texture to the context from a postprocess
 
@@ -9881,7 +9936,7 @@ name of the channel
 
 > **setTextureFromPostProcessOutput**(`channel`, `postProcess`, `name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/postProcess.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/postProcess.types.ts#L20)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.types.ts#L20)
 
 Binds the output of the passed in post process to the texture channel specified
 
@@ -9919,7 +9974,7 @@ name of the channel
 
 > **setUInt**(`uniform`, `value`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2454](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2454)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2443](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2443)
 
 Set the value of an uniform to a number (unsigned int)
 
@@ -9949,7 +10004,7 @@ true if the value was set
 
 > **setUInt2**(`uniform`, `x`, `y`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2471](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2471)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2460](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2460)
 
 Set the value of an uniform to a unsigned int2
 
@@ -9985,7 +10040,7 @@ true if the value was set
 
 > **setUInt3**(`uniform`, `x`, `y`, `z`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2489](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2489)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2478](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2478)
 
 Set the value of an uniform to a unsigned int3
 
@@ -10027,7 +10082,7 @@ true if the value was set
 
 > **setUInt4**(`uniform`, `x`, `y`, `z`, `w`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2508](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2508)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2497](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2497)
 
 Set the value of an uniform to a unsigned int4
 
@@ -10075,7 +10130,7 @@ true if the value was set
 
 > **setUIntArray**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2524](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2524)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2513](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2513)
 
 Set the value of an uniform to an array of unsigned int32
 
@@ -10105,7 +10160,7 @@ true if the value was set
 
 > **setUIntArray2**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2540](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2540)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2529](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2529)
 
 Set the value of an uniform to an array of unsigned int32 (stored as vec2)
 
@@ -10135,7 +10190,7 @@ true if the value was set
 
 > **setUIntArray3**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2555](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2555)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2544](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2544)
 
 Set the value of an uniform to an array of unsigned int32 (stored as vec3)
 
@@ -10165,7 +10220,7 @@ true if the value was set
 
 > **setUIntArray4**(`uniform`, `array`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2570](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2570)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2559](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2559)
 
 Set the value of an uniform to an array of unsigned int32 (stored as vec4)
 
@@ -10195,7 +10250,7 @@ true if the value was set
 
 > **setViewport**(`viewport`, `requiredWidth?`, `requiredHeight?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1520](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1520)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1538](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1538)
 
 Set the WebGL's viewport
 
@@ -10233,7 +10288,7 @@ defines the height required for rendering. If not provided the rendering canvas'
 
 > **setZOffset**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1119)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1137)
 
 Set the z offset Factor to apply to current rendering
 
@@ -10259,7 +10314,7 @@ defines the offset to apply
 
 > **setZOffsetUnits**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:1136](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1136)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:1154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L1154)
 
 Set the z offset Units to apply to current rendering
 
@@ -10285,7 +10340,7 @@ defines the offset to apply
 
 > **snapshotRenderingReset**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L261)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L250)
 
 Creates a new snapshot at the next frame using the current snapshotRenderingMode
 
@@ -10299,7 +10354,7 @@ Creates a new snapshot at the next frame using the current snapshotRenderingMode
 
 > **startTimeQuery**(): [`Nullable`](../type-aliases/Nullable.md)\<`_TimeToken`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.query.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.query.types.ts#L22)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.query.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.query.types.ts#L22)
 
 Starts a time query (used to measure time spent by the GPU on a specific frame)
 Please note that only one query can be issued at a time
@@ -10316,7 +10371,7 @@ a time token used to track the time span
 
 > **stopRenderLoop**(`renderFunction?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:880](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L880)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L898)
 
 stop executing a render loop function and remove it from the execution array
 
@@ -10342,7 +10397,7 @@ defines the function to be removed. If not provided all functions will be remove
 
 > **switchFullscreen**(`requestPointerLock`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L42)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.types.ts#L42)
 
 Toggle full screen mode
 
@@ -10368,7 +10423,7 @@ defines if a pointer lock should be requested from the user
 
 > **unbindAllAttributes**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4152)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4141)
 
 Unbind all vertex attributes from the webGL context
 
@@ -10382,7 +10437,7 @@ Unbind all vertex attributes from the webGL context
 
 > **unbindAllTextures**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3932](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3932)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3921](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3921)
 
 Unbind all textures from the webGL context
 
@@ -10396,7 +10451,7 @@ Unbind all textures from the webGL context
 
 > **unBindFramebuffer**(`texture`, `disableGenerateMipMaps?`, `onBeforeUnbind?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1232)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1221)
 
 Unbind the current render target texture from the webGL context
 
@@ -10434,7 +10489,7 @@ defines a function which will be called before the effective unbind
 
 > **unbindInstanceAttributes**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1714](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1714)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1703](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1703)
 
 Unbind all instance attributes
 
@@ -10454,7 +10509,7 @@ Unbind all instance attributes
 
 > **unBindMultiColorAttachmentFramebuffer**(`rtWrapper`, `disableGenerateMipMaps`, `onBeforeUnbind?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L15)
 
 Unbind a list of render target textures from the webGL context
 This is used only when drawBuffer extension or webGL2 are active
@@ -10491,7 +10546,7 @@ defines a function which will be called before the effective unbind
 
 > **unBindMultiColorAttachmentFramebuffer**(`rtWrapper`, `disableGenerateMipMaps`, `onBeforeUnbind?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L15)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L15)
 
 Unbind a list of render target textures from the webGL context
 This is used only when drawBuffer extension or webGL2 are active
@@ -10530,7 +10585,7 @@ defines a function which will be called before the effective unbind
 
 > **unRegisterView**(`canvas`): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L54)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.views.types.ts#L54)
 
 Remove a registered child canvas
 
@@ -10558,7 +10613,7 @@ the current engine
 
 > **updateAndBindInstancesBuffer**(`instancesBuffer`, `data`, `offsetLocations`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1761](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1761)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1750](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1750)
 
 Update the content of a webGL buffer used with instantiation and bind it to the webGL context
 
@@ -10592,7 +10647,7 @@ defines the offsets or attributes information used to determine where data must 
 
 > **updateArrayBuffer**(`data`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:1462](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L1462)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:1451](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L1451)
 
 update the bound buffer with the given data
 
@@ -10614,7 +10669,7 @@ defines the data to update
 
 > **updateDynamicIndexBuffer**(`indexBuffer`, `indices`, `offset?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts#L12)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts#L12)
 
 Update a dynamic index buffer
 
@@ -10654,7 +10709,7 @@ defines the offset in the target index buffer where update should start
 
 > **updateDynamicTexture**(`texture`, `source`, `invertY?`, `premulAlpha?`, `format?`, `forceBindTexture?`, `allowGPUOptimization?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts#L27)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.dynamicTexture.types.ts#L27)
 
 Update the content of a dynamic texture
 
@@ -10714,7 +10769,7 @@ true to allow some specific GPU optimizations (subject to engine feature "allowG
 
 > **updateDynamicTexture**(`texture`, `source`, `invertY?`, `premulAlpha?`, `format?`, `forceBindTexture?`, `allowGPUOptimization?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts#L27)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.dynamicTexture.types.ts#L27)
 
 Update the content of a dynamic texture
 
@@ -10776,7 +10831,7 @@ true to allow some specific GPU optimizations (subject to engine feature "allowG
 
 > **updateDynamicVertexBuffer**(`vertexBuffer`, `data`, `byteOffset?`, `byteLength?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts#L21)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.dynamicBuffer.types.ts#L21)
 
 Updates a dynamic vertex buffer.
 
@@ -10822,7 +10877,7 @@ the byte length of the data
 
 > **updateMultipleRenderTargetTextureSampleCount**(`rtWrapper`, `samples`, `initializeBuffers?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L35)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.multiRender.types.ts#L35)
 
 Update the sample count for a given multiple render target texture
 
@@ -10864,7 +10919,7 @@ https://doc.babylonjs.com/setup/support/webGL2#multisample-render-targets
 
 > **updateMultipleRenderTargetTextureSampleCount**(`rtWrapper`, `samples`, `initializeBuffers?`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L35)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.multiRender.types.ts#L35)
 
 Update the sample count for a given multiple render target texture
 
@@ -10910,7 +10965,7 @@ https://doc.babylonjs.com/setup/support/webGL2#multisample-render-targets
 
 > **updateRawCubeTexture**(`texture`, `data`, `format`, `type`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L43)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L43)
 
 Update a raw cube texture
 
@@ -10958,7 +11013,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawCubeTexture**(`texture`, `data`, `format`, `type`, `invertY`, `compression`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L54)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L54)
 
 Update a raw cube texture
 
@@ -11012,7 +11067,7 @@ defines the compression used (null by default)
 
 > **updateRawCubeTexture**(`texture`, `data`, `format`, `type`, `invertY`, `compression`, `level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L66)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L66)
 
 Update a raw cube texture
 
@@ -11072,7 +11127,7 @@ defines which level of the texture to update
 
 > **updateRawCubeTexture**(`texture`, `data`, `format`, `type`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L69)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L69)
 
 Update a raw cube texture
 
@@ -11120,7 +11175,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawCubeTexture**(`texture`, `data`, `format`, `type`, `invertY`, `compression`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L80)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L80)
 
 Update a raw cube texture
 
@@ -11174,7 +11229,7 @@ defines the compression used (null by default)
 
 > **updateRawCubeTexture**(`texture`, `data`, `format`, `type`, `invertY`, `compression`, `level`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L92)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L92)
 
 Update a raw cube texture
 
@@ -11238,7 +11293,7 @@ defines which level of the texture to update
 
 > **updateRawTexture**(`texture`, `data`, `format`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L14)
 
 Update a raw texture
 
@@ -11280,7 +11335,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawTexture**(`texture`, `data`, `format`, `invertY`, `compression`, `type`, `useSRGBBuffer`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L26)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L26)
 
 Update a raw texture
 
@@ -11340,7 +11395,7 @@ defines if the texture must be loaded in a sRGB GPU buffer (if supported by the 
 
 > **updateRawTexture**(`texture`, `data`, `format`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L14)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L14)
 
 Update a raw texture
 
@@ -11382,7 +11437,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawTexture**(`texture`, `data`, `format`, `invertY`, `compression`, `type`, `useSRGBBuffer`, `mipLevel?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L27)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L27)
 
 Update a raw texture
 
@@ -11452,7 +11507,7 @@ defines which mipLevel of the texture is going to be updated
 
 > **updateRawTexture2DArray**(`texture`, `data`, `format`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L153)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L153)
 
 Update a raw 2D array texture
 
@@ -11494,7 +11549,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawTexture2DArray**(`texture`, `data`, `format`, `invertY`, `compression`, `textureType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L164)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L164)
 
 Update a raw 2D array texture
 
@@ -11548,7 +11603,7 @@ defines the texture Type (Engine.TEXTURETYPE_UNSIGNED_BYTE, Engine.TEXTURETYPE_F
 
 > **updateRawTexture2DArray**(`texture`, `data`, `format`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L179)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L179)
 
 Update a raw 2D array texture
 
@@ -11590,7 +11645,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawTexture2DArray**(`texture`, `data`, `format`, `invertY`, `compression`, `textureType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L190)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L190)
 
 Update a raw 2D array texture
 
@@ -11644,7 +11699,7 @@ defines the texture Type (Engine.TEXTURETYPE_UNSIGNED_BYTE, Engine.TEXTURETYPE_F
 
 > **updateRawTexture2DArray**(`texture`, `data`, `format`, `invertY`, `compression`, `textureType`, `mipLevel?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L209)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L209)
 
 Update a raw 2D array texture
 
@@ -11708,7 +11763,7 @@ defines which mipLevel of the texture is going to be updated
 
 > **updateRawTexture3D**(`texture`, `data`, `format`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L133)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L133)
 
 Update a raw 3D texture
 
@@ -11750,7 +11805,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawTexture3D**(`texture`, `data`, `format`, `invertY`, `compression`, `textureType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L144)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.rawTexture.types.ts#L144)
 
 Update a raw 3D texture
 
@@ -11804,7 +11859,7 @@ defines the texture Type (Engine.TEXTURETYPE_UNSIGNED_BYTE, Engine.TEXTURETYPE_F
 
 > **updateRawTexture3D**(`texture`, `data`, `format`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L159)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L159)
 
 Update a raw 3D texture
 
@@ -11846,7 +11901,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateRawTexture3D**(`texture`, `data`, `format`, `invertY`, `compression`, `textureType`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:170](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L170)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.rawTexture.types.ts#L170)
 
 Update a raw 3D texture
 
@@ -11904,7 +11959,7 @@ defines the texture Type (Engine.TEXTURETYPE_UNSIGNED_BYTE, Engine.TEXTURETYPE_F
 
 > **updateRenderTargetTextureSampleCount**(`rtWrapper`, `samples`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts#L23)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.renderTarget.types.ts#L23)
 
 Updates the sample count of a render target texture
 
@@ -11940,7 +11995,7 @@ https://doc.babylonjs.com/setup/support/webGL2#multisample-render-targets
 
 > **updateRenderTargetTextureSampleCount**(`rtWrapper`, `samples`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts#L23)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.renderTarget.types.ts#L23)
 
 Updates the sample count of a render target texture
 
@@ -11974,11 +12029,64 @@ https://doc.babylonjs.com/setup/support/webGL2#multisample-render-targets
 
 ***
 
+### updateTextureArrayLayerFromImageSource()
+
+> **updateTextureArrayLayerFromImageSource**(`texture`, `source`, `layer`, `invertY?`, `premultiplyAlpha?`): `void`
+
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.texture2DArrayImageSource.types.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.texture2DArrayImageSource.types.ts#L21)
+
+Uploads an image source (ImageBitmap, canvas, video, image element...) into a single layer of a 2D array texture.
+Unlike updateRawTexture2DArray, which uploads raw bytes, this uploads a decoded image source directly.
+This is a side-effect engine extension: import "core/Engines/Extensions/engine.texture2DArrayImageSource"
+(or the WebGPU counterpart) to make it available on the tree-shakeable engine path.
+
+#### Parameters
+
+##### texture
+
+[`InternalTexture`](InternalTexture.md)
+
+defines the 2D array texture to update
+
+##### source
+
+[`ImageSource`](../type-aliases/ImageSource.md)
+
+defines the image source to upload
+
+##### layer
+
+`number`
+
+defines the array layer (z index) to upload into
+
+##### invertY?
+
+`boolean`
+
+defines if the source must be stored with the Y axis inverted (false by default)
+
+##### premultiplyAlpha?
+
+`boolean`
+
+defines if the source alpha must be premultiplied (false by default)
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`AbstractEngine`](AbstractEngine.md).[`updateTextureArrayLayerFromImageSource`](AbstractEngine.md#updatetexturearraylayerfromimagesource)
+
+***
+
 ### updateTextureData()
 
 > **updateTextureData**(`texture`, `imageData`, `xOffset`, `yOffset`, `width`, `height`, `faceIndex?`, `lod?`, `generateMipMaps?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3542](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3542)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3531](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3531)
 
 Update a portion of an internal texture
 
@@ -12048,7 +12156,7 @@ defines whether to generate mipmaps or not
 
 > **updateTextureDimensions**(`texture`, `width`, `height`, `depth?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3336](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3336)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3325)
 
 Update the dimensions of a texture
 
@@ -12092,7 +12200,7 @@ new depth of the texture
 
 > **updateTextureSamplingMode**(`samplingMode`, `texture`, `generateMipMaps?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3312)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3301](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3301)
 
 Update the sampling mode of a given texture
 
@@ -12130,7 +12238,7 @@ defines whether to generate mipmaps for the texture
 
 > **updateTextureWrappingMode**(`texture`, `wrapU`, `wrapV?`, `wrapR?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:3345](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L3345)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:3334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L3334)
 
 Update the sampling mode of a given texture
 
@@ -12174,7 +12282,7 @@ defines the texture wrap mode of the r coordinates
 
 > **updateUniformBuffer**(`uniformBuffer`, `elements`, `offset?`, `count?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L33)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.uniformBuffer.types.ts#L33)
 
 Update an existing uniform buffer
 
@@ -12224,7 +12332,7 @@ https://doc.babylonjs.com/setup/support/webGL2#uniform-buffer-objets
 
 > **updateVideoTexture**(`texture`, `video`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/Extensions/engine.videoTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/Extensions/engine.videoTexture.types.ts#L13)
+Defined in: [packages/dev/core/src/Engines/Extensions/engine.videoTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/Extensions/engine.videoTexture.types.ts#L13)
 
 Update a video texture
 
@@ -12260,7 +12368,7 @@ defines if data must be stored with Y axis inverted
 
 > **updateVideoTexture**(`texture`, `video`, `invertY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/WebGPU/Extensions/engine.videoTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/WebGPU/Extensions/engine.videoTexture.types.ts#L13)
+Defined in: [packages/dev/core/src/Engines/WebGPU/Extensions/engine.videoTexture.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/Extensions/engine.videoTexture.types.ts#L13)
 
 Update a video texture
 
@@ -12298,7 +12406,7 @@ defines if data must be stored with Y axis inverted
 
 > **wipeCaches**(`bruteForce?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:2781](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L2781)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:2770](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L2770)
 
 Force the entire cache to be cleared
 You should not have to use this function unless your engine needs to share the webGL context with another engine
@@ -12325,7 +12433,7 @@ defines a boolean to force clearing ALL caches (including stencil, detoh and alp
 
 > `static` **DefaultLoadingScreenFactory**(`canvas`): [`ILoadingScreen`](../interfaces/ILoadingScreen.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2827](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2827)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2851](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2851)
 
 Method called to create the default loading screen.
 This can be overridden in your own app.
@@ -12352,7 +12460,7 @@ The rendering canvas element
 
 > `static` **isSupported**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/thinEngine.pure.ts:4673](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/thinEngine.pure.ts#L4673)
+Defined in: [packages/dev/core/src/Engines/thinEngine.pure.ts:4662](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinEngine.pure.ts#L4662)
 
 Gets a boolean indicating if the engine can be instantiated (ie. if a webGL context can be found)
 
@@ -12368,7 +12476,7 @@ true if the engine can be created
 
 > `static` **MarkAllMaterialsAsDirty**(`flag`, `predicate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/abstractEngine.pure.ts:2861](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2861)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:2885](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L2885)
 
 Will flag all materials in all scenes in all engines as dirty to trigger new shader compilation
 

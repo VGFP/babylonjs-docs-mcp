@@ -6,7 +6,7 @@
 
 # Interface: ICullable
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L35)
+Defined in: [packages/dev/core/src/Culling/boundingInfo.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/boundingInfo.ts#L35)
 
 Interface for cullable objects
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/materials_in
 
 > **isCompletelyInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L48)
+Defined in: [packages/dev/core/src/Culling/boundingInfo.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/boundingInfo.ts#L48)
 
 Checks if a cullable object (mesh...) is in the camera frustum
 Unlike isInFrustum this checks the full bounding box
@@ -45,7 +45,7 @@ true if the object is in frustum otherwise false
 
 > **isInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/boundingInfo.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/boundingInfo.ts#L41)
+Defined in: [packages/dev/core/src/Culling/boundingInfo.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/boundingInfo.ts#L41)
 
 Checks if the object or part of the object is in the frustum
 

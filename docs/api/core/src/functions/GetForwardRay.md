@@ -8,7 +8,7 @@
 
 > **GetForwardRay**(`camera`, `length?`, `transform?`, `origin?`): [`Ray`](../classes/Ray.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L1223)
+Defined in: [packages/dev/core/src/Culling/ray.core.ts:1223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/ray.core.ts#L1223)
 
 Gets a ray in the forward direction from the camera.
 

@@ -6,7 +6,7 @@
 
 # Enumeration: NodeGeometryConnectionPointCompatibilityStates
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L11)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L11)
 
 Enum used to define the compatibility state between two connection points
 
@@ -16,7 +16,7 @@ Enum used to define the compatibility state between two connection points
 
 > **Compatible**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L13)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L13)
 
 Points are compatibles
 
@@ -26,7 +26,7 @@ Points are compatibles
 
 > **HierarchyIssue**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L17)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L17)
 
 Points are incompatible because they are in the same hierarchy *
 
@@ -36,6 +36,6 @@ Points are incompatible because they are in the same hierarchy *
 
 > **TypeIncompatible**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L15)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBlockConnectionPoint.ts#L15)
 
 Points are incompatible because of their types

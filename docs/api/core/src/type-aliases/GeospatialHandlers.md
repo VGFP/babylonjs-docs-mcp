@@ -8,7 +8,7 @@
 
 > **GeospatialHandlers** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L39)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L39)
 
 Handler shape for geospatial camera interactions.
 Property names are the canonical interaction type strings used in inputMap entries.
@@ -20,7 +20,7 @@ Single-method handlers are plain functions; multi-method handlers (pan) are obje
 
 > **pan**: [`GeospatialPanHandler`](GeospatialPanHandler.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L41)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L41)
 
 Handler for pan (globe drag) interactions — object because it needs start/update/stop lifecycle
 
@@ -30,7 +30,7 @@ Handler for pan (globe drag) interactions — object because it needs start/upda
 
 > **rotate**: (`yaw`, `pitch`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L43)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L43)
 
 Handler for rotate (tilt) interactions — accepts yaw (horizontal) and pitch (vertical) deltas
 
@@ -54,7 +54,7 @@ Handler for rotate (tilt) interactions — accepts yaw (horizontal) and pitch (v
 
 > **zoom**: (`delta`, `toCursor`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/geospatialCameraMovement.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L45)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L45)
 
 Handler for zoom interactions — accepts delta and whether to zoom toward cursor
 

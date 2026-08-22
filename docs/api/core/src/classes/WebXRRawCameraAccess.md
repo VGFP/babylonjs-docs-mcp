@@ -6,7 +6,7 @@
 
 # Class: WebXRRawCameraAccess
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L28)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L28)
 
 **`Since`**
 
@@ -27,7 +27,7 @@ https://immersive-web.github.io/raw-camera-access/
 
 > **new WebXRRawCameraAccess**(`_xrSessionManager`, `options?`): `WebXRRawCameraAccess`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L82)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L82)
 
 Creates a new instance of the feature
 
@@ -59,7 +59,7 @@ options for the Feature
 
 > **cameraIntrinsics**: `object`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L45)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L45)
 
 If needed, this array will contain the camera's intrinsics
 You can use this data to convert from camera space to screen space and vice versa
@@ -106,7 +106,7 @@ You can use this data to convert from camera space to screen space and vice vers
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -120,7 +120,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -134,7 +134,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -148,7 +148,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -162,7 +162,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -176,7 +176,7 @@ Observers registered here will be executed when the feature is detached
 
 > **onTexturesUpdatedObservable**: [`Observable`](Observable.md)\<[`BaseTexture`](BaseTexture.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L60)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L60)
 
 An observable that will notify when the camera's textures are updated
 
@@ -186,7 +186,7 @@ An observable that will notify when the camera's textures are updated
 
 > `readonly` **options**: [`IWebXRRawCameraAccessOptions`](../interfaces/IWebXRRawCameraAccessOptions.md) = `{}`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L84)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L84)
 
 options for the Feature
 
@@ -196,7 +196,7 @@ options for the Feature
 
 > **texturesData**: [`BaseTexture`](BaseTexture.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L35)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L35)
 
 This is an array of camera views
 Note that mostly the array will contain a single view
@@ -208,7 +208,7 @@ If you want to know the order of the views, use the `viewIndex` array
 
 > **viewIndex**: `string`[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L39)
 
 If needed, this array will contain the eye definition of each texture in `texturesArray`
 
@@ -218,7 +218,7 @@ If needed, this array will contain the eye definition of each texture in `textur
 
 > `readonly` `static` **Name**: `"xr-raw-camera-access"` = `WebXRFeatureName.RAW_CAMERA_ACCESS`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L68)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L68)
 
 The module's name
 
@@ -228,7 +228,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L75)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L75)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -242,7 +242,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -264,7 +264,7 @@ Is this feature attached
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -276,7 +276,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -302,7 +302,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(`force?`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L90)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L90)
 
 attach this feature
 
@@ -330,7 +330,7 @@ true if successful, false is failed or already attached
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L101)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L111)
 
 detach this feature.
 
@@ -350,7 +350,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L123)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L133)
 
 Dispose this feature and all of the resources attached
 
@@ -368,7 +368,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

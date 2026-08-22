@@ -6,7 +6,7 @@
 
 # Interface: IObserver
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L75)
+Defined in: [packages/dev/core/src/Misc/observable.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.pure.ts#L75)
 
 Represent an observer registered to a given IObservable object.
 
@@ -16,7 +16,7 @@ Represent an observer registered to a given IObservable object.
 
 > **remove**(`defer?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/observable.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/observable.pure.ts#L80)
+Defined in: [packages/dev/core/src/Misc/observable.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/observable.pure.ts#L80)
 
 Remove the observer from its observable
 

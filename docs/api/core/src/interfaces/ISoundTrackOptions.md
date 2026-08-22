@@ -6,7 +6,7 @@
 
 # Interface: ISoundTrackOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/soundTrack.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/soundTrack.ts#L11)
+Defined in: [packages/dev/core/src/Audio/soundTrack.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/soundTrack.ts#L11)
 
 Options allowed during the creation of a sound track.
 
@@ -16,7 +16,7 @@ Options allowed during the creation of a sound track.
 
 > `optional` **mainTrack?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/soundTrack.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/soundTrack.ts#L19)
+Defined in: [packages/dev/core/src/Audio/soundTrack.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/soundTrack.ts#L19)
 
 Define if the sound track is the main sound track of the scene
 
@@ -26,6 +26,6 @@ Define if the sound track is the main sound track of the scene
 
 > `optional` **volume?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Audio/soundTrack.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Audio/soundTrack.ts#L15)
+Defined in: [packages/dev/core/src/Audio/soundTrack.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/soundTrack.ts#L15)
 
 The volume the sound track should take during creation

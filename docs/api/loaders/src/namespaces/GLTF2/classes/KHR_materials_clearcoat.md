@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_clearcoat
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.ts#L27)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.pure.ts#L16)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_clearcoat/README.md)
 [Playground Sample](https://www.babylonjs-playground.com/frame.html#7F7PN6#8)
@@ -21,7 +21,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.ts#L36)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.pure.ts#L25)
 
 Defines whether this extension is enabled.
 
@@ -35,7 +35,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_materials_clearcoat"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.ts#L31)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.pure.ts#L20)
 
 The name of this extension.
 
@@ -49,7 +49,7 @@ The name of this extension.
 
 > **order**: `number` = `190`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.ts#L41)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_clearcoat.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_clearcoat.pure.ts#L30)
 
 Defines a number that determines the order the extensions are applied.
 

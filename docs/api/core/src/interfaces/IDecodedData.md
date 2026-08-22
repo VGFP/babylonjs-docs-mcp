@@ -6,7 +6,7 @@
 
 # Interface: IDecodedData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L122)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L124)
 
 Result of the KTX2 decode function
 
@@ -16,7 +16,7 @@ Result of the KTX2 decode function
 
 > `optional` **errors?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:163](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L163)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L171)
 
 The errors (if any) encountered during the decoding process
 
@@ -26,7 +26,7 @@ The errors (if any) encountered during the decoding process
 
 > **hasAlpha**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L153)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L161)
 
 Whether the texture has an alpha channel or not
 
@@ -36,7 +36,7 @@ Whether the texture has an alpha channel or not
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L131)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L133)
 
 Height of the texture
 
@@ -46,9 +46,19 @@ Height of the texture
 
 > **isInGammaSpace**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L148)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L156)
 
 Whether the texture data is in gamma space or not
+
+***
+
+### layerCount
+
+> **layerCount**: `number`
+
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L151)
+
+Number of array layers of the texture. 1 for a regular (non array) texture
 
 ***
 
@@ -56,10 +66,11 @@ Whether the texture data is in gamma space or not
 
 > **mipmaps**: [`IMipmap`](IMipmap.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L143)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L146)
 
 List of mipmap levels.
 The first element is the base level, the last element is the smallest mipmap level (if more than one mipmap level is present)
+For array textures (layerCount greater than 1), each level contributes layerCount consecutive entries, ordered by layer.
 
 ***
 
@@ -67,7 +78,7 @@ The first element is the base level, the last element is the smallest mipmap lev
 
 > **transcodedFormat**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L137)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L139)
 
 The format to use when creating the texture at the engine level
 This corresponds to the engineFormat property of the leaf node of the decision tree
@@ -78,7 +89,7 @@ This corresponds to the engineFormat property of the leaf node of the decision t
 
 > **transcoderName**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L158)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L166)
 
 The name of the transcoder used to transcode the texture
 
@@ -88,6 +99,6 @@ The name of the transcoder used to transcode the texture
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L126)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L128)
 
 Width of the texture

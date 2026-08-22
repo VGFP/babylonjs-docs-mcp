@@ -8,7 +8,7 @@
 
 > `const` **MixamoAimChildOverrides**: `Partial`\<`Record`\<[`WebXRBodyJoint`](../enumerations/WebXRBodyJoint.md), [`WebXRBodyJoint`](../enumerations/WebXRBodyJoint.md)\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:800](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L800)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:760](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L760)
 
 Default aim-child overrides for Mixamo-rigged humanoids.
 

@@ -8,6 +8,6 @@
 
 > **GaussianSplattingStreamDebugLodSource** = `"optimal"` \| `"current"`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L76)
+Defined in: [packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/gaussianSplattingStream.ts#L85)
 
 Selects which LOD value drives the [GaussianSplattingStream](../classes/GaussianSplattingStream.md) debug wireframe colors.

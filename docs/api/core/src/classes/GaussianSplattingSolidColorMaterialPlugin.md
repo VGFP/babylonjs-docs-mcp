@@ -6,7 +6,7 @@
 
 # Class: GaussianSplattingSolidColorMaterialPlugin
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L21)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L21)
 
 Plugin for GaussianSplattingMaterial that replaces per-splat colors with a
 solid color per compound-mesh part. Each part index maps to a single Color3
@@ -22,7 +22,7 @@ value, which is looked up in a uniform array in the fragment shader.
 
 > **new GaussianSplattingSolidColorMaterialPlugin**(`material`, `partColors`, `maxPartCount?`): `GaussianSplattingSolidColorMaterialPlugin`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L47)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L56)
 
 Creates a new GaussianSplatSolidColorPlugin.
 
@@ -60,7 +60,7 @@ The maximum number of parts supported. This determines the size of the uniform a
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -70,23 +70,11 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 ***
 
-### isEnabled
-
-> **isEnabled**: `boolean` = `true`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L33)
-
-Whether the solid-color override is active. When false, splats
-render with their original per-splat colors.
-Toggled via a shader uniform so no recompilation is required.
-
-***
-
 ### markAllDefinesAsDirty
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -104,7 +92,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -118,7 +106,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -132,7 +120,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -146,7 +134,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -154,13 +142,47 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 [`MaterialPluginBase`](MaterialPluginBase.md).[`resolveIncludes`](MaterialPluginBase.md#resolveincludes)
 
+## Accessors
+
+### isEnabled
+
+#### Get Signature
+
+> **get** **isEnabled**(): `boolean`
+
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L32)
+
+Whether the solid-color override is active. When false, splats
+render with their original per-splat colors.
+Toggled via a shader uniform so no recompilation is required.
+
+##### Returns
+
+`boolean`
+
+#### Set Signature
+
+> **set** **isEnabled**(`value`): `void`
+
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L36)
+
+##### Parameters
+
+###### value
+
+`boolean`
+
+##### Returns
+
+`void`
+
 ## Methods
 
 ### addFallbacks()
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -200,7 +222,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L198)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L207)
 
 Binds the plugin uniforms each frame.
 
@@ -244,7 +266,7 @@ the submesh being rendered
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -268,7 +290,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -294,7 +316,7 @@ define the config where to copy the info
 
 > **dispose**(`_forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
 
 Disposes the resources of the material.
 
@@ -320,7 +342,7 @@ Forces the disposal of all textures.
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -346,7 +368,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`_activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
 
 Returns an array of the actively used textures.
 
@@ -372,7 +394,7 @@ Array of BaseTextures
 
 > **getAnimatables**(`_animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
 
 Returns the animatable textures.
 
@@ -398,7 +420,7 @@ Array of animatable textures.
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -436,7 +458,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L68)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L77)
 
 #### Returns
 
@@ -454,7 +476,7 @@ the class name
 
 > **getCustomCode**(`shaderType`, `shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L106)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L115)
 
 Returns custom shader code fragments to inject solid-color rendering.
 
@@ -488,7 +510,7 @@ null or a map of injection point names to code strings
 
 > **getSamplers**(`_samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
 
 Gets the samplers used by the plugin.
 
@@ -514,7 +536,7 @@ list that the sampler names should be added to.
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -540,7 +562,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L180)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L189)
 
 Registers the plugin uniforms with the engine so that
 the Effect can resolve their locations.
@@ -577,7 +599,7 @@ uniform descriptions
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -621,7 +643,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -641,7 +663,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`_texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
 
 Checks to see if a texture is used in the material.
 
@@ -669,7 +691,7 @@ Base texture to use.
 
 > **isCompatible**(`shaderLanguage`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L77)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L86)
 
 Indicates this plugin supports both GLSL and WGSL.
 
@@ -697,7 +719,7 @@ true for GLSL and WGSL
 
 > **isReadyForSubMesh**(`_defines`, `_scene`, `_engine`, `_subMesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L95)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L104)
 
 Always ready — no textures or async resources to wait on.
 
@@ -743,7 +765,7 @@ true
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -781,7 +803,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
 
 Sets the defines for the next rendering
 
@@ -819,7 +841,7 @@ the mesh being rendered
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
 
@@ -857,7 +879,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 
@@ -877,7 +899,7 @@ Serializes this plugin configuration.
 
 > **updatePartColors**(`partColors`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L59)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingSolidColorMaterialPlugin.pure.ts#L68)
 
 Updates the part colors dynamically.
 

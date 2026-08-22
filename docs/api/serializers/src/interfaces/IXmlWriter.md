@@ -6,7 +6,7 @@
 
 # Interface: IXmlWriter
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:5](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L5)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:5](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L5)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **count**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L12)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L12)
 
 ## Methods
 
@@ -22,7 +22,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **clear**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L14)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L14)
 
 #### Returns
 
@@ -34,7 +34,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.buil
 
 > **write**(...`data`): `IXmlWriter`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L10)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L10)
 
 #### Parameters
 

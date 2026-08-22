@@ -6,7 +6,7 @@
 
 # Interface: I3mfRGBAColor
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L31)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L31)
 
 interface used to abstact rgb colors from any framework.
 
@@ -16,7 +16,7 @@ interface used to abstact rgb colors from any framework.
 
 > `optional` **a?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L47)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L47)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.ty
 
 > **b**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L43)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L43)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.ty
 
 > **g**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L39)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L39)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.ty
 
 > **r**: `number`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L35)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.types.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.types.ts#L35)

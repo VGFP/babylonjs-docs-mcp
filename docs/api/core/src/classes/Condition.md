@@ -6,7 +6,7 @@
 
 # Class: Condition
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L11)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L11)
 
 A Condition applied to an Action
 
@@ -22,7 +22,7 @@ A Condition applied to an Action
 
 > **new Condition**(`actionManager`): `Condition`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L32)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L32)
 
 Creates a new Condition
 
@@ -44,7 +44,7 @@ the manager of the action the condition is applied to
 
 > **isValid**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L40)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L40)
 
 Check if the current condition is valid
 
@@ -60,7 +60,7 @@ a boolean
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L63)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L63)
 
 Serialize placeholder for child classes
 

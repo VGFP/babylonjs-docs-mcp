@@ -6,7 +6,7 @@
 
 # Interface: IGLTFValidationConfiguration
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFValidation.ts#L83)
+Defined in: [packages/dev/loaders/src/glTF/glTFValidation.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFValidation.ts#L83)
 
 Configuration for glTF validation
 
@@ -16,6 +16,6 @@ Configuration for glTF validation
 
 > **url**: `string`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFValidation.ts:87](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFValidation.ts#L87)
+Defined in: [packages/dev/loaders/src/glTF/glTFValidation.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFValidation.ts#L87)
 
 The url of the glTF validator.

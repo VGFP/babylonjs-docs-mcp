@@ -8,7 +8,7 @@
 
 > **InvertMatrixToArray**(`source`, `target`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts#L223)
+Defined in: [packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts#L223)
 
 Inverts the given matrix and stores the result in the target array
 

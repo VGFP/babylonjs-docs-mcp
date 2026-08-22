@@ -6,7 +6,7 @@
 
 # Interface: IWebXRRenderTargetTextureProvider
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L15)
+Defined in: [packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L13)
 
 An interface for objects that provide render target textures for XR rendering.
 
@@ -20,7 +20,7 @@ An interface for objects that provide render target textures for XR rendering.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/scene.pure.ts#L122)
+Defined in: [packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 
@@ -38,7 +38,7 @@ Releases all held resources
 
 > **getRenderTargetTextureForEye**(`eye`): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](../classes/RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L29)
+Defined in: [packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L27)
 
 Gets the correct render target texture to be rendered this frame for this eye
 
@@ -62,7 +62,7 @@ the render target for the specified eye or null if not available
 
 > **getRenderTargetTextureForView**(`view`): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](../classes/RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L35)
+Defined in: [packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L33)
 
 Gets the correct render target texture to be rendered this frame for this view
 
@@ -86,7 +86,7 @@ the render target for the specified view or null if not available
 
 > **trySetViewportForView**(`viewport`, `view`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L23)
+Defined in: [packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRRenderTargetTextureProvider.ts#L21)
 
 Attempts to set the framebuffer-size-normalized viewport to be rendered this frame for this view.
 In the event of a failure, the supplied viewport is not updated.

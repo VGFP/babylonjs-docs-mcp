@@ -8,7 +8,7 @@
 
 > **SSAO2RenderingPipelineParse**(`source`, `scene`, `rootUrl`): [`SSAO2RenderingPipeline`](../classes/SSAO2RenderingPipeline.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssao2RenderingPipeline.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssao2RenderingPipeline.pure.ts#L623)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssao2RenderingPipeline.pure.ts:625](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssao2RenderingPipeline.pure.ts#L625)
 
 Parse the serialized pipeline
 

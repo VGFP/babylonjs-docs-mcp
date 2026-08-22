@@ -6,7 +6,7 @@
 
 # Enumeration: BodyPart
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L435)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L435)
 
 Logical body parts for convenient grouping of joints.
 
@@ -16,7 +16,7 @@ Logical body parts for convenient grouping of joints.
 
 > **LEFT\_ARM**: `"left-arm"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L439)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L439)
 
 Left arm (shoulder through wrist twist)
 
@@ -26,7 +26,7 @@ Left arm (shoulder through wrist twist)
 
 > **LEFT\_HAND**: `"left-hand"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:443](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L443)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:443](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L443)
 
 Left hand (palm through finger tips)
 
@@ -36,7 +36,7 @@ Left hand (palm through finger tips)
 
 > **LEFT\_LEG**: `"left-leg"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L447)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L447)
 
 Left leg (upper leg through foot ball)
 
@@ -46,7 +46,7 @@ Left leg (upper leg through foot ball)
 
 > **RIGHT\_ARM**: `"right-arm"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:441](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L441)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:441](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L441)
 
 Right arm (shoulder through wrist twist)
 
@@ -56,7 +56,7 @@ Right arm (shoulder through wrist twist)
 
 > **RIGHT\_HAND**: `"right-hand"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L445)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:445](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L445)
 
 Right hand (palm through finger tips)
 
@@ -66,7 +66,7 @@ Right hand (palm through finger tips)
 
 > **RIGHT\_LEG**: `"right-leg"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L449)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L449)
 
 Right leg (upper leg through foot ball)
 
@@ -76,6 +76,6 @@ Right leg (upper leg through foot ball)
 
 > **TORSO**: `"torso"`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L437)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L437)
 
 Torso / spine (hips through head)

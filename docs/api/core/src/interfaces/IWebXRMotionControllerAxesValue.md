@@ -6,7 +6,7 @@
 
 # Interface: IWebXRMotionControllerAxesValue
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L8)
+Defined in: [packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L8)
 
 X-Y values for axes in WebXR
 
@@ -16,7 +16,7 @@ X-Y values for axes in WebXR
 
 > **x**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L12)
+Defined in: [packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L12)
 
 The value of the x axis
 
@@ -26,6 +26,6 @@ The value of the x axis
 
 > **y**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L16)
+Defined in: [packages/dev/core/src/XR/motionController/webXRControllerComponent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRControllerComponent.ts#L16)
 
 The value of the y-axis

@@ -6,7 +6,7 @@
 
 # Class: ReadFileError
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L65)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L67)
 
 ## Ignore
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:65](h
 
 > **new ReadFileError**(`message`, `file`): `ReadFileError`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L71)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L73)
 
 Creates a new ReadFileError
 
@@ -52,7 +52,7 @@ defines the optional file
 
 > **errorCode**: [`ErrorCodesType`](../type-aliases/ErrorCodesType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L63)
+Defined in: [packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L63)
 
 The error code
 
@@ -66,7 +66,7 @@ The error code
 
 > **file**: `File`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L73)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L75)
 
 defines the optional file
 
@@ -76,7 +76,7 @@ defines the optional file
 
 > `optional` **innerError?**: `Error`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L68)
+Defined in: [packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L68)
 
 The error that caused this outer error
 

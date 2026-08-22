@@ -6,7 +6,7 @@
 
 # Enumeration: TrigonometryBlockOperations
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L15)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L15)
 
 Operations supported by the Trigonometry block
 
@@ -16,7 +16,7 @@ Operations supported by the Trigonometry block
 
 > **Abs**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L21)
 
 Abs
 
@@ -26,7 +26,7 @@ Abs
 
 > **ArcCos**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L41)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L41)
 
 Arc cosinus
 
@@ -36,7 +36,7 @@ Arc cosinus
 
 > **ArcSin**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L43)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L43)
 
 Arc sinus
 
@@ -46,7 +46,7 @@ Arc sinus
 
 > **ArcTan**: `11`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L39)
 
 Arc tangent
 
@@ -56,7 +56,7 @@ Arc tangent
 
 > **Ceiling**: `7`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L31)
 
 Ceiling
 
@@ -66,7 +66,7 @@ Ceiling
 
 > **Cos**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L17)
 
 Cos
 
@@ -76,7 +76,7 @@ Cos
 
 > **Degrees**: `17`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L51)
 
 To degrees (from radians)
 
@@ -86,7 +86,7 @@ To degrees (from radians)
 
 > **Exp**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L23)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L23)
 
 Exp
 
@@ -96,7 +96,7 @@ Exp
 
 > **Exp2**: `4`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L25)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L25)
 
 Exp2
 
@@ -106,7 +106,7 @@ Exp2
 
 > **Floor**: `6`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L29)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L29)
 
 Floor
 
@@ -116,7 +116,7 @@ Floor
 
 > **Fract**: `14`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L45)
 
 Fraction
 
@@ -126,7 +126,7 @@ Fraction
 
 > **Log**: `9`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L35)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L35)
 
 Log
 
@@ -136,7 +136,7 @@ Log
 
 > **Radians**: `16`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L49)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L49)
 
 To radians (from degrees)
 
@@ -146,7 +146,7 @@ To radians (from degrees)
 
 > **Round**: `5`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L27)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L27)
 
 Round
 
@@ -156,7 +156,7 @@ Round
 
 > **Set**: `18`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L53)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L53)
 
 To Set a = b
 
@@ -166,7 +166,7 @@ To Set a = b
 
 > **Sign**: `15`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L47)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L47)
 
 Sign
 
@@ -176,7 +176,7 @@ Sign
 
 > **Sin**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L19)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L19)
 
 Sin
 
@@ -186,7 +186,7 @@ Sin
 
 > **Sqrt**: `8`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L33)
 
 Square root
 
@@ -196,6 +196,6 @@ Square root
 
 > **Tan**: `10`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/trigonometryBlock.pure.ts#L37)
 
 Tangent

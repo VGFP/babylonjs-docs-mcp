@@ -6,7 +6,7 @@
 
 # Class: SelectionOutlineLayer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L38)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L38)
 
 The selection outline layer Helps adding a outline effect around a mesh.
 
@@ -23,7 +23,7 @@ outlined meshes to your scene.
 
 > **new SelectionOutlineLayer**(`name`, `scene?`, `options?`): `SelectionOutlineLayer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L119)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L119)
 
 Instantiates a new selection outline Layer and references it to the scene..
 
@@ -61,7 +61,7 @@ Sets of none mandatory options to use with the layer (see ISelectionOutlineLayer
 
 > **onAfterComposeObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L228)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L228)
 
 An event triggered when the generated texture has been merged in the scene.
 
@@ -75,7 +75,7 @@ An event triggered when the generated texture has been merged in the scene.
 
 > **onAfterRenderMeshToEffect**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L223)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L223)
 
 An event triggered after the mesh has been rendered into the effect render target.
 
@@ -89,7 +89,7 @@ An event triggered after the mesh has been rendered into the effect render targe
 
 > **onBeforeComposeObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L213)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:213](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L213)
 
 An event triggered when the generated texture is being merged in the scene.
 
@@ -103,7 +103,7 @@ An event triggered when the generated texture is being merged in the scene.
 
 > **onBeforeRenderMainTextureObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L208)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L208)
 
 An event triggered when the effect layer is about rendering the main texture with the glowy parts.
 
@@ -117,7 +117,7 @@ An event triggered when the effect layer is about rendering the main texture wit
 
 > **onBeforeRenderMeshToEffect**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L218)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L218)
 
 An event triggered when the mesh is rendered into the effect render target.
 
@@ -131,7 +131,7 @@ An event triggered when the mesh is rendered into the effect render target.
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L203)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L203)
 
 An event triggered when the effect layer has been disposed.
 
@@ -145,7 +145,7 @@ An event triggered when the effect layer has been disposed.
 
 > **onSizeChangedObservable**: [`Observable`](Observable.md)\<[`EffectLayer`](EffectLayer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:233](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L233)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:233](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L233)
 
 An event triggered when the effect layer changes its size.
 
@@ -159,7 +159,7 @@ An event triggered when the effect layer changes its size.
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L131)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L131)
 
 The unique id of the layer
 
@@ -175,7 +175,7 @@ The unique id of the layer
 
 > **get** **camera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L173)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L173)
 
 Gets the camera attached to the layer.
 
@@ -195,7 +195,7 @@ Gets the camera attached to the layer.
 
 > **get** **disableBoundingBoxesFromEffectLayer**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L192)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L192)
 
 Specifies if the bounding boxes should be rendered normally or if they should undergo the effect of the layer
 
@@ -207,7 +207,7 @@ Specifies if the bounding boxes should be rendered normally or if they should un
 
 > **set** **disableBoundingBoxesFromEffectLayer**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L196)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L196)
 
 ##### Parameters
 
@@ -231,7 +231,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:196](h
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L161)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L161)
 
 Specifies whether the highlight layer is enabled or not.
 
@@ -243,7 +243,7 @@ Specifies whether the highlight layer is enabled or not.
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L165)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L165)
 
 ##### Parameters
 
@@ -267,7 +267,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:165](h
 
 > **get** **mainTexture**(): [`RenderTargetTexture`](RenderTargetTexture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L238)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L238)
 
 Gets the main texture where the effect is rendered
 
@@ -287,7 +287,7 @@ Gets the main texture where the effect is rendered
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L137)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L137)
 
 The name of the layer
 
@@ -299,7 +299,7 @@ The name of the layer
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L141)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L141)
 
 ##### Parameters
 
@@ -323,7 +323,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:141](h
 
 > **get** **neutralColor**(): [`Color4`](Color4.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L149)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L149)
 
 The clear color of the texture used to generate the glow map.
 
@@ -335,7 +335,7 @@ The clear color of the texture used to generate the glow map.
 
 > **set** **neutralColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:153](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L153)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L153)
 
 ##### Parameters
 
@@ -359,7 +359,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:153](h
 
 > **get** **occlusionStrength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L74)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L74)
 
 The strength of the occlusion effect (default: 0.8)
 
@@ -371,7 +371,7 @@ The strength of the occlusion effect (default: 0.8)
 
 > **set** **occlusionStrength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L78)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L78)
 
 ##### Parameters
 
@@ -391,7 +391,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer
 
 > **get** **occlusionThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L86)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L86)
 
 The occlusion threshold (default: 0.01)
 
@@ -403,7 +403,7 @@ The occlusion threshold (default: 0.01)
 
 > **set** **occlusionThreshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L90)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L90)
 
 ##### Parameters
 
@@ -423,7 +423,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer
 
 > **get** **outlineColor**(): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L50)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L50)
 
 The outline color (default (1, 0.5, 0))
 
@@ -435,7 +435,7 @@ The outline color (default (1, 0.5, 0))
 
 > **set** **outlineColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L54)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L54)
 
 ##### Parameters
 
@@ -455,7 +455,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer
 
 > **get** **outlineThickness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L62)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L62)
 
 The thickness of the edges (default: 2.0)
 
@@ -467,7 +467,7 @@ The thickness of the edges (default: 2.0)
 
 > **set** **outlineThickness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L66)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L66)
 
 ##### Parameters
 
@@ -487,7 +487,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer
 
 > **get** **renderingGroupId**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:181](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L181)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L181)
 
 Gets the rendering group id the layer should render in.
 
@@ -499,7 +499,7 @@ Gets the rendering group id the layer should render in.
 
 > **set** **renderingGroupId**(`renderingGroupId`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L184)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L184)
 
 ##### Parameters
 
@@ -523,7 +523,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:184](h
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L249)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:249](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L249)
 
 Gets the shader language used in this material.
 
@@ -543,7 +543,7 @@ Gets the shader language used in this material.
 
 > **get** **useDepthOcclusion**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L99)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L99)
 
 Whether to use depth when drawing selection outlines.
 Disable this to avoid depth renderer usage; selected outlines will not be clipped by scene or selected geometry.
@@ -556,7 +556,7 @@ Disable this to avoid depth renderer usage; selected outlines will not be clippe
 
 > **set** **useDepthOcclusion**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L103)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L103)
 
 ##### Parameters
 
@@ -576,7 +576,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer
 
 > **get** `static` **EffectName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L42)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L42)
 
 Effect Name of the selection outline layer.
 
@@ -592,7 +592,7 @@ Effect Name of the selection outline layer.
 
 > **get** `static` **ForceGLSL**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L120)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L120)
 
 Force all the effect layers to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -605,7 +605,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > **set** `static` **ForceGLSL**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L124)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L124)
 
 ##### Parameters
 
@@ -627,7 +627,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:124](h
 
 > **addSelection**(`meshOrGroup`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L340)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L340)
 
 Adds mesh or group of mesh to the current selection
 
@@ -651,7 +651,7 @@ Meshes to add to the selection
 
 > **clearSelection**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L329)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L329)
 
 Remove all the meshes currently referenced in the selection outline layer
 
@@ -665,7 +665,7 @@ Remove all the meshes currently referenced in the selection outline layer
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:655](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L655)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:655](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L655)
 
 Dispose the highlight layer and free resources.
 
@@ -683,7 +683,7 @@ Dispose the highlight layer and free resources.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L358)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L358)
 
 Gets the class name of the effect layer
 
@@ -703,7 +703,7 @@ the string with the class name of the effect layer
 
 > **getEffectIntensity**(`mesh`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L273)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L273)
 
 Gets the intensity of the effect for a specific mesh.
 
@@ -731,7 +731,7 @@ The intensity of the effect for the mesh
 
 > **getEffectName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L185)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L185)
 
 Get the effect name of the layer.
 
@@ -751,7 +751,7 @@ The effect name
 
 > **hasMesh**(`mesh`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L322)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L322)
 
 Determine if a given mesh will be highlighted by the current SelectionOutlineLayer
 
@@ -779,7 +779,7 @@ true if the mesh will be highlighted by the current SelectionOutlineLayer
 
 > **isLayerReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L166)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L166)
 
 Checks if the layer is ready to render.
 When selections are active and depth occlusion is enabled, this also
@@ -801,7 +801,7 @@ true if the layer is ready
 
 > **isReady**(`subMesh`, `useInstances`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L260)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L260)
 
 Checks for the readiness of the element composing the layer.
 
@@ -835,7 +835,7 @@ true if ready otherwise, false
 
 > **needStencil**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L250)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L250)
 
 #### Returns
 
@@ -853,7 +853,7 @@ whether or not the layer needs stencil enabled during the mesh rendering.
 
 > **render**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:546](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L546)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:546](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L546)
 
 Renders the glowing part of the scene by blending the blurred glowing meshes on top of the rendered scene.
 
@@ -871,7 +871,7 @@ Renders the glowing part of the scene by blending the blurred glowing meshes on 
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:366](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L366)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:366](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L366)
 
 Serializes this SelectionOutline layer
 
@@ -891,7 +891,7 @@ a serialized SelectionOutline layer object
 
 > **setEffectIntensity**(`mesh`, `intensity`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L282)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L282)
 
 Sets the intensity of the effect for a specific mesh.
 
@@ -923,7 +923,7 @@ The intensity of the effect for the mesh
 
 > **setMaterialForRendering**(`mesh`, `material?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/effectLayer.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/effectLayer.ts#L264)
+Defined in: [packages/dev/core/src/Layers/effectLayer.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayer.ts#L264)
 
 Sets a specific material to be used to render a mesh/a list of meshes in the layer
 
@@ -955,7 +955,7 @@ material to use by the layer when rendering the mesh(es). If undefined is passed
 
 > **shouldRender**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L276)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L276)
 
 #### Returns
 
@@ -973,7 +973,7 @@ true if the layer contains information to display, otherwise false.
 
 > `static` **Parse**(`parsedSelectionOutlineLayer`, `scene`, `rootUrl`): `SelectionOutlineLayer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L408)
+Defined in: [packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/selectionOutlineLayer.pure.ts#L408)
 
 Creates a SelectionOutline layer from parsed SelectionOutline layer data
 

@@ -6,7 +6,7 @@
 
 # Enumeration: BooleanGeometryOperations
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L17)
 
 Operations supported by the boolean block
 
@@ -16,7 +16,7 @@ Operations supported by the boolean block
 
 > **Intersect**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L19)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L19)
 
 Intersect
 
@@ -26,7 +26,7 @@ Intersect
 
 > **Subtract**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L21)
 
 Subtract
 
@@ -36,6 +36,6 @@ Subtract
 
 > **Union**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L23)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/booleanGeometryBlock.pure.ts#L23)
 
 Union

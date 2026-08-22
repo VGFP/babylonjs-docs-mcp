@@ -6,7 +6,7 @@
 
 # Enumeration: Orientation
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:9](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L9)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L9)
 
 Defines potential orientation for back face culling
 
@@ -16,7 +16,7 @@ Defines potential orientation for back face culling
 
 > **CCW**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:15](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L15)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L15)
 
 Counter clockwise
 
@@ -26,6 +26,6 @@ Counter clockwise
 
 > **CW**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.path.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.path.ts#L13)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L13)
 
 Clockwise

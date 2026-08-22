@@ -6,7 +6,7 @@
 
 # Interface: EnvironmentTextureSpecularInfoV1
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/environmentTextureTools.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L131)
+Defined in: [packages/dev/core/src/Misc/environmentTextureTools.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L131)
 
 Defines the specular data enclosed in the file.
 This corresponds to the version 1 of the data.
@@ -17,7 +17,7 @@ This corresponds to the version 1 of the data.
 
 > **lodGenerationScale**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/environmentTextureTools.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L140)
+Defined in: [packages/dev/core/src/Misc/environmentTextureTools.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L140)
 
 Defines the scale applied to environment texture. This manages the range of LOD level used for IBL according to the roughness.
 
@@ -27,6 +27,6 @@ Defines the scale applied to environment texture. This manages the range of LOD 
 
 > **mipmaps**: `BufferImageData`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/environmentTextureTools.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L135)
+Defined in: [packages/dev/core/src/Misc/environmentTextureTools.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/environmentTextureTools.pure.ts#L135)
 
 This contains all the images data needed to reconstruct the cubemap.

@@ -8,7 +8,7 @@
 
 > **RequestFullscreen**(`element`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Engines/engine.common.ts:286](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Engines/engine.common.ts#L286)
+Defined in: [packages/dev/core/src/Engines/engine.common.ts:286](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/engine.common.ts#L286)
 
 Ask the browser to promote the current element to fullscreen rendering mode
 

@@ -6,7 +6,7 @@
 
 # Class: PredicateCondition
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L216)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L216)
 
 Defines a predicate condition as an extension of Condition
 
@@ -20,7 +20,7 @@ Defines a predicate condition as an extension of Condition
 
 > **new PredicateCondition**(`actionManager`, `predicate`): `PredicateCondition`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L228)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L228)
 
 Creates a new PredicateCondition
 
@@ -52,7 +52,7 @@ defines the predicate function used to validate the condition
 
 > **predicate**: () => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L231)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L231)
 
 defines the predicate function used to validate the condition
 
@@ -66,7 +66,7 @@ defines the predicate function used to validate the condition
 
 > **isValid**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L239)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L239)
 
 #### Returns
 
@@ -84,7 +84,7 @@ the validity of the predicate condition
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Actions/condition.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Actions/condition.pure.ts#L63)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L63)
 
 Serialize placeholder for child classes
 

@@ -6,7 +6,7 @@
 
 # Class: OBJExport
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/OBJ/objSerializer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/OBJ/objSerializer.ts#L12)
+Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/OBJ/objSerializer.ts#L12)
 
 Class for generating OBJ data from a Babylon scene.
 
@@ -24,9 +24,9 @@ Class for generating OBJ data from a Babylon scene.
 
 ### MTL()
 
-> `static` **MTL**(`mesh`): `string`
+> `static` **MTL**(`mesh`, `materialName?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/OBJ/objSerializer.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/OBJ/objSerializer.ts#L148)
+Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/OBJ/objSerializer.ts#L149)
 
 Exports the material(s) of a mesh in .MTL file format (text)
 
@@ -37,6 +37,12 @@ Exports the material(s) of a mesh in .MTL file format (text)
 [`Mesh`](../../../core/src/classes/Mesh.md)
 
 defines the mesh to extract the material from
+
+##### materialName?
+
+`string` = `"mat1"`
+
+defines the name of the material in the output (default is 'mat1')
 
 #### Returns
 
@@ -50,7 +56,7 @@ the mtl content
 
 > `static` **OBJ**(`meshes`, `materials?`, `matlibname?`, `globalposition?`): `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/OBJ/objSerializer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/OBJ/objSerializer.ts#L21)
+Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/OBJ/objSerializer.ts#L21)
 
 Exports the geometry of a Mesh array in .OBJ file format (text)
 

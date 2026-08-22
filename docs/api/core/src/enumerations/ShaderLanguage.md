@@ -6,7 +6,7 @@
 
 # Enumeration: ShaderLanguage
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderLanguage.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderLanguage.ts#L4)
+Defined in: [packages/dev/core/src/Materials/shaderLanguage.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderLanguage.ts#L4)
 
 Language of the shader code
 
@@ -16,7 +16,7 @@ Language of the shader code
 
 > **GLSL**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderLanguage.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderLanguage.ts#L6)
+Defined in: [packages/dev/core/src/Materials/shaderLanguage.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderLanguage.ts#L6)
 
 language is GLSL (used by WebGL)
 
@@ -26,6 +26,6 @@ language is GLSL (used by WebGL)
 
 > **WGSL**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/shaderLanguage.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/shaderLanguage.ts#L8)
+Defined in: [packages/dev/core/src/Materials/shaderLanguage.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/shaderLanguage.ts#L8)
 
 language is WGSL (used by WebGPU)

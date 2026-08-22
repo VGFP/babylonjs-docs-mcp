@@ -6,7 +6,7 @@
 
 # Enumeration: SourceTextureFormat
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:1](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L1)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:1](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L1)
 
 ## Enumeration Members
 
@@ -14,7 +14,17 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decod
 
 > **ETC1S**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:2](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L2)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:2](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L2)
+
+***
+
+### RGBA32
+
+> **RGBA32**: `2`
+
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L6)
+
+Uncompressed 8 bits per channel RGBA data, stored as-is in the container (no transcoding required)
 
 ***
 
@@ -22,4 +32,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decod
 
 > **UASTC4x4**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L4)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L4)

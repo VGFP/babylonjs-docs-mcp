@@ -6,7 +6,7 @@
 
 # Class: GaussianSplattingDebugger
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L35)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L35)
 
 Manages debug rendering options across a set of Gaussian splat meshes.
 Create one instance, add meshes via addMesh(), then set options to apply
@@ -50,7 +50,7 @@ gsDebugger.clearPartOptions(compoundMesh, 0);
 
 > **get** **clippingBox**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: [`Vector3`](Vector3.md); `min`: [`Vector3`](Vector3.md); \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L152)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L152)
 
 World-space axis-aligned clipping box. Splats outside are not rendered.
 Set to null to disable.
@@ -63,7 +63,7 @@ Set to null to disable.
 
 > **set** **clippingBox**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L155)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L155)
 
 ##### Parameters
 
@@ -83,7 +83,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **opacityCulling**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L166)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L166)
 
 Opacity culling range [0..1]. Splats outside this range are not rendered.
 Set to null to disable.
@@ -96,7 +96,7 @@ Set to null to disable.
 
 > **set** **opacityCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L169)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L169)
 
 ##### Parameters
 
@@ -116,7 +116,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **opacitySaturate**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L207)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L207)
 
 When true, replaces the Gaussian spatial falloff with a flat uniform opacity,
 showing each splat as a solid disk.
@@ -129,7 +129,7 @@ showing each splat as a solid disk.
 
 > **set** **opacitySaturate**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L210)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L210)
 
 ##### Parameters
 
@@ -149,7 +149,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **opacityScale**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L193)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L193)
 
 Scalar multiplier applied to every splat's opacity. 1.0 = no change.
 
@@ -161,7 +161,7 @@ Scalar multiplier applied to every splat's opacity. 1.0 = no change.
 
 > **set** **opacityScale**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L196)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L196)
 
 ##### Parameters
 
@@ -181,7 +181,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **shDc**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L218)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L218)
 
 Include the DC (base) color from colorsTexture. Default: true.
 
@@ -193,7 +193,7 @@ Include the DC (base) color from colorsTexture. Default: true.
 
 > **set** **shDc**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L221)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L221)
 
 ##### Parameters
 
@@ -213,7 +213,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **shOrder1**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L229)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L229)
 
 Include SH band 1 contribution. Default: true.
 
@@ -225,7 +225,7 @@ Include SH band 1 contribution. Default: true.
 
 > **set** **shOrder1**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L232)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L232)
 
 ##### Parameters
 
@@ -245,7 +245,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **shOrder2**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L240)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L240)
 
 Include SH band 2 contribution. Default: true.
 
@@ -257,7 +257,7 @@ Include SH band 2 contribution. Default: true.
 
 > **set** **shOrder2**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L243)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L243)
 
 ##### Parameters
 
@@ -277,7 +277,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **shOrder3**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L251)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L251)
 
 Include SH band 3 contribution. Default: true.
 
@@ -289,7 +289,7 @@ Include SH band 3 contribution. Default: true.
 
 > **set** **shOrder3**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L254)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L254)
 
 ##### Parameters
 
@@ -309,7 +309,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **shOrder4**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L262)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L262)
 
 Include SH band 4 contribution. Default: true.
 
@@ -321,7 +321,7 @@ Include SH band 4 contribution. Default: true.
 
 > **set** **shOrder4**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L265)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L265)
 
 ##### Parameters
 
@@ -341,7 +341,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **get** **sizeCulling**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L182)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L182)
 
 Size culling range. Size is pow(|det(Σ)|, 1/6) of the 3D covariance matrix,
 equal to the geometric mean of the principal radii. Splats outside this range are not rendered.
@@ -356,7 +356,7 @@ Set to null to disable.
 
 > **set** **sizeCulling**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L185)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L185)
 
 ##### Parameters
 
@@ -374,7 +374,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gau
 
 > **addMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L62)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L62)
 
 Adds a mesh to the debugger, attaching a debug plugin to its material.
 The mesh must already have a GaussianSplattingMaterial assigned (i.e., data
@@ -399,7 +399,7 @@ The mesh to register.
 
 > **clearPartOptions**(`mesh`, `partIndex`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L295)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L295)
 
 Clears all per-part debug overrides for a specific part, falling back to global settings.
 
@@ -427,7 +427,7 @@ The zero-based part index.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L109)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L109)
 
 Disposes all debug plugins and clears the mesh list.
 
@@ -441,7 +441,7 @@ Disposes all debug plugins and clears the mesh list.
 
 > **removeMesh**(`mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L92)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L92)
 
 Removes a mesh and disposes its debug plugin.
 
@@ -463,7 +463,7 @@ The mesh to unregister.
 
 > **setPartOptions**(`mesh`, `partIndex`, `options`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L282)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L282)
 
 Sets per-part debug overrides for a specific part of a compound mesh.
 The mesh must already be registered via addMesh(). Logs an error if the mesh
@@ -499,7 +499,7 @@ Partial set of debug options to override for this part.
 
 > `static` **GetSplatSizeRange**(`mesh`): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L129)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingDebugger.pure.ts#L129)
 
 Returns the min/max size range of splats in a mesh.
 Convenience wrapper for GaussianSplattingMeshBase.splatSizeRange.

@@ -6,7 +6,7 @@
 
 # Abstract Class: BaseError
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L7)
+Defined in: [packages/dev/core/src/Misc/error.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L7)
 
 Base error. Due to limitations of typedoc-check and missing documentation
 in lib.es5.d.ts, cannot extend Error directly for RuntimeError.
@@ -28,7 +28,7 @@ in lib.es5.d.ts, cannot extend Error directly for RuntimeError.
 
 > **new BaseError**(`message?`): `BaseError`
 
-Defined in: babylonjs-source/node\_modules/typescript/lib/lib.es5.d.ts:1080
+Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1080
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: babylonjs-source/node\_modules/typescript/lib/lib.es5.d.ts:1080
 
 > **new BaseError**(`message?`, `options?`): `BaseError`
 
-Defined in: babylonjs-source/node\_modules/typescript/lib/lib.es5.d.ts:1080
+Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1080
 
 #### Parameters
 

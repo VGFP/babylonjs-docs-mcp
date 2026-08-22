@@ -6,9 +6,9 @@
 
 # Function: serializeAsColorCurves()
 
-> **serializeAsColorCurves**(`sourceName?`): (`target`, `propertyKey`) => `void`
+> **serializeAsColorCurves**(`sourceName?`): (`_value`, `context`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.ts:78](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.ts#L78)
+Defined in: [packages/dev/core/src/Misc/decorators.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.ts#L95)
 
 ## Parameters
 
@@ -18,4 +18,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.ts:78](https
 
 ## Returns
 
-(`target`, `propertyKey`) => `void`
+(`_value`, `context`) => `void`

@@ -6,7 +6,7 @@
 
 # Class: EXT\_lights\_image\_based
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_image\_based.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_image_based.ts#L39)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_image\_based.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_image_based.pure.ts#L19)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_lights_image_based/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_image\_based.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_image_based.ts#L48)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_image\_based.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_image_based.pure.ts#L28)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"EXT_lights_image_based"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_image\_based.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_image_based.ts#L43)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_lights\_image\_based.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_lights_image_based.pure.ts#L23)
 
 The name of this extension.
 

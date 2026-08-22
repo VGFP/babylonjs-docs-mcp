@@ -8,7 +8,7 @@
 
 > **PercentToRange**(`percent`, `min`, `max`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:349](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.scalar.functions.ts#L349)
+Defined in: [packages/dev/core/src/Maths/math.scalar.functions.ts:349](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.scalar.functions.ts#L349)
 
 This function returns number that corresponds to the percentage in a given range.
 

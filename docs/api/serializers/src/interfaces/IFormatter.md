@@ -6,7 +6,9 @@
 
 # Interface: IFormatter\<T\>
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L35)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L62)
+
+Formats values for XML serialization.
 
 ## Type Parameters
 
@@ -20,7 +22,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 > **toString**(`value`): `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L36)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.interfaces.ts#L68)
+
+Converts a value to its XML string representation.
 
 #### Parameters
 
@@ -28,6 +32,10 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/xml/xml.inte
 
 `T`
 
+defines the value to format
+
 #### Returns
 
 `string`
+
+the XML string representation

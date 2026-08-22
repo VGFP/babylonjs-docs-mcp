@@ -8,7 +8,7 @@
 
 > **getMappingForDeclaration**(`declaration`, `returnNoOpIfNotAvailable?`): [`IGLTFToFlowGraphMapping`](../interfaces/IGLTFToFlowGraphMapping.md) \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L179)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L203)
 
 ## Parameters
 

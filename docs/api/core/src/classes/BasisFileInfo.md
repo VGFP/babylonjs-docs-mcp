@@ -6,7 +6,7 @@
 
 # Class: BasisFileInfo
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L18)
+Defined in: [packages/dev/core/src/Misc/basis.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/basis.pure.ts#L18)
 
 Info about the .basis files
 
@@ -26,7 +26,7 @@ Info about the .basis files
 
 > **hasAlpha**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L22)
+Defined in: [packages/dev/core/src/Misc/basis.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/basis.pure.ts#L22)
 
 If the file has alpha
 
@@ -36,7 +36,7 @@ If the file has alpha
 
 > **images**: `object`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/basis.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/basis.pure.ts#L26)
+Defined in: [packages/dev/core/src/Misc/basis.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/basis.pure.ts#L26)
 
 Info about each image of the basis file
 

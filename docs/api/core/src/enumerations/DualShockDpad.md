@@ -6,7 +6,7 @@
 
 # Enumeration: DualShockDpad
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L31)
+Defined in: [packages/dev/core/src/Gamepads/dualShockGamepad.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L31)
 
 Defines values for DualShock DPad
 
@@ -16,7 +16,7 @@ Defines values for DualShock DPad
 
 > **Down**: `13`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L35)
+Defined in: [packages/dev/core/src/Gamepads/dualShockGamepad.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L35)
 
 Down
 
@@ -26,7 +26,7 @@ Down
 
 > **Left**: `14`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L37)
+Defined in: [packages/dev/core/src/Gamepads/dualShockGamepad.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L37)
 
 Left
 
@@ -36,7 +36,7 @@ Left
 
 > **Right**: `15`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L39)
+Defined in: [packages/dev/core/src/Gamepads/dualShockGamepad.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L39)
 
 Right
 
@@ -46,6 +46,6 @@ Right
 
 > **Up**: `12`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Gamepads/dualShockGamepad.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L33)
+Defined in: [packages/dev/core/src/Gamepads/dualShockGamepad.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/dualShockGamepad.ts#L33)
 
 Up

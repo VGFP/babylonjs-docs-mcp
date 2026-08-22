@@ -6,7 +6,7 @@
 
 # Enumeration: GreasedLineRibbonAutoDirectionMode
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L42)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L42)
 
 Only with POINTS_MODE_PATHS.
 AUTO_DIRECTIONS_FROM_FIRST_SEGMENT sets the direction (slope) of the ribbon from the direction of the first line segment. Recommended.
@@ -21,7 +21,7 @@ AUTO_DIRECTIONS_NONE you have to set the direction (slope) manually. Recommended
 
 > **AUTO\_DIRECTIONS\_ENHANCED**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L45)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L45)
 
 ***
 
@@ -29,7 +29,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLi
 
 > **AUTO\_DIRECTIONS\_FACE\_TO**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L46)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L46)
 
 ***
 
@@ -37,7 +37,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLi
 
 > **AUTO\_DIRECTIONS\_FROM\_ALL\_SEGMENTS**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L44)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L44)
 
 ***
 
@@ -45,7 +45,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLi
 
 > **AUTO\_DIRECTIONS\_FROM\_FIRST\_SEGMENT**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L43)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L43)
 
 ***
 
@@ -53,4 +53,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLi
 
 > **AUTO\_DIRECTIONS\_NONE**: `99`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L47)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L47)

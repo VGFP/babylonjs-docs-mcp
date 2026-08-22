@@ -6,7 +6,7 @@
 
 # Enumeration: AnimatedInputBlockTypes
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L4)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L4)
 
 Enum defining the type of animations supported by InputBlock
 
@@ -16,7 +16,7 @@ Enum defining the type of animations supported by InputBlock
 
 > **MouseInfo**: `3`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:11](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L11)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L11)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/
 
 > **None**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L6)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L6)
 
 No animation
 
@@ -34,7 +34,7 @@ No animation
 
 > **RealTime**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L10)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L10)
 
 Time elapsed (in seconds) since the engine was initialized. Will only work for floats
 
@@ -44,6 +44,6 @@ Time elapsed (in seconds) since the engine was initialized. Will only work for f
 
 > **Time**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L8)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/Input/animatedInputBlockTypes.ts#L8)
 
 Time based animation (is incremented by 0.6 each second). Will only work for floats

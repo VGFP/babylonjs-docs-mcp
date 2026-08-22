@@ -8,7 +8,7 @@
 
 > **MultiPick**(`scene`, `x`, `y`, `predicate?`, `camera?`, `trianglePredicate?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](../classes/PickingInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:1182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L1182)
+Defined in: [packages/dev/core/src/Culling/ray.core.ts:1182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/ray.core.ts#L1182)
 
 Launch a ray to try to pick a mesh in the scene. A mesh triangle can be picked both from its front and back sides,
 irrespective of orientation.

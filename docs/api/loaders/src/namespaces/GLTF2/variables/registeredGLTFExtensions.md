@@ -8,6 +8,6 @@
 
 > `const` **registeredGLTFExtensions**: `ReadonlyMap`\<`string`, `Readonly`\<`IRegisteredGLTFExtension`\>\> = `RegisteredGLTFExtensions`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtensionRegistry.ts:19](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtensionRegistry.ts#L19)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderExtensionRegistry.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderExtensionRegistry.ts#L19)
 
 All currently registered glTF 2.0 loader extensions.

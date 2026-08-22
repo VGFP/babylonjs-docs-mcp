@@ -8,7 +8,7 @@
 
 > **AnimationGroupClipFrames**(`sourceAnimationGroup`, `fromFrame`, `toFrame`, `name?`, `dontCloneAnimations?`): [`AnimationGroup`](../classes/AnimationGroup.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L1230)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:1233](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L1233)
 
 Creates a new animation, keeping only the frames that are inside a given frame range
 

@@ -6,9 +6,9 @@
 
 # Function: serializeAsCameraReference()
 
-> **serializeAsCameraReference**(`sourceName?`): (`target`, `propertyKey`) => `void`
+> **serializeAsCameraReference**(`sourceName?`): (`_value`, `context`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.ts:103](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.ts#L103)
+Defined in: [packages/dev/core/src/Misc/decorators.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.ts#L124)
 
 Decorator used to define property that can be serialized as reference to a camera
 
@@ -24,4 +24,4 @@ defines the name of the property to decorate
 
 Property Decorator
 
-(`target`, `propertyKey`) => `void`
+(`_value`, `context`) => `void`

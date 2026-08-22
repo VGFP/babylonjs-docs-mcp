@@ -6,7 +6,7 @@
 
 # Class: DetailMapConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:36](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L36)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L36)
 
 Plugin that implements the detail map component of a material
 
@@ -25,7 +25,7 @@ Inspired from:
 
 > **new DetailMapConfiguration**(`material`, `addToPluginList?`): `DetailMapConfiguration`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:99](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L99)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L99)
 
 #### Parameters
 
@@ -51,7 +51,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMap
 
 > **bumpLevel**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L64)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L64)
 
 Defines how strong the bump effect from the detail map is
 Bigger values mean stronger effect
@@ -62,7 +62,7 @@ Bigger values mean stronger effect
 
 > **diffuseBlendLevel**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:50](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L50)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L50)
 
 Defines how strongly the detail diffuse/albedo channel is blended with the regular diffuse/albedo texture
 Bigger values mean stronger blending
@@ -73,7 +73,7 @@ Bigger values mean stronger blending
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -83,21 +83,11 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 ***
 
-### isEnabled
-
-> **isEnabled**: `boolean` = `false`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:80](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L80)
-
-Enable or disable the detail map on this material
-
-***
-
 ### markAllDefinesAsDirty
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -115,7 +105,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -125,21 +115,11 @@ Defines the name of the plugin
 
 ***
 
-### normalBlendMethod
-
-> **normalBlendMethod**: `number`
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L72)
-
-The method used to blend the bump and detail normals together
-
-***
-
 ### priority
 
 > **priority**: `number` = `500`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -153,7 +133,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -167,7 +147,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -181,18 +161,32 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **roughnessBlendLevel**: `number` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:57](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L57)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L57)
 
 Defines how strongly the detail roughness channel is blended with the regular roughness value
 Bigger values mean stronger blending. Only used with PBR materials
+
+## Accessors
+
+### isEnabled
+
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L80)
+
+Enable or disable the detail map on this material
+
+***
+
+### normalBlendMethod
+
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L72)
+
+The method used to blend the bump and detail normals together
 
 ***
 
 ### texture
 
-> **texture**: [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
-
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L43)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L43)
 
 The detail texture of the material.
 
@@ -202,7 +196,7 @@ The detail texture of the material.
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -242,7 +236,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`uniformBuffer`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:158](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L158)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L158)
 
 Binds the detail map data for a sub mesh.
 
@@ -274,7 +268,7 @@ defines the scene to use for texture binding
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -298,7 +292,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -324,7 +318,7 @@ define the config where to copy the info
 
 > **dispose**(`forceDisposeTextures?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L217)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:217](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L217)
 
 Disposes the detail map textures.
 
@@ -350,7 +344,7 @@ defines whether to dispose the textures
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -376,7 +370,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`activeTextures`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L197)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L197)
 
 Adds the active detail map textures.
 
@@ -402,7 +396,7 @@ defines the list of active textures to update
 
 > **getAnimatables**(`animatables`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L207)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L207)
 
 Adds the animatable detail map textures.
 
@@ -428,7 +422,7 @@ defines the list of animatables to update
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -466,7 +460,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:223](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L223)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L223)
 
 Gets the current class name useful for serialization or dynamic coding.
 
@@ -486,7 +480,7 @@ The class name.
 
 > **getCustomCode**(`_shaderType`, `_shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
 
 Returns a list of custom shader code fragments to customize the shader.
 
@@ -523,7 +517,7 @@ replaced by the code provided.
 
 > **getSamplers**(`samplers`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L231)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L231)
 
 Adds the detail map sampler names.
 
@@ -549,7 +543,7 @@ defines the list of sampler names to update
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -575,7 +569,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L235)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:235](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L235)
 
 Gets the description of the uniforms to add to the ubo (if engine supports ubos) or to inject directly in the vertex/fragment shaders (if engine does not support ubos)
 
@@ -607,7 +601,7 @@ the description of the uniforms
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -651,7 +645,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -671,7 +665,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`texture`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L185)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L185)
 
 Checks whether the detail map uses a texture.
 
@@ -699,7 +693,7 @@ true if the texture is used by the detail map
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L95)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L95)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language.
 
@@ -719,7 +713,7 @@ true if the plugin is compatible with the shader language
 
 > **isReadyForSubMesh**(`defines`, `scene`, `engine`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L112)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L112)
 
 Checks whether the detail map textures are ready for the sub mesh.
 
@@ -759,7 +753,7 @@ true if the detail map is ready
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -797,7 +791,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`defines`, `scene`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/material.detailMapConfiguration.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L134)
+Defined in: [packages/dev/core/src/Materials/material.detailMapConfiguration.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/material.detailMapConfiguration.ts#L134)
 
 Updates the material defines for the detail map.
 
@@ -829,7 +823,7 @@ defines the scene to use for texture checks
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
 
@@ -867,7 +861,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 

@@ -8,7 +8,7 @@
 
 > **Flatten**\<`A`\> = [`IsTuple`](IsTuple.md)\<`A`\> *extends* `true` ? [`FlattenTuple`](FlattenTuple.md)\<`A`\> : [`FlattenArray`](FlattenArray.md)\<`A`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/types.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/types.ts#L123)
+Defined in: [packages/dev/core/src/types.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/types.ts#L123)
 
 Flattens an array or tuple
 

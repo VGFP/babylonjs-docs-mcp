@@ -8,7 +8,7 @@
 
 > **ParseFlowGraphFromSnippetAsync**(`snippetId`, `options`): `Promise`\<[`FlowGraph`](../classes/FlowGraph.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphParser.ts:133](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphParser.ts#L133)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphParser.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphParser.ts#L133)
 
 Parses a flow graph from a snippet saved by the Flow Graph Editor.
 If the snippet contains multiple graphs, all graphs are parsed into the provided coordinator and the active graph is returned.

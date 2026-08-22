@@ -8,7 +8,7 @@
 
 > **InputConditions** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L140)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L137)
 
 Flat conditions object passed to resolveInteraction().
 Only the fields relevant to the source type need to be set.
@@ -21,7 +21,7 @@ of this and should be used at call sites for clarity.
 
 > `optional` **button?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L142)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L139)
 
 Mouse button (0=left, 1=middle, 2=right)
 
@@ -31,7 +31,7 @@ Mouse button (0=left, 1=middle, 2=right)
 
 > `optional` **key?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:148](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L148)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L145)
 
 Key code of the current key being resolved
 
@@ -41,7 +41,7 @@ Key code of the current key being resolved
 
 > `optional` **modifiers?**: [`InputModifiers`](InputModifiers.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L144)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L141)
 
 Current modifier key state
 
@@ -51,6 +51,6 @@ Current modifier key state
 
 > `optional` **touchCount?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L146)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L143)
 
 Number of active touch points

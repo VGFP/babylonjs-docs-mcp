@@ -8,7 +8,7 @@
 
 > **MaxTexturesAsync**(`name`, `a`, `b`, `scene`, `outputColorSpace?`, `outputChannelMask?`): `Promise`\<[`ITextureProcessOperand`](../interfaces/ITextureProcessOperand.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/textureProcessor.ts:622](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L622)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:622](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L622)
 
 Take the component-wise maximum of two texture operands: `result = max(a, b)`.
 

@@ -6,7 +6,7 @@
 
 # Class: AssetsManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1050)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1050)
 
 This class can be used to easily import assets into a scene
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/importers/assetManager
 
 > **new AssetsManager**(`scene?`): `AssetsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1115)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1115)
 
 Creates a new AssetsManager
 
@@ -42,7 +42,7 @@ defines the scene to work on
 
 > **autoHideLoadingUI**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1109)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1109)
 
 Gets or sets a boolean defining if the AssetsManager should automatically hide the loading screen
 when all assets have been downloaded.
@@ -54,7 +54,7 @@ If set to false, you need to manually call in hideLoadingUI() once your scene is
 
 > **onFinish**: (`tasks`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1061)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1061](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1061)
 
 Callback called when all tasks are processed
 
@@ -74,7 +74,7 @@ Callback called when all tasks are processed
 
 > **onProgress**: (`remainingCount`, `totalCount`, `task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1076)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1076)
 
 Callback called when a task is done (whatever the result is)
 
@@ -102,7 +102,7 @@ Callback called when a task is done (whatever the result is)
 
 > **onProgressObservable**: [`Observable`](Observable.md)\<[`IAssetsProgressEvent`](../interfaces/IAssetsProgressEvent.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1096](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1096)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1096](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1096)
 
 Observable called when a task is done (whatever the result is)
 
@@ -112,7 +112,7 @@ Observable called when a task is done (whatever the result is)
 
 > **onTaskError**: (`task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1071)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1071)
 
 Callback called when a task had an error
 
@@ -132,7 +132,7 @@ Callback called when a task had an error
 
 > **onTaskErrorObservable**: [`Observable`](Observable.md)\<[`AbstractAssetTask`](AbstractAssetTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1086)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1086)
 
 Observable called when a task had an error
 
@@ -142,7 +142,7 @@ Observable called when a task had an error
 
 > **onTasksDoneObservable**: [`Observable`](Observable.md)\<[`AbstractAssetTask`](AbstractAssetTask.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1091)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1091](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1091)
 
 Observable called when all tasks were executed
 
@@ -152,7 +152,7 @@ Observable called when all tasks were executed
 
 > **onTaskSuccess**: (`task`) => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1066)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1066)
 
 Callback called when a task is successful
 
@@ -172,7 +172,7 @@ Callback called when a task is successful
 
 > **onTaskSuccessObservable**: [`Observable`](Observable.md)\<[`AbstractAssetTask`](AbstractAssetTask.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1081](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1081)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1081](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1081)
 
 Observable called when all tasks are processed
 
@@ -182,7 +182,7 @@ Observable called when all tasks are processed
 
 > **useDefaultLoadingScreen**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1102)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1102)
 
 Gets or sets a boolean defining if the AssetsManager should use the default loading screen
 
@@ -196,7 +196,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **addBinaryFileTask**(`taskName`, `url`): [`BinaryFileAssetTask`](BinaryFileAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1180)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1180)
 
 Add a BinaryFileAssetTask to the list of active tasks
 
@@ -226,7 +226,7 @@ a new BinaryFileAssetTask object
 
 > **addContainerTask**(`taskName`, `meshesNames`, `rootUrl`, `sceneFilename`, `extension?`): [`ContainerAssetTask`](ContainerAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1128)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1128)
 
 Add a ContainerAssetTask to the list of active tasks
 
@@ -274,7 +274,7 @@ a new ContainerAssetTask object
 
 > **addCubeTextureTask**(`taskName`, `url`, `extensionsOrOptions?`, `noMipmap?`, `files?`, `prefiltered?`): [`CubeTextureAssetTask`](CubeTextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1232)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1232)
 
 Add a CubeTextureAssetTask to the list of active tasks
 
@@ -328,7 +328,7 @@ a new CubeTextureAssetTask object
 
 > **addEquiRectangularCubeTextureAssetTask**(`taskName`, `url`, `size`, `noMipmap?`, `gammaSpace?`, `superSample?`): [`EquiRectangularCubeTextureAssetTask`](EquiRectangularCubeTextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1302)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1302)
 
 Add a EquiRectangularCubeTextureAssetTask to the list of active tasks
 
@@ -383,7 +383,7 @@ a new EquiRectangularCubeTextureAssetTask object
 
 > **addHDRCubeTextureTask**(`taskName`, `url`, `size`, `noMipmap?`, `generateHarmonics?`, `gammaSpace?`, `prefilterOnLoad?`, `supersample?`, `prefilterIrradianceOnLoad?`, `prefilterUsingCdf?`): [`HDRCubeTextureAssetTask`](HDRCubeTextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1261](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1261)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1261)
 
 Add a HDRCubeTextureAssetTask to the list of active tasks
 
@@ -461,7 +461,7 @@ a new HDRCubeTextureAssetTask object
 
 > **addImageTask**(`taskName`, `url`): [`ImageAssetTask`](ImageAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1193)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1193)
 
 Add a ImageAssetTask to the list of active tasks
 
@@ -491,7 +491,7 @@ a new ImageAssetTask object
 
 > **addMeshTask**(`taskName`, `meshesNames`, `rootUrl`, `sceneFilename`, `extension?`, `filename?`, `pluginOptions?`): [`MeshAssetTask`](MeshAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1146)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1146)
 
 Add a MeshAssetTask to the list of active tasks
 
@@ -577,7 +577,7 @@ Set to "y-down" for assets authored with inverted green/Y normal maps.
 
 ###### gltf?
 
-\{ `alwaysComputeBoundingBox?`: `boolean`; `alwaysComputeSkeletonRootNode?`: `boolean`; `animationStartMode?`: [`GLTFLoaderAnimationStartMode`](../../../loaders/src/enumerations/GLTFLoaderAnimationStartMode.md); `capturePerformanceCounters?`: `boolean`; `compileMaterials?`: `boolean`; `compileShadowGenerators?`: `boolean`; `coordinateSystemMode?`: [`GLTFLoaderCoordinateSystemMode`](../../../loaders/src/enumerations/GLTFLoaderCoordinateSystemMode.md); `createInstances?`: `boolean`; `customRootNode?`: [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>; `dontUseTransmissionHelper?`: `boolean`; `enabled?`: `boolean`; `extensionOptions?`: \{\[`key`: `string`\]: \{\[`key`: `string`\]: `unknown`; `enabled?`: `boolean`; \} \| `undefined`; `EXT_lights_area?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_ies?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_image_based?`: \{ `enabled?`: `boolean`; \}; `EXT_mesh_gpu_instancing?`: \{ `enabled?`: `boolean`; \}; `EXT_meshopt_compression?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_avif?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_webp?`: \{ `enabled?`: `boolean`; \}; `ExtrasAsMetadata?`: \{ `enabled?`: `boolean`; \}; `KHR_animation_pointer?`: \{ `enabled?`: `boolean`; \}; `KHR_draco_mesh_compression?`: \{ `enabled?`: `boolean`; \}; `KHR_interactivity?`: \{ `enabled?`: `boolean`; \}; `KHR_lights_punctual?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_anisotropy?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_clearcoat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_coat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_roughness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_dispersion?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_emissive_strength?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_fuzz?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_ior?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_iridescence?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_pbrSpecularGlossiness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_sheen?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_specular?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_unlit?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_variants?`: \{ `defaultVariant?`: `string`; `enabled?`: `boolean`; `onLoaded?`: (`controller`) => `void`; \}; `KHR_materials_volume?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_volume_scatter?`: \{ `enabled?`: `boolean`; \}; `KHR_mesh_quantization?`: \{ `enabled?`: `boolean`; \}; `KHR_node_hoverability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_selectability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_visibility?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_basisu?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_transform?`: \{ `enabled?`: `boolean`; \}; `KHR_xmp_json_ld?`: \{ `enabled?`: `boolean`; \}; `MSFT_audio_emitter?`: \{ `enabled?`: `boolean`; \}; `MSFT_lod?`: \{ `enabled?`: `boolean`; `maxLODsToLoad?`: `number`; \}; `MSFT_minecraftMesh?`: \{ `enabled?`: `boolean`; \}; `MSFT_sRGBFactors?`: \{ `enabled?`: `boolean`; \}; \}; `loadAllMaterials?`: `boolean`; `loadMorphTargets?`: `boolean`; `loadNodeAnimations?`: `boolean`; `loadOnlyMaterials?`: `boolean`; `loadSkins?`: `boolean`; `loggingEnabled?`: `boolean`; `onCameraLoaded?`: (`camera`) => `void`; `onMaterialLoaded?`: (`material`) => `void`; `onMeshLoaded?`: (`mesh`) => `void`; `onParsed?`: (`loaderData`) => `void`; `onSkinLoaded?`: (`node`, `skinnedNode`) => `void`; `onTextureLoaded?`: (`texture`) => `void`; `onValidated?`: (`results`) => `void`; `skipMaterials?`: `boolean`; `targetFps?`: `number`; `transparencyAsCoverage?`: `boolean`; `useClipPlane?`: `boolean`; `useGltfTextureNames?`: `boolean`; `useOpenPBR?`: `boolean`; `useRangeRequests?`: `boolean`; `useSRGBBuffers?`: `boolean`; `validate?`: `boolean`; `preprocessUrlAsync?`: `Promise`\<`string`\>; \}
+\{ `alwaysComputeBoundingBox?`: `boolean`; `alwaysComputeSkeletonRootNode?`: `boolean`; `animationStartMode?`: [`GLTFLoaderAnimationStartMode`](../../../loaders/src/enumerations/GLTFLoaderAnimationStartMode.md); `capturePerformanceCounters?`: `boolean`; `compileMaterials?`: `boolean`; `compileShadowGenerators?`: `boolean`; `coordinateSystemMode?`: [`GLTFLoaderCoordinateSystemMode`](../../../loaders/src/enumerations/GLTFLoaderCoordinateSystemMode.md); `createInstances?`: `boolean`; `customRootNode?`: [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>; `dontUseTransmissionHelper?`: `boolean`; `enabled?`: `boolean`; `extensionOptions?`: \{\[`key`: `string`\]: \{\[`key`: `string`\]: `unknown`; `enabled?`: `boolean`; \} \| `undefined`; `EXT_lights_area?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_ies?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_image_based?`: \{ `enabled?`: `boolean`; \}; `EXT_mesh_gpu_instancing?`: \{ `enabled?`: `boolean`; \}; `EXT_meshopt_compression?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_avif?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_webp?`: \{ `enabled?`: `boolean`; \}; `ExtrasAsMetadata?`: \{ `enabled?`: `boolean`; \}; `KHR_animation_pointer?`: \{ `enabled?`: `boolean`; \}; `KHR_draco_mesh_compression?`: \{ `enabled?`: `boolean`; \}; `KHR_gaussian_splatting?`: \{ `enabled?`: `boolean`; \}; `KHR_interactivity?`: \{ `enabled?`: `boolean`; \}; `KHR_lights_punctual?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_anisotropy?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_clearcoat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_coat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_roughness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_dispersion?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_emissive_strength?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_fuzz?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_ior?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_iridescence?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_pbrSpecularGlossiness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_sheen?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_specular?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_unlit?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_variants?`: \{ `defaultVariant?`: `string`; `enabled?`: `boolean`; `onLoaded?`: (`controller`) => `void`; \}; `KHR_materials_volume?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_volume_scatter?`: \{ `enabled?`: `boolean`; \}; `KHR_mesh_quantization?`: \{ `enabled?`: `boolean`; \}; `KHR_node_hoverability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_selectability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_visibility?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_basisu?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_transform?`: \{ `enabled?`: `boolean`; \}; `KHR_xmp_json_ld?`: \{ `enabled?`: `boolean`; \}; `MSFT_audio_emitter?`: \{ `enabled?`: `boolean`; \}; `MSFT_lod?`: \{ `enabled?`: `boolean`; `maxLODsToLoad?`: `number`; \}; `MSFT_minecraftMesh?`: \{ `enabled?`: `boolean`; \}; `MSFT_sRGBFactors?`: \{ `enabled?`: `boolean`; \}; \}; `loadAllMaterials?`: `boolean`; `loadMorphTargets?`: `boolean`; `loadNodeAnimations?`: `boolean`; `loadOnlyMaterials?`: `boolean`; `loadSkins?`: `boolean`; `loggingEnabled?`: `boolean`; `onCameraLoaded?`: (`camera`) => `void`; `onMaterialLoaded?`: (`material`) => `void`; `onMeshLoaded?`: (`mesh`) => `void`; `onParsed?`: (`loaderData`) => `void`; `onSkinLoaded?`: (`node`, `skinnedNode`) => `void`; `onTextureLoaded?`: (`texture`) => `void`; `onValidated?`: (`results`) => `void`; `skipMaterials?`: `boolean`; `targetFps?`: `number`; `transparencyAsCoverage?`: `boolean`; `useClipPlane?`: `boolean`; `useGltfTextureNames?`: `boolean`; `useMaxMorphTargetInfluencers?`: `boolean`; `useOpenPBR?`: `boolean`; `useRangeRequests?`: `boolean`; `useSRGBBuffers?`: `boolean`; `validate?`: `boolean`; `preprocessUrlAsync?`: `Promise`\<`string`\>; \}
 
 Defines options for the glTF loader.
 
@@ -651,7 +651,7 @@ Defines if the plugin is enabled
 
 ###### gltf.extensionOptions?
 
-\{\[`key`: `string`\]: \{\[`key`: `string`\]: `unknown`; `enabled?`: `boolean`; \} \| `undefined`; `EXT_lights_area?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_ies?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_image_based?`: \{ `enabled?`: `boolean`; \}; `EXT_mesh_gpu_instancing?`: \{ `enabled?`: `boolean`; \}; `EXT_meshopt_compression?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_avif?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_webp?`: \{ `enabled?`: `boolean`; \}; `ExtrasAsMetadata?`: \{ `enabled?`: `boolean`; \}; `KHR_animation_pointer?`: \{ `enabled?`: `boolean`; \}; `KHR_draco_mesh_compression?`: \{ `enabled?`: `boolean`; \}; `KHR_interactivity?`: \{ `enabled?`: `boolean`; \}; `KHR_lights_punctual?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_anisotropy?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_clearcoat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_coat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_roughness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_dispersion?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_emissive_strength?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_fuzz?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_ior?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_iridescence?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_pbrSpecularGlossiness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_sheen?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_specular?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_unlit?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_variants?`: \{ `defaultVariant?`: `string`; `enabled?`: `boolean`; `onLoaded?`: (`controller`) => `void`; \}; `KHR_materials_volume?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_volume_scatter?`: \{ `enabled?`: `boolean`; \}; `KHR_mesh_quantization?`: \{ `enabled?`: `boolean`; \}; `KHR_node_hoverability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_selectability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_visibility?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_basisu?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_transform?`: \{ `enabled?`: `boolean`; \}; `KHR_xmp_json_ld?`: \{ `enabled?`: `boolean`; \}; `MSFT_audio_emitter?`: \{ `enabled?`: `boolean`; \}; `MSFT_lod?`: \{ `enabled?`: `boolean`; `maxLODsToLoad?`: `number`; \}; `MSFT_minecraftMesh?`: \{ `enabled?`: `boolean`; \}; `MSFT_sRGBFactors?`: \{ `enabled?`: `boolean`; \}; \} = `{}`
+\{\[`key`: `string`\]: \{\[`key`: `string`\]: `unknown`; `enabled?`: `boolean`; \} \| `undefined`; `EXT_lights_area?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_ies?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_image_based?`: \{ `enabled?`: `boolean`; \}; `EXT_mesh_gpu_instancing?`: \{ `enabled?`: `boolean`; \}; `EXT_meshopt_compression?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_avif?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_webp?`: \{ `enabled?`: `boolean`; \}; `ExtrasAsMetadata?`: \{ `enabled?`: `boolean`; \}; `KHR_animation_pointer?`: \{ `enabled?`: `boolean`; \}; `KHR_draco_mesh_compression?`: \{ `enabled?`: `boolean`; \}; `KHR_gaussian_splatting?`: \{ `enabled?`: `boolean`; \}; `KHR_interactivity?`: \{ `enabled?`: `boolean`; \}; `KHR_lights_punctual?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_anisotropy?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_clearcoat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_coat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_roughness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_dispersion?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_emissive_strength?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_fuzz?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_ior?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_iridescence?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_pbrSpecularGlossiness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_sheen?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_specular?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_unlit?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_variants?`: \{ `defaultVariant?`: `string`; `enabled?`: `boolean`; `onLoaded?`: (`controller`) => `void`; \}; `KHR_materials_volume?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_volume_scatter?`: \{ `enabled?`: `boolean`; \}; `KHR_mesh_quantization?`: \{ `enabled?`: `boolean`; \}; `KHR_node_hoverability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_selectability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_visibility?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_basisu?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_transform?`: \{ `enabled?`: `boolean`; \}; `KHR_xmp_json_ld?`: \{ `enabled?`: `boolean`; \}; `MSFT_audio_emitter?`: \{ `enabled?`: `boolean`; \}; `MSFT_lod?`: \{ `enabled?`: `boolean`; `maxLODsToLoad?`: `number`; \}; `MSFT_minecraftMesh?`: \{ `enabled?`: `boolean`; \}; `MSFT_sRGBFactors?`: \{ `enabled?`: `boolean`; \}; \} = `{}`
 
 Defines options for glTF extensions.
 
@@ -770,6 +770,18 @@ Defines if the extension is enabled
 Defines options for the KHR_draco_mesh_compression extension.
 
 ###### gltf.extensionOptions.KHR_draco_mesh_compression.enabled?
+
+`boolean`
+
+Defines if the extension is enabled
+
+###### gltf.extensionOptions.KHR_gaussian_splatting?
+
+\{ `enabled?`: `boolean`; \}
+
+Defines options for the KHR_gaussian_splatting extension.
+
+###### gltf.extensionOptions.KHR_gaussian_splatting.enabled?
 
 `boolean`
 
@@ -1284,6 +1296,18 @@ Defines if the loader should also compile materials with clip planes. Defaults t
 If true, the loader will derive the name for Babylon textures from the glTF texture name, image name, or image url. Defaults to false.
 Note that it is possible for multiple Babylon textures to share the same name when the Babylon textures load from the same glTF texture or image.
 
+###### gltf.useMaxMorphTargetInfluencers?
+
+`boolean` = `true`
+
+When loading a mesh with morph targets, configure its MorphTargetManager so the morph shader is compiled
+once for all targets (`numMaxInfluencers = numTargets`, `optimizeInfluencers = false`). This prevents the
+shader from being recompiled (and the resulting one-frame visual glitch) when an animated morph target
+influence passes through zero and the active influencer count changes.
+Disable to restore the previous behavior, where only the currently active (non-zero) influencers drive the
+shader. That is cheaper per frame for meshes with very large morph target counts, but recompiles the shader
+during animation. Defaults to true.
+
 ###### gltf.useOpenPBR?
 
 `boolean` = `false`
@@ -1500,7 +1524,7 @@ a new MeshAssetTask object
 
 > **addTextFileTask**(`taskName`, `url`): [`TextFileAssetTask`](TextFileAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1167)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1167)
 
 Add a TextFileAssetTask to the list of active tasks
 
@@ -1530,7 +1554,7 @@ a new TextFileAssetTask object
 
 > **addTextureTask**(`taskName`, `url`, `noMipmapOrOptions?`, `invertY?`, `samplingMode?`): [`TextureAssetTask`](TextureAssetTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1209)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1209)
 
 Add a TextureAssetTask to the list of active tasks
 
@@ -1578,7 +1602,7 @@ a new TextureAssetTask object
 
 > **load**(): `AssetsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1429](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1429)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1429](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1429)
 
 Start the loading process
 
@@ -1594,7 +1618,7 @@ the current instance of the AssetsManager
 
 > **loadAsync**(): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1464](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1464)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1464](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1464)
 
 Start the loading process as an async operation
 
@@ -1610,7 +1634,7 @@ a promise returning the list of failed tasks
 
 > **removeTask**(`task`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1320](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1320)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1320)
 
 Remove a task from the assets manager.
 
@@ -1632,7 +1656,7 @@ the task to remove
 
 > **reset**(): `AssetsManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/assetsManager.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/assetsManager.ts#L1419)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L1419)
 
 Reset the AssetsManager and remove all tasks
 

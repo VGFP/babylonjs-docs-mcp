@@ -6,7 +6,7 @@
 
 # Class: BVHFileLoader
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L30)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L20)
 
 **`Experimental`**
 
@@ -24,7 +24,7 @@ This is a babylon scene loader plugin.
 
 > **new BVHFileLoader**(`loadingOptions?`): `BVHFileLoader`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L45)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L35)
 
 **`Experimental`**
 
@@ -48,7 +48,7 @@ Options for the bvh loader
 
 > `readonly` **name**: `"bvh"` = `BVHFileLoaderMetadata.name`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L34)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L24)
 
 **`Experimental`**
 
@@ -64,7 +64,7 @@ Name of the loader ("bvh")
 
 > **canDirectLoad**(`data`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:65](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L65)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L55)
 
 **`Experimental`**
 
@@ -94,7 +94,7 @@ if the data can be loaded directly
 
 > **importMeshAsync**(`_meshesNames`, `scene`, `data`): `Promise`\<[`ISceneLoaderAsyncResult`](../../../core/src/interfaces/ISceneLoaderAsyncResult.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L85)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L85)
 
 **`Experimental`**
 
@@ -136,9 +136,11 @@ a promise containing the loaded skeletons and animations
 
 > **isBvhHeader**(`text`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L69)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L64)
 
 **`Experimental`**
+
+Returns whether the provided text starts with a BVH HIERARCHY header.
 
 #### Parameters
 
@@ -146,9 +148,13 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:69](
 
 `string`
 
+the text to inspect
+
 #### Returns
 
 `boolean`
+
+true if the text is a BVH header
 
 ***
 
@@ -156,9 +162,11 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:69](
 
 > **isNotBvhHeader**(`text`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L73)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L73)
 
 **`Experimental`**
+
+Returns whether the provided text does not start with a BVH HIERARCHY header.
 
 #### Parameters
 
@@ -166,9 +174,13 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:73](
 
 `string`
 
+the text to inspect
+
 #### Returns
 
 `boolean`
+
+true if the text is not a BVH header
 
 ***
 
@@ -176,7 +188,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:73](
 
 > **loadAssetContainerAsync**(`scene`, `data`): `Promise`\<[`AssetContainer`](../../../core/src/classes/AssetContainer.md)\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L142)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L142)
 
 **`Experimental`**
 
@@ -212,7 +224,7 @@ The loaded asset container
 
 > **loadAsync**(`scene`, `data`): `Promise`\<`void`\>
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/BVH/bvhFileLoader.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/BVH/bvhFileLoader.ts#L119)
+Defined in: [packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/BVH/bvhFileLoader.pure.ts#L119)
 
 **`Experimental`**
 

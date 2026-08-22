@@ -6,7 +6,7 @@
 
 # Class: RetryStrategy
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/retryStrategy.ts:6](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/retryStrategy.ts#L6)
+Defined in: [packages/dev/core/src/Misc/retryStrategy.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/retryStrategy.ts#L6)
 
 Class used to define a retry strategy when error happens while loading assets
 
@@ -26,7 +26,7 @@ Class used to define a retry strategy when error happens while loading assets
 
 > `static` **ExponentialBackoff**(`maxRetries?`, `baseInterval?`): (`url`, `request`, `retryIndex`) => `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/retryStrategy.ts:13](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/retryStrategy.ts#L13)
+Defined in: [packages/dev/core/src/Misc/retryStrategy.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/retryStrategy.ts#L13)
 
 Function used to defines an exponential back off strategy
 

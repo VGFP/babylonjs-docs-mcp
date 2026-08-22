@@ -8,7 +8,7 @@
 
 > **InteractionName**\<`THandlers`\> = keyof `THandlers` & `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L156)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L153)
 
 Extracts the string-typed interaction names from a handlers object type.
 Equivalent to `keyof THandlers & string` — filters out symbol/number keys.

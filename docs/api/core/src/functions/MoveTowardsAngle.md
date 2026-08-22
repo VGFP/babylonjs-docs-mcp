@@ -8,7 +8,7 @@
 
 > **MoveTowardsAngle**(`current`, `target`, `maxDelta`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.scalar.functions.ts:314](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.scalar.functions.ts#L314)
+Defined in: [packages/dev/core/src/Maths/math.scalar.functions.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.scalar.functions.ts#L314)
 
 Same as MoveTowards but makes sure the values interpolate correctly when they wrap around 360 degrees.
 

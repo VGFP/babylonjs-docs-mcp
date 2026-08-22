@@ -8,7 +8,7 @@
 
 > **WebXRControllerMovementState** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L89)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L89)
 
 Current state of Movements shared across components and handlers.
 
@@ -18,7 +18,7 @@ Current state of Movements shared across components and handlers.
 
 > **moveX**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L90)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L90)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **moveY**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L91)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L91)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **rotateX**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L92)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L92)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerM
 
 > **rotateY**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L93)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L93)

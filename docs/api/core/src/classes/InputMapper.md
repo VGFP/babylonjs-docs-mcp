@@ -6,7 +6,7 @@
 
 # Class: InputMapper\<THandlers\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L175)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L172)
 
 Generic input-to-interaction mapper that resolves physical input events to semantic interaction types
 and dispatches them to typed handlers.
@@ -35,7 +35,7 @@ Object type whose keys are the valid interaction type strings and values
 
 > **new InputMapper**\<`THandlers`\>(`handlers`, `createDefaultEntries?`): `InputMapper`\<`THandlers`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:193](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L193)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L190)
 
 Creates a new InputMapper.
 
@@ -64,7 +64,7 @@ Optional factory that returns the default inputMap entries.
 
 > `readonly` **handlers**: `THandlers`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L185)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L182)
 
 Interaction handlers keyed by interaction type.
 Override individual handlers to customize behavior without changing input mapping.
@@ -75,7 +75,7 @@ Override individual handlers to customize behavior without changing input mappin
 
 > **inputMap**: [`InputMapEntry`](../type-aliases/InputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\>[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L179)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L176)
 
 Ordered list of input-to-interaction mapping rules. First matching entry wins.
 
@@ -85,7 +85,7 @@ Ordered list of input-to-interaction mapping rules. First matching entry wins.
 
 > **addEntry**(`entry`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:288](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L288)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:285](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L285)
 
 Adds an entry to the inputMap at the correct position based on specificity.
 More specific entries (with more conditions like button, key, modifiers) are placed
@@ -112,7 +112,7 @@ The entry to add
 
 > **getEntries**(`source`, `interaction`, `conditions?`): [`PointerInputMapEntry`](../type-aliases/PointerInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L264)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L261)
 
 Finds all inputMap entries matching the given source, interaction, and optional entry conditions.
 Useful for bulk updates when more than one physical input maps to the same interaction.
@@ -147,7 +147,7 @@ All matching entries, in inputMap order
 
 > **getEntries**(`source`, `interaction`, `conditions?`): [`WheelInputMapEntry`](../type-aliases/WheelInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:265](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L265)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L262)
 
 Finds all inputMap entries matching the given source, interaction, and optional entry conditions.
 Useful for bulk updates when more than one physical input maps to the same interaction.
@@ -182,7 +182,7 @@ All matching entries, in inputMap order
 
 > **getEntries**(`source`, `interaction`, `conditions?`): [`TouchInputMapEntry`](../type-aliases/TouchInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:266](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L266)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L263)
 
 Finds all inputMap entries matching the given source, interaction, and optional entry conditions.
 Useful for bulk updates when more than one physical input maps to the same interaction.
@@ -217,7 +217,7 @@ All matching entries, in inputMap order
 
 > **getEntries**(`source`, `interaction`, `conditions?`): [`KeyboardInputMapEntry`](../type-aliases/KeyboardInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L267)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L264)
 
 Finds all inputMap entries matching the given source, interaction, and optional entry conditions.
 Useful for bulk updates when more than one physical input maps to the same interaction.
@@ -252,7 +252,7 @@ All matching entries, in inputMap order
 
 > **getEntries**(`source`, `interaction`, `conditions?`): [`InputMapEntry`](../type-aliases/InputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\>[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:268](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L268)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L265)
 
 Finds all inputMap entries matching the given source, interaction, and optional entry conditions.
 Useful for bulk updates when more than one physical input maps to the same interaction.
@@ -291,7 +291,7 @@ All matching entries, in inputMap order
 
 > **getEntry**(`source`, `interaction`, `conditions?`): [`PointerInputMapEntry`](../type-aliases/PointerInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:238](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L238)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:235](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L235)
 
 Finds the first inputMap entry matching the given source, interaction, and optional entry conditions.
 Useful for modifying entry properties (e.g. sensitivity) without rebuilding the entire inputMap.
@@ -326,7 +326,7 @@ The matching entry, or undefined if not found
 
 > **getEntry**(`source`, `interaction`, `conditions?`): [`WheelInputMapEntry`](../type-aliases/WheelInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:239](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L239)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:236](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L236)
 
 Finds the first inputMap entry matching the given source, interaction, and optional entry conditions.
 Useful for modifying entry properties (e.g. sensitivity) without rebuilding the entire inputMap.
@@ -361,7 +361,7 @@ The matching entry, or undefined if not found
 
 > **getEntry**(`source`, `interaction`, `conditions?`): [`TouchInputMapEntry`](../type-aliases/TouchInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L240)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L237)
 
 Finds the first inputMap entry matching the given source, interaction, and optional entry conditions.
 Useful for modifying entry properties (e.g. sensitivity) without rebuilding the entire inputMap.
@@ -396,7 +396,7 @@ The matching entry, or undefined if not found
 
 > **getEntry**(`source`, `interaction`, `conditions?`): [`KeyboardInputMapEntry`](../type-aliases/KeyboardInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:241](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L241)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L238)
 
 Finds the first inputMap entry matching the given source, interaction, and optional entry conditions.
 Useful for modifying entry properties (e.g. sensitivity) without rebuilding the entire inputMap.
@@ -431,7 +431,7 @@ The matching entry, or undefined if not found
 
 > **getEntry**(`source`, `interaction`, `conditions?`): [`InputMapEntry`](../type-aliases/InputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `undefined`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L242)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L239)
 
 Finds the first inputMap entry matching the given source, interaction, and optional entry conditions.
 Useful for modifying entry properties (e.g. sensitivity) without rebuilding the entire inputMap.
@@ -468,7 +468,7 @@ The matching entry, or undefined if not found
 
 > **resetInputMap**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:226](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L226)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L223)
 
 Restores the inputMap to the default entries provided at construction time.
 If no factory was provided, resets to an empty array.
@@ -485,7 +485,7 @@ If no factory was provided, resets to an empty array.
 
 > **resolveInteraction**(`source`, `currentConditions?`): [`PointerInputMapEntry`](../type-aliases/PointerInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:208](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L208)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L205)
 
 Resolves a physical input event to a matching inputMap entry.
 Iterates the inputMap in order; the first entry whose source and conditions match wins.
@@ -514,7 +514,7 @@ The matched InputMapEntry, or null if no entry matches
 
 > **resolveInteraction**(`source`, `currentConditions?`): [`WheelInputMapEntry`](../type-aliases/WheelInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:209](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L209)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L206)
 
 Resolves a physical input event to a matching inputMap entry.
 Iterates the inputMap in order; the first entry whose source and conditions match wins.
@@ -543,7 +543,7 @@ The matched InputMapEntry, or null if no entry matches
 
 > **resolveInteraction**(`source`, `currentConditions?`): [`TouchInputMapEntry`](../type-aliases/TouchInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L210)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L207)
 
 Resolves a physical input event to a matching inputMap entry.
 Iterates the inputMap in order; the first entry whose source and conditions match wins.
@@ -572,7 +572,7 @@ The matched InputMapEntry, or null if no entry matches
 
 > **resolveInteraction**(`source`, `currentConditions?`): [`KeyboardInputMapEntry`](../type-aliases/KeyboardInputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:211](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L211)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L208)
 
 Resolves a physical input event to a matching inputMap entry.
 Iterates the inputMap in order; the first entry whose source and conditions match wins.
@@ -601,7 +601,7 @@ The matched InputMapEntry, or null if no entry matches
 
 > **resolveInteraction**(`source`, `currentConditions?`): [`InputMapEntry`](../type-aliases/InputMapEntry.md)\<[`InteractionName`](../type-aliases/InteractionName.md)\<`THandlers`\>\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:212](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L212)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L209)
 
 Resolves a physical input event to a matching inputMap entry.
 Iterates the inputMap in order; the first entry whose source and conditions match wins.
@@ -632,7 +632,7 @@ The matched InputMapEntry, or null if no entry matches
 
 > **setInteraction**(`source`, `conditions`, `interaction`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:313](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L313)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L310)
 
 Sets the interaction for the input combination described by `conditions`. If an
 existing entry maps that exact combination, its `interaction` is updated in place;
@@ -674,7 +674,7 @@ true (the mapping is always made effective)
 
 > **setInteractions**(`source`, `conditions`, `interaction`): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:385](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L385)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L382)
 
 Changes the interaction for every inputMap entry matching the given source and conditions.
 Useful when more than one entry maps to the same physical input (e.g. duplicate bindings,

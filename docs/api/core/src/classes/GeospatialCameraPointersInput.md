@@ -6,7 +6,7 @@
 
 # Class: GeospatialCameraPointersInput
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:17](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L17)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L18)
 
 Geospatial camera inputs can simulate dragging the globe around or tilting the camera around some point on the globe
 This class will update the GeospatialCameraMovement class's movementDeltaCurrentFrame, and the camera is responsible for using these updates to calculate viewMatrix appropriately
@@ -38,7 +38,7 @@ Default: Left mouse button = pan (drag globe), Middle/Right mouse button = rotat
 
 > **buttons**: `number`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L46)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L46)
 
 Defines the buttons associated with the input to handle camera move.
 
@@ -52,7 +52,7 @@ Defines the buttons associated with the input to handle camera move.
 
 > **camera**: [`GeospatialCamera`](GeospatialCamera.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L18)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L19)
 
 Defines the camera the input is attached to.
 
@@ -62,11 +62,32 @@ Defines the camera the input is attached to.
 
 ***
 
+### doubleTapAnimationDurationMs
+
+> **doubleTapAnimationDurationMs**: `number` = `1000`
+
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L80)
+
+Duration (in milliseconds) of the fly-to animation triggered by a double tap.
+
+***
+
+### doubleTapEasingFunction
+
+> **doubleTapEasingFunction**: [`Nullable`](../type-aliases/Nullable.md)\<[`EasingFunction`](EasingFunction.md)\> = `null`
+
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L86)
+
+Optional easing function applied to the double-tap fly-to animation.
+An EasingFunction instance can be created once and reused across double taps.
+
+***
+
 ### multiTouchPanAndZoom
 
 > **multiTouchPanAndZoom**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L29)
+Defined in: [packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L29)
 
 Defines whether panning is enabled for both pan (2 fingers swipe) and
 zoom (pinch) through multitouch.
@@ -81,7 +102,7 @@ zoom (pinch) through multitouch.
 
 > **multiTouchPanning**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L22)
+Defined in: [packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L22)
 
 Defines whether panning (2 fingers swipe) is enabled through multitouch.
 
@@ -95,7 +116,7 @@ Defines whether panning (2 fingers swipe) is enabled through multitouch.
 
 > **pinchToPanMax**: `number` = `20`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:74](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L74)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L75)
 
 Defines the distance used to consider the camera in pan mode vs pinch/zoom.
 Basically if your fingers moves away from more than this distance you will be considered
@@ -107,7 +128,7 @@ in pinch mode.
 
 > **pinchZoom**: `boolean` = `true`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L16)
+Defined in: [packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/orbitCameraPointersInput.ts#L16)
 
 Defines whether zoom (2 fingers pinch) is enabled through multitouch
 
@@ -123,7 +144,7 @@ Defines whether zoom (2 fingers pinch) is enabled through multitouch
 
 > **get** **pitchSensitivity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L42)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L43)
 
 Defines the rotation sensitivity of the pointer when rotating camera around the x axis (pitch).
 (Multiplied by the true pixel delta of pointer input, before rotation speed factor is applied by movement class)
@@ -140,7 +161,7 @@ Use the `sensitivity` field on the pointer rotate entry in `camera.movement.inpu
 
 > **set** **pitchSensitivity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L47)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L48)
 
 ##### Parameters
 
@@ -160,7 +181,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCam
 
 > **get** **yawSensitivity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L58)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L59)
 
 Defines the rotation sensitivity of the pointer when rotating the camera around the Y axis (yaw).
 (Multiplied by the true pixel delta of pointer input, before rotation speed factor is applied by movement class)
@@ -177,7 +198,7 @@ Use the `sensitivity` field on the pointer rotate entry in `camera.movement.inpu
 
 > **set** **yawSensitivity**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L63)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L64)
 
 ##### Parameters
 
@@ -195,7 +216,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCam
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -221,7 +242,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **detachControl**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
 
 Detach the current controls from the specified dom element.
 
@@ -239,7 +260,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L76)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L88)
 
 Gets the class name of the current input.
 
@@ -259,7 +280,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
 
 Get the friendly name associated with the input class.
 
@@ -279,7 +300,7 @@ the input friendly name
 
 > **onButtonDown**(`evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L85)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L97)
 
 Handles the pointer-down event. Captures the active button + modifier state, resolves which
 inputMap entry should drive the gesture, and starts pan tracking if the resolved interaction is "pan".
@@ -306,7 +327,7 @@ The pointer-down event.
 
 > **onButtonUp**(`_evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L229)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L248)
 
 Called each time a new POINTERUP event occurs. Ie, for each button
 release.
@@ -333,7 +354,7 @@ Defines the event to track
 
 > **onContextMenu**(`evt`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:346](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L346)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L347)
 
 Called on JS contextmenu event.
 Override this method to provide functionality.
@@ -358,9 +379,9 @@ the event to be handled
 
 ### onDoubleTap()
 
-> **onDoubleTap**(`type`): `void`
+> **onDoubleTap**(`type`, `evt?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:180](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L180)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L192)
 
 Called on pointer POINTERDOUBLETAP event.
 Override this method to provide functionality on POINTERDOUBLETAP event.
@@ -372,6 +393,12 @@ Override this method to provide functionality on POINTERDOUBLETAP event.
 `string`
 
 type of event
+
+##### evt?
+
+[`IPointerEvent`](../interfaces/IPointerEvent.md)
+
+the pointer event that triggered the double tap (carries button / buttons state)
 
 #### Returns
 
@@ -387,7 +414,7 @@ type of event
 
 > **onLostFocus**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L240)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L259)
 
 Called when window becomes inactive.
 
@@ -405,7 +432,7 @@ Called when window becomes inactive.
 
 > **onMultiTouch**(`pointA`, `pointB`, `previousPinchSquaredDistance`, `pinchSquaredDistance`, `previousMultiTouchPanPosition`, `multiTouchPanPosition`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:198](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L198)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:217](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L217)
 
 Handles a multi-touch (pinch / two-finger pan) gesture. Detects whether the gesture should be
 interpreted as a pinch zoom or a two-finger pan based on cumulative finger distance change,
@@ -463,7 +490,7 @@ Centroid of the two touches on the current frame, or null if the gesture ended.
 
 > **onTouch**(`point`, `offsetX`, `offsetY`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L100)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraPointersInput.ts#L112)
 
 Called on pointer POINTERMOVE event if only a single touch is active.
 Override this method to provide functionality.

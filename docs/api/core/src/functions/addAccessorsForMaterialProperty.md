@@ -6,11 +6,13 @@
 
 # Function: addAccessorsForMaterialProperty()
 
-> **addAccessorsForMaterialProperty**(`setCallback`, `targetKey?`): (`target`, `propertyKey`) => `void`
+> **addAccessorsForMaterialProperty**(`setCallback`, `sourceKey?`): \<`This`, `V`\>(`_value`, `context`) => `ClassAccessorDecoratorResult`\<`This`, `V`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.ts:168](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.ts#L168)
+Defined in: [packages/dev/core/src/Misc/decorators.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.ts#L218)
 
 Adds accessors for a material property.
+Applied to an auto-accessor field. Reads/writes from a private backing field named by sourceKey (default: "_" + property name).
+The backing field is expected to have a `.value` property.
 
 ## Parameters
 
@@ -20,14 +22,14 @@ Adds accessors for a material property.
 
 The name of the callback function to call when the property is set.
 
-### targetKey?
+### sourceKey?
 
 [`Nullable`](../type-aliases/Nullable.md)\<`string`\> = `null`
 
-The key to use for the target property (defaults to the original property key).
+The name of the private field that stores the value (defaults to "_" + accessor name).
 
 ## Returns
 
-A property decorator.
+An accessor decorator.
 
-(`target`, `propertyKey`) => `void`
+\<`This`, `V`\>(`_value`, `context`) => `ClassAccessorDecoratorResult`\<`This`, `V`\>

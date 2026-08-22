@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_diffuse\_transmission
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.ts:31](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.ts#L31)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.pure.ts#L20)
 
 [Proposed Specification](https://github.com/KhronosGroup/glTF/pull/1825)
 !!! Experimental Extension Subject to Changes !!!
@@ -21,7 +21,7 @@ Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_
 
 > **enabled**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.ts#L40)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.pure.ts#L29)
 
 Defines whether this extension is enabled.
 
@@ -35,7 +35,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_materials_diffuse_transmission"` = `NAME`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.ts#L35)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.pure.ts#L24)
 
 The name of this extension.
 
@@ -49,7 +49,7 @@ The name of this extension.
 
 > **order**: `number` = `174`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.ts#L45)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_transmission.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_transmission.pure.ts#L34)
 
 Defines a number that determines the order the extensions are applied.
 

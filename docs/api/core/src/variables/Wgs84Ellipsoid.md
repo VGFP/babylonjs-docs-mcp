@@ -8,7 +8,7 @@
 
 > `const` **Wgs84Ellipsoid**: [`DeepImmutable`](../type-aliases/DeepImmutable.md)\<[`IEllipsoidLike`](../interfaces/IEllipsoidLike.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Maths/math.geospatial.functions.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Maths/math.geospatial.functions.ts#L22)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.functions.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.functions.ts#L22)
 
 The WGS84 reference ellipsoid used for Earth-related geospatial functions.
 Derived from the semi-major axis (meters) and the inverse flattening.

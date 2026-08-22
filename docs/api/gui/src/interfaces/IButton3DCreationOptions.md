@@ -6,7 +6,7 @@
 
 # Interface: IButton3DCreationOptions
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/button3D.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/button3D.ts#L16)
+Defined in: [packages/dev/gui/src/3D/controls/button3D.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/controls/button3D.ts#L16)
 
 Options used to create a button in 3D
 
@@ -16,7 +16,7 @@ Options used to create a button in 3D
 
 > `optional` **depth?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/button3D.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/button3D.ts#L30)
+Defined in: [packages/dev/gui/src/3D/controls/button3D.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/controls/button3D.ts#L30)
 
 Depth of the button. Default: 0.08
 
@@ -26,7 +26,7 @@ Depth of the button. Default: 0.08
 
 > `optional` **height?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/button3D.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/button3D.ts#L25)
+Defined in: [packages/dev/gui/src/3D/controls/button3D.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/controls/button3D.ts#L25)
 
 Height of the button. Default: 1
 
@@ -36,6 +36,6 @@ Height of the button. Default: 1
 
 > `optional` **width?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/gui/src/3D/controls/button3D.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/gui/src/3D/controls/button3D.ts#L20)
+Defined in: [packages/dev/gui/src/3D/controls/button3D.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/controls/button3D.ts#L20)
 
 Width of the button. Default: 1

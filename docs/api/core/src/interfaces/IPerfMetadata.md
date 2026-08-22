@@ -6,7 +6,7 @@
 
 # Interface: IPerfMetadata
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L26)
+Defined in: [packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L26)
 
 Defines the shape of a the metadata the graphing service uses for drawing purposes.
 
@@ -16,7 +16,7 @@ Defines the shape of a the metadata the graphing service uses for drawing purpos
 
 > `optional` **category?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L40)
+Defined in: [packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L40)
 
 Specifies the category of the data
 
@@ -26,7 +26,7 @@ Specifies the category of the data
 
 > `optional` **color?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L30)
+Defined in: [packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L30)
 
 The color of the line to be drawn.
 
@@ -36,6 +36,6 @@ The color of the line to be drawn.
 
 > `optional` **hidden?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:35](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L35)
+Defined in: [packages/dev/core/src/Misc/interfaces/iPerfViewer.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/iPerfViewer.ts#L35)
 
 Specifies if data should be hidden, falsey by default.

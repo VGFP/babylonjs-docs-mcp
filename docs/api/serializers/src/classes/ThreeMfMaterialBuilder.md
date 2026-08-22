@@ -6,7 +6,10 @@
 
 # Class: ThreeMfMaterialBuilder
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:251](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L251)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L273)
+
+Fluent builder for a 3MF base materials resource.
+Colors are stored as sRGB hexadecimal strings as required by the 3MF specification.
 
 ## Constructors
 
@@ -14,13 +17,17 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **new ThreeMfMaterialBuilder**(`id`): `ThreeMfMaterialBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:254](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L254)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L280)
+
+Creates a new base materials builder.
 
 #### Parameters
 
 ##### id
 
 `number`
+
+The unique resource id of the base materials group within the model.
 
 #### Returns
 
@@ -32,11 +39,15 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **build**(): [`I3mfBaseMaterials`](../interfaces/I3mfBaseMaterials.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:280](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L280)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L306)
+
+Returns the base materials group that has been built.
 
 #### Returns
 
 [`I3mfBaseMaterials`](../interfaces/I3mfBaseMaterials.md)
+
+The built base materials resource.
 
 ***
 
@@ -44,7 +55,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withColor**(`name`, `color`): `ThreeMfMaterialBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:264](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L264)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L290)
+
+Adds a named color to the group, or updates it when the name already exists.
 
 #### Parameters
 
@@ -52,10 +65,16 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 `string`
 
+The name of the material. The lookup is case insensitive.
+
 ##### color
 
 [`I3mfRGBAColor`](../interfaces/I3mfRGBAColor.md)
 
+The linear RGBA color, converted to an sRGB hexadecimal string.
+
 #### Returns
 
 `ThreeMfMaterialBuilder`
+
+This builder, to allow chaining.

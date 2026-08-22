@@ -6,7 +6,7 @@
 
 # Class: RequestFileError
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L48)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L50)
 
 ## Ignore
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:48](h
 
 > **new RequestFileError**(`message`, `request`): `RequestFileError`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L54)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L56)
 
 Creates a new LoadFileError
 
@@ -52,7 +52,7 @@ defines the optional web request
 
 > **errorCode**: [`ErrorCodesType`](../type-aliases/ErrorCodesType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L63)
+Defined in: [packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L63)
 
 The error code
 
@@ -66,7 +66,7 @@ The error code
 
 > `optional` **innerError?**: `Error`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L68)
+Defined in: [packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L68)
 
 The error that caused this outer error
 
@@ -80,6 +80,6 @@ The error that caused this outer error
 
 > **request**: [`WebRequest`](WebRequest.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L56)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L58)
 
 defines the optional web request

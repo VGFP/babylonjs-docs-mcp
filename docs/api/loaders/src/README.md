@@ -34,6 +34,7 @@
 
 - [FBXFileLoaderOptions](interfaces/FBXFileLoaderOptions.md)
 - [GLTFLoaderExtensionOptions](interfaces/GLTFLoaderExtensionOptions.md)
+- [GLTFLoaderOptions](interfaces/GLTFLoaderOptions.md)
 - [IGaussianSplattingStreamOptions](interfaces/IGaussianSplattingStreamOptions.md)
 - [IGLTFLoaderData](interfaces/IGLTFLoaderData.md)
 - [IGLTFLoaderExtension](interfaces/IGLTFLoaderExtension.md)
@@ -55,5 +56,12 @@
 
 ## Functions
 
+- [AddGaussianSplattingStreamPart](functions/AddGaussianSplattingStreamPart.md)
+- [AddGaussianSplattingStreamPartAsync](functions/AddGaussianSplattingStreamPartAsync.md)
 - [ReadBvh](functions/ReadBvh.md)
 - [registerBuiltInLoaders](functions/registerBuiltInLoaders.md)
+- [RegisterBVHFileLoader](functions/RegisterBVHFileLoader.md)
+- [RegisterGLTFFileLoader](functions/RegisterGLTFFileLoader.md)
+- [RegisterOBJFileLoader](functions/RegisterOBJFileLoader.md)
+- [RegisterSPLATFileLoader](functions/RegisterSPLATFileLoader.md)
+- [RegisterSTLFileLoader](functions/RegisterSTLFileLoader.md)

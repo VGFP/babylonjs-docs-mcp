@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphParams
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L38)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L58)
 
 Parameters used to create a flow graph.
 
@@ -16,7 +16,7 @@ Parameters used to create a flow graph.
 
 > **coordinator**: [`FlowGraphCoordinator`](../classes/FlowGraphCoordinator.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L46)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L66)
 
 The event coordinator used by the flow graph.
 
@@ -26,7 +26,7 @@ The event coordinator used by the flow graph.
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L51)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L71)
 
 Optional human-readable name for the graph.
 Defaults to "Graph" if not provided.
@@ -37,7 +37,7 @@ Defaults to "Graph" if not provided.
 
 > **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L42)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L62)
 
 The scene that the flow graph belongs to.
 
@@ -47,7 +47,7 @@ The scene that the flow graph belongs to.
 
 > `optional` **uniqueId?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraph.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraph.ts#L56)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L76)
 
 Optional unique identifier for the graph.
 If not provided, a random UUID is generated.

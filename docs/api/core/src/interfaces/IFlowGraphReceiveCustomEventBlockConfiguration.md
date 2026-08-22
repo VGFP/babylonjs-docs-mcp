@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphReceiveCustomEventBlockConfiguration
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts#L16)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts#L17)
 
 Parameters used to create a FlowGraphReceiveCustomEventBlock.
 
@@ -24,7 +24,7 @@ Parameters used to create a FlowGraphReceiveCustomEventBlock.
 
 > **eventData**: `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts#L26)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts#L27)
 
 The names of the data outputs for that event. Should be in the same order as the event data in
 SendCustomEvent
@@ -39,7 +39,7 @@ SendCustomEvent
 
 > **eventId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphReceiveCustomEventBlock.pure.ts#L22)
 
 The id of the event to receive.
 This event id is unique to the environment (not the context).
@@ -50,7 +50,7 @@ This event id is unique to the environment (not the context).
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

@@ -8,7 +8,7 @@
 
 > **RandomGUID**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/guid.ts:7](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/guid.ts#L7)
+Defined in: [packages/dev/core/src/Misc/guid.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/guid.ts#L7)
 
 Implementation from http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/2117523#answer-2117523
 Be aware Math.random() could cause collisions, but:

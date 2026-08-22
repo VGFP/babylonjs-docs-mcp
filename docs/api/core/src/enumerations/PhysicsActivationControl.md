@@ -6,7 +6,7 @@
 
 # Enumeration: PhysicsActivationControl
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:369](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L369)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:369](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L369)
 
 Controls the body sleep mode.
 
@@ -16,7 +16,7 @@ Controls the body sleep mode.
 
 > **ALWAYS\_ACTIVE**: `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:371](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L371)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L371)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlu
 
 > **ALWAYS\_INACTIVE**: `2`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:372](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L372)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:372](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L372)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlu
 
 > **SIMULATION\_CONTROLLED**: `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:370](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L370)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L370)

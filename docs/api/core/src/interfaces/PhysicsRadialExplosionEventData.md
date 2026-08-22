@@ -6,7 +6,7 @@
 
 # Interface: PhysicsRadialExplosionEventData
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1197)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1197)
 
 Interface for radial explosion event data
 
@@ -20,6 +20,6 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **sphere**: [`Mesh`](../classes/Mesh.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Physics/physicsHelper.ts:1201](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Physics/physicsHelper.ts#L1201)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1201](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1201)
 
 A sphere used for the radial explosion event

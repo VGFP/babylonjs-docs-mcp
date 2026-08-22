@@ -6,7 +6,7 @@
 
 # Enumeration: GLTFLoaderAnimationStartMode
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L100)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L90)
 
 Mode that determines what animations will start.
 
@@ -16,7 +16,7 @@ Mode that determines what animations will start.
 
 > **ALL**: `2`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:114](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L114)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L104)
 
 All animations will start.
 
@@ -26,7 +26,7 @@ All animations will start.
 
 > **FIRST**: `1`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:109](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L109)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L99)
 
 The first animation will start.
 
@@ -36,6 +36,6 @@ The first animation will start.
 
 > **NONE**: `0`
 
-Defined in: [babylonjs-source/packages/dev/loaders/src/glTF/glTFFileLoader.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/loaders/src/glTF/glTFFileLoader.ts#L104)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L94)
 
 No animation will start.

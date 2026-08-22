@@ -8,7 +8,7 @@
 
 > **RegisterDepthRendererSceneComponent**(`depthRendererClass`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L125)
+Defined in: [packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/depthRendererSceneComponent.pure.ts#L125)
 
 Register side effects for depthRendererSceneComponent.
 Safe to call multiple times; only the first call has an effect.

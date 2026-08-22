@@ -6,7 +6,7 @@
 
 # Class: NodeRenderGraphSelectionOutlineLayerBlock
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L24)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L24)
 
 Block that implements the selection outline layer
 
@@ -20,7 +20,7 @@ Block that implements the selection outline layer
 
 > **new NodeRenderGraphSelectionOutlineLayerBlock**(`name`, `frameGraph`, `scene`, `layerTextureRatio?`, `layerTextureFixedSize?`, `layerTextureType?`): `NodeRenderGraphSelectionOutlineLayerBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L45)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L45)
 
 Create a new NodeRenderGraphSelectionOutlineLayerBlock
 
@@ -76,7 +76,7 @@ defines the type of the layer texture (default: Constants.TEXTURETYPE_HALF_FLOAT
 
 > **comments**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
 
 A free comment about the block
 
@@ -90,7 +90,7 @@ A free comment about the block
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
 
 Gets an observable raised when the block is built
 
@@ -104,7 +104,7 @@ Gets an observable raised when the block is built
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
 
 Gets or sets the unique id of the node
 
@@ -118,7 +118,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -134,7 +134,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **depth**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L235)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L235)
 
 Gets the depth input component
 
@@ -150,7 +150,7 @@ Gets the depth input component
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
 
 Gets or sets the disable flag of the task associated with this block
 
@@ -162,7 +162,7 @@ Gets or sets the disable flag of the task associated with this block
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
 
 ##### Parameters
 
@@ -186,7 +186,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **get** **inputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
 
 Gets the list of input points
 
@@ -206,7 +206,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -226,7 +226,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
 
 Gets a boolean indicating if this block is an input
 
@@ -246,7 +246,7 @@ Gets a boolean indicating if this block is an input
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -266,7 +266,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -286,7 +286,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
 
 Gets a boolean indicating that this block can only be used once per node render graph
 
@@ -306,7 +306,7 @@ Gets a boolean indicating that this block can only be used once per node render 
 
 > **get** **layer**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L221)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L221)
 
 Gets the layer texture input component
 
@@ -322,7 +322,7 @@ Gets the layer texture input component
 
 > **get** **layerTextureFixedSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L131)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L131)
 
 Defines the fixed size of the layer render target texture. Takes precedence over layerTextureRatio if provided
 
@@ -334,7 +334,7 @@ Defines the fixed size of the layer render target texture. Takes precedence over
 
 > **set** **layerTextureFixedSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L135)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L135)
 
 ##### Parameters
 
@@ -354,7 +354,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **layerTextureRatio**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L119)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L119)
 
 Multiplication factor applied to the main texture size to compute the size of the layer render target texture
 
@@ -366,7 +366,7 @@ Multiplication factor applied to the main texture size to compute the size of th
 
 > **set** **layerTextureRatio**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L123)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L123)
 
 ##### Parameters
 
@@ -386,7 +386,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **layerTextureType**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L143)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L143)
 
 Defines the type of the layer texture
 
@@ -398,7 +398,7 @@ Defines the type of the layer texture
 
 > **set** **layerTextureType**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L147)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L147)
 
 ##### Parameters
 
@@ -418,7 +418,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **name**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
 
 Gets or set the name of the block
 
@@ -430,7 +430,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
 
 ##### Parameters
 
@@ -454,7 +454,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGr
 
 > **get** **objectRenderer**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L228)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L228)
 
 Gets the objectRenderer input component
 
@@ -470,7 +470,7 @@ Gets the objectRenderer input component
 
 > **get** **occlusionStrength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L175)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L175)
 
 The strength of the occlusion effect
 
@@ -482,7 +482,7 @@ The strength of the occlusion effect
 
 > **set** **occlusionStrength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L179)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L179)
 
 ##### Parameters
 
@@ -502,7 +502,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **occlusionThreshold**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L185)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L185)
 
 The occlusion threshold
 
@@ -514,7 +514,7 @@ The occlusion threshold
 
 > **set** **occlusionThreshold**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L189)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L189)
 
 ##### Parameters
 
@@ -534,7 +534,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **outlineColor**(): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L155)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L155)
 
 The outline color
 
@@ -546,7 +546,7 @@ The outline color
 
 > **set** **outlineColor**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L159)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L159)
 
 ##### Parameters
 
@@ -566,7 +566,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **outlineThickness**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L165)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L165)
 
 The thickness of the edges
 
@@ -578,7 +578,7 @@ The thickness of the edges
 
 > **set** **outlineThickness**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L169)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L169)
 
 ##### Parameters
 
@@ -598,7 +598,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **get** **output**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L242)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L242)
 
 Gets the output component
 
@@ -614,7 +614,7 @@ Gets the output component
 
 > **get** **outputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
 
 Gets the list of output points
 
@@ -634,7 +634,7 @@ Gets the list of output points
 
 > **get** **target**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L214)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L214)
 
 Gets the target texture input component
 
@@ -650,7 +650,7 @@ Gets the target texture input component
 
 > **get** **task**(): [`FrameGraphSelectionOutlineLayerTask`](FrameGraphSelectionOutlineLayerTask.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L32)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L32)
 
 Gets the frame graph task associated with this block
 
@@ -670,7 +670,7 @@ Gets the frame graph task associated with this block
 
 > **get** **useDepthOcclusion**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L195)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L195)
 
 Whether to use depth when drawing selection outlines
 
@@ -682,7 +682,7 @@ Whether to use depth when drawing selection outlines
 
 > **set** **useDepthOcclusion**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L199)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L199)
 
 ##### Parameters
 
@@ -700,7 +700,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layer
 
 > **autoConfigure**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
 
 Lets the block try to connect some inputs automatically
 
@@ -718,7 +718,7 @@ Lets the block try to connect some inputs automatically
 
 > **build**(`state`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
 
 Build the current node and generate the vertex data
 
@@ -746,7 +746,7 @@ true if already built
 
 > **clone**(): [`NodeRenderGraphBlock`](NodeRenderGraphBlock.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
 
 Clone the current block to a new identical block
 
@@ -766,7 +766,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
 
 Release resources
 
@@ -784,7 +784,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L207)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L207)
 
 Gets the current class name
 
@@ -804,7 +804,7 @@ the class name
 
 > **getDescendantOfPredicate**(`predicate`): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
 
 Get the first descendant using a predicate
 
@@ -832,7 +832,7 @@ descendant or null if none found
 
 > **getInputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
 
 Find an input by its name
 
@@ -860,7 +860,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
 
 Find an output by its name
 
@@ -888,7 +888,7 @@ the output or null if not found
 
 > **initialize**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
 
 Initialize the block and prepare the context for build
 
@@ -906,7 +906,7 @@ Initialize the block and prepare the context for build
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
 
 Checks if the current block is an ancestor of a given block
 
@@ -934,7 +934,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
 
 Checks if the current block is an ancestor of a given type
 
@@ -962,7 +962,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `point?`): `NodeRenderGraphSelectionOutlineLayerBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1008,7 +1008,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `NodeRenderGraphSelectionOutlineLayerBlock`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1048,7 +1048,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L267)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Layers/selectionOutlineLayerBlock.pure.ts#L267)
 
 Serializes this block in a JSON representation
 

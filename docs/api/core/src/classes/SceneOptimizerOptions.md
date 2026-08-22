@@ -6,7 +6,7 @@
 
 # Class: SceneOptimizerOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:470](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L470)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:470](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L470)
 
 Defines a list of options used by SceneOptimizer
 
@@ -20,7 +20,7 @@ More details at https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneO
 
 > **new SceneOptimizerOptions**(`targetFrameRate?`, `trackerDuration?`): `SceneOptimizerOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L481)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L481)
 
 Creates a new list of options used by SceneOptimizer
 
@@ -48,7 +48,7 @@ defines the interval between two checks (2000ms by default)
 
 > **optimizations**: [`SceneOptimization`](SceneOptimization.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:474](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L474)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:474](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L474)
 
 Gets the list of optimizations to apply
 
@@ -58,7 +58,7 @@ Gets the list of optimizations to apply
 
 > **targetFrameRate**: `number` = `60`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:485](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L485)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L485)
 
 [60] Defines the target frame rate to reach (60 by default)
 
@@ -68,7 +68,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:485](
 
 > **trackerDuration**: `number` = `2000`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:489](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L489)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:489](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L489)
 
 [2000] Defines the interval between two checks (2000ms by default)
 
@@ -78,7 +78,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:489](
 
 > **addCustomOptimization**(`onApply`, `onGetDescription`, `priority?`): `SceneOptimizerOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:509](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L509)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:509](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L509)
 
 Add a new custom optimization
 
@@ -114,7 +114,7 @@ the current SceneOptimizerOptions
 
 > **addOptimization**(`optimization`): `SceneOptimizerOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:497](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L497)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:497](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L497)
 
 Add a new optimization
 
@@ -138,7 +138,7 @@ the current SceneOptimizerOptions
 
 > `static` **HighDegradationAllowed**(`targetFrameRate?`): `SceneOptimizerOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:581](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L581)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:581](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L581)
 
 Creates a list of pre-defined optimizations aimed to have a big impact on the scene visual
 
@@ -162,7 +162,7 @@ a SceneOptimizerOptions object
 
 > `static` **LowDegradationAllowed**(`targetFrameRate?`): `SceneOptimizerOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:523](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L523)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:523](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L523)
 
 Creates a list of pre-defined optimizations aimed to reduce the visual impact on the scene
 
@@ -186,7 +186,7 @@ a SceneOptimizerOptions object
 
 > `static` **ModerateDegradationAllowed**(`targetFrameRate?`): `SceneOptimizerOptions`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneOptimizer.ts:548](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneOptimizer.ts#L548)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:548](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L548)
 
 Creates a list of pre-defined optimizations aimed to have a moderate impact on the scene visual
 

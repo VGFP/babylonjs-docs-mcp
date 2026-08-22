@@ -6,7 +6,7 @@
 
 # Interface: IValueGradient
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:4](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L4)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L4)
 
 Interface used by value gradients (color, factor, ...)
 
@@ -16,6 +16,6 @@ Interface used by value gradients (color, factor, ...)
 
 > **gradient**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/gradients.ts:8](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/gradients.ts#L8)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L8)
 
 Gets or sets the gradient value (between 0 and 1)

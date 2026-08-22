@@ -8,7 +8,7 @@
 
 > **PointerConditions** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L25)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L25)
 
 Conditions for pointer inputs.
 
@@ -18,7 +18,7 @@ Conditions for pointer inputs.
 
 > `optional` **button?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L27)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L27)
 
 Mouse button (0=left, 1=middle, 2=right). Omit to match any button.
 
@@ -28,6 +28,6 @@ Mouse button (0=left, 1=middle, 2=right). Omit to match any button.
 
 > `optional` **modifiers?**: [`InputModifiers`](InputModifiers.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L29)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L29)
 
 Modifier key state. Only specified keys are checked; omitted = don't-care.

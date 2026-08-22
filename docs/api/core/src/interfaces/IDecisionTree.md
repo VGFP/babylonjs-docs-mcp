@@ -6,12 +6,12 @@
 
 # Interface: IDecisionTree
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:112](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L112)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L114)
 
 Decision tree used to determine the transcoding format to use for a given source texture format
 
 ## Indexable
 
-> \[`textureFormat`: `string`\]: [`INode`](INode.md)
+> \[`textureFormat`: `string`\]: [`ILeaf`](ILeaf.md) \| [`INode`](INode.md)
 
-textureFormat can be either UASTC or ETC1S
+textureFormat can be either UASTC, ETC1S or RGBA32

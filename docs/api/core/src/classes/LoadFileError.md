@@ -6,7 +6,7 @@
 
 # Class: LoadFileError
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L24)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L26)
 
 ## Ignore
 
@@ -20,7 +20,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:24](h
 
 > **new LoadFileError**(`message`, `object?`): `LoadFileError`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L33)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L35)
 
 Creates a new LoadFileError
 
@@ -52,7 +52,7 @@ defines the optional web request
 
 > **errorCode**: [`ErrorCodesType`](../type-aliases/ErrorCodesType.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L63)
+Defined in: [packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L63)
 
 The error code
 
@@ -66,7 +66,7 @@ The error code
 
 > `optional` **file?**: `File`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L26)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L28)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:26](h
 
 > `optional` **innerError?**: `Error`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/error.ts#L68)
+Defined in: [packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L68)
 
 The error that caused this outer error
 
@@ -88,4 +88,4 @@ The error that caused this outer error
 
 > `optional` **request?**: [`WebRequest`](WebRequest.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/fileTools.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/fileTools.pure.ts#L25)
+Defined in: [packages/dev/core/src/Misc/fileTools.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/fileTools.pure.ts#L27)

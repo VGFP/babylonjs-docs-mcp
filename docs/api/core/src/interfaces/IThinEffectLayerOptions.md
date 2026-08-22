@@ -6,7 +6,7 @@
 
 # Interface: IThinEffectLayerOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:90](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L90)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L90)
 
 Effect layer options. This helps customizing the behaviour
 of the effect layer.
@@ -23,7 +23,7 @@ of the effect layer.
 
 > `optional` **alphaBlendingMode?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L115)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L115)
 
 Alpha blending mode used to apply the blur. Default depends of the implementation. Default: ALPHA_COMBINE
 
@@ -33,7 +33,7 @@ Alpha blending mode used to apply the blur. Default depends of the implementatio
 
 > `optional` **camera?**: [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](../classes/Camera.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L120)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L120)
 
 The camera attached to the layer. Default: null
 
@@ -43,7 +43,7 @@ The camera attached to the layer. Default: null
 
 > `optional` **mainTextureFixedSize?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:100](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L100)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L100)
 
 Enforces a fixed size texture to ensure resize independent blur. Default: undefined
 
@@ -53,7 +53,7 @@ Enforces a fixed size texture to ensure resize independent blur. Default: undefi
 
 > `optional` **mainTextureFormat?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L110)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L110)
 
 The format of the main texture. Default: TEXTUREFORMAT_RGBA
 
@@ -63,7 +63,7 @@ The format of the main texture. Default: TEXTUREFORMAT_RGBA
 
 > `optional` **mainTextureRatio?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:95](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L95)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L95)
 
 Multiplication factor apply to the canvas size to compute the render target size
 used to generated the glowing objects (the smaller the faster). Default: 0.5
@@ -74,7 +74,7 @@ used to generated the glowing objects (the smaller the faster). Default: 0.5
 
 > `optional` **mainTextureType?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L105)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L105)
 
 The type of the main texture. Default: TEXTURETYPE_UNSIGNED_BYTE
 
@@ -84,6 +84,6 @@ The type of the main texture. Default: TEXTURETYPE_UNSIGNED_BYTE
 
 > `optional` **renderingGroupId?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Layers/thinEffectLayer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Layers/thinEffectLayer.ts#L125)
+Defined in: [packages/dev/core/src/Layers/thinEffectLayer.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/thinEffectLayer.ts#L125)
 
 The rendering group to draw the layer in. Default: -1

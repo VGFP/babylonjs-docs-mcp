@@ -8,7 +8,7 @@
 
 > **TouchConditions** = `object`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:43](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L43)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L43)
 
 Conditions for touch inputs.
 
@@ -18,6 +18,6 @@ Conditions for touch inputs.
 
 > `optional` **touchCount?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Cameras/inputMapper.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Cameras/inputMapper.ts#L45)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L45)
 
 Number of active touch points. Omit to match any count.

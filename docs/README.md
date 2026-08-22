@@ -1,6 +1,6 @@
-# BabylonJS Documentation (v9.13.0)
+# BabylonJS Documentation (v9.22.1)
 
-Generated on 2026-06-18.
+Generated on 2026-08-22.
 
 ## Structure
 
@@ -15,5 +15,5 @@ Generated on 2026-06-18.
 
 ## Stats
 
-- API docs: 3562 files
-- Examples/guides: 661 files
+- API docs: 3729 files
+- Examples/guides: 692 files

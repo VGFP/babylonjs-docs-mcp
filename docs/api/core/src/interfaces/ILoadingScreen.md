@@ -6,7 +6,7 @@
 
 # Interface: ILoadingScreen
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/loadingScreen.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/loadingScreen.pure.ts#L12)
+Defined in: [packages/dev/core/src/Loading/loadingScreen.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/loadingScreen.pure.ts#L13)
 
 Interface used to present a loading screen while loading a scene
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/customLoadingScreen
 
 > **displayLoadingUI**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/loadingScreen.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/loadingScreen.pure.ts#L16)
+Defined in: [packages/dev/core/src/Loading/loadingScreen.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/loadingScreen.pure.ts#L17)
 
 Function called to display the loading screen
 
@@ -34,7 +34,7 @@ Function called to display the loading screen
 
 > **hideLoadingUI**: () => `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/loadingScreen.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/loadingScreen.pure.ts#L20)
+Defined in: [packages/dev/core/src/Loading/loadingScreen.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/loadingScreen.pure.ts#L21)
 
 Function called to hide the loading screen
 
@@ -48,7 +48,7 @@ Function called to hide the loading screen
 
 > **loadingUIBackgroundColor**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/loadingScreen.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/loadingScreen.pure.ts#L24)
+Defined in: [packages/dev/core/src/Loading/loadingScreen.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/loadingScreen.pure.ts#L25)
 
 Gets or sets the color to use for the background
 
@@ -58,6 +58,6 @@ Gets or sets the color to use for the background
 
 > **loadingUIText**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Loading/loadingScreen.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Loading/loadingScreen.pure.ts#L28)
+Defined in: [packages/dev/core/src/Loading/loadingScreen.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/loadingScreen.pure.ts#L29)
 
 Gets or sets the text to display while loading

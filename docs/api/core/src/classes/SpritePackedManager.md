@@ -6,7 +6,7 @@
 
 # Class: SpritePackedManager
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spritePackedManager.ts:10](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spritePackedManager.ts#L10)
+Defined in: [packages/dev/core/src/Sprites/spritePackedManager.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spritePackedManager.ts#L10)
 
 Class used to manage multiple sprites of different sizes on the same spritesheet
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/sprites
 
 > **new SpritePackedManager**(`name`, `imgUrl`, `capacity`, `scene`, `spriteJSON?`, `epsilon?`, `samplingMode?`, `options?`): `SpritePackedManager`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spritePackedManager.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spritePackedManager.ts#L24)
+Defined in: [packages/dev/core/src/Sprites/spritePackedManager.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spritePackedManager.ts#L24)
 
 Creates a new sprite manager from a packed sprite sheet
 
@@ -92,7 +92,7 @@ options for the sprite manager
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:184](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L184)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L184)
 
 Specifies if the sprite manager should be serialized
 
@@ -106,7 +106,7 @@ Specifies if the sprite manager should be serialized
 
 > **isPickable**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:151](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L151)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L151)
 
 Gets or sets a boolean indicating if the sprites are pickable
 
@@ -120,7 +120,7 @@ Gets or sets a boolean indicating if the sprites are pickable
 
 > **layerMask**: `number` = `0x0fffffff`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:149](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L149)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L149)
 
 Gets or sets camera layer mask
 
@@ -134,7 +134,7 @@ Gets or sets camera layer mask
 
 > **metadata**: `any` = `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:156](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L156)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L156)
 
 Gets or sets an object used to store user defined information for the sprite manager
 
@@ -148,7 +148,7 @@ Gets or sets an object used to store user defined information for the sprite man
 
 > **name**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spritePackedManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spritePackedManager.ts#L26)
+Defined in: [packages/dev/core/src/Sprites/spritePackedManager.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spritePackedManager.ts#L26)
 
 defines the packed manager's name
 
@@ -162,7 +162,7 @@ defines the packed manager's name
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`SpriteManager`](SpriteManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:164](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L164)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L164)
 
 An event triggered when the manager is disposed.
 
@@ -176,7 +176,7 @@ An event triggered when the manager is disposed.
 
 > **renderingGroupId**: `number` = `0`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:147](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L147)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L147)
 
 Gets or sets the rendering group id (0 by default)
 
@@ -190,7 +190,7 @@ Gets or sets the rendering group id (0 by default)
 
 > **snippetId**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:142](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L142)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L142)
 
 Snippet ID if the manager was created from the snippet server
 
@@ -204,7 +204,7 @@ Snippet ID if the manager was created from the snippet server
 
 > **sprites**: [`Sprite`](Sprite.md)[] = `[]`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:145](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L145)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L145)
 
 Gets the list of sprites
 
@@ -218,7 +218,7 @@ Gets the list of sprites
 
 > **uniqueId**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:179](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L179)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L179)
 
 Gets or sets the unique id of the sprite
 
@@ -232,7 +232,7 @@ Gets or sets the unique id of the sprite
 
 > `static` **CreateFromSnippetAsync**: (`snippetId`, `scene`, `rootUrl`) => `Promise`\<[`SpriteManager`](SpriteManager.md)\> = `SpriteManager.ParseFromSnippetAsync`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:888](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L888)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:888](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L888)
 
 Creates a sprite manager from a snippet saved by the sprite editor
 
@@ -300,7 +300,7 @@ a promise that will resolve to the new sprite manager
 
 > `static` **SnippetUrl**: `string` = `Constants.SnippetUrl`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:139](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L139)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L139)
 
 Define the Url to load snippets
 
@@ -316,7 +316,7 @@ Define the Url to load snippets
 
 > **get** **blendMode**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:257](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L257)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L257)
 
 Blend mode use to render the particle, it can be any of
 the static Constants.ALPHA_x properties provided in this class.
@@ -330,7 +330,7 @@ Default value is Constants.ALPHA_COMBINE
 
 > **set** **blendMode**(`blendMode`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:260](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L260)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L260)
 
 ##### Parameters
 
@@ -354,7 +354,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:260
 
 > **get** **capacity**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:203](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L203)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L203)
 
 Gets the capacity of the manager
 
@@ -374,7 +374,7 @@ Gets the capacity of the manager
 
 > **get** **cellHeight**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:229](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L229)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L229)
 
 Defines the default height of a cell in the spritesheet
 
@@ -386,7 +386,7 @@ Defines the default height of a cell in the spritesheet
 
 > **set** **cellHeight**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:232](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L232)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L232)
 
 Defines the default height of a cell in the spritesheet
 
@@ -414,7 +414,7 @@ Defines the default height of a cell in the spritesheet
 
 > **get** **cellWidth**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:221](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L221)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L221)
 
 Defines the default width of a cell in the spritesheet
 
@@ -426,7 +426,7 @@ Defines the default width of a cell in the spritesheet
 
 > **set** **cellWidth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:224](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L224)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:224](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L224)
 
 Defines the default width of a cell in the spritesheet
 
@@ -454,7 +454,7 @@ Defines the default width of a cell in the spritesheet
 
 > **get** **children**(): [`Sprite`](Sprite.md)[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:189](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L189)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L189)
 
 Gets the array of sprites
 
@@ -474,7 +474,7 @@ Gets the array of sprites
 
 > **get** **disableDepthWrite**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:269](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L269)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:269](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L269)
 
 Disables writing to the depth buffer when rendering the sprites.
  It can be handy to disable depth writing when using textures without alpha channel
@@ -488,7 +488,7 @@ Disables writing to the depth buffer when rendering the sprites.
 
 > **set** **disableDepthWrite**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:273](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L273)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L273)
 
 ##### Parameters
 
@@ -512,7 +512,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:273
 
 > **get** **fogEnabled**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:237](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L237)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L237)
 
 Gets or sets a boolean indicating if the manager must consider scene fog when rendering
 
@@ -524,7 +524,7 @@ Gets or sets a boolean indicating if the manager must consider scene fog when re
 
 > **set** **fogEnabled**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:240](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L240)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L240)
 
 ##### Parameters
 
@@ -548,7 +548,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:240
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L169)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L169)
 
 Callback called when the manager is disposed
 
@@ -574,7 +574,7 @@ Callback called when the manager is disposed
 
 > **get** **pixelPerfect**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:283](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L283)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L283)
 
 Gets or sets a boolean indicating if the renderer must render sprites with pixel perfect rendering
 In this mode, sprites are rendered as "pixel art", which means that they appear as pixelated but remain stable when moving or when rotated or scaled.
@@ -588,7 +588,7 @@ Note that for this mode to work as expected, the sprite texture must use the BIL
 
 > **set** **pixelPerfect**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:287](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L287)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L287)
 
 ##### Parameters
 
@@ -612,7 +612,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:287
 
 > **get** **scene**(): `InternalSpriteAugmentedScene`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:196](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L196)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L196)
 
 Gets the hosting scene
 
@@ -634,7 +634,7 @@ Gets the hosting scene
 
 > **get** **spriteRenderer**(): `SpriteRenderer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:297](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L297)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L297)
 
 Gets the sprite renderer associated with this manager
 
@@ -654,7 +654,7 @@ Gets the sprite renderer associated with this manager
 
 > **get** **texture**(): [`Texture`](Texture.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:210](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L210)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L210)
 
 Gets or sets the spritesheet texture
 
@@ -666,7 +666,7 @@ Gets or sets the spritesheet texture
 
 > **set** **texture**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:213](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L213)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:213](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L213)
 
 Gets or sets the spritesheet texture
 
@@ -694,7 +694,7 @@ Gets or sets the spritesheet texture
 
 > **get** **useLogarithmicDepth**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:245](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L245)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L245)
 
 Gets or sets a boolean indicating if the manager must use logarithmic depth when rendering
 
@@ -706,7 +706,7 @@ Gets or sets a boolean indicating if the manager must use logarithmic depth when
 
 > **set** **useLogarithmicDepth**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L248)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L248)
 
 ##### Parameters
 
@@ -728,7 +728,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:248
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:689](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L689)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:689](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L689)
 
 Release associated resources
 
@@ -746,7 +746,7 @@ Release associated resources
 
 > **getClassName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:384](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L384)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:384](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L384)
 
 Returns the string "SpriteManager"
 
@@ -766,7 +766,7 @@ Returns the string "SpriteManager"
 
 > **intersects**(`ray`, `camera`, `predicate?`, `fastCheck?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:492](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L492)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L492)
 
 Intersects the sprites with a ray
 
@@ -812,7 +812,7 @@ null if no hit or a PickingInfo
 
 > **multiIntersects**(`ray`, `camera`, `predicate?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](PickingInfo.md)[]\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:589](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L589)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:589](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L589)
 
 Intersects the sprites with a ray
 
@@ -852,7 +852,7 @@ null if no hit or a PickingInfo array
 
 > **rebuild**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:682](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L682)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:682](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L682)
 
 Rebuilds the manager (after a context lost, for eg)
 
@@ -870,7 +870,7 @@ Rebuilds the manager (after a context lost, for eg)
 
 > **render**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:650](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L650)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:650](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L650)
 
 Render all child sprites
 
@@ -888,7 +888,7 @@ Render all child sprites
 
 > **serialize**(`serializeTexture?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:724](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L724)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:724](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L724)
 
 Serializes the sprite manager to a JSON object
 
@@ -916,7 +916,7 @@ the JSON object
 
 > `static` **Parse**(`parsedManager`, `scene`, `rootUrl`): [`SpriteManager`](SpriteManager.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:764](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L764)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:764](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L764)
 
 Parses a JSON object to create a new sprite manager.
 
@@ -956,7 +956,7 @@ the new sprite manager
 
 > `static` **ParseFromFileAsync**(`name`, `url`, `scene`, `rootUrl?`): `Promise`\<[`SpriteManager`](SpriteManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:817](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L817)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:817](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L817)
 
 Creates a sprite manager from a snippet saved in a remote file
 
@@ -1002,7 +1002,7 @@ a promise that will resolve to the new sprite manager
 
 > `static` **ParseFromSnippetAsync**(`snippetId`, `scene`, `rootUrl?`): `Promise`\<[`SpriteManager`](SpriteManager.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Sprites/spriteManager.ts:851](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Sprites/spriteManager.ts#L851)
+Defined in: [packages/dev/core/src/Sprites/spriteManager.ts:851](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteManager.ts#L851)
 
 Creates a sprite manager from a snippet saved by the sprite editor
 

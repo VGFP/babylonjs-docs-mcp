@@ -6,7 +6,7 @@
 
 # Interface: IWebXRRawCameraAccessOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L16)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L16)
 
 Options for raw camera access
 
@@ -16,6 +16,6 @@ Options for raw camera access
 
 > `optional` **doNotDisposeOnDetach?**: `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L20)
+Defined in: [packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRRawCameraAccess.pure.ts#L20)
 
 Keep the created textures and metadata when detaching the feature.

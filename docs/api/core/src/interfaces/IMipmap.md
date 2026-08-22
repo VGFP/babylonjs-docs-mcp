@@ -6,7 +6,7 @@
 
 # Interface: IMipmap
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:169](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L169)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L177)
 
 Defines a mipmap level
 
@@ -16,7 +16,7 @@ Defines a mipmap level
 
 > **data**: `Uint8Array`\<`ArrayBufferLike`\> \| `null`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:173](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L173)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L181)
 
 The data of the mipmap level
 
@@ -26,9 +26,19 @@ The data of the mipmap level
 
 > **height**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:183](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L183)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L191)
 
 The height of the mipmap level
+
+***
+
+### layerIndex
+
+> **layerIndex**: `number`
+
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L196)
+
+The array layer this mipmap level belongs to. 0 for a regular (non array) texture
 
 ***
 
@@ -36,6 +46,6 @@ The height of the mipmap level
 
 > **width**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:178](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L178)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L186)
 
 The width of the mipmap level

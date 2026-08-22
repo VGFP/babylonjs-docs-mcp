@@ -6,7 +6,7 @@
 
 # Class: WebXRImageTracking
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L81)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L80)
 
 Image tracking for immersive AR sessions.
 Providing a list of images and their estimated widths will enable tracking those images in the real world.
@@ -21,7 +21,7 @@ Providing a list of images and their estimated widths will enable tracking those
 
 > **new WebXRImageTracking**(`_xrSessionManager`, `options`): `WebXRImageTracking`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L117)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L116)
 
 constructs the image tracking feature
 
@@ -53,7 +53,7 @@ read-only options to be used in this module
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -67,7 +67,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:27](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L27)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -81,7 +81,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:22](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L22)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -95,7 +95,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:49](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L49)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -109,7 +109,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L53)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -123,7 +123,7 @@ Observers registered here will be executed when the feature is detached
 
 > **onTrackableImageFoundObservable**: [`Observable`](Observable.md)\<[`IWebXRTrackedImage`](../interfaces/IWebXRTrackedImage.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L101)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L100)
 
 An image was deemed trackable, and the system will start tracking it.
 
@@ -133,7 +133,7 @@ An image was deemed trackable, and the system will start tracking it.
 
 > **onTrackedImageUpdatedObservable**: [`Observable`](Observable.md)\<[`IWebXRTrackedImage`](../interfaces/IWebXRTrackedImage.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L105)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L104)
 
 The image was found and its state was updated.
 
@@ -143,7 +143,7 @@ The image was found and its state was updated.
 
 > **onUntrackableImageFoundObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L97)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L96)
 
 This will be triggered if the underlying system deems an image untrackable.
 The index is the index of the image from the array used to initialize the feature.
@@ -154,7 +154,7 @@ The index is the index of the image from the array used to initialize the featur
 
 > `readonly` **options**: [`IWebXRImageTrackingOptions`](../interfaces/IWebXRImageTrackingOptions.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L122)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L121)
 
 read-only options to be used in this module
 
@@ -164,7 +164,7 @@ read-only options to be used in this module
 
 > `readonly` `static` **Name**: `"xr-image-tracking"` = `WebXRFeatureName.IMAGE_TRACKING`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L85)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L84)
 
 The module's name
 
@@ -174,7 +174,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L91)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L90)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -188,7 +188,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L69)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -210,7 +210,7 @@ Is this feature attached
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -222,7 +222,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:38](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -248,7 +248,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L134)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L133)
 
 attach this feature
 Will usually be called by the features manager
@@ -269,7 +269,7 @@ true if successful.
 
 > **detach**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L144)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L143)
 
 detach this feature.
 Will usually be called by the features manager
@@ -290,7 +290,7 @@ true if successful.
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L161)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L160)
 
 Dispose this feature and all of the resources attached
 
@@ -308,7 +308,7 @@ Dispose this feature and all of the resources attached
 
 > **getTrackedImageById**(`id`): [`Nullable`](../type-aliases/Nullable.md)\<[`IWebXRTrackedImage`](../interfaces/IWebXRTrackedImage.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L154)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L153)
 
 Get a tracked image by its ID.
 
@@ -332,7 +332,7 @@ a trackable image, if exists in this location
 
 > **getXRSessionInitExtension**(): `Promise`\<`Partial`\<`XRSessionInit`\>\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L176)
+Defined in: [packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRImageTracking.pure.ts#L175)
 
 Extends the session init object if needed
 
@@ -348,7 +348,7 @@ augmentation object fo the xr session init object.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:144](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L144)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

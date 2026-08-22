@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphConstantBlockConfiguration\<T\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts#L14)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts#L14)
 
 Configuration for a constant block.
 
@@ -30,7 +30,7 @@ Configuration for a constant block.
 
 > `optional` **name?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -44,6 +44,6 @@ The name of the block.
 
 > **value**: `T`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts#L18)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphConstantBlock.pure.ts#L18)
 
 The value of the constant.

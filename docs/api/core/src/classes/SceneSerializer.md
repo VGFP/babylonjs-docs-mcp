@@ -6,7 +6,7 @@
 
 # Class: SceneSerializer
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneSerializer.ts:122](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneSerializer.ts#L122)
+Defined in: [packages/dev/core/src/Misc/sceneSerializer.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneSerializer.ts#L122)
 
 Class used to serialize a scene into a string
 
@@ -26,7 +26,7 @@ Class used to serialize a scene into a string
 
 > `static` **ClearCache**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneSerializer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneSerializer.ts#L126)
+Defined in: [packages/dev/core/src/Misc/sceneSerializer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneSerializer.ts#L126)
 
 Clear cache used by a previous serialization
 
@@ -40,7 +40,7 @@ Clear cache used by a previous serialization
 
 > `static` **Serialize**(`scene`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneSerializer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneSerializer.ts#L137)
+Defined in: [packages/dev/core/src/Misc/sceneSerializer.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneSerializer.ts#L137)
 
 Serialize a scene into a JSON compatible object
 Note that if the current engine does not support synchronous texture reading (like WebGPU), you should use SerializeAsync instead
@@ -66,7 +66,7 @@ a JSON compatible object
 
 > `static` **SerializeAsync**(`scene`): `Promise`\<`any`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneSerializer.ts:387](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneSerializer.ts#L387)
+Defined in: [packages/dev/core/src/Misc/sceneSerializer.ts:387](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneSerializer.ts#L387)
 
 Serialize a scene into a JSON compatible object
 
@@ -90,7 +90,7 @@ a JSON promise compatible object
 
 > `static` **SerializeMesh**(`toSerialize`, `withParents?`, `withChildren?`): `any`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/sceneSerializer.ts:431](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/sceneSerializer.ts#L431)
+Defined in: [packages/dev/core/src/Misc/sceneSerializer.ts:431](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneSerializer.ts#L431)
 
 Serialize a mesh into a JSON compatible object
 

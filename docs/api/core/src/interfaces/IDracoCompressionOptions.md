@@ -6,7 +6,7 @@
 
 # Interface: IDracoCompressionOptions
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCompression.ts:24](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L24)
+Defined in: [packages/dev/core/src/Meshes/Compression/dracoCompression.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/dracoCompression.ts#L24)
 
 Options for Draco compression
 
@@ -20,7 +20,7 @@ Options for Draco compression
 
 > `optional` **numWorkers?**: `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L28)
+Defined in: [packages/dev/core/src/Meshes/Compression/dracoCodec.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L28)
 
 The number of workers for async operations. Specify `0` to disable web workers and run synchronously in the current context.
 
@@ -34,7 +34,7 @@ The number of workers for async operations. Specify `0` to disable web workers a
 
 > `optional` **wasmBinary?**: `ArrayBuffer`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:40](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L40)
+Defined in: [packages/dev/core/src/Meshes/Compression/dracoCodec.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L40)
 
 Optional ArrayBuffer of the WebAssembly binary.
 If provided it will be used instead of loading the binary from wasmBinaryUrl.
@@ -49,7 +49,7 @@ If provided it will be used instead of loading the binary from wasmBinaryUrl.
 
 > `optional` **workerPool?**: [`WorkerPool`](../classes/WorkerPool.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Meshes/Compression/dracoCodec.ts:34](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L34)
+Defined in: [packages/dev/core/src/Meshes/Compression/dracoCodec.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/dracoCodec.ts#L34)
 
 Optional worker pool to use for async encoding/decoding.
 If provided, the worker pool will be used as is: no Draco scripts will be loaded, and numWorkers will be ignored.

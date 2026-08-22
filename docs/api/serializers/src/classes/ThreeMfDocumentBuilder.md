@@ -6,7 +6,10 @@
 
 # Class: ThreeMfDocumentBuilder
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:437](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L437)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:471](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L471)
+
+Fluent builder for a 3MF document, the OPC package that wraps the model.
+It gathers the content types, the relationships and the model part.
 
 ## Constructors
 
@@ -24,11 +27,20 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **build**(): [`I3mfDocument`](../interfaces/I3mfDocument.md)
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:491](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L491)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:532](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L532)
+
+Validates and returns the document that has been built.
+A default relationship pointing at the model part is generated when none was provided.
 
 #### Returns
 
 [`I3mfDocument`](../interfaces/I3mfDocument.md)
+
+The built 3MF document.
+
+#### Throws
+
+When no model has been set.
 
 ***
 
@@ -36,7 +48,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withContentType**(`type`): `ThreeMfDocumentBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:447](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L447)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L481)
+
+Declares an OPC content type. Duplicate declarations are ignored.
 
 #### Parameters
 
@@ -44,9 +58,13 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`I3mfContentType`](../interfaces/I3mfContentType.md)
 
+The extension to content type mapping to declare.
+
 #### Returns
 
 `ThreeMfDocumentBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -54,7 +72,9 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withModel**(`m`): `ThreeMfDocumentBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:481](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L481)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:516](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L516)
+
+Sets the model part of the document and ensures the model content type is declared.
 
 #### Parameters
 
@@ -62,9 +82,13 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`I3mfModel`](../interfaces/I3mfModel.md) \| [`ThreeMfModelBuilder`](ThreeMfModelBuilder.md)
 
+The model resource, or a builder that produces one.
+
 #### Returns
 
 `ThreeMfDocumentBuilder`
+
+This builder, to allow chaining.
 
 ***
 
@@ -72,7 +96,10 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 > **withRelationship**(`rel`): `ThreeMfDocumentBuilder`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:463](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L463)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:498](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L498)
+
+Adds an OPC relationship and ensures the relationships content type is declared.
+Relationships with an already registered id are ignored.
 
 #### Parameters
 
@@ -80,6 +107,10 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.bu
 
 [`I3mfRelationship`](../interfaces/I3mfRelationship.md)
 
+The relationship to add.
+
 #### Returns
 
 `ThreeMfDocumentBuilder`
+
+This builder, to allow chaining.

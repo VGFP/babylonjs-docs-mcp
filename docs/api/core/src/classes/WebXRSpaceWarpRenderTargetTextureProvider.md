@@ -6,7 +6,7 @@
 
 # Class: WebXRSpaceWarpRenderTargetTextureProvider
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L132)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L135)
 
 WebXR Space Warp Render Target Texture Provider
 
@@ -20,7 +20,7 @@ WebXR Space Warp Render Target Texture Provider
 
 > **new WebXRSpaceWarpRenderTargetTextureProvider**(`_scene`, `_xrSessionManager`, `_xrWebGLBinding`): `WebXRSpaceWarpRenderTargetTextureProvider`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L138)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L141)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.p
 
 > **accessMotionVector**(`view`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L230)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L233)
 
 Access the motion vector (which will turn on Space Warp)
 
@@ -68,7 +68,7 @@ the view to access the motion vector texture for
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L256)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L259)
 
 Releases all held resources
 
@@ -86,7 +86,7 @@ Releases all held resources
 
 > **getRenderTargetTextureForEye**(`_eye`): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L244)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L247)
 
 Gets the render target texture for the specified eye
 
@@ -114,7 +114,7 @@ the render target texture or null
 
 > **getRenderTargetTextureForView**(`view`): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetTexture`](RenderTargetTexture.md)\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L248)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L251)
 
 Gets the correct render target texture to be rendered this frame for this view
 
@@ -142,7 +142,7 @@ the render target for the specified view or null if not available
 
 > **trySetViewportForView**(`viewport`, `view`): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L217)
+Defined in: [packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts:220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRSpaceWarp.pure.ts#L220)
 
 Attempts to set the framebuffer-size-normalized viewport to be rendered this frame for this view.
 In the event of a failure, the supplied viewport is not updated.

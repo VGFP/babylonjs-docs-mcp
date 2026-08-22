@@ -6,7 +6,7 @@
 
 # Class: ThreeMfRelationship
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:66](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L66)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L66)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > **new ThreeMfRelationship**(`id`, `type`, `target`): `ThreeMfRelationship`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:85](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L85)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L85)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > **id**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:71](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L71)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L71)
 
 #### Implementation of
 
@@ -56,7 +56,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > `optional` **target?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:83](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L83)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L83)
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > `optional` **type?**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:77](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L77)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L77)
 
 #### Implementation of
 

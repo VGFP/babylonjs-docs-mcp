@@ -6,7 +6,7 @@
 
 # Interface: I3mfContentType
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:102](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L102)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L102)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > **ct**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:110](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L110)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L110)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.op
 
 > **ext**: `string`
 
-Defined in: [babylonjs-source/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:106](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L106)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:106](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L106)

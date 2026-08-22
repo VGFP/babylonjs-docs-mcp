@@ -8,7 +8,7 @@
 
 > **TrianglePickingPredicate** = (`p0`, `p1`, `p2`, `ray`, `i0`, `i1`, `i2`) => `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Culling/ray.core.ts:26](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Culling/ray.core.ts#L26)
+Defined in: [packages/dev/core/src/Culling/ray.core.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/ray.core.ts#L26)
 
 Type used to define predicate used to select faces when a mesh intersection is detected
 

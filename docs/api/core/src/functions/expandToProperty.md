@@ -6,9 +6,9 @@
 
 # Function: expandToProperty()
 
-> **expandToProperty**(`callback`, `targetKey?`): (`target`, `propertyKey`) => `void`
+> **expandToProperty**(`callback`, `targetKey?`): \<`This`, `V`\>(`_value`, `context`) => `ClassAccessorDecoratorResult`\<`This`, `V`\>
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.ts:46](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/decorators.ts#L46)
+Defined in: [packages/dev/core/src/Misc/decorators.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/decorators.ts#L63)
 
 ## Parameters
 
@@ -22,4 +22,4 @@ Defined in: [babylonjs-source/packages/dev/core/src/Misc/decorators.ts:46](https
 
 ## Returns
 
-(`target`, `propertyKey`) => `void`
+\<`This`, `V`\>(`_value`, `context`) => `ClassAccessorDecoratorResult`\<`This`, `V`\>

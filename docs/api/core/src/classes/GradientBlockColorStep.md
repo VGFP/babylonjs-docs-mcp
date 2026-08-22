@@ -6,7 +6,7 @@
 
 # Class: GradientBlockColorStep
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L16)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L16)
 
 Class used to store a color step for the GradientBlock
 
@@ -16,7 +16,7 @@ Class used to store a color step for the GradientBlock
 
 > **new GradientBlockColorStep**(`step`, `color`): `GradientBlockColorStep`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L53)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L53)
 
 Creates a new GradientBlockColorStep
 
@@ -46,7 +46,7 @@ defines the color associated with this step
 
 > **get** **color**(): [`Color3`](Color3.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L37)
 
 Gets the color associated with this step
 
@@ -58,7 +58,7 @@ Gets the color associated with this step
 
 > **set** **color**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L44)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L44)
 
 Sets the color associated with this step
 
@@ -80,7 +80,7 @@ Sets the color associated with this step
 
 > **get** **step**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L21)
 
 Gets value indicating which step this color is associated with (between 0 and 1)
 
@@ -92,7 +92,7 @@ Gets value indicating which step this color is associated with (between 0 and 1)
 
 > **set** **step**(`val`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L28)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/gradientBlock.pure.ts#L28)
 
 Sets a value indicating which step this color is associated with (between 0 and 1)
 

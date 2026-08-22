@@ -8,7 +8,7 @@
 
 > **AnimationGroupParse**(`parsedAnimationGroup`, `scene`, `targetLookup?`): [`AnimationGroup`](../classes/AnimationGroup.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/Animations/animationGroup.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Animations/animationGroup.pure.ts#L1047)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:1050](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L1050)
 
 Returns a new AnimationGroup object parsed from the source provided.
 

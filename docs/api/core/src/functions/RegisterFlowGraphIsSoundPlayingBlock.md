@@ -8,7 +8,7 @@
 
 > **RegisterFlowGraphIsSoundPlayingBlock**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/FlowGraph/Blocks/Data/Audio/flowGraphIsSoundPlayingBlock.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/FlowGraph/Blocks/Data/Audio/flowGraphIsSoundPlayingBlock.pure.ts#L56)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Audio/flowGraphIsSoundPlayingBlock.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Audio/flowGraphIsSoundPlayingBlock.pure.ts#L56)
 
 Register side effects for flowGraphIsSoundPlayingBlock.
 Safe to call multiple times; only the first call has an effect.

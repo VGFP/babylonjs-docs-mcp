@@ -6,7 +6,7 @@
 
 # Class: ThinDepthOfFieldEffect
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:29](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L29)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L29)
 
 Thin depth of field effect composed of circle of confusion, blur, and merge post processes.
 
@@ -16,7 +16,7 @@ Thin depth of field effect composed of circle of confusion, blur, and merge post
 
 > **new ThinDepthOfFieldEffect**(`name`, `engine`, `blurLevel?`, `depthNotNormalized?`, `blockCompilation?`): `ThinDepthOfFieldEffect`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:89](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L89)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L89)
 
 Creates a new instance of
 
@@ -66,7 +66,7 @@ ThinDepthOfFieldEffect
 
 > `readonly` **blurLevel**: [`ThinDepthOfFieldEffectBlurLevel`](../enumerations/ThinDepthOfFieldEffectBlurLevel.md)
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:79](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L79)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L79)
 
 The quality of the effect.
 
@@ -78,7 +78,7 @@ The quality of the effect.
 
 > **get** **focalLength**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:45](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L45)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L45)
 
 ##### Returns
 
@@ -88,7 +88,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFie
 
 > **set** **focalLength**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:42](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L42)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L42)
 
 The focal the length of the camera used in the effect in scene units/1000 (eg. millimeter)
 
@@ -110,7 +110,7 @@ The focal the length of the camera used in the effect in scene units/1000 (eg. m
 
 > **get** **focusDistance**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:63](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L63)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L63)
 
 ##### Returns
 
@@ -120,7 +120,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFie
 
 > **set** **focusDistance**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:60](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L60)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L60)
 
 Distance away from the camera to focus on in scene units/1000 (eg. millimeter). (default: 2000)
 
@@ -142,7 +142,7 @@ Distance away from the camera to focus on in scene units/1000 (eg. millimeter). 
 
 > **get** **fStop**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:54](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L54)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L54)
 
 ##### Returns
 
@@ -152,7 +152,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFie
 
 > **set** **fStop**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:51](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L51)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L51)
 
 F-Stop of the effect's camera. The diameter of the resulting aperture can be computed by lensSize/fStop. (default: 1.4)
 
@@ -174,7 +174,7 @@ F-Stop of the effect's camera. The diameter of the resulting aperture can be com
 
 > **get** **lensSize**(): `number`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:72](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L72)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L72)
 
 ##### Returns
 
@@ -184,7 +184,7 @@ Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFie
 
 > **set** **lensSize**(`value`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:69](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L69)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L69)
 
 Max lens size in scene units/1000 (eg. millimeter). Standard cameras are 50mm. (default: 50) The diameter of the resulting aperture can be computed by lensSize/fStop.
 
@@ -204,7 +204,7 @@ Max lens size in scene units/1000 (eg. millimeter). Standard cameras are 50mm. (
 
 > **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:134](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L134)
+Defined in: [packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinDepthOfFieldEffect.ts#L134)
 
 Checks if the effect is ready to be used
 

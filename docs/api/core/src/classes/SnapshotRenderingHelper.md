@@ -6,7 +6,7 @@
 
 # Class: SnapshotRenderingHelper
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:47](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L47)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L43)
 
 A helper class to simplify work with FAST snapshot mode (WebGPU only - can be used in WebGL too, but won't do anything).
 
@@ -16,7 +16,7 @@ A helper class to simplify work with FAST snapshot mode (WebGPU only - can be us
 
 > **new SnapshotRenderingHelper**(`scene`, `options?`): `SnapshotRenderingHelper`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:73](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L73)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L69)
 
 Creates a new snapshot rendering helper
 Note that creating an instance of the helper will set the snapshot rendering mode to SNAPSHOTRENDERING_FAST but will not enable snapshot rendering (engine.snapshotRendering is not updated).
@@ -46,7 +46,7 @@ The options for the helper
 
 > **showDebugLogs**: `boolean` = `false`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:64](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L64)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L60)
 
 Indicates if debug logs should be displayed
 
@@ -58,7 +58,7 @@ Indicates if debug logs should be displayed
 
 > **get** **isReady**(): `boolean`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:182](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L182)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:178](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L178)
 
 Gets a value indicating if the helper is in a steady state (not in the process of enabling snapshot rendering).
 
@@ -72,7 +72,7 @@ Gets a value indicating if the helper is in a steady state (not in the process o
 
 > **disableSnapshotRendering**(`debugMessage?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:249](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L249)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L245)
 
 Disable snapshot rendering
 Note that this method is ref-counted and works in pair with enableSnapshotRendering(): you should call enableSnapshotRendering() as many times as you call disableSnapshotRendering().
@@ -95,7 +95,7 @@ An optional message to display in debug logs to help identify the context of the
 
 > **dispose**(): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:398](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L398)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:394](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L394)
 
 Dispose the helper
 
@@ -109,7 +109,7 @@ Dispose the helper
 
 > **enableSnapshotRendering**(`debugMessage?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:192](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L192)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:188](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L188)
 
 Enable snapshot rendering
 Use this method instead of engine.snapshotRendering=true, to make sure everything is ready before enabling snapshot rendering.
@@ -133,7 +133,7 @@ An optional message to display in debug logs to help identify the context of the
 
 > **fixMeshes**(`meshes?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:312](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L312)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L308)
 
 Fix meshes for snapshot rendering.
 This method will make sure that some features are disabled or fixed to make sure snapshot rendering works correctly.
@@ -156,7 +156,7 @@ List of meshes to fix. If not provided, all meshes in the scene will be fixed.
 
 > **fixParticleSystem**(`particleSystem`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:478](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L478)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:474](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L474)
 
 Make a CPU particle system compatible with FAST snapshot rendering.
 The particle system will always render at full capacity (`getCapacity()` quads), with inactive slots collapsed
@@ -192,7 +192,7 @@ The particle system to fix
 
 > **updateMesh**(`mesh`, `updateInstancedMeshes?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:338](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L338)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L334)
 
 Call this method to update a mesh on the GPU after some properties have changed (position, rotation, scaling).
 Note: in FAST snapshot mode the GPU bundle is recorded once and replayed every frame, so draw calls
@@ -226,7 +226,7 @@ If true, the method will also update instanced meshes. Default is true. If you k
 
 > **updateMeshesForEffectLayer**(`layer`, `autoUpdate?`): `void`
 
-Defined in: [babylonjs-source/packages/dev/core/src/Misc/snapshotRenderingHelper.ts:379](https://github.com/BabylonJS/Babylon.js/blob/4d4dad2f008743af1de7c56c2cbe1a0c8879df33/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L379)
+Defined in: [packages/dev/core/src/Misc/snapshotRenderingHelper.ts:375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/snapshotRenderingHelper.ts#L375)
 
 Update the meshes used in an effect layer to ensure that snapshot rendering works correctly for these meshes in this layer.
 

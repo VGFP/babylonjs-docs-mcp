@@ -6,7 +6,7 @@
 
 # Class: SphericalPolynomial
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L336)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L336)
 
 Class representing spherical polynomial coefficients to the 3rd degree
 
@@ -26,7 +26,7 @@ Class representing spherical polynomial coefficients to the 3rd degree
 
 > **x**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L355)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L355)
 
 The x coefficients of the spherical polynomial
 
@@ -36,7 +36,7 @@ The x coefficients of the spherical polynomial
 
 > **xx**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L370)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L370)
 
 The xx coefficients of the spherical polynomial
 
@@ -46,7 +46,7 @@ The xx coefficients of the spherical polynomial
 
 > **xy**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L385)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L385)
 
 The xy coefficients of the spherical polynomial
 
@@ -56,7 +56,7 @@ The xy coefficients of the spherical polynomial
 
 > **y**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L360)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L360)
 
 The y coefficients of the spherical polynomial
 
@@ -66,7 +66,7 @@ The y coefficients of the spherical polynomial
 
 > **yy**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L375)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L375)
 
 The yy coefficients of the spherical polynomial
 
@@ -76,7 +76,7 @@ The yy coefficients of the spherical polynomial
 
 > **yz**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L390)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L390)
 
 The yz coefficients of the spherical polynomial
 
@@ -86,7 +86,7 @@ The yz coefficients of the spherical polynomial
 
 > **z**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L365)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L365)
 
 The z coefficients of the spherical polynomial
 
@@ -96,7 +96,7 @@ The z coefficients of the spherical polynomial
 
 > **zx**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L395)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L395)
 
 The zx coefficients of the spherical polynomial
 
@@ -106,7 +106,7 @@ The zx coefficients of the spherical polynomial
 
 > **zz**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L380)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L380)
 
 The zz coefficients of the spherical polynomial
 
@@ -118,7 +118,7 @@ The zz coefficients of the spherical polynomial
 
 > **get** **preScaledHarmonics**(): [`SphericalHarmonics`](SphericalHarmonics.md)
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L342)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L342)
 
 The spherical harmonics used to create the polynomials.
 
@@ -132,7 +132,7 @@ The spherical harmonics used to create the polynomials.
 
 > **addAmbient**(`color`): `void`
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L401)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L401)
 
 Adds an ambient color to the spherical polynomial
 
@@ -154,7 +154,7 @@ the color to add
 
 > **scaleInPlace**(`scale`): `void`
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L413)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L413)
 
 Scales the spherical polynomial by the given amount
 
@@ -176,7 +176,7 @@ the amount to scale
 
 > **updateFromHarmonics**(`harmonics`): `SphericalPolynomial`
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L430)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L430)
 
 Updates the spherical polynomial from harmonics
 
@@ -200,7 +200,7 @@ the spherical polynomial
 
 > `static` **FromArray**(`data`): `SphericalPolynomial`
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:477](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L477)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:477](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L477)
 
 Constructs a spherical polynomial from an array.
 
@@ -224,7 +224,7 @@ the spherical polynomial
 
 > `static` **FromHarmonics**(`harmonics`): `SphericalPolynomial`
 
-Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:467](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L467)
+Defined in: [packages/dev/core/src/Maths/sphericalPolynomial.pure.ts:467](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/sphericalPolynomial.pure.ts#L467)
 
 Gets the spherical polynomial from harmonics
 

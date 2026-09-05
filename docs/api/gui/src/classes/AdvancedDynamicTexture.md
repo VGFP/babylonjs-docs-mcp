@@ -6,7 +6,7 @@
 
 # Class: AdvancedDynamicTexture
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L48)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L48)
 
 Class used to create texture to support 2D GUI elements
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui
 
 > **animations**: [`Animation`](../../../core/src/classes/Animation.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L487)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L487)
 
 Define the list of animation attached to the texture.
 
@@ -38,7 +38,7 @@ Define the list of animation attached to the texture.
 
 > **anisotropicFilteringLevel**: `number` = `BaseTexture.DEFAULT_ANISOTROPIC_FILTERING_LEVEL`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L222)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L222)
 
 With compliant hardware and browser (supporting anisotropic filtering)
 this defines the level of anisotropic filtering in the texture.
@@ -54,7 +54,7 @@ The higher the better but the slower. This defaults to 4 as it seems to be the b
 
 > **applyYInversionOnUpdate**: `boolean` = `true`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L162)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:162](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L162)
 
 Gets or sets a boolean indicating that the canvas must be reverted on Y when updating the texture
 
@@ -64,7 +64,7 @@ Gets or sets a boolean indicating that the canvas must be reverted on Y when upd
 
 > **checkPointerEveryFrame**: `boolean` = `false`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:427](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L427)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:427](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L427)
 
 If set to true, every scene render will trigger a pointer event for the GUI
 if it is linked to a mesh or has controls linked to a mesh. This will allow
@@ -77,7 +77,7 @@ but it has a performance cost.
 
 > **delayLoadState**: `number` = `Constants.DELAYLOADSTATE_NONE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L66)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L66)
 
 Define the current state of the loading sequence when in delayed load mode.
 
@@ -91,7 +91,7 @@ Define the current state of the loading sequence when in delayed load mode.
 
 > **disablePicking**: `boolean` = `false`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L173)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L173)
 
 A boolean indicating whether controls can be picked/clicked on or not. Defaults to false.
 
@@ -101,7 +101,7 @@ A boolean indicating whether controls can be picked/clicked on or not. Defaults 
 
 > **disableTabNavigation**: `boolean` = `false`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L168)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:168](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L168)
 
 A boolean indicating whether or not the elements can be navigated to using the tab key.
 Defaults to false.
@@ -112,7 +112,7 @@ Defaults to false.
 
 > **displayName**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L49)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L49)
 
 Define the display name of the texture, which is used as tree item name of the dedicated node in the inspector
 
@@ -126,7 +126,7 @@ Define the display name of the texture, which is used as tree item name of the d
 
 > **homogeneousRotationInUVTransform**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L287)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L287)
 
 Sets this property to true to avoid deformations when rotating the texture with non-uniform scaling
 
@@ -140,7 +140,7 @@ Sets this property to true to avoid deformations when rotating the texture with 
 
 > **inspectableCustomProperties**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`IInspectable`](../../../core/src/interfaces/IInspectable.md)[]\> = `null`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L300)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L300)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -158,7 +158,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **invertZ**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L352)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L352)
 
 Is Z inverted in the texture (useful in a cube texture).
 
@@ -172,7 +172,7 @@ Is Z inverted in the texture (useful in a cube texture).
 
 > **isRenderTarget**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L451)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L451)
 
 Define if the texture is a render target.
 
@@ -186,7 +186,7 @@ Define if the texture is a render target.
 
 > **level**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L111)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L111)
 
 Intensity or strength of the texture.
 It is commonly used by materials to fine tune the intensity of the texture
@@ -201,7 +201,7 @@ It is commonly used by materials to fine tune the intensity of the texture
 
 > **metadata**: `any` = `null`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L55)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L55)
 
 Gets or sets an object used to store user defined information.
 
@@ -215,7 +215,7 @@ Gets or sets an object used to store user defined information.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L43)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L43)
 
 Define the name of the texture.
 
@@ -229,7 +229,7 @@ Define the name of the texture.
 
 > **onBeginLayoutObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L141)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L141)
 
 Observable event triggered before layout is evaluated
 
@@ -239,7 +239,7 @@ Observable event triggered before layout is evaluated
 
 > **onBeginRenderObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L149)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L149)
 
 Observable event triggered before the texture is rendered
 
@@ -249,7 +249,7 @@ Observable event triggered before the texture is rendered
 
 > **onClipboardObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`ClipboardInfo`](../../../core/src/classes/ClipboardInfo.md)\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L133)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L133)
 
 Observable event triggered each time an clipboard event is received from the rendering canvas
 
@@ -259,7 +259,7 @@ Observable event triggered each time an clipboard event is received from the ren
 
 > **onControlPickedObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Control`](Control.md)\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L137)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L137)
 
 Observable event triggered each time a pointer down is intercepted by a control
 
@@ -269,7 +269,7 @@ Observable event triggered each time a pointer down is intercepted by a control
 
 > **onDisposeObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L492)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L492)
 
 An event triggered when the texture is disposed.
 
@@ -283,7 +283,7 @@ An event triggered when the texture is disposed.
 
 > **onEndLayoutObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L145)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L145)
 
 Observable event triggered after the layout was evaluated
 
@@ -293,7 +293,7 @@ Observable event triggered after the layout was evaluated
 
 > **onEndRenderObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L153)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L153)
 
 Observable event triggered after the texture was rendered
 
@@ -303,7 +303,7 @@ Observable event triggered after the texture was rendered
 
 > **onGuiReadyObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L62)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L62)
 
 Observable that fires when the GUI is ready
 
@@ -313,7 +313,7 @@ Observable that fires when the GUI is ready
 
 > **onLoadObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`Texture`](../../../core/src/classes/Texture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L355)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L355)
 
 Observable triggered once the texture has been loaded.
 
@@ -327,7 +327,7 @@ Observable triggered once the texture has been loaded.
 
 > **optimizeUVAllocation**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L121)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L121)
 
 Gets or sets a boolean indicating that the texture should try to reduce shader code if there is no UV manipulation.
 (ie. when texture.getTextureMatrix().isIdentityAs3x2() returns true)
@@ -342,7 +342,7 @@ Gets or sets a boolean indicating that the texture should try to reduce shader c
 
 > **parseContent**: (`serializedObject`, `scaleToSize?`, `urlRewriter?`) => `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1476](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1476)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1476](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1476)
 
 Recreate the content of the ADT from a JSON object
 
@@ -400,7 +400,7 @@ Please use parseSerializedObject instead
 
 > **premulAlpha**: `boolean` = `false`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L157)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L157)
 
 Gets or sets a boolean defining if alpha is stored as premultiplied
 
@@ -410,7 +410,7 @@ Gets or sets a boolean defining if alpha is stored as premultiplied
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L63)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L63)
 
 For internal use only. Please do not use.
 
@@ -424,7 +424,7 @@ For internal use only. Please do not use.
 
 > **skipBlockEvents**: `number` = `0`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L419)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:419](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L419)
 
 If this is set, even when a control is pointer blocker, some events can still be passed through to the scene.
 Options from values are PointerEventTypes
@@ -436,7 +436,7 @@ POINTERDOWN, POINTERUP, POINTERMOVE, POINTERWHEEL, POINTERPICK, POINTERTAP, POIN
 
 > **snippetId**: `string`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L59)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L59)
 
 Snippet ID if the content was created from the snippet server
 
@@ -446,7 +446,7 @@ Snippet ID if the content was created from the snippet server
 
 > **sphericalPolynomial**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`SphericalPolynomial`](../../../core/src/classes/SphericalPolynomial.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L11)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L11)
 
 Get the polynomial representation of the texture data.
 This is mainly use as a fast way to recover IBL Diffuse irradiance data.
@@ -465,7 +465,7 @@ https://learnopengl.com/PBR/IBL/Diffuse-irradiance
 
 > **uAng**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L247)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L247)
 
 Define an offset on the texture to rotate around the u coordinates of the UVs
 The angle is defined in radians.
@@ -484,7 +484,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L37)
 
 Gets or sets the unique id of the texture
 
@@ -498,7 +498,7 @@ Gets or sets the unique id of the texture
 
 > **uOffset**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L218)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L218)
 
 Define an offset on the texture to offset the u coordinates of the UVs
 
@@ -516,7 +516,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **url**: [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`string`\> = `null`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L211)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L211)
 
 Define the url of the texture.
 
@@ -530,7 +530,7 @@ Define the url of the texture.
 
 > **uRotationCenter**: `number` = `0.5`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L269)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L269)
 
 Defines the center of rotation (U)
 
@@ -544,7 +544,7 @@ Defines the center of rotation (U)
 
 > **uScale**: `number` = `1.0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L232)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L232)
 
 Define an offset on the texture to scale the u coordinates of the UVs
 
@@ -562,7 +562,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **usePointerTapForClickEvent**: `boolean` = `false`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:178](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L178)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:178](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L178)
 
 If set to true, the POINTERTAP event type will be used for "click", instead of POINTERUP
 
@@ -572,7 +572,7 @@ If set to true, the POINTERTAP event type will be used for "click", instead of P
 
 > `readonly` **useStandalone**: `boolean` = `false`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L56)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L56)
 
 Indicates whether the ADT is used autonomously
 
@@ -582,7 +582,7 @@ Indicates whether the ADT is used autonomously
 
 > **vAng**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L255)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L255)
 
 Define an offset on the texture to rotate around the v coordinates of the UVs
 The angle is defined in radians.
@@ -601,7 +601,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **vOffset**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L225)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L225)
 
 Define an offset on the texture to offset the v coordinates of the UVs
 
@@ -619,7 +619,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **vRotationCenter**: `number` = `0.5`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:275](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L275)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:275](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L275)
 
 Defines the center of rotation (V)
 
@@ -633,7 +633,7 @@ Defines the center of rotation (V)
 
 > **vScale**: `number` = `1.0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L239)
 
 Define an offset on the texture to scale the v coordinates of the UVs
 
@@ -651,7 +651,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **wAng**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L263)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L263)
 
 Define an offset on the texture to rotate around the w coordinates of the UVs (in case of 3d texture)
 The angle is defined in radians.
@@ -670,7 +670,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/moreMaterial
 
 > **wrapR**: `number` = `Constants.TEXTURE_WRAP_ADDRESSMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L214)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L214)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -688,7 +688,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:214](h
 
 > **wRotationCenter**: `number` = `0.5`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L281)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L281)
 
 Defines the center of rotation (W)
 
@@ -702,7 +702,7 @@ Defines the center of rotation (W)
 
 > `static` **AllowGPUOptimizations**: `boolean` = `true`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L53)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L53)
 
 Indicates if some optimizations can be performed in GUI GPU management (the downside is additional memory/GPU texture memory used)
 
@@ -712,7 +712,7 @@ Indicates if some optimizations can be performed in GUI GPU management (the down
 
 > `readonly` `static` **BILINEAR\_SAMPLINGMODE**: `2` = `Constants.TEXTURE_BILINEAR_SAMPLINGMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L146)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L146)
 
 Bilinear is mag = linear and min = linear and no mip
 
@@ -726,7 +726,7 @@ Bilinear is mag = linear and min = linear and no mip
 
 > `readonly` `static` **CLAMP\_ADDRESSMODE**: `0` = `Constants.TEXTURE_CLAMP_ADDRESSMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L196)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L196)
 
 Texture is not repeating outside of 0..1 UVs
 
@@ -740,7 +740,7 @@ Texture is not repeating outside of 0..1 UVs
 
 > `readonly` `static` **CUBIC\_MODE**: `3` = `Constants.TEXTURE_CUBIC_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L181)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L181)
 
 Cubic coordinates mode
 
@@ -754,7 +754,7 @@ Cubic coordinates mode
 
 > `static` **DEFAULT\_ANISOTROPIC\_FILTERING\_LEVEL**: `number` = `4`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L31)
 
 Default anisotropic filtering level for the application.
 It is set to 4 as a good tradeoff between perf and quality.
@@ -769,7 +769,7 @@ It is set to 4 as a good tradeoff between perf and quality.
 
 > `readonly` `static` **EQUIRECTANGULAR\_MODE**: `7` = `Constants.TEXTURE_EQUIRECTANGULAR_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L189)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L189)
 
 Equirectangular coordinates mode
 
@@ -783,7 +783,7 @@ Equirectangular coordinates mode
 
 > `readonly` `static` **EXPLICIT\_MODE**: `0` = `Constants.TEXTURE_EXPLICIT_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L175)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:175](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L175)
 
 Explicit coordinates mode
 
@@ -797,7 +797,7 @@ Explicit coordinates mode
 
 > `readonly` `static` **FIXED\_EQUIRECTANGULAR\_MIRRORED\_MODE**: `9` = `Constants.TEXTURE_FIXED_EQUIRECTANGULAR_MIRRORED_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L193)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L193)
 
 Equirectangular Fixed Mirrored coordinates mode
 
@@ -811,7 +811,7 @@ Equirectangular Fixed Mirrored coordinates mode
 
 > `readonly` `static` **FIXED\_EQUIRECTANGULAR\_MODE**: `8` = `Constants.TEXTURE_FIXED_EQUIRECTANGULAR_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L191)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L191)
 
 Equirectangular Fixed coordinates mode
 
@@ -825,7 +825,7 @@ Equirectangular Fixed coordinates mode
 
 > `static` **ForceSerializeBuffers**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L91)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L91)
 
 Gets or sets a general boolean used to indicate that texture buffers must be saved as part of the serialization process.
 If no buffer exists, one will be created as base64 string from the internal webgl data.
@@ -840,7 +840,7 @@ If no buffer exists, one will be created as base64 string from the internal webg
 
 > `readonly` `static` **INVCUBIC\_MODE**: `6` = `Constants.TEXTURE_INVCUBIC_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L187)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L187)
 
 Inverse Cubic coordinates mode
 
@@ -854,7 +854,7 @@ Inverse Cubic coordinates mode
 
 > `readonly` `static` **LINEAR\_LINEAR**: `2` = `Constants.TEXTURE_LINEAR_LINEAR`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L170)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L170)
 
 mag = linear and min = linear and mip = none
 
@@ -868,7 +868,7 @@ mag = linear and min = linear and mip = none
 
 > `readonly` `static` **LINEAR\_LINEAR\_MIPLINEAR**: `3` = `Constants.TEXTURE_LINEAR_LINEAR_MIPLINEAR`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L153)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L153)
 
 Trilinear is mag = linear and min = linear and mip = linear
 
@@ -882,7 +882,7 @@ Trilinear is mag = linear and min = linear and mip = linear
 
 > `readonly` `static` **LINEAR\_LINEAR\_MIPNEAREST**: `11` = `Constants.TEXTURE_LINEAR_LINEAR_MIPNEAREST`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L148)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L148)
 
 Bilinear is mag = linear and min = linear and mip = nearest
 
@@ -896,7 +896,7 @@ Bilinear is mag = linear and min = linear and mip = nearest
 
 > `readonly` `static` **LINEAR\_NEAREST**: `12` = `Constants.TEXTURE_LINEAR_NEAREST`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L172)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L172)
 
 mag = linear and min = nearest and mip = none
 
@@ -910,7 +910,7 @@ mag = linear and min = nearest and mip = none
 
 > `readonly` `static` **LINEAR\_NEAREST\_MIPLINEAR**: `10` = `Constants.TEXTURE_LINEAR_NEAREST_MIPLINEAR`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L168)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L168)
 
 mag = linear and min = nearest and mip = linear
 
@@ -924,7 +924,7 @@ mag = linear and min = nearest and mip = linear
 
 > `readonly` `static` **LINEAR\_NEAREST\_MIPNEAREST**: `9` = `Constants.TEXTURE_LINEAR_NEAREST_MIPNEAREST`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L166)
 
 mag = linear and min = nearest and mip = nearest
 
@@ -938,7 +938,7 @@ mag = linear and min = nearest and mip = nearest
 
 > `readonly` `static` **MIRROR\_ADDRESSMODE**: `2` = `Constants.TEXTURE_MIRROR_ADDRESSMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L200)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L200)
 
 Texture is repeating and mirrored
 
@@ -952,7 +952,7 @@ Texture is repeating and mirrored
 
 > `readonly` `static` **NEAREST\_LINEAR**: `7` = `Constants.TEXTURE_NEAREST_LINEAR`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L162)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L162)
 
 mag = nearest and min = linear and mip = none
 
@@ -966,7 +966,7 @@ mag = nearest and min = linear and mip = none
 
 > `readonly` `static` **NEAREST\_LINEAR\_MIPLINEAR**: `6` = `Constants.TEXTURE_NEAREST_LINEAR_MIPLINEAR`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L160)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L160)
 
 mag = nearest and min = linear and mip = linear
 
@@ -980,7 +980,7 @@ mag = nearest and min = linear and mip = linear
 
 > `readonly` `static` **NEAREST\_LINEAR\_MIPNEAREST**: `5` = `Constants.TEXTURE_NEAREST_LINEAR_MIPNEAREST`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L158)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:158](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L158)
 
 mag = nearest and min = linear and mip = nearest
 
@@ -994,7 +994,7 @@ mag = nearest and min = linear and mip = nearest
 
 > `readonly` `static` **NEAREST\_NEAREST**: `1` = `Constants.TEXTURE_NEAREST_NEAREST`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L164)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L164)
 
 mag = nearest and min = nearest and mip = none
 
@@ -1008,7 +1008,7 @@ mag = nearest and min = nearest and mip = none
 
 > `readonly` `static` **NEAREST\_NEAREST\_MIPLINEAR**: `8` = `Constants.TEXTURE_NEAREST_NEAREST_MIPLINEAR`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L143)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L143)
 
 nearest is mag = nearest and min = nearest and mip = linear
 
@@ -1022,7 +1022,7 @@ nearest is mag = nearest and min = nearest and mip = linear
 
 > `readonly` `static` **NEAREST\_NEAREST\_MIPNEAREST**: `4` = `Constants.TEXTURE_NEAREST_NEAREST_MIPNEAREST`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L156)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L156)
 
 mag = nearest and min = nearest and mip = nearest
 
@@ -1036,7 +1036,7 @@ mag = nearest and min = nearest and mip = nearest
 
 > `readonly` `static` **NEAREST\_SAMPLINGMODE**: `1` = `Constants.TEXTURE_NEAREST_SAMPLINGMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L141)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L141)
 
 nearest is mag = nearest and min = nearest and no mip
 
@@ -1050,7 +1050,7 @@ nearest is mag = nearest and min = nearest and no mip
 
 > `static` **OnTextureLoadErrorObservable**: [`Observable`](../../../core/src/classes/Observable.md)\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L96)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L96)
 
 This observable will notify when any texture had a loading error
 
@@ -1064,7 +1064,7 @@ This observable will notify when any texture had a loading error
 
 > `readonly` `static` **PLANAR\_MODE**: `2` = `Constants.TEXTURE_PLANAR_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L179)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L179)
 
 Planar coordinates mode
 
@@ -1078,7 +1078,7 @@ Planar coordinates mode
 
 > `readonly` `static` **PROJECTION\_MODE**: `4` = `Constants.TEXTURE_PROJECTION_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L183)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L183)
 
 Projection coordinates mode
 
@@ -1092,7 +1092,7 @@ Projection coordinates mode
 
 > `static` **SerializeBuffers**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L85)
 
 Gets or sets a general boolean used to indicate that textures containing direct data (buffers) must be saved as part of the serialization process
 
@@ -1106,7 +1106,7 @@ Gets or sets a general boolean used to indicate that textures containing direct 
 
 > `readonly` `static` **SKYBOX\_MODE**: `5` = `Constants.TEXTURE_SKYBOX_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L185)
 
 Inverse Cubic coordinates mode
 
@@ -1120,7 +1120,7 @@ Inverse Cubic coordinates mode
 
 > `static` **SnippetUrl**: `string` = `Constants.SnippetUrl`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L50)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L50)
 
 Define the url to load snippets
 
@@ -1130,7 +1130,7 @@ Define the url to load snippets
 
 > `readonly` `static` **SPHERICAL\_MODE**: `1` = `Constants.TEXTURE_SPHERICAL_MODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L177)
 
 Spherical coordinates mode
 
@@ -1144,7 +1144,7 @@ Spherical coordinates mode
 
 > `readonly` `static` **TRILINEAR\_SAMPLINGMODE**: `3` = `Constants.TEXTURE_TRILINEAR_SAMPLINGMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L151)
 
 Trilinear is mag = linear and min = linear and mip = linear
 
@@ -1158,7 +1158,7 @@ Trilinear is mag = linear and min = linear and mip = linear
 
 > `static` **UseSerializedUrlIfAny**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L205)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L205)
 
 Gets or sets a boolean which defines if the texture url must be build from the serialized URL instead of just using the name and loading them side by side with the scene file
 
@@ -1172,7 +1172,7 @@ Gets or sets a boolean which defines if the texture url must be build from the s
 
 > `readonly` `static` **WRAP\_ADDRESSMODE**: `1` = `Constants.TEXTURE_WRAP_ADDRESSMODE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L198)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L198)
 
 Texture is repeating outside of 0..1 UVs
 
@@ -1188,7 +1188,7 @@ Texture is repeating outside of 0..1 UVs
 
 > **get** **adjustToEngineHardwareScalingLevel**(): `boolean`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L185)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L185)
 
 If set to true, the renderScale will be adjusted automatically to the engine's hardware scaling
 If this is set to true, manually setting the renderScale will be ignored
@@ -1202,7 +1202,7 @@ This is useful when the engine's hardware scaling is set to a value other than 1
 
 > **set** **adjustToEngineHardwareScalingLevel**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L189)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L189)
 
 ##### Parameters
 
@@ -1222,7 +1222,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:189](https://gith
 
 > **get** **background**(): `string`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L211)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:211](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L211)
 
 Gets or sets the background color
 
@@ -1234,7 +1234,7 @@ Gets or sets the background color
 
 > **set** **background**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L214)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L214)
 
 ##### Parameters
 
@@ -1254,7 +1254,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:214](https://gith
 
 > **get** **canRescale**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L140)
+Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L140)
 
 Gets the current state of canRescale
 
@@ -1274,7 +1274,7 @@ Gets the current state of canRescale
 
 > **get** **clipboardData**(): `string`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L407)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:407](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L407)
 
 Gets or set information about clipboardData
 
@@ -1286,7 +1286,7 @@ Gets or set information about clipboardData
 
 > **set** **clipboardData**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:410](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L410)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:410](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L410)
 
 ##### Parameters
 
@@ -1306,7 +1306,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:410](https://gith
 
 > **get** **coordinatesIndex**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L138)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L138)
 
 ##### Returns
 
@@ -1316,7 +1316,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:138](h
 
 > **set** **coordinatesIndex**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L127)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L127)
 
 Define the UV channel to use starting from 0 and defaulting to 0.
 This is part of the texture as textures usually maps to one uv set.
@@ -1343,7 +1343,7 @@ This is part of the texture as textures usually maps to one uv set.
 
 > **get** **coordinatesMode**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L172)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L172)
 
 How a texture is mapped.
 Unused in thin texture mode.
@@ -1356,7 +1356,7 @@ Unused in thin texture mode.
 
 > **set** **coordinatesMode**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L161)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L161)
 
 How a texture is mapped.
 
@@ -1395,7 +1395,7 @@ How a texture is mapped.
 
 > **get** **errorObject**(): \{ `exception?`: `any`; `message?`: `string`; \} \| `undefined`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L538)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L538)
 
 If a loading error occurred this object will be populated with information about the error.
 
@@ -1415,7 +1415,7 @@ If a loading error occurred this object will be populated with information about
 
 > **get** **focusedControl**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Control`](Control.md)\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L371)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L371)
 
 Gets or sets the current focused control
 
@@ -1427,7 +1427,7 @@ Gets or sets the current focused control
 
 > **set** **focusedControl**(`control`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L374)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:374](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L374)
 
 ##### Parameters
 
@@ -1447,7 +1447,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:374](https://gith
 
 > **get** **gammaSpace**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L297)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L297)
 
 Define if the texture contains data in gamma space (most of the png/jpg aside bump).
 HDR texture are usually stored in linear space.
@@ -1461,7 +1461,7 @@ This only impacts the PBR and Background materials
 
 > **set** **gammaSpace**(`gamma`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L309)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L309)
 
 ##### Parameters
 
@@ -1485,7 +1485,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:309](h
 
 > **get** **getAlphaFromRGB**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L102)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L102)
 
 ##### Returns
 
@@ -1495,7 +1495,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:102](h
 
 > **set** **getAlphaFromRGB**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L91)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L91)
 
 Defines if the alpha value should be determined via the rgb values.
 If true the luminance of the pixel might be used to find the corresponding alpha value.
@@ -1522,7 +1522,7 @@ If true the luminance of the pixel might be used to find the corresponding alpha
 
 > **get** **hasAlpha**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L81)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L81)
 
 ##### Returns
 
@@ -1532,7 +1532,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:81](ht
 
 > **set** **hasAlpha**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L70)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L70)
 
 Define if the texture is having a usable alpha value (can be use for transparency or glossiness for instance).
 
@@ -1558,7 +1558,7 @@ Define if the texture is having a usable alpha value (can be use for transparenc
 
 > **get** **idealHeight**(): `number`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L242)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:242](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L242)
 
 Gets or sets the ideal height used to design controls.
 The GUI will then rescale everything accordingly
@@ -1575,7 +1575,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#adaptive-scaling
 
 > **set** **idealHeight**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L245)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:245](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L245)
 
 ##### Parameters
 
@@ -1595,7 +1595,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:245](https://gith
 
 > **get** **idealRatio**(): `number`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L287)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L287)
 
 Gets the ratio used when in "ideal mode"
 
@@ -1615,7 +1615,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#adaptive-scaling
 
 > **get** **idealWidth**(): `number`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L226)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:226](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L226)
 
 Gets or sets the ideal width used to design controls.
 The GUI will then rescale everything accordingly
@@ -1632,7 +1632,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#adaptive-scaling
 
 > **set** **idealWidth**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L229)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:229](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L229)
 
 ##### Parameters
 
@@ -1652,7 +1652,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:229](https://gith
 
 > **get** **invertY**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L373)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L373)
 
 Gets a boolean indicating if the texture needs to be inverted on the y axis during loading
 
@@ -1672,7 +1672,7 @@ Gets a boolean indicating if the texture needs to be inverted on the y axis duri
 
 > **get** **irradianceTexture**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L426)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:426](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L426)
 
 In case a better definition than spherical harmonics is required for the diffuse part of the environment.
 You can set the irradiance texture to rely on a texture instead of the spherical approach.
@@ -1686,7 +1686,7 @@ This texture need to have the same characteristics than its parent (Cube vs 2d, 
 
 > **set** **irradianceTexture**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L433)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L433)
 
 ##### Parameters
 
@@ -1710,7 +1710,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:433](h
 
 > **get** **is2DArray**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L272)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L272)
 
 Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
@@ -1722,7 +1722,7 @@ Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
 > **set** **is2DArray**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L281)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L281)
 
 Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
@@ -1748,7 +1748,7 @@ Define if the texture is a 2d array texture (webgl 2) or if false a 2d texture.
 
 > **get** **is3D**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L251)
 
 Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
@@ -1760,7 +1760,7 @@ Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
 > **set** **is3D**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L260)
 
 Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
@@ -1786,7 +1786,7 @@ Define if the texture is a 3d texture (webgl 2) or if false a 2d texture.
 
 > **get** **isBlocking**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:366](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L366)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:366](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L366)
 
 Define if the texture is preventing a material to render or not.
 If not and the texture is not ready, the engine will use a default black texture instead.
@@ -1799,7 +1799,7 @@ If not and the texture is not ready, the engine will use a default black texture
 
 > **set** **isBlocking**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L362)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L362)
 
 Is the texture preventing material to render while loading.
 If false, a default texture will be used instead of the loading one during the preparation step.
@@ -1826,7 +1826,7 @@ If false, a default texture will be used instead of the loading one during the p
 
 > **get** **isCube**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L230)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L230)
 
 Define if the texture is a cube texture or if false a 2d texture.
 
@@ -1838,7 +1838,7 @@ Define if the texture is a cube texture or if false a 2d texture.
 
 > **set** **isCube**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L239)
 
 Define if the texture is a cube texture or if false a 2d texture.
 
@@ -1864,7 +1864,7 @@ Define if the texture is a cube texture or if false a 2d texture.
 
 > **get** **isForeground**(): `boolean`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:389](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L389)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:389](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L389)
 
 Gets or sets a boolean indicating if the texture must be rendered in background or foreground when in fullscreen mode
 
@@ -1876,7 +1876,7 @@ Gets or sets a boolean indicating if the texture must be rendered in background 
 
 > **set** **isForeground**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:395](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L395)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:395](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L395)
 
 ##### Parameters
 
@@ -1896,7 +1896,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:395](https://gith
 
 > **get** **isRGBD**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L331)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L331)
 
 Gets or sets whether or not the texture contains RGBD data.
 
@@ -1908,7 +1908,7 @@ Gets or sets whether or not the texture contains RGBD data.
 
 > **set** **isRGBD**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L334)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L334)
 
 ##### Parameters
 
@@ -1932,7 +1932,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:334](h
 
 > **get** **layer**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Layer`](../../../core/src/classes/Layer.md)\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:319](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L319)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:319](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L319)
 
 Gets the underlying layer used to render the texture when in fullscreen mode
 
@@ -1948,7 +1948,7 @@ Gets the underlying layer used to render the texture when in fullscreen mode
 
 > **get** **linearSpecularLOD**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L407)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L407)
 
 With prefiltered texture, defined if the specular generation is based on a linear ramp.
 By default we are using a log2 of the linear roughness helping to keep a better resolution for
@@ -1962,7 +1962,7 @@ average roughness values.
 
 > **set** **linearSpecularLOD**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L414)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L414)
 
 ##### Parameters
 
@@ -1986,7 +1986,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:414](h
 
 > **get** **loadingError**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L531)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:531](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L531)
 
 Was there any loading error?
 
@@ -2006,7 +2006,7 @@ Was there any loading error?
 
 > **get** **lodGenerationOffset**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L371)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L371)
 
 With prefiltered texture, defined the offset used during the prefiltering steps.
 
@@ -2018,7 +2018,7 @@ With prefiltered texture, defined the offset used during the prefiltering steps.
 
 > **set** **lodGenerationOffset**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L378)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L378)
 
 ##### Parameters
 
@@ -2042,7 +2042,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:378](h
 
 > **get** **lodGenerationScale**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L388)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L388)
 
 With prefiltered texture, defined the scale used during the prefiltering steps.
 
@@ -2054,7 +2054,7 @@ With prefiltered texture, defined the scale used during the prefiltering steps.
 
 > **set** **lodGenerationScale**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L395)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L395)
 
 ##### Parameters
 
@@ -2078,7 +2078,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:395](h
 
 > **get** **mimeType**(): `string` \| `undefined`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L348)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L348)
 
 Returns the texture mime type if it was defined by a loader (undefined else)
 
@@ -2098,7 +2098,7 @@ Returns the texture mime type if it was defined by a loader (undefined else)
 
 > **get** **noMipmap**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L292)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L292)
 
 Are mip maps generated for this texture or not.
 
@@ -2118,7 +2118,7 @@ Are mip maps generated for this texture or not.
 
 > **get** **numLayoutCalls**(): `number`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L114)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:114](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L114)
 
 Gets the number of layout calls made the last time the ADT has been rendered
 
@@ -2134,7 +2134,7 @@ Gets the number of layout calls made the last time the ADT has been rendered
 
 > **get** **numRenderCalls**(): `number`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L121)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L121)
 
 Gets the number of render calls made the last time the ADT has been rendered
 
@@ -2150,7 +2150,7 @@ Gets the number of render calls made the last time the ADT has been rendered
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L499)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L499)
 
 Callback triggered when the texture has been disposed.
 Kept for back compatibility, you can use the onDisposeObservable instead.
@@ -2177,7 +2177,7 @@ Kept for back compatibility, you can use the onDisposeObservable instead.
 
 > **get** **renderAtIdealSize**(): `boolean`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L272)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:272](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L272)
 
 Gets or sets a boolean indicating if adaptive scaling must be used
 
@@ -2193,7 +2193,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#adaptive-scaling
 
 > **set** **renderAtIdealSize**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:275](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L275)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:275](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L275)
 
 ##### Parameters
 
@@ -2213,7 +2213,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:275](https://gith
 
 > **get** **renderScale**(): `number`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L200)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:200](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L200)
 
 Gets or sets a number used to scale rendering size (2 means that the texture will be twice bigger).
 Useful when you want more antialiasing
@@ -2226,7 +2226,7 @@ Useful when you want more antialiasing
 
 > **set** **renderScale**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L203)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L203)
 
 ##### Parameters
 
@@ -2246,7 +2246,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:203](https://gith
 
 > **get** **rootContainer**(): [`Container`](Container.md)
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L325)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:325](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L325)
 
 Gets the root container control
 
@@ -2262,7 +2262,7 @@ Gets the root container control
 
 > **get** **samplingMode**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L254)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:254](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L254)
 
 Get the current sampling mode associated with the texture.
 
@@ -2282,7 +2282,7 @@ Get the current sampling mode associated with the texture.
 
 > **get** **textureFormat**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L696)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L696)
 
 Get the texture underlying format (RGB, RGBA...)
 
@@ -2302,7 +2302,7 @@ Get the texture underlying format (RGB, RGBA...)
 
 > **get** **textureType**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L685)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L685)
 
 Get the texture underlying type (INT, FLOAT...)
 
@@ -2322,7 +2322,7 @@ Get the texture underlying type (INT, FLOAT...)
 
 > **get** **uid**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L456)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:456](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L456)
 
 Define the unique id of the texture in the scene.
 
@@ -2342,7 +2342,7 @@ Define the unique id of the texture in the scene.
 
 > **get** **useInvalidateRectOptimization**(): `boolean`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:553](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L553)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:553](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L553)
 
 Gets or sets a boolean indicating if the InvalidateRect optimization should be turned on
 
@@ -2354,7 +2354,7 @@ Gets or sets a boolean indicating if the InvalidateRect optimization should be t
 
 > **set** **useInvalidateRectOptimization**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:557](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L557)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:557](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L557)
 
 ##### Parameters
 
@@ -2374,7 +2374,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:557](https://gith
 
 > **get** **useSmallestIdeal**(): `boolean`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L257)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L257)
 
 Gets or sets a boolean indicating if the smallest ideal value must be used if idealWidth and idealHeight are both set
 
@@ -2390,7 +2390,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#adaptive-scaling
 
 > **set** **useSmallestIdeal**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L260)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:260](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L260)
 
 ##### Parameters
 
@@ -2410,7 +2410,7 @@ Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:260](https://gith
 
 > **get** **wrapU**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L184)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L184)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -2426,7 +2426,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:184](h
 
 > **set** **wrapU**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L187)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L187)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -2456,7 +2456,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:187](h
 
 > **get** **wrapV**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L199)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L199)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -2472,7 +2472,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:199](h
 
 > **set** **wrapV**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L202)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L202)
 
 | Value | Type               | Description |
 | ----- | ------------------ | ----------- |
@@ -2500,7 +2500,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:202](h
 
 > **addControl**(`control`): `AdvancedDynamicTexture`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:605](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L605)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:605](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L605)
 
 Adds a new control to the root container
 
@@ -2524,7 +2524,7 @@ the current texture
 
 > **attach**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1066)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1066](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1066)
 
 Attach to all scene events required to support pointer events
 
@@ -2538,7 +2538,7 @@ Attach to all scene events required to support pointer events
 
 > **attachToMesh**(`mesh`, `supportPointerMove?`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1247)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1247)
 
 Connect the texture to a hosting mesh to enable interactions
 
@@ -2566,7 +2566,7 @@ defines a boolean indicating if pointer move events must be catched as well
 
 > **clear**(`clearColor?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L192)
+Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L192)
 
 Clears the texture
 
@@ -2592,7 +2592,7 @@ Defines the clear color to use
 
 > **clone**(`newName?`, `attachToMesh?`): `AdvancedDynamicTexture`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1446](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1446)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1446](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1446)
 
 Clones the ADT. If no mesh is defined, the GUI will be considered as a fullscreen GUI
 
@@ -2626,7 +2626,7 @@ the clone of the ADT
 
 > **createStyle**(): [`Style`](Style.md)
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:597](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L597)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:597](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L597)
 
 Helper function used to create a new style
 
@@ -2646,7 +2646,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/gui/gui#styles
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:664](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L664)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:664](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L664)
 
 Release all resources
 
@@ -2664,7 +2664,7 @@ Release all resources
 
 > **drawText**(`text`, `x`, `y`, `font`, `color`, `fillColor`, `invertY?`, `update?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L234)
+Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L234)
 
 Draws text onto the texture
 
@@ -2732,7 +2732,7 @@ defines whether texture is immediately update (default is true)
 
 > **executeOnAllControls**(`func`, `container?`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:534](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L534)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:534](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L534)
 
 Function used to execute a function on all controls
 
@@ -2760,7 +2760,7 @@ defines the container where controls belong. If null the root container will be 
 
 > **forceSphericalPolynomialsRecompute**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L17)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.polynomial.types.ts#L17)
 
 Force recomputation of spherical polynomials.
 Can be useful if you generate a cubemap multiple times (from a probe for eg) and you need the proper polynomials each time
@@ -2779,7 +2779,7 @@ Can be useful if you generate a cubemap multiple times (from a probe for eg) and
 
 > **getBaseSize**(): [`ISize`](../../../core/src/interfaces/ISize.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L230)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:230](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L230)
 
 Get the base size of the texture.
 It can be different from the size if the texture has been resized for POT for instance
@@ -2800,7 +2800,7 @@ the base size
 
 > **getChildren**(): [`Container`](Container.md)[]
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L333)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:333](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L333)
 
 Returns an array containing the root container.
 This is mostly used to let the Inspector introspects the ADT
@@ -2817,7 +2817,7 @@ an array containing the rootContainer
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:526](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L526)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:526](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L526)
 
 Get the current class name of the texture useful for serialization or dynamic coding.
 
@@ -2837,7 +2837,7 @@ Get the current class name of the texture useful for serialization or dynamic co
 
 > **getContext**(): [`ICanvasRenderingContext`](../../../core/src/interfaces/ICanvasRenderingContext.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L184)
+Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L184)
 
 Gets the context of the canvas used by the texture
 
@@ -2857,7 +2857,7 @@ the canvas context of the dynamic texture
 
 > **getControlByName**(`name`): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Control`](Control.md)\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L360)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L360)
 
 Will return the first control with the given name
 
@@ -2881,7 +2881,7 @@ the first control found or null
 
 > **getControlsByType**(`typeName`): [`Control`](Control.md)[]
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L351)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:351](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L351)
 
 Will return all controls with the given type name
 
@@ -2905,7 +2905,7 @@ an array of all controls found
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Control`](Control.md)[]
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:342](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L342)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:342](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L342)
 
 Will return all controls that are inside this texture
 
@@ -2935,7 +2935,7 @@ all child controls
 
 > **getInternalTexture**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`InternalTexture`](../../../core/src/classes/InternalTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L199)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:199](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L199)
 
 Get the underlying lower level texture from Babylon.
 
@@ -2955,7 +2955,7 @@ the internal texture
 
 > **getProjectedPosition**(`position`, `worldMatrix`): [`Vector2`](../../../core/src/classes/Vector2.md)
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:791](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L791)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:791](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L791)
 
 Get screen coordinates for a vector3
 
@@ -2985,7 +2985,7 @@ the projected position
 
 > **getProjectedPositionWithZ**(`position`, `worldMatrix`): [`Vector3`](../../../core/src/classes/Vector3.md)
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:802](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L802)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:802](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L802)
 
 Get screen coordinates for a vector3
 
@@ -3015,7 +3015,7 @@ the projected position with Z
 
 > **getReflectionTextureMatrix**(): [`Matrix`](../../../core/src/classes/Matrix.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:794](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L794)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:794](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L794)
 
 Get the current matrix used to apply reflection. This is useful to rotate an environment texture for instance.
 
@@ -3035,7 +3035,7 @@ The reflection texture transform
 
 > **getRefractionTextureMatrix**(): [`Matrix`](../../../core/src/classes/Matrix.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:613](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L613)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:613](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L613)
 
 Gets a suitable rotate/transform matrix when the texture is used for refraction.
 There's a separate function from getReflectionTextureMatrix because refraction requires a special configuration of the matrix in right-handed mode.
@@ -3056,7 +3056,7 @@ The refraction matrix
 
 > **getScene**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Scene`](../../../core/src/classes/Scene.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L583)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L583)
 
 Get the scene the texture belongs to.
 
@@ -3076,7 +3076,7 @@ the scene or null if undefined
 
 > **getSize**(): [`ISize`](../../../core/src/interfaces/ISize.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L207)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:207](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L207)
 
 Get the size of the texture.
 
@@ -3096,7 +3096,7 @@ the texture size.
 
 > **getTextureMatrix**(`uBase?`): [`Matrix`](../../../core/src/classes/Matrix.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:689](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L689)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:689](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L689)
 
 Get the current texture matrix which includes the requested offsetting, tiling and rotation components.
 
@@ -3124,7 +3124,7 @@ the transform matrix of the texture.
 
 > **guiIsReady**(): `boolean`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1739](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1739)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1739](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1739)
 
 #### Returns
 
@@ -3138,7 +3138,7 @@ true if all the GUI components are ready to render
 
 > **invalidateRect**(`invalidMinX`, `invalidMinY`, `invalidMaxX`, `invalidMaxY`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:570](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L570)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:570](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L570)
 
 Invalidates a rectangle area on the gui texture
 
@@ -3178,7 +3178,7 @@ bottom most position of the rectangle to invalidate in the texture
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L177)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L177)
 
 Get if the texture is ready to be used (downloaded, converted, mip mapped...).
 
@@ -3198,7 +3198,7 @@ true if fully ready
 
 > **isReadyOrNotBlocking**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:621](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L621)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:621](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L621)
 
 Get if the texture is ready to be consumed (either it is ready or it is not blocking)
 
@@ -3218,7 +3218,7 @@ true if ready, not blocking or if there was an error loading the texture
 
 > **markAsDirty**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:589](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L589)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:589](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L589)
 
 Marks the texture as dirty forcing a complete update
 
@@ -3232,7 +3232,7 @@ Marks the texture as dirty forcing a complete update
 
 > **moveFocusToControl**(`control`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1350)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1350)
 
 Move the focus to a specific control
 
@@ -3254,7 +3254,7 @@ defines the control which will receive the focus
 
 > **moveToNonOverlappedPosition**(`overlapGroup?`, `deltaStep?`, `repelFactor?`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:625](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L625)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:625](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L625)
 
 Moves overlapped controls towards a position where it is not overlapping anymore.
 Please note that this method alters linkOffsetXInPixels and linkOffsetYInPixels.
@@ -3289,7 +3289,7 @@ how much is the control repelled by other controls
 
 > **parseFromSnippetAsync**(`snippetId`, `scaleToSize?`, `urlRewriter?`): `Promise`\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1509](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1509)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1509](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1509)
 
 Recreate the content of the ADT from a snippet saved by the GUI editor
 
@@ -3325,7 +3325,7 @@ a promise that will resolve on success
 
 > **parseFromURLAsync**(`url`, `scaleToSize?`, `urlRewriter?`): `Promise`\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1540](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1540)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1540](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1540)
 
 Recreate the content of the ADT from a url json
 
@@ -3361,7 +3361,7 @@ a promise that will resolve on success
 
 > **parseSerializedObject**(`serializedObject`, `scaleToSize?`, `urlRewriter?`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1426)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1426](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1426)
 
 Recreate the content of the ADT from a JSON object
 
@@ -3395,7 +3395,7 @@ defines an url rewriter to update urls before sending them to the controls
 
 > **pick**(`x`, `y`, `pi?`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1004)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1004)
 
 This function will run a pointer event on this ADT and will trigger any pointer events on any controls
 This will work on a fullscreen ADT only. For mesh based ADT, simulate pointer events using the scene directly.
@@ -3430,7 +3430,7 @@ optional pointer information
 
 > **readPixels**(`faceIndex?`, `level?`, `buffer?`, `flushRenderer?`, `noDataConversion?`, `x?`, `y?`, `width?`, `height?`): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:733](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L733)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:733](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L733)
 
 Reads the pixels stored in the webgl texture and returns them as an ArrayBuffer.
 This will returns an RGBA array buffer containing either in values (0-255) or
@@ -3509,7 +3509,7 @@ The Array buffer promise containing the pixels data.
 
 > **registerClipboardEvents**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1175)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1175](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1175)
 
 Register the clipboard Events onto the canvas
 
@@ -3523,7 +3523,7 @@ Register the clipboard Events onto the canvas
 
 > **releaseInternalTexture**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L296)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L296)
 
 Release and destroy the underlying lower level texture aka internalTexture.
 
@@ -3541,7 +3541,7 @@ Release and destroy the underlying lower level texture aka internalTexture.
 
 > **removeControl**(`control`): `AdvancedDynamicTexture`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:614](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L614)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:614](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L614)
 
 Removes a control from the root container
 
@@ -3565,7 +3565,7 @@ the current texture
 
 > **scale**(`ratio`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1713](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1713)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1713](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1713)
 
 Scales the texture
 
@@ -3591,7 +3591,7 @@ the scale factor to apply to both width and height
 
 > **scaleTo**(`width`, `height`): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1723](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1723)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1723](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1723)
 
 Resizes the texture
 
@@ -3623,7 +3623,7 @@ the new height
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L310)
 
 Serializes the dynamic texture.  The scene should be ready before the dynamic texture is serialized
 
@@ -3643,7 +3643,7 @@ a serialized dynamic texture object
 
 > **serializeContent**(): `any`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1407)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1407](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1407)
 
 Serializes the entire GUI system
 
@@ -3659,7 +3659,7 @@ an object with the JSON serialized data
 
 > **toString**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L472)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:472](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L472)
 
 Return a string representation of the texture.
 
@@ -3679,7 +3679,7 @@ the texture as a string
 
 > **unRegisterClipboardEvents**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1183)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1183)
 
 Unregister the clipboard Events from the canvas
 
@@ -3693,7 +3693,7 @@ Unregister the clipboard Events from the canvas
 
 > **update**(`invertY?`, `premulAlpha?`, `allowGPUOptimization?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L206)
+Defined in: [packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/dynamicTexture.pure.ts#L206)
 
 Updates the texture
 
@@ -3731,7 +3731,7 @@ true to allow some specific GPU optimizations (subject to engine feature "allowG
 
 > **updateSamplingMode**(`samplingMode`, `generateMipMaps?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/thinTexture.ts#L287)
+Defined in: [packages/dev/core/src/Materials/Textures/thinTexture.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/thinTexture.ts#L287)
 
 Update the sampling mode of the texture.
 Default is Trilinear mode.
@@ -3783,7 +3783,7 @@ Define if the texture should generate mip maps or not. Default is false.
 
 > **updateURL**(`url`, `buffer?`, `onLoad?`, `forcedExtension?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:569](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L569)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:569](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L569)
 
 Update the url (and optional buffer) of this texture if url was null during construction.
 
@@ -3827,7 +3827,7 @@ defines the extension to use to pick the right loader
 
 > `static` **CreateForMesh**(`mesh`, `width?`, `height?`, `supportPointerMove?`, `onlyAlphaTesting?`, `invertY?`, `materialSetupCallback?`, `sampling?`): `AdvancedDynamicTexture`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1602](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1602)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1602](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1602)
 
 Creates a new AdvancedDynamicTexture in projected mode (ie. attached to a mesh)
 
@@ -3893,7 +3893,7 @@ a new AdvancedDynamicTexture
 
 > `static` **CreateForMeshTexture**(`mesh`, `width?`, `height?`, `supportPointerMove?`, `invertY?`, `sampling?`): `AdvancedDynamicTexture`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1654](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1654)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1654](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1654)
 
 Creates a new AdvancedDynamicTexture in projected mode (ie. attached to a mesh) BUT do not create a new material for the mesh. You will be responsible for connecting the texture
 
@@ -3947,7 +3947,7 @@ a new AdvancedDynamicTexture
 
 > `static` **CreateFromBase64String**(`data`, `name`, `scene`, `noMipmapOrOptions?`, `invertY?`, `samplingMode?`, `onLoad?`, `onError?`, `format?`, `creationFlags?`, `forcedExtension?`): [`Texture`](../../../core/src/classes/Texture.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:1165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L1165)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:1165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L1165)
 
 Creates a texture from its base 64 representation.
 
@@ -4035,7 +4035,7 @@ the created texture
 
 > `static` **CreateFullscreenUI**(`name`, `foreground?`, `sceneOrOptions?`, `sampling?`, `adaptiveScaling?`): `AdvancedDynamicTexture`
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1679](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1679)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1679](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1679)
 
 Creates a new AdvancedDynamicTexture in fullscreen mode.
 In this mode the texture will rely on a layer for its rendering.
@@ -4087,7 +4087,7 @@ a new AdvancedDynamicTexture
 
 > `static` **LoadFromDataString**(`name`, `buffer`, `scene`, `deleteBuffer?`, `noMipmapOrOptions?`, `invertY?`, `samplingMode?`, `onLoad?`, `onError?`, `format?`, `creationFlags?`, `forcedExtension?`): [`Texture`](../../../core/src/classes/Texture.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:1212](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L1212)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:1212](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L1212)
 
 Creates a texture from its data: representation. (data: will be added in case only the payload has been passed in)
 
@@ -4181,7 +4181,7 @@ the created texture
 
 > `static` **Parse**(`parsedTexture`, `scene`, `rootUrl`): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:970](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/texture.pure.ts#L970)
+Defined in: [packages/dev/core/src/Materials/Textures/texture.pure.ts:970](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/texture.pure.ts#L970)
 
 Parse the JSON representation of a texture in order to recreate the texture in the given scene.
 
@@ -4221,7 +4221,7 @@ The parsed texture if successful
 
 > `static` **ParseFromFileAsync**(`url`, `scaleToSize?`, `appendToAdt?`, `urlRewriter?`): `Promise`\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1521](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1521)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1521](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1521)
 
 Recreate the content of the ADT from a url json
 
@@ -4263,7 +4263,7 @@ a promise that will resolve on success
 
 > `static` **ParseFromSnippetAsync**(`snippetId`, `scaleToSize?`, `appendToAdt?`, `urlRewriter?`): `Promise`\<`AdvancedDynamicTexture`\>
 
-Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1486](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1486)
+Defined in: [packages/dev/gui/src/2D/advancedDynamicTexture.ts:1486](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/advancedDynamicTexture.ts#L1486)
 
 Recreate the content of the ADT from a snippet saved by the GUI editor
 
@@ -4305,7 +4305,7 @@ a promise that will resolve on success
 
 > `static` **WhenAllReady**(`textures`, `callback`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L898)
+Defined in: [packages/dev/core/src/Materials/Textures/baseTexture.pure.ts:898](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/baseTexture.pure.ts#L898)
 
 Helper function to be called back once a list of texture contains only ready textures.
 

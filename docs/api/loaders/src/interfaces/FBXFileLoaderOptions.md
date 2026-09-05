@@ -6,7 +6,7 @@
 
 # Interface: FBXFileLoaderOptions
 
-Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L63)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L63)
 
 Defines options for the FBX loader.
 
@@ -16,7 +16,7 @@ Defines options for the FBX loader.
 
 > `optional` **normalMapCoordinateSystem?**: [`FBXNormalMapCoordinateSystem`](../type-aliases/FBXNormalMapCoordinateSystem.md)
 
-Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L69)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/FBX/fbxFileLoader.pure.ts#L69)
 
 Source convention for tangent-space normal maps connected through FBX normal-map slots.
 FBX does not standardize this convention, so the loader defaults to the glTF/USD-style Y-up convention.

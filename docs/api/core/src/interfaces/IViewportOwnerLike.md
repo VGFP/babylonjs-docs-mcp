@@ -6,7 +6,7 @@
 
 # Interface: IViewportOwnerLike
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts#L10)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts#L10)
 
 Defines the interface used by objects containing a viewport (like a camera)
 
@@ -16,6 +16,6 @@ Defines the interface used by objects containing a viewport (like a camera)
 
 > **viewport**: `IViewportLike`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts#L14)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.dom.pure.ts#L14)
 
 Gets or sets the viewport

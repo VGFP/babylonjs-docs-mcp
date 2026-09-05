@@ -6,7 +6,7 @@
 
 # Class: AnimationRange
 
-Defined in: [packages/dev/core/src/Animations/animationRange.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationRange.ts#L4)
+Defined in: [packages/dev/core/src/Animations/animationRange.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationRange.ts#L4)
 
 Represents the range of an animation
 
@@ -16,7 +16,7 @@ Represents the range of an animation
 
 > **new AnimationRange**(`name`, `from`, `to`): `AnimationRange`
 
-Defined in: [packages/dev/core/src/Animations/animationRange.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationRange.ts#L11)
+Defined in: [packages/dev/core/src/Animations/animationRange.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationRange.ts#L11)
 
 Initializes the range of an animation
 
@@ -50,7 +50,7 @@ The ending frame of the animation
 
 > **from**: `number`
 
-Defined in: [packages/dev/core/src/Animations/animationRange.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationRange.ts#L15)
+Defined in: [packages/dev/core/src/Animations/animationRange.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationRange.ts#L15)
 
 The starting frame of the animation
 
@@ -60,7 +60,7 @@ The starting frame of the animation
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Animations/animationRange.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationRange.ts#L13)
+Defined in: [packages/dev/core/src/Animations/animationRange.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationRange.ts#L13)
 
 The name of the animation range*
 
@@ -70,7 +70,7 @@ The name of the animation range*
 
 > **to**: `number`
 
-Defined in: [packages/dev/core/src/Animations/animationRange.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationRange.ts#L17)
+Defined in: [packages/dev/core/src/Animations/animationRange.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationRange.ts#L17)
 
 The ending frame of the animation
 
@@ -80,7 +80,7 @@ The ending frame of the animation
 
 > **clone**(): `AnimationRange`
 
-Defined in: [packages/dev/core/src/Animations/animationRange.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationRange.ts#L24)
+Defined in: [packages/dev/core/src/Animations/animationRange.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationRange.ts#L24)
 
 Makes a copy of the animation range
 

@@ -6,7 +6,7 @@
 
 # Interface: IStaticSoundBufferCloneOptions
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L21)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L21)
 
 Options for cloning a static sound buffer.
 -
@@ -21,6 +21,6 @@ Options for cloning a static sound buffer.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L25)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/staticSoundBuffer.ts#L25)
 
 The name of the cloned sound buffer. Defaults to `StaticSoundBuffer #${id}`.

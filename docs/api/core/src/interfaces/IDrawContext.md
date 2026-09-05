@@ -6,7 +6,7 @@
 
 # Interface: IDrawContext
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L4)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L4)
 
 Interface representing a draw context at the GPU level (draw call)
 
@@ -16,7 +16,7 @@ Interface representing a draw context at the GPU level (draw call)
 
 > **enableIndirectDraw**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L16)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L16)
 
 Indicates if the draw should be an indirect draw.
 
@@ -26,7 +26,7 @@ Indicates if the draw should be an indirect draw.
 
 > `optional` **indirectDrawBuffer?**: `GPUBuffer`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L20)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L20)
 
 Buffer used for the indirect draw call when enableIndirectDraw is true.
 
@@ -36,7 +36,7 @@ Buffer used for the indirect draw call when enableIndirectDraw is true.
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L8)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L8)
 
 Unique identifier for the draw context.
 
@@ -46,7 +46,7 @@ Unique identifier for the draw context.
 
 > **useInstancing**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L12)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L12)
 
 True if instances are used in the draw calls
 
@@ -56,7 +56,7 @@ True if instances are used in the draw calls
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L37)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L37)
 
 Disposes the draw context and its resources.
 
@@ -70,7 +70,7 @@ Disposes the draw context and its resources.
 
 > **reset**(): `void`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L33)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L33)
 
 Resets the draw context to its initial state.
 
@@ -84,7 +84,7 @@ Resets the draw context to its initial state.
 
 > **setIndirectData**(`indexOrVertexCount`, `instanceCount`, `firstIndexOrVertex`, `forceUpdate?`): `void`
 
-Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/IDrawContext.ts#L29)
+Defined in: [packages/dev/core/src/Engines/IDrawContext.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/IDrawContext.ts#L29)
 
 Data for the indirect draw call (only used when enableIndirectDraw is true).
 

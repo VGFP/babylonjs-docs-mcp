@@ -6,7 +6,7 @@
 
 # Class: DebugLayer
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L203)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L203)
 
 The debug layer (aka Inspector) is the go to tool in order to better understand
 what is happening in your scene
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector
 
 > **new DebugLayer**(`scene?`): `DebugLayer`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L267)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L267)
 
 Instantiates a new debug layer.
 The debug layer (aka Inspector) is the go to tool in order to better understand
@@ -49,7 +49,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector
 
 > `static` **Config**: [`IInspectorOptions`](../interfaces/IInspectorOptions.md)
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L214)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L214)
 
 The default configuration of the inspector
 
@@ -59,7 +59,7 @@ The default configuration of the inspector
 
 > `static` **InspectorURL**: `string`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L209)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L209)
 
 Define the url to get the inspector script from.
 By default it uses the babylonjs CDN.
@@ -74,7 +74,7 @@ By default it uses the babylonjs CDN.
 
 > **get** **onPropertyChangedObservable**(): `any`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L232)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:232](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L232)
 
 Observable triggered when a property is changed through the inspector.
 
@@ -90,7 +90,7 @@ Observable triggered when a property is changed through the inspector.
 
 > **get** **onSelectionChangedObservable**(): `any`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L248)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L248)
 
 Observable triggered when the selection is changed through the inspector.
 
@@ -106,7 +106,7 @@ Observable triggered when the selection is changed through the inspector.
 
 > **get** **openedPanes**(): `any`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L384)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L384)
 
 Get the number of opened panes in the inspector
 
@@ -120,7 +120,7 @@ Get the number of opened panes in the inspector
 
 > **hide**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L375)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L375)
 
 Hide the inspector and close its window.
 
@@ -134,7 +134,7 @@ Hide the inspector and close its window.
 
 > **isVisible**(): `boolean`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L368)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L368)
 
 Get if the inspector is visible or not.
 
@@ -150,7 +150,7 @@ true if visible otherwise, false
 
 > **popupEmbed**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L422)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L422)
 
 Pop up the embedded inspector panel
 
@@ -164,7 +164,7 @@ Pop up the embedded inspector panel
 
 > **popupInspector**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L413)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L413)
 
 Pop up the inspector in a separate window
 
@@ -178,7 +178,7 @@ Pop up the inspector in a separate window
 
 > **popupSceneExplorer**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L404)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:404](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L404)
 
 Pop up the scene explorer in a separate window
 
@@ -192,7 +192,7 @@ Pop up the scene explorer in a separate window
 
 > **select**(`entity`, `lineContainerTitles?`): `void`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L320)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L320)
 
 Select a specific entity in the scene explorer and highlight a specific block in that entity property grid
 
@@ -220,7 +220,7 @@ defines the specific blocks to highlight (could be a string or an array of strin
 
 > **setAsActiveScene**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L395)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:395](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L395)
 
 Update the scene in the inspector
 
@@ -234,7 +234,7 @@ Update the scene in the inspector
 
 > **show**(`config?`): `Promise`\<`DebugLayer`\>
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L434)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L434)
 
 Launch the debugLayer.
 

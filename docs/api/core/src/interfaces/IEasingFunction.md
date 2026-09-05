@@ -6,7 +6,7 @@
 
 # Interface: IEasingFunction
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L8)
+Defined in: [packages/dev/core/src/Animations/easing.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L8)
 
 This represents the main contract an easing function should follow.
 Easing functions are used throughout the animation system.
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > **ease**(`gradient`): `number`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L17)
+Defined in: [packages/dev/core/src/Animations/easing.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L17)
 
 Given an input gradient between 0 and 1, this returns the corresponding value
 of the easing function.

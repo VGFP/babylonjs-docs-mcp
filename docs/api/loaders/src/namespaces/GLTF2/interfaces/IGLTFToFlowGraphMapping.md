@@ -6,7 +6,7 @@
 
 # Interface: IGLTFToFlowGraphMapping
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L86)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L86)
 
 Description of how a KHR_interactivity declaration (op such as
 `pointer/get`, `event/onSelect`, `math/add`) maps to one or more
@@ -19,7 +19,7 @@ to translate the source glTF graph into the serialized FlowGraph form.
 
 > **blocks**: `string`[]
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L92)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L92)
 
 The type of the FlowGraph block(s).
 Typically will be a single element in an array.
@@ -31,7 +31,7 @@ When adding blocks defined in this module use the KHR_interactivity prefix.
 
 > `optional` **configuration?**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L123)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L123)
 
 The configuration of the glTF node mapped to the FlowGraph block.
 This information is usually passed to the constructor of the block.
@@ -46,7 +46,7 @@ This information is usually passed to the constructor of the block.
 
 > `optional` **extraProcessor?**: (`gltfBlock`, `declaration`, `mapping`, `parser`, `serializedObjects`, `context`, `globalGLTF?`) => [`ISerializedFlowGraphBlock`](../../../../../core/src/interfaces/ISerializedFlowGraphBlock.md)[]
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L187)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L187)
 
 This is used if we need extra information for the constructor/options that is not provided directly by the glTF node.
 This function can return more than one node, if extra nodes are needed for this block to function correctly.
@@ -108,7 +108,7 @@ an array of serialized nodes that will be added to the graph.
 
 > `optional` **inputs?**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L96)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L96)
 
 The inputs of the glTF node mapped to the FlowGraph block.
 
@@ -138,7 +138,7 @@ The value inputs of the glTF node mapped to the FlowGraph block.
 
 > `optional` **interBlockConnectors?**: `object`[]
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L135)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L135)
 
 The connections between two or more blocks.
 This is used to connect the blocks in the graph
@@ -179,7 +179,7 @@ The index of the block in the array of blocks that corresponds to the output.
 
 > `optional` **outputs?**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L109)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L109)
 
 The outputs of the glTF node mapped to the FlowGraph block.
 
@@ -209,7 +209,7 @@ The value outputs of the glTF node mapped to the FlowGraph block.
 
 > `optional` **typeToTypeMapping?**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L129)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L129)
 
 If we generate more than one block for a single glTF node, this mapping will be used to map
 between the flowGraph classes.
@@ -224,7 +224,7 @@ between the flowGraph classes.
 
 > `optional` **validation?**: (`gltfBlock`, `interactivityGraph`, `glTFObject?`) => `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L171)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:171](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L171)
 
 This optional function will allow to validate the node, according to the glTF specs.
 For example, if a node has a configuration object, it must be present and correct.

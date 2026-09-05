@@ -6,7 +6,7 @@
 
 # Interface: ImportAnimationsOptions
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L466)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:466](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L466)
 
 Defines options for ImportAnimationsAsync.
 
@@ -20,7 +20,7 @@ Defines options for ImportAnimationsAsync.
 
 > `optional` **animationGroupLoadingMode?**: [`SceneLoaderAnimationGroupLoadingMode`](../enumerations/SceneLoaderAnimationGroupLoadingMode.md)
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:475](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L475)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:475](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L475)
 
 Defines how to handle old animations groups before importing new ones
 
@@ -30,7 +30,7 @@ Defines how to handle old animations groups before importing new ones
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:423](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L423)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:423](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L423)
 
 Defines the filename, if the data is binary
 
@@ -44,7 +44,7 @@ Defines the filename, if the data is binary
 
 > `optional` **onProgress?**: (`event`) => `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L413)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:413](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L413)
 
 A callback with a progress event for each file being loaded
 
@@ -68,7 +68,7 @@ A callback with a progress event for each file being loaded
 
 > `optional` **overwriteAnimations?**: `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:470](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L470)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:470](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L470)
 
 When true, animations are cleaned before importing new ones. Animations are appended otherwise
 
@@ -78,7 +78,7 @@ When true, animations are cleaned before importing new ones. Animations are appe
 
 > `optional` **pluginExtension?**: `string`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L418)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:418](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L418)
 
 The extension used to determine the plugin
 
@@ -92,7 +92,7 @@ The extension used to determine the plugin
 
 > `optional` **pluginOptions?**: `object`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L428)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L428)
 
 Defines options for the registered plugins
 
@@ -914,6 +914,33 @@ Callback raised after the asset is validated.
 
 `void`
 
+##### gltf.preprocessUrlAsync?
+
+> `optional` **preprocessUrlAsync?**: (`url`, `rootUrl?`) => `Promise`\<`string`\> = `DefaultPreprocessUrlAsync`
+
+Function called before loading a URL referenced by the asset.
+Setting this function allows parent-relative asset URIs and makes the callback responsible for URI safety.
+
+###### Parameters
+
+###### url
+
+`string`
+
+The URL referenced by the asset
+
+###### rootUrl?
+
+`string`
+
+The root URL of the asset, if available
+
+###### Returns
+
+`Promise`\<`string`\>
+
+A promise that resolves to the URL to load
+
 ##### gltf.skipMaterials?
 
 > `optional` **skipMaterials?**: `boolean` = `false`
@@ -987,26 +1014,6 @@ If true, load the color (gamma encoded) textures into sRGB buffers (if supported
 
 Defines if the loader should validate the asset.
 
-##### gltf.preprocessUrlAsync()?
-
-> `optional` **preprocessUrlAsync**(`url`): `Promise`\<`string`\>
-
-Function called before loading a url referenced by the asset.
-
-###### Parameters
-
-###### url
-
-`string`
-
-url referenced by the asset
-
-###### Returns
-
-`Promise`\<`string`\>
-
-Async url to load
-
 #### obj?
 
 > `optional` **obj?**: `object`
@@ -1024,6 +1031,14 @@ Compute the normals for the model, even if normals are present in the file.
 > `optional` **enabled?**: `boolean`
 
 Defines if the plugin is enabled
+
+##### obj.encoding?
+
+> `optional` **encoding?**: `string`
+
+Defines the character encoding used to decode OBJ and MTL files.
+Use "auto" to detect UTF-8/UTF-16 and fall back to GB18030, or provide an encoding label supported by TextDecoder.
+Defaults to "auto".
 
 ##### obj.importVertexColors?
 
@@ -1191,7 +1206,7 @@ Defines if the plugin is enabled
 
 > `optional` **rootUrl?**: `string`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L408)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:408](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L408)
 
 A string that defines the root url for the scene and resources or the concatenation of rootURL and filename (e.g. http://example.com/test.glb)
 
@@ -1205,6 +1220,6 @@ A string that defines the root url for the scene and resources or the concatenat
 
 > `optional` **targetConverter?**: [`Nullable`](../type-aliases/Nullable.md)\<(`target`) => `unknown`\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:480](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L480)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:480](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L480)
 
 defines a function used to convert animation targets from loaded scene to current scene (default: search node by name)

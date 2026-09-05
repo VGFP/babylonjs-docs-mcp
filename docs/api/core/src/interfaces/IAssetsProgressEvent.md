@@ -6,7 +6,7 @@
 
 # Interface: IAssetsProgressEvent
 
-Defined in: [packages/dev/core/src/Misc/assetsManager.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L179)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:179](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/assetsManager.ts#L179)
 
 Define the interface used by progress events raised during assets loading
 
@@ -16,7 +16,7 @@ Define the interface used by progress events raised during assets loading
 
 > **remainingCount**: `number`
 
-Defined in: [packages/dev/core/src/Misc/assetsManager.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L183)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/assetsManager.ts#L183)
 
 Defines the number of remaining tasks to process
 
@@ -26,7 +26,7 @@ Defines the number of remaining tasks to process
 
 > **task**: [`AbstractAssetTask`](../classes/AbstractAssetTask.md)
 
-Defined in: [packages/dev/core/src/Misc/assetsManager.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L191)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:191](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/assetsManager.ts#L191)
 
 Defines the task that was just processed
 
@@ -36,6 +36,6 @@ Defines the task that was just processed
 
 > **totalCount**: `number`
 
-Defined in: [packages/dev/core/src/Misc/assetsManager.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/assetsManager.ts#L187)
+Defined in: [packages/dev/core/src/Misc/assetsManager.ts:187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/assetsManager.ts#L187)
 
 Defines the total number of tasks

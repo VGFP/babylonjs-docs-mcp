@@ -6,7 +6,7 @@
 
 # Class: KHR\_node\_visibility
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L16)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L16)
 
 Loader extension for KHR_node_visibility
 
@@ -20,7 +20,7 @@ Loader extension for KHR_node_visibility
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L25)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L25)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_node_visibility"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L20)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L20)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L67)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L67)
 
 Releases all held resources
 
@@ -66,7 +66,7 @@ Releases all held resources
 
 > **onReady**(): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L37)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_node\_visibility.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_node_visibility.pure.ts#L37)
 
 Called after the loader state changes to READY.
 

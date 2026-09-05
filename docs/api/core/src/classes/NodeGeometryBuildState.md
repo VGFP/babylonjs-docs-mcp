@@ -6,7 +6,7 @@
 
 # Class: NodeGeometryBuildState
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L13)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L13)
 
 Class used to store node based geometry build state
 
@@ -26,7 +26,7 @@ Class used to store node based geometry build state
 
 > **buildId**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L26)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L26)
 
 Gets or sets the build identifier
 
@@ -36,7 +36,7 @@ Gets or sets the build identifier
 
 > **noContextualData**: [`NodeGeometryContextualSources`](../enumerations/NodeGeometryContextualSources.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L24)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L24)
 
 Gets or sets the list of non contextual inputs having no contextudal data
 
@@ -46,7 +46,7 @@ Gets or sets the list of non contextual inputs having no contextudal data
 
 > **notConnectedNonOptionalInputs**: [`NodeGeometryConnectionPoint`](NodeGeometryConnectionPoint.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L22)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L22)
 
 Gets or sets the list of non connected mandatory inputs
 
@@ -56,7 +56,7 @@ Gets or sets the list of non connected mandatory inputs
 
 > **verbose**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L28)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L28)
 
 Gets or sets a boolean indicating that verbose mode is on
 
@@ -66,7 +66,7 @@ Gets or sets a boolean indicating that verbose mode is on
 
 > **vertexData**: [`Nullable`](../type-aliases/Nullable.md)\<[`VertexData`](VertexData.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L30)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L30)
 
 Gets or sets the vertex data
 
@@ -78,7 +78,7 @@ Gets or sets the vertex data
 
 > **get** **executionContext**(): [`Nullable`](../type-aliases/Nullable.md)\<[`INodeGeometryExecutionContext`](../interfaces/INodeGeometryExecutionContext.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L46)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L46)
 
 Gets or sets the execution context
 
@@ -94,7 +94,7 @@ Gets or sets the execution context
 
 > **get** **geometryContext**(): [`Nullable`](../type-aliases/Nullable.md)\<[`VertexData`](VertexData.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L41)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L41)
 
 Gets or sets the geometry context
 
@@ -110,7 +110,7 @@ Gets or sets the geometry context
 
 > **get** **instancingContext**(): [`Nullable`](../type-aliases/Nullable.md)\<`INodeGeometryInstancingContext`\>
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L51)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L51)
 
 Gets or sets the instancing context
 
@@ -124,7 +124,7 @@ Gets or sets the instancing context
 
 > **adapt**(`source`, `targetType`): `any`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L221)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:221](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L221)
 
 Adapt a value to a target type
 
@@ -154,7 +154,7 @@ the adapted value
 
 > **adaptInput**(`source`, `targetType`, `defaultValue`): `any`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L247)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L247)
 
 Adapt an input value to a target type
 
@@ -190,7 +190,7 @@ the adapted value
 
 > **emitErrors**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L273)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:273](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L273)
 
 Emits console errors and exceptions if there is a failing check
 
@@ -204,7 +204,7 @@ Emits console errors and exceptions if there is a failing check
 
 > **getContextualValue**(`source`, `skipWarning?`): `any`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L112)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:112](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L112)
 
 Gets the value associated with a contextual source
 
@@ -234,7 +234,7 @@ the value associated with the source
 
 > **pushExecutionContext**(`executionContext`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L68)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L68)
 
 Push the new active execution context
 
@@ -256,7 +256,7 @@ defines the execution context
 
 > **pushGeometryContext**(`geometryContext`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L59)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L59)
 
 Push the new active geometry context
 
@@ -278,7 +278,7 @@ defines the geometry context
 
 > **pushInstancingContext**(`instancingContext`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L77)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L77)
 
 Push the new active instancing context
 
@@ -300,7 +300,7 @@ defines the instancing context
 
 > **restoreExecutionContext**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L93)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L93)
 
 Remove current execution context and restore the previous one
 
@@ -314,7 +314,7 @@ Remove current execution context and restore the previous one
 
 > **restoreGeometryContext**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L85)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L85)
 
 Remove current geometry context and restore the previous one
 
@@ -328,7 +328,7 @@ Remove current geometry context and restore the previous one
 
 > **restoreInstancingContext**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L101)
+Defined in: [packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/nodeGeometryBuildState.ts#L101)
 
 Remove current isntancing context and restore the previous one
 

@@ -6,7 +6,7 @@
 
 # Class: XmlBuilder
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L62)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L62)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:62](https:
 
 > **new XmlBuilder**(`w`): `XmlBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L101)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L101)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:101](https
 
 > `static` **Context**: *typeof* `__class`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L64)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L64)
 
 ## Methods
 
@@ -44,7 +44,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:64](https:
 
 > **att**(`ns`, `n`, `v`): [`IXmlBuilder`](../interfaces/IXmlBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L132)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L132)
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:132](https
 
 > **dec**(`version`, `encoding?`, `standalone?`): [`IXmlBuilder`](../interfaces/IXmlBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L112)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:112](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L112)
 
 #### Parameters
 
@@ -104,7 +104,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:112](https
 
 > **ele**(`ns`, `n`): [`IXmlBuilder`](../interfaces/IXmlBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L183)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L183)
 
 #### Parameters
 
@@ -130,7 +130,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:183](https
 
 > **end**(): [`IXmlBuilder`](../interfaces/IXmlBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L218)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:218](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L218)
 
 #### Returns
 
@@ -146,7 +146,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:218](https
 
 > **text**(`txt`): [`IXmlBuilder`](../interfaces/IXmlBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L203)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L203)
 
 #### Parameters
 

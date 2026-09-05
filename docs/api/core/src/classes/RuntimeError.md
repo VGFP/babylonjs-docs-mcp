@@ -6,7 +6,7 @@
 
 # Class: RuntimeError
 
-Defined in: [packages/dev/core/src/Misc/error.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L59)
+Defined in: [packages/dev/core/src/Misc/error.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/error.ts#L59)
 
 Application runtime error
 
@@ -26,7 +26,7 @@ Application runtime error
 
 > **new RuntimeError**(`message`, `errorCode`, `innerError?`): `RuntimeError`
 
-Defined in: [packages/dev/core/src/Misc/error.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L76)
+Defined in: [packages/dev/core/src/Misc/error.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/error.ts#L76)
 
 Creates a new RuntimeError
 
@@ -64,7 +64,7 @@ the error that caused the outer error
 
 > **errorCode**: [`ErrorCodesType`](../type-aliases/ErrorCodesType.md)
 
-Defined in: [packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L63)
+Defined in: [packages/dev/core/src/Misc/error.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/error.ts#L63)
 
 The error code
 
@@ -74,6 +74,6 @@ The error code
 
 > `optional` **innerError?**: `Error`
 
-Defined in: [packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/error.ts#L68)
+Defined in: [packages/dev/core/src/Misc/error.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/error.ts#L68)
 
 The error that caused this outer error

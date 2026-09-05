@@ -6,7 +6,7 @@
 
 # Class: LensFlare
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L13)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L13)
 
 This represents one of the lens effect in a `lensFlareSystem`.
 It controls one of the individual texture used in the effect.
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/lenseFlare
 
 > **new LensFlare**(`size`, `position`, `color`, `imgUrl`, `system`): `LensFlare`
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L61)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L61)
 
 Instantiates a new Lens Flare.
 This represents one of the lens effect in a `lensFlareSystem`.
@@ -73,7 +73,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/lenseFlare
 
 > **alphaMode**: `number` = `Constants.ALPHA_ONEONE`
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L27)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L27)
 
 Define the alpha mode to render this particular lens.
 
@@ -83,7 +83,7 @@ Define the alpha mode to render this particular lens.
 
 > **color**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L17)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L17)
 
 Define the lens color.
 
@@ -93,7 +93,7 @@ Define the lens color.
 
 > **position**: `number`
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L69)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L69)
 
 Define the position of the lens flare in the system. (a floating value between -1 and 1). A value of 0 is located on the emitter. A value greater than 0 is beyond the emitter and a value lesser than 0 is behind.
 
@@ -103,7 +103,7 @@ Define the position of the lens flare in the system. (a floating value between -
 
 > **size**: `number`
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L65)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L65)
 
 Define the size of the lens flare in the system (a floating value between 0 and 1)
 
@@ -113,7 +113,7 @@ Define the size of the lens flare in the system (a floating value between 0 and 
 
 > **texture**: [`Nullable`](../type-aliases/Nullable.md)\<[`Texture`](Texture.md)\>
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L22)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L22)
 
 Define the lens texture.
 
@@ -123,7 +123,7 @@ Define the lens texture.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L102)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L102)
 
 Dispose and release the lens flare with its associated resources.
 
@@ -137,7 +137,7 @@ Dispose and release the lens flare with its associated resources.
 
 > `static` **AddFlare**(`size`, `position`, `color`, `imgUrl`, `system`): `LensFlare`
 
-Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/LensFlares/lensFlare.ts#L46)
+Defined in: [packages/dev/core/src/LensFlares/lensFlare.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/LensFlares/lensFlare.ts#L46)
 
 Creates a new Lens Flare.
 This represents one of the lens effect in a `lensFlareSystem`.

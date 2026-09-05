@@ -6,7 +6,7 @@
 
 # Class: ThreeMfSerializerGlobalConfiguration
 
-Defined in: [packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts#L4)
+Defined in: [packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts#L4)
 
 Class used to store configuration of the 3MF Serializer
 
@@ -26,6 +26,6 @@ Class used to store configuration of the 3MF Serializer
 
 > `static` **FFLATEUrl**: `string` = `"https://unpkg.com/fflate@0.8.2"`
 
-Defined in: [packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts#L9)
+Defined in: [packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/3mfSerializer.configuration.ts#L9)
 
 Url to use to load the fflate library (for zip compression)

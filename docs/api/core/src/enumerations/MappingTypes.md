@@ -6,7 +6,7 @@
 
 # Enumeration: MappingTypes
 
-Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L14)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L14)
 
 Type of mappings supported by the mapping block
 
@@ -16,7 +16,7 @@ Type of mappings supported by the mapping block
 
 > **Cubic**: `2`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L20)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L20)
 
 Cubic
 
@@ -26,7 +26,7 @@ Cubic
 
 > **Cylindrical**: `1`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L18)
 
 Cylindrical
 
@@ -36,6 +36,6 @@ Cylindrical
 
 > **Spherical**: `0`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L16)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Blocks/mappingBlock.pure.ts#L16)
 
 Spherical

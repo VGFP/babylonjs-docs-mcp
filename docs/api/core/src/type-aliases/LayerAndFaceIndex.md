@@ -8,7 +8,7 @@
 
 > **LayerAndFaceIndex** = `object`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L15)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L15)
 
 Type used to define layer and face indices for multi-render target rendering scenarios.
 
@@ -18,7 +18,7 @@ Type used to define layer and face indices for multi-render target rendering sce
 
 > `optional` **faceIndex?**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L23)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L23)
 
 Index of the cube face to set (optional - not used if the texture is not a cube texture)
 
@@ -28,7 +28,7 @@ Index of the cube face to set (optional - not used if the texture is not a cube 
 
 > `optional` **layerIndex?**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L20)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L20)
 
 Index of the layer to set (optional - not used if the texture is not an array or a 3D texture)
 
@@ -38,6 +38,6 @@ Index of the layer to set (optional - not used if the texture is not an array or
 
 > **targetIndex**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L17)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L17)
 
 Index of the texture to update

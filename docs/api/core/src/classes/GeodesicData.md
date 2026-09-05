@@ -6,7 +6,7 @@
 
 # Class: GeodesicData
 
-Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:599](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/geodesicMesh.ts#L599)
+Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:599](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/geodesicMesh.ts#L599)
 
 This class Extends the PolyhedronData Class to provide measures for a Geodesic Polyhedron
 
@@ -16,7 +16,7 @@ This class Extends the PolyhedronData Class to provide measures for a Geodesic P
 
 > **category**: `string`
 
-Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:584](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/geodesicMesh.ts#L584)
+Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:584](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/geodesicMesh.ts#L584)
 
 The category of the polyhedron
 
@@ -30,7 +30,7 @@ The category of the polyhedron
 
 > **face**: `number`[][]
 
-Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:592](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/geodesicMesh.ts#L592)
+Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:592](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/geodesicMesh.ts#L592)
 
 face data
 
@@ -44,7 +44,7 @@ face data
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:580](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/geodesicMesh.ts#L580)
+Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:580](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/geodesicMesh.ts#L580)
 
 The name of the polyhedron
 
@@ -58,7 +58,7 @@ The name of the polyhedron
 
 > **vertex**: `number`[][]
 
-Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:588](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/geodesicMesh.ts#L588)
+Defined in: [packages/dev/core/src/Meshes/geodesicMesh.ts:588](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/geodesicMesh.ts#L588)
 
 vertex data
 

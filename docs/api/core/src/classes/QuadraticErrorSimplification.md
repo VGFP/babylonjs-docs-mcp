@@ -6,7 +6,7 @@
 
 # Class: QuadraticErrorSimplification
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:292](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L292)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:292](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L292)
 
 An implementation of the Quadratic Error simplification algorithm.
 Original paper : http://www1.cs.columbia.edu/~cs4162/html05s/garland97.pdf
@@ -26,7 +26,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **new QuadraticErrorSimplification**(`_mesh`): `QuadraticErrorSimplification`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:315](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L315)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:315](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L315)
 
 Creates a new QuadraticErrorSimplification
 
@@ -48,7 +48,7 @@ defines the target mesh
 
 > **aggressiveness**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:303](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L303)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:303](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L303)
 
 Gets or sets the aggressiveness of the simplifier
 
@@ -58,7 +58,7 @@ Gets or sets the aggressiveness of the simplifier
 
 > **boundingBoxEpsilon**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L309)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:309](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L309)
 
 Gets or sets the espilon to use for bounding box computation
 
@@ -68,7 +68,7 @@ Gets or sets the espilon to use for bounding box computation
 
 > **decimationIterations**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L306)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:306](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L306)
 
 Gets or sets the number of allowed iterations for decimation
 
@@ -78,7 +78,7 @@ Gets or sets the number of allowed iterations for decimation
 
 > **syncIterations**: `number` = `5000`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L300)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:300](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L300)
 
 Gets or sets the number pf sync iterations
 
@@ -88,7 +88,7 @@ Gets or sets the number pf sync iterations
 
 > **simplify**(`settings`, `successCallback`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L327)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L327)
 
 Simplification of a given mesh according to the given settings.
 Since this requires computation, it is assumed that the function runs async.

@@ -6,7 +6,7 @@
 
 # Class: EXT\_meshopt\_compression
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_meshopt\_compression.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_meshopt_compression.pure.ts#L22)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_meshopt\_compression.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_meshopt_compression.pure.ts#L22)
 
 **`Since`**
 
@@ -25,7 +25,7 @@ This extension uses a WebAssembly decoder module from https://github.com/zeux/me
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_meshopt\_compression.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_meshopt_compression.pure.ts#L31)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_meshopt\_compression.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_meshopt_compression.pure.ts#L31)
 
 Defines whether this extension is enabled.
 
@@ -39,7 +39,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"EXT_meshopt_compression"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_meshopt\_compression.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_meshopt_compression.pure.ts#L26)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_meshopt\_compression.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_meshopt_compression.pure.ts#L26)
 
 The name of this extension.
 

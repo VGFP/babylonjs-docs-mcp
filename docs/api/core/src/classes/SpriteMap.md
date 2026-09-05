@@ -6,7 +6,7 @@
 
 # Class: SpriteMap
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L107)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L107)
 
 Class used to manage a grid restricted sprite deployment on an Output plane.
 
@@ -20,7 +20,7 @@ Class used to manage a grid restricted sprite deployment on an Output plane.
 
 > **new SpriteMap**(`name`, `atlasJSON`, `spriteSheet`, `options`, `scene`): `SpriteMap`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L209)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:209](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L209)
 
 Creates a new SpriteMap
 
@@ -66,7 +66,7 @@ The Scene that the map is deployed on
 
 > **atlasJSON**: [`ISpriteJSONAtlas`](../interfaces/ISpriteJSONAtlas.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L112)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L112)
 
 The JSON file with the frame and meta data
 
@@ -80,7 +80,7 @@ The JSON file with the frame and meta data
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L109)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L109)
 
 The Name of the spriteMap
 
@@ -94,7 +94,7 @@ The Name of the spriteMap
 
 > **options**: [`ISpriteMapOptions`](../interfaces/ISpriteMapOptions.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L118)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L118)
 
 Arguments passed with the Constructor
 
@@ -108,7 +108,7 @@ Arguments passed with the Constructor
 
 > **sprites**: [`ISpriteJSONSprite`](../interfaces/ISpriteJSONSprite.md)[]
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L121)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L121)
 
 Public Sprite Storage array, parsed from atlasJSON
 
@@ -118,7 +118,7 @@ Public Sprite Storage array, parsed from atlasJSON
 
 > **spriteSheet**: [`Texture`](Texture.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L115)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L115)
 
 The systems Sprite Sheet Texture
 
@@ -134,7 +134,7 @@ The systems Sprite Sheet Texture
 
 > **get** **animationMap**(): [`RawTexture`](RawTexture.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L149)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L149)
 
 Sets the AnimationMap
 
@@ -146,7 +146,7 @@ Sets the AnimationMap
 
 > **set** **animationMap**(`v`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L154)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L154)
 
 Sets the AnimationMap
 
@@ -168,7 +168,7 @@ Sets the AnimationMap
 
 > **get** **fogEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L163)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L163)
 
 Gets or sets a boolean indicating if the sprite map must consider scene fog when rendering
 
@@ -180,7 +180,7 @@ Gets or sets a boolean indicating if the sprite map must consider scene fog when
 
 > **set** **fogEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L166)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L166)
 
 ##### Parameters
 
@@ -200,7 +200,7 @@ Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:166](https://github
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L129)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L129)
 
 Returns the Position of Output Plane
 
@@ -212,7 +212,7 @@ Returns the Position of Output Plane
 
 > **set** **position**(`v`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L134)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L134)
 
 Returns the Position of Output Plane
 
@@ -234,7 +234,7 @@ Returns the Position of Output Plane
 
 > **get** **rotation**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L139)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L139)
 
 Returns the Rotation of Output Plane
 
@@ -246,7 +246,7 @@ Returns the Rotation of Output Plane
 
 > **set** **rotation**(`v`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L144)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L144)
 
 Returns the Rotation of Output Plane
 
@@ -268,7 +268,7 @@ Returns the Rotation of Output Plane
 
 > **get** **spriteCount**(): `number`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L124)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L124)
 
 Returns the Number of Sprites in the System
 
@@ -284,7 +284,7 @@ Returns the Number of Sprites in the System
 
 > **get** **useLogarithmicDepth**(): `boolean`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L173)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L173)
 
 Gets or sets a boolean indicating if the sprite map must use logarithmic depth when rendering
 
@@ -296,7 +296,7 @@ Gets or sets a boolean indicating if the sprite map must use logarithmic depth w
 
 > **set** **useLogarithmicDepth**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L176)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L176)
 
 ##### Parameters
 
@@ -314,7 +314,7 @@ Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:176](https://github
 
 > **addAnimationToTile**(`cellID?`, `_frame?`, `toCell?`, `time?`, `speed?`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L563)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L563)
 
 Modifies the data of the animationMap
 
@@ -360,7 +360,7 @@ is a global scalar of the time variable on the map.
 
 > **changeTiles**(`_layer?`, `pos`, `tile?`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:490](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L490)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:490](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L490)
 
 Modifies the data of the tileMaps
 
@@ -394,7 +394,7 @@ The SpriteIndex of the new Tile
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:624](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L624)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:624](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L624)
 
 Release associated resources
 
@@ -412,7 +412,7 @@ Release associated resources
 
 > **getMousePosition**(): [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L379)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L379)
 
 Gets the UV location of the mouse over the SpriteMap.
 
@@ -428,7 +428,7 @@ Vector2 the UV position of the mouse interaction
 
 > **getTileID**(): [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L367)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L367)
 
 Returns tileID location
 
@@ -444,7 +444,7 @@ Vector2 the cell position ID
 
 > **getTileIdxByName**(`name`): `number`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L357)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L357)
 
 Returns the index of the frame for a given filename
 
@@ -468,7 +468,7 @@ index of the frame
 
 > **loadTileMaps**(`url`): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:602](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L602)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:602](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L602)
 
 Imports the .tilemaps file
 
@@ -490,7 +490,7 @@ of the .tilemaps file
 
 > **saveTileMaps**(): `void`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L581)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L581)
 
 Exports the .tilemaps file
 

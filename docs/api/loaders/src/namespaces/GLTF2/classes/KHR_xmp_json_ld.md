@@ -6,7 +6,7 @@
 
 # Class: KHR\_xmp\_json\_ld
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L13)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L13)
 
 **`Since`**
 
@@ -23,7 +23,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pur
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L22)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L22)
 
 Defines whether this extension is enabled.
 
@@ -37,7 +37,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_xmp_json_ld"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L17)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L17)
 
 The name of this extension.
 
@@ -51,7 +51,7 @@ The name of this extension.
 
 > **order**: `number` = `100`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L27)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L27)
 
 Defines a number that determines the order the extensions are applied.
 
@@ -65,7 +65,7 @@ Defines a number that determines the order the extensions are applied.
 
 > **onLoading**(): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L47)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_xmp\_json\_ld.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_xmp_json_ld.pure.ts#L47)
 
 Called after the loader state changes to LOADING.
 

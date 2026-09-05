@@ -6,7 +6,7 @@
 
 # Class: SelectorGroup
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L13)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L13)
 
 Class used to create a RadioGroup
 which contains groups of radio buttons
@@ -23,7 +23,7 @@ which contains groups of radio buttons
 
 > **new SelectorGroup**(`name`): `SelectorGroup`
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L22)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L22)
 
 Creates a new SelectorGroup
 
@@ -45,7 +45,7 @@ of group, used as a group heading
 
 > **name**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L24)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L24)
 
 name of SelectorGroup
 
@@ -57,7 +57,7 @@ name of SelectorGroup
 
 > **get** **groupPanel**(): [`StackPanel`](StackPanel.md)
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L32)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L32)
 
 Gets the groupPanel of the SelectorGroup
 
@@ -73,7 +73,7 @@ Gets the groupPanel of the SelectorGroup
 
 > **get** **header**(): `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L42)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L42)
 
 Gets and sets the group header
 
@@ -85,7 +85,7 @@ Gets and sets the group header
 
 > **set** **header**(`label`): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L46)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L46)
 
 ##### Parameters
 
@@ -105,7 +105,7 @@ Defined in: [packages/dev/gui/src/2D/controls/selector.ts:46](https://github.com
 
 > **get** **selectors**(): [`StackPanel`](StackPanel.md)[]
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L37)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L37)
 
 Gets the selectors array
 
@@ -119,7 +119,7 @@ Gets the selectors array
 
 > **removeSelector**(`selectorNb`): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/selector.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/selector.ts#L83)
+Defined in: [packages/dev/gui/src/2D/controls/selector.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/selector.ts#L83)
 
 Removes the selector at the given position
 

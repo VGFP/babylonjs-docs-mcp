@@ -6,7 +6,7 @@
 
 # Class: FlowGraphSignalConnection
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L14)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L14)
 
 Represents a connection point for a signal.
 When an output point is activated, it will activate the connected input point.
@@ -22,7 +22,7 @@ When an input point is activated, it will execute the block it belongs to.
 
 > **new FlowGraphSignalConnection**(`name`, `_connectionType`, `_ownerBlock`): `FlowGraphSignalConnection`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L67)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L67)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:67](https://
 
 > **\_ownerBlock**: [`FlowGraphExecutionBlock`](FlowGraphExecutionBlock.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L70)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L70)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:70](https://
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L52)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L52)
 
 The name of the connection.
 
@@ -78,7 +78,7 @@ The name of the connection.
 
 > **payload**: `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L18)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L18)
 
 Optional payload. Can be used, for example, when an error is thrown to pass additional information.
 
@@ -88,7 +88,7 @@ Optional payload. Can be used, for example, when an error is thrown to pass addi
 
 > **priority**: `number` = `0`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L24)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L24)
 
 The priority of the signal. Signals with higher priority will be executed first.
 Set priority before adding the connection as sorting happens only when the connection is added.
@@ -99,7 +99,7 @@ Set priority before adding the connection as sorting happens only when the conne
 
 > **uniqueId**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L47)
 
 A uniquely identifying string for the connection.
 
@@ -115,7 +115,7 @@ A uniquely identifying string for the connection.
 
 > **get** **connectionType**(): [`FlowGraphConnectionType`](../enumerations/FlowGraphConnectionType.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L79)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L79)
 
 The type of the connection
 
@@ -133,7 +133,7 @@ The type of the connection
 
 > **connectTo**(`point`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L30)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphSignalConnection.pure.ts#L30)
 
 Connects two connections together.
 
@@ -159,7 +159,7 @@ the connection to connect to.
 
 > **deserialize**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L173)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L173)
 
 Deserialize from a object into this
 
@@ -185,7 +185,7 @@ the object to deserialize from.
 
 > **disconnectFrom**(`point`, `removeFromLocal?`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L119)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:119](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L119)
 
 Disconnects two connections.
 
@@ -217,7 +217,7 @@ if true, the connection will be removed from the local connection list.
 
 > **disconnectFromAll**(): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L134)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L134)
 
 Disconnects all connected points.
 
@@ -235,7 +235,7 @@ Disconnects all connected points.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L141)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L141)
 
 #### Returns
 
@@ -251,7 +251,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:141](https:/
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L165)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L165)
 
 #### Returns
 
@@ -269,7 +269,7 @@ class name of the connection.
 
 > **isConnected**(): `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L95)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L95)
 
 Returns if a point is connected to any other point.
 
@@ -289,7 +289,7 @@ boolean indicating if the point is connected.
 
 > **serialize**(`serializationObject?`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L151)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L151)
 
 Saves the connection to a JSON object.
 

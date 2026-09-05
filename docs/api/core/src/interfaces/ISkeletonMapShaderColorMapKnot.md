@@ -6,7 +6,7 @@
 
 # Interface: ISkeletonMapShaderColorMapKnot
 
-Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/ISkeletonViewer.ts#L85)
+Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/ISkeletonViewer.ts#L85)
 
 Simple structure of the gradient steps for the Color Map.
 
@@ -16,7 +16,7 @@ Simple structure of the gradient steps for the Color Map.
 
 > **color**: [`Color3`](../classes/Color3.md)
 
-Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/ISkeletonViewer.ts#L87)
+Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/ISkeletonViewer.ts#L87)
 
 Color of the Knot
 
@@ -26,6 +26,6 @@ Color of the Knot
 
 > **location**: `number`
 
-Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/ISkeletonViewer.ts#L89)
+Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/ISkeletonViewer.ts#L89)
 
 Location of the Knot

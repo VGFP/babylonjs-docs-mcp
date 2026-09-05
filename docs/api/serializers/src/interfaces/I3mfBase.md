@@ -6,7 +6,7 @@
 
 # Interface: I3mfBase
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L280)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L280)
 
 A single base material entry.
 "name" is a label, "displaycolor" provides the color used for rendering previews.
@@ -17,7 +17,7 @@ A single base material entry.
 
 > **displaycolor**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:285](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L285)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:285](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L285)
 
 Display color for the base material.
 
@@ -27,6 +27,6 @@ Display color for the base material.
 
 > **name**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L282)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L282)
 
 Material name/label.

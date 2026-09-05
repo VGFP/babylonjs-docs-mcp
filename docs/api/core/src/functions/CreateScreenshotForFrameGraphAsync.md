@@ -8,7 +8,7 @@
 
 > **CreateScreenshotForFrameGraphAsync**(`frameGraph`, `camera`, `size`, `mimeType?`, `samples?`, `antialiasing?`, `fileName?`, `quality?`, `customDumpData?`, `automaticDownload?`, `numberOfFramesToRender?`): `Promise`\<`string` \| `ArrayBuffer` \| `null`\>
 
-Defined in: [packages/dev/core/src/Misc/screenshotTools.pure.ts:601](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/screenshotTools.pure.ts#L601)
+Defined in: [packages/dev/core/src/Misc/screenshotTools.pure.ts:601](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/screenshotTools.pure.ts#L601)
 
 Generates an image screenshot from the specified frame graph and camera
 Please note:

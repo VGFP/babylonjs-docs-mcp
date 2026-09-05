@@ -6,7 +6,7 @@
 
 # Class: ThreeMfResources
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L176)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:176](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L176)
 
 ## Implements
 
@@ -28,7 +28,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:176](https://git
 
 > `optional` **basematerials?**: [`I3mfBaseMaterials`](../interfaces/I3mfBaseMaterials.md)[]
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L184)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:184](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L184)
 
 #### Implementation of
 
@@ -40,7 +40,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:184](https://git
 
 > **object**: [`I3mfObject`](../interfaces/I3mfObject.md)[] = `[]`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:180](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L180)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:180](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L180)
 
 #### Implementation of
 

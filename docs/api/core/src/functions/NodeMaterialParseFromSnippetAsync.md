@@ -8,7 +8,7 @@
 
 > **NodeMaterialParseFromSnippetAsync**(`this`, `snippetId`, `scene?`, `rootUrl?`, `nodeMaterial?`, `skipBuild?`, `waitForTextureReadyness?`, `urlRewriter?`, `options?`): `Promise`\<[`NodeMaterial`](../classes/NodeMaterial.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:2768](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L2768)
+Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:2768](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L2768)
 
 Creates a node material from a snippet saved by the node material editor
 

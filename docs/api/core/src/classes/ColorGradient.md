@@ -6,7 +6,7 @@
 
 # Class: ColorGradient
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L12)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L12)
 
 Class used to store color4 gradient
 
@@ -20,7 +20,7 @@ Class used to store color4 gradient
 
 > **new ColorGradient**(`gradient`, `color1`, `color2?`): `ColorGradient`
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L19)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L19)
 
 Creates a new color4 gradient
 
@@ -54,7 +54,7 @@ gets or sets first second color
 
 > **color1**: [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L27)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L27)
 
 Gets or sets first associated color
 
@@ -64,7 +64,7 @@ Gets or sets first associated color
 
 > `optional` **color2?**: [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L31)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L31)
 
 Gets or sets second associated color
 
@@ -74,7 +74,7 @@ Gets or sets second associated color
 
 > **gradient**: `number`
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L23)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L23)
 
 Gets or sets the gradient value (between 0 and 1)
 
@@ -88,7 +88,7 @@ Gets or sets the gradient value (between 0 and 1)
 
 > **getColorToRef**(`result`): `void`
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L39)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L39)
 
 Will get a color picked randomly between color1 and color2.
 If color2 is undefined then color1 will be used

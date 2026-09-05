@@ -6,7 +6,7 @@
 
 # Interface: ISceneLoaderPluginMetadata
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L122)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:122](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L122)
 
 Metadata for a SceneLoader plugin that must also be provided by a plugin factory
 
@@ -21,7 +21,7 @@ Metadata for a SceneLoader plugin that must also be provided by a plugin factory
 
 > `readonly` **extensions**: `string` \| [`ISceneLoaderPluginExtensions`](ISceneLoaderPluginExtensions.md)
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L131)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L131)
 
 The file extensions supported by the plugin.
 
@@ -31,7 +31,7 @@ The file extensions supported by the plugin.
 
 > `readonly` **name**: `string`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L126)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:126](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L126)
 
 The friendly name of the plugin.
 
@@ -41,7 +41,7 @@ The friendly name of the plugin.
 
 > `optional` **canDirectLoad**(`data`): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L138)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L138)
 
 The callback that returns true if the data can be directly loaded.
 

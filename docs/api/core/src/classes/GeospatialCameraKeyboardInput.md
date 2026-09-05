@@ -6,7 +6,7 @@
 
 # Class: GeospatialCameraKeyboardInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L20)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L20)
 
 Manage the keyboard inputs to control the movement of a geospatial camera.
 Arrow keys + Modifier key (ctrl/alt/option on mac): rotate
@@ -37,7 +37,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`GeospatialCamera`](GeospatialCamera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L24)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L24)
 
 Defines the camera the input is attached to.
 
@@ -51,7 +51,7 @@ Defines the camera the input is attached to.
 
 > **keysDown**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L36)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L36)
 
 Defines the list of key codes associated with the down action (pan down)
 
@@ -61,7 +61,7 @@ Defines the list of key codes associated with the down action (pan down)
 
 > **keysLeft**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L42)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L42)
 
 Defines the list of key codes associated with the left action (pan left)
 
@@ -71,7 +71,7 @@ Defines the list of key codes associated with the left action (pan left)
 
 > **keysRight**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L48)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L48)
 
 Defines the list of key codes associated with the right action (pan right)
 
@@ -81,7 +81,7 @@ Defines the list of key codes associated with the right action (pan right)
 
 > **keysUp**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L30)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L30)
 
 Defines the list of key codes associated with the up action (pan up)
 
@@ -91,7 +91,7 @@ Defines the list of key codes associated with the up action (pan up)
 
 > **keysZoomIn**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L54)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L54)
 
 Defines the list of key codes associated with zoom in (+ or =)
 
@@ -101,7 +101,7 @@ Defines the list of key codes associated with zoom in (+ or =)
 
 > **keysZoomOut**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L60)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L60)
 
 Defines the list of key codes associated with zoom out (-)
 
@@ -113,7 +113,7 @@ Defines the list of key codes associated with zoom out (-)
 
 > **get** **panSensitivity**(): `number`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L85)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L85)
 
 Defines the panning sensitivity of the inputs.
 (How many pixels of pointer input to apply per keypress, before pan speed factor is applied by movement class)
@@ -130,7 +130,7 @@ Use the `sensitivity` field on the keyboard pan entry in `camera.movement.input.
 
 > **set** **panSensitivity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L90)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L90)
 
 ##### Parameters
 
@@ -150,7 +150,7 @@ Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.
 
 > **get** **rotationSensitivity**(): `number`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L68)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L68)
 
 Defines the rotation sensitivity of the inputs.
 (How many pixels of pointer input to apply per keypress, before rotation speed factor is applied by movement class)
@@ -167,7 +167,7 @@ Use the `sensitivity` field on the keyboard rotate entry in `camera.movement.inp
 
 > **set** **rotationSensitivity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L73)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L73)
 
 ##### Parameters
 
@@ -187,7 +187,7 @@ Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.
 
 > **get** **zoomSensitivity**(): `number`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L102)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L102)
 
 Defines the zooming sensitivity of the inputs.
 (How many pixels of pointer input to apply per keypress, before zoom speed factor is applied by movement class)
@@ -204,7 +204,7 @@ Use the `sensitivity` field on the keyboard zoom entry in `camera.movement.input
 
 > **set** **zoomSensitivity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L107)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L107)
 
 ##### Parameters
 
@@ -222,7 +222,7 @@ Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L140)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L140)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -248,7 +248,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:235](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L235)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:235](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L235)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -267,7 +267,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L220)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:220](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L220)
 
 Detach the current controls from the specified dom element.
 
@@ -285,7 +285,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L317)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:317](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L317)
 
 Gets the class name of the current input.
 
@@ -305,7 +305,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L325)
+Defined in: [packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts:325](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/geospatialCameraKeyboardInput.ts#L325)
 
 Get the friendly name associated with the input class.
 

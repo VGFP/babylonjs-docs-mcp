@@ -6,7 +6,7 @@
 
 # Interface: IWebXRLightEstimationOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L24)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L28)
 
 Options for Light Estimation feature
 
@@ -16,7 +16,7 @@ Options for Light Estimation feature
 
 > `optional` **createDirectionalLightSource?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L48)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L52)
 
 Should a directional light source be created.
 If created, this light source will be updated whenever the light estimation values change
@@ -27,7 +27,7 @@ If created, this light source will be updated whenever the light estimation valu
 
 > `optional` **cubeMapPollInterval?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L42)
 
 How often should the cubemap update in ms.
 If not set the cubemap will be updated every time the underlying system updates the environment texture.
@@ -38,7 +38,7 @@ If not set the cubemap will be updated every time the underlying system updates 
 
 > `optional` **directionalLightIntensityFactor?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L52)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L56)
 
 The scale factor to multiply the intensity of the directional light by. Defaults to 1.0.
 
@@ -48,7 +48,7 @@ The scale factor to multiply the intensity of the directional light by. Defaults
 
 > `optional` **disableCubeMapReflection?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L28)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L32)
 
 Disable the cube map reflection feature. In this case only light direction and color will be updated
 
@@ -58,7 +58,7 @@ Disable the cube map reflection feature. In this case only light direction and c
 
 > `optional` **disablePreFiltering?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L71)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L75)
 
 disable prefiltering the cube map texture
 
@@ -68,7 +68,7 @@ disable prefiltering the cube map texture
 
 > `optional` **disableSphericalPolynomial?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L66)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L70)
 
 disable applying the spherical polynomial to the cube map texture
 
@@ -78,7 +78,7 @@ disable applying the spherical polynomial to the cube map texture
 
 > `optional` **disableVectorReuse?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L61)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L65)
 
 Should the light estimation's needed vectors be constructed on each frame.
 Use this when you use those vectors and don't want their values to change outside of the light estimation feature
@@ -89,7 +89,7 @@ Use this when you use those vectors and don't want their values to change outsid
 
 > `optional` **lightEstimationPollInterval?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L47)
 
 How often should the light estimation properties update in ms.
 If not set the light estimation properties will be updated on every frame (depending on the underlying system)
@@ -100,7 +100,7 @@ If not set the light estimation properties will be updated on every frame (depen
 
 > `optional` **reflectionFormat?**: `XRReflectionFormat`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L56)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L60)
 
 Define the format to be used for the light estimation texture.
 
@@ -110,7 +110,7 @@ Define the format to be used for the light estimation texture.
 
 > `optional` **setSceneEnvironmentTexture?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L33)
+Defined in: [packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLightEstimation.pure.ts#L37)
 
 Should the scene's env texture be set to the cube map reflection texture
 Note that this doesn't work is disableCubeMapReflection if set to false

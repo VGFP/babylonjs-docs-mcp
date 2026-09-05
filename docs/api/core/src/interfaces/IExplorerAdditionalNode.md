@@ -6,7 +6,7 @@
 
 # Interface: IExplorerAdditionalNode
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L72)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L72)
 
 Defines a new node that will be displayed as top level node in the explorer
 
@@ -16,7 +16,7 @@ Defines a new node that will be displayed as top level node in the explorer
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L76)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L76)
 
 Gets the name of the additional node
 
@@ -26,7 +26,7 @@ Gets the name of the additional node
 
 > **getContent**(): [`IExplorerAdditionalChild`](IExplorerAdditionalChild.md)[]
 
-Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/debugLayer.pure.ts#L80)
+Defined in: [packages/dev/core/src/Debug/debugLayer.pure.ts:80](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/debugLayer.pure.ts#L80)
 
 Function used to return the list of child entries
 

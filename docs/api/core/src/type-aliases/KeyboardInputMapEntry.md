@@ -8,7 +8,7 @@
 
 > **KeyboardInputMapEntry**\<`TInteraction`\> = `object`
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L107)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L107)
 
 Mapping rule for keyboard inputs.
 The `key` field on the entry supports a single key code or an array of key codes for matching.
@@ -26,7 +26,7 @@ When resolving, the condition's `key` is checked against the entry's `key` value
 
 > **interaction**: `TInteraction`
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L111)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L111)
 
 Interaction type to dispatch when this entry matches
 
@@ -36,7 +36,7 @@ Interaction type to dispatch when this entry matches
 
 > `optional` **key?**: `number` \| `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L115)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L115)
 
 Key code filter(s). Supports a single code or an array. Omit to match any key.
 
@@ -46,7 +46,7 @@ Key code filter(s). Supports a single code or an array. Omit to match any key.
 
 > `optional` **modifiers?**: [`InputModifiers`](InputModifiers.md)
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L117)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L117)
 
 Modifier keys that must be active for this entry to match. Omit to match regardless of modifiers.
 
@@ -56,7 +56,7 @@ Modifier keys that must be active for this entry to match. Omit to match regardl
 
 > `optional` **sensitivity?**: `number`
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L113)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:113](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L113)
 
 Multiplier applied to input deltas before passing to the handler. Default is 1.
 
@@ -66,6 +66,6 @@ Multiplier applied to input deltas before passing to the handler. Default is 1.
 
 > **source**: `"keyboard"`
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L109)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L109)
 
 Discriminator: keyboard input source

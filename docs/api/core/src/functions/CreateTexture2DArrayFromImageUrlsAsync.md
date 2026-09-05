@@ -8,7 +8,7 @@
 
 > **CreateTexture2DArrayFromImageUrlsAsync**(`scene`, `urls`, `options?`): `Promise`\<[`RawTexture2DArray`](../classes/RawTexture2DArray.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:224](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L224)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:224](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L224)
 
 Creates a 2D array texture and fills each layer from a list of image urls.
 All images must share the same dimensions.

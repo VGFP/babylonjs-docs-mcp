@@ -6,7 +6,7 @@
 
 # Enumeration: FlowGraphConnectionType
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L6)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L6)
 
 The type of a connection point - input or output.
 
@@ -16,7 +16,7 @@ The type of a connection point - input or output.
 
 > **Input**: `0`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L7)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:7](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L7)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:7](https://g
 
 > **Output**: `1`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L8)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphConnection.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphConnection.ts#L8)

@@ -6,7 +6,7 @@
 
 # Enumeration: SceneLoaderAnimationGroupLoadingMode
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:295](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L295)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:295](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L295)
 
 Mode that determines how to handle old animation groups before loading new ones.
 
@@ -16,7 +16,7 @@ Mode that determines how to handle old animation groups before loading new ones.
 
 > **Clean**: `0`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L299)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:299](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L299)
 
 Reset all old animations to initial state then dispose them.
 
@@ -26,7 +26,7 @@ Reset all old animations to initial state then dispose them.
 
 > **NoSync**: `3`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L314)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:314](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L314)
 
 Old animations remains untouched.
 
@@ -36,7 +36,7 @@ Old animations remains untouched.
 
 > **Stop**: `1`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:304](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L304)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:304](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L304)
 
 Stop all old animations.
 
@@ -46,6 +46,6 @@ Stop all old animations.
 
 > **Sync**: `2`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L309)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:309](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L309)
 
 Restart old animations from first frame.

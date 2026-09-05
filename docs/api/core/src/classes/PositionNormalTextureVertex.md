@@ -6,7 +6,7 @@
 
 # Class: PositionNormalTextureVertex
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L31)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L31)
 
 Contains position, normal and uv vectors for a vertex
 
@@ -16,7 +16,7 @@ Contains position, normal and uv vectors for a vertex
 
 > **new PositionNormalTextureVertex**(`position?`, `normal?`, `uv?`): `PositionNormalTextureVertex`
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L38)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L38)
 
 Creates a PositionNormalTextureVertex
 
@@ -50,7 +50,7 @@ the uv of the vertex (default: 0,0)
 
 > **normal**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L42)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L42)
 
 [Vector3.Up()] the normal of the vertex (defaut: 0,1,0)
 
@@ -60,7 +60,7 @@ Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:42](https://github
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L40)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L40)
 
 [Vector3.Zero()] the position of the vertex (defaut: 0,0,0)
 
@@ -70,7 +70,7 @@ Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:40](https://github
 
 > **uv**: [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L44)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L44)
 
 [Vector3.Zero()] the uv of the vertex (default: 0,0)
 
@@ -80,7 +80,7 @@ Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:44](https://github
 
 > **clone**(): `PositionNormalTextureVertex`
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L50)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L50)
 
 Clones the PositionNormalTextureVertex
 

@@ -6,7 +6,7 @@
 
 # Interface: IMotionControllerMeshMap
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L177)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:195](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L195)
 
 A helper-interface for the 3 meshes needed for controller axis animation.
 This will be expanded when touchpad animations are fully supported
@@ -18,7 +18,7 @@ The meshes are provided to the _lerpAxisTransform function to calculate the curr
 
 > `optional` **maxMesh?**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L181)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:199](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L199)
 
 the mesh that defines the maximum value mesh position.
 
@@ -28,7 +28,7 @@ the mesh that defines the maximum value mesh position.
 
 > `optional` **minMesh?**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L185)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L203)
 
 the mesh that defines the minimum value mesh position.
 
@@ -38,6 +38,6 @@ the mesh that defines the minimum value mesh position.
 
 > `optional` **valueMesh?**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L189)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:207](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L207)
 
 The mesh that will be changed when axis value changes

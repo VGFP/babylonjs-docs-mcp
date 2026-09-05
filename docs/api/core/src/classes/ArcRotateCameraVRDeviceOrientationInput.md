@@ -6,7 +6,7 @@
 
 # Class: ArcRotateCameraVRDeviceOrientationInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L14)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L14)
 
 Manage the device orientation inputs (gyroscope) to control an arc rotate camera.
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **new ArcRotateCameraVRDeviceOrientationInput**(): `ArcRotateCameraVRDeviceOrientationInput`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L39)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L39)
 
 Instantiate a new ArcRotateCameraVRDeviceOrientationInput.
 
@@ -38,7 +38,7 @@ Instantiate a new ArcRotateCameraVRDeviceOrientationInput.
 
 > **alphaCorrection**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L23)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L23)
 
 Defines a correction factor applied on the alpha value retrieved from the orientation events.
 
@@ -48,7 +48,7 @@ Defines a correction factor applied on the alpha value retrieved from the orient
 
 > **camera**: [`ArcRotateCamera`](ArcRotateCamera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L18)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L18)
 
 Defines the camera the input is attached to.
 
@@ -62,7 +62,7 @@ Defines the camera the input is attached to.
 
 > **gammaCorrection**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L28)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L28)
 
 Defines a correction factor applied on the gamma value retrieved from the orientation events.
 
@@ -72,7 +72,7 @@ Defines a correction factor applied on the gamma value retrieved from the orient
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L47)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L47)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -98,7 +98,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L95)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L95)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -117,7 +117,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L111)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L111)
 
 Detach the current controls from the specified dom element.
 
@@ -135,7 +135,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L119)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L119)
 
 Gets the class name of the current input.
 
@@ -155,7 +155,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L127)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraVRDeviceOrientationInput.pure.ts#L127)
 
 Get the friendly name associated with the input class.
 

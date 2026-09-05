@@ -8,7 +8,7 @@
 
 > **CreateAlignedTypedArray**\<`T`\>(`type`, `elementCount`): `T`
 
-Defined in: [packages/dev/core/src/Buffers/bufferUtils.ts:470](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/bufferUtils.ts#L470)
+Defined in: [packages/dev/core/src/Buffers/bufferUtils.ts:470](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/bufferUtils.ts#L470)
 
 Creates a typed array suitable for GPU buffer operations, as some engines require CPU buffer sizes to be aligned to specific boundaries (e.g., 4 bytes).
 The use of non-aligned arrays still works but may result in a performance penalty.

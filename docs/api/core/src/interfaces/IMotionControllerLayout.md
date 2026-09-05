@@ -6,7 +6,7 @@
 
 # Interface: IMotionControllerLayout
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L31)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L49)
 
 The schema of motion controller layout.
 No object will be initialized using this interface
@@ -18,7 +18,7 @@ This is used just to define the profile.
 
 > **assetPath**: `string`
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L35)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L53)
 
 Path to load the assets. Usually relative to the base path
 
@@ -28,7 +28,7 @@ Path to load the assets. Usually relative to the base path
 
 > **components**: `object`
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L39)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L57)
 
 Available components (unsorted)
 
@@ -44,7 +44,7 @@ A map of component Ids
 
 > **gamepadMapping**: `""` \| `"xr-standard"`
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L109)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L127)
 
 Is it xr standard mapping or not
 
@@ -54,7 +54,7 @@ Is it xr standard mapping or not
 
 > **rootNodeName**: `string`
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L113)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L131)
 
 Base root node of this entire model
 
@@ -64,6 +64,6 @@ Base root node of this entire model
 
 > **selectComponentId**: `string`
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L117)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L135)
 
 Defines the main button component id

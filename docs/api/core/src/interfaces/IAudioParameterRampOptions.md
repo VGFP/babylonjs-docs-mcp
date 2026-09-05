@@ -6,7 +6,7 @@
 
 # Interface: IAudioParameterRampOptions
 
-Defined in: [packages/dev/core/src/AudioV2/audioParameter.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/audioParameter.ts#L26)
+Defined in: [packages/dev/core/src/AudioV2/audioParameter.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/audioParameter.ts#L26)
 
 Options for ramping an audio parameter's value.
 
@@ -16,7 +16,7 @@ Options for ramping an audio parameter's value.
 
 > **duration**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/audioParameter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/audioParameter.ts#L31)
+Defined in: [packages/dev/core/src/AudioV2/audioParameter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/audioParameter.ts#L31)
 
 The ramp time, in seconds. Must be greater than 0. Defaults to 0.01 seconds.
 The audio parameter's value will reach the target value at the end of the duration.
@@ -27,6 +27,6 @@ The audio parameter's value will reach the target value at the end of the durati
 
 > **shape**: [`AudioParameterRampShape`](../enumerations/AudioParameterRampShape.md)
 
-Defined in: [packages/dev/core/src/AudioV2/audioParameter.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/audioParameter.ts#L35)
+Defined in: [packages/dev/core/src/AudioV2/audioParameter.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/audioParameter.ts#L35)
 
 The shape of the ramp to use for the parameter change. Defaults to [AudioParameterRampShape.Linear](../enumerations/AudioParameterRampShape.md#linear).

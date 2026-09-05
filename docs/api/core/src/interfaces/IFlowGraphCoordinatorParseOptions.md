@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphCoordinatorParseOptions
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L28)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L28)
 
 Parameters used to parse a flow graph coordinator.
 
@@ -16,7 +16,7 @@ Parameters used to parse a flow graph coordinator.
 
 > `optional` **pathConverter?**: [`IPathToObjectConverter`](IPathToObjectConverter.md)\<[`IObjectAccessor`](IObjectAccessor.md)\<`any`, `any`, `any`\>\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L40)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L40)
 
 The path converter to use to convert the path to an object accessor.
 
@@ -26,7 +26,7 @@ The path converter to use to convert the path to an object accessor.
 
 > **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L44)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L44)
 
 The scene that the flow graph coordinator belongs to.
 
@@ -36,7 +36,7 @@ The scene that the flow graph coordinator belongs to.
 
 > `optional` **valueParseFunction?**: (`key`, `serializationObject`, `assetsContainer`, `scene`) => `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L36)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L36)
 
 A function that will be called to parse the value of a property.
 

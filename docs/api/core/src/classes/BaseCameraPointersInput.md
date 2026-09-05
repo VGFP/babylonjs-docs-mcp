@@ -6,7 +6,7 @@
 
 # Abstract Class: BaseCameraPointersInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L16)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L16)
 
 Base class for Camera Pointer Inputs.
 See FollowCameraPointersInput in src/Cameras/Inputs/followCameraPointersInput.ts
@@ -36,7 +36,7 @@ for example usage.
 
 > **buttons**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L46)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L46)
 
 Defines the buttons associated with the input to handle camera move.
 
@@ -46,7 +46,7 @@ Defines the buttons associated with the input to handle camera move.
 
 > `abstract` **camera**: [`Camera`](Camera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L20)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L20)
 
 Defines the camera the input is attached to.
 
@@ -60,7 +60,7 @@ Defines the camera the input is attached to.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -86,7 +86,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
 
 Detach the current controls from the specified dom element.
 
@@ -104,7 +104,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L291)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L291)
 
 Gets the class name of the current input.
 
@@ -124,7 +124,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
 
 Get the friendly name associated with the input class.
 
@@ -144,7 +144,7 @@ the input friendly name
 
 > **onButtonDown**(`_evt`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L357)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L357)
 
 Called each time a new POINTERDOWN event occurs. Ie, for each button
 press.
@@ -168,7 +168,7 @@ Defines the event to track
 
 > **onButtonUp**(`_evt`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L365)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L365)
 
 Called each time a new POINTERUP event occurs. Ie, for each button
 release.
@@ -192,7 +192,7 @@ Defines the event to track
 
 > **onContextMenu**(`evt`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L347)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L347)
 
 Called on JS contextmenu event.
 Override this method to provide functionality.
@@ -215,7 +215,7 @@ the event to be handled
 
 > **onDoubleTap**(`type`, `evt?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L310)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L310)
 
 Called on pointer POINTERDOUBLETAP event.
 Override this method to provide functionality on POINTERDOUBLETAP event.
@@ -244,7 +244,7 @@ the pointer event that triggered the double tap (carries button / buttons state)
 
 > **onLostFocus**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L371)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L371)
 
 Called when window becomes inactive.
 Override this method to provide functionality.
@@ -259,7 +259,7 @@ Override this method to provide functionality.
 
 > **onMultiTouch**(`_pointA`, `_pointB`, `previousPinchSquaredDistance`, `pinchSquaredDistance`, `previousMultiTouchPanPosition`, `multiTouchPanPosition`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L333)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:333](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L333)
 
 Called on pointer POINTERMOVE event if multiple touches are active.
 Override this method to provide functionality.
@@ -312,7 +312,7 @@ Current center point between the points
 
 > **onTouch**(`point`, `offsetX`, `offsetY`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L320)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L320)
 
 Called on pointer POINTERMOVE event if only a single touch is active.
 Override this method to provide functionality.

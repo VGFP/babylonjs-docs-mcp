@@ -6,7 +6,7 @@
 
 # Enumeration: GreasedLineMeshColorDistributionType
 
-Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L159)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L159)
 
 Color distribution type of the
 
@@ -21,7 +21,7 @@ colors.
 
 > **COLOR\_DISTRIBUTION\_TYPE\_LINE**: `1`
 
-Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L167)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:167](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L167)
 
 Colors distributed along the line ingoring the segments
 
@@ -31,6 +31,6 @@ Colors distributed along the line ingoring the segments
 
 > **COLOR\_DISTRIBUTION\_TYPE\_SEGMENT**: `0`
 
-Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:163](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L163)
+Defined in: [packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts:163](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GreasedLine/greasedLineMaterialInterfaces.ts#L163)
 
 Colors distributed between segments of the line

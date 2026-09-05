@@ -6,7 +6,7 @@
 
 # Class: Matrix3d
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L35)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L35)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:35](https://gith
 
 > **new Matrix3d**(`values`): `Matrix3d`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L47)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L47)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:47](https://gith
 
 > **values**: [`ST_Matrix3D`](../type-aliases/ST_Matrix3D.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L47)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L47)
 
 #### Implementation of
 
@@ -48,7 +48,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:47](https://gith
 
 > **toString**(): `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L53)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L53)
 
 #### Returns
 
@@ -60,7 +60,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:53](https://gith
 
 > `static` **Zero**(): `Matrix3d`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L40)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L40)
 
 #### Returns
 

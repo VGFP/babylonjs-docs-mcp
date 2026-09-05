@@ -6,7 +6,7 @@
 
 # Class: MeshLODLevel
 
-Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshLODLevel.ts#L8)
+Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshLODLevel.ts#L8)
 
 Class used to represent a specific level of detail of a mesh
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
 
 > **new MeshLODLevel**(`distanceOrScreenCoverage`, `mesh`): `MeshLODLevel`
 
-Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshLODLevel.ts#L14)
+Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshLODLevel.ts#L14)
 
 Creates a new LOD level
 
@@ -48,7 +48,7 @@ defines the mesh to use to render this level
 
 > **distanceOrScreenCoverage**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshLODLevel.ts#L16)
+Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshLODLevel.ts#L16)
 
 Either distance from the center of the object to show this level or the screen coverage if `useLODScreenCoverage` is set to `true` on the mesh
 
@@ -58,6 +58,6 @@ Either distance from the center of the object to show this level or the screen c
 
 > **mesh**: [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshLODLevel.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/meshLODLevel.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshLODLevel.ts#L18)
 
 Defines the mesh to use to render this level

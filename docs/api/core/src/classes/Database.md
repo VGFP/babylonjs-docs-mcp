@@ -6,7 +6,7 @@
 
 # Class: Database
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L15)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L15)
 
 Class used to enable access to IndexedDB
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/scene/optimizeCached
 
 > **new Database**(`urlToScene`, `callbackManifestChecked`, `disableManifestCheck?`): `Database`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L56)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L56)
 
 Creates a new Database
 
@@ -58,7 +58,7 @@ defines a boolean indicating that we want to skip the manifest validation (it wi
 
 > `static` **IDBStorageEnabled**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L34)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L34)
 
 Gets a boolean indicating if Database storage is enabled (off by default)
 
@@ -70,7 +70,7 @@ Gets a boolean indicating if Database storage is enabled (off by default)
 
 > **get** **enableSceneOffline**(): `boolean`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L39)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L39)
 
 Gets a boolean indicating if scene must be saved in the database
 
@@ -92,7 +92,7 @@ Gets a boolean indicating if scene must be saved in the database
 
 > **get** **enableTexturesOffline**(): `boolean`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L46)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L46)
 
 Gets a boolean indicating if textures must be saved in the database
 
@@ -112,7 +112,7 @@ Gets a boolean indicating if textures must be saved in the database
 
 > **loadFile**(`url`, `sceneLoaded`, `progressCallBack?`, `errorCallback?`, `useArrayBuffer?`): `void`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L520)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L520)
 
 Loads a file from database
 
@@ -162,7 +162,7 @@ defines a boolean to use array buffer instead of text string
 
 > **loadImage**(`url`, `image`): `void`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:253](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L253)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:253](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L253)
 
 Loads an image from the database
 
@@ -194,7 +194,7 @@ defines the target DOM image
 
 > **open**(`successCallback`, `errorCallback`): `void`
 
-Defined in: [packages/dev/core/src/Offline/database.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Offline/database.pure.ts#L185)
+Defined in: [packages/dev/core/src/Offline/database.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Offline/database.pure.ts#L185)
 
 Open the database and make it available
 

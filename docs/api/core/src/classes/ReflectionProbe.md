@@ -6,7 +6,7 @@
 
 # Class: ReflectionProbe
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L18)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L18)
 
 Class used to generate realtime reflection / refraction cube textures
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/reflectionProbes
 
 > **new ReflectionProbe**(`name`, `size`, `scene`, `generateMipMaps?`, `useFloat?`, `linearSpace?`): `ReflectionProbe`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L53)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L53)
 
 Creates a new reflection probe
 
@@ -72,7 +72,7 @@ defines if the probe should be generated in linear space or not (false by defaul
 
 > **metadata**: `any` = `null`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L39)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L39)
 
 Gets or sets an object used to store user defined information for the reflection probe.
 
@@ -82,7 +82,7 @@ Gets or sets an object used to store user defined information for the reflection
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L55)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L55)
 
 defines the name of the probe
 
@@ -92,7 +92,7 @@ defines the name of the probe
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L34)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L34)
 
 Gets or sets probe position (center of the cube map)
 
@@ -104,7 +104,7 @@ Gets or sets probe position (center of the cube map)
 
 > **get** **cubeTexture**(): [`RenderTargetTexture`](RenderTargetTexture.md)
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L203)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L203)
 
 Gets the internal CubeTexture used to render to
 
@@ -120,7 +120,7 @@ Gets the internal CubeTexture used to render to
 
 > **get** **refreshRate**(): `number`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L186)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L186)
 
 Gets or sets the refresh rate to use (on every frame by default)
 
@@ -132,7 +132,7 @@ Gets or sets the refresh rate to use (on every frame by default)
 
 > **set** **refreshRate**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L190)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L190)
 
 ##### Parameters
 
@@ -152,7 +152,7 @@ Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:190](https://g
 
 > **get** **renderList**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L208)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L208)
 
 Gets or sets the list of meshes to render
 
@@ -164,7 +164,7 @@ Gets or sets the list of meshes to render
 
 > **set** **renderList**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L212)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L212)
 
 ##### Parameters
 
@@ -184,7 +184,7 @@ Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:212](https://g
 
 > **get** **samples**(): `number`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L177)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L177)
 
 Gets or sets the number of samples to use for multi-sampling (0 by default). Required WebGL2
 
@@ -196,7 +196,7 @@ Gets or sets the number of samples to use for multi-sampling (0 by default). Req
 
 > **set** **samples**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L181)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L181)
 
 ##### Parameters
 
@@ -214,7 +214,7 @@ Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:181](https://g
 
 > **attachToMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L220)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:220](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L220)
 
 Attach the probe to a specific mesh (Rendering will be done from attached mesh's position)
 
@@ -236,7 +236,7 @@ defines the mesh to attach to
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L236)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L236)
 
 Clean all associated resources
 
@@ -250,7 +250,7 @@ Clean all associated resources
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L288)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L288)
 
 Get the class name of the refection probe.
 
@@ -266,7 +266,7 @@ Get the class name of the refection probe.
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L198)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L198)
 
 Gets the hosting scene
 
@@ -282,7 +282,7 @@ a Scene
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L296)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L296)
 
 Serialize the reflection probe to a JSON representation we can easily use in the respective Parse function.
 
@@ -298,7 +298,7 @@ The JSON representation of the texture
 
 > **setRenderingAutoClearDepthStencil**(`renderingGroupId`, `autoClearDepthStencil`): `void`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L229)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L229)
 
 Specifies whether or not the stencil and depth buffer are cleared between two rendering groups
 
@@ -326,7 +326,7 @@ Automatically clears depth and stencil between groups if true.
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L270)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L270)
 
 Converts the reflection probe information to a readable string for debug purpose.
 

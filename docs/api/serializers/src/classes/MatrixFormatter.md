@@ -6,7 +6,7 @@
 
 # Class: MatrixFormatter
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L61)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L61)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:61](https://gith
 
 > **new MatrixFormatter**(`o`): `MatrixFormatter`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L67)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L67)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:67](https://gith
 
 > **\_f**: [`NumberFormatter`](NumberFormatter.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L65)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L65)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:65](https://gith
 
 > **o**: [`IXmlSerializerFormatOptions`](../interfaces/IXmlSerializerFormatOptions.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L67)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L67)
 
 ## Methods
 
@@ -52,7 +52,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:67](https://gith
 
 > **toString**(`x`): `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L71)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:71](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L71)
 
 Converts a value to its XML string representation.
 

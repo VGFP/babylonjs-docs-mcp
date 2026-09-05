@@ -6,7 +6,7 @@
 
 # Enumeration: ST\_ObjectType
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L79)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L79)
 
 Standard 3MF object type.
 This is optional in 3MF; if omitted, consumers often treat it as "model".
@@ -17,7 +17,7 @@ This is optional in 3MF; if omitted, consumers often treat it as "model".
 
 > **model**: `"model"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L80)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:80](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L80)
 
 ***
 
@@ -25,7 +25,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:80](h
 
 > **other**: `"other"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L84)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L84)
 
 ***
 
@@ -33,7 +33,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:84](h
 
 > **solidsupport**: `"solidsupport"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L81)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L81)
 
 ***
 
@@ -41,7 +41,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:81](h
 
 > **support**: `"support"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L82)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L82)
 
 ***
 
@@ -49,4 +49,4 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:82](h
 
 > **surface**: `"surface"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L83)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L83)

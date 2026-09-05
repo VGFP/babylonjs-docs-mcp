@@ -6,7 +6,7 @@
 
 # Interface: ICreateTexture2DArrayFromKTX2Options
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L110)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L110)
 
 Options controlling the creation of a 2D array texture from a KTX2 file.
 
@@ -16,7 +16,7 @@ Options controlling the creation of a 2D array texture from a KTX2 file.
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L112)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:112](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L112)
 
 Defines if mip levels should be generated (true by default)
 
@@ -26,7 +26,7 @@ Defines if mip levels should be generated (true by default)
 
 > `optional` **invertY?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L116)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L116)
 
 Defines if the texture must be stored with the Y axis inverted (false by default)
 
@@ -36,6 +36,6 @@ Defines if the texture must be stored with the Y axis inverted (false by default
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L114)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:114](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L114)
 
 Defines the sampling mode to use (Texture.TRILINEAR_SAMPLINGMODE by default)

@@ -6,7 +6,7 @@
 
 # Class: Reflector
 
-Defined in: [packages/dev/core/src/Misc/reflector.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/reflector.ts#L9)
+Defined in: [packages/dev/core/src/Misc/reflector.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/reflector.ts#L9)
 
 **`Since`**
 
@@ -19,7 +19,7 @@ Class used to connect with the reflector zone of the sandbox via the reflector b
 
 > **new Reflector**(`scene`, `hostname`, `port`): `Reflector`
 
-Defined in: [packages/dev/core/src/Misc/reflector.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/reflector.ts#L21)
+Defined in: [packages/dev/core/src/Misc/reflector.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/reflector.ts#L21)
 
 Constructs a reflector object.
 
@@ -53,7 +53,7 @@ The port of the reflector bridge
 
 > **close**(): `void`
 
-Defined in: [packages/dev/core/src/Misc/reflector.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/reflector.ts#L48)
+Defined in: [packages/dev/core/src/Misc/reflector.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/reflector.ts#L48)
 
 Closes the reflector connection
 

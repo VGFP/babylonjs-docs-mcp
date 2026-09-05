@@ -6,7 +6,7 @@
 
 # Interface: ITimerOptions\<T\>
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L8)
+Defined in: [packages/dev/core/src/Misc/timer.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L8)
 
 Construction options for a timer
 
@@ -22,7 +22,7 @@ Construction options for a timer
 
 > `optional` **breakCondition?**: (`data?`) => `boolean`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L30)
+Defined in: [packages/dev/core/src/Misc/timer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L30)
 
 An optional break condition that will stop the times prematurely. In this case onEnded will not be triggered!
 
@@ -42,7 +42,7 @@ An optional break condition that will stop the times prematurely. In this case o
 
 > **contextObservable**: [`Observable`](../classes/Observable.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L18)
+Defined in: [packages/dev/core/src/Misc/timer.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L18)
 
 The context observable is used to calculate time deltas and provides the context of the timer's callbacks. Will usually be OnBeforeRenderObservable.
 Countdown calculation is done ONLY when the observable is notifying its observers, meaning that if
@@ -54,7 +54,7 @@ you choose an observable that doesn't trigger too often, the wait time might ext
 
 > `optional` **observableParameters?**: `object`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L22)
+Defined in: [packages/dev/core/src/Misc/timer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L22)
 
 Optional parameters when adding an observer to the observable
 
@@ -76,7 +76,7 @@ Optional parameters when adding an observer to the observable
 
 > `optional` **onAborted?**: (`data`) => `void`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L38)
+Defined in: [packages/dev/core/src/Misc/timer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L38)
 
 Will be triggered when the break condition has met (prematurely ended)
 
@@ -96,7 +96,7 @@ Will be triggered when the break condition has met (prematurely ended)
 
 > `optional` **onEnded?**: (`data`) => `void`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L34)
+Defined in: [packages/dev/core/src/Misc/timer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L34)
 
 Will be triggered when the time condition has met
 
@@ -116,7 +116,7 @@ Will be triggered when the time condition has met
 
 > `optional` **onTick?**: (`data`) => `void`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L42)
+Defined in: [packages/dev/core/src/Misc/timer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L42)
 
 Optional function to execute on each tick (or count)
 
@@ -136,6 +136,6 @@ Optional function to execute on each tick (or count)
 
 > **timeout**: `number`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L12)
+Defined in: [packages/dev/core/src/Misc/timer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L12)
 
 Time-to-end

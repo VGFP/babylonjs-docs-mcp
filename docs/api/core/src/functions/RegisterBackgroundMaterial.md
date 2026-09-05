@@ -8,7 +8,7 @@
 
 > **RegisterBackgroundMaterial**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Background/backgroundMaterial.pure.ts:1164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Background/backgroundMaterial.pure.ts#L1164)
+Defined in: [packages/dev/core/src/Materials/Background/backgroundMaterial.pure.ts:1157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Background/backgroundMaterial.pure.ts#L1157)
 
 Register side effects for backgroundMaterial.
 Safe to call multiple times; only the first call has an effect.

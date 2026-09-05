@@ -6,7 +6,7 @@
 
 # Class: SurfaceMagnetismBehavior
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L15)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L15)
 
 **`Since`**
 
@@ -33,7 +33,7 @@ A behavior that allows a transform node to stick to a surface position/orientati
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L67)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L67)
 
 Is this behavior reacting to pointer events
 
@@ -43,7 +43,7 @@ Is this behavior reacting to pointer events
 
 > **hitNormalOffset**: `number` = `0.05`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L29)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L29)
 
 Distance offset from the hit point to place the target at, along the hit normal.
 
@@ -53,7 +53,7 @@ Distance offset from the hit point to place the target at, along the hit normal.
 
 > **interpolatePose**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L51)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L51)
 
 Set to false if the node should strictly follow the camera without any interpolation time
 
@@ -63,7 +63,7 @@ Set to false if the node should strictly follow the camera without any interpola
 
 > **keepOrientationVertical**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L62)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L62)
 
 If true, pitch and roll are omitted.
 
@@ -73,7 +73,7 @@ If true, pitch and roll are omitted.
 
 > **lerpTime**: `number` = `250`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L57)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L57)
 
 Rate of interpolation of position and rotation of the attached node.
 Higher values will give a slower interpolation.
@@ -84,7 +84,7 @@ Higher values will give a slower interpolation.
 
 > **maxStickingDistance**: `number` = `0.8`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L72)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L72)
 
 Maximum distance for the node to stick to the surface
 
@@ -94,7 +94,7 @@ Maximum distance for the node to stick to the surface
 
 > **meshes**: [`AbstractMesh`](AbstractMesh.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L41)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L41)
 
 Spatial mapping meshes to collide with
 
@@ -106,7 +106,7 @@ Spatial mapping meshes to collide with
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L77)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L77)
 
 Attached node of this behavior
 
@@ -128,7 +128,7 @@ Gets the current attached target
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L34)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L34)
 
 Name of the behavior
 
@@ -148,7 +148,7 @@ gets or sets behavior's name
 
 > **attach**(`target`, `scene?`): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L86)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L86)
 
 Attaches the behavior to a transform node
 
@@ -180,7 +180,7 @@ the scene
 
 > **detach**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L102)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L102)
 
 Detaches the behavior
 
@@ -198,7 +198,7 @@ Detaches the behavior
 
 > **findAndUpdateTarget**(`pickInfo`): `boolean`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L158)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:158](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L158)
 
 Finds the intersection point of the given ray onto the meshes and updates the target.
 Transformation will be interpolated according to `interpolatePose` and `lerpTime` properties.
@@ -224,7 +224,7 @@ a boolean indicating if we found a hit to stick to
 
 > **init**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L46)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L46)
 
 Function called when the behavior needs to be initialized (after attaching it to a target)
 
@@ -242,7 +242,7 @@ Function called when the behavior needs to be initialized (after attaching it to
 
 > **updateAttachPoint**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L147)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/surfaceMagnetismBehavior.ts#L147)
 
 Updates the attach point with the current geometry extents of the attached mesh
 

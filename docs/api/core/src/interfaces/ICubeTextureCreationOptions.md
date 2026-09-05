@@ -6,7 +6,7 @@
 
 # Interface: ICubeTextureCreationOptions
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L20)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L20)
 
 Defines the available options when creating a cube texture
 
@@ -16,7 +16,7 @@ Defines the available options when creating a cube texture
 
 > `optional` **buffer?**: `ArrayBufferView`\<`ArrayBufferLike`\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L31)
 
 buffer to load instead of loading the data from the url
 
@@ -26,7 +26,7 @@ buffer to load instead of loading the data from the url
 
 > `optional` **createPolynomials?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L49)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L49)
 
 createPolynomials defines whether or not to create polynomial harmonics from the texture data if necessary
 
@@ -36,7 +36,7 @@ createPolynomials defines whether or not to create polynomial harmonics from the
 
 > `optional` **extensions?**: `string`[]
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L22)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L22)
 
 Defines the suffixes add to the picture name in case six images are in use like _px.jpg
 
@@ -46,7 +46,7 @@ Defines the suffixes add to the picture name in case six images are in use like 
 
 > `optional` **files?**: `string`[]
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L28)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L28)
 
 files defines the six files to load for the different faces in that order: px, py, pz, nx, ny, nz
 
@@ -56,7 +56,7 @@ files defines the six files to load for the different faces in that order: px, p
 
 > `optional` **forcedExtension?**: `any`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L46)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L46)
 
 forcedExtension defines the extensions to use (force a special type of file to load) in case it is different from the file name
 
@@ -66,7 +66,7 @@ forcedExtension defines the extensions to use (force a special type of file to l
 
 > `optional` **format?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L40)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L40)
 
 format defines the internal format to use for the texture once loaded
 
@@ -76,7 +76,7 @@ format defines the internal format to use for the texture once loaded
 
 > `optional` **loaderOptions?**: `any`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L58)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L58)
 
 loaderOptions options to be passed to the loader
 
@@ -86,7 +86,7 @@ loaderOptions options to be passed to the loader
 
 > `optional` **lodOffset?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L55)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L55)
 
 lodOffset defines the offset applied to environment texture. This manages first LOD level used for IBL according to the roughness
 
@@ -96,7 +96,7 @@ lodOffset defines the offset applied to environment texture. This manages first 
 
 > `optional` **lodScale?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L52)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L52)
 
 lodScale defines the scale applied to environment texture. This manages the range of LOD level used for IBL according to the roughness
 
@@ -106,7 +106,7 @@ lodScale defines the scale applied to environment texture. This manages the rang
 
 > `optional` **noMipmap?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L25)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L25)
 
 noMipmap defines if mipmaps should be created or not
 
@@ -116,7 +116,7 @@ noMipmap defines if mipmaps should be created or not
 
 > `optional` **onError?**: (`message?`, `exception?`) => `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L37)
 
 onError defines a callback triggered in case of error during load
 
@@ -140,7 +140,7 @@ onError defines a callback triggered in case of error during load
 
 > `optional` **onLoad?**: () => `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L34)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L34)
 
 onLoad defines a callback triggered at the end of the file load if no errors occurred
 
@@ -154,7 +154,7 @@ onLoad defines a callback triggered at the end of the file load if no errors occ
 
 > `optional` **prefiltered?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L43)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L43)
 
 prefiltered defines whether or not the texture is created from prefiltered data
 
@@ -164,7 +164,7 @@ prefiltered defines whether or not the texture is created from prefiltered data
 
 > `optional` **sphericalPolynomialTargetSize?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L64)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L64)
 
 Target face size for spherical polynomial computation. 0 = full resolution (default).
 
@@ -174,6 +174,6 @@ Target face size for spherical polynomial computation. 0 = full resolution (defa
 
 > `optional` **useSRGBBuffer?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L61)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L61)
 
 useSRGBBuffer Defines if the texture must be loaded in a sRGB GPU buffer (if supported by the GPU) (default: false)

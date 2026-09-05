@@ -6,7 +6,7 @@
 
 # ~~Class: VRExperienceHelper~~
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L250)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L250)
 
 Helps to quickly add VR support to an existing scene.
 See https://doc.babylonjs.com/features/featuresDeepDive/cameras/webVRHelper
@@ -21,7 +21,7 @@ Use WebXR instead!
 
 > **new VRExperienceHelper**(`scene`, `webVROptions?`): `VRExperienceHelper`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:527](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L527)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:527](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L527)
 
 Instantiates a VRExperienceHelper.
 Helps to quickly add VR support to an existing scene.
@@ -50,7 +50,7 @@ Options to modify the vr experience helper's behavior.
 
 > **enableGazeEvenWhenNoPointerLock**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L273)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L273)
 
 Gets or sets a boolean indicating that gaze can be enabled even if pointer lock is not engage (useful on iOS where fullscreen mode and pointer lock are not supported)
 
@@ -60,7 +60,7 @@ Gets or sets a boolean indicating that gaze can be enabled even if pointer lock 
 
 > **exitVROnDoubleTap**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L278)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L278)
 
 Gets or sets a boolean indicating that the VREXperienceHelper will exit VR if double tap is detected
 
@@ -70,7 +70,7 @@ Gets or sets a boolean indicating that the VREXperienceHelper will exit VR if do
 
 > **meshSelectionPredicate**: (`mesh`) => `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L370)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:370](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L370)
 
 To be optionally changed by user to define custom selection logic (after ray selection)
 
@@ -90,7 +90,7 @@ To be optionally changed by user to define custom selection logic (after ray sel
 
 > **onAfterCameraTeleport**: [`Observable`](Observable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L353)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L353)
 
 Observable raised after camera teleportation
 
@@ -100,7 +100,7 @@ Observable raised after camera teleportation
 
 > **onAfterEnteringVRObservable**: [`Observable`](Observable.md)\<[`OnAfterEnteringVRObservableEvent`](OnAfterEnteringVRObservableEvent.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L288)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L288)
 
 Observable raised when entering VR has completed.
 
@@ -110,7 +110,7 @@ Observable raised when entering VR has completed.
 
 > **onBeforeCameraTeleport**: [`Observable`](Observable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L348)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L348)
 
 Observable raised before camera teleportation
 
@@ -120,7 +120,7 @@ Observable raised before camera teleportation
 
 > **onEnteringVRObservable**: [`Observable`](Observable.md)\<`VRExperienceHelper`\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L283)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L283)
 
 Observable raised right before entering VR.
 
@@ -130,7 +130,7 @@ Observable raised right before entering VR.
 
 > **onExitingVRObservable**: [`Observable`](Observable.md)\<`VRExperienceHelper`\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L293)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:293](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L293)
 
 Observable raised when exiting VR.
 
@@ -140,7 +140,7 @@ Observable raised when exiting VR.
 
 > **onNewMeshPicked**: [`Observable`](Observable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L341)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:341](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L341)
 
 Observable raised when a new mesh is picked based on meshSelectionPredicate
 
@@ -150,7 +150,7 @@ Observable raised when a new mesh is picked based on meshSelectionPredicate
 
 > **onNewMeshSelected**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L336)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L336)
 
 Observable raised when a new mesh is selected based on meshSelectionPredicate
 
@@ -160,7 +160,7 @@ Observable raised when a new mesh is selected based on meshSelectionPredicate
 
 > **onSelectedMeshUnselected**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L358)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L358)
 
 Observable raised when current selected mesh gets unselected
 
@@ -170,7 +170,7 @@ Observable raised when current selected mesh gets unselected
 
 > **raySelectionPredicate**: (`mesh`) => `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L365)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L365)
 
 To be optionally changed by user to define custom ray selection
 
@@ -190,7 +190,7 @@ To be optionally changed by user to define custom ray selection
 
 > **requestPointerLockOnFullScreen**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:506](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L506)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:506](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L506)
 
 Defines whether or not Pointer lock should be requested when switching to
 full screen.
@@ -201,7 +201,7 @@ full screen.
 
 > **teleportationEnabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L375)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L375)
 
 Set teleportation enabled. If set to false camera teleportation will be disabled but camera rotation will be kept.
 
@@ -211,7 +211,7 @@ Set teleportation enabled. If set to false camera teleportation will be disabled
 
 > **updateControllerLaserColor**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L437)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L437)
 
 If the controller laser color should be updated when selecting meshes
 
@@ -221,7 +221,7 @@ If the controller laser color should be updated when selecting meshes
 
 > **updateGazeTrackerColor**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L433)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L433)
 
 If the gaze trackers color should be updated when selecting meshes
 
@@ -231,7 +231,7 @@ If the gaze trackers color should be updated when selecting meshes
 
 > **updateGazeTrackerScale**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L429)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L429)
 
 If the gaze trackers scale should be updated to be constant size when pointing at near/far meshes
 
@@ -241,7 +241,7 @@ If the gaze trackers scale should be updated to be constant size when pointing a
 
 > **webVROptions**: [`VRExperienceHelperOptions`](../interfaces/VRExperienceHelperOptions.md) = `{}`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:530](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L530)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:530](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L530)
 
 [Empty object] Options to modify the vr experience helper's behavior.
 
@@ -251,7 +251,7 @@ Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:530](ht
 
 > **xr**: [`WebXRDefaultExperience`](WebXRDefaultExperience.md)
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L513)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L513)
 
 If asking to force XR, this will be populated with the default xr experience
 
@@ -261,7 +261,7 @@ If asking to force XR, this will be populated with the default xr experience
 
 > **xrTestDone**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:519](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L519)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:519](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L519)
 
 Was the XR test done already. If this is true AND this.xr exists, xr is initialized.
 If this is true and no this.xr, xr exists but is not supported, using WebVR.
@@ -272,7 +272,7 @@ If this is true and no this.xr, xr exists but is not supported, using WebVR.
 
 > `readonly` `static` **TELEPORTATIONMODE\_CONSTANTSPEED**: `1` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1441](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1441)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1441](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1441)
 
 Speed Constant Teleportation Mode
 
@@ -282,7 +282,7 @@ Speed Constant Teleportation Mode
 
 > `readonly` `static` **TELEPORTATIONMODE\_CONSTANTTIME**: `0` = `0`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1437)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1437](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1437)
 
 Time Constant Teleportation Mode
 
@@ -294,7 +294,7 @@ Time Constant Teleportation Mode
 
 > **get** **currentVRCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:480](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L480)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:480](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L480)
 
 Based on the current WebVR support, returns the current VR camera used.
 
@@ -310,7 +310,7 @@ Based on the current WebVR support, returns the current VR camera used.
 
 > **get** **deviceOrientationCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DeviceOrientationCamera`](DeviceOrientationCamera.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L473)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L473)
 
 The deviceOrientationCamera used as the camera when not in VR.
 
@@ -326,7 +326,7 @@ The deviceOrientationCamera used as the camera when not in VR.
 
 > **get** **displayGaze**(): `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L442)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L442)
 
 If the ray of the gaze should be displayed.
 
@@ -338,7 +338,7 @@ If the ray of the gaze should be displayed.
 
 > **set** **displayGaze**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L449)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:449](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L449)
 
 Sets if the ray of the gaze should be displayed.
 
@@ -360,7 +360,7 @@ Sets if the ray of the gaze should be displayed.
 
 > **get** **displayLaserPointer**(): `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L459)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L459)
 
 If the ray of the LaserPointer should be displayed.
 
@@ -372,7 +372,7 @@ If the ray of the LaserPointer should be displayed.
 
 > **set** **displayLaserPointer**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L466)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:466](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L466)
 
 Sets if the ray of the LaserPointer should be displayed.
 
@@ -394,7 +394,7 @@ Sets if the ray of the LaserPointer should be displayed.
 
 > **get** **gazeTrackerMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L406)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:406](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L406)
 
 The mesh used to display where the user is selecting, this mesh will be cloned and set as the gazeTracker for the left and right controller
 when set bakeCurrentTransformIntoVertices will be called on the mesh.
@@ -408,7 +408,7 @@ See https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/center_o
 
 > **set** **gazeTrackerMesh**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:410](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L410)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:410](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L410)
 
 ##### Parameters
 
@@ -428,7 +428,7 @@ Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:410](ht
 
 > **get** **isInVRMode**(): `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:789](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L789)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:789](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L789)
 
 Gets a value indicating if we are currently in VR mode.
 
@@ -444,7 +444,7 @@ Gets a value indicating if we are currently in VR mode.
 
 > **get** **onEnteringVR**(): [`Observable`](Observable.md)\<`VRExperienceHelper`\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L298)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:298](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L298)
 
 Return this.onEnteringVRObservable
 Note: This one is for backward compatibility. Please use onEnteringVRObservable directly
@@ -461,7 +461,7 @@ Note: This one is for backward compatibility. Please use onEnteringVRObservable 
 
 > **get** **onExitingVR**(): [`Observable`](Observable.md)\<`VRExperienceHelper`\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L305)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L305)
 
 Return this.onExitingVRObservable
 Note: This one is for backward compatibility. Please use onExitingVRObservable directly
@@ -478,7 +478,7 @@ Note: This one is for backward compatibility. Please use onExitingVRObservable d
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:967](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L967)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:967](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L967)
 
 The position of the vr experience helper.
 
@@ -490,7 +490,7 @@ The position of the vr experience helper.
 
 > **set** **position**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:974](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L974)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:974](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L974)
 
 Sets the position of the vr experience helper.
 
@@ -512,7 +512,7 @@ Sets the position of the vr experience helper.
 
 > **get** **teleportationTarget**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L386)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L386)
 
 The mesh used to display where the user is going to teleport.
 
@@ -524,7 +524,7 @@ The mesh used to display where the user is going to teleport.
 
 > **set** **teleportationTarget**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L393)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L393)
 
 Sets the mesh to be used to display where the user is going to teleport.
 
@@ -546,7 +546,7 @@ Sets the mesh to be used to display where the user is going to teleport.
 
 > **get** **vrButton**(): [`Nullable`](../type-aliases/Nullable.md)\<`HTMLButtonElement`\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L494)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L494)
 
 The html button that is used to trigger entering into VR.
 
@@ -562,7 +562,7 @@ The html button that is used to trigger entering into VR.
 
 > **get** **vrDeviceOrientationCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`VRDeviceOrientationFreeCamera`](VRDeviceOrientationFreeCamera.md)\>
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L487)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L487)
 
 The deviceOrientationCamera that is used as a fallback when vr device is not connected.
 
@@ -576,7 +576,7 @@ The deviceOrientationCamera that is used as a fallback when vr device is not con
 
 > **addFloorMesh**(`floorMesh`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1041](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1041)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1041](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1041)
 
 Adds a floor mesh to be used for teleportation.
 
@@ -598,7 +598,7 @@ the mesh to be used for teleportation.
 
 > **changeGazeColor**(`color`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1588](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1588)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1588](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1588)
 
 Sets the color of the ray from the vr headsets gaze.
 
@@ -620,7 +620,7 @@ new color for the ray.
 
 > **changeLaserColor**(`_color`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1578](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1578)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1578](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1578)
 
 Sets the color of the laser ray from the vr controllers.
 
@@ -642,7 +642,7 @@ new color for the ray.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1601)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1601](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1601)
 
 Exits VR and disposes of the vr experience helper
 
@@ -656,7 +656,7 @@ Exits VR and disposes of the vr experience helper
 
 > **enableInteractions**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:985](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L985)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:985](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L985)
 
 Enables controllers and user interactions such as selecting and object or clicking on an object.
 
@@ -670,7 +670,7 @@ Enables controllers and user interactions such as selecting and object or clicki
 
 > **enableTeleportation**(`vrTeleportationOptions?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1072](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1072)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1072](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1072)
 
 Enables interactions and teleportation using the VR controllers and gaze.
 
@@ -692,7 +692,7 @@ options to modify teleportation behavior.
 
 > **enterVR**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:823](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L823)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:823](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L823)
 
 Attempt to enter VR. If a headset is connected and ready, will request present on that.
 Otherwise, will use the fullscreen API.
@@ -707,7 +707,7 @@ Otherwise, will use the fullscreen API.
 
 > **exitVR**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L890)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:890](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L890)
 
 Attempt to exit VR, or fullscreen.
 
@@ -721,7 +721,7 @@ Attempt to exit VR, or fullscreen.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1650](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1650)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1650](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1650)
 
 Gets the name of the VRExperienceHelper class
 
@@ -737,7 +737,7 @@ Gets the name of the VRExperienceHelper class
 
 > **removeFloorMesh**(`floorMesh`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1057](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1057)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1057](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1057)
 
 Removes a floor mesh from being used for teleportation.
 
@@ -759,7 +759,7 @@ the mesh to be removed.
 
 > **setGazeColor**(`color`, `pickedColor?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1570](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1570)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1570](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1570)
 
 Permanently set new colors for the gaze pointer
 
@@ -787,7 +787,7 @@ the new gaze color when picked mesh detected
 
 > **setLaserColor**(`color`, `pickedColor?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1553](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1553)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1553](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1553)
 
 Permanently set new colors for the laser pointer
 
@@ -815,7 +815,7 @@ the new laser color when picked mesh detected
 
 > **setLaserLightingState**(`_enabled?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1561)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1561)
 
 Set lighting enabled / disabled on the laser pointer of both controllers
 
@@ -837,7 +837,7 @@ should the lighting be enabled on the laser pointer
 
 > **teleportCamera**(`location`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1447](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1447)
+Defined in: [packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts:1447](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/VR/vrExperienceHelper.pure.ts#L1447)
 
 Teleports the users feet to the desired location
 

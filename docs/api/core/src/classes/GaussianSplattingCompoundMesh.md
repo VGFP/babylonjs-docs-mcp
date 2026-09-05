@@ -6,7 +6,7 @@
 
 # Class: GaussianSplattingCompoundMesh
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L18)
 
 Class used to compose multiple Gaussian Splatting meshes into a single draw call,
 with per-part world-matrix and visibility control via addPart/addParts/removePart.
@@ -26,7 +26,7 @@ move exclusively to this class and will be removed from GaussianSplattingMesh.
 
 > **new GaussianSplattingCompoundMesh**(`name`, `url?`, `scene?`, `keepInRam?`, `needsRotationScaleTextures?`): `GaussianSplattingCompoundMesh`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L27)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L27)
 
 Creates a new GaussianSplattingCompoundMesh
 
@@ -76,7 +76,7 @@ generate rotation and scale matrix textures required for voxel-based IBL shadows
 
 > **actionManager**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractActionManager`](AbstractActionManager.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:938](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L938)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:938](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L938)
 
 Gets or sets the current action manager
 
@@ -94,7 +94,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **alphaIndex**: `number` = `Number.MAX_VALUE`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:669](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L669)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:669](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L669)
 
 Gets or sets the alpha index used to sort transparent meshes
 
@@ -112,7 +112,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/transpare
 
 > **alwaysSelectAsActiveMesh**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:927](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L927)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:927](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L927)
 
 True if the mesh must be rendered in any case (this will shortcut the frustum clipping phase)
 
@@ -126,7 +126,7 @@ True if the mesh must be rendered in any case (this will shortcut the frustum cl
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/node.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L175)
+Defined in: [packages/dev/core/src/node.ts:175](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L175)
 
 Gets a list of Animations associated with the node
 
@@ -140,7 +140,7 @@ Gets a list of Animations associated with the node
 
 > **cullingStrategy**: `number` = `AbstractMesh.CULLINGSTRATEGY_BOUNDINGSPHERE_ONLY`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:465](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L465)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:465](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L465)
 
 The culling strategy to use to check whether the mesh must be rendered or not.
 This value can be changed at any time and will be used on the next render mesh selection.
@@ -161,7 +161,7 @@ Please read each static variable documentation to get details about the culling 
 
 > **customMarkAsDirty**: () => `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L264)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L264)
 
 Allow user to specify custom mechanism for mark as dirty
 
@@ -179,7 +179,7 @@ Allow user to specify custom mechanism for mark as dirty
 
 > **decalMap**: [`Nullable`](../type-aliases/Nullable.md)\<[`MeshUVSpaceRenderer`](MeshUVSpaceRenderer.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.decalMap.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.decalMap.types.ts#L13)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.decalMap.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.decalMap.types.ts#L13)
 
 Gets or sets the decal map for this mesh
 
@@ -193,7 +193,7 @@ Gets or sets the decal map for this mesh
 
 > **definedFacingForward**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:631](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L631)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:631](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L631)
 
 Gets or sets the orientation for POV movement & rotation
 
@@ -207,7 +207,7 @@ Gets or sets the orientation for POV movement & rotation
 
 > **delayLoadingFile**: `string`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L507)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L507)
 
 Gets the file containing delay loading data for this mesh
 
@@ -221,7 +221,7 @@ Gets the file containing delay loading data for this mesh
 
 > **delayLoadState**: `number` = `Constants.DELAYLOADSTATE_NONE`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L494)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L494)
 
 Gets the delay loading state of the mesh (when delay loading is turned on)
 
@@ -239,7 +239,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/importers/incrementalLoading
 
 > **doNotSyncBoundingInfo**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:932](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L932)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:932](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L932)
 
 Gets or sets a boolean indicating that the bounding info does not need to be kept in sync (for performance reason)
 
@@ -253,7 +253,7 @@ Gets or sets a boolean indicating that the bounding info does not need to be kep
 
 > **edgesColor**: [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1015)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1015)
 
 Defines edge color used when edgesRenderer is enabled
 
@@ -271,7 +271,7 @@ https://www.babylonjs-playground.com/#10OJSG#13
 
 > **edgesRenderer**: [`Nullable`](../type-aliases/Nullable.md)\<[`EdgesRenderer`](EdgesRenderer.md)\>
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.types.ts#L18)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.types.ts#L18)
 
 Gets the edgesRenderer associated with the mesh
 
@@ -285,7 +285,7 @@ Gets the edgesRenderer associated with the mesh
 
 > **edgesShareWithInstances**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/instancedMesh.types.ts#L23)
+Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/instancedMesh.types.ts#L23)
 
 true to use the edge renderer for all instances of this mesh
 
@@ -299,7 +299,7 @@ true to use the edge renderer for all instances of this mesh
 
 > **edgesWidth**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1010](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1010)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1010](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1010)
 
 Defines edge width used when edgesRenderer is enabled
 
@@ -317,7 +317,7 @@ https://www.babylonjs-playground.com/#10OJSG#13
 
 > **ellipsoid**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:944](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L944)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:944](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L944)
 
 Gets or sets the ellipsoid used to impersonate this mesh when using collision engine (default is (0.5, 1, 0.5))
 
@@ -335,7 +335,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **ellipsoidOffset**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:949](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L949)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:949](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L949)
 
 Gets or sets the ellipsoid offset used to impersonate this mesh when using collision engine (default is (0, 0, 0))
 
@@ -353,7 +353,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **enablePointerMoveEvents**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:701](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L701)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:701](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L701)
 
 Gets or sets a boolean indicating that pointer move events must be supported on this mesh (false by default)
 
@@ -367,7 +367,7 @@ Gets or sets a boolean indicating that pointer move events must be supported on 
 
 > **forceRenderingWhenOccluded**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L101)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L101)
 
 Flag to force rendering the mesh even if occluded
 
@@ -385,7 +385,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **id**: `string`
 
-Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L97)
+Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L97)
 
 Gets or sets the id of the node
 
@@ -399,7 +399,7 @@ Gets or sets the id of the node
 
 > **ignoreCameraMaxZ**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L623)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L623)
 
 Gets or sets a boolean indicating whether to render ignoring the active camera's max z setting. (false by default)
 You should not mix meshes that have this property set to true with meshes that have it set to false if they all write
@@ -417,7 +417,7 @@ Note this will reduce performance when set to true.
 
 > **ignoreNonUniformScaling**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L134)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L134)
 
 Gets or sets a boolean indicating that non uniform scaling (when at least one component is different from others) should be ignored.
 By default the system will update normals to compensate
@@ -432,7 +432,7 @@ By default the system will update normals to compensate
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L129)
+Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L129)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -450,7 +450,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **instancedBuffers**: `object`
 
-Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/instancedMesh.types.ts#L52)
+Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/instancedMesh.types.ts#L52)
 
 Object used to store instanced buffers defined by user
 
@@ -472,7 +472,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/copies/instances#custom
 
 > **instances**: [`InstancedMesh`](InstancedMesh.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L502)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L502)
 
 Gets the list of instances created from this mesh
 it is not supposed to be modified manually.
@@ -492,7 +492,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/copies/instances
 
 > **isBlocker**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L696)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L696)
 
 Gets or sets a boolean indicating if the mesh must be considered as a ray blocker for lens flares (false by default)
 
@@ -510,7 +510,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/environment/lenseFlare
 
 > **isNearGrabbable**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L688)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L688)
 
 Gets or sets a boolean indicating if the mesh can be grabbed. Default is false.
 Setting this to true, while using the XR near interaction feature, will trigger a pointer event when the mesh is grabbed.
@@ -527,7 +527,7 @@ This is different from nearPickable which only triggers the event when the mesh 
 
 > **isNearPickable**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:680](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L680)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:680](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L680)
 
 Gets or sets a boolean indicating if the mesh can be near picked (touched by the XR controller or hands). Default is false
 
@@ -541,7 +541,7 @@ Gets or sets a boolean indicating if the mesh can be near picked (touched by the
 
 > **isOccluded**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L89)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L89)
 
 Gets or sets whether the mesh is occluded or not, it is used also to set the initial state of the mesh to be occluded or not
 
@@ -559,7 +559,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **isOcclusionQueryInProgress**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L95)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L95)
 
 Flag to check the progress status of the query
 
@@ -577,7 +577,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **isPickable**: `boolean` = `AbstractMesh.DefaultIsPickable`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L675)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L675)
 
 Gets or sets a boolean indicating if the mesh can be picked (by scene.pick for instance or through actions).
 Default value is determined by [AbstractMesh.DefaultIsPickable](AbstractMesh.md#defaultispickable) (true unless changed).
@@ -592,7 +592,7 @@ Default value is determined by [AbstractMesh.DefaultIsPickable](AbstractMesh.md#
 
 > **metadata**: `any` = `null`
 
-Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L115)
+Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L115)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -606,7 +606,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/node.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L91)
+Defined in: [packages/dev/core/src/node.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L91)
 
 Gets or sets the name of the node
 
@@ -620,7 +620,7 @@ Gets or sets the name of the node
 
 > **occlusionForRenderPassId**: `number`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L107)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L107)
 
 This number indicates the render pass id used to run the occlusion query. The default value is -1, which means run the occlusion query in all render passes.
 
@@ -638,7 +638,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **occlusionQueryAlgorithmType**: `number`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L83)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L83)
 
 This property determines the type of occlusion query algorithm to run in WebGl, you can use:
 * AbstractMesh.OCCLUSION_ALGORITHM_TYPE_ACCURATE which is mapped to GL_ANY_SAMPLES_PASSED.
@@ -658,7 +658,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **occlusionRetryCount**: `number`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L66)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L66)
 
 This number indicates the number of allowed retries before stop the occlusion query, this is useful if the occlusion query is taking long time before to the query result is retrieved, the query result indicates if the object is visible within the scene or not and based on that Babylon.Js engine decides to show or hide the object.
 The default value is -1 which means don't break the query and wait till the result
@@ -677,7 +677,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **occlusionType**: `number`
 
-Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L75)
+Defined in: [packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/AbstractEngine/abstractEngine.query.types.ts#L75)
 
 This property is responsible for starting the occlusion query within the Mesh or not, this property is also used to determine what should happen when the occlusionRetryCount is reached. It has supports 3 values:
 * OCCLUSION_TYPE_NONE (Default Value): this option means no occlusion query within the Mesh.
@@ -698,7 +698,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/occlusionQueries
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L148)
+Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L148)
 
 Observable fired when an accessibility tag is changed
 
@@ -712,7 +712,7 @@ Observable fired when an accessibility tag is changed
 
 > **onAfterWorldMatrixUpdateObservable**: [`Observable`](Observable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L172)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L172)
 
 An event triggered after the world matrix is updated
 
@@ -726,7 +726,7 @@ An event triggered after the world matrix is updated
 
 > **onCollideObservable**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L598)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L598)
 
 An event triggered when this mesh collides with another one
 
@@ -740,7 +740,7 @@ An event triggered when this mesh collides with another one
 
 > **onCollisionPositionChangeObservable**: [`Observable`](Observable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:611](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L611)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:611](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L611)
 
 An event triggered when the collision's position changes
 
@@ -754,7 +754,7 @@ An event triggered when the collision's position changes
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L352)
+Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L352)
 
 An event triggered when the mesh is disposed
 
@@ -768,7 +768,7 @@ An event triggered when the mesh is disposed
 
 > **onLODLevelSelection**: (`distance`, `mesh`, `selectedLevel`) => `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:516](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L516)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:516](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L516)
 
 User defined function used to change how LOD level selection is done
 
@@ -804,7 +804,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
 
 > **onMaterialChangedObservable**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:624](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L624)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:624](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L624)
 
 An event triggered when material is changed
 
@@ -818,7 +818,7 @@ An event triggered when material is changed
 
 > **onMeshReadyObservable**: [`Observable`](Observable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L384)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:384](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L384)
 
 Will notify when the mesh is completely ready, including materials.
 Observers added to this observable will be removed once triggered
@@ -833,7 +833,7 @@ Observers added to this observable will be removed once triggered
 
 > `readonly` **onPartCountChangedObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:600](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L600)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:601](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L601)
 
 Fired after parts are added or the mesh is rebuilt following a removal. Payload is the new part count.
 
@@ -847,7 +847,7 @@ Fired after parts are added or the mesh is rebuilt following a removal. Payload 
 
 > `readonly` **onPartRemovedObservable**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:604](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L604)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:605](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L605)
 
 Fired after part-removal validation passes but before the mesh is rebuilt.
  Payload is the original (pre-removal) part index.
@@ -862,7 +862,7 @@ Fired after part-removal validation passes but before the mesh is rebuilt.
 
 > **onReady**: [`Nullable`](../type-aliases/Nullable.md)\<(`node`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L181)
+Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L181)
 
 Callback raised when the node is ready to be used
 
@@ -876,7 +876,7 @@ Callback raised when the node is ready to be used
 
 > **onRebuildObservable**: [`Observable`](Observable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1097](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1097)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1097](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1097)
 
 An event triggered when the mesh is rebuilt.
 
@@ -890,7 +890,7 @@ An event triggered when the mesh is rebuilt.
 
 > **outlineColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L812)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L812)
 
 Defines color to use when rendering outline
 
@@ -904,7 +904,7 @@ Defines color to use when rendering outline
 
 > **outlineWidth**: `number` = `0.02`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:814](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L814)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:814](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L814)
 
 Define width to use when rendering outline
 
@@ -918,7 +918,7 @@ Define width to use when rendering outline
 
 > **overlayAlpha**: `number` = `0.5`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:819](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L819)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:819](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L819)
 
 Defines alpha to use when rendering overlay
 
@@ -932,7 +932,7 @@ Defines alpha to use when rendering overlay
 
 > **overlayColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:817](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L817)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:817](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L817)
 
 Defines color to use when rendering overlay
 
@@ -946,7 +946,7 @@ Defines color to use when rendering overlay
 
 > **physicsBody**: [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsBody`](PhysicsBody.md)\>
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L15)
+Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L15)
 
 Gets or sets the physics body associated with this node.
 
@@ -960,7 +960,7 @@ Gets or sets the physics body associated with this node.
 
 > **physicsImpostor**: [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsImpostor`](PhysicsImpostor.md)\>
 
-Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L17)
+Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L17)
 
 Gets or sets impostor used for physic simulation
 
@@ -978,7 +978,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics
 
 > **reIntegrateRotationIntoRotationQuaternion**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L140)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L140)
 
 Gets or sets a boolean indicating that even if rotationQuaternion is defined, you can keep updating rotation property and Babylon.js will just mix both
 
@@ -992,7 +992,7 @@ Gets or sets a boolean indicating that even if rotationQuaternion is defined, yo
 
 > **renderOutline**: `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.types.ts#L24)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.types.ts#L24)
 
 Gets or sets a boolean indicating if the outline must be rendered as well
 
@@ -1010,7 +1010,7 @@ https://www.babylonjs-playground.com/#10WJ5S#3
 
 > **renderOverlay**: `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.types.ts#L32)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.types.ts#L32)
 
 Gets or sets a boolean indicating if the overlay must be rendered as well
 
@@ -1028,7 +1028,7 @@ https://www.babylonjs-playground.com/#10WJ5S#2
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L123)
+Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L123)
 
 For internal use only. Please do not use.
 
@@ -1042,7 +1042,7 @@ For internal use only. Please do not use.
 
 > **safeOrbitCameraLimits**: [`Nullable`](../type-aliases/Nullable.md)\<[`ISafeOrbitCameraLimits`](../interfaces/ISafeOrbitCameraLimits.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:509](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L509)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:510](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L510)
 
 Safe-orbit camera limits parsed from the source file's metadata, or `null` when the file
 carries none. The loader also auto-applies these to an active ArcRotateCamera at load time
@@ -1059,7 +1059,7 @@ applied or tracked regardless of the active camera type. See [ISafeOrbitCameraLi
 
 > **scalingDeterminant**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L109)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L109)
 
 Multiplication factor on scale x/y/z when computing the world matrix. Eg. for a 1x1x1 cube setting this to 2 will make it a 2x2x2 cube
 
@@ -1073,7 +1073,7 @@ Multiplication factor on scale x/y/z when computing the world matrix. Eg. for a 
 
 > **showBoundingBox**: `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts#L32)
+Defined in: [packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/boundingBoxRenderer.types.ts#L32)
 
 Gets or sets a boolean indicating if the bounding box must be rendered as well (false by default)
 
@@ -1087,7 +1087,7 @@ Gets or sets a boolean indicating if the bounding box must be rendered as well (
 
 > **showSubMeshesBoundingBox**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:691](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L691)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:691](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L691)
 
 Gets or sets a boolean indicating that bounding boxes of subMeshes must be rendered as well (false by default)
 
@@ -1101,7 +1101,7 @@ Gets or sets a boolean indicating that bounding boxes of subMeshes must be rende
 
 > **state**: `string` = `""`
 
-Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L109)
+Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L109)
 
 Gets or sets a string used to store user defined state for the node
 
@@ -1115,7 +1115,7 @@ Gets or sets a string used to store user defined state for the node
 
 > **subMeshes**: [`SubMesh`](SubMesh.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1030](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1030)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1030](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1030)
 
 Gets or sets the list of subMeshes
 
@@ -1133,7 +1133,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/using/multiMateria
 
 > **thinInstanceAllowAutomaticStaticBufferRecreation**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L19)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L19)
 
 Indicates that a buffer created as static should be recreated if the buffer is updated (by calling thinInstanceSetMatrixAt or thinInstanceSetAttributeAt, for eg.)
 If this flag is false (the default behavior), a buffer created as "static" won't show any update done to it, and will stay the same as it was created.
@@ -1150,7 +1150,7 @@ You should set this flag to true only if your static buffers should change infre
 
 > **thinInstanceCount**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L63)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L63)
 
 Gets / sets the number of thin instances to display. Note that you can't set a number higher than what the underlying buffer can handle.
 
@@ -1164,7 +1164,7 @@ Gets / sets the number of thin instances to display. Note that you can't set a n
 
 > **thinInstanceEnablePicking**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L11)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L11)
 
 Gets or sets a boolean defining if we want picking to pick thin instances as well
 
@@ -1178,7 +1178,7 @@ Gets or sets a boolean defining if we want picking to pick thin instances as wel
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L103)
+Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L103)
 
 Gets or sets the unique id of the node
 
@@ -1192,7 +1192,7 @@ Gets or sets the unique id of the node
 
 > **useOctreeForCollisions**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:906](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L906)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:906](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L906)
 
 Gets or sets a boolean indicating that internal octree (if available) can be used to boost submeshes collision (true by default)
 
@@ -1206,7 +1206,7 @@ Gets or sets a boolean indicating that internal octree (if available) can be use
 
 > **useOctreeForPicking**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:904](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L904)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:904](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L904)
 
 Gets or sets a boolean indicating that internal octree (if available) can be used to boost submeshes picking (true by default)
 
@@ -1220,7 +1220,7 @@ Gets or sets a boolean indicating that internal octree (if available) can be use
 
 > **useOctreeForRenderingSelection**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:902](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L902)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:902](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L902)
 
 Gets or sets a boolean indicating that internal octree (if available) can be used to boost submeshes selection (true by default)
 
@@ -1234,7 +1234,7 @@ Gets or sets a boolean indicating that internal octree (if available) can be use
 
 > **viewUpdateThreshold**: `number` = `GaussianSplattingMeshBase._DefaultViewUpdateThreshold`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L685)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:686](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L686)
 
 Cosine value of the angle threshold to update view dependent splat sorting. Default is 0.0001.
 
@@ -1248,7 +1248,7 @@ Cosine value of the angle threshold to update view dependent splat sorting. Defa
 
 > `readonly` `static` **BACKSIDE**: `1` = `VertexData.BACKSIDE`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L276)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L276)
 
 Mesh side orientation : usually the internal or back surface
 
@@ -1262,7 +1262,7 @@ Mesh side orientation : usually the internal or back surface
 
 > `static` **BillboardUseParentOrientation**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L50)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L50)
 
 Child transform with Billboard flags should or should not apply parent rotation (default if off)
 
@@ -1276,7 +1276,7 @@ Child transform with Billboard flags should or should not apply parent rotation 
 
 > `readonly` `static` **BOTTOM**: `4` = `4`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L348)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L348)
 
 Mesh tile positioning : part tiles on bottom
 
@@ -1290,7 +1290,7 @@ Mesh tile positioning : part tiles on bottom
 
 > `readonly` `static` **CAP\_ALL**: `3` = `3`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L300)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L300)
 
 Mesh cap setting : two caps, one at the beginning  and one at the end of the mesh
 
@@ -1304,7 +1304,7 @@ Mesh cap setting : two caps, one at the beginning  and one at the end of the mes
 
 > `readonly` `static` **CAP\_END**: `2` = `2`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L296)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L296)
 
 Mesh cap setting : one cap at the end of the mesh
 
@@ -1318,7 +1318,7 @@ Mesh cap setting : one cap at the end of the mesh
 
 > `readonly` `static` **CAP\_START**: `1` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L292)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L292)
 
 Mesh cap setting : one cap at the beginning of the mesh
 
@@ -1332,7 +1332,7 @@ Mesh cap setting : one cap at the beginning of the mesh
 
 > `readonly` `static` **CENTER**: `0` = `0`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L332)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L332)
 
 Mesh tile positioning : part tiles same on left/right or top/bottom
 
@@ -1346,7 +1346,7 @@ Mesh tile positioning : part tiles same on left/right or top/bottom
 
 > `readonly` `static` **CULLINGSTRATEGY\_BOUNDINGSPHERE\_ONLY**: `1` = `Constants.MESHES_CULLINGSTRATEGY_BOUNDINGSPHERE_ONLY`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L378)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L378)
 
 Culling strategy : Bounding Sphere Only.
  This is an exclusion test. It's faster than the standard strategy because the bounding box is not tested.
@@ -1364,7 +1364,7 @@ Culling strategy : Bounding Sphere Only.
 
 > `readonly` `static` **CULLINGSTRATEGY\_OPTIMISTIC\_INCLUSION**: `2` = `Constants.MESHES_CULLINGSTRATEGY_OPTIMISTIC_INCLUSION`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L388)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L388)
 
 Culling strategy : Optimistic Inclusion.
  This in an inclusion test first, then the standard exclusion test.
@@ -1385,7 +1385,7 @@ Culling strategy : Optimistic Inclusion.
 
 > `readonly` `static` **CULLINGSTRATEGY\_OPTIMISTIC\_INCLUSION\_THEN\_BSPHERE\_ONLY**: `3` = `Constants.MESHES_CULLINGSTRATEGY_OPTIMISTIC_INCLUSION_THEN_BSPHERE_ONLY`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:398](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L398)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:398](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L398)
 
 Culling strategy : Optimistic Inclusion then Bounding Sphere Only.
  This in an inclusion test first, then the bounding sphere only exclusion test.
@@ -1406,7 +1406,7 @@ Culling strategy : Optimistic Inclusion then Bounding Sphere Only.
 
 > `readonly` `static` **CULLINGSTRATEGY\_STANDARD**: `0` = `Constants.MESHES_CULLINGSTRATEGY_STANDARD`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L371)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L371)
 
 Default culling strategy : this is an exclusion test and it's the more accurate.
  Test order :
@@ -1424,7 +1424,7 @@ Default culling strategy : this is an exclusion test and it's the more accurate.
 
 > `static` **DefaultIsPickable**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L437)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L437)
 
 Gets or sets the default value for isPickable for newly created meshes.
 When set to false, all meshes created after the change will not be pickable by default.
@@ -1440,7 +1440,7 @@ Individual meshes can still override this by setting their own isPickable proper
 
 > `readonly` `static` **DEFAULTSIDE**: `0` = `VertexData.DEFAULTSIDE`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:284](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L284)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:284](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L284)
 
 Mesh side orientation : by default, `FRONTSIDE`
 
@@ -1454,7 +1454,7 @@ Mesh side orientation : by default, `FRONTSIDE`
 
 > `readonly` `static` **DOUBLESIDE**: `2` = `VertexData.DOUBLESIDE`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L280)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L280)
 
 Mesh side orientation : both internal and external or front and back surfaces
 
@@ -1468,7 +1468,7 @@ Mesh side orientation : both internal and external or front and back surfaces
 
 > `readonly` `static` **FLIP\_N\_ROTATE\_ROW**: `6` = `6`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:328](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L328)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:328](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L328)
 
 Mesh pattern setting : rotate pattern and rotate
 
@@ -1482,7 +1482,7 @@ Mesh pattern setting : rotate pattern and rotate
 
 > `readonly` `static` **FLIP\_N\_ROTATE\_TILE**: `5` = `5`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:324](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L324)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:324](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L324)
 
 Mesh pattern setting : flip and rotate alternate tiles on each row or column
 
@@ -1496,7 +1496,7 @@ Mesh pattern setting : flip and rotate alternate tiles on each row or column
 
 > `readonly` `static` **FLIP\_ROW**: `3` = `3`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L316)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L316)
 
 Mesh pattern setting : flip (reflect in y axis) all tiles on alternate rows
 
@@ -1510,7 +1510,7 @@ Mesh pattern setting : flip (reflect in y axis) all tiles on alternate rows
 
 > `readonly` `static` **FLIP\_TILE**: `1` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L308)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L308)
 
 Mesh pattern setting : flip (reflect in y axis) alternate tiles on each row or column
 
@@ -1524,7 +1524,7 @@ Mesh pattern setting : flip (reflect in y axis) alternate tiles on each row or c
 
 > `readonly` `static` **FRONTSIDE**: `0` = `VertexData.FRONTSIDE`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L271)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L271)
 
 Mesh side orientation : usually the external or front surface
 
@@ -1538,7 +1538,7 @@ Mesh side orientation : usually the external or front surface
 
 > `static` **INSTANCEDMESH\_SORT\_TRANSPARENT**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L353)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L353)
 
 Indicates that the instanced meshes should be sorted from back to front before rendering if their material is transparent
 
@@ -1552,7 +1552,7 @@ Indicates that the instanced meshes should be sorted from back to front before r
 
 > `readonly` `static` **LEFT**: `1` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L336)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L336)
 
 Mesh tile positioning : part tiles on left
 
@@ -1566,7 +1566,7 @@ Mesh tile positioning : part tiles on left
 
 > `static` **LogSortPerformance**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:501](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L501)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L502)
 
 When true, the depth-sort worker logs each sort's duration (ms) and active splat count to the console.
 Off by default; intended for performance investigation only.
@@ -1581,7 +1581,7 @@ Off by default; intended for performance investigation only.
 
 > `readonly` `static` **NO\_CAP**: `0` = `0`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L288)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L288)
 
 Mesh cap setting : no cap
 
@@ -1595,7 +1595,7 @@ Mesh cap setting : no cap
 
 > `readonly` `static` **NO\_FLIP**: `0` = `0`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L304)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L304)
 
 Mesh pattern setting : no flip or rotate
 
@@ -1609,7 +1609,7 @@ Mesh pattern setting : no flip or rotate
 
 > `static` **OCCLUSION\_ALGORITHM\_TYPE\_ACCURATE**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:361](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L361)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:361](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L361)
 
 Use an accurate occlusion algorithm
 
@@ -1623,7 +1623,7 @@ Use an accurate occlusion algorithm
 
 > `static` **OCCLUSION\_ALGORITHM\_TYPE\_CONSERVATIVE**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:363](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L363)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:363](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L363)
 
 Use a conservative occlusion algorithm
 
@@ -1637,7 +1637,7 @@ Use a conservative occlusion algorithm
 
 > `static` **OCCLUSION\_TYPE\_NONE**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L355)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:355](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L355)
 
 No occlusion
 
@@ -1651,7 +1651,7 @@ No occlusion
 
 > `static` **OCCLUSION\_TYPE\_OPTIMISTIC**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L357)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L357)
 
 Occlusion set to optimistic
 
@@ -1665,7 +1665,7 @@ Occlusion set to optimistic
 
 > `static` **OCCLUSION\_TYPE\_STRICT**: `number` = `2`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L359)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:359](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L359)
 
 Occlusion set to strict
 
@@ -1679,7 +1679,7 @@ Occlusion set to strict
 
 > `static` **ProgressiveUpdateAmount**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:920](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L920)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:921](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L921)
 
 Set the number of batch (a batch is 16384 splats) after which a display update is performed
 A value of 0 (default) means display update will not happens before splat is ready.
@@ -1694,7 +1694,7 @@ A value of 0 (default) means display update will not happens before splat is rea
 
 > `readonly` `static` **RIGHT**: `2` = `2`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L340)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L340)
 
 Mesh tile positioning : part tiles on right
 
@@ -1708,7 +1708,7 @@ Mesh tile positioning : part tiles on right
 
 > `readonly` `static` **ROTATE\_ROW**: `4` = `4`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L320)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L320)
 
 Mesh pattern setting : rotate (180degs) all tiles on alternate rows
 
@@ -1722,7 +1722,7 @@ Mesh pattern setting : rotate (180degs) all tiles on alternate rows
 
 > `readonly` `static` **ROTATE\_TILE**: `2` = `2`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L312)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L312)
 
 Mesh pattern setting : rotate (180degs) alternate tiles on each row or column
 
@@ -1736,7 +1736,7 @@ Mesh pattern setting : rotate (180degs) alternate tiles on each row or column
 
 > `readonly` `static` **TOP**: `3` = `3`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L344)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L344)
 
 Mesh tile positioning : part tiles on top
 
@@ -1750,7 +1750,7 @@ Mesh tile positioning : part tiles on top
 
 > `static` **UseCountingSort**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L495)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:496](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L496)
 
 When true (default), the depth-sort worker uses the fast O(n) counting (radix) sort. Set to false to
 fall back to the legacy comparison sort (useful for A/B comparison or as a safety fallback). The change
@@ -1768,7 +1768,7 @@ takes effect on the next sort.
 
 > **get** **absolutePosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L372)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:372](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L372)
 
 Returns the current mesh absolute position.
 Returns a Vector3.
@@ -1789,7 +1789,7 @@ Returns a Vector3.
 
 > **get** **absoluteRotationQuaternion**(): [`Quaternion`](Quaternion.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:389](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L389)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:389](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L389)
 
 Returns the current mesh absolute rotation.
 Returns a Quaternion.
@@ -1810,7 +1810,7 @@ Returns a Quaternion.
 
 > **get** **absoluteScaling**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L380)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L380)
 
 Returns the current mesh absolute scaling.
 Returns a Vector3.
@@ -1831,7 +1831,7 @@ Returns a Vector3.
 
 > **get** **accessibilityTag**(): [`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L139)
+Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L139)
 
 ##### Returns
 
@@ -1841,7 +1841,7 @@ Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Bab
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L134)
+Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L134)
 
 Gets or sets the accessibility tag to describe the node for accessibility purpose.
 
@@ -1867,7 +1867,7 @@ Gets or sets the accessibility tag to describe the node for accessibility purpos
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L327)
+Defined in: [packages/dev/core/src/node.ts:327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L327)
 
 Gets or sets the animation properties override
 
@@ -1879,7 +1879,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L334)
+Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L334)
 
 ##### Parameters
 
@@ -1903,7 +1903,7 @@ Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Bab
 
 > **get** **applyFog**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:881](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L881)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:881](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L881)
 
 Gets or sets a boolean indicating that this mesh will allow fog to be rendered on it (true by default)
 
@@ -1915,7 +1915,7 @@ Gets or sets a boolean indicating that this mesh will allow fog to be rendered o
 
 > **set** **applyFog**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:884](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L884)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:884](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L884)
 
 ##### Parameters
 
@@ -1939,7 +1939,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:884](https://gith
 
 > **get** **areNormalsFrozen**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1573](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1573)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1573](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1573)
 
 Gets a boolean indicating if the normals aren't to be recomputed on next mesh `positions` array update. This property is pertinent only for updatable parametric shapes.
 
@@ -1959,7 +1959,7 @@ Gets a boolean indicating if the normals aren't to be recomputed on next mesh `p
 
 > **get** **bakedVertexAnimationManager**(): [`Nullable`](../type-aliases/Nullable.md)\<[`IBakedVertexAnimationManager`](../interfaces/IBakedVertexAnimationManager.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:559](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L559)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:559](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L559)
 
 Gets or sets the baked vertex animation manager
 
@@ -1975,7 +1975,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/baked_texture_anim
 
 > **set** **bakedVertexAnimationManager**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L563)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L563)
 
 ##### Parameters
 
@@ -1999,7 +1999,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:563](https://gith
 
 > **get** **behaviors**(): [`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>[]
 
-Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L485)
+Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L485)
 
 Gets the list of attached behaviors
 
@@ -2023,7 +2023,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **billboardMode**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L93)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L93)
 
 Gets or sets the billboard mode. Default is 0.
 
@@ -2043,7 +2043,7 @@ Gets or sets the billboard mode. Default is 0.
 
 > **set** **billboardMode**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L97)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L97)
 
 ##### Parameters
 
@@ -2067,7 +2067,7 @@ Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:97](https://gith
 
 > **get** **centersTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:939](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L939)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:940](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L940)
 
 Gets the centers texture
 
@@ -2087,7 +2087,7 @@ Gets the centers texture
 
 > **get** **checkCollisions**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2039](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2039)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2039](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2039)
 
 Gets or sets a boolean indicating that this mesh can be used in the collision engine
 
@@ -2103,7 +2103,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **set** **checkCollisions**(`collisionEnabled`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2043](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2043)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2043](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2043)
 
 ##### Parameters
 
@@ -2127,7 +2127,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2043](https://git
 
 > **get** **cloneMeshMap**(): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`id`: `string`\]: [`Mesh`](Mesh.md) \| `undefined`; \}\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:637](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L637)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:637](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L637)
 
 Gets the list of clones of this mesh
 The scene must have been constructed with useClonedMeshMap=true for this to work!
@@ -2149,7 +2149,7 @@ Note that useClonedMeshMap=true is the default setting
 
 > **get** **collider**(): [`Nullable`](../type-aliases/Nullable.md)\<`Collider`\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2051](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2051)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2051](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2051)
 
 Gets Collider object used to compute collisions (not physics)
 
@@ -2173,7 +2173,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **get** **collisionGroup**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:980](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L980)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:980](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L980)
 
 Gets or sets the current collision group mask (-1 by default).
 A collision between A and B will happen if A.collisionGroup & b.collisionMask !== 0
@@ -2186,7 +2186,7 @@ A collision between A and B will happen if A.collisionGroup & b.collisionMask !=
 
 > **set** **collisionGroup**(`mask`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:984](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L984)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:984](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L984)
 
 ##### Parameters
 
@@ -2210,7 +2210,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:984](https://gith
 
 > **get** **collisionMask**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:955](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L955)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:955](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L955)
 
 Gets or sets a collision mask used to mask collisions (default is -1).
 A collision between A and B will happen if A.collisionGroup & b.collisionMask !== 0
@@ -2223,7 +2223,7 @@ A collision between A and B will happen if A.collisionGroup & b.collisionMask !=
 
 > **set** **collisionMask**(`mask`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:959](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L959)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:959](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L959)
 
 ##### Parameters
 
@@ -2247,7 +2247,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:959](https://gith
 
 > **get** **collisionResponse**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:969](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L969)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:969](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L969)
 
 Gets or sets a collision response flag (default is true).
 when collisionResponse is false, events are still triggered but colliding entity has no response
@@ -2262,7 +2262,7 @@ to respond to the collision.
 
 > **set** **collisionResponse**(`response`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:973](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L973)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:973](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L973)
 
 ##### Parameters
 
@@ -2286,7 +2286,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:973](https://gith
 
 > **get** **collisionRetryCount**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:525](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L525)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:525](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L525)
 
 number of collision detection tries. Change this value if not all collisions are detected and handled properly
 
@@ -2298,7 +2298,7 @@ number of collision detection tries. Change this value if not all collisions are
 
 > **set** **collisionRetryCount**(`retryCount`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:528](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L528)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:528](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L528)
 
 ##### Parameters
 
@@ -2322,7 +2322,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:528](https://gith
 
 > **get** **colorsTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:946](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L946)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:947](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L947)
 
 Gets the colors texture
 
@@ -2342,7 +2342,7 @@ Gets the colors texture
 
 > **get** **compensation**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1116)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1117)
 
 Get the compensation state
 
@@ -2362,7 +2362,7 @@ Get the compensation state
 
 > **get** **computeBonesUsingShaders**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L387)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L387)
 
 ##### Returns
 
@@ -2372,7 +2372,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:387](https://github.com/B
 
 > **set** **computeBonesUsingShaders**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L391)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L391)
 
 ##### Parameters
 
@@ -2396,7 +2396,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:391](https://github.com/B
 
 > **get** **covariancesATexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:925](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L925)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:926](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L926)
 
 Gets the covariancesA texture
 
@@ -2416,7 +2416,7 @@ Gets the covariancesA texture
 
 > **get** **covariancesBTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:932](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L932)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:933](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L933)
 
 Gets the covariancesB texture
 
@@ -2436,7 +2436,7 @@ Gets the covariancesB texture
 
 > **get** **disableDepthSort**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:691](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L691)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L692)
 
 If true, disables depth sorting of the splats (default: false)
 
@@ -2448,7 +2448,7 @@ If true, disables depth sorting of the splats (default: false)
 
 > **set** **disableDepthSort**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:694](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L694)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:695](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L695)
 
 ##### Parameters
 
@@ -2472,7 +2472,7 @@ Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMes
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L153)
+Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L153)
 
 Gets or sets a boolean used to define if the node must be serialized
 
@@ -2484,7 +2484,7 @@ Gets or sets a boolean used to define if the node must be serialized
 
 > **set** **doNotSerialize**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L165)
+Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L165)
 
 ##### Parameters
 
@@ -2508,7 +2508,7 @@ Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Bab
 
 > **get** **enableDistantPicking**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:894](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L894)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:894](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L894)
 
 When enabled, decompose picking matrices for better precision with large values for mesh position and scling
 
@@ -2520,7 +2520,7 @@ When enabled, decompose picking matrices for better precision with large values 
 
 > **set** **enableDistantPicking**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:897](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L897)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:897](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L897)
 
 ##### Parameters
 
@@ -2544,7 +2544,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:897](https://gith
 
 > **get** **facetDepthSortFrom**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:517](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L517)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:517](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L517)
 
 The location (Vector3) where the facet depth sort must be computed from.
 By default, the active camera position.
@@ -2562,7 +2562,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData#facet-depth-s
 
 > **set** **facetDepthSortFrom**(`location`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L520)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L520)
 
 ##### Parameters
 
@@ -2586,7 +2586,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:520](https://gith
 
 > **get** **facetNb**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L471)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L471)
 
 Gets the number of facets in the mesh
 
@@ -2610,7 +2610,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData#what-is-a-mes
 
 > **get** **forcedInstanceCount**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L534)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L534)
 
 Gets or sets the forced number of instances to display.
 If 0 (default value), the number of instances is not forced and depends on the draw type
@@ -2624,7 +2624,7 @@ If 0 (default value), the number of instances is not forced and depends on the d
 
 > **set** **forcedInstanceCount**(`count`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L538)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:538](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L538)
 
 ##### Parameters
 
@@ -2648,7 +2648,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:538](https://github.com/B
 
 > **get** **forceWorldMatrixInstancedBufferUpdate**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:690](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L690)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:690](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L690)
 
 Gets or sets a boolean indicating that the update of the instance buffer of the world matrices must be performed in all cases (and notably even in frozen mode)
 
@@ -2660,7 +2660,7 @@ Gets or sets a boolean indicating that the update of the instance buffer of the 
 
 > **set** **forceWorldMatrixInstancedBufferUpdate**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:694](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L694)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:694](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L694)
 
 ##### Parameters
 
@@ -2684,7 +2684,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:694](https://github.com/B
 
 > **get** **forward**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L280)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L280)
 
 The forward direction of that transform in world space.
 
@@ -2704,7 +2704,7 @@ The forward direction of that transform in world space.
 
 > **get** **geometry**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Geometry`](Geometry.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1271)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1271)
 
 Gets the mesh internal Geometry object
 
@@ -2724,7 +2724,7 @@ Gets the mesh internal Geometry object
 
 > **get** **hasBoundingInfo**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1575](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1575)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1575](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1575)
 
 Returns true if there is already a bounding info
 
@@ -2744,7 +2744,7 @@ Returns true if there is already a bounding info
 
 > **get** **hasInstances**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L479)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L479)
 
 ##### Returns
 
@@ -2762,7 +2762,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:479](https://github.com/B
 
 > **get** **hasLODLevels**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1109)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1109)
 
 Gets a boolean indicating if this mesh has LOD
 
@@ -2782,7 +2782,7 @@ Gets a boolean indicating if this mesh has LOD
 
 > **get** **hasThinInstances**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:484](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L484)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:484](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L484)
 
 ##### Returns
 
@@ -2800,7 +2800,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:484](https://github.com/B
 
 > **get** **hasVertexAlpha**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:826](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L826)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:826](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L826)
 
 Gets or sets a boolean indicating that this mesh needs to use vertex alpha data to render.
 This property is misnamed and should be `useVertexAlpha`. Note that the mesh will be rendered
@@ -2814,7 +2814,7 @@ with alpha blending when this flag is set even if vertex alpha data is missing f
 
 > **set** **hasVertexAlpha**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L829)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:829](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L829)
 
 ##### Parameters
 
@@ -2838,7 +2838,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:829](https://gith
 
 > **get** **infiniteDistance**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L117)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L117)
 
 Gets or sets the distance of the object to max, often used by skybox
 
@@ -2850,7 +2850,7 @@ Gets or sets the distance of the object to max, often used by skybox
 
 > **set** **infiniteDistance**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L121)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L121)
 
 ##### Parameters
 
@@ -2874,7 +2874,7 @@ Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:121](https://git
 
 > **get** **inheritVisibility**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L271)
+Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L271)
 
 If set to true, this node, when renderable, will only be visible if its parent(s) are also visible.
 
@@ -2892,7 +2892,7 @@ false
 
 > **set** **inheritVisibility**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L275)
+Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L275)
 
 ##### Parameters
 
@@ -2916,7 +2916,7 @@ Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Bab
 
 > **get** **isAnInstance**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1669](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1669)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1669](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1669)
 
 Gets a boolean indicating if this mesh is an instance or a regular mesh
 
@@ -2936,7 +2936,7 @@ Gets a boolean indicating if this mesh is an instance or a regular mesh
 
 > **get** **isBlocked**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1474](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1474)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1474](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1474)
 
 ##### Returns
 
@@ -2954,7 +2954,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1474](https://github.com/
 
 > **get** **isFacetDataEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L535)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:535](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L535)
 
 gets a boolean indicating if facetData is enabled
 
@@ -2978,7 +2978,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData#what-is-a-mes
 
 > **get** **isUnIndexed**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:644](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L644)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:644](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L644)
 
 Gets or sets a boolean indicating that this mesh does not use index buffer
 
@@ -2990,7 +2990,7 @@ Gets or sets a boolean indicating that this mesh does not use index buffer
 
 > **set** **isUnIndexed**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:648](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L648)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:648](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L648)
 
 ##### Parameters
 
@@ -3014,7 +3014,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:648](https://github.com/B
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L283)
+Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L283)
 
 Gets or sets a boolean indicating whether this node is visible, either this node itself when it is renderable or its renderable child nodes when `inheritVisibility` is true.
 
@@ -3032,7 +3032,7 @@ true
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L291)
+Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L291)
 
 ##### Parameters
 
@@ -3056,7 +3056,7 @@ Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Bab
 
 > **get** **isWorldMatrixFrozen**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L507)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L507)
 
 True if the World matrix has been frozen.
 
@@ -3076,7 +3076,7 @@ True if the World matrix has been frozen.
 
 > **get** **kernelSize**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1109)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1110)
 
 Gets the kernel size
 Documentation and mathematical explanations here:
@@ -3099,7 +3099,7 @@ https://github.com/autonomousvision/mip-splatting/issues/18#issuecomment-1929388
 
 > **get** **layerMask**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:911](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L911)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:911](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L911)
 
 Gets or sets the current layer mask (default is 0x0FFFFFFF)
 
@@ -3115,7 +3115,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/layerMasksAndMultiCa
 
 > **set** **layerMask**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:915](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L915)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:915](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L915)
 
 ##### Parameters
 
@@ -3139,7 +3139,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:915](https://gith
 
 > **get** **lightSources**(): [`Light`](Light.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1042](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1042)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1042](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1042)
 
 Gets the list of lights affecting that mesh
 
@@ -3159,7 +3159,7 @@ Gets the list of lights affecting that mesh
 
 > **get** **manualUpdateOfPreviousWorldMatrixInstancedBuffer**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:681](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L681)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:681](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L681)
 
 Gets or sets a boolean indicating that the update of the instance buffer of the world matrices is manual
 
@@ -3171,7 +3171,7 @@ Gets or sets a boolean indicating that the update of the instance buffer of the 
 
 > **set** **manualUpdateOfPreviousWorldMatrixInstancedBuffer**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L685)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:685](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L685)
 
 ##### Parameters
 
@@ -3195,7 +3195,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:685](https://github.com/B
 
 > **get** **manualUpdateOfWorldMatrixInstancedBuffer**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:672](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L672)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:672](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L672)
 
 Gets or sets a boolean indicating that the update of the instance buffer of the world matrices is manual
 
@@ -3207,7 +3207,7 @@ Gets or sets a boolean indicating that the update of the instance buffer of the 
 
 > **set** **manualUpdateOfWorldMatrixInstancedBuffer**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:676](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L676)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:676](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L676)
 
 ##### Parameters
 
@@ -3231,7 +3231,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:676](https://github.com/B
 
 > **get** **material**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Material`](Material.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1149)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1150](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1150)
 
 get rendering material
 
@@ -3243,7 +3243,7 @@ get rendering material
 
 > **set** **material**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1139)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1140)
 
 set rendering material
 
@@ -3269,7 +3269,7 @@ set rendering material
 
 > **get** **maxShDegree**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:735](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L735)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:736](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L736)
 
 Maximum SH degree available from the loaded data.
 
@@ -3289,7 +3289,7 @@ Maximum SH degree available from the loaded data.
 
 > **get** **minPixelSize**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1124)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1125)
 
 Minimum projected splat size, in pixels, below which a splat is discarded (0 = disabled).
 Applied in real time; no rebuild required.
@@ -3302,7 +3302,7 @@ Applied in real time; no rebuild required.
 
 > **set** **minPixelSize**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1128)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1129)
 
 ##### Parameters
 
@@ -3326,7 +3326,7 @@ Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMes
 
 > **get** **morphTargetManager**(): [`Nullable`](../type-aliases/Nullable.md)\<[`MorphTargetManager`](MorphTargetManager.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:543](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L543)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:543](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L543)
 
 Gets or sets the morph target manager
 
@@ -3342,7 +3342,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/morphTargets
 
 > **set** **morphTargetManager**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:547](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L547)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:547](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L547)
 
 ##### Parameters
 
@@ -3366,7 +3366,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:547](https://gith
 
 > **get** **mustDepthSortFacets**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:504](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L504)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:504](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L504)
 
 Gets or sets a boolean indicating that the facets must be depth sorted on next call to `updateFacetData()`.
 Works only for updatable meshes.
@@ -3384,7 +3384,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData#facet-depth-s
 
 > **set** **mustDepthSortFacets**(`sort`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L507)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L507)
 
 ##### Parameters
 
@@ -3408,7 +3408,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:507](https://gith
 
 > **get** **needsRotationScaleTextures**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:974](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L974)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:975](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L975)
 
 Enables or disables generation of rotation and scale matrix textures, required for voxel-based IBL shadows.
 
@@ -3420,7 +3420,7 @@ Enables or disables generation of rotation and scale matrix textures, required f
 
 > **set** **needsRotationScaleTextures**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:978](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L978)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:979](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L979)
 
 ##### Parameters
 
@@ -3444,7 +3444,7 @@ Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMes
 
 > **get** **nonUniformScaling**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:869](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L869)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:869](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L869)
 
 True if the scaling property of this object is non uniform eg. (1,2,1)
 
@@ -3464,7 +3464,7 @@ True if the scaling property of this object is non uniform eg. (1,2,1)
 
 > **get** **numBoneInfluencers**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:868](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L868)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:868](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L868)
 
 Gets or sets the number of allowed bone influences per vertex (4 by default)
 
@@ -3476,7 +3476,7 @@ Gets or sets the number of allowed bone influences per vertex (4 by default)
 
 > **set** **numBoneInfluencers**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:871](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L871)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:871](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L871)
 
 ##### Parameters
 
@@ -3500,7 +3500,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:871](https://gith
 
 > **get** **onAfterRenderObservable**(): [`Observable`](Observable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L436)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L436)
 
 An event triggered after rendering the mesh
 
@@ -3520,7 +3520,7 @@ An event triggered after rendering the mesh
 
 > **get** **onBeforeBindObservable**(): [`Observable`](Observable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:425](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L425)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:425](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L425)
 
 An event triggered before binding the mesh
 
@@ -3540,7 +3540,7 @@ An event triggered before binding the mesh
 
 > **set** **onBeforeDraw**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L471)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L471)
 
 Sets a callback to call before drawing the mesh. It is recommended to use onBeforeDrawObservable instead
 
@@ -3566,7 +3566,7 @@ Sets a callback to call before drawing the mesh. It is recommended to use onBefo
 
 > **get** **onBeforeDrawObservable**(): [`Observable`](Observable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L458)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L458)
 
 An event triggered before drawing the mesh
 
@@ -3586,7 +3586,7 @@ An event triggered before drawing the mesh
 
 > **get** **onBeforeRenderObservable**(): [`Observable`](Observable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L414)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L414)
 
 An event triggered before rendering the mesh
 
@@ -3606,7 +3606,7 @@ An event triggered before rendering the mesh
 
 > **get** **onBetweenPassObservable**(): [`Observable`](Observable.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L447)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L447)
 
 An event triggeredbetween rendering pass when using separateCullingPass = true
 
@@ -3626,7 +3626,7 @@ An event triggeredbetween rendering pass when using separateCullingPass = true
 
 > **get** **onClonedObservable**(): [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L386)
+Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L386)
 
 An event triggered when the node is cloned
 
@@ -3646,7 +3646,7 @@ An event triggered when the node is cloned
 
 > **set** **onCollide**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:601](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L601)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:601](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L601)
 
 Set a function to call when this mesh collides with another one
 
@@ -3672,7 +3672,7 @@ Set a function to call when this mesh collides with another one
 
 > **set** **onCollisionPositionChange**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:614](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L614)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:614](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L614)
 
 Set a function to call when the collision's position changes
 
@@ -3698,7 +3698,7 @@ Set a function to call when the collision's position changes
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L358)
+Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L358)
 
 Sets a callback that will be raised when the node will be disposed
 
@@ -3724,7 +3724,7 @@ Sets a callback that will be raised when the node will be disposed
 
 > **get** **onEffectiveEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L379)
+Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L379)
 
 An event triggered when the effective enabled state of the node changes, i.e. whenever the value returned by [isEnabled](Node.md#isenabled) changes.
 Unlike [onEnabledStateChangedObservable](Node.md#onenabledstatechangedobservable), this fires for changes caused by an ancestor's enabled state as well as this node's own state.
@@ -3746,7 +3746,7 @@ The observable is created on first access, so no cost is incurred for nodes that
 
 > **get** **onEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L370)
+Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L370)
 
 An event triggered when the enabled state of the node changes.
 This only reflects changes to the node's own enabled flag (as set via [setEnabled](Node.md#setenabled)), not changes inherited from an ancestor.
@@ -3768,7 +3768,7 @@ Use [onEffectiveEnabledStateChangedObservable](Node.md#oneffectiveenabledstatech
 
 > **get** **overrideMaterialSideOrientation**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L581)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L581)
 
 ##### Deprecated
 
@@ -3786,7 +3786,7 @@ https://doc.babylonjs.com/breaking-changes#7110
 
 > **set** **overrideMaterialSideOrientation**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:585](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L585)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:585](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L585)
 
 ##### Parameters
 
@@ -3810,7 +3810,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:585](https://github.com/B
 
 > **set** **overridenInstanceCount**(`count`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1598)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1598)
 
 Sets a value overriding the instance count. Only applicable when custom instanced InterleavedVertexBuffer are used rather than InstancedMeshs
 
@@ -3836,7 +3836,7 @@ Sets a value overriding the instance count. Only applicable when custom instance
 
 > **get** **overrideRenderingFillMode**(): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:595](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L595)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:595](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L595)
 
 Use this property to override the Material's fillMode value
 
@@ -3848,7 +3848,7 @@ Use this property to override the Material's fillMode value
 
 > **set** **overrideRenderingFillMode**(`fillMode`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:599](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L599)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:599](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L599)
 
 ##### Parameters
 
@@ -3872,7 +3872,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:599](https://github.com/B
 
 > **get** **parent**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L263)
+Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L263)
 
 ##### Returns
 
@@ -3882,7 +3882,7 @@ Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Bab
 
 > **set** **parent**(`parent`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:224](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L224)
+Defined in: [packages/dev/core/src/node.ts:224](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L224)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -3912,7 +3912,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **partCount**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:559](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L559)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:600](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L600)
 
 Gets the number of parts in the compound.
 
@@ -3932,7 +3932,7 @@ Gets the number of parts in the compound.
 
 > **get** **partIndicesTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L281)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L317)
 
 Gets the part indices texture used for compound rendering
 
@@ -3952,7 +3952,7 @@ Gets the part indices texture used for compound rendering
 
 > **get** **partitioningBBoxRatio**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:490](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L490)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:490](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L490)
 
 The ratio (float) to apply to the bounding box size to set to the partitioning space.
 Ex : 1.01 (default) the partitioning space is 1% bigger than the bounding box
@@ -3969,7 +3969,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData#tweaking-the-
 
 > **set** **partitioningBBoxRatio**(`ratio`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L494)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:494](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L494)
 
 ##### Parameters
 
@@ -3993,7 +3993,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:494](https://gith
 
 > **get** **partitioningSubdivisions**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L478)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L478)
 
 Gets or set the number (integer) of subdivisions per axis in the partitioning space
 
@@ -4009,7 +4009,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData#tweaking-the-
 
 > **set** **partitioningSubdivisions**(`nb`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L481)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L481)
 
 ##### Parameters
 
@@ -4033,7 +4033,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:481](https://gith
 
 > **get** **partVisibility**(): `number`[]
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:566](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L566)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:756](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L756)
 
 Gets the part visibility array.
 
@@ -4053,7 +4053,7 @@ Gets the part visibility array.
 
 > **get** **pointerOverDisableMeshTesting**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:708](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L708)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:708](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L708)
 
 Gets or sets the property which disables the test that is checking that the mesh under the pointer is the same than the previous time we tested for it (default: false).
 Set this property to true if you want thin instances picking to be reported accurately when moving over the mesh.
@@ -4067,7 +4067,7 @@ Note that setting this property to true will incur some performance penalties wh
 
 > **set** **pointerOverDisableMeshTesting**(`disable`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:712](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L712)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:712](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L712)
 
 ##### Parameters
 
@@ -4091,7 +4091,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:712](https://gith
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L194)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:194](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L194)
 
 Gets or set the node position (default is (0.0, 0.0, 0.0))
 
@@ -4103,7 +4103,7 @@ Gets or set the node position (default is (0.0, 0.0, 0.0))
 
 > **set** **position**(`newPosition`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L198)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L198)
 
 ##### Parameters
 
@@ -4127,7 +4127,7 @@ Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:198](https://git
 
 > **get** **previousWorldMatrixInstancedBuffer**(): `Float32Array`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L664)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L664)
 
 Gets the array buffer used to store the instanced buffer used for instances' previous world matrices
 
@@ -4147,7 +4147,7 @@ Gets the array buffer used to store the instanced buffer used for instances' pre
 
 > **set** **rawBoundingInfo**(`boundingInfo`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:589](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L589)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:589](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L589)
 
 ##### Parameters
 
@@ -4171,7 +4171,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:589](https://gith
 
 > **get** **receiveShadows**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:799](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L799)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:799](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L799)
 
 Gets or sets a boolean indicating that this mesh can receive realtime shadows
 
@@ -4187,7 +4187,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/lights/shadows
 
 > **set** **receiveShadows**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:802](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L802)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:802](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L802)
 
 ##### Parameters
 
@@ -4211,7 +4211,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:802](https://gith
 
 > **get** **renderedSplatCount**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L750)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:751](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L751)
 
 Number of source splats currently selected for rendering.
 When no range filter is active, this is the mesh's full source splat count.
@@ -4232,7 +4232,7 @@ When no range filter is active, this is the mesh's full source splat count.
 
 > **get** **renderingGroupId**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:720](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L720)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:720](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L720)
 
 Specifies the rendering group id for this mesh (0 by default)
 
@@ -4248,7 +4248,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/materials/advanced/transpare
 
 > **set** **renderingGroupId**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:724](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L724)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:724](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L724)
 
 ##### Parameters
 
@@ -4272,7 +4272,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:724](https://gith
 
 > **get** **right**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L296)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L296)
 
 The right direction of that transform in world space.
 
@@ -4292,7 +4292,7 @@ The right direction of that transform in world space.
 
 > **get** **rotation**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L222)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L222)
 
 Gets or sets the rotation property : a Vector3 defining the rotation value in radians around each local axis X, Y, Z  (default is (0.0, 0.0, 0.0)).
 If rotation quaternion is set, this Vector3 will be ignored and copy from the quaternion
@@ -4305,7 +4305,7 @@ If rotation quaternion is set, this Vector3 will be ignored and copy from the qu
 
 > **set** **rotation**(`newRotation`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L226)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L226)
 
 ##### Parameters
 
@@ -4329,7 +4329,7 @@ Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:226](https://git
 
 > **get** **rotationQuaternion**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L248)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L248)
 
 Gets or sets the rotation Quaternion property : this a Quaternion object defining the node rotation by using a unit quaternion (undefined by default, but can be null).
 If set, only the rotationQuaternion is then used to compute the node rotation (ie. node.rotation will be ignored)
@@ -4342,7 +4342,7 @@ If set, only the rotationQuaternion is then used to compute the node rotation (i
 
 > **set** **rotationQuaternion**(`quaternion`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L252)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L252)
 
 ##### Parameters
 
@@ -4366,7 +4366,7 @@ Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:252](https://git
 
 > **get** **rotationsATexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:953](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L953)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:954](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L954)
 
 Gets the rotation matrix A texture (rotation elements m[0],m[1],m[2],m[4])
 
@@ -4386,7 +4386,7 @@ Gets the rotation matrix A texture (rotation elements m[0],m[1],m[2],m[4])
 
 > **get** **rotationsBTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:960](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L960)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:961](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L961)
 
 Gets the rotation matrix B texture (rotation elements m[5],m[6],m[8],m[9])
 
@@ -4406,7 +4406,7 @@ Gets the rotation matrix B texture (rotation elements m[5],m[6],m[8],m[9])
 
 > **get** **rotationScaleTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:967](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L967)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:968](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L968)
 
 Gets the rotation scale texture (rotation element m[10] followed by scale diagonal sx,sy,sz)
 
@@ -4426,7 +4426,7 @@ Gets the rotation scale texture (rotation element m[10] followed by scale diagon
 
 > **get** **scaling**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L235)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:235](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L235)
 
 Gets or sets the scaling property : a Vector3 defining the node scaling along each local axis X, Y, Z (default is (1.0, 1.0, 1.0)).
 
@@ -4438,7 +4438,7 @@ Gets or sets the scaling property : a Vector3 defining the node scaling along ea
 
 > **set** **scaling**(`newScaling`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L239)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L239)
 
 ##### Parameters
 
@@ -4462,7 +4462,7 @@ Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:239](https://git
 
 > **get** **shData**(): [`Nullable`](../type-aliases/Nullable.md)\<`Uint8Array`\<`ArrayBufferLike`\>[]\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:900](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L900)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:901](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L901)
 
 returns the SH data arrays
 Only available if the mesh was created with keepInRam: true
@@ -4483,7 +4483,7 @@ Only available if the mesh was created with keepInRam: true
 
 > **get** **shDegree**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:718](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L718)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:719](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L719)
 
 SH degree. 0 = no sh (default). 1 = 3 parameters. 2 = 8 parameters. 3 = 15 parameters.
 Value is clamped between 0 and the maximum degree available from loaded data.
@@ -4496,7 +4496,7 @@ Value is clamped between 0 and the maximum degree available from loaded data.
 
 > **set** **shDegree**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:722](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L722)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:723](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L723)
 
 ##### Parameters
 
@@ -4520,7 +4520,7 @@ Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMes
 
 > **get** **shTextures**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)[]\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:998](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L998)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:999](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L999)
 
 Gets the SH textures
 
@@ -4540,7 +4540,7 @@ Gets the SH textures
 
 > **get** **sideOrientation**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:560](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L560)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:560](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L560)
 
 Use this property to change the original side orientation defined at construction time
 Material.sideOrientation will override this value if set
@@ -4554,7 +4554,7 @@ User will still be able to change the material sideOrientation afterwards if the
 
 > **set** **sideOrientation**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:564](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L564)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:564](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L564)
 
 ##### Parameters
 
@@ -4578,7 +4578,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:564](https://github.com/B
 
 > **get** **skeleton**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Skeleton`](Skeleton.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1090](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1090)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1090](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1090)
 
 ##### Returns
 
@@ -4588,7 +4588,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1090](https://git
 
 > **set** **skeleton**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1071)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1071)
 
 Gets or sets a skeleton to apply skinning transformations
 
@@ -4618,7 +4618,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons
 
 > **get** **sogParams**(): [`Nullable`](../type-aliases/Nullable.md)\<`ISogPackInternal`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1014](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1014)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1015](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1015)
 
 SOG dequantization parameters paired with the raw textures.
 Set by the splat loader when `useSogTextures: true`. Null otherwise.
@@ -4639,7 +4639,7 @@ Set by the splat loader when `useSogTextures: true`. Null otherwise.
 
 > **get** **source**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:628](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L628)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:628](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L628)
 
 Gets the source mesh (the one used to clone this one from)
 
@@ -4653,13 +4653,54 @@ Gets the source mesh (the one used to clone this one from)
 
 ***
 
+### splatBudget
+
+#### Get Signature
+
+> **get** **splatBudget**(): `number`
+
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:611](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L611)
+
+**`Experimental`**
+
+Shared LOD splat budget for the whole compound: a cap on the total splats its budget-participating LOD
+engines (hosted streamed parts) render together, net of static parts. `0`/undefined disables it (each stream
+uses its own budget, or none). Setting it apportions the cap across all registered participants by demand and
+takes effect on the next frame. See [IGaussianSplattingLodBudgetParticipant](../interfaces/IGaussianSplattingLodBudgetParticipant.md).
+
+##### Returns
+
+`number`
+
+#### Set Signature
+
+> **set** **splatBudget**(`value`): `void`
+
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:615](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L615)
+
+##### Parameters
+
+###### value
+
+`number`
+
+##### Returns
+
+`void`
+
+#### Inherited from
+
+[`GaussianSplattingMesh`](GaussianSplattingMesh.md).[`splatBudget`](GaussianSplattingMesh.md#splatbudget)
+
+***
+
 ### splatCount
 
 #### Get Signature
 
 > **get** **splatCount**(): `number` \| `undefined`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:742](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L742)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:743](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L743)
 
 Number of splats in the mesh
 
@@ -4679,7 +4720,7 @@ Number of splats in the mesh
 
 > **get** **splatsData**(): [`Nullable`](../type-aliases/Nullable.md)\<`ArrayBuffer`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:892](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L892)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:893](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L893)
 
 returns the splats data array buffer that contains in order : postions (3 floats), size (3 floats), color (4 bytes), orientation quaternion (4 bytes)
 Only available if the mesh was created with keepInRam: true
@@ -4700,7 +4741,7 @@ Only available if the mesh was created with keepInRam: true
 
 > **get** **splatSizeRange**(): [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:909](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L909)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:910](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L910)
 
 Returns the min/max size range of splats in this mesh, where size is pow(|det(Σ)|, 1/6)
 of the 3D covariance matrix — equivalent to the geometric mean of the principal radii.
@@ -4722,7 +4763,7 @@ Computed automatically during updateData(). Returns null before any data has bee
 
 > **get** **surroundingMeshes**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)[]\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:997](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L997)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:997](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L997)
 
 Gets or sets current surrounding meshes (null by default).
 
@@ -4740,7 +4781,7 @@ Note: if set to an empty array no collision will happen when this mesh is moved.
 
 > **set** **surroundingMeshes**(`meshes`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1001)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1001](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1001)
 
 ##### Parameters
 
@@ -4764,7 +4805,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1001](https://git
 
 > **get** **up**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L288)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L288)
 
 The up direction of that transform in world space.
 
@@ -4784,7 +4825,7 @@ The up direction of that transform in world space.
 
 > **get** **useBones**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1603](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1603)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1603](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1603)
 
 Gets a boolean indicating if this mesh has skinning data and an attached skeleton
 
@@ -4804,7 +4845,7 @@ Gets a boolean indicating if this mesh has skinning data and an attached skeleto
 
 > **get** **useLODScreenCoverage**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L371)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L371)
 
 Determines if the LOD levels are intended to be calculated using screen coverage (surface area ratio) instead of distance.
 
@@ -4816,7 +4857,7 @@ Determines if the LOD levels are intended to be calculated using screen coverage
 
 > **set** **useLODScreenCoverage**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L375)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:375](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L375)
 
 ##### Parameters
 
@@ -4840,7 +4881,7 @@ Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:375](https://github.com/B
 
 > **get** **useSog**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1006](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1006)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1007](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1007)
 
 True when this mesh holds raw SOG webp textures (dequantized in-shader) rather than the
 pre-decoded covariance/center/color textures produced by the standard splat loader.
@@ -4861,7 +4902,7 @@ pre-decoded covariance/center/color textures produced by the standard splat load
 
 > **get** **useVertexColors**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:840](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L840)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:840](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L840)
 
 Gets or sets a boolean indicating that this mesh needs to use vertex color data to render (if this kind of vertex data is available in the geometry)
 
@@ -4873,7 +4914,7 @@ Gets or sets a boolean indicating that this mesh needs to use vertex color data 
 
 > **set** **useVertexColors**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:843](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L843)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:843](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L843)
 
 ##### Parameters
 
@@ -4897,7 +4938,7 @@ Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:843](https://gith
 
 > **get** **viewDirectionFactor**(): [`DeepImmutableObject`](../type-aliases/DeepImmutableObject.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:710](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L710)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:711](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L711)
 
 View direction factor used to compute the SH view direction in the shader.
 
@@ -4921,7 +4962,7 @@ Not used anymore for SH rendering
 
 > **get** **visibility**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:642](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L642)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:642](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L642)
 
 Gets or sets mesh visibility between 0 and 1 (default is 1)
 
@@ -4933,7 +4974,7 @@ Gets or sets mesh visibility between 0 and 1 (default is 1)
 
 > **set** **visibility**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:649](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L649)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:649](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L649)
 
 Gets or sets mesh visibility between 0 and 1 (default is 1)
 
@@ -4959,7 +5000,7 @@ Gets or sets mesh visibility between 0 and 1 (default is 1)
 
 > **get** **worldMatrixFromCache**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L529)
+Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L529)
 
 Returns directly the latest state of the mesh World matrix.
 A Matrix is returned.
@@ -4980,7 +5021,7 @@ A Matrix is returned.
 
 > **get** **worldMatrixInstancedBuffer**(): `Float32Array`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:656](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L656)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:656](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L656)
 
 Gets the array buffer used to store the instanced buffer used for instances' world matrices
 
@@ -5000,7 +5041,7 @@ Gets the array buffer used to store the instanced buffer used for instances' wor
 
 > **get** `static` **BILLBOARDMODE\_ALL**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L423)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L423)
 
 Billboard on all axes
 
@@ -5020,7 +5061,7 @@ Billboard on all axes
 
 > **get** `static` **BILLBOARDMODE\_NONE**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L403)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L403)
 
 No billboard
 
@@ -5040,7 +5081,7 @@ No billboard
 
 > **get** `static` **BILLBOARDMODE\_USE\_POSITION**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L428)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L428)
 
 Billboard on using position instead of orientation
 
@@ -5060,7 +5101,7 @@ Billboard on using position instead of orientation
 
 > **get** `static` **BILLBOARDMODE\_X**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L408)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L408)
 
 Billboard on X axis
 
@@ -5080,7 +5121,7 @@ Billboard on X axis
 
 > **get** `static` **BILLBOARDMODE\_Y**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L413)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L413)
 
 Billboard on Y axis
 
@@ -5100,7 +5141,7 @@ Billboard on Y axis
 
 > **get** `static` **BILLBOARDMODE\_Z**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L418)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L418)
 
 Billboard on Z axis
 
@@ -5118,7 +5159,7 @@ Billboard on Z axis
 
 > **\_getCameraDirection**(`camera`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1354](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1354)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1360)
 
 #### Parameters
 
@@ -5140,7 +5181,7 @@ Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMes
 
 > **\_invalidateInstanceVertexArrayObject**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/instancedMesh.types.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/instancedMesh.types.ts#L18)
 
 Invalidate VertexArrayObjects belonging to the mesh (but not to the Geometry of the mesh).
 
@@ -5158,7 +5199,7 @@ Invalidate VertexArrayObjects belonging to the mesh (but not to the Geometry of 
 
 > **\_updateBoundingInfo**(): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:380](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L380)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L416)
 
 Override for compound meshes: recomputes bounds from proxy world extents instead of
 local bounds × world matrix, which is wrong for proxied parts with independent transforms.
@@ -5179,7 +5220,7 @@ this mesh
 
 > **addBehavior**(`behavior`, `attachImmediately?`): [`Node`](Node.md)
 
-Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L434)
+Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L434)
 
 Attach a behavior to the node
 
@@ -5217,7 +5258,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **addChild**(`mesh`, `preserveScalingSign?`): `this`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:846](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L846)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:846](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L846)
 
 Adds the passed mesh as a child to the current mesh.
 The node will remain exactly where it is and its position / rotation will be updated accordingly.
@@ -5253,7 +5294,7 @@ the current mesh
 
 > **addLODLevel**(`distanceOrScreenCoverage`, `mesh`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1145)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1145)
 
 Add a mesh as LOD level triggered at the given distance.
 
@@ -5294,7 +5335,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
 
 > **addPart**(`other`, `disposeOther?`): `GaussianSplattingPartProxyMesh`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L38)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L38)
 
 Add another mesh to this compound mesh as a new part.
 The source mesh's splat data is read directly and copied into the compound's retained source buffers.
@@ -5329,7 +5370,7 @@ a placeholder mesh that can be used to manipulate the part transform
 
 > **addParts**(`others`, `disposeOthers?`): `GaussianSplattingPartProxyMesh`[]
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L49)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L49)
 
 Add multiple meshes to this compound mesh as new parts in a single operation.
 Splat data is written into texture arrays while the compound refreshes its retained merged source buffers.
@@ -5360,7 +5401,7 @@ an array of placeholder meshes that can be used to manipulate the part transform
 
 > **addRotation**(`x`, `y`, `z`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1047)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1047](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1047)
 
 Adds a rotation step to the mesh current rotation.
 x, y, z are Euler angles expressed in radians.
@@ -5410,7 +5451,7 @@ the TransformNode.
 
 > **alignWithNormal**(`normal`, `upDirection?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2921](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2921)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2921](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2921)
 
 Align the mesh with a normal
 
@@ -5444,7 +5485,7 @@ the current mesh
 
 > **applyAngularImpulse**(`angularImpulse`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L33)
+Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L33)
 
 Apply a physic angular impulse to the mesh
 
@@ -5472,7 +5513,7 @@ the current mesh
 
 > **applyDisplacementMap**(`url`, `minHeight`, `maxHeight`, `onSuccess?`, `uvOffset?`, `uvScale?`, `forceUpdate?`, `onError?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3426)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3426](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3426)
 
 Modifies the mesh geometry according to a displacement map.
 A displacement map is a colored image. Each pixel color value (actually a gradient computed from red, green, blue values) will give the displacement to apply to each mesh vertex.
@@ -5544,7 +5585,7 @@ the Mesh.
 
 > **applyDisplacementMapFromBuffer**(`buffer`, `heightMapWidth`, `heightMapHeight`, `minHeight`, `maxHeight`, `uvOffset?`, `uvScale?`, `forceUpdate?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3476](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3476)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3476](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3476)
 
 Modifies the mesh geometry according to a displacementMap buffer.
 A displacement map is a colored image. Each pixel color value (actually a gradient computed from red, green, blue values) will give the displacement to apply to each mesh vertex.
@@ -5616,7 +5657,7 @@ the Mesh.
 
 > **applyImpulse**(`force`, `contactPoint`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L32)
+Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L32)
 
 Apply a physic impulse to the mesh
 
@@ -5654,7 +5695,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine
 
 > **applySkeleton**(`skeleton`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4940](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L4940)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4940](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L4940)
 
 Updates the vertex buffer by applying transformation from the bones
 
@@ -5682,7 +5723,7 @@ the current mesh
 
 > **applyTorque**(`torque`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L39)
+Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L39)
 
 Apply a physic torque to the mesh
 
@@ -5710,7 +5751,7 @@ the current mesh
 
 > **attachToBone**(`bone`, `affectedTransformNode`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:891](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L891)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:891](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L891)
 
 Attach the current TransformNode to another TransformNode associated with a bone
 
@@ -5744,7 +5785,7 @@ this object
 
 > **bakeCurrentTransformIntoVertices**(`bakeIndependentlyOfChildren?`, `forceUnique?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3267)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3267)
 
 Modifies the mesh geometry according to its own current World Matrix.
 The mesh World Matrix is then reset.
@@ -5785,7 +5826,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/center_origi
 
 > **bakeTransformIntoVertices**(`transform`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3770](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3770)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3788](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3788)
 
 Modifies the splats according to the passed transformation matrix.
 
@@ -5813,7 +5854,7 @@ the current mesh
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L956)
+Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L956)
 
 Will start the animation sequence
 
@@ -5859,7 +5900,7 @@ the object created for this animation. If range does not exist, it will return n
 
 > **buildBoundingInfo**(`minimum`, `maximum`, `worldMatrix?`): [`BoundingInfo`](BoundingInfo.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1586](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1586)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1586](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1586)
 
 Creates a new bounding info for the mesh
 
@@ -5899,7 +5940,7 @@ the new bounding info
 
 > **calcMovePOV**(`amountRight`, `amountUp`, `amountForward`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1712](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1712)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1712](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1712)
 
 Calculate relative position change from the point of view of behind the front of the mesh.
 This is performed taking into account the meshes current rotation, so you do not have to care.
@@ -5941,7 +5982,7 @@ the new displacement vector
 
 > **calcRotatePOV**(`flipBack`, `twirlClockwise`, `tiltRight`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1744](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1744)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1744](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1744)
 
 Calculate relative rotation change from the point of view of behind the front of the mesh.
 Supports definition of mesh facing forward or backward definedFacingForwardSearch \| See definedFacingForwardSearch.
@@ -5982,7 +6023,7 @@ the new rotation vector
 
 > **cleanMatrixWeights**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2913](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2913)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2913](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2913)
 
 Renormalize the mesh and patch it up if there are no weights
   Similar to normalization by adding the weights compute the reciprocal and multiply all elements, this wil ensure that everything adds to 1.
@@ -6003,7 +6044,7 @@ Renormalize the mesh and patch it up if there are no weights
 
 > **clone**(`name?`): `GaussianSplattingMeshBase`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2449](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2449)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2467](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2467)
 
 Returns a new Mesh object generated from the current mesh properties.
 
@@ -6031,7 +6072,7 @@ a new Gaussian Splatting Mesh
 
 > **compactAtlas**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:1549](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L1549)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:1739](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L1739)
 
 Reclaims the atlas rows of parts removed (tombstoned) while a streaming part was resident. `removePart`
 on a streaming compound only tombstones — it excludes the part from the render union and hides its proxy,
@@ -6058,7 +6099,7 @@ each surviving region is backed up before the old atlas is disposed and restored
 
 > **computeWorldMatrix**(`force?`, `camera?`): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1086)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1086](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1086)
 
 Computes the world matrix of the node
 
@@ -6092,7 +6133,7 @@ the world matrix
 
 > **convertToFlatShadedMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3670](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3670)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3670](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3670)
 
 Modify the mesh to get a flat shading rendering.
 This means each mesh facet will then have its own normals. Usually new vertices are added in the mesh geometry to get this result.
@@ -6114,7 +6155,7 @@ current mesh
 
 > **convertToUnIndexedMesh**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3680](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3680)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3680](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3680)
 
 This method removes all the mesh indices and add new vertices (duplication) in order to unfold facets into buffers.
 In other words, more vertices, no more indices and a single bigger VBO.
@@ -6136,7 +6177,7 @@ current mesh
 
 > **copyVerticesData**(`kind`, `vertexData`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1327)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1327)
 
 Copies the requested vertex data kind into the given vertex data map. Float data is constructed if the map doesn't have the data.
 
@@ -6166,7 +6207,7 @@ defines the map that stores the resulting data
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L873)
+Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L873)
 
 Creates an animation range for this node
 
@@ -6204,7 +6245,7 @@ defines the end key
 
 > **createInstance**(`name`): [`InstancedMesh`](InstancedMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4025](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L4025)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4025](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L4025)
 
 Creates a new InstancedMesh object from the mesh model.
 
@@ -6236,7 +6277,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/copies/instances
 
 > **createNormals**(`updatable`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2880](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2880)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2880](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2880)
 
 Creates new normals data for the mesh
 
@@ -6264,7 +6305,7 @@ the current mesh
 
 > **createOrUpdateSubmeshesOctree**(`maxCapacity?`, `maxDepth?`): [`Octree`](Octree.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts#L47)
+Defined in: [packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Culling/Octrees/octreeSceneComponent.types.ts#L47)
 
 This function will create an octree to help to select the right submeshes for rendering, picking and collision computations.
 Please note that you must have a decent number of submeshes to get performance improvements when using an octree
@@ -6304,7 +6345,7 @@ the new octree
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L890)
+Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L890)
 
 Delete a specific animation range
 
@@ -6336,7 +6377,7 @@ defines if animation frames from the range must be deleted as well
 
 > **detachFromBone**(`resetToPreviousParent?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:909](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L909)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:909](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L909)
 
 Detach the transform node if its associated with a bone
 
@@ -6364,7 +6405,7 @@ this object
 
 > **directRender**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2679](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2679)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2679](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2679)
 
 Render a complete mesh by going through all submeshes
 
@@ -6389,7 +6430,7 @@ the current mesh
 
 > **disableEdgesRendering**(): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2950](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2950)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2950](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2950)
 
 Disables the mesh edge rendering mode
 
@@ -6409,7 +6450,7 @@ the currentAbstractMesh
 
 > **disableFacetData**(): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2850](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2850)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2850](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2850)
 
 Disables the feature FacetData and frees the related memory
 
@@ -6433,7 +6474,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **dispose**(`doNotRecurse?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:440](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L440)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:476](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L476)
 
 Disposes proxy meshes and clears part data in addition to the base class GPU resources.
 
@@ -6459,7 +6500,7 @@ Set to true to not recurse into each children
 
 > **enableEdgesRendering**(`epsilon?`, `checkVerticesInsteadOfIndices?`, `options?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2965](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2965)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2965](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2965)
 
 Enables the edge rendering mode on the mesh.
 This mode makes the mesh edges visible
@@ -6504,7 +6545,7 @@ https://www.babylonjs-playground.com/#19O9TU#0
 
 > **flipFaces**(`flipNormals?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3690](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3690)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3690](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3690)
 
 Inverses facet orientations.
 Warning : the mesh is really modified even if not set originally as updatable. A new VertexBuffer is created under the hood each call.
@@ -6533,7 +6574,7 @@ current mesh
 
 > **forceSharedVertices**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3878](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3878)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3878](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3878)
 
 Force adjacent facets to share vertices and remove any facets that have all vertices in a line
 This will undo any application of covertToFlatShadedMesh
@@ -6553,7 +6594,7 @@ Warning : the mesh is really modified even if not set originally as updatable. A
 
 > **freezeNormals**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1581](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1581)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1581](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1581)
 
 This function affects parametric shapes on vertex position update only : ribbons, tubes, etc. It has no effect at all on other shapes. It prevents the mesh normals from being recomputed on next `positions` array update.
 
@@ -6573,7 +6614,7 @@ the current mesh
 
 > **freezeWorldMatrix**(`newWorldMatrix?`, `decompose?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L473)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L473)
 
 Prevents the World matrix to be computed any longer.
 Please note that the "moral" contract is that the world matrix is not going to be updated anymore. It is up to the developer to force updates.
@@ -6609,7 +6650,7 @@ the TransformNode.
 
 > **getAbsolutePivotPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:738](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L738)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:738](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L738)
 
 Returns a new Vector3 set with the mesh pivot point World coordinates.
 
@@ -6629,7 +6670,7 @@ a new Vector3 set with the mesh pivot point World coordinates.
 
 > **getAbsolutePivotPointToRef**(`result`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:749](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L749)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:749](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L749)
 
 Sets the Vector3 "result" coordinates with the mesh pivot point World coordinates.
 
@@ -6657,7 +6698,7 @@ this TransformNode.
 
 > **getAbsolutePosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L515)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L515)
 
 Returns the mesh absolute position in the World.
 
@@ -6677,7 +6718,7 @@ a Vector3.
 
 > **getAnimatables**(): [`IAnimatable`](../interfaces/IAnimatable.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3181)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3181)
 
 Returns as a new array populated with the mesh material and/or skeleton, if any.
 
@@ -6697,7 +6738,7 @@ an array of IAnimatable
 
 > **getAnimationByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L855)
+Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L855)
 
 Get an animation by name
 
@@ -6725,7 +6766,7 @@ null if not found else the requested animation
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L904)
+Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L904)
 
 Get an animation range by name
 
@@ -6753,7 +6794,7 @@ null if not found else the requested animation range
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L939)
+Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L939)
 
 Gets the list of all animation ranges defined on this node
 
@@ -6773,7 +6814,7 @@ an array
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>\>
 
-Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L495)
+Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L495)
 
 Gets an attached behavior by name
 
@@ -6805,7 +6846,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **getBoundingInfo**(): [`BoundingInfo`](BoundingInfo.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1540](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1540)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1540](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1540)
 
 Returns the mesh BoundingInfo object or creates a new one and returns if it was undefined.
 Note that it returns a shallow bounding of the mesh (i.e. it does not include children).
@@ -6844,7 +6885,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getChildMeshes**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L781)
+Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L781)
 
 Get all child-meshes of this node
 
@@ -6882,7 +6923,7 @@ an array of AbstractMesh
 
 > **getChildMeshes**(`directDescendantsOnly?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L789)
+Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L789)
 
 Get all child-meshes of this node
 
@@ -6932,7 +6973,7 @@ defines if true only direct descendants of 'this' will be considered, if false d
 
 > **getChildren**\<`T`\>(`predicate?`, `directDescendantsOnly?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:811](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L811)
+Defined in: [packages/dev/core/src/node.ts:811](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L811)
 
 Get all direct children of this node
 
@@ -6970,7 +7011,7 @@ an array of Node
 
 > **getChildren**(`predicate?`, `directDescendantsOnly?`): [`Node`](Node.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L819)
+Defined in: [packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L819)
 
 Get all direct children of this node
 
@@ -7004,7 +7045,7 @@ an array of Node
 
 > **getChildTransformNodes**(`directDescendantsOnly?`, `predicate?`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1500](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1500)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1500](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1500)
 
 Get all child-transformNodes of this node
 
@@ -7038,7 +7079,7 @@ an array of TransformNode
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L306)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L342)
 
 Returns the class name
 
@@ -7058,7 +7099,7 @@ Returns the class name
 
 > **getClosestFacetAtCoordinates**(`x`, `y`, `z`, `projected?`, `checkFace?`, `facing?`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2754](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2754)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2754](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2754)
 
 Returns the closest mesh facet index at (x,y,z) World coordinates, null if not found
 
@@ -7120,7 +7161,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getClosestFacetAtLocalCoordinates**(`x`, `y`, `z`, `projected?`, `checkFace?`, `facing?`): [`Nullable`](../type-aliases/Nullable.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2779](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2779)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2779](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2779)
 
 Returns the closest mesh facet index at (x,y,z) local coordinates, null if not found
 
@@ -7182,7 +7223,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getConnectedParticleSystems**(): [`IParticleSystem`](../interfaces/IParticleSystem.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2973](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2973)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2973](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2973)
 
 This function returns all of the particle systems in the scene that use the mesh as an emitter.
 
@@ -7218,7 +7259,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDescendants**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L751)
+Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L751)
 
 Will return all nodes that have this node as ascendant
 
@@ -7256,7 +7297,7 @@ all children nodes of all types
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Node`](Node.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L759)
+Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L759)
 
 Will return all nodes that have this node as ascendant
 
@@ -7290,7 +7331,7 @@ all children nodes of all types
 
 > **getDirection**(`localAxis`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:647](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L647)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:647](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L647)
 
 Returns a new Vector3 that is the localAxis, expressed in the mesh local space, rotated like the mesh.
 This Vector3 is expressed in the World space.
@@ -7319,7 +7360,7 @@ a new Vector3 that is the localAxis, expressed in the mesh local space, rotated 
 
 > **getDirectionToRef**(`localAxis`, `result`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:663](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L663)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:663](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L663)
 
 Sets the Vector3 "result" as the rotated Vector3 "localAxis" in the same rotation than the mesh.
 localAxis is expressed in the mesh local space.
@@ -7355,7 +7396,7 @@ this TransformNode.
 
 > **getDistanceToCamera**(`camera?`): `number`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1425](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1425)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1425](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1425)
 
 Returns the distance from the mesh to the active camera
 
@@ -7383,7 +7424,7 @@ the distance
 
 > **getEmittedParticleSystems**(): [`IParticleSystem`](../interfaces/IParticleSystem.md)[]
 
-Defined in: [packages/dev/core/src/Particles/particleSystemComponent.types.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/particleSystemComponent.types.ts#L45)
+Defined in: [packages/dev/core/src/Particles/particleSystemComponent.types.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/particleSystemComponent.types.ts#L45)
 
 Returns an array populated with IParticleSystem objects whose the mesh is the emitter
 
@@ -7403,7 +7444,7 @@ an array of IParticleSystem
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L420)
+Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L420)
 
 Gets the engine of the node
 
@@ -7423,7 +7464,7 @@ a Engine
 
 > **getFacetDataParameters**(): `any`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2841](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2841)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2841](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2841)
 
 Returns the object "parameter" set with all the expected parameters for facetData computation by ComputeNormals()
 
@@ -7447,7 +7488,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetLocalNormals**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2633](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2633)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2633](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2633)
 
 Returns the facetLocalNormals array.
 The normals are expressed in the mesh local spac
@@ -7472,7 +7513,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetLocalPartitioning**(): `number`[][]
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2660](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2660)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2660](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2660)
 
 Returns the facetLocalPartitioning array
 
@@ -7496,7 +7537,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetLocalPositions**(): [`Vector3`](Vector3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2647](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2647)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2647](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2647)
 
 Returns the facetLocalPositions array.
 The facet positions are expressed in the mesh local space
@@ -7521,7 +7562,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetNormal**(`i`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2703](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2703)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2703](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2703)
 
 Returns the i-th facet normal in the world system.
 This method allocates a new Vector3 per call
@@ -7554,7 +7595,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetNormalToRef**(`i`, `ref`): `GaussianSplattingCompoundMesh`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2716](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2716)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2716](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2716)
 
 Sets the reference Vector3 with the i-th facet normal in the world system
 
@@ -7592,7 +7633,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetPosition**(`i`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2676](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2676)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2676](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2676)
 
 Returns the i-th facet position in the world system.
 This method allocates a new Vector3 per call
@@ -7625,7 +7666,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetPositionToRef**(`i`, `ref`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2689](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2689)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2689](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2689)
 
 Sets the reference Vector3 with the i-th facet position in the world system
 
@@ -7663,7 +7704,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getFacetsAtLocalCoordinates**(`x`, `y`, `z`): [`Nullable`](../type-aliases/Nullable.md)\<`number`[]\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2730](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2730)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2730](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2730)
 
 Returns the facets (in an array) in the same partitioning block than the one the passed coordinates are located (expressed in the mesh local system)
 
@@ -7707,7 +7748,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **getHierarchyBoundingVectors**(`includeDescendants?`, `predicate?`): `object`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:398](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L398)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:434](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L434)
 
 Replaces the base hierarchy bounds computation for compound meshes: computes world bounds
 from scratch by iterating part 0's local AABB and all proxy meshes, rather than delegating
@@ -7752,7 +7793,7 @@ world-space min/max of the hierarchy bounding box
 
 > **getHierarchyEmittedParticleSystems**(): [`IParticleSystem`](../interfaces/IParticleSystem.md)[]
 
-Defined in: [packages/dev/core/src/Particles/particleSystemComponent.types.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/particleSystemComponent.types.ts#L51)
+Defined in: [packages/dev/core/src/Particles/particleSystemComponent.types.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/particleSystemComponent.types.ts#L51)
 
 Returns an array populated with IParticleSystem objects whose the mesh or its children are the emitter
 
@@ -7772,7 +7813,7 @@ an array of IParticleSystem
 
 > **getIndices**(`copyWhenShared?`, `forceCopy?`): [`Nullable`](../type-aliases/Nullable.md)\<[`IndicesArray`](../type-aliases/IndicesArray.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1466)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1466](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1466)
 
 Returns an array of integers or a typed array (Int32Array, Uint32Array, Uint16Array) populated with the mesh indices.
 
@@ -7806,7 +7847,7 @@ the indices array or an empty array if the mesh has no geometry
 
 > **getLoadingPromise**(): `Promise`\<`void`\> \| `null`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1226)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1227](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1227)
 
 Get the loading promise when loading the mesh from a URL in the constructor
 
@@ -7826,7 +7867,7 @@ constructor loading promise or null if no URL was provided
 
 > **getLOD**(`camera`, `boundingSphere?`): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1209)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1209](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1209)
 
 Returns the registered LOD mesh distant from the parameter `camera` position if any, else returns the current mesh.
 
@@ -7864,7 +7905,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
 
 > **getLODLevelAtDistance**(`distance`): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1169)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1169](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1169)
 
 Returns the LOD level mesh at the passed distance or null if not found.
 
@@ -7896,7 +7937,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
 
 > **getLODLevels**(): [`MeshLODLevel`](MeshLODLevel.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1117)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1117)
 
 Gets the list of MeshLODLevel associated with the current mesh
 
@@ -7916,7 +7957,7 @@ an array of MeshLODLevel
 
 > **getMaterialForRenderPass**(`renderPassId`): [`Material`](Material.md) \| `undefined`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:770](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L770)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:770](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L770)
 
 Gets the material used to render the mesh in a specific render pass
 
@@ -7944,7 +7985,7 @@ material used for the render pass. If no specific material is used for this rend
 
 > **getMeshUniformBuffer**(): [`UniformBuffer`](UniformBuffer.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1159)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1159)
 
 Gets the mesh uniform buffer.
 
@@ -7964,7 +8005,7 @@ the uniform buffer of the mesh.
 
 > **getNormalsData**(`applySkeleton?`, `applyMorph?`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1926](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1926)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1926](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1926)
 
 Get the normals vertex data and optionally apply skeleton and morphing.
 
@@ -7998,7 +8039,7 @@ the normals data
 
 > **getPartVisibility**(`partIndex`): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:620](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L620)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:810](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L810)
 
 Gets the visibility for a specific part of the compound.
 
@@ -8026,7 +8067,7 @@ the visibility value (0.0 to 1.0) for the part
 
 > **getPhysicsBody**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsBody`](PhysicsBody.md)\>
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L20)
+Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts#L20)
 
 #### Returns
 
@@ -8042,7 +8083,7 @@ Defined in: [packages/dev/core/src/Physics/v2/physicsEngineComponent.types.ts:20
 
 > **getPhysicsImpostor**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PhysicsImpostor`](PhysicsImpostor.md)\>
 
-Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L24)
+Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L24)
 
 Gets the current physics impostor
 
@@ -8066,7 +8107,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics
 
 > **getPivotMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L432)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L432)
 
 Returns the mesh pivot matrix.
 Default : Identity.
@@ -8087,7 +8128,7 @@ the matrix
 
 > **getPivotPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:716](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L716)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:716](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L716)
 
 Returns a new Vector3 set with the mesh pivot point coordinates in the local space.
 
@@ -8107,7 +8148,7 @@ the pivot point
 
 > **getPivotPointToRef**(`result`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:727](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L727)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:727](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L727)
 
 Sets the passed Vector3 "result" with the coordinates of the mesh pivot point in the local space.
 
@@ -8135,7 +8176,7 @@ this TransformNode.
 
 > **getPoseMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L319)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:319](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L319)
 
 Returns the mesh Pose matrix.
 
@@ -8155,7 +8196,7 @@ the pose matrix
 
 > **getPositionData**(`applySkeleton?`, `applyMorph?`, `data?`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1937](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1937)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1937](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1937)
 
 Get the position vertex data and optionally apply skeleton and morphing.
 
@@ -8195,7 +8236,7 @@ the position data
 
 > **getPositionExpressedInLocalSpace**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:573](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L573)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:573](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L573)
 
 Returns the mesh position in the local space from the current World matrix values.
 
@@ -8215,7 +8256,7 @@ a new Vector3.
 
 > **getPositionInCameraSpace**(`camera?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1412)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1412](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1412)
 
 Gets the position of the current mesh in camera space
 
@@ -8243,7 +8284,7 @@ a position
 
 > **getRawBoundingInfo**(): [`BoundingInfo`](BoundingInfo.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1558](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1558)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1558](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1558)
 
 Returns the bounding info unnafected by instance data.
 
@@ -8263,7 +8304,7 @@ the bounding info of the mesh unaffected by instance data.
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L412)
+Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L412)
 
 Gets the scene of the node
 
@@ -8283,7 +8324,7 @@ a scene
 
 > **getTotalIndices**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1453](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1453)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1453](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1453)
 
 Returns a positive integer : the total number of indices in this mesh geometry.
 
@@ -8303,7 +8344,7 @@ the number of indices or zero if the mesh has no geometry.
 
 > **getTotalVertices**(): `number`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1242)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1243](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1243)
 
 Returns the total number of vertices (splats) within the mesh
 
@@ -8323,7 +8364,7 @@ the total number of vertices
 
 > **getVertexBuffer**(`kind`, `bypassInstanceData?`): [`Nullable`](../type-aliases/Nullable.md)\<[`VertexBuffer`](VertexBuffer.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1352)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1352](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1352)
 
 Returns the mesh VertexBuffer object from the requested `kind`
 
@@ -8370,7 +8411,7 @@ a FloatArray or null if the mesh has no vertex buffer for this kind.
 
 > **getVerticesData**(`kind`, `copyWhenShared?`, `forceCopy?`, `bypassInstanceData?`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1306)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1306](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1306)
 
 Returns the content of an associated vertex buffer
 
@@ -8428,7 +8469,7 @@ a FloatArray or null if the mesh has no geometry or no vertex buffer for this ki
 
 > **getVerticesDataKinds**(`bypassInstanceData?`): `string`[]
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1428)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1428)
 
 Returns a string which contains the list of existing `kinds` of Vertex Data associated with this mesh.
 
@@ -8456,7 +8497,7 @@ an array of strings
 
 > **getWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1649](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1649)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1649](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1649)
 
 Gets the current world matrix
 
@@ -8476,7 +8517,7 @@ a Matrix
 
 > **getWorldMatrixForPart**(`partIndex`): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:611](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L611)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:801](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L801)
 
 Gets the world matrix for a specific part of the compound.
 
@@ -8504,7 +8545,7 @@ the world matrix for the part, or the current world matrix of the mesh if the pa
 
 > **increaseVertices**(`numberPerEdge?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3720](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3720)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3720](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3720)
 
 Increase the number of facets and hence vertices in a mesh
 Vertex normals are interpolated from existing vertex normals
@@ -8532,7 +8573,7 @@ the number of new vertices to add to each edge of a facet, optional default 1
 
 > **instantiateHierarchy**(`newParent?`, `options?`, `onNewNodeCreated?`): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1011](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1011)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1011](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1011)
 
 Instantiate (when possible) or clone that node with its hierarchy
 
@@ -8574,7 +8615,7 @@ an instance (or a clone) of the current node with its hierarchy
 
 > **intersects**(`ray`, `fastCheck?`, `trianglePredicate?`, `onlyBoundingInfo?`, `worldToUse?`, `skipBoundingInfo?`): [`PickingInfo`](PickingInfo.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2204](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2204)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2204](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2204)
 
 Checks if the passed Ray intersects with the mesh. A mesh triangle can be picked both from its front and back sides,
 irrespective of orientation.
@@ -8637,7 +8678,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/interactions/mesh_inter
 
 > **intersectsMesh**(`mesh`, `precise?`, `includeDescendants?`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2005)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2005)
 
 True if the mesh intersects another mesh or a SolidParticle object
 
@@ -8677,7 +8718,7 @@ true if there is an intersection
 
 > **intersectsPoint**(`point`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2029](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2029)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2029](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2029)
 
 Returns true if the passed point (Vector3) is inside the mesh bounding box
 
@@ -8705,7 +8746,7 @@ true if there is an intersection
 
 > **isCompletelyInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1994](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1994)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1994](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1994)
 
 Returns `true` if the mesh is completely in the frustum defined be the passed array of planes.
 A mesh is completely in the frustum if its bounding box it completely inside the frustum.
@@ -8734,7 +8775,7 @@ true if the mesh is completely in the frustum planes
 
 > **isDescendantOf**(`ancestor`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L713)
+Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L713)
 
 Is this node a descendant of the given node?
 The function will iterate up the hierarchy until the ancestor was found or no more parents defined
@@ -8763,7 +8804,7 @@ a boolean indicating if this node is a descendant of the given node
 
 > **isDisposed**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L216)
+Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L216)
 
 Gets a boolean indicating if the node has been disposed
 
@@ -8783,7 +8824,7 @@ true if the node was disposed
 
 > **isEnabled**(`checkAncestors?`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L633)
+Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L633)
 
 Is this node enabled?
 If the node has a parent, all ancestors will be checked and false will be returned if any are false (not enabled), otherwise will return true
@@ -8817,7 +8858,7 @@ To observe changes to the value returned when calling this with `checkAncestors`
 
 > **isInFrustum**(`frustumPlanes`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3137)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3137)
 
 Returns `true` if the mesh is within the frustum defined by the passed array of planes.
 A mesh is in the frustum if its bounding box intersects the frustum
@@ -8846,7 +8887,7 @@ true if the mesh is in the frustum planes
 
 > **isReady**(`completeCheck?`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L322)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L358)
 
 Is this node ready to be used/rendered.
 Force-syncs every part proxy's world matrix into `_partMatrices` BEFORE delegating to
@@ -8881,7 +8922,7 @@ true when ready
 
 > **isUsingPivotMatrix**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L207)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L207)
 
 return true if a pivot has been set
 
@@ -8901,7 +8942,7 @@ true if a pivot matrix is used
 
 > **isUsingPostMultiplyPivotMatrix**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L214)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L214)
 
 #### Returns
 
@@ -8919,7 +8960,7 @@ true if pivot matrix must be cancelled in the world matrix. When this parameter 
 
 > **isVertexBufferUpdatable**(`kind`, `bypassInstanceData?`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1407)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1407](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1407)
 
 Returns a boolean defining if the vertex data for the requested `kind` is updatable.
 
@@ -8965,7 +9006,7 @@ a boolean
 
 > **isVerticesDataPresent**(`kind`, `bypassInstanceData?`): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1379)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1379)
 
 Tests if a specific vertex buffer is associated with this mesh
 
@@ -9012,7 +9053,7 @@ a boolean
 
 > **isWorldMatrixCameraDependent**(): `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1076)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1076](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1076)
 
 Returns whether the transform node world matrix computation needs the camera information to be computed.
 This is the case when the node is a billboard or has an infinite distance for instance.
@@ -9033,7 +9074,7 @@ true if the world matrix computation needs the camera information to be computed
 
 > **loadDataAsync**(`data`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2332](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2332)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2350](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2350)
 
 Loads a .splat Gaussian Splatting array buffer asynchronously
 
@@ -9061,7 +9102,7 @@ a promise that resolves when the operation is complete
 
 > **loadFileAsync**(`url`, `scene?`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2343](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2343)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2361](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2361)
 
 Loads a Gaussian or Splatting file asynchronously
 
@@ -9099,7 +9140,7 @@ Please use SceneLoader.ImportMeshAsync instead
 
 > **locallyTranslate**(`vector3`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:585](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L585)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:585](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L585)
 
 Translates the mesh along the passed Vector3 in its local space.
 
@@ -9127,7 +9168,7 @@ the TransformNode.
 
 > **lookAt**(`targetPoint`, `yawCor?`, `pitchCor?`, `rollCor?`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:602](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L602)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:602](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L602)
 
 Orients a mesh towards a target point. Mesh must be drawn facing user.
 
@@ -9179,7 +9220,7 @@ the TransformNode.
 
 > **makeGeometryUnique**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1966](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1966)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1966](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1966)
 
 Creates a un-shared specific occurence of the geometry for the mesh.
 
@@ -9199,7 +9240,7 @@ the current mesh
 
 > **markAsDirty**(`property?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1350)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1350](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1350)
 
 Flag the AbstractMesh as dirty (Forcing it to update everything)
 
@@ -9227,7 +9268,7 @@ this AbstractMesh
 
 > **markVerticesDataAsUpdatable**(`kind`, `updatable?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1873](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1873)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1873](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1873)
 
 Flags an associated vertex buffer as updatable
 
@@ -9271,7 +9312,7 @@ defines if the updated vertex buffer must be flagged as updatable
 
 > **movePOV**(`amountRight`, `amountUp`, `amountForward`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1698](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1698)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1698](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1698)
 
 Perform relative position change from the point of view of behind the front of the mesh.
 This is performed taking into account the meshes current rotation, so you do not have to care.
@@ -9313,7 +9354,7 @@ the current mesh
 
 > **moveWithCollisions**(`displacement`, `slideOnCollide?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2062](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2062)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2062](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2062)
 
 Move the mesh using collision engine
 
@@ -9351,7 +9392,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/camera_collisions
 
 > **normalizeToUnitCube**(`includeDescendants?`, `ignoreRotation?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1598)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1598](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1598)
 
 Uniformly scales the mesh to fit inside of a unit cube (1 X 1 X 1 units)
 
@@ -9391,7 +9432,7 @@ the current mesh
 
 > **optimizeIndices**(`successCallback?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4053](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L4053)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4053](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L4053)
 
 Optimization of the mesh's indices, in case a mesh has duplicated vertices.
 The function will only reorder the indices and will not remove unused vertices to avoid problems with submeshes.
@@ -9421,7 +9462,7 @@ the current mesh
 
 > **optimizeIndicesAsync**(): `Promise`\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2900](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2900)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2900](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2900)
 
 Optimize the indices order so that we keep the faces with similar indices together
 
@@ -9441,7 +9482,7 @@ the current mesh
 
 > **refreshBoundingInfo**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3393](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3393)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3411](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3411)
 
 Refreshes the bounding info, taking into account all the thin instances defined
 
@@ -9461,7 +9502,7 @@ the current Gaussian Splatting
 
 > **registerAfterRender**(`func`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2176)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2176](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2176)
 
 Registers for this mesh a javascript function called just after the rendering is complete
 
@@ -9489,7 +9530,7 @@ the current mesh
 
 > **registerAfterWorldMatrixUpdate**(`func`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1392](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1392)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1392](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1392)
 
 If you'd like to be called back after the mesh position, rotation or scaling has been updated.
 
@@ -9517,7 +9558,7 @@ the TransformNode.
 
 > **registerBeforeRender**(`func`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2156)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2156)
 
 Registers for this mesh a javascript function called just before the rendering process
 
@@ -9545,7 +9586,7 @@ the current mesh
 
 > **registerInstancedBuffer**(`kind`, `stride`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/instancedMesh.types.ts#L13)
+Defined in: [packages/dev/core/src/Meshes/instancedMesh.types.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/instancedMesh.types.ts#L13)
 
 Register a custom buffer that will be instanced
 
@@ -9577,11 +9618,40 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/copies/instances#custom
 
 ***
 
+### registerLodBudgetParticipant()
+
+> **registerLodBudgetParticipant**(`participant`): `void`
+
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:630](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L630)
+
+**`Experimental`**
+
+Registers a LOD engine to share this compound's [splatBudget](GaussianSplattingMesh.md#splatbudget). The compound apportions the budget
+across all registered participants each frame. No-op if already registered.
+
+#### Parameters
+
+##### participant
+
+[`IGaussianSplattingLodBudgetParticipant`](../interfaces/IGaussianSplattingLodBudgetParticipant.md)
+
+the LOD engine (e.g. a hosted streamed part)
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`GaussianSplattingMesh`](GaussianSplattingMesh.md).[`registerLodBudgetParticipant`](GaussianSplattingMesh.md#registerlodbudgetparticipant)
+
+***
+
 ### releaseSubMeshes()
 
 > **releaseSubMeshes**(`immediate?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2340)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2340](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2340)
 
 Disposes all the submeshes of the current mesh
 
@@ -9609,7 +9679,7 @@ the current mesh
 
 > **removeBehavior**(`behavior`): [`Node`](Node.md)
 
-Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L464)
+Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L464)
 
 Remove an attached behavior
 
@@ -9641,7 +9711,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **removeChild**(`mesh`, `preserveScalingSign?`): `this`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:857](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L857)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:857](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L857)
 
 Removes the passed mesh from the current mesh children list
 
@@ -9675,7 +9745,7 @@ the current mesh
 
 > **removeLODLevel**(`mesh`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1187)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1187)
 
 Remove a mesh from the LOD array
 
@@ -9707,7 +9777,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/LOD
 
 > **removePart**(`index`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L62)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L62)
 
 Remove a part from this compound mesh.
 The remaining parts are rebuilt directly from the compound mesh's retained source buffers.
@@ -9734,7 +9804,7 @@ The index of the part to remove
 
 > **removeVerticesData**(`kind`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1848](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1848)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1848](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1848)
 
 Delete a vertex buffer associated with this mesh
 
@@ -9772,7 +9842,7 @@ defines which buffer to delete (positions, indices, normals, etc). Possible `kin
 
 > **render**(`subMesh`, `enableAlphaMode`, `effectiveMeshReplacement?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1550](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1550)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1561)
 
 Triggers the draw call for the mesh. Usually, you don't need to call this method by your own because the mesh rendering is handled by the scene rendering manager
 
@@ -9812,7 +9882,7 @@ the current mesh
 
 > **renderWithRenderPassId**(`renderPassId?`, `enableAlphaMode?`, `effectiveMeshReplacement?`, `subMesh?`, `checkFrustumCulling?`): `GaussianSplattingCompoundMesh`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2645](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2645)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2645](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2645)
 
 Triggers the draw call for the mesh (or a submesh), for a specific render pass id
 
@@ -9864,7 +9934,7 @@ the current mesh
 
 > **reserveStreamingPart**(`capacity`, `worldMatrix?`, `name?`, `shTextureCount?`, `shDegree?`, `needsRotationScale?`): [`IGaussianSplattingStreamingPart`](../interfaces/IGaussianSplattingStreamingPart.md)
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:1853](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L1853)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:2043](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L2043)
 
 Reserves a contiguous region of `capacity` splats in the compound as a new part for dynamic (streamed)
 content. Unlike [addPart](GaussianSplattingMesh.md#addpart), no source data is copied: the region is created as invisible padding
@@ -9934,7 +10004,7 @@ a handle used to populate and control the reserved region
 
 > **resetDrawCache**(`passId?`, `immediate?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1362](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1362)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1362](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1362)
 
 Resets the draw wrappers cache for all submeshes of this abstract mesh
 
@@ -9966,7 +10036,7 @@ If true, the effect will be released immediately, otherwise it will be released 
 
 > **resetLocalMatrix**(`independentOfChildren?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1353](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1353)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1353](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1353)
 
 Resets this nodeTransform's local matrix to Matrix.Identity().
 
@@ -9992,7 +10062,7 @@ indicates if all child nodeTransform's world-space transform should be preserved
 
 > **rotate**(`axis`, `amount`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:940](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L940)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:940](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L940)
 
 Rotates the mesh around the axis vector for the passed angle (amount) expressed in radians, in the given space.
 space (default LOCAL) can be either Space.LOCAL, either Space.WORLD.
@@ -10035,7 +10105,7 @@ the TransformNode.
 
 > **rotateAround**(`point`, `axis`, `amount`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:977](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L977)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:977](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L977)
 
 Rotates the mesh around the axis vector for the passed angle (amount) expressed in radians, in world space.
 Note that the property `rotationQuaternion` is then automatically updated and the property `rotation` is set to (0,0,0) and no longer used.
@@ -10078,7 +10148,7 @@ the TransformNode
 
 > **rotatePOV**(`flipBack`, `twirlClockwise`, `tiltRight`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1731](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1731)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1731](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1731)
 
 Perform relative rotation change from the point of view of behind the front of the mesh.
 Supports definition of mesh facing forward or backward definedFacingForwardSearch \| See definedFacingForwardSearch.
@@ -10119,7 +10189,7 @@ the current mesh
 
 > **serialize**(`serializationObject?`, `encoding?`): `any`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L73)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L73)
 
 Serialize current GaussianSplattingMesh
 
@@ -10154,7 +10224,7 @@ the serialized object
 
 > **serializeAnimationRanges**(): `any`
 
-Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L970)
+Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L970)
 
 Serialize animation ranges into a JSON compatible object
 
@@ -10174,7 +10244,7 @@ serialization object
 
 > **setAbsolutePosition**(`absolutePosition`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:525](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L525)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:525](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L525)
 
 Sets the mesh absolute position in the World from a Vector3 or an Array(3).
 
@@ -10202,7 +10272,7 @@ the TransformNode.
 
 > **setBoundingInfo**(`boundingInfo`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1567](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1567)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1567](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1567)
 
 Overwrite the current bounding info
 
@@ -10230,7 +10300,7 @@ the current mesh
 
 > **setDirection**(`localAxis`, `yawCor?`, `pitchCor?`, `rollCor?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:676](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L676)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:676](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L676)
 
 Sets this transform node rotation to the given local axis.
 
@@ -10276,7 +10346,7 @@ this TransformNode
 
 > **setEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L685)
+Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L685)
 
 Set the enabled state of this node
 
@@ -10302,7 +10372,7 @@ defines the new enabled state
 
 > **setIndexBuffer**(`indexBuffer`, `totalVertices`, `totalIndices`, `is32Bits?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1989](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1989)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1989](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1989)
 
 Sets the index buffer of this mesh.
 
@@ -10346,7 +10416,7 @@ Defines if the indices are 32 bits. If null (default), the value is guessed from
 
 > **setIndices**(`indices`, `totalVertices?`, `updatable?`, `dontForceSubMeshRecreation?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2005)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2005](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2005)
 
 Set the index buffer of this mesh
 
@@ -10392,7 +10462,7 @@ the current mesh
 
 > **setMaterialById**(`id`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L3156)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:3156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L3156)
 
 Sets the mesh material by the material or multiMaterial `id` property
 
@@ -10420,7 +10490,7 @@ the current mesh
 
 > **setMaterialByID**(`id`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5419)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5419](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5419)
 
 Sets the mesh material by the material or multiMaterial `id` property
 
@@ -10452,7 +10522,7 @@ Please use MeshBuilder instead Please use setMaterialById instead
 
 > **setMaterialForRenderPass**(`renderPassId`, `material?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:779](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L779)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:779](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L779)
 
 Sets the material to be used to render the mesh in a specific render pass
 
@@ -10484,7 +10554,7 @@ material to use for this render pass. If undefined is passed, no specific materi
 
 > **setNormalsForCPUSkinning**(): [`Nullable`](../type-aliases/Nullable.md)\<`Float32Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4916](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L4916)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4916](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L4916)
 
 Prepare internal normal array for software CPU skinning
 
@@ -10504,7 +10574,7 @@ original normals used for CPU skinning. Useful for integrating Morphing with ske
 
 > **setParent**(`node`, `preserveScalingSign?`, `updatePivot?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:788](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L788)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:788](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L788)
 
 Defines the passed node as the parent of the current node.
 The node will remain exactly where it is and its position / rotation will be updated accordingly.
@@ -10553,7 +10623,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **setPartSplatRanges**(`partIndex`, `ranges`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L646)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:836](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L836)
 
 Restricts which source splats of a single part are sorted and rendered, in GLOBAL source-splat
 coordinates (offsets into the merged atlas). Static parts render fully by default; a streaming
@@ -10593,7 +10663,7 @@ active global source-splat ranges for the part, or `null` to render the whole pa
 
 > **setPartVisibility**(`partIndex`, `value`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:629](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L629)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:819](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L819)
 
 Sets the visibility for a specific part of the compound.
 
@@ -10625,7 +10695,7 @@ the visibility value (0.0 to 1.0) to set
 
 > **setPhysicsLinkWith**(`otherMesh`, `pivot1`, `pivot2`, `options?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L43)
+Defined in: [packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/physicsEngineComponent.types.ts#L43)
 
 Creates a physic joint between two meshes
 
@@ -10675,7 +10745,7 @@ https://www.babylonjs-playground.com/#0BS5U0#0
 
 > **setPivotMatrix**(`matrix`, `postMultiplyPivotMatrix?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L409)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L409)
 
 Sets a new pivot matrix to the current node
 
@@ -10709,7 +10779,7 @@ the current TransformNode
 
 > **setPivotPoint**(`point`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L696)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L696)
 
 Sets a new pivot point to the current node
 
@@ -10743,7 +10813,7 @@ the current TransformNode
 
 > **setPositionsForCPUSkinning**(): [`Nullable`](../type-aliases/Nullable.md)\<`Float32Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4895](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L4895)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4895](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L4895)
 
 Prepare internal position array for software CPU skinning
 
@@ -10763,7 +10833,7 @@ original positions used for CPU skinning. Useful for integrating Morphing with s
 
 > **setPositionWithLocalVector**(`vector3`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L563)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:563](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L563)
 
 Sets the mesh position in its local space.
 
@@ -10791,7 +10861,7 @@ the TransformNode.
 
 > **setPreTransformMatrix**(`matrix`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:399](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L399)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:399](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L399)
 
 Sets a new matrix to apply before all other transformation
 
@@ -10819,7 +10889,7 @@ the current TransformNode
 
 > **setSplatIndexRanges**(`ranges`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L759)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:760](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L760)
 
 Restricts rendering to the provided source splat ranges.
 Passing `null` clears the range filter and renders the full source splat set.
@@ -10846,7 +10916,7 @@ contiguous source ranges to render, or null to render all splats
 
 > **setVerticesBuffer**(`buffer`, `disposeExistingBuffer?`, `totalVertices?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1890)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1890](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1890)
 
 Sets the mesh global Vertex Buffer
 
@@ -10886,7 +10956,7 @@ the current mesh
 
 > **setVerticesData**(`kind`, `data`, `updatable?`, `stride?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1818](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1818)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1818](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1818)
 
 Copy a FloatArray into a specific associated vertex buffer
 
@@ -10944,7 +11014,7 @@ the current mesh
 
 > **setWorldMatrixForPart**(`partIndex`, `worldMatrix`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:577](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L577)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:767](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L767)
 
 Sets the world matrix for a specific part of the compound.
 This will trigger a re-sort of the mesh.
@@ -10978,7 +11048,7 @@ the world matrix to set
 
 > **simplify**(`settings`, `parallelProcessing?`, `simplificationType?`, `successCallback?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.types.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.types.ts#L30)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.types.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.types.ts#L30)
 
 Simplify the mesh according to the given array of settings.
 Function will return immediately and will simplify async
@@ -11025,7 +11095,7 @@ the current mesh
 
 > **subdivide**(`count`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1769](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1769)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1769](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1769)
 
 This function will subdivide the mesh into multiple submeshes
 
@@ -11051,7 +11121,7 @@ defines the expected number of submeshes
 
 > **synchronizeInstances**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4038](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L4038)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:4038](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L4038)
 
 Synchronises all the mesh instance submeshes to the current mesh submeshes, if any.
 After this call, all the mesh instances have the same submeshes than the current mesh.
@@ -11072,7 +11142,7 @@ the current mesh
 
 > **thinInstanceAdd**(`matrix`, `refresh?`): `number`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L27)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L27)
 
 Creates a new thin instance
 
@@ -11106,7 +11176,7 @@ the thin instance index number. If you pass an array of matrices, other instance
 
 > **thinInstanceAddSelf**(`refresh?`): `number`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L34)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L34)
 
 Adds the transformation (matrix) of the current mesh as a thin instance
 
@@ -11134,7 +11204,7 @@ the thin instance index number
 
 > **thinInstanceBufferUpdated**(`kind`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L84)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L84)
 
 Synchronize the gpu buffers with a thin instance buffer. Call this method if you update later on the buffers passed to thinInstanceSetBuffer
 
@@ -11160,7 +11230,7 @@ name of the attribute to update. Use "matrix" to update the buffer of matrices
 
 > **thinInstanceGetWorldMatrices**(): [`Matrix`](Matrix.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L78)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L78)
 
 Gets the list of world matrices
 
@@ -11180,7 +11250,7 @@ an array containing all the world matrices from the thin instances
 
 > **thinInstancePartialBufferUpdate**(`kind`, `dataOrLength`, `offset`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L97)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L97)
 
 Applies a partial update to a buffer directly on the GPU
 Note that the buffer located on the CPU is NOT updated! It's up to you to update it (or not) with the same data you pass to this method
@@ -11223,7 +11293,7 @@ the offset in the GPU buffer where to update the data:
 
 > **thinInstanceRefreshBoundingInfo**(`forceRefreshParentInfo?`, `applySkeleton?`, `applyMorph?`, `applyBakedVertexAnimation?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:106](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L106)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:106](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L106)
 
 Refreshes the bounding info, taking into account all the thin instances defined
 
@@ -11267,7 +11337,7 @@ defines whether to apply baked vertex animation before computing the bounding in
 
 > **thinInstanceRegisterAttribute**(`kind`, `stride`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L41)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L41)
 
 Registers a custom attribute to be used with thin instances
 
@@ -11299,7 +11369,7 @@ size in floats of the attribute
 
 > **thinInstanceSetAttributeAt**(`kind`, `index`, `value`, `refresh?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L58)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L58)
 
 Sets the value of a custom attribute for a thin instance
 
@@ -11343,7 +11413,7 @@ true to refresh the underlying gpu buffer (default: true). If you do multiple ca
 
 > **thinInstanceSetBuffer**(`kind`, `buffer`, `stride?`, `staticBuffer?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L72)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L72)
 
 Sets a buffer to be used with thin instances. This method is a faster way to setup multiple instances than calling thinInstanceAdd repeatedly
 
@@ -11387,7 +11457,7 @@ indicates that the buffer is static, so that you won't change it after it is set
 
 > **thinInstanceSetMatrixAt**(`index`, `matrix`, `refresh?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L49)
+Defined in: [packages/dev/core/src/Meshes/thinInstanceMesh.types.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/thinInstanceMesh.types.ts#L49)
 
 Sets the matrix of a thin instance
 
@@ -11425,7 +11495,7 @@ true to refresh the underlying gpu buffer (default: true). If you do multiple ca
 
 > **toLeftHanded**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2039](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2039)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2039](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2039)
 
 Invert the geometry to move from a right handed system to a left handed one.
 
@@ -11445,7 +11515,7 @@ the current mesh
 
 > **toString**(`fullDetails?`): `string`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1071)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1071](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1071)
 
 Returns a description of this mesh
 
@@ -11473,7 +11543,7 @@ a descriptive string representing this mesh
 
 > **transferToEffect**(`world`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1146)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:1146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L1146)
 
 Transfer the mesh values to its UBO.
 
@@ -11499,7 +11569,7 @@ The world matrix associated with the mesh
 
 > **translate**(`axis`, `distance`, `space?`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1019](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1019)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1019](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1019)
 
 Translates the mesh along the axis vector for the passed distance in the given space.
 space (default LOCAL) can be either Space.LOCAL, either Space.WORLD.
@@ -11540,7 +11610,7 @@ the TransformNode.
 
 > **unfreezeNormals**(): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1590](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1590)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1590](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1590)
 
 This function affects parametric shapes on vertex position update only : ribbons, tubes, etc. It has no effect at all on other shapes. It reactivates the mesh normals computation if it was previously frozen
 
@@ -11560,7 +11630,7 @@ the current mesh
 
 > **unfreezeWorldMatrix**(): `GaussianSplattingCompoundMesh`
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L498)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L498)
 
 Allows back the World matrix computation.
 
@@ -11580,7 +11650,7 @@ the TransformNode.
 
 > **unregisterAfterRender**(`func`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2186)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2186](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2186)
 
 Disposes a previously registered javascript function called after the rendering.
 
@@ -11608,7 +11678,7 @@ the current mesh
 
 > **unregisterAfterWorldMatrixUpdate**(`func`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L1402)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L1402)
 
 Removes a registered callback function.
 
@@ -11636,7 +11706,7 @@ the TransformNode.
 
 > **unregisterBeforeRender**(`func`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2166)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2166)
 
 Disposes a previously registered javascript function called before the rendering
 
@@ -11660,11 +11730,40 @@ the current mesh
 
 ***
 
+### unregisterLodBudgetParticipant()
+
+> **unregisterLodBudgetParticipant**(`participant`): `void`
+
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts:643](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMesh.pure.ts#L643)
+
+**`Experimental`**
+
+Removes a previously registered budget participant and releases its coordinated allocation (it reverts to its
+own budget).
+
+#### Parameters
+
+##### participant
+
+[`IGaussianSplattingLodBudgetParticipant`](../interfaces/IGaussianSplattingLodBudgetParticipant.md)
+
+the LOD engine to remove
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+[`GaussianSplattingMesh`](GaussianSplattingMesh.md).[`unregisterLodBudgetParticipant`](GaussianSplattingMesh.md#unregisterlodbudgetparticipant)
+
+***
+
 ### updateData()
 
 > **updateData**(`data`, `sh?`, `options?`, `partIndices?`, `shDegree?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3385](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3385)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3403](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3403)
 
 **`Experimental`**
 
@@ -11716,7 +11815,7 @@ optional SH degree of the data
 
 > **updateDataAsync**(`data`, `sh?`, `partIndices?`, `shDegree?`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3372](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3372)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:3390](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L3390)
 
 Update asynchronously the buffer
 
@@ -11762,7 +11861,7 @@ a promise
 
 > **updateFacetData**(): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2533](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2533)
+Defined in: [packages/dev/core/src/Meshes/abstractMesh.pure.ts:2533](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/abstractMesh.pure.ts#L2533)
 
 Updates the mesh facetData arrays and the internal partitioning when the mesh is morphed or updated.
 This method can be called within the render loop.
@@ -11788,7 +11887,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/facetData
 
 > **updateIndices**(`indices`, `offset?`, `gpuMemoryOnly?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2026](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2026)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2026](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2026)
 
 Update the current index buffer
 
@@ -11828,7 +11927,7 @@ the current mesh
 
 > **updateMeshPositions**(`positionFunction`, `computeNormals?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1939](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1939)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1939](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1939)
 
 This method updates the vertex positions of an updatable mesh according to the `positionFunction` returned values.
 
@@ -11866,7 +11965,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/dynamicMeshMorph#other-
 
 > **updatePoseMatrix**(`matrix`): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/transformNode.pure.ts#L306)
+Defined in: [packages/dev/core/src/Meshes/transformNode.pure.ts:306](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/transformNode.pure.ts#L306)
 
 Copies the parameter passed Matrix into the mesh Pose matrix.
 
@@ -11894,7 +11993,7 @@ this TransformNode.
 
 > **updateVerticesData**(`kind`, `data`, `updateExtends?`, `makeItUnique?`): [`AbstractMesh`](AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1919](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L1919)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:1919](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L1919)
 
 Update a specific associated vertex buffer
 
@@ -11952,7 +12051,7 @@ the current mesh
 
 > **validateSkinning**(): `object`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2982](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L2982)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:2982](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L2982)
 
 ValidateSkinning is used to determine that a mesh has valid skinning data along with skin metrics, if missing weights,
 or not normalized it is returned as invalid mesh the string can be used for console logs, or on screen messages to let
@@ -11986,7 +12085,7 @@ a validation object with skinned, valid and report string
 
 > `static` **AddNodeConstructor**(`type`, `constructorFunc`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L63)
+Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L63)
 
 Add a new node constructor
 
@@ -12018,7 +12117,7 @@ defines the constructor function
 
 > `static` **Center**(`meshesOrMinMaxVector`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5110)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5110)
 
 Returns the center of the `{min:` Vector3`, max:` Vector3`}` or the center of MinMax vector3 computed from a mesh array
 
@@ -12046,7 +12145,7 @@ a vector3
 
 > `static` **Construct**(`type`, `name`, `scene`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<() => [`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L75)
+Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L75)
 
 Returns a node constructor based on type name
 
@@ -12092,7 +12191,7 @@ the new constructor or null
 
 > `static` **ConvertPLYToSplat**(`data`, `useCoroutine?`): `Generator`\<`undefined`, `ArrayBuffer`, `unknown`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2288)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2306](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2306)
 
 Converts a .ply data array buffer to splat
 if data array buffer is not ply, returns the original buffer
@@ -12127,7 +12226,7 @@ the loaded splat buffer without SH coefficient, whether ply contains or not SH.
 
 > `static` **ConvertPLYToSplatAsync**(`data`): `Promise`\<`ArrayBuffer`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2313](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2313)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2331)
 
 Converts a .ply data array buffer to splat
 if data array buffer is not ply, returns the original buffer
@@ -12156,7 +12255,7 @@ the loaded splat buffer
 
 > `static` **ConvertPLYWithSHToSplat**(`data`, `useCoroutine?`): `Generator`\<`undefined`, \{ `buffer`: `ArrayBuffer`; `sh?`: `undefined`; `shDegree?`: `undefined`; \} \| \{ `buffer`: `ArrayBuffer`; `sh`: `any`[] \| `null`; `shDegree`: `number`; \}, `unknown`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2229)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2247)
 
 Converts a .ply data with SH coefficients splat
 if data array buffer is not ply, returns the original buffer
@@ -12191,7 +12290,7 @@ the loaded splat buffer and optional array of sh coefficients
 
 > `static` **ConvertPLYWithSHToSplatAsync**(`data`): `Promise`\<`unknown`\>
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2323)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:2341](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L2341)
 
 Converts a .ply with SH data array buffer to splat
 if data array buffer is not ply, returns the original buffer
@@ -12220,7 +12319,7 @@ the loaded splat buffer with SH
 
 > `static` **CreateBox**(`_name`, `_size`, `_scene`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5477](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5477)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5477](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5477)
 
 Creates a box mesh.
 
@@ -12276,7 +12375,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateCapsule**(`_name`, `_options`, `_scene`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5981](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5981)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5981](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5981)
 
 Creates a Capsule Mesh
 
@@ -12324,7 +12423,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateCylinder**(`_name`, `_height`, `_diameterTop`, `_diameterBottom`, `_tessellation`, `_subdivisions`, `_scene?`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5523](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5523)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5523](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5523)
 
 Creates a cylinder or a cone mesh.
 
@@ -12404,7 +12503,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateDashedLines**(`_name`, `_points`, `_dashSize`, `_gapSize`, `_dashNb`, `_scene`, `_updatable?`, `_instance?`): [`LinesMesh`](LinesMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5611](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5611)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5611](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5611)
 
 Creates a dashed line mesh.
 
@@ -12478,7 +12577,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateDecal**(`_name`, `_sourceMesh`, `_position`, `_normal`, `_size`, `_angle`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5969](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5969)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5969](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5969)
 
 Creates a decal mesh.
 .
@@ -12542,7 +12641,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateDisc**(`_name`, `_radius`, `_tessellation`, `_scene`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5463](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5463)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5463](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5463)
 
 Creates a plane polygonal mesh.  By default, this is a disc.
 
@@ -12604,7 +12703,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateGround**(`_name`, `_width`, `_height`, `_subdivisions`, `_scene?`, `_updatable?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5794](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5794)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5794](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5794)
 
 Creates a ground mesh.
 
@@ -12666,7 +12765,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateGroundFromHeightMap**(`_name`, `_url`, `_width`, `_height`, `_subdivisions`, `_minHeight`, `_maxHeight`, `_scene`, `_updatable?`, `_onReady?`, `_alphaFilter?`): [`GroundMesh`](GroundMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5843](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5843)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5843](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5843)
 
 Creates a ground mesh from a height map.
 
@@ -12762,7 +12861,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateHemisphere**(`_name`, `_segments`, `_diameter`, `_scene?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5505](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5505)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5505](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5505)
 
 Creates a hemisphere mesh.
 
@@ -12812,7 +12911,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateIcoSphere**(`_name`, `_options`, `_scene`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5948](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5948)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5948](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5948)
 
 Creates a sphere based upon an icosahedron with 20 triangular faces which can be subdivided
 * The parameter `radius` sets the radius size (float) of the icosphere (default 1)
@@ -12885,7 +12984,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateLathe**(`_name`, `_shape`, `_radius`, `_tessellation`, `_scene`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5765](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5765)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5765](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5765)
 
 Creates lathe mesh.
 The lathe is a shape with a symmetry axis : a 2D model shape is rotated around this axis to design the lathe.
@@ -12954,7 +13053,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateLines**(`_name`, `_points`, `_scene`, `_updatable`, `_instance?`): [`LinesMesh`](LinesMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5594](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5594)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5594](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5594)
 
 Creates a line mesh..
 
@@ -13010,7 +13109,7 @@ Please use MeshBuilder instead
 
 > `static` **CreatePlane**(`_name`, `_size`, `_scene`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5779](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5779)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5779](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5779)
 
 Creates a plane mesh.
 
@@ -13066,7 +13165,7 @@ Please use MeshBuilder instead
 
 > `static` **CreatePolygon**(`_name`, `_shape`, `_scene`, `_holes?`, `_updatable?`, `_sideOrientation?`, `_earcutInjection?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5642](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5642)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5642](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5642)
 
 Creates a polygon mesh.Please consider using the same method from the MeshBuilder class instead
 The polygon's shape will depend on the input parameters and is constructed parallel to a ground mesh.
@@ -13143,7 +13242,7 @@ Please use MeshBuilder instead
 
 > `static` **CreatePolyhedron**(`_name`, `_options`, `_scene`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5913](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5913)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5913](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5913)
 
 Creates a polyhedron mesh.
 .
@@ -13237,7 +13336,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateRibbon**(`_name`, `_pathArray`, `_closeArray`, `_closePath`, `_offset`, `_scene?`, `_updatable?`, `_sideOrientation?`, `_instance?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5438](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5438)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5438](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5438)
 
 Creates a ribbon mesh.
 
@@ -13321,7 +13420,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateSphere**(`_name`, `_segments`, `_diameter`, `_scene?`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5492)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5492](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5492)
 
 Creates a sphere mesh.
 
@@ -13383,7 +13482,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateTiledGround**(`_name`, `_xmin`, `_zmin`, `_xmax`, `_zmax`, `_subdivisions`, `_precision`, `_scene`, `_updatable?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5812](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5812)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5812](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5812)
 
 Creates a tiled ground mesh.
 
@@ -13475,7 +13574,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateTorus**(`_name`, `_diameter`, `_thickness`, `_tessellation`, `_scene?`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5550](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5550)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5550](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5550)
 
 Creates a torus mesh.
 
@@ -13543,7 +13642,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateTorusKnot**(`_name`, `_radius`, `_tube`, `_radialSegments`, `_tubularSegments`, `_p`, `_q`, `_scene?`, `_updatable?`, `_sideOrientation?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5569](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5569)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5569](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5569)
 
 Creates a torus knot mesh.
 
@@ -13629,7 +13728,7 @@ Please use MeshBuilder instead
 
 > `static` **CreateTube**(`_name`, `_path`, `_radius`, `_tessellation`, `_radiusFunction`, `_cap`, `_scene`, `_updatable?`, `_sideOrientation?`, `_instance?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5878](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5878)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5878](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5878)
 
 Creates a tube mesh.
 The tube is a parametric shape.
@@ -13721,7 +13820,7 @@ Please use MeshBuilder instead
 
 > `static` **ExtendToGoldberg**(`_mesh`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5992](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5992)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5992](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5992)
 
 Extends a mesh to a Goldberg mesh
 Warning  the mesh to convert MUST be an import of a perviously exported Goldberg mesh
@@ -13754,7 +13853,7 @@ Please use ExtendMeshToGoldberg instead
 
 > `static` **ExtrudePolygon**(`_name`, `_shape`, `_depth`, `_scene`, `_holes?`, `_updatable?`, `_sideOrientation?`, `_earcutInjection?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5668](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5668)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5668](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5668)
 
 Creates an extruded polygon mesh, with depth in the Y direction..
 
@@ -13832,7 +13931,7 @@ Please use MeshBuilder instead
 
 > `static` **ExtrudeShape**(`_name`, `_shape`, `_path`, `_scale`, `_rotation`, `_cap`, `_scene`, `_updatable?`, `_sideOrientation?`, `_instance?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5699](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5699)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5699](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5699)
 
 Creates an extruded shape mesh.
 The extrusion is a parametric shape. It has no predefined shape. Its final shape will depend on the input parameters.
@@ -13924,7 +14023,7 @@ Please use MeshBuilder instead
 
 > `static` **ExtrudeShapeCustom**(`_name`, `_shape`, `_path`, `_scaleFunction`, `_rotationFunction`, `_ribbonCloseArray`, `_ribbonClosePath`, `_cap`, `_scene`, `_updatable?`, `_sideOrientation?`, `_instance?`): [`Mesh`](Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5735](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5735)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5735](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5735)
 
 Creates an custom extruded shape mesh.
 The custom extrusion is a parametric shape.
@@ -14028,7 +14127,7 @@ Please use MeshBuilder instead
 
 > `static` **MergeMeshes**(`meshes`, `disposeSource?`, `allow32BitsIndices?`, `meshSubclass?`, `subdivideWithSubMeshes?`, `multiMultiMaterials?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5125)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5125)
 
 Merge the array of meshes into a single mesh for performance reasons.
 
@@ -14086,7 +14185,7 @@ a new mesh
 
 > `static` **MergeMeshesAsync**(`meshes`, `disposeSource?`, `allow32BitsIndices?`, `meshSubclass?`, `subdivideWithSubMeshes?`, `multiMultiMaterials?`): `Promise`\<`any`\>
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5146)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5146)
 
 Merge the array of meshes into a single mesh for performance reasons.
 
@@ -14144,7 +14243,7 @@ a new mesh
 
 > `static` **MinMax**(`meshes`): `object`
 
-Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5075](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/mesh.pure.ts#L5075)
+Defined in: [packages/dev/core/src/Meshes/mesh.pure.ts:5075](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/mesh.pure.ts#L5075)
 
 Returns an object containing a min and max Vector3 which are the minimum and maximum vectors of each mesh bounding box from the passed array, in the world coordinates
 
@@ -14180,7 +14279,7 @@ an object `{min:` Vector3`, max:` Vector3`}`
 
 > `static` **Parse**(`parsedMesh`, `scene`): `GaussianSplattingCompoundMesh`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L88)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingCompoundMesh.pure.ts#L88)
 
 Parses a serialized GaussianSplattingCompoundMesh
 
@@ -14214,7 +14313,7 @@ the created GaussianSplattingCompoundMesh
 
 > `static` **ParseAnimationRanges**(`node`, `parsedNode`, `_scene`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1044)
+Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L1044)
 
 Parse animation range data from a serialization object and store them into a given node
 
@@ -14252,7 +14351,7 @@ defines the hosting scene
 
 > `static` **ParseHeader**(`data`): [`PLYHeader`](../interfaces/PLYHeader.md) \| `null`
 
-Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1849](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1849)
+Defined in: [packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts:1863](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GaussianSplatting/gaussianSplattingMeshBase.pure.ts#L1863)
 
 Parse a PLY file header and returns metas infos on splats and chunks
 

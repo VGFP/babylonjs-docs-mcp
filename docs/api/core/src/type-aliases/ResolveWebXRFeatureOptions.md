@@ -8,7 +8,7 @@
 
 > **ResolveWebXRFeatureOptions**\<`T`\> = `T` *extends* keyof [`IWebXRFeatureNameOptionsMap`](../interfaces/IWebXRFeatureNameOptionsMap.md) ? [`IWebXRFeatureNameOptionsMap`](../interfaces/IWebXRFeatureNameOptionsMap.md)\[`T`\] *extends* `undefined` ? `undefined` : `Expand`\<[`IWebXRFeatureNameOptionsMap`](../interfaces/IWebXRFeatureNameOptionsMap.md)\[`T`\]\> : `any`
 
-Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:313](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRFeaturesManager.ts#L313)
+Defined in: [packages/dev/core/src/XR/webXRFeaturesManager.ts:322](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRFeaturesManager.ts#L322)
 
 Helper type to resolve the options type for a specific feature based on the feature name,
 or fallback to any if the feature name is not in the type map.

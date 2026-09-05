@@ -6,7 +6,7 @@
 
 # Class: QuinticEase
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:318](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L318)
+Defined in: [packages/dev/core/src/Animations/easing.ts:318](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L318)
 
 Easing function with a power of 5 shape (see link below).
 
@@ -43,7 +43,7 @@ Easing function with a power of 5 shape (see link below).
 
 > `readonly` `static` **EASINGMODE\_EASEIN**: `0` = `0`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L28)
+Defined in: [packages/dev/core/src/Animations/easing.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L28)
 
 Interpolation follows the mathematical formula associated with the easing function.
 
@@ -57,7 +57,7 @@ Interpolation follows the mathematical formula associated with the easing functi
 
 > `readonly` `static` **EASINGMODE\_EASEINOUT**: `2` = `2`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L38)
+Defined in: [packages/dev/core/src/Animations/easing.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L38)
 
 Interpolation uses EaseIn for the first half of the animation and EaseOut for the second half.
 
@@ -71,7 +71,7 @@ Interpolation uses EaseIn for the first half of the animation and EaseOut for th
 
 > `readonly` `static` **EASINGMODE\_EASEOUT**: `1` = `1`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L33)
+Defined in: [packages/dev/core/src/Animations/easing.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L33)
 
 Interpolation follows 100% interpolation minus the output of the formula associated with the easing function.
 
@@ -85,7 +85,7 @@ Interpolation follows 100% interpolation minus the output of the formula associa
 
 > **ease**(`gradient`): `number`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L72)
+Defined in: [packages/dev/core/src/Animations/easing.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L72)
 
 Given an input gradient between 0 and 1, this returns the corresponding value
 of the easing function.
@@ -118,7 +118,7 @@ the corresponding value on the curve defined by the easing function
 
 > **getEasingMode**(): `number`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L54)
+Defined in: [packages/dev/core/src/Animations/easing.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L54)
 
 Gets the current easing mode.
 
@@ -138,7 +138,7 @@ the easing mode
 
 > **setEasingMode**(`easingMode`): `void`
 
-Defined in: [packages/dev/core/src/Animations/easing.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/easing.ts#L46)
+Defined in: [packages/dev/core/src/Animations/easing.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/easing.ts#L46)
 
 Sets the easing mode of the current function.
 

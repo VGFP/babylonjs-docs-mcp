@@ -6,7 +6,7 @@
 
 # Interface: IKeyboardEvent
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L55)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L55)
 
 Native friendly interface for KeyboardEvent Object
 
@@ -20,7 +20,7 @@ Native friendly interface for KeyboardEvent Object
 
 > **altKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L59)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L59)
 
 Status of Alt key being pressed
 
@@ -30,7 +30,7 @@ Status of Alt key being pressed
 
 > `optional` **charCode?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L65)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L65)
 
 Unicode value of character pressed
 
@@ -44,7 +44,7 @@ Required for event, use keyCode instead.
 
 > **code**: `string`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L70)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L70)
 
 Code for key based on layout
 
@@ -54,7 +54,7 @@ Code for key based on layout
 
 > **ctrlKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L75)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L75)
 
 Status of Ctrl key being pressed
 
@@ -64,7 +64,7 @@ Status of Ctrl key being pressed
 
 > `optional` **currentTarget?**: `any`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L28)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L28)
 
 Current target for an event
 
@@ -78,7 +78,7 @@ Current target for an event
 
 > **inputIndex**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L23)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L23)
 
 Input array index
 
@@ -92,7 +92,7 @@ Input array index
 
 > **key**: `string`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L80)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:80](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L80)
 
 String representation of key
 
@@ -102,7 +102,7 @@ String representation of key
 
 > **keyCode**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L85)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L85)
 
 ASCII value of key
 
@@ -116,7 +116,7 @@ Used with DeviceSourceManager
 
 > **metaKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L90)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L90)
 
 Status of Meta key (eg. Windows key) being pressed
 
@@ -126,7 +126,7 @@ Status of Meta key (eg. Windows key) being pressed
 
 > **preventDefault**: () => `void`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L49)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L49)
 
 Tells user agent what to do when not explicitly handled
 
@@ -144,7 +144,7 @@ Tells user agent what to do when not explicitly handled
 
 > `optional` **repeat?**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L101)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L101)
 
 Whether this key event was generated by an auto-repeat
 (the user is holding the key down).
@@ -155,7 +155,7 @@ Whether this key event was generated by an auto-repeat
 
 > **shiftKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L95)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L95)
 
 Status of Shift key being pressed
 
@@ -165,7 +165,7 @@ Status of Shift key being pressed
 
 > `optional` **srcElement?**: `any`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L34)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L34)
 
 Alias for target
 
@@ -183,7 +183,7 @@ Use target instead
 
 > **target**: `any`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L44)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L44)
 
 Reference to object where object was dispatched
 
@@ -197,7 +197,7 @@ Reference to object where object was dispatched
 
 > **type**: `string`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L39)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L39)
 
 Type of event
 

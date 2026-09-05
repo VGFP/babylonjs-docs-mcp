@@ -8,6 +8,6 @@
 
 > **MeshCompressionMethod** = `"None"` \| `"Draco"`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L10)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L10)
 
 Mesh compression methods.

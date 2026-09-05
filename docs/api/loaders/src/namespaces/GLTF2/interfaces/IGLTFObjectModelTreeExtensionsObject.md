@@ -6,7 +6,7 @@
 
 # Interface: IGLTFObjectModelTreeExtensionsObject
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L365)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L365)
 
 Accessor tree describing root-level glTF extensions exposed through the
 Object Model. Currently covers the punctual / area / IES / image-based
@@ -18,7 +18,7 @@ light extension families.
 
 > **EXT\_lights\_area**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:383](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L383)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:383](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L383)
 
 Accessor tree for `/extensions/EXT_lights_area`.
 
@@ -64,7 +64,7 @@ Accessor tree for `/extensions/EXT_lights_area`.
 
 > **EXT\_lights\_ies**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:398](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L398)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:398](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L398)
 
 Accessor tree for `/extensions/EXT_lights_ies`.
 
@@ -82,7 +82,7 @@ Accessor tree for `/extensions/EXT_lights_ies`.
 
 > **EXT\_lights\_image\_based**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:404](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L404)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:404](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L404)
 
 Accessor tree for `/extensions/EXT_lights_image_based`.
 
@@ -116,7 +116,7 @@ Accessor tree for `/extensions/EXT_lights_image_based`.
 
 > **KHR\_lights\_punctual**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:367](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L367)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:367](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L367)
 
 Accessor tree for `/extensions/KHR_lights_punctual`.
 

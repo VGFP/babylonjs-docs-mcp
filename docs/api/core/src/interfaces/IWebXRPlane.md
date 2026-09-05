@@ -6,7 +6,7 @@
 
 # Interface: IWebXRPlane
 
-Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L37)
+Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L37)
 
 A babylon interface for a WebXR plane.
 A Plane is actually a polygon, built from N points in space
@@ -19,7 +19,7 @@ Supported in chrome 79, not supported in canary 81 ATM
 
 > **id**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L41)
+Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L41)
 
 a babylon-assigned ID for this polygon
 
@@ -29,9 +29,20 @@ a babylon-assigned ID for this polygon
 
 > **polygonDefinition**: [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L45)
+Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L45)
 
 an array of vector3 points in babylon space. right/left hand system is taken into account.
+
+***
+
+### semanticLabel?
+
+> `optional` **semanticLabel?**: `string` \| `null`
+
+Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L59)
+
+The semantic classification supplied by the XR runtime.
+This is undefined when the runtime does not expose semantic labels and null when the plane has no known classification.
 
 ***
 
@@ -39,7 +50,7 @@ an array of vector3 points in babylon space. right/left hand system is taken int
 
 > **transformationMatrix**: [`Matrix`](../classes/Matrix.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L50)
+Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L50)
 
 A transformation matrix to apply on the mesh that will be built using the polygonDefinition
 Local vs. World are decided if worldParentNode was provided or not in the options when constructing the module
@@ -50,6 +61,6 @@ Local vs. World are decided if worldParentNode was provided or not in the option
 
 > **xrPlane**: `XRPlane`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L54)
+Defined in: [packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRPlaneDetector.pure.ts#L54)
 
 the native xr-plane object

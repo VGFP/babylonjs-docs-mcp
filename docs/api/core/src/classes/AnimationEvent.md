@@ -6,7 +6,7 @@
 
 # Class: AnimationEvent
 
-Defined in: [packages/dev/core/src/Animations/animationEvent.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationEvent.ts#L4)
+Defined in: [packages/dev/core/src/Animations/animationEvent.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationEvent.ts#L4)
 
 Composed of a frame, and an action function
 
@@ -16,7 +16,7 @@ Composed of a frame, and an action function
 
 > **new AnimationEvent**(`frame`, `action`, `onlyOnce?`): `AnimationEvent`
 
-Defined in: [packages/dev/core/src/Animations/animationEvent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationEvent.ts#L16)
+Defined in: [packages/dev/core/src/Animations/animationEvent.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationEvent.ts#L16)
 
 Initializes the animation event
 
@@ -50,7 +50,7 @@ Specifies if the event should be triggered only once
 
 > **action**: (`currentFrame`) => `void`
 
-Defined in: [packages/dev/core/src/Animations/animationEvent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationEvent.ts#L20)
+Defined in: [packages/dev/core/src/Animations/animationEvent.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationEvent.ts#L20)
 
 The event to perform when triggered *
 
@@ -70,7 +70,7 @@ The event to perform when triggered *
 
 > **frame**: `number`
 
-Defined in: [packages/dev/core/src/Animations/animationEvent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationEvent.ts#L18)
+Defined in: [packages/dev/core/src/Animations/animationEvent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationEvent.ts#L18)
 
 The frame for which the event is triggered *
 
@@ -80,7 +80,7 @@ The frame for which the event is triggered *
 
 > **isDone**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Animations/animationEvent.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationEvent.ts#L8)
+Defined in: [packages/dev/core/src/Animations/animationEvent.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationEvent.ts#L8)
 
 Specifies if the animation event is done
 
@@ -90,6 +90,6 @@ Specifies if the animation event is done
 
 > `optional` **onlyOnce?**: `boolean`
 
-Defined in: [packages/dev/core/src/Animations/animationEvent.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationEvent.ts#L22)
+Defined in: [packages/dev/core/src/Animations/animationEvent.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationEvent.ts#L22)
 
 Specifies if the event should be triggered only once*

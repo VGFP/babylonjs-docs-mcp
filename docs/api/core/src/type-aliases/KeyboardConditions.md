@@ -8,7 +8,7 @@
 
 > **KeyboardConditions** = `object`
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L51)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L51)
 
 Conditions for keyboard inputs.
 
@@ -18,7 +18,7 @@ Conditions for keyboard inputs.
 
 > `optional` **key?**: `number`
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L53)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L53)
 
 Key code of the current key being resolved. Omit to match any key.
 
@@ -28,6 +28,6 @@ Key code of the current key being resolved. Omit to match any key.
 
 > `optional` **modifiers?**: [`InputModifiers`](InputModifiers.md)
 
-Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/inputMapper.ts#L55)
+Defined in: [packages/dev/core/src/Cameras/inputMapper.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/inputMapper.ts#L55)
 
 Modifier key state. Only specified keys are checked; omitted = don't-care.

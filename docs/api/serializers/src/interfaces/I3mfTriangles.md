@@ -6,7 +6,7 @@
 
 # Interface: I3mfTriangles
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:178](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L178)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:178](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L178)
 
 Container for triangles.
 Matches the XML structure <triangles>\<triangle .../\>...</triangles>.
@@ -17,6 +17,6 @@ Matches the XML structure <triangles>\<triangle .../\>...</triangles>.
 
 > **triangle**: [`I3mfTriangle`](I3mfTriangle.md)[]
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:180](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L180)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:180](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L180)
 
 Array of triangles.

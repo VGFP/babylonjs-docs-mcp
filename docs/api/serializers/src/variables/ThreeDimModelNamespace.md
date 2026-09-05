@@ -8,7 +8,7 @@
 
 > `const` **ThreeDimModelNamespace**: `"http://schemas.microsoft.com/3dmanufacturing/core/2015/02"` = `"http://schemas.microsoft.com/3dmanufacturing/core/2015/02"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:5](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L5)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:5](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L5)
 
 XML namespace for the core 3MF model schema.
 This is the default namespace used by <model> and most standard 3MF elements.

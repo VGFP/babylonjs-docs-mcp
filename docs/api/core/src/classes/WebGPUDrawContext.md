@@ -6,7 +6,7 @@
 
 # Class: WebGPUDrawContext
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L14)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L14)
 
 WebGPU implementation of the IDrawContext interface.
 This class manages the draw context for WebGPU, including buffers and indirect draw data.
@@ -21,7 +21,7 @@ This class manages the draw context for WebGPU, including buffers and indirect d
 
 > **new WebGPUDrawContext**(`bufferManager`, `_dummyIndexBuffer`): `WebGPUDrawContext`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L124)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:124](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L124)
 
 Creates a new WebGPUDrawContext.
 
@@ -50,7 +50,7 @@ storage buffer when no index buffer is provided.
 
 > `optional` **bindGroups?**: `GPUBindGroup`[]
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L24)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L24)
 
 Cache of the bind groups. Will be reused for the next draw if isDirty==false (and materialContext.isDirty==false)
 
@@ -60,7 +60,7 @@ Cache of the bind groups. Will be reused for the next draw if isDirty==false (an
 
 > **buffers**: `object`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L38)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L38)
 
 Buffers (uniform / storage) used for the draw call
 
@@ -74,7 +74,7 @@ Buffers (uniform / storage) used for the draw call
 
 > `optional` **fastBundle?**: `GPURenderBundle`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L20)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L20)
 
 Bundle used in fast mode (when compatibilityMode==false)
 
@@ -84,7 +84,7 @@ Bundle used in fast mode (when compatibilityMode==false)
 
 > `optional` **indirectDrawBuffer?**: `GPUBuffer`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L40)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L40)
 
 Buffer used for the indirect draw call when enableIndirectDraw is true.
 
@@ -98,7 +98,7 @@ Buffer used for the indirect draw call when enableIndirectDraw is true.
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L26)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L26)
 
 Unique identifier for the draw context.
 
@@ -114,7 +114,7 @@ Unique identifier for the draw context.
 
 > **get** **enableIndirectDraw**(): `boolean`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L69)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L69)
 
 Indicates if the draw should be an indirect draw.
 
@@ -126,7 +126,7 @@ Indicates if the draw should be an indirect draw.
 
 > **set** **enableIndirectDraw**(`enable`): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L73)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L73)
 
 Indicates if the draw should be an indirect draw.
 
@@ -154,7 +154,7 @@ Indicates if the draw should be an indirect draw.
 
 > **get** **useInstancing**(): `boolean`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L99)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L99)
 
 True if instances are used in the draw calls
 
@@ -166,7 +166,7 @@ True if instances are used in the draw calls
 
 > **set** **useInstancing**(`use`): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L103)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L103)
 
 True if instances are used in the draw calls
 
@@ -192,7 +192,7 @@ True if instances are used in the draw calls
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L230)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:230](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L230)
 
 Disposes the draw context and its resources.
 
@@ -210,7 +210,7 @@ Disposes the draw context and its resources.
 
 > **isDirty**(`materialContextUpdateId`): `boolean`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L56)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L56)
 
 Checks if the draw context is dirty.
 
@@ -234,7 +234,7 @@ True if the draw or material context is dirty, false otherwise.
 
 > **reset**(): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L137)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L137)
 
 Resets the draw context to its initial state.
 
@@ -252,7 +252,7 @@ Resets the draw context to its initial state.
 
 > **resetIsDirty**(`materialContextUpdateId`): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L64)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L64)
 
 Resets the dirty state of the draw context.
 
@@ -274,7 +274,7 @@ The update ID of the material context associated with the draw context.
 
 > **setBuffer**(`name`, `buffer`): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L151)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L151)
 
 Associates a buffer to the draw context.
 
@@ -302,7 +302,7 @@ The buffer to set.
 
 > **setIndirectData**(`indexOrVertexCount`, `instanceCount`, `firstIndexOrVertex`, `forceUpdate?`): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L157)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L157)
 
 Data for the indirect draw call (only used when enableIndirectDraw is true).
 
@@ -346,7 +346,7 @@ If true, forces the update of the indirect draw data even if instanceCount is th
 
 > **setVertexPulling**(`useVertexPulling`, `webgpuPipelineContext`, `vertexBuffers`, `indexBuffer`, `overrideVertexBuffers`): `void`
 
-Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L181)
+Defined in: [packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/WebGPU/webgpuDrawContext.ts#L181)
 
 Setup or disable vertex pulling as needed.
 

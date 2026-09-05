@@ -6,7 +6,7 @@
 
 # Enumeration: SpatialAudioAttachmentType
 
-Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:1](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L1)
+Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:1](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L1)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:1](http
 
 > **Position**: `1`
 
-Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:2](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L2)
+Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:2](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L2)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:2](http
 
 > **PositionAndRotation**: `3`
 
-Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L4)
+Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L4)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:4](http
 
 > **Rotation**: `2`
 
-Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:3](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L3)
+Defined in: [packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts:3](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/spatialAudioAttachmentType.ts#L3)

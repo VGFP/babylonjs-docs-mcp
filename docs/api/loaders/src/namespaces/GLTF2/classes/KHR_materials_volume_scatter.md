@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_volume\_scatter
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L34)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L34)
 
 **`Experimental`** **`Since`**
 
@@ -25,7 +25,7 @@ TODO: In-progress specification
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L43)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L43)
 
 **`Experimental`**
 
@@ -41,7 +41,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_materials_volume_scatter"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L38)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L38)
 
 **`Experimental`**
 
@@ -57,7 +57,7 @@ The name of this extension.
 
 > **order**: `number` = `172`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L48)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L48)
 
 **`Experimental`**
 

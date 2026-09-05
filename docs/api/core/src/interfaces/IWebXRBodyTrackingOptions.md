@@ -6,7 +6,7 @@
 
 # Interface: IWebXRBodyTrackingOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L580)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:580](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L580)
 
 Configuration options for the WebXR body tracking feature.
 
@@ -16,7 +16,7 @@ Configuration options for the WebXR body tracking feature.
 
 > `optional` **aimChildOverrides?**: `Partial`\<`Record`\<[`WebXRBodyJoint`](../enumerations/WebXRBodyJoint.md), [`WebXRBodyJoint`](../enumerations/WebXRBodyJoint.md)\>\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L675)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L675)
 
 Per–XR-joint override for the "aim child" joint used when
 [useBoneOrientationOffsets](#useboneorientationoffsets) is enabled.
@@ -48,7 +48,7 @@ aimChildOverrides: {
 
 > `optional` **bodyMesh?**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:586](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L586)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:586](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L586)
 
 A pre-existing rigged body mesh to drive with tracked joint poses.
 If provided, skeleton bones will be linked to tracked joints automatically.
@@ -60,7 +60,7 @@ The mesh should contain a skeleton whose bones can be mapped via `rigMapping`.
 
 > `optional` **isMixamoModel?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L692)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:692](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L692)
 
 Convenience flag for Mixamo-rigged characters.
 
@@ -82,7 +82,7 @@ the bones have been renamed to strip the prefix (common when re-exporting).
 
 > `optional` **jointLocalRotationOffset?**: [`Quaternion`](../classes/Quaternion.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:648](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L648)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:648](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L648)
 
 Rotation applied in each tracked joint's local frame to re-base the
 XR joint axes. Some runtimes (e.g., some Meta Quest builds) emit body
@@ -103,7 +103,7 @@ Default `undefined` = identity (no re-basing).
 
 > `optional` **jointScaleFactor?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L609)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:609](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L609)
 
 Scale factor applied to the local-space position of every joint.
 
@@ -123,7 +123,7 @@ Only affects local joint offsets, not the root (hips) position.
 
 > `optional` **preserveBindPoseBonePositions?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L623)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L623)
 
 Preserve bind-pose local translations for mapped bones and only retarget rotations.
 
@@ -142,7 +142,7 @@ segment lengths.
 
 > `optional` **rigMapping?**: [`XRBodyMeshRigMapping`](../type-aliases/XRBodyMeshRigMapping.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:594](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L594)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:594](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L594)
 
 A mapping from [WebXRBodyJoint](../enumerations/WebXRBodyJoint.md) names to skeleton bone names.
 Required when the skeleton's bone names do not match the WebXR joint names.
@@ -155,7 +155,7 @@ named identically to the WebXR joint names (e.g. `"hips"`, `"left-arm-upper"`, e
 
 > `optional` **useBoneOrientationOffsets?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:632](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L632)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:632](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L632)
 
 Apply a per-bone orientation offset so the avatar bone basis matches the XR joint basis.
 

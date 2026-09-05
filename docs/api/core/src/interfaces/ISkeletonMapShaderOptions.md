@@ -6,7 +6,7 @@
 
 # Interface: ISkeletonMapShaderOptions
 
-Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/ISkeletonViewer.ts#L95)
+Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/ISkeletonViewer.ts#L95)
 
 Defines the constructor options for the SkeletonMap Shader.
 
@@ -16,7 +16,7 @@ Defines the constructor options for the SkeletonMap Shader.
 
 > `optional` **colorMap?**: [`ISkeletonMapShaderColorMapKnot`](ISkeletonMapShaderColorMapKnot.md)[]
 
-Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/ISkeletonViewer.ts#L99)
+Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/ISkeletonViewer.ts#L99)
 
 Array of ColorMapKnots that make the gradient must be ordered with knot[i].location < knot[i+1].location
 
@@ -26,6 +26,6 @@ Array of ColorMapKnots that make the gradient must be ordered with knot[i].locat
 
 > **skeleton**: [`Skeleton`](../classes/Skeleton.md)
 
-Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/ISkeletonViewer.ts#L97)
+Defined in: [packages/dev/core/src/Debug/ISkeletonViewer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/ISkeletonViewer.ts#L97)
 
 Skeleton to Map

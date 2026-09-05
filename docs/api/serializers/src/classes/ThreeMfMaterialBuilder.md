@@ -6,7 +6,7 @@
 
 # Class: ThreeMfMaterialBuilder
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L273)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:273](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L273)
 
 Fluent builder for a 3MF base materials resource.
 Colors are stored as sRGB hexadecimal strings as required by the 3MF specification.
@@ -17,7 +17,7 @@ Colors are stored as sRGB hexadecimal strings as required by the 3MF specificati
 
 > **new ThreeMfMaterialBuilder**(`id`): `ThreeMfMaterialBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L280)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L280)
 
 Creates a new base materials builder.
 
@@ -39,7 +39,7 @@ The unique resource id of the base materials group within the model.
 
 > **build**(): [`I3mfBaseMaterials`](../interfaces/I3mfBaseMaterials.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L306)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:306](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L306)
 
 Returns the base materials group that has been built.
 
@@ -55,7 +55,7 @@ The built base materials resource.
 
 > **withColor**(`name`, `color`): `ThreeMfMaterialBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L290)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:290](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L290)
 
 Adds a named color to the group, or updates it when the name already exists.
 

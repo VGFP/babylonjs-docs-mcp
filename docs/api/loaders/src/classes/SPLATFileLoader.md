@@ -6,7 +6,7 @@
 
 # Class: SPLATFileLoader
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L41)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L41)
 
 **`Experimental`**
 
@@ -24,7 +24,7 @@ This is a babylon scene loader plugin.
 
 > **new SPLATFileLoader**(`loadingOptions?`): `SPLATFileLoader`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L60)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L60)
 
 **`Experimental`**
 
@@ -48,7 +48,7 @@ options for loading and parsing splat and PLY files.
 
 > `readonly` **extensions**: `object` = `SPLATFileLoaderMetadata.extensions`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L54)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L54)
 
 **`Experimental`**
 
@@ -105,7 +105,7 @@ force data to come in as an ArrayBuffer
 
 > `readonly` **name**: `"splat"` = `SPLATFileLoaderMetadata.name`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L45)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L45)
 
 **`Experimental`**
 
@@ -121,7 +121,7 @@ Defines the name of the plugin.
 
 > **importMeshAsync**(`meshesNames`, `scene`, `data`, `rootUrl`, `_onProgress?`, `_fileName?`): `Promise`\<[`ISceneLoaderAsyncResult`](../../../core/src/interfaces/ISceneLoaderAsyncResult.md)\>
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L86)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L86)
 
 **`Experimental`**
 
@@ -181,7 +181,7 @@ a promise containing the loaded meshes, particles, skeletons and animations
 
 > **loadAssetContainerAsync**(`scene`, `data`, `rootUrl`): `Promise`\<[`AssetContainer`](../../../core/src/classes/AssetContainer.md)\>
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:517](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L517)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:517](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L517)
 
 **`Experimental`**
 
@@ -223,7 +223,7 @@ The loaded asset container
 
 > **loadAsync**(`scene`, `data`, `rootUrl`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:548](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L548)
+Defined in: [packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts:548](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatFileLoader.pure.ts#L548)
 
 **`Experimental`**
 

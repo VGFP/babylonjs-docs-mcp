@@ -8,7 +8,7 @@
 
 > **LerpTexturesAsync**(`name`, `a`, `b`, `t`, `scene`, `outputColorSpace?`, `outputChannelMask?`): `Promise`\<[`ITextureProcessOperand`](../interfaces/ITextureProcessOperand.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:701](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L701)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:701](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L701)
 
 Linearly interpolate between two texture operands: `result = mix(a, b, t)`.
 

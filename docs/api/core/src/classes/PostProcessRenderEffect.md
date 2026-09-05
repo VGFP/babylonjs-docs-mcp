@@ -6,7 +6,7 @@
 
 # Class: PostProcessRenderEffect
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L11)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L11)
 
 This represents a set of one or more post processes in Babylon.
 A post process can be used to apply a shader to a texture after it is rendered.
@@ -28,7 +28,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/postProcessRen
 
 > **new PostProcessRenderEffect**(`engine`, `name`, `getPostProcesses`, `singleInstance?`): `PostProcessRenderEffect`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L34)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L34)
 
 Instantiates a post process render effect.
 A post process can be used to apply a shader to a texture after it is rendered.
@@ -71,7 +71,7 @@ False if this post process can be run on multiple cameras. (default: true)
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L49)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L49)
 
 Checks if all the post processes in the effect are supported.
 
@@ -85,7 +85,7 @@ Checks if all the post processes in the effect are supported.
 
 > **getPostProcesses**(`camera?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)[]\>
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L254)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts:254](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderEffect.ts#L254)
 
 Gets a list of the post processes contained in the effect.
 

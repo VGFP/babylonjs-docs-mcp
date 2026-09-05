@@ -6,7 +6,7 @@
 
 # Interface: IWebXRControllerMovementOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L19)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L19)
 
 The options container for the controller movement module
 
@@ -16,7 +16,7 @@ The options container for the controller movement module
 
 > `optional` **customRegistrationConfigurations?**: [`WebXRControllerMovementRegistrationConfiguration`](../type-aliases/WebXRControllerMovementRegistrationConfiguration.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L23)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L23)
 
 Override default behaviour and provide your own movement controls
 
@@ -26,7 +26,7 @@ Override default behaviour and provide your own movement controls
 
 > `optional` **movementEnabled?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L27)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L27)
 
 Is movement enabled
 
@@ -36,7 +36,7 @@ Is movement enabled
 
 > **movementOrientationFollowsController**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L61)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L61)
 
 If movement orientation should follow controller orientation instead of viewer pose.
 Make sure to set movementOrientationFollowsViewerPose to false, otherwise it will be ignored.
@@ -47,7 +47,7 @@ Make sure to set movementOrientationFollowsViewerPose to false, otherwise it wil
 
 > **movementOrientationFollowsViewerPose**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L31)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L31)
 
 Camera direction follows view pose and movement by default will move independently of the viewer's pose.
 
@@ -57,7 +57,7 @@ Camera direction follows view pose and movement by default will move independent
 
 > `optional` **movementSpeed?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L35)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L35)
 
 Movement speed factor (default is 1.0)
 
@@ -67,7 +67,7 @@ Movement speed factor (default is 1.0)
 
 > `optional` **movementThreshold?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L39)
 
 Minimum threshold the controller's thumbstick/touchpad must pass before being recognized for movement (avoids jitter/unintentional movement)
 
@@ -77,7 +77,7 @@ Minimum threshold the controller's thumbstick/touchpad must pass before being re
 
 > `optional` **orientationPreferredHandedness?**: `XRHandedness`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L68)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L68)
 
 If orientation follows the controller, this is the preferred handedness to use for forward movement.
 If not set (or handedness not found), the handedness will be selected by the controller triggering the movement.
@@ -89,7 +89,7 @@ Note that this only works if movementOrientationFollowsController is true.
 
 > `optional` **rotationEnabled?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L43)
 
 Is rotation enabled
 
@@ -99,7 +99,7 @@ Is rotation enabled
 
 > `optional` **rotationSpeed?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L51)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L51)
 
 Movement speed factor (default is 1.0)
 
@@ -109,7 +109,7 @@ Movement speed factor (default is 1.0)
 
 > `optional` **rotationThreshold?**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L47)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L47)
 
 Minimum threshold the controller's thumstick/touchpad must pass before being recognized for rotation (avoids jitter/unintentional rotation)
 
@@ -119,6 +119,6 @@ Minimum threshold the controller's thumstick/touchpad must pass before being rec
 
 > **xrInput**: [`WebXRInput`](../classes/WebXRInput.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L55)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerMovement.pure.ts#L55)
 
 Babylon XR Input class for controller

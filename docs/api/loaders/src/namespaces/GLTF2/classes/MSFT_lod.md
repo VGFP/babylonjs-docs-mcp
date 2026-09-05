@@ -6,7 +6,7 @@
 
 # Class: MSFT\_lod
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L27)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L27)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/MSFT_lod/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:27](
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L36)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L36)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > **maxLODsToLoad**: `number` = `10`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L46)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L46)
 
 Maximum number of LODs to load, starting from the lowest LOD.
 
@@ -44,7 +44,7 @@ Maximum number of LODs to load, starting from the lowest LOD.
 
 > `readonly` **name**: `"MSFT_lod"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L31)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L31)
 
 The name of this extension.
 
@@ -58,7 +58,7 @@ The name of this extension.
 
 > **onMaterialLODsLoadedObservable**: [`Observable`](../../../../../core/src/classes/Observable.md)\<`number`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L60)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L60)
 
 Observable raised when all material LODs of one level are loaded.
 The event data is the index of the loaded LOD starting from zero.
@@ -70,7 +70,7 @@ Dispose the loader to cancel the loading of the next level of LODs.
 
 > **onNodeLODsLoadedObservable**: [`Observable`](../../../../../core/src/classes/Observable.md)\<`number`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L53)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L53)
 
 Observable raised when all node LODs of one level are loaded.
 The event data is the index of the loaded LOD starting from zero.
@@ -82,7 +82,7 @@ Dispose the loader to cancel the loading of the next level of LODs.
 
 > **order**: `number` = `100`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L41)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L41)
 
 Defines a number that determines the order the extensions are applied.
 

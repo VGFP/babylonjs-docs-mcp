@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphEditorLaunchOptions
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L29)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraph.ts#L29)
 
 Interface used to configure the launch of the flow graph editor.
 
@@ -16,7 +16,7 @@ Interface used to configure the launch of the flow graph editor.
 
 > `optional` **editorURL?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L31)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraph.ts#L31)
 
 Define the URL to load the flow graph editor script from
 
@@ -26,7 +26,7 @@ Define the URL to load the flow graph editor script from
 
 > `optional` **flowGraphEditorConfig?**: `object`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraph.ts#L33)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraph.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraph.ts#L33)
 
 Additional configuration forwarded to `FlowGraphEditor.Show()` (e.g. hostScene, hostElement)
 

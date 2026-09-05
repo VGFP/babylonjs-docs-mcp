@@ -6,7 +6,7 @@
 
 # Interface: IStereoAudioOptions
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts#L6)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts#L6)
 
 ## Extended by
 
@@ -19,7 +19,7 @@ Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractS
 
 > **stereoEnabled**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts#L18)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts#L18)
 
 Enable stereo. Defaults to false.
 
@@ -37,6 +37,6 @@ and there will be a small delay when setting the first stereo value.
 
 > **stereoPan**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts#L22)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractStereoAudio.ts#L22)
 
 The stereo pan from -1 (left) to 1 (right). Defaults to 0.

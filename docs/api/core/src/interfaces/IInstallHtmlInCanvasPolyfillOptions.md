@@ -6,7 +6,7 @@
 
 # Interface: IInstallHtmlInCanvasPolyfillOptions
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L22)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L22)
 
 Options for [InstallHtmlInCanvasPolyfill](../functions/InstallHtmlInCanvasPolyfill.md).
 
@@ -16,7 +16,7 @@ Options for [InstallHtmlInCanvasPolyfill](../functions/InstallHtmlInCanvasPolyfi
 
 > `optional` **force?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L24)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L24)
 
 Install the polyfill even when the browser already supports the API natively (default false).
 
@@ -26,7 +26,7 @@ Install the polyfill even when the browser already supports the API natively (de
 
 > `optional` **moduleSpecifier?**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L26)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L26)
 
 Module specifier to lazily import the polyfill from (default `"three-html-render"`).
 
@@ -36,6 +36,6 @@ Module specifier to lazily import the polyfill from (default `"three-html-render
 
 > `optional` **polyfillModule?**: [`IHtmlInCanvasPolyfillModule`](IHtmlInCanvasPolyfillModule.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L28)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInCanvasPolyfill.ts#L28)
 
 A pre-imported polyfill module to use instead of dynamically importing one.

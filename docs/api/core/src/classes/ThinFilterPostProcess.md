@@ -6,7 +6,7 @@
 
 # Class: ThinFilterPostProcess
 
-Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L9)
+Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L9)
 
 Post process used to apply a kernel filter
 
@@ -20,7 +20,7 @@ Post process used to apply a kernel filter
 
 > **new ThinFilterPostProcess**(`name`, `engine?`, `options?`): `ThinFilterPostProcess`
 
-Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L35)
+Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L35)
 
 Constructs a new filter post process
 
@@ -58,7 +58,7 @@ Options to configure the effect
 
 > **alphaMode**: `number` = `Constants.ALPHA_DISABLE`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L356)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L356)
 
 Type of alpha mode to use when applying the effect (default: Engine.ALPHA_DISABLE). Used only if useAsPostProcess is true.
 
@@ -72,7 +72,7 @@ Type of alpha mode to use when applying the effect (default: Engine.ALPHA_DISABL
 
 > **kernelMatrix**: [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L50)
+Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L50)
 
 The matrix to be applied to the image
 
@@ -82,7 +82,7 @@ The matrix to be applied to the image
 
 > **onApplyObservable**: [`Observable`](Observable.md)\<\{ \}\>
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L388)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:388](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L388)
 
 Event that is fired (only when the EffectWrapper is used with an EffectRenderer) right before the effect is drawn (should be used to update uniforms)
 
@@ -96,7 +96,7 @@ Event that is fired (only when the EffectWrapper is used with an EffectRenderer)
 
 > **onEffectCreatedObservable**: [`Observable`](Observable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L362)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:362](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L362)
 
 Executed when the effect is created
 
@@ -114,7 +114,7 @@ effect that was created for this effect wrapper
 
 > `readonly` **options**: `Required`\<[`NonNullableFields`](../type-aliases/NonNullableFields.md)\<[`EffectWrapperCreationOptions`](../interfaces/EffectWrapperCreationOptions.md)\>\>
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L367)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:367](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L367)
 
 Options used to create the effect wrapper
 
@@ -128,7 +128,7 @@ Options used to create the effect wrapper
 
 > `static` **ForceGLSL**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L320)
 
 Force code to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -143,7 +143,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > `readonly` `static` **FragmentUrl**: `"filter"` = `"filter"`
 
-Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L13)
+Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L13)
 
 The fragment shader url
 
@@ -153,7 +153,7 @@ The fragment shader url
 
 > `readonly` `static` **Uniforms**: `string`[]
 
-Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L18)
+Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L18)
 
 The list of uniforms used by the effect
 
@@ -165,7 +165,7 @@ The list of uniforms used by the effect
 
 > **get** **drawWrapper**(): [`DrawWrapper`](DrawWrapper.md)
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L381)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L381)
 
 Get the draw wrapper associated with the effect wrapper
 
@@ -187,7 +187,7 @@ the draw wrapper associated with the effect wrapper
 
 > **get** **effect**(): [`Effect`](Effect.md)
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L393)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:393](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L393)
 
 The underlying effect
 
@@ -199,7 +199,7 @@ The underlying effect
 
 > **set** **effect**(`effect`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L397)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L397)
 
 ##### Parameters
 
@@ -223,7 +223,7 @@ Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:397](https:/
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L345)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:345](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L345)
 
 Gets or sets the name of the effect wrapper
 
@@ -235,7 +235,7 @@ Gets or sets the name of the effect wrapper
 
 > **set** **name**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L349)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:349](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L349)
 
 ##### Parameters
 
@@ -257,7 +257,7 @@ Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:349](https:/
 
 > **bind**(`noDefaultBindings?`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L52)
+Defined in: [packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/thinFilterPostProcess.ts#L52)
 
 Binds the data to the effect.
 
@@ -283,7 +283,7 @@ if true, the default bindings (scale and alpha mode) will not be set.
 
 > **dispose**(`_ignored?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:654](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L654)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:654](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L654)
 
 Disposes of the effect wrapper
 
@@ -309,7 +309,7 @@ kept for backward compatibility
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L373)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L373)
 
 Get a value indicating if the effect is ready to be used
 
@@ -329,7 +329,7 @@ true if the post-process is ready (shader is compiled)
 
 > **updateEffect**(`defines?`, `uniforms?`, `samplers?`, `indexParameters?`, `onCompiled?`, `onError?`, `vertexUrl?`, `fragmentUrl?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L549)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L549)
 
 Updates the effect with the current effect wrapper compile time values and recompiles the shader.
 
@@ -397,7 +397,7 @@ The url of the fragment shader to be used (default: the one given at constructio
 
 > `static` **RegisterShaderCodeProcessing**(`effectWrapperName`, `customShaderCodeProcessing?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effectRenderer.pure.ts#L329)
+Defined in: [packages/dev/core/src/Materials/effectRenderer.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effectRenderer.pure.ts#L329)
 
 Registers a shader code processing with an effect wrapper name.
 

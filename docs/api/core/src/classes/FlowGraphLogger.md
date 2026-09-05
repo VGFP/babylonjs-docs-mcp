@@ -6,7 +6,7 @@
 
 # Class: FlowGraphLogger
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L52)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L52)
 
 This class will be responsible of logging the flow graph activity.
 Note that using this class might reduce performance, as it will log every action, according to the configuration.
@@ -28,7 +28,7 @@ It attaches to a flow graph and uses meta-programming to replace the methods of 
 
 > **log**: [`IFlowGraphLogItem`](../interfaces/IFlowGraphLogItem.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L62)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L62)
 
 The log cache of the flow graph.
 Each item is a logged item, in order of execution.
@@ -39,7 +39,7 @@ Each item is a logged item, in order of execution.
 
 > **logToConsole**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L56)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L56)
 
 Whether to log to the console.
 
@@ -49,7 +49,7 @@ Whether to log to the console.
 
 > **addLogItem**(`item`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L64)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L64)
 
 #### Parameters
 
@@ -67,7 +67,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:64](https://gith
 
 > **getItemsOfType**(`action`): [`IFlowGraphLogItem`](../interfaces/IFlowGraphLogItem.md)[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L79)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphLogger.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphLogger.ts#L79)
 
 #### Parameters
 

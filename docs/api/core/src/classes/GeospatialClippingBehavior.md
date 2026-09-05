@@ -6,7 +6,7 @@
 
 # Class: GeospatialClippingBehavior
 
-Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L14)
+Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L14)
 
 The GeospatialClippingBehavior automatically adjusts the near and far clip planes of a GeospatialCamera
 based on altitude to optimize depth buffer precision for geospatial applications.
@@ -36,7 +36,7 @@ The far plane is calculated based on the visible horizon distance.
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`GeospatialCamera`](GeospatialCamera.md)\>
 
-Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L28)
+Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L28)
 
 Gets the attached camera.
 
@@ -58,7 +58,7 @@ Gets the current attached target
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L18)
+Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L18)
 
 Gets the name of the behavior.
 
@@ -78,7 +78,7 @@ gets or sets behavior's name
 
 > **attach**(`camera`): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L43)
+Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L43)
 
 Attaches the behavior to its geospatial camera.
 
@@ -104,7 +104,7 @@ Defines the camera to attach the behavior to
 
 > **detach**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L55)
+Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L55)
 
 Detaches the behavior from its current geospatial camera.
 
@@ -122,7 +122,7 @@ Detaches the behavior from its current geospatial camera.
 
 > **init**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L35)
+Defined in: [packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Cameras/geospatialClippingBehavior.ts#L35)
 
 Initializes the behavior.
 

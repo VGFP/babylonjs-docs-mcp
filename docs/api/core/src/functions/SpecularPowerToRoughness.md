@@ -8,7 +8,7 @@
 
 > **SpecularPowerToRoughness**(`specularPower`, `p0?`, `p1?`, `p2?`, `p3?`): `number`
 
-Defined in: [packages/dev/core/src/Helpers/materialConversionHelper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Helpers/materialConversionHelper.ts#L27)
+Defined in: [packages/dev/core/src/Helpers/materialConversionHelper.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Helpers/materialConversionHelper.ts#L27)
 
 Evaluates a specified specular power value to determine the appropriate roughness value,
 based on a pre-defined cubic bezier curve with specular on the abscissa axis (x-axis)

@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphBlockParseOptions
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L16)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L16)
 
 Options for parsing a block.
 
@@ -16,7 +16,7 @@ Options for parsing a block.
 
 > `optional` **assetsContainer?**: `IAssetContainer`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L29)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L29)
 
 The assets container to use when loading assets.
 
@@ -26,7 +26,7 @@ The assets container to use when loading assets.
 
 > `optional` **pathConverter?**: [`IPathToObjectConverter`](IPathToObjectConverter.md)\<[`IObjectAccessor`](IObjectAccessor.md)\<`any`, `any`, `any`\>\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L37)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L37)
 
 The path converter to use to convert the path to an object accessor.
 
@@ -36,7 +36,7 @@ The path converter to use to convert the path to an object accessor.
 
 > **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L33)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L33)
 
 The scene that the block is being parsed in.
 
@@ -46,7 +46,7 @@ The scene that the block is being parsed in.
 
 > `optional` **valueParseFunction?**: (`key`, `serializationObject`, `assetsContainer`, `scene`) => `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L25)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L25)
 
 A function that parses a value from a serialization object.
 

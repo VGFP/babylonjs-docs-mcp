@@ -6,7 +6,7 @@
 
 # Interface: ICreateCapsuleOptions
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L223)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L223)
 
 The options Interface for creating a Capsule Mesh
 
@@ -16,7 +16,7 @@ The options Interface for creating a Capsule Mesh
 
 > `optional` **bottomCapSubdivisions?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L252)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L252)
 
 Overwrite for the bottom capSubdivisions.
 
@@ -26,7 +26,7 @@ Overwrite for the bottom capSubdivisions.
 
 > `optional` **capSubdivisions?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L240)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L240)
 
 Number of sub segments on the cap sections of the capsule running parallel to orientation.
 
@@ -36,7 +36,7 @@ Number of sub segments on the cap sections of the capsule running parallel to or
 
 > `optional` **height?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L234)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L234)
 
 Height or Length of the capsule.
 
@@ -46,7 +46,7 @@ Height or Length of the capsule.
 
 > `optional` **orientation?**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L225)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L225)
 
 The Orientation of the capsule.  Default : Vector3.Up()
 
@@ -56,7 +56,7 @@ The Orientation of the capsule.  Default : Vector3.Up()
 
 > `optional` **radius?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L237)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:237](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L237)
 
 Radius of the capsule.
 
@@ -66,7 +66,7 @@ Radius of the capsule.
 
 > `optional` **radiusBottom?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L246)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L246)
 
 Overwrite for the bottom radius.
 
@@ -76,7 +76,7 @@ Overwrite for the bottom radius.
 
 > `optional` **radiusTop?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L243)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:243](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L243)
 
 Overwrite for the top radius.
 
@@ -86,7 +86,7 @@ Overwrite for the top radius.
 
 > `optional` **subdivisions?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L228)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L228)
 
 Number of sub segments on the tube section of the capsule running parallel to orientation.
 
@@ -96,7 +96,7 @@ Number of sub segments on the tube section of the capsule running parallel to or
 
 > `optional` **tessellation?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L231)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L231)
 
 Number of cylindrical segments on the capsule.
 
@@ -106,7 +106,7 @@ Number of cylindrical segments on the capsule.
 
 > `optional` **topCapSubdivisions?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L249)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L249)
 
 Overwrite for the top capSubdivisions.
 
@@ -116,6 +116,6 @@ Overwrite for the top capSubdivisions.
 
 > `optional` **updatable?**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L255)
+Defined in: [packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/capsuleBuilder.pure.ts#L255)
 
 Internal geometry is supposed to change once created.

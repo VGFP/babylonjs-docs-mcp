@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_transmission
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L17)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L17)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_transmission/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_tr
 
 > **new KHR\_materials\_transmission**(`exporter`): `KHR_materials_transmission`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L31)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L31)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_tr
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L22)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L22)
 
 Defines whether this extension is enabled
 
@@ -52,7 +52,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_materials_transmission"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L19)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L19)
 
 Name of this extension
 
@@ -66,7 +66,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L25)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L25)
 
 Defines whether this extension is required
 
@@ -80,7 +80,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L36)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L36)
 
 Dispose
 
@@ -98,7 +98,7 @@ Dispose
 
 > `optional` **postExportMaterialAdditionalTexturesAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)[]\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L50)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L50)
 
 After exporting a material, deal with additional textures
 
@@ -138,7 +138,7 @@ array of additional textures to export
 
 > `optional` **postExportMaterialAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<`IMaterial`\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L96)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_transmission.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_transmission.pure.ts#L96)
 
 After exporting a material
 

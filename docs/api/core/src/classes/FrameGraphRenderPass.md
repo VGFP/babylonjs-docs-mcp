@@ -6,7 +6,7 @@
 
 # Class: FrameGraphRenderPass
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L29)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L29)
 
 Render pass used to render objects.
 
@@ -20,7 +20,7 @@ Render pass used to render objects.
 
 > **depthReadOnly**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L69)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L69)
 
 If true, the depth attachment will be read-only (may allow some optimizations in WebGPU)
 
@@ -30,7 +30,7 @@ If true, the depth attachment will be read-only (may allow some optimizations in
 
 > **disabled**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/pass.ts#L13)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/pass.ts#L13)
 
 Whether the pass is disabled. Disabled passes will be skipped during execution.
 
@@ -44,7 +44,7 @@ Whether the pass is disabled. Disabled passes will be skipped during execution.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/pass.ts#L17)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/pass.ts#L17)
 
 The name of the pass.
 
@@ -58,7 +58,7 @@ The name of the pass.
 
 > **stencilReadOnly**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L74)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L74)
 
 If true, the stencil attachment will be read-only (may allow some optimizations in WebGPU)
 
@@ -70,7 +70,7 @@ If true, the stencil attachment will be read-only (may allow some optimizations 
 
 > **get** **frameGraphRenderTarget**(): `FrameGraphRenderTarget`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L62)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L62)
 
 Gets the frame graph render target used by the render pass.
 
@@ -86,7 +86,7 @@ Gets the frame graph render target used by the render pass.
 
 > **get** **renderTarget**(): `number` \| `number`[] \| `undefined`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L48)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L48)
 
 Gets the handle(s) of the render target(s) used by the render pass.
 
@@ -102,7 +102,7 @@ Gets the handle(s) of the render target(s) used by the render pass.
 
 > **get** **renderTargetDepth**(): `number` \| `undefined`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L55)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L55)
 
 Gets the handle of the render target depth used by the render pass.
 
@@ -116,7 +116,7 @@ Gets the handle of the render target depth used by the render pass.
 
 > **addDependencies**(`dependencies?`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L102)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L102)
 
 Adds dependencies to the render pass.
 
@@ -138,7 +138,7 @@ The dependencies to add.
 
 > **collectDependencies**(`dependencies`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L120)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L120)
 
 Collects the dependencies of the render pass.
 
@@ -160,7 +160,7 @@ The set of dependencies to update.
 
 > **setExecuteFunc**(`func`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/pass.ts#L35)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/pass.ts#L35)
 
 Sets the function to execute when the pass is executed
 
@@ -186,7 +186,7 @@ The function to execute when the pass is executed
 
 > **setInitializeFunc**(`func`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/pass.ts#L27)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/pass.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/pass.ts#L27)
 
 Initializes the pass.
 This function is called once after the frame graph has been built
@@ -213,7 +213,7 @@ The function to initialize the pass.
 
 > **setOutputLayerAndFaceIndices**(`indices`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L147)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L147)
 
 Sets the output layer and face indices for multi-render target rendering.
 
@@ -235,7 +235,7 @@ The array of layer and face indices.
 
 > **setRenderTarget**(`renderTargetHandle?`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L86)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L86)
 
 Sets the render target(s) to use for rendering.
 
@@ -257,7 +257,7 @@ The render target to use for rendering, or an array of render targets to use for
 
 > **setRenderTargetDepth**(`renderTargetHandle?`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L94)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:94](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L94)
 
 Sets the render target depth to use for rendering.
 
@@ -279,7 +279,7 @@ The render target depth to use for rendering.
 
 > `static` **IsRenderPass**(`pass`): `pass is FrameGraphRenderPass`
 
-Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L41)
+Defined in: [packages/dev/core/src/FrameGraph/Passes/renderPass.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Passes/renderPass.ts#L41)
 
 Checks if a pass is a render pass.
 

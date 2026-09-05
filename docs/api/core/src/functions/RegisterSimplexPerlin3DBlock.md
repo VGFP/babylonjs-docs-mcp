@@ -8,7 +8,7 @@
 
 > **RegisterSimplexPerlin3DBlock**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Node/Blocks/simplexPerlin3DBlock.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/simplexPerlin3DBlock.pure.ts#L147)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/simplexPerlin3DBlock.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/Blocks/simplexPerlin3DBlock.pure.ts#L147)
 
 Register side effects for simplexPerlin3DBlock.
 Safe to call multiple times; only the first call has an effect.

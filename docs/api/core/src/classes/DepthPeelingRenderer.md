@@ -6,7 +6,7 @@
 
 # Class: DepthPeelingRenderer
 
-Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L37)
+Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L37)
 
 The depth peeling renderer that performs
 Order independant transparency (OIT).
@@ -18,7 +18,7 @@ This should not be instanciated directly, as it is part of a scene component
 
 > **new DepthPeelingRenderer**(`scene`, `passCount?`): `DepthPeelingRenderer`
 
-Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L50)
+Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L50)
 
 Instanciates the depth peeling renderer
 
@@ -54,7 +54,7 @@ The depth peeling renderer
 
 > **get** **blendOutput**(): [`Nullable`](../type-aliases/Nullable.md)\<[`RenderTargetWrapper`](RenderTargetWrapper.md)\>
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L129)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L129)
 
 Sets the render target wrapper we will blend the transparent objects onto
 
@@ -66,7 +66,7 @@ Sets the render target wrapper we will blend the transparent objects onto
 
 > **set** **blendOutput**(`blendOutput`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L133)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L133)
 
 ##### Parameters
 
@@ -90,7 +90,7 @@ Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:13
 
 > **get** **passCount**(): `number`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L66)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L66)
 
 Number of depth peeling passes. As we are using dual depth peeling, each pass two levels of transparency are processed.
 
@@ -102,7 +102,7 @@ Number of depth peeling passes. As we are using dual depth peeling, each pass tw
 
 > **set** **passCount**(`count`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L70)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L70)
 
 ##### Parameters
 
@@ -126,7 +126,7 @@ Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:70
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L121)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L121)
 
 Gets the shader language used in this renderer
 
@@ -146,7 +146,7 @@ Gets the shader language used in this renderer
 
 > **get** **useRenderPasses**(): `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L82)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L82)
 
 Instructs the renderer to use render passes. It is an optimization that makes the rendering faster for some engines (like WebGPU) but that consumes more memory, so it is disabled by default.
 
@@ -158,7 +158,7 @@ Instructs the renderer to use render passes. It is an optimization that makes th
 
 > **set** **useRenderPasses**(`usePasses`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L86)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L86)
 
 ##### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:86
 
 > **addExcludedMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L98)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L98)
 
 Add a mesh in the exclusion list to prevent it to be handled by the depth peeling renderer
 
@@ -206,7 +206,7 @@ The mesh to exclude from the depth peeling renderer
 
 > **bind**(`effect`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:346](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L346)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:346](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L346)
 
 Binds depth peeling textures on an effect
 
@@ -232,7 +232,7 @@ The effect to bind textures on
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:582](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L582)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:582](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L582)
 
 Disposes the depth peeling renderer and associated resources
 
@@ -250,7 +250,7 @@ Disposes the depth peeling renderer and associated resources
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L165)
+Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L165)
 
 Checks if the depth peeling renderer is ready to render transparent meshes
 
@@ -270,7 +270,7 @@ true if the depth peeling renderer is ready to render the transparent meshes
 
 > **removeExcludedMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L108)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L108)
 
 Remove a mesh from the exclusion list of the depth peeling renderer
 
@@ -296,7 +296,7 @@ The mesh to remove
 
 > **render**(`transparentSubMeshes`): [`SmartArray`](SmartArray.md)\<[`SubMesh`](SubMesh.md)\>
 
-Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L430)
+Defined in: [packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts:430](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/thinDepthPeelingRenderer.pure.ts#L430)
 
 Renders transparent submeshes with depth peeling
 
@@ -324,7 +324,7 @@ The array of submeshes that could not be handled by this renderer
 
 > **setPrePassRenderer**(`prePassRenderer`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L140)
+Defined in: [packages/dev/core/src/Rendering/depthPeelingRenderer.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/depthPeelingRenderer.ts#L140)
 
 Links to the prepass renderer
 

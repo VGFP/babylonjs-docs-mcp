@@ -6,7 +6,7 @@
 
 # Enumeration: TextWrapping
 
-Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L14)
+Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L14)
 
 Enum that determines the text-wrapping mode to use.
 
@@ -16,7 +16,7 @@ Enum that determines the text-wrapping mode to use.
 
 > **Clip**: `0`
 
-Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L18)
+Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L18)
 
 Clip the text when it's larger than Control.width; this is the default mode.
 
@@ -26,7 +26,7 @@ Clip the text when it's larger than Control.width; this is the default mode.
 
 > **Ellipsis**: `2`
 
-Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L28)
+Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L28)
 
 Ellipsize the text, i.e. shrink with trailing … when text is larger than Control.width.
 
@@ -36,7 +36,7 @@ Ellipsize the text, i.e. shrink with trailing … when text is larger than Contr
 
 > **HTML**: `4`
 
-Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L38)
+Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L38)
 
 Use HTML to wrap the text. This is the only mode that supports east-asian languages.
 
@@ -46,7 +46,7 @@ Use HTML to wrap the text. This is the only mode that supports east-asian langua
 
 > **WordWrap**: `1`
 
-Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L23)
+Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L23)
 
 Wrap the text word-wise, i.e. try to add line-breaks at word boundary to fit within Control.width.
 
@@ -56,6 +56,6 @@ Wrap the text word-wise, i.e. try to add line-breaks at word boundary to fit wit
 
 > **WordWrapEllipsis**: `3`
 
-Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L33)
+Defined in: [packages/dev/gui/src/2D/controls/textBlock.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/textBlock.pure.ts#L33)
 
 Wrap the text word-wise and clip the text when the text's height is larger than the Control.height, and shrink the last line with trailing … .

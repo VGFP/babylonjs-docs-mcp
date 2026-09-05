@@ -6,7 +6,7 @@
 
 # Enumeration: HandleState
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L14)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L14)
 
 State of the handle regarding user interaction
 
@@ -16,7 +16,7 @@ State of the handle regarding user interaction
 
 > **DRAG**: `2`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L26)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L26)
 
 Handle is dragged
 
@@ -26,7 +26,7 @@ Handle is dragged
 
 > **HOVER**: `1`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L22)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L22)
 
 Handle is hovered
 
@@ -36,6 +36,6 @@ Handle is hovered
 
 > **IDLE**: `0`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L18)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L18)
 
 Handle is idle

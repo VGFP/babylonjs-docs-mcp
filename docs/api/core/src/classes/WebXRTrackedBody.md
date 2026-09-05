@@ -6,7 +6,7 @@
 
 # Class: WebXRTrackedBody
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:850](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L850)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:850](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L850)
 
 Represents a tracked body during a WebXR session.
 
@@ -34,7 +34,7 @@ Coordinate-system handling:
 
 > **new WebXRTrackedBody**(`scene`, `bodyMesh?`, `rigMapping?`, `jointScaleFactor?`, `preserveBindPoseBonePositions?`, `useBoneOrientationOffsets?`, `aimChildOverrides?`, `jointLocalRotationOffset?`): `WebXRTrackedBody`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1164)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1164](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1164)
 
 Construct a new tracked body instance.
 
@@ -98,7 +98,7 @@ Optional rotation re-basing each XR joint's local frame (e.g. Z-along-bone → Y
 
 > **autoCaptureBindOnFirstFrame**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L976)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L976)
 
 When `true` (default), the first tracked frame after the feature
 attaches is used as the "rest" pose for delta-from-bind retargeting.
@@ -110,7 +110,7 @@ Set to `false` to require an explicit [captureTrackedBind](#capturetrackedbind) 
 
 > **jointLocalRotationOffset**: [`Nullable`](../type-aliases/Nullable.md)\<[`Quaternion`](Quaternion.md)\> = `null`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1062](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1062)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1062](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1062)
 
 Runtime-mutable rotation applied in each tracked joint's local frame to
 re-base XR joint axes (e.g., "+Z-along-bone" → "+Y-along-bone").
@@ -122,7 +122,7 @@ re-base XR joint axes (e.g., "+Z-along-bone" → "+Y-along-bone").
 
 > `readonly` **onBodyMeshSetObservable**: [`Observable`](Observable.md)\<`WebXRTrackedBody`\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:854](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L854)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:854](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L854)
 
 Fired when the body mesh is changed via [setBodyMesh](#setbodymesh).
 
@@ -134,7 +134,7 @@ Fired when the body mesh is changed via [setBodyMesh](#setbodymesh).
 
 > **get** **bodyMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1090](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1090)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1090](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1090)
 
 Get the current body mesh (if any).
 
@@ -150,7 +150,7 @@ Get the current body mesh (if any).
 
 > **get** **jointScaleFactor**(): `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1098](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1098)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1098](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1098)
 
 Get or set the scale factor for local joint offsets.
 
@@ -166,7 +166,7 @@ Get or set the scale factor for local joint offsets.
 
 > **set** **jointScaleFactor**(`value`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1102)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1102)
 
 ##### Parameters
 
@@ -186,7 +186,7 @@ Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1102](h
 
 > **get** **jointTransforms**(): readonly [`TransformNode`](TransformNode.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1119)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1119](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1119)
 
 Returns the array of transform nodes representing each body joint.
 The order matches [WebXRBodyTracking.AllBodyJoints](WebXRBodyTracking.md#allbodyjoints); use
@@ -210,7 +210,7 @@ readonly [`TransformNode`](TransformNode.md)[]
 
 > **captureTrackedBind**(): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1862](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1862)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1862](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1862)
 
 Capture the current tracked-joint desired-final rotations and positions
 as the "rest pose" for delta-from-bind retargeting.
@@ -235,7 +235,7 @@ first tracked frame — disable via [autoCaptureBindOnFirstFrame](#autocapturebi
 
 > **clearTrackedBind**(): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1870](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1870)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1870](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1870)
 
 Clear any captured bind, reverting subsequent frames to the fallback
 direct-retarget path (or re-triggering auto-capture on the next frame).
@@ -250,7 +250,7 @@ direct-retarget path (or re-triggering auto-capture on the next frame).
 
 > **dispose**(`disposeMesh?`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2365)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2365)
 
 Dispose of this tracked body and its resources.
 
@@ -276,7 +276,7 @@ If `true`, the body mesh and its skeleton are disposed as well.
 
 > **getBodyPartTransforms**(`part`, `result?`): [`TransformNode`](TransformNode.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1140)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1140)
 
 Get all joint transform nodes that belong to a given body part.
 
@@ -307,7 +307,7 @@ An array of TransformNodes for that body part.
 
 > **getJointTransform**(`jointName`): [`TransformNode`](TransformNode.md) \| `undefined`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1128)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1128](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1128)
 
 Get the transform node for a specific body joint.
 
@@ -331,7 +331,7 @@ The transform node corresponding to that joint, or `undefined` if not found.
 
 > **replayRawJointMatrices**(`rawMatrices`, `isAlreadyLhs?`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1654](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1654)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1654](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1654)
 
 Replay a pre-captured joint matrix set through the retargeting
 pipeline as if it had just been delivered by an XR frame.
@@ -365,7 +365,7 @@ Set to `true` if matrices are already LHS-converted.
 
 > **setBodyMesh**(`bodyMesh`, `rigMapping?`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1205)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1205](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1205)
 
 Attach (or replace) a rigged body mesh.
 
@@ -398,7 +398,7 @@ An optional mapping from [WebXRBodyJoint](../enumerations/WebXRBodyJoint.md) to 
 
 > **snapshotFrame**(): `string`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2328](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2328)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2328](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2328)
 
 Capture a snapshot of the current frame's raw XR joint matrices and
 skeleton metadata.  Returns a JSON string that can be used offline to
@@ -425,7 +425,7 @@ A JSON string with the snapshot data.
 
 > **snapshotFrameToClipboardAsync**(): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2346](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2346)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:2346](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L2346)
 
 Capture a snapshot and copy it to the system clipboard.
 Logs to the console on success or failure.
@@ -442,7 +442,7 @@ A promise that resolves when the copy completes.
 
 > **updateFromXRFrame**(`xrFrame`, `referenceSpace`, `xrCameraParent`): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1556](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1556)
+Defined in: [packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts:1556](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBodyTracking.pure.ts#L1556)
 
 Update joint transforms from the current XR frame.
 

@@ -6,7 +6,7 @@
 
 # Class: CustomOptimization
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L250)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:250](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L250)
 
 Defines an optimization based on user defined callback.
 
@@ -24,7 +24,7 @@ More details at https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneO
 
 > **new CustomOptimization**(`priority?`): `CustomOptimization`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L37)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L37)
 
 Creates the SceneOptimization object
 
@@ -50,7 +50,7 @@ defines the priority of this optimization (0 by default which means first in the
 
 > **onApply**: (`scene`, `optimizer`) => `boolean`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L254)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:254](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L254)
 
 Callback called to apply the custom optimization.
 
@@ -74,7 +74,7 @@ Callback called to apply the custom optimization.
 
 > **onGetDescription**: () => `string`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L259)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:259](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L259)
 
 Callback called to get custom description
 
@@ -88,7 +88,7 @@ Callback called to get custom description
 
 > **priority**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L41)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L41)
 
 [0] Defines the priority of this optimization (0 by default which means first in the list)
 
@@ -102,7 +102,7 @@ Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:41](https://github.com
 
 > **apply**(`scene`, `optimizer`): `boolean`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:279](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L279)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:279](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L279)
 
 This function will be called by the SceneOptimizer when its priority is reached in order to apply the change required by the current optimization
 
@@ -136,7 +136,7 @@ true if everything that can be done was applied
 
 > **getDescription**(): `string`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:265](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L265)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:265](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L265)
 
 Gets a string describing the action executed by the current optimization
 

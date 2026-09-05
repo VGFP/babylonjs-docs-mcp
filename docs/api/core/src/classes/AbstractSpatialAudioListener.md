@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractSpatialAudioListener
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L62)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L62)
 
 Abstract class representing the spatial audio `listener` property on an audio engine.
 
@@ -30,7 +30,7 @@ Abstract class representing the spatial audio `listener` property on an audio en
 
 > `abstract` **attachedNode**: [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L71)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:71](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L71)
 
 The scene node this listener is currently attached to, or `null` if not attached.
 
@@ -40,7 +40,7 @@ The scene node this listener is currently attached to, or `null` if not attached
 
 > `abstract` **isAttached**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L66)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L66)
 
 Whether the listener is attached to a camera, mesh or transform node.
 
@@ -50,7 +50,7 @@ Whether the listener is attached to a camera, mesh or transform node.
 
 > `abstract` **minUpdateTime**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L77)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L77)
 
 The minimum update time in seconds of the listener if it is attached to a mesh, scene or transform node. Defaults to `0`.
 - The listener's position and rotation will not update faster than this time, but they may update slower depending on the frame rate.
@@ -61,7 +61,7 @@ The minimum update time in seconds of the listener if it is attached to a mesh, 
 
 > `abstract` **position**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L82)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L82)
 
 The listener position. Defaults to (0, 0, 0).
 
@@ -71,7 +71,7 @@ The listener position. Defaults to (0, 0, 0).
 
 > `abstract` **rotation**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L87)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L87)
 
 The listener rotation, as Euler angles. Defaults to (0, 0, 0).
 
@@ -81,7 +81,7 @@ The listener rotation, as Euler angles. Defaults to (0, 0, 0).
 
 > `abstract` **rotationQuaternion**: [`Quaternion`](Quaternion.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L92)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L92)
 
 The listener rotation, as a quaternion. Defaults to (0, 0, 0, 1).
 
@@ -91,7 +91,7 @@ The listener rotation, as a quaternion. Defaults to (0, 0, 0, 1).
 
 > `abstract` **attach**(`sceneNode`, `useBoundingBox?`, `attachmentType?`): `void`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L104)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L104)
 
 Attaches to a scene node.
 
@@ -128,7 +128,7 @@ Whether to attach to the node's position and/or rotation. Defaults to `PositionA
 
 > `abstract` **detach**(): `void`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L109)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L109)
 
 Detaches from the scene node if attached.
 
@@ -142,7 +142,7 @@ Detaches from the scene node if attached.
 
 > `abstract` **update**(): `void`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L116)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L116)
 
 Updates the position and rotation of the associated audio engine object in the audio rendering graph.
 

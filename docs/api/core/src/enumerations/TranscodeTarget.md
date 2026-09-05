@@ -6,7 +6,7 @@
 
 # Enumeration: TranscodeTarget
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L9)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L9)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:9](htt
 
 > **ASTC\_4x4\_RGBA**: `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L12)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L12)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:12](ht
 
 > **ASTC\_4X4\_RGBA**: `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L10)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L10)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:10](ht
 
 > **BC1\_RGB**: `3`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L15)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L15)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:15](ht
 
 > **BC3\_RGBA**: `2`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L14)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L14)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:14](ht
 
 > **BC7\_RGBA**: `1`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L13)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L13)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:13](ht
 
 > **ETC1\_RGB**: `7`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L19)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L19)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:19](ht
 
 > **ETC2\_RGBA**: `6`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L18)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L18)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:18](ht
 
 > **PVRTC1\_4\_RGB**: `5`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L17)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L17)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:17](ht
 
 > **PVRTC1\_4\_RGBA**: `4`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L16)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L16)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:16](ht
 
 > **R8**: `9`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L21)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L21)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:21](ht
 
 > **RG8**: `10`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L22)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L22)
 
 ***
 
@@ -102,4 +102,4 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:22](ht
 
 > **RGBA32**: `8`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L20)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L20)

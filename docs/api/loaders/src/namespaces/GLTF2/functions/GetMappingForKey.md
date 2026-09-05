@@ -8,7 +8,7 @@
 
 > **GetMappingForKey**(`key`): [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`any`, `any`, `any`\> \| `undefined`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:1733](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L1733)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:1733](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L1733)
 
 This function will return the object accessor for the given key in the object model
 If the key is not found, it will return undefined

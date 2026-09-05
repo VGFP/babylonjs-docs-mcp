@@ -6,7 +6,7 @@
 
 # Interface: IGLTFObjectModelTree
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L42)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L42)
 
 Top-level shape of the glTF Object Model accessor tree. Each property
 describes a navigable section of the JSON-Pointer namespace (e.g. `/nodes`,
@@ -19,7 +19,7 @@ other extensions consume via [GetMappingForKey](../functions/GetMappingForKey.md
 
 > **animations**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L54)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L54)
 
 Accessor tree for `/animations`.
 
@@ -37,7 +37,7 @@ Accessor tree for `/animations`.
 
 > **cameras**: [`IGLTFObjectModelTreeCamerasObject`](IGLTFObjectModelTreeCamerasObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L46)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L46)
 
 Accessor tree for `/cameras`.
 
@@ -47,7 +47,7 @@ Accessor tree for `/cameras`.
 
 > **extensions**: [`IGLTFObjectModelTreeExtensionsObject`](IGLTFObjectModelTreeExtensionsObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L52)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L52)
 
 Accessor tree for `/extensions` (root-level glTF extensions).
 
@@ -57,7 +57,7 @@ Accessor tree for `/extensions` (root-level glTF extensions).
 
 > **materials**: [`IGLTFObjectModelTreeMaterialsObject`](IGLTFObjectModelTreeMaterialsObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L50)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L50)
 
 Accessor tree for `/materials`.
 
@@ -67,7 +67,7 @@ Accessor tree for `/materials`.
 
 > **meshes**: [`IGLTFObjectModelTreeMeshesObject`](IGLTFObjectModelTreeMeshesObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L59)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L59)
 
 Accessor tree for `/meshes`.
 
@@ -77,7 +77,7 @@ Accessor tree for `/meshes`.
 
 > **nodes**: [`IGLTFObjectModelTreeNodesObject`](IGLTFObjectModelTreeNodesObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L48)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L48)
 
 Accessor tree for `/nodes`.
 
@@ -87,7 +87,7 @@ Accessor tree for `/nodes`.
 
 > **scene**: `object` & [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<`number` \| `undefined`, `any`, `number`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L44)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L44)
 
 Read-only accessor for the active scene index (`/scene`).
 
@@ -103,7 +103,7 @@ Read-only accessor for the active scene index (`/scene`).
 
 > **scenes**: [`IGLTFObjectModelTreeScenesObject`](IGLTFObjectModelTreeScenesObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L61)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L61)
 
 Accessor tree for `/scenes`.
 
@@ -113,6 +113,6 @@ Accessor tree for `/scenes`.
 
 > **skins**: [`IGLTFObjectModelTreeSkinsObject`](IGLTFObjectModelTreeSkinsObject.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L63)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L63)
 
 Accessor tree for `/skins`.

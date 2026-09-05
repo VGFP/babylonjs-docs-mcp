@@ -6,7 +6,7 @@
 
 # Interface: IGaussianSplattingDebugOptions
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L49)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L49)
 
 Per-part debug options for compound Gaussian splat meshes.
 Each field is optional; unset fields fall back to the global setting on the plugin,
@@ -18,7 +18,7 @@ and if that is also unset, a neutral value is used (no culling, full SH, etc.).
 
 > **clippingBox**: [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: [`Vector3`](../classes/Vector3.md); `min`: [`Vector3`](../classes/Vector3.md); \}\>
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L51)
 
 World-space axis-aligned clipping box, or null to disable.
 
@@ -28,7 +28,7 @@ World-space axis-aligned clipping box, or null to disable.
 
 > **opacityCulling**: [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L53)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L53)
 
 Opacity culling range [0..1], or null to disable.
 
@@ -38,7 +38,7 @@ Opacity culling range [0..1], or null to disable.
 
 > **opacitySaturate**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L59)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L59)
 
 When true, replaces Gaussian falloff with flat disk opacity.
 
@@ -48,7 +48,7 @@ When true, replaces Gaussian falloff with flat disk opacity.
 
 > **opacityScale**: `number`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L57)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L57)
 
 Scalar opacity multiplier. 1.0 = no change.
 
@@ -58,7 +58,7 @@ Scalar opacity multiplier. 1.0 = no change.
 
 > **shDc**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L61)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L61)
 
 Include the DC (base) SH color.
 
@@ -68,7 +68,7 @@ Include the DC (base) SH color.
 
 > **shOrder1**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L63)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L63)
 
 Include SH band 1 contribution.
 
@@ -78,7 +78,7 @@ Include SH band 1 contribution.
 
 > **shOrder2**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L65)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L65)
 
 Include SH band 2 contribution.
 
@@ -88,7 +88,7 @@ Include SH band 2 contribution.
 
 > **shOrder3**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L67)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L67)
 
 Include SH band 3 contribution.
 
@@ -98,7 +98,7 @@ Include SH band 3 contribution.
 
 > **shOrder4**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L69)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L69)
 
 Include SH band 4 contribution.
 
@@ -108,6 +108,6 @@ Include SH band 4 contribution.
 
 > **sizeCulling**: [`Nullable`](../type-aliases/Nullable.md)\<\{ `max`: `number`; `min`: `number`; \}\>
 
-Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L55)
+Defined in: [packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/GaussianSplatting/gaussianSplattingDebugMaterialPlugin.pure.ts#L55)
 
 Size culling range, or null to disable.

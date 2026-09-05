@@ -6,7 +6,7 @@
 
 # Class: KHR\_mesh\_quantization
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantization.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_mesh_quantization.pure.ts#L11)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantization.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_mesh_quantization.pure.ts#L11)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_mesh_quantization/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantizatio
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantization.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_mesh_quantization.pure.ts#L20)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantization.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_mesh_quantization.pure.ts#L20)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_mesh_quantization"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantization.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_mesh_quantization.pure.ts#L15)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_mesh\_quantization.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_mesh_quantization.pure.ts#L15)
 
 The name of this extension.
 

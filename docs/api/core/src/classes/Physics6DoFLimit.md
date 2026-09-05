@@ -6,7 +6,7 @@
 
 # Class: Physics6DoFLimit
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L143)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L143)
 
 This describes a single limit used by Physics6DoFConstraint
 
@@ -26,7 +26,7 @@ This describes a single limit used by Physics6DoFConstraint
 
 > **axis**: [`PhysicsConstraintAxis`](../enumerations/PhysicsConstraintAxis.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L147)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L147)
 
 The axis ID to limit
 
@@ -36,7 +36,7 @@ The axis ID to limit
 
 > `optional` **damping?**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L165)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L165)
 
 A constraint parameter that specifies damping.
 
@@ -46,7 +46,7 @@ A constraint parameter that specifies damping.
 
 > `optional` **maxLimit?**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L157)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L157)
 
 An optional maximum limit for the axis.
 Corresponds to a distance in meters for linear axes, an angle in radians for angular axes.
@@ -57,7 +57,7 @@ Corresponds to a distance in meters for linear axes, an angle in radians for ang
 
 > `optional` **minLimit?**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L152)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L152)
 
 An optional minimum limit for the axis.
 Corresponds to a distance in meters for linear axes, an angle in radians for angular axes.
@@ -68,6 +68,6 @@ Corresponds to a distance in meters for linear axes, an angle in radians for ang
 
 > `optional` **stiffness?**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L161)
+Defined in: [packages/dev/core/src/Physics/v2/physicsConstraint.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/physicsConstraint.ts#L161)
 
 The stiffness of the constraint.

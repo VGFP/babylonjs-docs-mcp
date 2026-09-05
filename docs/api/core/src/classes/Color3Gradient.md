@@ -6,7 +6,7 @@
 
 # Class: Color3Gradient
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L50)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L50)
 
 Class used to store color 3 gradient
 
@@ -20,7 +20,7 @@ Class used to store color 3 gradient
 
 > **new Color3Gradient**(`gradient`, `color`): `Color3Gradient`
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L56)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L56)
 
 Creates a new color3 gradient
 
@@ -48,7 +48,7 @@ gets or sets associated color
 
 > **color**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L64)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L64)
 
 Gets or sets the associated color
 
@@ -58,7 +58,7 @@ Gets or sets the associated color
 
 > **gradient**: `number`
 
-Defined in: [packages/dev/core/src/Misc/gradients.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/gradients.ts#L60)
+Defined in: [packages/dev/core/src/Misc/gradients.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/gradients.ts#L60)
 
 Gets or sets the gradient value (between 0 and 1)
 

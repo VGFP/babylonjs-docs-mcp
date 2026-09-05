@@ -6,7 +6,7 @@
 
 # Class: FrameGraph
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L31)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L31)
 
 Class used to implement a frame graph
 
@@ -20,7 +20,7 @@ Class used to implement a frame graph
 
 > **new FrameGraph**(`scene`, `debugTextures?`, `_linkedNodeRenderGraph?`): `FrameGraph`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L107)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L107)
 
 Constructs the frame graph
 
@@ -54,7 +54,7 @@ defines the linked node render graph (if any)
 
 > **name**: `string` = `"Frame Graph"`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L50)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L50)
 
 Name of the frame graph
 
@@ -64,7 +64,7 @@ Name of the frame graph
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<`FrameGraph`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L65)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L65)
 
 Observable raised when the node render graph is built
 
@@ -74,7 +74,7 @@ Observable raised when the node render graph is built
 
 > **optimizeTextureAllocation**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L60)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L60)
 
 Gets or sets a boolean indicating that texture allocation should be optimized (that is, reuse existing textures when possible to limit GPU memory usage) (default: true)
 
@@ -84,7 +84,7 @@ Gets or sets a boolean indicating that texture allocation should be optimized (t
 
 > **pausedExecution**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L91)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L91)
 
 Indicates whether the execution of the frame graph is paused (default is false)
 
@@ -94,7 +94,7 @@ Indicates whether the execution of the frame graph is paused (default is false)
 
 > `readonly` **textureManager**: [`FrameGraphTextureManager`](FrameGraphTextureManager.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L35)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L35)
 
 Gets the texture manager used by the frame graph
 
@@ -104,7 +104,7 @@ Gets the texture manager used by the frame graph
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L55)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L55)
 
 Gets the unique id of the frame graph
 
@@ -116,7 +116,7 @@ Gets the unique id of the frame graph
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L70)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L70)
 
 Gets the engine used by the frame graph
 
@@ -132,7 +132,7 @@ Gets the engine used by the frame graph
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L77)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L77)
 
 Gets the scene used by the frame graph
 
@@ -148,7 +148,7 @@ Gets the scene used by the frame graph
 
 > **get** **tasks**(): [`FrameGraphTask`](FrameGraphTask.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L84)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L84)
 
 Gets the list of tasks in the frame graph
 
@@ -162,7 +162,7 @@ Gets the list of tasks in the frame graph
 
 > **addObjectListPass**(`name`, `whenTaskDisabled?`): [`FrameGraphObjectListPass`](FrameGraphObjectListPass.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L211)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:219](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L219)
 
 Adds an object list pass to a task. This method can only be called during a Task.record execution.
 
@@ -192,7 +192,7 @@ The object list pass created
 
 > **addPass**(`name`, `whenTaskDisabled?`): [`FrameGraphPass`](FrameGraphPass.md)\<[`FrameGraphContext`](FrameGraphContext.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L191)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:199](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L199)
 
 Adds a pass to a task. This method can only be called during a Task.record execution.
 
@@ -222,7 +222,7 @@ The render pass created
 
 > **addRenderPass**(`name`, `whenTaskDisabled?`): [`FrameGraphRenderPass`](FrameGraphRenderPass.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:201](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L201)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:209](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L209)
 
 Adds a render pass to a task. This method can only be called during a Task.record execution.
 
@@ -252,7 +252,7 @@ The render pass created
 
 > **addTask**(`task`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L172)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:180](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L180)
 
 Adds a task to the frame graph
 
@@ -274,7 +274,7 @@ Task to add
 
 > **buildAsync**(`waitForReadiness?`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L252)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:260](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L260)
 
 Builds the frame graph.
 This method should be called after all tasks have been added to the frame graph (FrameGraph.addTask) and before the graph is executed (FrameGraph.execute).
@@ -297,7 +297,7 @@ If true, the method will wait for the frame graph to be ready before returning (
 
 > **clear**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:393](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L393)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:401](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L401)
 
 Clears the frame graph (remove the tasks and release the textures).
 The frame graph can be built again after this method is called.
@@ -312,7 +312,7 @@ The frame graph can be built again after this method is called.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:456](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L456)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:464](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L464)
 
 Disposes the frame graph
 
@@ -330,7 +330,7 @@ Disposes the frame graph
 
 > **execute**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L373)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:381](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L381)
 
 Executes the frame graph.
 
@@ -344,7 +344,7 @@ Executes the frame graph.
 
 > **findMainCamera**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L412)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:420](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L420)
 
 Looks for the main camera used by the frame graph.
 By default, this is the camera used by the main object renderer task.
@@ -362,7 +362,7 @@ The main camera used by the frame graph, or null if not found
 
 > **findMainObjectRenderer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`FrameGraphObjectRendererTask`](FrameGraphObjectRendererTask.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L437)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:445](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L445)
 
 Looks for the main object renderer task in the frame graph.
 By default, this is the object/geometry renderer task with isMainObjectRenderer set to true.
@@ -380,7 +380,7 @@ The main object renderer of the frame graph, or null if not found
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L126)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L134)
 
 Gets the class name of the frame graph
 
@@ -396,7 +396,7 @@ the class name
 
 > **getLinkedNodeRenderGraph**(): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeRenderGraph`](NodeRenderGraph.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L97)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L97)
 
 Gets the node render graph linked to the frame graph (if any)
 
@@ -412,7 +412,7 @@ the linked node render graph or null if none
 
 > **getTaskByName**\<`T`\>(`name`): `T` \| `undefined`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L135)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L143)
 
 Gets a task by name
 
@@ -442,7 +442,7 @@ The task or undefined if not found
 
 > **getTasksByClassName**\<`T`\>(`taskClassName`): `T`[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L162)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:170](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L170)
 
 Gets all tasks of a specific type, based on their class name
 
@@ -472,7 +472,7 @@ The list of tasks of the specified type
 
 > **getTasksByClassNames**\<`T`\>(`name`): `T`[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L144)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L152)
 
 Gets all tasks of a specific class name(s)
 
@@ -502,7 +502,7 @@ The list of tasks or an empty array if none found
 
 > **getTasksByType**\<`T`\>(`taskType`): `T`[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L153)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L161)
 
 Gets all tasks of a specific type
 
@@ -532,7 +532,7 @@ The list of tasks of the specified type
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L308)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:316](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L316)
 
 Checks if the frame graph is ready to be executed.
 Note that you can use the whenReadyAsync method to wait for the frame graph to be ready.
@@ -549,7 +549,7 @@ True if the frame graph is ready to be executed, else false
 
 > **whenReadyAsync**(`timeStep?`, `maxTimeout?`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraph.ts#L323)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraph.ts:331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraph.ts#L331)
 
 Returns a promise that resolves when the frame graph is ready to be executed.
 In general, calling “await buildAsync()” should suffice, as this function also waits for readiness by default.

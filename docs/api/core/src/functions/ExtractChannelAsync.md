@@ -8,7 +8,7 @@
 
 > **ExtractChannelAsync**(`name`, `input`, `channel`, `scene`, `outputColorSpace?`, `outputChannelMask?`): `Promise`\<[`ITextureProcessOperand`](../interfaces/ITextureProcessOperand.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:935](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L935)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:935](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L935)
 
 Extract a single channel from a texture and broadcast it to RGB (or all four components for
 `TextureChannel.A`), producing a new texture. This is a convenience wrapper over

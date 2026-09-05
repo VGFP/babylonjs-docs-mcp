@@ -8,7 +8,7 @@
 
 > **UploadHtmlElementToTexture**(`engine`, `texture`, `element`, `invertY?`, `config?`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlTexture.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlTexture.ts#L86)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlTexture.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlTexture.ts#L86)
 
 Uploads a live HTML element (or a captured ElementImage) into an existing 2D texture using the WICG
 HTML-in-Canvas API (https://github.com/WICG/html-in-canvas).

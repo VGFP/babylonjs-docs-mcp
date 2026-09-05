@@ -6,7 +6,7 @@
 
 # Interface: IObjectInfo\<T, O\>
 
-Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:5](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L5)
+Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:5](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L5)
 
 A container with an original object and information about that object.
 on some other object.
@@ -27,7 +27,7 @@ on some other object.
 
 > **info**: `T`
 
-Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L13)
+Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L13)
 
 Information about the object.
 
@@ -37,6 +37,6 @@ Information about the object.
 
 > **object**: `O`
 
-Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L9)
+Defined in: [packages/dev/core/src/ObjectModel/objectModelInterfaces.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/ObjectModel/objectModelInterfaces.ts#L9)
 
 The original object.

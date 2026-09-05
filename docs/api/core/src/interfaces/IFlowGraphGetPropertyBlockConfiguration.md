@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphGetPropertyBlockConfiguration\<O\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L15)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L15)
 
 Configuration for the FlowGraphGetPropertyBlock.
 
@@ -30,7 +30,7 @@ Configuration for the FlowGraphGetPropertyBlock.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -44,7 +44,7 @@ The name of the block.
 
 > `optional` **object?**: [`AssetType`](../type-aliases/AssetType.md)\<`O`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L24)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L24)
 
 The target asset from which the property will be retrieved
 
@@ -54,7 +54,7 @@ The target asset from which the property will be retrieved
 
 > `optional` **propertyName?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L19)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L19)
 
 The name of the property that will be set
 
@@ -64,6 +64,6 @@ The name of the property that will be set
 
 > `optional` **resetToDefaultWhenUndefined?**: `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L29)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetPropertyBlock.pure.ts#L29)
 
 If true, the block will reset the output to the default value when the target asset is undefined.

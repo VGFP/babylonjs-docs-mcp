@@ -6,7 +6,7 @@
 
 # Interface: IAbstractSoundPlayOptions
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L42)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L42)
 
 Options for playing a sound.
 
@@ -26,7 +26,7 @@ Options for playing a sound.
 
 > **loop**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L27)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L27)
 
 Whether the sound should loop. Defaults to `false`.
 
@@ -40,7 +40,7 @@ Whether the sound should loop. Defaults to `false`.
 
 > **startOffset**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L31)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractSound.ts#L31)
 
 The time within the sound buffer to start playing at, in seconds. Defaults to `0`.
 
@@ -54,7 +54,7 @@ The time within the sound buffer to start playing at, in seconds. Defaults to `0
 
 > **volume**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subNodes/volumeAudioSubNode.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subNodes/volumeAudioSubNode.ts#L20)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subNodes/volumeAudioSubNode.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subNodes/volumeAudioSubNode.ts#L20)
 
 The volume/gain. Defaults to 1.
 

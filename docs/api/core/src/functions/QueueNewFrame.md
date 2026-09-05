@@ -8,7 +8,7 @@
 
 > **QueueNewFrame**(`func`, `requester?`): `number`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L76)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L76)
 
 Queue a new function into the requested animation frame pool (ie. this function will be executed by the browser (or the javascript engine) for the next frame)
 

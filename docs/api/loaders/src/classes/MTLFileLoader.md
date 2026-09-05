@@ -6,7 +6,7 @@
 
 # Class: MTLFileLoader
 
-Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L11)
+Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L11)
 
 Class reading and parsing the MTL file bundled with the obj file.
 
@@ -26,7 +26,7 @@ Class reading and parsing the MTL file bundled with the obj file.
 
 > **materials**: [`StandardMaterial`](../../../core/src/classes/StandardMaterial.md)[] = `[]`
 
-Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L20)
+Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L20)
 
 All material loaded from the mtl will be set here
 
@@ -36,7 +36,7 @@ All material loaded from the mtl will be set here
 
 > `static` **INVERT\_TEXTURE\_Y**: `boolean` = `true`
 
-Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L15)
+Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L15)
 
 Invert Y-Axis of referenced textures on load
 
@@ -46,7 +46,7 @@ Invert Y-Axis of referenced textures on load
 
 > **parseMTL**(`scene`, `data`, `rootUrl`, `assetContainer`): `void`
 
-Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L33)
+Defined in: [packages/dev/loaders/src/OBJ/mtlFileLoader.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/OBJ/mtlFileLoader.ts#L33)
 
 This function will read the mtl file and create each material described inside
 This function could be improve by adding :

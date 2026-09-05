@@ -6,7 +6,7 @@
 
 # Class: CameraMovement
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L20)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L20)
 
 Base class for camera movement systems that convert raw input into framerate-independent camera deltas.
 
@@ -31,7 +31,7 @@ are converted to framerate-independent camera deltas via `computeCurrentFrameDel
 
 > **new CameraMovement**(`scene`, `_cameraPosition`, `_behavior?`): `CameraMovement`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L182)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:182](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L182)
 
 #### Parameters
 
@@ -57,7 +57,7 @@ Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:182](https://github
 
 > **activeInput**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L27)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L27)
 
 Should be set by input classes to indicate whether there is active input this frame.
 This helps differentiate between 0 pixel delta due to no input vs user actively holding still.
@@ -68,7 +68,7 @@ This helps differentiate between 0 pixel delta due to no input vs user actively 
 
 > **panAccumulatedPixels**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L121)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L121)
 
 Accumulated pixel delta (by input classes) for panning this frame
 Read by computeCurrentFrameDeltas() function and converted into panDeltaCurrentFrame (taking speed into account)
@@ -80,7 +80,7 @@ Reset to zero after each frame
 
 > **panDeltaCurrentFrame**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L141)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L141)
 
 Pan delta to apply to camera this frame, computed by computeCurrentFrameDeltas() from panPixelDelta (taking speed into account)
 
@@ -90,7 +90,7 @@ Pan delta to apply to camera this frame, computed by computeCurrentFrameDeltas()
 
 > **panInertia**: `number` = `0.9`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L95)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L95)
 
 Inertia applied to the panning velocity when there is no user input.
 Higher inertia === slower decay, velocity retains more of its value each frame.
@@ -103,7 +103,7 @@ Note: ArcRotateCamera overrides this from `camera.panningInertia` (which default
 
 > **panSpeed**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L46)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L46)
 
 Desired coordinate unit movement per input pixel when panning
 
@@ -113,7 +113,7 @@ Desired coordinate unit movement per input pixel when panning
 
 > **referenceFrameRate**: `number` = `DefaultReferenceFrameRate`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L166)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L166)
 
 Framerate (Hz) at which inertia values are calibrated. Default 60 matches legacy camera feel
 at any actual refresh rate. Override to 120, 144, etc. only if your app was tuned on that
@@ -126,7 +126,7 @@ preserve that exact decay characteristic. Most applications should leave this at
 
 > **rotationAccumulatedPixels**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L127)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L127)
 
 Accumulated pixel delta (by input classes) for rotation this frame
 Read by computeCurrentFrameDeltas() function and converted into rotationDeltaCurrentFrame (taking speed into account)
@@ -138,7 +138,7 @@ Reset to zero after each frame
 
 > **rotationDeltaCurrentFrame**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L145)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L145)
 
 Rotation delta to apply to camera this frame, computed by computeCurrentFrameDeltas() from rotationPixelDelta (taking speed into account)
 
@@ -148,7 +148,7 @@ Rotation delta to apply to camera this frame, computed by computeCurrentFrameDel
 
 > **rotationInertia**: `number` = `0.9`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L103)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L103)
 
 Inertia applied to the rotation velocity when there is no user input.
 Higher inertia === slower decay, velocity retains more of its value each frame.
@@ -162,7 +162,7 @@ To tune independently, override inside `scene.onBeforeRenderObservable` after `c
 
 > **rotationXSpeed**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L50)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L50)
 
 Desired radians movement per input pixel when rotating along x axis
 
@@ -172,7 +172,7 @@ Desired radians movement per input pixel when rotating along x axis
 
 > **rotationYSpeed**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L54)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L54)
 
 Desired radians movement per input pixel when rotating along y axis
 
@@ -182,7 +182,7 @@ Desired radians movement per input pixel when rotating along y axis
 
 > **speed**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L38)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L38)
 
 Global speed multiplier applied to all movement (pan, rotation, zoom).
 Acts as a master scale factor on top of the individual speed properties.
@@ -193,7 +193,7 @@ Acts as a master scale factor on top of the individual speed properties.
 
 > **zoomAccumulatedPixels**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L115)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L115)
 
 Accumulated pixel delta (by input classes) for zoom this frame
 Read by computeCurrentFrameDeltas() function and converted into zoomDeltaCurrentFrame (taking speed into account)
@@ -205,7 +205,7 @@ Reset to zero after each frame
 
 > **zoomDeltaCurrentFrame**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L137)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L137)
 
 Zoom delta to apply to camera this frame, computed by computeCurrentFrameDeltas() from zoomPixelDelta (taking speed into account)
 
@@ -215,7 +215,7 @@ Zoom delta to apply to camera this frame, computed by computeCurrentFrameDeltas(
 
 > **zoomInertia**: `number` = `0.9`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L88)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L88)
 
 Inertia applied to the zoom velocity when there is no user input.
 Higher inertia === slower decay, velocity retains more of its value each frame.
@@ -229,7 +229,7 @@ To tune independently, override inside `scene.onBeforeRenderObservable` after `c
 
 > **zoomSpeed**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L42)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L42)
 
 Desired coordinate unit movement per input pixel when zooming
 
@@ -241,7 +241,7 @@ Desired coordinate unit movement per input pixel when zooming
 
 > **get** **isInterpolating**(): `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L298)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:298](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L298)
 
 Returns true when the camera is playing an interpolating (fly-to) animation.
 Useful for suppressing user-input movement while a programmatic animation is active.
@@ -256,7 +256,7 @@ Useful for suppressing user-input movement while a programmatic animation is act
 
 > **computeCurrentFrameDeltas**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L195)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:195](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L195)
 
 When called, will take the accumulated pixel deltas set by input classes and convert them into current frame deltas, stored in currentFrameMovementDelta properties
 Takes speed, scaling, inertia, and framerate into account to ensure smooth movement
@@ -272,7 +272,7 @@ Zeros out pixelDeltas before returning
 
 > **getFrameIndependentDecay**(`inertia`): `number`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L310)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L310)
 
 Returns the per-frame decay factor for a given inertia, adjusted to this frame's `dt`.
 At the reference frame rate, returns `inertia` unchanged (matches legacy per-frame `*= inertia`).
@@ -299,7 +299,7 @@ The decay factor to multiply a value by this frame.
 
 > **getFrameIndependentInputScale**(`inertia`): `number`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:325](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L325)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:325](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L325)
 
 Returns the input-scale factor to apply to an impulse injected into a decaying accumulator
 so that the integrated total is framerate-independent and matches legacy at 60fps.
@@ -326,7 +326,7 @@ The scaling factor to multiply an impulse by before adding it to the accumulator
 
 > **resetPanVelocity**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L280)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L280)
 
 Resets the pan velocity and accumulated pixels, stopping any in-progress pan inertia.
 
@@ -340,7 +340,7 @@ Resets the pan velocity and accumulated pixels, stopping any in-progress pan ine
 
 > **resetRotationVelocity**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L272)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:272](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L272)
 
 Resets the rotation velocity and accumulated pixels, stopping any in-progress rotation inertia.
 Called when inertialAlphaOffset or inertialBetaOffset are explicitly zeroed (backward compat).
@@ -355,7 +355,7 @@ Called when inertialAlphaOffset or inertialBetaOffset are explicitly zeroed (bac
 
 > **resetZoomVelocity**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:289](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/cameraMovement.ts#L289)
+Defined in: [packages/dev/core/src/Cameras/cameraMovement.ts:289](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/cameraMovement.ts#L289)
 
 Resets the zoom velocity and accumulated pixels, stopping any in-progress zoom inertia.
 Called when inertialRadiusOffset is explicitly zeroed out (backward compat).

@@ -8,7 +8,7 @@
 
 > **GetBlobBufferSource**(`view`): `BufferSource`
 
-Defined in: [packages/dev/core/src/Buffers/bufferUtils.ts:490](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/bufferUtils.ts#L490)
+Defined in: [packages/dev/core/src/Buffers/bufferUtils.ts:490](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/bufferUtils.ts#L490)
 
 Gets a BufferSource from an ArrayBufferView, ensuring that the returned ArrayBuffer is not a SharedArrayBuffer.
 If the input view's buffer is a SharedArrayBuffer, a new ArrayBuffer is created and the data is copied over.

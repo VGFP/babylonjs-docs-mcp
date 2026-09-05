@@ -6,7 +6,7 @@
 
 # Class: PhysicsCharacterController
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L214)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L214)
 
 Character controller using physics
 
@@ -16,7 +16,7 @@ Character controller using physics
 
 > **new PhysicsCharacterController**(`position`, `characterShapeOptions`, `scene`): `PhysicsCharacterController`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:359](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L359)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:359](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L359)
 
 instanciate a new characterController
 
@@ -50,7 +50,7 @@ Scene
 
 > **acceleration**: `number` = `0.05`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:328](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L328)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:328](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L328)
 
 Acceleration factor. A value of 1 means reaching max velocity immediately
 
@@ -60,7 +60,7 @@ Acceleration factor. A value of 1 means reaching max velocity immediately
 
 > **characterMass**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:339](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L339)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:339](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L339)
 
 character mass
 default 0
@@ -71,7 +71,7 @@ default 0
 
 > **characterStrength**: `number` = `1e38`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L323)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:323](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L323)
 
 Strength when pushing other bodies
 default 1e38
@@ -82,7 +82,7 @@ default 1e38
 
 > **dynamicFriction**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L262)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:262](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L262)
 
 friction with dynamic surfaces
 default 1
@@ -93,7 +93,7 @@ default 1
 
 > **footOffset**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L309)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:309](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L309)
 
 Distance from the body's `position` to the character's foot along `up`.
 Used by `maxStepHeight` to measure how high a contact sits above the foot.
@@ -106,7 +106,7 @@ supplying a custom collision shape whose center is not at half-height.
 
 > **keepContactTolerance**: `number` = `0.1`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L242)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:242](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L242)
 
 maximum distance to keep contact
 default 0.1
@@ -117,7 +117,7 @@ default 0.1
 
 > **keepDistance**: `number` = `0.05`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L237)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:237](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L237)
 
 minimum distance to make contact
 default 0.05
@@ -128,7 +128,7 @@ default 0.05
 
 > **maxAcceleration**: `number` = `50`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L333)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:333](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L333)
 
 maximum acceleration in world space coordinate
 
@@ -138,7 +138,7 @@ maximum acceleration in world space coordinate
 
 > **maxCastIterations**: `number` = `10`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L247)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L247)
 
 maximum number of raycast per integration starp
 default 10
@@ -149,7 +149,7 @@ default 10
 
 > **maxCharacterSpeedForSolver**: `number` = `10.0`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L314)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:314](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L314)
 
 character maximum speed
 default 10
@@ -160,7 +160,7 @@ default 10
 
 > **maxSlopeCosine**: `number` = `0.5`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L268)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:268](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L268)
 
 cosine value of slope angle that can be climbed
 computed as `Math.cos(Math.PI * (angleInDegree / 180.0));`
@@ -172,7 +172,7 @@ default 0.5 (value for a 60deg angle)
 
 > **maxStepHeight**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L302)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:302](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L302)
 
 Maximum height the character can automatically step up onto a walkable surface.
 When greater than 0 the controller enforces this as a strict cap on step climbing,
@@ -212,7 +212,7 @@ default 0 (disabled)
 
 > **onTriggerCollisionObservable**: [`Observable`](Observable.md)\<[`ICharacterControllerCollisionEvent`](../interfaces/ICharacterControllerCollisionEvent.md)\>
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:344](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L344)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:344](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L344)
 
 Observable for trigger entered and trigger exited events
 
@@ -222,7 +222,7 @@ Observable for trigger entered and trigger exited events
 
 > **penetrationRecoverySpeed**: `number` = `1.0`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L252)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L252)
 
 speed when recovery from penetration
 default 1.0
@@ -233,7 +233,7 @@ default 1.0
 
 > **staticFriction**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L257)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L257)
 
 friction with static surfaces
 default 0
@@ -244,7 +244,7 @@ default 0
 
 > **up**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:318](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L318)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:318](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L318)
 
 up vector
 
@@ -256,7 +256,7 @@ up vector
 
 > **get** **shape**(): [`PhysicsShape`](PhysicsShape.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L407)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:407](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L407)
 
 Get shape used for collision
 
@@ -268,7 +268,7 @@ Get shape used for collision
 
 > **set** **shape**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:414](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L414)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:414](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L414)
 
 Set shape used for collision
 
@@ -290,7 +290,7 @@ Set shape used for collision
 
 > **get** **shapeOptions**(): [`CharacterShapeOptions`](../interfaces/CharacterShapeOptions.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:426](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L426)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:426](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L426)
 
 Get the shape options used to build the collision shape
 
@@ -304,7 +304,7 @@ Get the shape options used to build the collision shape
 
 > **calculateMovement**(`deltaTime`, `forwardWorld`, `surfaceNormal`, `currentVelocity`, `surfaceVelocity`, `desiredVelocity`, `upWorld`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L2165)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L2165)
 
 Helper function to calculate velocity based on surface informations and current velocity state and target
 
@@ -364,7 +364,7 @@ a new velocity vector
 
 > **calculateMovementToRef**(`deltaTime`, `forwardWorld`, `surfaceNormal`, `currentVelocity`, `surfaceVelocity`, `desiredVelocity`, `upWorld`, `result`): `boolean`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2074](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L2074)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2074](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L2074)
 
 Helper function to calculate velocity based on surface informations and current velocity state and target
 
@@ -430,7 +430,7 @@ boolean true if result has been computed
 
 > **checkSupport**(`deltaTime`, `direction`): [`CharacterSurfaceInfo`](../interfaces/CharacterSurfaceInfo.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:1415](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L1415)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:1415](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L1415)
 
 Compute a CharacterSurfaceInfo from current state and a direction
 
@@ -460,7 +460,7 @@ a CharacterSurfaceInfo object
 
 > **checkSupportToRef**(`deltaTime`, `direction`, `surfaceInfo`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:1433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L1433)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:1433](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L1433)
 
 Compute a CharacterSurfaceInfo from current state and a direction
 
@@ -494,7 +494,7 @@ output for surface info
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L391)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:391](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L391)
 
 Dispose the character controller
 
@@ -508,7 +508,7 @@ Dispose the character controller
 
 > **getPosition**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:470](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L470)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:470](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L470)
 
 Character position
 
@@ -524,7 +524,7 @@ Character position
 
 > **getVelocity**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:487](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L487)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:487](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L487)
 
 Character velocity
 
@@ -540,7 +540,7 @@ Character velocity vector
 
 > **integrate**(`deltaTime`, `surfaceInfo`, `gravity`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2029](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L2029)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2029](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L2029)
 
 Update internal state. Must be called once per frame
 
@@ -574,7 +574,7 @@ gravity applied to the character. Can be different that world gravity
 
 > **moveWithCollisions**(`displacement`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2007](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L2007)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:2007](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L2007)
 
 Move the character with collisions
 
@@ -596,7 +596,7 @@ defines the requested displacement vector
 
 > **setPosition**(`position`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:478](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L478)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:478](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L478)
 
 Teleport character to a new position
 
@@ -618,7 +618,7 @@ new position
 
 > **setShapeOptions**(`characterShapeOptions`, `preserveFootPosition?`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:441](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L441)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:441](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L441)
 
 Set new shape options and rebuild the collision shape accordingly.
 When the options provide an explicit `shape`, it is used directly; otherwise
@@ -652,7 +652,7 @@ false, the position is left unchanged.
 
 > **setVelocity**(`velocity`): `void`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L495)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:495](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L495)
 
 Set velocity vector
 

@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphHostResolver
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L37)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L37)
 
 Lets the environment hosting a flow graph decide how runtime entities are represented as opaque
 reference values, so the graph engine itself stays agnostic of the host's object model.
@@ -21,7 +21,7 @@ falls back to a neutral built-in representation for anything the host does not p
 
 > `optional` **decodeEventReference**(`reference`): `string` \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L56)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L56)
 
 Decodes an event reference produced by [IFlowGraphHostResolver.encodeEventReference](#encodeeventreference)
 back into its event source key. Must return `undefined` for values that are not event
@@ -47,7 +47,7 @@ the event source key, or `undefined` when the value is not an event reference
 
 > `optional` **decodeIndexReference**(`reference`): `number` \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L65)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L65)
 
 Decodes the array index denoted by a reference, for cases where a reference addresses an
 element of one of the host's collections. Must return `undefined` for values the host does
@@ -73,7 +73,7 @@ the index the reference denotes, or `undefined` when it does not denote one
 
 > `optional` **encodeEventReference**(`key`): `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L47)
 
 Encodes an event source key as the opaque reference exposed by event blocks on their
 `event` output.
@@ -101,7 +101,7 @@ the reference representing the event source
 
 > `optional` **getObjectReference**(`object`, `hint?`): `string` \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L79)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphHostResolver.ts#L79)
 
 Maps a runtime object to the reference the host addresses it by, for example the JSON
 Pointer of the resource a loaded object originates from.

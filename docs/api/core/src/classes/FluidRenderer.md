@@ -6,7 +6,7 @@
 
 # Class: FluidRenderer
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L124)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L124)
 
 Class responsible for fluid rendering.
 It is implementing the method described in https://developer.download.nvidia.com/presentations/2010/gdc/Direct3D_Effects.pdf
@@ -17,7 +17,7 @@ It is implementing the method described in https://developer.download.nvidia.com
 
 > **new FluidRenderer**(`scene`): `FluidRenderer`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L159)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L159)
 
 Initializes the class
 
@@ -39,7 +39,7 @@ Scene in which the objects are part of
 
 > `readonly` **renderObjects**: [`IFluidRenderingRenderObject`](../interfaces/IFluidRenderingRenderObject.md)[]
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L140)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L140)
 
 Retrieves all the render objects managed by the class
 
@@ -49,7 +49,7 @@ Retrieves all the render objects managed by the class
 
 > `readonly` **targetRenderers**: [`FluidRenderingTargetRenderer`](FluidRenderingTargetRenderer.md)[]
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L143)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L143)
 
 Retrieves all the render target renderers managed by the class
 
@@ -61,7 +61,7 @@ Retrieves all the render target renderers managed by the class
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L151)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L151)
 
 Gets the shader language used in this renderer
 
@@ -75,7 +75,7 @@ Gets the shader language used in this renderer
 
 > **addCustomParticles**(`buffers`, `numParticles`, `generateDiffuseTexture?`, `targetRenderer?`, `camera?`): [`IFluidRenderingRenderObject`](../interfaces/IFluidRenderingRenderObject.md)
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L244)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L244)
 
 Adds a custom particle set to the fluid renderer.
 
@@ -121,7 +121,7 @@ the render object corresponding to the custom particle set
 
 > **addParticleSystem**(`ps`, `generateDiffuseTexture?`, `targetRenderer?`, `camera?`): [`IFluidRenderingRenderObject`](../interfaces/IFluidRenderingRenderObject.md)
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L206)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L206)
 
 Adds a particle system to the fluid renderer.
 
@@ -163,7 +163,7 @@ the render object corresponding to the particle system
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:516](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L516)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:516](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L516)
 
 Disposes of all the resources used by the class
 
@@ -177,7 +177,7 @@ Disposes of all the resources used by the class
 
 > **getRenderObjectFromParticleSystem**(`ps`): [`Nullable`](../type-aliases/Nullable.md)\<[`IFluidRenderingRenderObject`](../interfaces/IFluidRenderingRenderObject.md)\>
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L193)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L193)
 
 Gets the render object corresponding to a particle system (null if the particle system is not rendered as a fluid)
 
@@ -201,7 +201,7 @@ the render object corresponding to this particle system if any, otherwise null
 
 > **recreate**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L183)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L183)
 
 Reinitializes the class
 Can be used if you change the object priority (FluidRenderingObject.priority), to make sure the objects are rendered in the right order
@@ -216,7 +216,7 @@ Can be used if you change the object priority (FluidRenderingObject.priority), t
 
 > **removeRenderObject**(`renderObject`, `removeUnusedTargetRenderer?`): `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L285)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L285)
 
 Removes a render object from the fluid renderer
 

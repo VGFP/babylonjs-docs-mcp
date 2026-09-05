@@ -6,7 +6,7 @@
 
 # Interface: IWebXRDepthSensingOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L35)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L41)
 
 Options for Depth Sensing feature
 
@@ -16,7 +16,7 @@ Options for Depth Sensing feature
 
 > **dataFormatPreference**: [`WebXRDepthDataFormat`](../type-aliases/WebXRDepthDataFormat.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L49)
 
 The desired depth sensing data format for the session
 
@@ -26,7 +26,7 @@ The desired depth sensing data format for the session
 
 > `optional` **disableDepthSensingOnMaterials?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L49)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L55)
 
 Depth sensing will be enabled on all materials per default, if the GPU variant is enabled.
 If you just want to use the texture or the CPU variant instead set this to true.
@@ -37,7 +37,7 @@ If you just want to use the texture or the CPU variant instead set this to true.
 
 > `optional` **prepareTextureForVisualization?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L63)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L69)
 
 If set to true the texture will be set to be used for visualization.
 In this case it will probably NOT work correctly on the materials.
@@ -49,7 +49,7 @@ So be aware that, for the time being, you can only use one or the other.
 
 > **usagePreference**: [`WebXRDepthUsage`](../type-aliases/WebXRDepthUsage.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L45)
 
 The desired depth sensing usage for the session
 
@@ -59,7 +59,7 @@ The desired depth sensing usage for the session
 
 > `optional` **useToleranceFactorForDepthSensing?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L56)
+Defined in: [packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRDepthSensing.pure.ts#L62)
 
 If set to true the occluded pixels will not be discarded but the pixel color will be changed based on the occlusion factor
 Enabling this will lead to worse performance but slightly better outcome.

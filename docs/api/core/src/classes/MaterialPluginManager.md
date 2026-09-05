@@ -6,7 +6,7 @@
 
 # Class: MaterialPluginManager
 
-Defined in: [packages/dev/core/src/Materials/materialPluginManager.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L38)
+Defined in: [packages/dev/core/src/Materials/materialPluginManager.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L38)
 
 **`Since`**
 
@@ -19,7 +19,7 @@ Class that manages the plugins of a material
 
 > **new MaterialPluginManager**(`material`): `MaterialPluginManager`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginManager.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L63)
+Defined in: [packages/dev/core/src/Materials/materialPluginManager.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L63)
 
 Creates a new instance of the plugin manager
 
@@ -41,7 +41,7 @@ material that this manager will manage the plugins for
 
 > **getPlugin**\<`T`\>(`name`): [`Nullable`](../type-aliases/Nullable.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/Materials/materialPluginManager.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L146)
+Defined in: [packages/dev/core/src/Materials/materialPluginManager.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginManager.pure.ts#L146)
 
 Gets a plugin from the list of plugins managed by this manager
 

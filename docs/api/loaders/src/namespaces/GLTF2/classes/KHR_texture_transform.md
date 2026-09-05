@@ -6,7 +6,7 @@
 
 # Class: KHR\_texture\_transform
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transform.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_texture_transform.pure.ts#L17)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transform.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_texture_transform.pure.ts#L17)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_texture_transform/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transfor
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transform.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_texture_transform.pure.ts#L26)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transform.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_texture_transform.pure.ts#L26)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_texture_transform"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transform.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_texture_transform.pure.ts#L21)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_texture\_transform.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_texture_transform.pure.ts#L21)
 
 The name of this extension.
 

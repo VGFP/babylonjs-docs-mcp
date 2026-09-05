@@ -8,7 +8,7 @@
 
 > **ExtrudePolygon**(`name`, `options`, `scene?`, `earcutInjection?`): [`Mesh`](../classes/Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/Builders/polygonBuilder.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/polygonBuilder.pure.ts#L210)
+Defined in: [packages/dev/core/src/Meshes/Builders/polygonBuilder.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/polygonBuilder.pure.ts#L210)
 
 Creates an extruded polygon mesh, with depth in the Y direction.
 * You can set different colors and different images to the top, bottom and extruded side by using the parameters `faceColors` (an array of 3 Color3 elements) and `faceUV` (an array of 3 Vector4 elements)

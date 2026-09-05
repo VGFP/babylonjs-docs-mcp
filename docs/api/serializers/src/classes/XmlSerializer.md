@@ -6,7 +6,7 @@
 
 # Class: XmlSerializer
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L28)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L28)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:28](htt
 
 > **new XmlSerializer**(`builder`, `format?`): `XmlSerializer`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L45)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L45)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:45](htt
 
 > **serialize**(`root`, `name?`): `void`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L68)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L68)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:68](htt
 
 > **withNamespace**(...`ns`): `XmlSerializer`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L56)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.serializer.ts#L56)
 
 #### Parameters
 

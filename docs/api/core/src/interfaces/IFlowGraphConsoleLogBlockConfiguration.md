@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphConsoleLogBlockConfiguration
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts#L15)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts#L15)
 
 Configuration for the console log block.
 
@@ -24,7 +24,7 @@ Configuration for the console log block.
 
 > `optional` **messageTemplate?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts#L22)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Execution/flowGraphConsoleLogBlock.pure.ts#L22)
 
 An optional message template to use for the log message.
 If provided, the template can hold placeholders for the message value.
@@ -37,7 +37,7 @@ The value of the message input will be used to replace the placeholder in the te
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

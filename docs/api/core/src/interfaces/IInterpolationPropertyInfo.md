@@ -6,7 +6,7 @@
 
 # Interface: IInterpolationPropertyInfo
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L8)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L8)
 
 Interpolation generator
 
@@ -16,7 +16,7 @@ Interpolation generator
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L16)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L16)
 
 The name of the property
 
@@ -26,6 +26,6 @@ The name of the property
 
 > **type**: `number`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L12)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L12)
 
 type of the interpolation

@@ -6,7 +6,7 @@
 
 # Class: PrecisionDate
 
-Defined in: [packages/dev/core/src/Misc/precisionDate.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/precisionDate.ts#L6)
+Defined in: [packages/dev/core/src/Misc/precisionDate.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/precisionDate.ts#L6)
 
 Class containing a set of static utilities functions for precision date
 
@@ -28,7 +28,7 @@ Class containing a set of static utilities functions for precision date
 
 > **get** `static` **Now**(): `number`
 
-Defined in: [packages/dev/core/src/Misc/precisionDate.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/precisionDate.ts#L10)
+Defined in: [packages/dev/core/src/Misc/precisionDate.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/precisionDate.ts#L10)
 
 Gets either window.performance.now() if supported or Date.now() else
 

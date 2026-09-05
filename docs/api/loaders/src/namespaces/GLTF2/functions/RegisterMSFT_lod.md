@@ -8,7 +8,7 @@
 
 > **RegisterMSFT\_lod**(): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L433)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/MSFT\_lod.pure.ts:433](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/MSFT_lod.pure.ts#L433)
 
 Registers the MSFT_lod glTF loader extension.
 Safe to call multiple times; only the first call has an effect.

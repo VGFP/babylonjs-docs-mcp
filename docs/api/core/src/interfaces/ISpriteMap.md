@@ -6,7 +6,7 @@
 
 # Interface: ISpriteMap
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L82)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L82)
 
 Defines the IDisposable interface in order to be cleanable from resources.
 
@@ -20,7 +20,7 @@ Defines the IDisposable interface in order to be cleanable from resources.
 
 > **atlasJSON**: [`ISpriteJSONAtlas`](ISpriteJSONAtlas.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L91)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L91)
 
 The JSON Array file from a https://www.codeandweb.com/texturepacker export.  Or similar structure.
 
@@ -30,7 +30,7 @@ The JSON Array file from a https://www.codeandweb.com/texturepacker export.  Or 
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L86)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L86)
 
 String name of the SpriteMap.
 
@@ -40,7 +40,7 @@ String name of the SpriteMap.
 
 > **options**: [`ISpriteMapOptions`](ISpriteMapOptions.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L101)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L101)
 
 The parameters to initialize the SpriteMap with.
 
@@ -50,7 +50,7 @@ The parameters to initialize the SpriteMap with.
 
 > **spriteSheet**: [`Texture`](../classes/Texture.md)
 
-Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/spriteMap.pure.ts#L96)
+Defined in: [packages/dev/core/src/Sprites/spriteMap.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/spriteMap.pure.ts#L96)
 
 Texture of the SpriteMap.
 
@@ -60,7 +60,7 @@ Texture of the SpriteMap.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/scene.pure.ts#L122)
+Defined in: [packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 

@@ -6,7 +6,7 @@
 
 # Interface: IMotionControllerProfile
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L135)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L153)
 
 The XR Input profile schema
 Profiles can be found here:
@@ -18,7 +18,7 @@ https://github.com/immersive-web/webxr-input-profiles/tree/master/packages/regis
 
 > **fallbackProfileIds**: `string`[]
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L139)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L157)
 
 fallback profiles for this profileId
 
@@ -28,7 +28,7 @@ fallback profiles for this profileId
 
 > **layouts**: [`IMotionControllerLayoutMap`](IMotionControllerLayoutMap.md)
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L143)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L161)
 
 The layout map, with handedness as key
 
@@ -38,7 +38,7 @@ The layout map, with handedness as key
 
 > **profileId**: `string`
 
-Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L148)
+Defined in: [packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/motionController/webXRAbstractMotionController.ts#L166)
 
 The id of this profile
 correlates to the profile(s) in the xrInput.profiles array

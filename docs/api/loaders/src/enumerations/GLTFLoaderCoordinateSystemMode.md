@@ -6,7 +6,7 @@
 
 # Enumeration: GLTFLoaderCoordinateSystemMode
 
-Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L75)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L75)
 
 Mode that determines the coordinate system to use.
 
@@ -16,7 +16,7 @@ Mode that determines the coordinate system to use.
 
 > **AUTO**: `0`
 
-Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L79)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L79)
 
 Automatically convert the glTF right-handed data to the appropriate system based on the current coordinate system mode of the scene.
 
@@ -26,6 +26,6 @@ Automatically convert the glTF right-handed data to the appropriate system based
 
 > **FORCE\_RIGHT\_HANDED**: `1`
 
-Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L84)
+Defined in: [packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/glTFFileLoader.pure.ts#L84)
 
 Sets the useRightHandedSystem flag on the scene.

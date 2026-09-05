@@ -8,7 +8,7 @@
 
 > **GradientColorStop** = `object`
 
-Defined in: [packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L10)
+Defined in: [packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L10)
 
 Type that represents a single stop on the gradient.
 
@@ -18,7 +18,7 @@ Type that represents a single stop on the gradient.
 
 > **color**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L18)
+Defined in: [packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L18)
 
 Color to be applied.
 
@@ -28,6 +28,6 @@ Color to be applied.
 
 > **offset**: `number`
 
-Defined in: [packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L14)
+Defined in: [packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/gradient/BaseGradient.ts#L14)
 
 Offset from the start where the color will be applied.

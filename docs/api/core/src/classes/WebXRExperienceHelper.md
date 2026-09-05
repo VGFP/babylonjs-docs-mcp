@@ -6,7 +6,7 @@
 
 # Class: WebXRExperienceHelper
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L33)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L34)
 
 Base set of functionality needed to create an XR experience (WebXRSessionManager, Camera, StateManagement, etc.)
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/webXR/webXRExperienceHelpers
 
 > **camera**: [`WebXRCamera`](WebXRCamera.md)
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L48)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L49)
 
 Camera used to render xr content
 
@@ -34,7 +34,7 @@ Camera used to render xr content
 
 > **featuresManager**: [`WebXRFeaturesManager`](WebXRFeaturesManager.md)
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L50)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L51)
 
 A features manager for this xr session
 
@@ -44,7 +44,7 @@ A features manager for this xr session
 
 > **onInitialXRPoseSetObservable**: [`Observable`](Observable.md)\<[`WebXRCamera`](WebXRCamera.md)\>
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L58)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L59)
 
 Observers registered here will be triggered after the camera's initial transformation is set
 This can be used to set a different ground level or an extra rotation.
@@ -58,7 +58,7 @@ to the position set after this observable is done executing.
 
 > **onStateChangedObservable**: [`Observable`](Observable.md)\<[`WebXRState`](../enumerations/WebXRState.md)\>
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L62)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L63)
 
 Fires when the state of the experience helper has changed
 
@@ -68,7 +68,7 @@ Fires when the state of the experience helper has changed
 
 > **sessionManager**: [`WebXRSessionManager`](WebXRSessionManager.md)
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L64)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L65)
 
 Session manager used to keep track of xr session
 
@@ -78,7 +78,7 @@ Session manager used to keep track of xr session
 
 > **state**: [`WebXRState`](../enumerations/WebXRState.md) = `WebXRState.NOT_IN_XR`
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L68)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L69)
 
 The current state of the XR experience (eg. transitioning, in XR or not in XR)
 
@@ -88,7 +88,7 @@ The current state of the XR experience (eg. transitioning, in XR or not in XR)
 
 > **disableSpecatatorMode**(): `void`
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:274](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L274)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L320)
 
 Disable spectator mode for desktop VR experiences.
 
@@ -102,7 +102,7 @@ Disable spectator mode for desktop VR experiences.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L109)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L115)
 
 Disposes of the experience helper
 
@@ -120,7 +120,7 @@ Disposes of the experience helper
 
 > **enableSpectatorMode**(`options?`): `void`
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L264)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L310)
 
 Enable spectator mode for desktop VR experiences.
 When spectator mode is enabled a camera will be attached to the desktop canvas and will
@@ -146,7 +146,7 @@ giving WebXRSpectatorModeOption for specutator camera to setup when the spectato
 
 > **enterXRAsync**(`sessionMode`, `referenceSpaceType`, `renderTarget?`, `sessionCreationOptions?`): `Promise`\<[`WebXRSessionManager`](WebXRSessionManager.md)\>
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L131)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L137)
 
 Enters XR mode (This must be done within a user interaction in most browsers eg. button click)
 
@@ -166,7 +166,7 @@ frame of reference of the XR session
 
 ##### renderTarget?
 
-[`WebXRRenderTarget`](../interfaces/WebXRRenderTarget.md) = `...`
+[`WebXRRenderTarget`](../interfaces/WebXRRenderTarget.md)\<`WebGLRenderingContext`, `XRWebGLLayer`\>
 
 the output canvas that will be used to enter XR mode
 
@@ -188,7 +188,7 @@ promise that resolves after xr mode has entered
 
 > **exitXRAsync**(): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L247)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:289](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L289)
 
 Exits XR mode and returns the scene to its original state
 
@@ -204,7 +204,7 @@ promise that resolves after xr mode has exited
 
 > `static` **CreateAsync**(`scene`): `Promise`\<`WebXRExperienceHelper`\>
 
-Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRExperienceHelper.ts#L89)
+Defined in: [packages/dev/core/src/XR/webXRExperienceHelper.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRExperienceHelper.ts#L95)
 
 Creates the experience helper
 

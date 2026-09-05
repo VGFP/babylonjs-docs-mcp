@@ -6,7 +6,7 @@
 
 # Class: ModelShape
 
-Defined in: [packages/dev/core/src/Particles/solidParticle.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/solidParticle.ts#L317)
+Defined in: [packages/dev/core/src/Particles/solidParticle.ts:317](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/solidParticle.ts#L317)
 
 Represents the shape of the model used by one particle of a solid particle system.
 SPS internal tool, don't use it manually.
@@ -19,7 +19,7 @@ SPS internal tool, don't use it manually.
 
 > **get** **shapeID**(): `number`
 
-Defined in: [packages/dev/core/src/Particles/solidParticle.ts:323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/solidParticle.ts#L323)
+Defined in: [packages/dev/core/src/Particles/solidParticle.ts:323](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/solidParticle.ts#L323)
 
 Get or set the shapeId
 
@@ -35,7 +35,7 @@ Please use shapeId instead
 
 > **set** **shapeID**(`shapeID`): `void`
 
-Defined in: [packages/dev/core/src/Particles/solidParticle.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/solidParticle.ts#L327)
+Defined in: [packages/dev/core/src/Particles/solidParticle.ts:327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/solidParticle.ts#L327)
 
 ##### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: SphereParticleEmitter
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L12)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L12)
 
 Particle emitter emitting particles from the inside of a sphere.
 It emits the particles alongside the sphere radius. The emission direction might be randomized.
@@ -25,7 +25,7 @@ It emits the particles alongside the sphere radius. The emission direction might
 
 > **new SphereParticleEmitter**(`radius?`, `radiusRange?`, `directionRandomizer?`): `SphereParticleEmitter`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L19)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L19)
 
 Creates a new instance SphereParticleEmitter
 
@@ -59,7 +59,7 @@ defines how much to randomize the particle direction [0-1]
 
 > **directionRandomizer**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L31)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L31)
 
 [0] How much to randomize the particle direction [0-1].
 
@@ -69,7 +69,7 @@ Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.
 
 > **radius**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L23)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L23)
 
 [1] The radius of the emission sphere.
 
@@ -79,7 +79,7 @@ Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.
 
 > **radiusRange**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L27)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L27)
 
 [1] The range of emission [0-1] 0 Surface only, 1 Entire Radius.
 
@@ -89,7 +89,7 @@ Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.
 
 > **applyToShader**(`uboOrEffect`): `void`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L99)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L99)
 
 Called by the GPUParticleSystem to setup the update shader
 
@@ -115,7 +115,7 @@ defines the update shader
 
 > **buildUniformLayout**(`ubo`): `void`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L109)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L109)
 
 Creates the structure of the ubo for this particle emitter
 
@@ -141,7 +141,7 @@ ubo to create the structure for
 
 > **clone**(): `SphereParticleEmitter`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L87)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L87)
 
 Clones the current emitter and returns a copy of it
 
@@ -161,7 +161,7 @@ the new emitter
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L127)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L127)
 
 Returns the string "SphereParticleEmitter"
 
@@ -181,7 +181,7 @@ a string containing the class name
 
 > **getEffectDefines**(): `string`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L119)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:119](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L119)
 
 Returns a string to use to update the GPU particles update shader
 
@@ -201,7 +201,7 @@ a string containing the defines string
 
 > **parse**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L149)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L149)
 
 Parse properties from a JSON object
 
@@ -227,7 +227,7 @@ defines the JSON object
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L135)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L135)
 
 Serializes the particle system to a JSON object.
 
@@ -247,7 +247,7 @@ the JSON object
 
 > **startDirectionFunction**(`worldMatrix`, `directionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L41)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L41)
 
 Called by the particle System when the direction is computed for the created particle.
 
@@ -291,7 +291,7 @@ defines if the direction should be set in local space
 
 > **startPositionFunction**(`worldMatrix`, `positionToUpdate`, `particle`, `isLocal`): `void`
 
-Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L66)
+Defined in: [packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/EmitterTypes/sphereParticleEmitter.ts#L66)
 
 Called by the particle System when the position is computed for the created particle.
 

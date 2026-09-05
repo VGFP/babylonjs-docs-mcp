@@ -6,7 +6,7 @@
 
 # Interface: GreasedLinePointsOptions
 
-Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L93)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L93)
 
 Options for converting the points to the internal number[][] format used by GreasedLine
 
@@ -16,7 +16,7 @@ Options for converting the points to the internal number[][] format used by Grea
 
 > `optional` **floatArrayStride?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L100)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:100](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L100)
 
 If defined and a Float32Array is used for the points parameter,
 it will create multiple disconnected lines.

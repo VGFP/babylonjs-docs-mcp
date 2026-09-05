@@ -6,7 +6,7 @@
 
 # Class: GLTFLoader
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L197)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L197)
 
 The glTF 2.0 loader
 
@@ -16,7 +16,7 @@ The glTF 2.0 loader
 
 > **\_babylonLights**: [`Light`](../../../../../core/src/classes/Light.md)[] = `[]`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L205)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:205](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L205)
 
 Storage
 
@@ -26,7 +26,7 @@ Storage
 
 > `readonly` `static` **DefaultSampler**: [`ISampler`](../interfaces/ISampler.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L261)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:261](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L261)
 
 The default glTF sampler.
 
@@ -38,7 +38,7 @@ The default glTF sampler.
 
 > **get** **babylonScene**(): [`Scene`](../../../../../core/src/classes/Scene.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:311](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L311)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:311](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L311)
 
 The Babylon scene when loading the asset.
 
@@ -54,7 +54,7 @@ The Babylon scene when loading the asset.
 
 > **get** **bin**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`IDataBuffer`](../../../../../core/src/interfaces/IDataBuffer.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L297)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L297)
 
 The BIN chunk of a binary glTF.
 
@@ -70,7 +70,7 @@ The BIN chunk of a binary glTF.
 
 > **get** **gltf**(): [`IGLTF`](../interfaces/IGLTF.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L286)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:286](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L286)
 
 The object that represents the glTF JSON.
 
@@ -86,7 +86,7 @@ The object that represents the glTF JSON.
 
 > **get** **parent**(): [`GLTFFileLoader`](../../../classes/GLTFFileLoader.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L304)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:304](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L304)
 
 The parent file loader.
 
@@ -102,7 +102,7 @@ The parent file loader.
 
 > **get** **rootBabylonMesh**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<[`TransformNode`](../../../../../core/src/classes/TransformNode.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L322)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L322)
 
 The root Babylon node when loading the asset.
 
@@ -118,7 +118,7 @@ The root Babylon node when loading the asset.
 
 > **get** **rootUrl**(): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`string`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L329)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:329](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L329)
 
 The root url when loading the asset.
 
@@ -132,7 +132,7 @@ The root url when loading the asset.
 
 > **createMaterial**(`context`, `material`, `babylonDrawMode`): [`Material`](../../../../../core/src/classes/Material.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2440](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2440)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2441](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2441)
 
 Creates a Babylon material from a glTF material.
 
@@ -168,7 +168,7 @@ The Babylon material
 
 > **endPerformanceCounter**(`counterName`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3251)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3252)
 
 Ends a performance counter.
 
@@ -190,7 +190,7 @@ The name of the performance counter
 
 > **isExtensionUsed**(`name`): `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3212](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3212)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3213](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3213)
 
 Checks for presence of an extension.
 
@@ -214,7 +214,7 @@ A boolean indicating the presence of the given extension name in `extensionsUsed
 
 > **isMatchingMaterialType**(`material`): `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L245)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L245)
 
 Test if the given material is an instance of any PBR material type known to this loader.
 
@@ -238,7 +238,7 @@ true if the material matches one of the loaded PBR implementations
 
 > **loadAnimationAsync**(`context`, `animation`): `Promise`\<[`AnimationGroup`](../../../../../core/src/classes/AnimationGroup.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:1786](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L1786)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:1786](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L1786)
 
 Loads a glTF animation.
 
@@ -268,7 +268,7 @@ A promise that resolves with the loaded Babylon animation group when the load is
 
 > **loadBufferAsync**(`context`, `buffer`, `byteOffset`, `byteLength`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2043](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2043)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2044](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2044)
 
 Loads a glTF buffer.
 
@@ -310,7 +310,7 @@ A promise that resolves with the loaded data when the load is complete
 
 > **loadBufferViewAsync**(`context`, `bufferView`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2076](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2076)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2077](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2077)
 
 Loads a glTF buffer view.
 
@@ -340,7 +340,7 @@ A promise that resolves with the loaded data when the load is complete
 
 > **loadCameraAsync**(`context`, `camera`, `assign?`): `Promise`\<[`Camera`](../../../../../core/src/classes/Camera.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:1692](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L1692)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:1692](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L1692)
 
 Loads a glTF camera.
 
@@ -376,7 +376,7 @@ A promise that resolves with the loaded Babylon camera when the load is complete
 
 > **loadImageAsync**(`context`, `image`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2742](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2742)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2743](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2743)
 
 Loads a glTF image.
 
@@ -406,7 +406,7 @@ A promise that resolves with the loaded data when the load is complete
 
 > **loadMaterialAlphaProperties**(`context`, `material`, `babylonMaterial`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2561](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2561)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2562](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2562)
 
 Loads the alpha properties from a glTF material into a Babylon material.
 Must be called after the setting the albedo texture of the Babylon material when the material has an albedo texture.
@@ -441,7 +441,7 @@ The Babylon material
 
 > **loadMaterialBasePropertiesAsync**(`context`, `material`, `babylonMaterial`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2485)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2486](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2486)
 
 Loads the normal, occlusion, and emissive properties from a glTF material into a Babylon material.
 
@@ -477,7 +477,7 @@ A promise that resolves when the load is complete
 
 > **loadMaterialPropertiesAsync**(`context`, `material`, `babylonMaterial`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2459)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2460](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2460)
 
 Loads properties from a glTF material into a Babylon material.
 
@@ -513,7 +513,7 @@ A promise that resolves when the load is complete
 
 > **loadNodeAsync**(`context`, `node`, `assign?`): `Promise`\<[`TransformNode`](../../../../../core/src/classes/TransformNode.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:952](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L952)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:952](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L952)
 
 Loads a glTF node.
 
@@ -549,7 +549,7 @@ A promise that resolves with the loaded Babylon mesh when the load is complete
 
 > **loadSceneAsync**(`context`, `scene`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:791](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L791)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:791](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L791)
 
 Loads a glTF scene.
 
@@ -579,7 +579,7 @@ A promise that resolves when the load is complete
 
 > **loadTextureInfoAsync**(`context`, `textureInfo`, `assign?`): `Promise`\<[`BaseTexture`](../../../../../core/src/classes/BaseTexture.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2606](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2606)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2607](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2607)
 
 Loads a glTF texture info.
 
@@ -615,7 +615,7 @@ A promise that resolves with the loaded Babylon texture when the load is complet
 
 > **loadUriAsync**(`context`, `property`, `uri`): `Promise`\<`ArrayBufferView`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2766](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2766)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2767](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2767)
 
 Loads a glTF uri.
 
@@ -651,7 +651,7 @@ A promise that resolves with the loaded data when the load is complete
 
 > **log**(`message`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3235](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3235)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3236](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3236)
 
 Logs a message
 
@@ -673,7 +673,7 @@ The message to log
 
 > **logClose**(): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3227](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3227)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3228](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3228)
 
 Decrements the indentation level.
 
@@ -687,7 +687,7 @@ Decrements the indentation level.
 
 > **logOpen**(`message`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3220](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3220)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3221](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3221)
 
 Increments the indentation level and logs a message.
 
@@ -709,7 +709,7 @@ The message to log
 
 > **startPerformanceCounter**(`counterName`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3243](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3243)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3244](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3244)
 
 Starts a performance counter.
 
@@ -731,7 +731,7 @@ The name of the performance counter
 
 > `static` **AddPointerMetadata**(`babylonObject`, `pointer`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2809](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2809)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:2810](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L2810)
 
 Adds a JSON pointer to the _internalMetadata of the Babylon object at `<object>._internalMetadata.gltf.pointers`.
 
@@ -759,7 +759,7 @@ the JSON pointer
 
 > `static` **LoadExtensionAsync**\<`TExtension`, `TResult`\>(`context`, `property`, `extensionName`, `actionAsync`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`TResult`\>\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3158)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3159)
 
 Helper method called by a loader extension to load an glTF extension.
 
@@ -811,7 +811,7 @@ The promise returned by actionAsync or null if the extension does not exist
 
 > `static` **LoadExtraAsync**\<`TExtra`, `TResult`\>(`context`, `property`, `extensionName`, `actionAsync`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`Promise`\<`TResult`\>\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3187)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:3188](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L3188)
 
 Helper method called by a loader extension to load a glTF extra.
 
@@ -863,7 +863,7 @@ The promise returned by actionAsync or null if the extra does not exist
 
 > `static` **RegisterExtension**(`name`, `factory`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L269)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L269)
 
 Registers a loader extension.
 
@@ -895,7 +895,7 @@ Please use registerGLTFExtension instead.
 
 > `static` **UnregisterExtension**(`name`): `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L279)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoader.pure.ts#L279)
 
 Unregisters a loader extension.
 

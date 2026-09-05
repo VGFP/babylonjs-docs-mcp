@@ -6,7 +6,7 @@
 
 # Interface: IWebXRLayersOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L29)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L52)
 
 Configuration options of the layers feature
 
@@ -16,7 +16,7 @@ Configuration options of the layers feature
 
 > `optional` **preferMultiviewOnInit?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L57)
 
 Whether to try initializing the base projection layer as a multiview render target, if multiview is supported.
 Defaults to false.
@@ -27,6 +27,6 @@ Defaults to false.
 
 > `optional` **projectionLayerInit?**: `Partial`\<`XRProjectionLayerInit`\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRLayers.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRLayers.pure.ts#L62)
 
 Optional configuration for the base projection layer.

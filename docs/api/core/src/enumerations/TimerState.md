@@ -6,7 +6,7 @@
 
 # Enumeration: TimerState
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L75)
+Defined in: [packages/dev/core/src/Misc/timer.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L75)
 
 The current state of the timer
 
@@ -16,7 +16,7 @@ The current state of the timer
 
 > **ENDED**: `2`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L87)
+Defined in: [packages/dev/core/src/Misc/timer.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L87)
 
 Timer ended (whether aborted or time reached)
 
@@ -26,7 +26,7 @@ Timer ended (whether aborted or time reached)
 
 > **INIT**: `0`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L79)
+Defined in: [packages/dev/core/src/Misc/timer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L79)
 
 Timer initialized, not yet started
 
@@ -36,6 +36,6 @@ Timer initialized, not yet started
 
 > **STARTED**: `1`
 
-Defined in: [packages/dev/core/src/Misc/timer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/timer.ts#L83)
+Defined in: [packages/dev/core/src/Misc/timer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/timer.ts#L83)
 
 Timer started and counting

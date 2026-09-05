@@ -8,7 +8,7 @@
 
 > **Clamp**(`value`, `min?`, `max?`): `number`
 
-Defined in: [packages/dev/core/src/Maths/math.scalar.functions.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.scalar.functions.ts#L134)
+Defined in: [packages/dev/core/src/Maths/math.scalar.functions.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.scalar.functions.ts#L134)
 
 Returns the value itself if it's between min and max.
 Returns min if the value is lower than min.

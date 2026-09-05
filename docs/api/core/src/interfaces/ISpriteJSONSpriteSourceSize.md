@@ -6,7 +6,7 @@
 
 # Interface: ISpriteJSONSpriteSourceSize
 
-Defined in: [packages/dev/core/src/Sprites/ISprites.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/ISprites.ts#L4)
+Defined in: [packages/dev/core/src/Sprites/ISprites.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/ISprites.ts#L4)
 
 Defines the basic options interface of a Sprite Frame Source Size.
 
@@ -16,7 +16,7 @@ Defines the basic options interface of a Sprite Frame Source Size.
 
 > **h**: `number`
 
-Defined in: [packages/dev/core/src/Sprites/ISprites.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/ISprites.ts#L13)
+Defined in: [packages/dev/core/src/Sprites/ISprites.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/ISprites.ts#L13)
 
 number of the original height of the Frame
 
@@ -26,6 +26,6 @@ number of the original height of the Frame
 
 > **w**: `number`
 
-Defined in: [packages/dev/core/src/Sprites/ISprites.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/ISprites.ts#L8)
+Defined in: [packages/dev/core/src/Sprites/ISprites.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/ISprites.ts#L8)
 
 number of the original width of the Frame

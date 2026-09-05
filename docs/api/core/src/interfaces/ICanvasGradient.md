@@ -6,7 +6,7 @@
 
 # Interface: ICanvasGradient
 
-Defined in: [packages/dev/core/src/Engines/ICanvas.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L197)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:197](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/ICanvas.ts#L197)
 
 Class used to abstract a canvas gradient
 
@@ -16,7 +16,7 @@ Class used to abstract a canvas gradient
 
 > **addColorStop**(`offset`, `color`): `void`
 
-Defined in: [packages/dev/core/src/Engines/ICanvas.ts:203](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/ICanvas.ts#L203)
+Defined in: [packages/dev/core/src/Engines/ICanvas.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/ICanvas.ts#L203)
 
 adds a new color stop, defined by an offset and a color, to a given canvas gradient.
 

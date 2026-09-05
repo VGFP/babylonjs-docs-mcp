@@ -6,7 +6,7 @@
 
 # Enumeration: CompressionCodes
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L76)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L76)
 
 Inspired by https://github.com/sciecode/three.js/blob/dev/examples/jsm/loaders/EXRLoader.js
 Referred to the original Industrial Light & Magic OpenEXR implementation and the TinyEXR / Syoyo Fujita
@@ -18,7 +18,7 @@ implementation.
 
 > **NO\_COMPRESSION**: `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L77)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L77)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core
 
 > **PIZ\_COMPRESSION**: `4`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L81)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L81)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core
 
 > **PXR24\_COMPRESSION**: `5`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L82)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L82)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core
 
 > **RLE\_COMPRESSION**: `1`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L78)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L78)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core
 
 > **ZIP\_COMPRESSION**: `3`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L80)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:80](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L80)
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core
 
 > **ZIPS\_COMPRESSION**: `2`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L79)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L79)

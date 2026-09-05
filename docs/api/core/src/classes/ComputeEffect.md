@@ -6,7 +6,7 @@
 
 # Class: ComputeEffect
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L72)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L72)
 
 Effect wrapping a compute shader and let execute (dispatch) the shader
 
@@ -16,7 +16,7 @@ Effect wrapping a compute shader and let execute (dispatch) the shader
 
 > **new ComputeEffect**(`baseName`, `options`, `engine`, `key?`): `ComputeEffect`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L145)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L145)
 
 Creates a compute effect that can be used to execute a compute shader
 
@@ -56,7 +56,7 @@ Effect Key identifying uniquely compiled shader variants
 
 > **defines**: `string` = `""`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L86)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L86)
 
 String container all the define statements that should be set on the shader.
 
@@ -66,7 +66,7 @@ String container all the define statements that should be set on the shader.
 
 > **name**: `string` \| [`IComputeShaderPath`](../type-aliases/IComputeShaderPath.md)
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L82)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L82)
 
 Name of the effect.
 
@@ -76,7 +76,7 @@ Name of the effect.
 
 > **onBindObservable**: [`Observable`](Observable.md)\<`ComputeEffect`\>
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L111)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L111)
 
 Observable that will be called when effect is bound.
 
@@ -86,7 +86,7 @@ Observable that will be called when effect is bound.
 
 > **onCompiled**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L90)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L90)
 
 Callback that will be called when the shader is compiled.
 
@@ -96,7 +96,7 @@ Callback that will be called when the shader is compiled.
 
 > **onCompileObservable**: [`Observable`](Observable.md)\<`ComputeEffect`\>
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L103)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L103)
 
 Observable that will be called when the shader is compiled.
 It is recommended to use executeWhenCompile() or to make sure that scene.isReady() is called to get this observable raised.
@@ -107,7 +107,7 @@ It is recommended to use executeWhenCompile() or to make sure that scene.isReady
 
 > **onError**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`, `errors`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L94)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:94](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L94)
 
 Callback that will be called if an error occurs during shader compilation.
 
@@ -117,7 +117,7 @@ Callback that will be called if an error occurs during shader compilation.
 
 > **onErrorObservable**: [`Observable`](Observable.md)\<`ComputeEffect`\>
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L107)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L107)
 
 Observable that will be called if an error occurs during shader compilation.
 
@@ -127,7 +127,7 @@ Observable that will be called if an error occurs during shader compilation.
 
 > **uniqueId**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L98)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L98)
 
 Unique ID of the effect.
 
@@ -137,7 +137,7 @@ Unique ID of the effect.
 
 > `static` **LogShaderCodeOnCompilationError**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L78)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L78)
 
 Enable logging of the shader code when a compilation error occurs
 
@@ -149,7 +149,7 @@ Enable logging of the shader code when a compilation error occurs
 
 > **get** **computeSourceCode**(): `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L374)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:374](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L374)
 
 Gets the compute shader source code of this effect
 
@@ -165,7 +165,7 @@ Gets the compute shader source code of this effect
 
 > **get** **key**(): `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L242)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:242](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L242)
 
 Unique key for this effect
 
@@ -181,7 +181,7 @@ Unique key for this effect
 
 > **get** **rawComputeSourceCode**(): `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:381](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L381)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:381](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L381)
 
 Gets the compute shader source code before it has been processed by the preprocessor
 
@@ -195,7 +195,7 @@ Gets the compute shader source code before it has been processed by the preproce
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L495)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:495](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L495)
 
 Release all associated resources.
 
@@ -209,7 +209,7 @@ Release all associated resources.
 
 > **executeWhenCompiled**(`func`): `void`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L296)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L296)
 
 Adds a callback to the onCompiled observable and call the callback immediately if already ready.
 
@@ -231,7 +231,7 @@ The callback to be used.
 
 > **getCompilationError**(): `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L288)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L288)
 
 The error from the last compilation.
 
@@ -247,7 +247,7 @@ the error string.
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L272)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:272](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L272)
 
 The engine the effect was initialized with.
 
@@ -263,7 +263,7 @@ the engine.
 
 > **getPipelineContext**(): [`Nullable`](../type-aliases/Nullable.md)\<`IComputePipelineContext`\>
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L280)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L280)
 
 The pipeline context for this effect
 
@@ -279,7 +279,7 @@ the associated pipeline context
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L250)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:250](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L250)
 
 If the effect has been compiled and prepared.
 
@@ -295,7 +295,7 @@ if the effect is compiled and prepared.
 
 > `static` **RegisterShader**(`name`, `computeShader`): `void`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:507](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L507)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:507](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L507)
 
 This function will add a new compute shader to the shader store
 

@@ -6,7 +6,7 @@
 
 # Class: BoneAxesViewer
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L13)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L13)
 
 The BoneAxesViewer will attach 3 axes to a specific bone of a specific mesh
 
@@ -24,7 +24,7 @@ demo here: https://www.babylonjs-playground.com/#0DE8F4#8
 
 > **new BoneAxesViewer**(`scene`, `bone`, `mesh`, `scaleLines?`): `BoneAxesViewer`
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L39)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L39)
 
 Creates a new BoneAxesViewer
 
@@ -68,7 +68,7 @@ defines a scaling factor for line length (1 by default)
 
 > **bone**: [`Nullable`](../type-aliases/Nullable.md)\<[`Bone`](Bone.md)\>
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L21)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L21)
 
 Gets or sets the target bone where to display the axes viewer
 
@@ -78,7 +78,7 @@ Gets or sets the target bone where to display the axes viewer
 
 > **mesh**: [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L17)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L17)
 
 Gets or sets the target mesh where to display the axes viewer
 
@@ -88,7 +88,7 @@ Gets or sets the target mesh where to display the axes viewer
 
 > **pos**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L24)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L24)
 
 Gets current position
 
@@ -98,7 +98,7 @@ Gets current position
 
 > **scene**: [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](Scene.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L24)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L24)
 
 Gets the hosting scene
 
@@ -112,7 +112,7 @@ Gets the hosting scene
 
 > **xaxis**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L26)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L26)
 
 Gets direction of X axis
 
@@ -122,7 +122,7 @@ Gets direction of X axis
 
 > **yaxis**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L28)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L28)
 
 Gets direction of Y axis
 
@@ -132,7 +132,7 @@ Gets direction of Y axis
 
 > **zaxis**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L30)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L30)
 
 Gets direction of Z axis
 
@@ -144,7 +144,7 @@ Gets direction of Z axis
 
 > **get** **scaleLines**(): `number`
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L30)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L30)
 
 Gets or sets a number used to scale line length
 
@@ -156,7 +156,7 @@ Gets or sets a number used to scale line length
 
 > **set** **scaleLines**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L34)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L34)
 
 ##### Parameters
 
@@ -180,7 +180,7 @@ Defined in: [packages/dev/core/src/Debug/axesViewer.ts:34](https://github.com/Ba
 
 > **get** **xAxis**(): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L42)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L42)
 
 Gets the node hierarchy used to render x-axis
 
@@ -200,7 +200,7 @@ Gets the node hierarchy used to render x-axis
 
 > **get** **yAxis**(): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L47)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L47)
 
 Gets the node hierarchy used to render y-axis
 
@@ -220,7 +220,7 @@ Gets the node hierarchy used to render y-axis
 
 > **get** **zAxis**(): [`TransformNode`](TransformNode.md)
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L52)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L52)
 
 Gets the node hierarchy used to render z-axis
 
@@ -238,7 +238,7 @@ Gets the node hierarchy used to render z-axis
 
 > **createInstance**(): [`AxesViewer`](AxesViewer.md)
 
-Defined in: [packages/dev/core/src/Debug/axesViewer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/axesViewer.ts#L131)
+Defined in: [packages/dev/core/src/Debug/axesViewer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/axesViewer.ts#L131)
 
 Creates an instance of this axes viewer.
 
@@ -258,7 +258,7 @@ a new axes viewer with instanced meshes
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L64)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L64)
 
 Releases resources
 
@@ -276,7 +276,7 @@ Releases resources
 
 > **update**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/boneAxesViewer.ts#L49)
+Defined in: [packages/dev/core/src/Debug/boneAxesViewer.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/boneAxesViewer.ts#L49)
 
 Force the viewer to update
 

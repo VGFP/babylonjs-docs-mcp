@@ -8,7 +8,7 @@
 
 > **PrepareDefinesForMisc**(`mesh`, `scene`, `useLogarithmicDepth`, `pointsCloud`, `fogEnabled`, `alphaTest`, `defines`, `applyDecalAfterDetail?`, `useVertexPulling?`, `renderingMesh?`, `setVertexOutputInvariant?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:697](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialHelper.functions.ts#L697)
+Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:697](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialHelper.functions.ts#L697)
 
 Helper used to prepare the list of defines associated with misc. values for shader compilation
 

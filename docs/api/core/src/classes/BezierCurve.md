@@ -6,7 +6,7 @@
 
 # Class: BezierCurve
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L19)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L19)
 
 Class used to represent a Bezier curve
 
@@ -26,7 +26,7 @@ Class used to represent a Bezier curve
 
 > `static` **Interpolate**(`t`, `x1`, `y1`, `x2`, `y2`): `number`
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L29)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L29)
 
 Returns the cubic Bezier interpolated value (float) at "t" (float) from the given x1, y1, x2, y2 floats
 

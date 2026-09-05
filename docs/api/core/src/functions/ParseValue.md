@@ -8,7 +8,7 @@
 
 > **ParseValue**(`dataView`, `offset`, `type`, `size`): `string` \| `number` \| `number`[] \| `object`[] \| \{ `blueX`: `number`; `blueY`: `number`; `greenX`: `number`; `greenY`: `number`; `redX`: `number`; `redY`: `number`; `whiteX`: `number`; `whiteY`: `number`; \} \| \{ `xMax`: `number`; `xMin`: `number`; `yMax`: `number`; `yMin`: `number`; \} \| `undefined`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:348](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L348)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts:348](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.core.ts#L348)
 
 Parse a value from the data view
 

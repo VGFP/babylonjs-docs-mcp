@@ -6,7 +6,7 @@
 
 # Class: KeyPropertySet
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L17)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L17)
 
 Class used to store key control properties
 
@@ -26,7 +26,7 @@ Class used to store key control properties
 
 > `optional` **background?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L33)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L33)
 
 Background color
 
@@ -36,7 +36,7 @@ Background color
 
 > `optional` **color?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L31)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L31)
 
 Foreground color
 
@@ -46,7 +46,7 @@ Foreground color
 
 > `optional` **height?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L21)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L21)
 
 Height
 
@@ -56,7 +56,7 @@ Height
 
 > `optional` **paddingBottom?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L29)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L29)
 
 Bottom padding
 
@@ -66,7 +66,7 @@ Bottom padding
 
 > `optional` **paddingLeft?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L23)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L23)
 
 Left padding
 
@@ -76,7 +76,7 @@ Left padding
 
 > `optional` **paddingRight?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L25)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L25)
 
 Right padding
 
@@ -86,7 +86,7 @@ Right padding
 
 > `optional` **paddingTop?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L27)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L27)
 
 Top padding
 
@@ -96,6 +96,6 @@ Top padding
 
 > `optional` **width?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L19)
+Defined in: [packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/virtualKeyboard.pure.ts#L19)
 
 Width

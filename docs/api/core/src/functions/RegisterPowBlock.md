@@ -8,7 +8,7 @@
 
 > **RegisterPowBlock**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Node/Blocks/powBlock.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/powBlock.pure.ts#L73)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/powBlock.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/Blocks/powBlock.pure.ts#L74)
 
 Register side effects for powBlock.
 Safe to call multiple times; only the first call has an effect.

@@ -6,7 +6,7 @@
 
 # Interface: IStaticSoundCloneOptions
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts#L77)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts#L77)
 
 Options for cloning a static sound.
 -
@@ -21,7 +21,7 @@ StaticSound.clone.
 
 > **cloneBuffer**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts#L83)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts#L83)
 
 Whether to clone the sound buffer when cloning the sound. Defaults to `false`.
 - If `true`, the original sound's buffer is cloned, and the cloned sound will use its own copy.
@@ -33,7 +33,7 @@ Whether to clone the sound buffer when cloning the sound. Defaults to `false`.
 
 > **outBus**: [`Nullable`](../type-aliases/Nullable.md)\<[`PrimaryAudioBus`](../type-aliases/PrimaryAudioBus.md)\>
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts#L90)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/staticSound.ts#L90)
 
 The output bus for the cloned sound. Defaults to `null`.
 - If not set or `null`, the cloned sound uses the original sound's `outBus`.

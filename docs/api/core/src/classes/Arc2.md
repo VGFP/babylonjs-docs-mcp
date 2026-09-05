@@ -6,7 +6,7 @@
 
 # Class: Arc2
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L138)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L138)
 
 This represents an arc in a 2d space.
 
@@ -16,7 +16,7 @@ This represents an arc in a 2d space.
 
 > **new Arc2**(`startPoint`, `midPoint`, `endPoint`): `Arc2`
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L166)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L166)
 
 Creates an Arc object from the three given points : start, middle and end.
 
@@ -50,7 +50,7 @@ Defines the end point of the arc
 
 > **angle**: [`Angle`](Angle.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L150)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:150](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L150)
 
 Defines the angle of the arc (from mid point to end point).
 
@@ -60,7 +60,7 @@ Defines the angle of the arc (from mid point to end point).
 
 > **centerPoint**: [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L142)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L142)
 
 Defines the center point of the arc.
 
@@ -70,7 +70,7 @@ Defines the center point of the arc.
 
 > **endPoint**: [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L172)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L172)
 
 Defines the end point of the arc
 
@@ -80,7 +80,7 @@ Defines the end point of the arc
 
 > **midPoint**: [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L170)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:170](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L170)
 
 Defines the mid point of the arc
 
@@ -90,7 +90,7 @@ Defines the mid point of the arc
 
 > **orientation**: [`Orientation`](../enumerations/Orientation.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:158](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L158)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:158](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L158)
 
 Defines the orientation of the arc (clock wise/counter clock wise).
 
@@ -100,7 +100,7 @@ Defines the orientation of the arc (clock wise/counter clock wise).
 
 > **radius**: `number`
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L146)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L146)
 
 Defines the radius of the arc.
 
@@ -110,7 +110,7 @@ Defines the radius of the arc.
 
 > **startAngle**: [`Angle`](Angle.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L154)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:154](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L154)
 
 Defines the start angle of the arc (from start point to middle point).
 
@@ -120,6 +120,6 @@ Defines the start angle of the arc (from start point to middle point).
 
 > **startPoint**: [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/Maths/math.path.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.path.ts#L168)
+Defined in: [packages/dev/core/src/Maths/math.path.ts:168](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.path.ts#L168)
 
 Defines the start point of the arc

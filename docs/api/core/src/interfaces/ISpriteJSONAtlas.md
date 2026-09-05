@@ -6,7 +6,7 @@
 
 # Interface: ISpriteJSONAtlas
 
-Defined in: [packages/dev/core/src/Sprites/ISprites.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/ISprites.ts#L79)
+Defined in: [packages/dev/core/src/Sprites/ISprites.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/ISprites.ts#L79)
 
 Defines the basic options interface of a JSON atlas.
 
@@ -16,7 +16,7 @@ Defines the basic options interface of a JSON atlas.
 
 > **frames**: [`ISpriteJSONSprite`](ISpriteJSONSprite.md)[]
 
-Defined in: [packages/dev/core/src/Sprites/ISprites.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/ISprites.ts#L83)
+Defined in: [packages/dev/core/src/Sprites/ISprites.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/ISprites.ts#L83)
 
 Array of objects that contain the frame data.
 
@@ -26,6 +26,6 @@ Array of objects that contain the frame data.
 
 > `optional` **meta?**: `object`
 
-Defined in: [packages/dev/core/src/Sprites/ISprites.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Sprites/ISprites.ts#L88)
+Defined in: [packages/dev/core/src/Sprites/ISprites.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Sprites/ISprites.ts#L88)
 
 object basic object containing the sprite meta data.

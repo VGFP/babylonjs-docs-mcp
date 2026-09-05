@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_emissive\_strength
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L13)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L13)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_emissive_strength/README.md)
 
@@ -30,7 +30,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_em
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L18)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L18)
 
 Defines whether this extension is enabled
 
@@ -44,7 +44,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_materials_emissive_strength"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L15)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L15)
 
 Name of this extension
 
@@ -58,7 +58,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L21)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L21)
 
 Defines whether this extension is required
 
@@ -72,7 +72,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L26)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L26)
 
 Dispose
 
@@ -90,7 +90,7 @@ Dispose
 
 > **postExportMaterialAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<`IMaterial`\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L40)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_emissive\_strength.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_emissive_strength.pure.ts#L40)
 
 After exporting a material
 

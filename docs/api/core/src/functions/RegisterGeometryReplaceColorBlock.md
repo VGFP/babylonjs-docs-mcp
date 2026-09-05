@@ -8,7 +8,7 @@
 
 > **RegisterGeometryReplaceColorBlock**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Blocks/geometryReplaceColorBlock.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Blocks/geometryReplaceColorBlock.pure.ts#L108)
+Defined in: [packages/dev/core/src/Meshes/Node/Blocks/geometryReplaceColorBlock.pure.ts:108](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Blocks/geometryReplaceColorBlock.pure.ts#L108)
 
 Register side effects for geometryReplaceColorBlock.
 Safe to call multiple times; only the first call has an effect.

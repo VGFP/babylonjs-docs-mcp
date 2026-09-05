@@ -6,7 +6,7 @@
 
 # Interface: HostInformation
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L196)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L196)
 
 Information about the current host
 
@@ -16,6 +16,6 @@ Information about the current host
 
 > **isMobile**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L200)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:200](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L200)
 
 Defines if the current host is a mobile

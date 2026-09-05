@@ -6,7 +6,7 @@
 
 # Class: LineEdgesRenderer
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L976)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L976)
 
 LineEdgesRenderer for LineMeshes to remove unnecessary triangulation
 
@@ -20,7 +20,7 @@ LineEdgesRenderer for LineMeshes to remove unnecessary triangulation
 
 > **new LineEdgesRenderer**(`source`, `epsilon?`, `checkVerticesInsteadOfIndices?`): `LineEdgesRenderer`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:983](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L983)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:983](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L983)
 
 This constructor turns off auto generating edges line in Edges Renderer to make it here.
 
@@ -58,7 +58,7 @@ not important for LineMesh
 
 > **customInstances**: [`SmartArray`](SmartArray.md)\<[`Matrix`](Matrix.md)\>
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L170)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L170)
 
 List of instances to render in case the source mesh has instances
 
@@ -72,7 +72,7 @@ List of instances to render in case the source mesh has instances
 
 > **edgesWidthScalerForOrthographic**: `number` = `1000.0`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L113)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L113)
 
 Define the size of the edges with an orthographic camera
 
@@ -86,7 +86,7 @@ Define the size of the edges with an orthographic camera
 
 > **edgesWidthScalerForPerspective**: `number` = `50.0`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L118)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L118)
 
 Define the size of the edges with a perspective camera
 
@@ -100,7 +100,7 @@ Define the size of the edges with a perspective camera
 
 > **isEnabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L139)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L139)
 
 Gets or sets a boolean indicating if the edgesRenderer is active
 
@@ -116,7 +116,7 @@ Gets or sets a boolean indicating if the edgesRenderer is active
 
 > **get** **lineShader**(): [`ShaderMaterial`](ShaderMaterial.md)
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L159)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L159)
 
 Gets or sets the shader used to draw the lines
 
@@ -128,7 +128,7 @@ Gets or sets the shader used to draw the lines
 
 > **set** **lineShader**(`shader`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L163)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:163](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L163)
 
 ##### Parameters
 
@@ -152,7 +152,7 @@ Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:163](https://
 
 > **get** **linesIndices**(): readonly `number`[]
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L152)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L152)
 
 Gets the indices generated by the edge renderer
 
@@ -172,7 +172,7 @@ readonly `number`[]
 
 > **get** **linesNormals**(): readonly `number`[]
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L147)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L147)
 
 Gets the normals generated by the edge renderer
 
@@ -192,7 +192,7 @@ readonly `number`[]
 
 > **get** **linesPositions**(): readonly `number`[]
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L142)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L142)
 
 Gets the vertices generated by the edge renderer
 
@@ -212,7 +212,7 @@ readonly `number`[]
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L216)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L216)
 
 Gets the shader language used.
 
@@ -230,7 +230,7 @@ Gets the shader language used.
 
 > **\_generateEdgesLines**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:991](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L991)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:991](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L991)
 
 Generate edges for each line in LinesMesh. Every Line should be rendered as edge.
 
@@ -248,7 +248,7 @@ Generate edges for each line in LinesMesh. Every Line should be rendered as edge
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L287)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L287)
 
 Releases the required resources for the edges renderer
 
@@ -266,7 +266,7 @@ Releases the required resources for the edges renderer
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:867](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L867)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:867](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L867)
 
 Checks whether or not the edges renderer is ready to render.
 
@@ -286,7 +286,7 @@ true if ready, otherwise false.
 
 > **render**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L874)
+Defined in: [packages/dev/core/src/Rendering/edgesRenderer.pure.ts:874](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/edgesRenderer.pure.ts#L874)
 
 Renders the edges of the attached mesh,
 

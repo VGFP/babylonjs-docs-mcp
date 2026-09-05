@@ -6,7 +6,7 @@
 
 # Abstract Class: BaseCameraMouseWheelInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L15)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L15)
 
 Base class for mouse wheel input..
 See FollowCameraMouseWheelInput in src/Cameras/Inputs/freeCameraMouseWheelInput.ts
@@ -37,7 +37,7 @@ for example usage.
 
 > `abstract` **camera**: [`Camera`](Camera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L19)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L19)
 
 Defines the camera the input is attached to.
 
@@ -51,7 +51,7 @@ Defines the camera the input is attached to.
 
 > **onChangedObservable**: [`Observable`](Observable.md)\<\{ `wheelDeltaX`: `number`; `wheelDeltaY`: `number`; `wheelDeltaZ`: `number`; \}\>
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L45)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L45)
 
 Observable for when a mouse wheel move event occurs.
 
@@ -61,7 +61,7 @@ Observable for when a mouse wheel move event occurs.
 
 > **wheelPrecisionX**: `number` = `3.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L26)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L26)
 
 How fast is the camera moves in relation to X axis mouseWheel events.
 Use negative value to reverse direction.
@@ -72,7 +72,7 @@ Use negative value to reverse direction.
 
 > **wheelPrecisionY**: `number` = `3.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L33)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L33)
 
 How fast is the camera moves in relation to Y axis mouseWheel events.
 Use negative value to reverse direction.
@@ -83,7 +83,7 @@ Use negative value to reverse direction.
 
 > **wheelPrecisionZ**: `number` = `3.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L40)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L40)
 
 How fast is the camera moves in relation to Z axis mouseWheel events.
 Use negative value to reverse direction.
@@ -94,7 +94,7 @@ Use negative value to reverse direction.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L56)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L56)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -122,7 +122,7 @@ Defines whether event caught by the controls
 
 > **checkInputs**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L100)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:100](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L100)
 
 Called for each rendered frame.
 
@@ -140,7 +140,7 @@ Called for each rendered frame.
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L86)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L86)
 
 Detach the current controls from the specified dom element.
 
@@ -158,7 +158,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L117)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L117)
 
 Gets the class name of the current input.
 
@@ -178,7 +178,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L125)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts:125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraMouseWheelInput.ts#L125)
 
 Get the friendly name associated with the input class.
 

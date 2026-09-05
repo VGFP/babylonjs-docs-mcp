@@ -6,7 +6,7 @@
 
 # Enumeration: FlowGraphTypes
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L12)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L12)
 
 The types supported by the flow graph.
 
@@ -16,7 +16,7 @@ The types supported by the flow graph.
 
 > **Any**: `"any"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L13)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L13)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:13](http
 
 > **Boolean**: `"boolean"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L16)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L16)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:16](http
 
 > **Color3**: `"Color3"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L26)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L26)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:26](http
 
 > **Color4**: `"Color4"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L27)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L27)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:27](http
 
 > **Integer**: `"FlowGraphInteger"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L18)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L18)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:18](http
 
 > **Matrix**: `"Matrix"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L23)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L23)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:23](http
 
 > **Matrix2D**: `"Matrix2D"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L24)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L24)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:24](http
 
 > **Matrix3D**: `"Matrix3D"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L25)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L25)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:25](http
 
 > **Number**: `"number"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L15)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L15)
 
 ***
 
@@ -88,7 +88,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:15](http
 
 > **Object**: `"object"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L17)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L17)
 
 ***
 
@@ -96,7 +96,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:17](http
 
 > **Quaternion**: `"Quaternion"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L22)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L22)
 
 ***
 
@@ -104,7 +104,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:22](http
 
 > **String**: `"string"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L14)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L14)
 
 ***
 
@@ -112,7 +112,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:14](http
 
 > **Vector2**: `"Vector2"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L19)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L19)
 
 ***
 
@@ -120,7 +120,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:19](http
 
 > **Vector3**: `"Vector3"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L20)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L20)
 
 ***
 
@@ -128,4 +128,4 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:20](http
 
 > **Vector4**: `"Vector4"`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L21)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L21)

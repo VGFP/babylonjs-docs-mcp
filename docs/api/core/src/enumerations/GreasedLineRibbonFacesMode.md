@@ -6,7 +6,7 @@
 
 # Enumeration: GreasedLineRibbonFacesMode
 
-Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L28)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L28)
 
 FACES_MODE_SINGLE_SIDED single sided with back face culling. Default value.
 FACES_MODE_SINGLE_SIDED_NO_BACKFACE_CULLING single sided without back face culling. Sets backFaceCulling = false on the material so it affects all line ribbons added to the line ribbon instance.
@@ -18,7 +18,7 @@ FACES_MODE_DOUBLE_SIDED extra back faces are created. This doubles the amount of
 
 > **FACES\_MODE\_DOUBLE\_SIDED**: `2`
 
-Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L31)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L31)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:31]
 
 > **FACES\_MODE\_SINGLE\_SIDED**: `0`
 
-Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L29)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L29)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:29]
 
 > **FACES\_MODE\_SINGLE\_SIDED\_NO\_BACKFACE\_CULLING**: `1`
 
-Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L30)
+Defined in: [packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/GreasedLine/greasedLineBaseMesh.ts#L30)

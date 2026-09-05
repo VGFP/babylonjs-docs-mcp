@@ -8,7 +8,7 @@
 
 > **addNewInteractivityFlowGraphMapping**(`key`, `extension`, `mapping`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L245)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/declarationMapper.ts:245](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/declarationMapper.ts#L245)
 
 This function will add new mapping to glTF interactivity.
 Other extensions can define new types of blocks, this is the way to let interactivity know how to parse them.

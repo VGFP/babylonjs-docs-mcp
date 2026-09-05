@@ -6,7 +6,7 @@
 
 # Enumeration: PointColor
 
-Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/pointsCloudSystem.ts#L19)
+Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/pointsCloudSystem.ts#L19)
 
 Defines the 4 color options
 
@@ -16,7 +16,7 @@ Defines the 4 color options
 
 > **Color**: `2`
 
-Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/pointsCloudSystem.ts#L21)
+Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/pointsCloudSystem.ts#L21)
 
 color value
 
@@ -26,7 +26,7 @@ color value
 
 > **Random**: `0`
 
-Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/pointsCloudSystem.ts#L25)
+Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/pointsCloudSystem.ts#L25)
 
 random value
 
@@ -36,7 +36,7 @@ random value
 
 > **Stated**: `3`
 
-Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/pointsCloudSystem.ts#L27)
+Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/pointsCloudSystem.ts#L27)
 
 stated value
 
@@ -46,6 +46,6 @@ stated value
 
 > **UV**: `1`
 
-Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/pointsCloudSystem.ts#L23)
+Defined in: [packages/dev/core/src/Particles/pointsCloudSystem.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/pointsCloudSystem.ts#L23)
 
 uv value

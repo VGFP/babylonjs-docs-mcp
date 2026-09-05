@@ -6,7 +6,7 @@
 
 # Interface: PhysicsImpostorJoint
 
-Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L12)
+Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L12)
 
 Interface used to describe a physics joint
 
@@ -16,7 +16,7 @@ Interface used to describe a physics joint
 
 > **connectedImpostor**: [`PhysicsImpostor`](../classes/PhysicsImpostor.md)
 
-Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L16)
+Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L16)
 
 Defines the impostor that is connected to the main impostor using this joint
 
@@ -26,7 +26,7 @@ Defines the impostor that is connected to the main impostor using this joint
 
 > **joint**: [`PhysicsJoint`](../classes/PhysicsJoint.md)
 
-Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L18)
+Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L18)
 
 Defines the joint itself
 
@@ -36,6 +36,6 @@ Defines the joint itself
 
 > **mainImpostor**: [`PhysicsImpostor`](../classes/PhysicsImpostor.md)
 
-Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L14)
+Defined in: [packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v1/IPhysicsEnginePlugin.ts#L14)
 
 Defines the main impostor to which the joint is linked

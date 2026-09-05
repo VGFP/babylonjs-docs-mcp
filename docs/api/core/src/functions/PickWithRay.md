@@ -8,7 +8,7 @@
 
 > **PickWithRay**(`scene`, `ray`, `predicate?`, `fastCheck?`, `trianglePredicate?`): [`Nullable`](../type-aliases/Nullable.md)\<[`PickingInfo`](../classes/PickingInfo.md)\>
 
-Defined in: [packages/dev/core/src/Culling/ray.core.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/ray.core.ts#L1144)
+Defined in: [packages/dev/core/src/Culling/ray.core.ts:1144](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Culling/ray.core.ts#L1144)
 
 Use the given ray to pick a mesh in the scene. A mesh triangle can be picked both from its front and back sides,
 irrespective of orientation.

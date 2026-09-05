@@ -6,7 +6,7 @@
 
 # Interface: INodeParticleTextureData
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L18)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L18)
 
 Interface used to define texture data
 
@@ -16,7 +16,7 @@ Interface used to define texture data
 
 > **data**: `Uint8ClampedArray`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L24)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L24)
 
 RGBA pixel data
 
@@ -26,7 +26,7 @@ RGBA pixel data
 
 > **height**: `number`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L22)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L22)
 
 Height of the texture in pixels
 
@@ -36,6 +36,6 @@ Height of the texture in pixels
 
 > **width**: `number`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L20)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L20)
 
 Width of the texture in pixels

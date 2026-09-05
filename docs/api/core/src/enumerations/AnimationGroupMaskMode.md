@@ -6,7 +6,7 @@
 
 # Enumeration: AnimationGroupMaskMode
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L4)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L4)
 
 Enum used to define the mode for an animation group mask
 
@@ -16,7 +16,7 @@ Enum used to define the mode for an animation group mask
 
 > **Exclude**: `1`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L12)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L12)
 
 The mask defines the animatable target names in a "exclude" mode: all animatable targets will be animated except the ones defined in the mask
 
@@ -26,6 +26,6 @@ The mask defines the animatable target names in a "exclude" mode: all animatable
 
 > **Include**: `0`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L8)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L8)
 
 The mask defines the animatable target names that should be included

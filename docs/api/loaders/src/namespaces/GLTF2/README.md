@@ -123,6 +123,7 @@
 - [RegisterEXT\_texture\_webp](functions/RegisterEXT_texture_webp.md)
 - [RegisterExtrasAsMetadata](functions/RegisterExtrasAsMetadata.md)
 - [registerGLTFExtension](functions/registerGLTFExtension.md)
+- [RegisterGLTFLoaderAnimation](functions/RegisterGLTFLoaderAnimation.md)
 - [RegisterKHR\_animation\_pointer](functions/RegisterKHR_animation_pointer.md)
 - [RegisterKHR\_draco\_mesh\_compression](functions/RegisterKHR_draco_mesh_compression.md)
 - [RegisterKHR\_gaussian\_splatting](functions/RegisterKHR_gaussian_splatting.md)

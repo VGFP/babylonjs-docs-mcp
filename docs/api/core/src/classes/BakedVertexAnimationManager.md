@@ -6,7 +6,7 @@
 
 # Class: BakedVertexAnimationManager
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L69)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L69)
 
 **`Since`**
 
@@ -27,7 +27,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/baked_texture_anim
 
 > **new BakedVertexAnimationManager**(`scene?`): `BakedVertexAnimationManager`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L104)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L104)
 
 Creates a new BakedVertexAnimationManager
 
@@ -49,7 +49,7 @@ defines the current scene
 
 > **animationParameters**: [`Vector4`](Vector4.md)
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L92)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L92)
 
 The animation parameters for the mesh. See setAnimationParameters()
 
@@ -63,7 +63,7 @@ The animation parameters for the mesh. See setAnimationParameters()
 
 > **time**: `number` = `0`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L98)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L98)
 
 The time counter, to pick the correct animation frame.
 
@@ -75,7 +75,7 @@ The time counter, to pick the correct animation frame.
 
 ### isEnabled
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L86)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L86)
 
 Enable or disable the vertex animation manager
 
@@ -87,7 +87,7 @@ Enable or disable the vertex animation manager
 
 ### texture
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L78)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L78)
 
 The vertex animation texture
 
@@ -101,7 +101,7 @@ The vertex animation texture
 
 > **bind**(`effect`, `useInstances?`): `void`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L127)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L127)
 
 Binds to the effect.
 
@@ -133,7 +133,7 @@ True when it's an instance.
 
 > **clone**(): `BakedVertexAnimationManager`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L147)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L147)
 
 Clone the current manager
 
@@ -149,7 +149,7 @@ a new BakedVertexAnimationManager
 
 > **copyTo**(`vatMap`): `void`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L186)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:186](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L186)
 
 Makes a duplicate of the current instance into another one.
 
@@ -171,7 +171,7 @@ define the instance where to copy the info
 
 > **dispose**(`forceDisposeTextures?`): `void`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L168)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:168](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L168)
 
 Disposes the resources of the manager.
 
@@ -197,7 +197,7 @@ Forces the disposal of all textures.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:178](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L178)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:178](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L178)
 
 Get the current class name useful for serialization or dynamic coding.
 
@@ -217,7 +217,7 @@ Get the current class name useful for serialization or dynamic coding.
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:204](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L204)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:204](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L204)
 
 Parses a vertex animation setting from a serialized object.
 
@@ -251,7 +251,7 @@ Defines the rootUrl to load from
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:194](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L194)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:194](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L194)
 
 Serializes this vertex animation instance
 
@@ -267,7 +267,7 @@ Serializes this vertex animation instance
 
 > **setAnimationParameters**(`startFrame`, `endFrame`, `offset?`, `speedFramesPerSecond?`): `void`
 
-Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L160)
+Defined in: [packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts:160](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/BakedVertexAnimation/bakedVertexAnimationManager.ts#L160)
 
 Sets animation parameters.
 

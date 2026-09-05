@@ -8,7 +8,7 @@
 
 > **UploadImageToTexture2DArrayLayer**(`texture`, `source`, `layer`, `options?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L54)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L54)
 
 Uploads a decoded image source (ImageBitmap, canvas, video, image element...) into a single layer of a 2D array texture.
 This is the image-source counterpart to RawTexture2DArray.update, which only accepts raw bytes.

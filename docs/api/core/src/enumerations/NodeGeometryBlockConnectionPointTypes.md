@@ -6,7 +6,7 @@
 
 # Enumeration: NodeGeometryBlockConnectionPointTypes
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L4)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L4)
 
 Defines the kind of connection point for node geometry
 
@@ -16,7 +16,7 @@ Defines the kind of connection point for node geometry
 
 > **All**: `4095`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L28)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L28)
 
 Bitmask of all types
 
@@ -26,7 +26,7 @@ Bitmask of all types
 
 > **AutoDetect**: `1024`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L22)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L22)
 
 Detect type based on connection
 
@@ -36,7 +36,7 @@ Detect type based on connection
 
 > **BasedOnInput**: `2048`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L24)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L24)
 
 Output type that will be defined by input type
 
@@ -46,7 +46,7 @@ Output type that will be defined by input type
 
 > **Float**: `2`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L8)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L8)
 
 Float
 
@@ -56,7 +56,7 @@ Float
 
 > **Geometry**: `64`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L18)
 
 Geometry
 
@@ -66,7 +66,7 @@ Geometry
 
 > **Int**: `1`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L6)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L6)
 
 Int
 
@@ -76,7 +76,7 @@ Int
 
 > **Matrix**: `32`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L16)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L16)
 
 Matrix
 
@@ -86,7 +86,7 @@ Matrix
 
 > **Texture**: `128`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L20)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L20)
 
 Texture
 
@@ -96,7 +96,7 @@ Texture
 
 > **Undefined**: `4096`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L26)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L26)
 
 Undefined
 
@@ -106,7 +106,7 @@ Undefined
 
 > **Vector2**: `4`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L10)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L10)
 
 Vector2
 
@@ -116,7 +116,7 @@ Vector2
 
 > **Vector3**: `8`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L12)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L12)
 
 Vector3
 
@@ -126,6 +126,6 @@ Vector3
 
 > **Vector4**: `16`
 
-Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L14)
+Defined in: [packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Node/Enums/nodeGeometryConnectionPointTypes.ts#L14)
 
 Vector4

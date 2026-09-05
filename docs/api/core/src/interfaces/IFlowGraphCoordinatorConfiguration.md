@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphCoordinatorConfiguration
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L13)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L13)
 
 Parameters used to create a flow graph engine.
 
@@ -16,7 +16,7 @@ Parameters used to create a flow graph engine.
 
 > `optional` **hostResolver?**: [`IFlowGraphHostResolver`](IFlowGraphHostResolver.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L22)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L22)
 
 Optional resolver letting the environment hosting the graphs decide how runtime entities are
 represented as opaque reference values. When omitted, a neutral built-in representation is used.
@@ -27,6 +27,6 @@ represented as opaque reference values. When omitted, a neutral built-in represe
 
 > **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L17)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphCoordinator.ts#L17)
 
 The scene that the flow graph engine belongs to.

@@ -6,7 +6,7 @@
 
 # Class: NodeRenderGraphObjectRendererBlock
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts#L9)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts#L9)
 
 Block that render objects to a render target
 
@@ -20,7 +20,7 @@ Block that render objects to a render target
 
 > **new NodeRenderGraphObjectRendererBlock**(`name`, `frameGraph`, `scene`, `doNotChangeAspectRatio?`, `enableClusteredLights?`): `NodeRenderGraphObjectRendererBlock`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L41)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L41)
 
 Create a new NodeRenderGraphBaseObjectRendererBlock
 
@@ -70,7 +70,7 @@ True (default) to enable clustered lights
 
 > **comments**: `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L140)
 
 A free comment about the block
 
@@ -84,7 +84,7 @@ A free comment about the block
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L59)
 
 Gets an observable raised when the block is built
 
@@ -98,7 +98,7 @@ Gets an observable raised when the block is built
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L88)
 
 Gets or sets the unique id of the node
 
@@ -112,7 +112,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L143)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -128,7 +128,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **camera**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:380](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L380)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:380](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L380)
 
 Gets the camera input component
 
@@ -148,7 +148,7 @@ Gets the camera input component
 
 > **get** **dependencies**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:394](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L394)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:394](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L394)
 
 Gets the dependencies input component
 
@@ -168,7 +168,7 @@ Gets the dependencies input component
 
 > **get** **depth**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L373)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:373](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L373)
 
 Gets the depth texture input component
 
@@ -188,7 +188,7 @@ Gets the depth texture input component
 
 > **get** **depthTest**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L155)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:155](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L155)
 
 Indicates if depth testing must be enabled or disabled
 
@@ -200,7 +200,7 @@ Indicates if depth testing must be enabled or disabled
 
 > **set** **depthTest**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L159)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L159)
 
 ##### Parameters
 
@@ -224,7 +224,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **depthWrite**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L165)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L165)
 
 Indicates if depth writing must be enabled or disabled
 
@@ -236,7 +236,7 @@ Indicates if depth writing must be enabled or disabled
 
 > **set** **depthWrite**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L169)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:169](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L169)
 
 ##### Parameters
 
@@ -260,7 +260,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L39)
 
 Gets or sets the disable flag of the task associated with this block
 
@@ -272,7 +272,7 @@ Gets or sets the disable flag of the task associated with this block
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L43)
 
 ##### Parameters
 
@@ -296,7 +296,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:43](h
 
 > **get** **disableShadows**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L297)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:297](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L297)
 
 Indicates if shadows must be enabled or disabled
 
@@ -308,7 +308,7 @@ Indicates if shadows must be enabled or disabled
 
 > **set** **disableShadows**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:301](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L301)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:301](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L301)
 
 ##### Parameters
 
@@ -332,7 +332,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **doNotChangeAspectRatio**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L317)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:317](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L317)
 
 True (default) to not change the aspect ratio of the scene in the RTT
 
@@ -344,7 +344,7 @@ True (default) to not change the aspect ratio of the scene in the RTT
 
 > **set** **doNotChangeAspectRatio**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:321](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L321)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:321](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L321)
 
 ##### Parameters
 
@@ -368,7 +368,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **enableBoundingBoxRendering**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L277)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:277](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L277)
 
 Indicates if bounding boxes should be rendered
 
@@ -380,7 +380,7 @@ Indicates if bounding boxes should be rendered
 
 > **set** **enableBoundingBoxRendering**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:281](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L281)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:281](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L281)
 
 ##### Parameters
 
@@ -404,7 +404,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **enableClusteredLights**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L327)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L327)
 
 True (default) to enable clustered lights
 
@@ -416,7 +416,7 @@ True (default) to enable clustered lights
 
 > **set** **enableClusteredLights**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L331)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L331)
 
 ##### Parameters
 
@@ -440,7 +440,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **enableOutlineRendering**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L287)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L287)
 
 Indicates if outlines/overlays should be rendered
 
@@ -452,7 +452,7 @@ Indicates if outlines/overlays should be rendered
 
 > **set** **enableOutlineRendering**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L291)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L291)
 
 ##### Parameters
 
@@ -476,7 +476,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **forceLayerMaskCheck**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L267)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L267)
 
 Indicates if layer mask check must be forced
 
@@ -488,7 +488,7 @@ Indicates if layer mask check must be forced
 
 > **set** **forceLayerMaskCheck**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L271)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L271)
 
 ##### Parameters
 
@@ -512,7 +512,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **inputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L76)
 
 Gets the list of input points
 
@@ -532,7 +532,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L125)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -552,7 +552,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L104)
 
 Gets a boolean indicating if this block is an input
 
@@ -572,7 +572,7 @@ Gets a boolean indicating if this block is an input
 
 > **get** **isMainObjectRenderer**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L145)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L145)
 
 Indicates that this object renderer is the main object renderer of the frame graph.
 
@@ -584,7 +584,7 @@ Indicates that this object renderer is the main object renderer of the frame gra
 
 > **set** **isMainObjectRenderer**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L149)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L149)
 
 ##### Parameters
 
@@ -608,7 +608,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L118)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -628,7 +628,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L111)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -648,7 +648,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **isUnique**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L132)
 
 Gets a boolean indicating that this block can only be used once per node render graph
 
@@ -668,7 +668,7 @@ Gets a boolean indicating that this block can only be used once per node render 
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L93)
 
 Gets or set the name of the block
 
@@ -680,7 +680,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L97)
 
 ##### Parameters
 
@@ -704,7 +704,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:97](h
 
 > **get** **objectRenderer**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:422](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L422)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:422](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L422)
 
 Gets the objectRenderer component
 
@@ -724,7 +724,7 @@ Gets the objectRenderer component
 
 > **get** **objects**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:387](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L387)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:387](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L387)
 
 Gets the objects input component
 
@@ -744,7 +744,7 @@ Gets the objects input component
 
 > **get** **oitPassCount**(): `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L237)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:237](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L237)
 
 Defines the number of passes to use for Order Independent Transparency
 
@@ -756,7 +756,7 @@ Defines the number of passes to use for Order Independent Transparency
 
 > **set** **oitPassCount**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:241](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L241)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:241](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L241)
 
 ##### Parameters
 
@@ -780,7 +780,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **output**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L408)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:408](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L408)
 
 Gets the output component
 
@@ -800,7 +800,7 @@ Gets the output component
 
 > **get** **outputDepth**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:415](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L415)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:415](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L415)
 
 Gets the output depth component
 
@@ -820,7 +820,7 @@ Gets the output depth component
 
 > **get** **outputs**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L81)
 
 Gets the list of output points
 
@@ -840,7 +840,7 @@ Gets the list of output points
 
 > **get** **renderAlphaTestMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L205)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:205](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L205)
 
 Indicates if alpha tested meshes should be rendered
 
@@ -852,7 +852,7 @@ Indicates if alpha tested meshes should be rendered
 
 > **set** **renderAlphaTestMeshes**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:209](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L209)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:209](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L209)
 
 ##### Parameters
 
@@ -876,7 +876,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderDepthOnlyMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L185)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L185)
 
 Indicates if depth-only meshes should be rendered
 
@@ -888,7 +888,7 @@ Indicates if depth-only meshes should be rendered
 
 > **set** **renderDepthOnlyMeshes**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L189)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L189)
 
 ##### Parameters
 
@@ -912,7 +912,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderInLinearSpace**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:307](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L307)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:307](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L307)
 
 If image processing should be disabled
 
@@ -924,7 +924,7 @@ If image processing should be disabled
 
 > **set** **renderInLinearSpace**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:311](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L311)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:311](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L311)
 
 ##### Parameters
 
@@ -948,7 +948,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L175)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:175](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L175)
 
 Indicates if meshes should be rendered
 
@@ -960,7 +960,7 @@ Indicates if meshes should be rendered
 
 > **set** **renderMeshes**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L179)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:179](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L179)
 
 ##### Parameters
 
@@ -984,7 +984,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderOpaqueMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L195)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:195](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L195)
 
 Indicates if opaque meshes should be rendered
 
@@ -996,7 +996,7 @@ Indicates if opaque meshes should be rendered
 
 > **set** **renderOpaqueMeshes**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:199](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L199)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:199](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L199)
 
 ##### Parameters
 
@@ -1020,7 +1020,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderParticles**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L247)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L247)
 
 Indicates if particles should be rendered
 
@@ -1032,7 +1032,7 @@ Indicates if particles should be rendered
 
 > **set** **renderParticles**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L251)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:251](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L251)
 
 ##### Parameters
 
@@ -1056,7 +1056,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderSprites**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L257)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L257)
 
 Indicates if sprites should be rendered
 
@@ -1068,7 +1068,7 @@ Indicates if sprites should be rendered
 
 > **set** **renderSprites**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L261)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:261](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L261)
 
 ##### Parameters
 
@@ -1092,7 +1092,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **renderTransparentMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L215)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L215)
 
 Indicates if transparent meshes should be rendered
 
@@ -1104,7 +1104,7 @@ Indicates if transparent meshes should be rendered
 
 > **set** **renderTransparentMeshes**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L219)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:219](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L219)
 
 ##### Parameters
 
@@ -1128,7 +1128,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **resolveMSAAColors**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:337](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L337)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:337](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L337)
 
 If true, MSAA color textures will be resolved at the end of the render pass (default: true)
 
@@ -1140,7 +1140,7 @@ If true, MSAA color textures will be resolved at the end of the render pass (def
 
 > **set** **resolveMSAAColors**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:341](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L341)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:341](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L341)
 
 ##### Parameters
 
@@ -1164,7 +1164,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **resolveMSAADepth**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L347)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L347)
 
 If true, MSAA depth texture will be resolved at the end of the render pass (default: false)
 
@@ -1176,7 +1176,7 @@ If true, MSAA depth texture will be resolved at the end of the render pass (defa
 
 > **set** **resolveMSAADepth**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L351)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:351](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L351)
 
 ##### Parameters
 
@@ -1200,7 +1200,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **get** **shadowGenerators**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:401](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L401)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:401](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L401)
 
 Gets the shadowGenerators input component
 
@@ -1220,7 +1220,7 @@ Gets the shadowGenerators input component
 
 > **get** **target**(): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:366](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L366)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:366](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L366)
 
 Gets the target texture input component
 
@@ -1240,7 +1240,7 @@ Gets the target texture input component
 
 > **get** **task**(): [`FrameGraphObjectRendererTask`](FrameGraphObjectRendererTask.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L29)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L29)
 
 Gets the frame graph task associated with this block
 
@@ -1260,7 +1260,7 @@ Gets the frame graph task associated with this block
 
 > **get** **useOITForTransparentMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L226)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:226](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L226)
 
 Indicates if use of Order Independent Transparency (OIT) for transparent meshes should be enabled
 
@@ -1272,7 +1272,7 @@ Indicates if use of Order Independent Transparency (OIT) for transparent meshes 
 
 > **set** **useOITForTransparentMeshes**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L231)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:231](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L231)
 
 ##### Parameters
 
@@ -1294,7 +1294,7 @@ Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRe
 
 > **autoConfigure**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:435](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L435)
 
 Lets the block try to connect some inputs automatically
 
@@ -1312,7 +1312,7 @@ Lets the block try to connect some inputs automatically
 
 > **build**(`state`): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L331)
 
 Build the current node and generate the vertex data
 
@@ -1340,7 +1340,7 @@ true if already built
 
 > **clone**(): [`NodeRenderGraphBlock`](NodeRenderGraphBlock.md) \| `null`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:656](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L656)
 
 Clone the current block to a new identical block
 
@@ -1360,7 +1360,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:675](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L675)
 
 Release resources
 
@@ -1378,7 +1378,7 @@ Release resources
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts#L14)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/objectRendererBlock.pure.ts#L14)
 
 Gets the current class name
 
@@ -1398,7 +1398,7 @@ the class name
 
 > **getDescendantOfPredicate**(`predicate`): [`Nullable`](../type-aliases/Nullable.md)\<[`NodeRenderGraphBlock`](NodeRenderGraphBlock.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:215](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L215)
 
 Get the first descendant using a predicate
 
@@ -1426,7 +1426,7 @@ descendant or null if none found
 
 > **getInputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:444](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L444)
 
 Find an input by its name
 
@@ -1454,7 +1454,7 @@ the input or null if not found
 
 > **getOutputByName**(`name`): [`NodeRenderGraphConnectionPoint`](NodeRenderGraphConnectionPoint.md) \| `null`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:459](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L459)
 
 Find an output by its name
 
@@ -1482,7 +1482,7 @@ the output or null if not found
 
 > **initialize**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L428)
 
 Initialize the block and prepare the context for build
 
@@ -1500,7 +1500,7 @@ Initialize the block and prepare the context for build
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L166)
 
 Checks if the current block is an ancestor of a given block
 
@@ -1528,7 +1528,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:190](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L190)
 
 Checks if the current block is an ancestor of a given type
 
@@ -1556,7 +1556,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `point?`): `NodeRenderGraphObjectRendererBlock`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:259](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L259)
 
 Register a new input. Must be called inside a block constructor
 
@@ -1602,7 +1602,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `NodeRenderGraphObjectRendererBlock`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
+Defined in: [packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts:276](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/nodeRenderGraphBlock.ts#L276)
 
 Register a new output. Must be called inside a block constructor
 
@@ -1642,7 +1642,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:479](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L479)
+Defined in: [packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts:479](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Node/Blocks/Rendering/baseObjectRendererBlock.ts#L479)
 
 Serializes this block in a JSON representation
 

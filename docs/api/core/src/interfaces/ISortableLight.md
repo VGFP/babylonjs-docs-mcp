@@ -6,7 +6,7 @@
 
 # Interface: ISortableLight
 
-Defined in: [packages/dev/core/src/Lights/lightConstants.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightConstants.ts#L118)
+Defined in: [packages/dev/core/src/Lights/lightConstants.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/lightConstants.ts#L118)
 
 Defines the common interface of sortable lights
 
@@ -16,7 +16,7 @@ Defines the common interface of sortable lights
 
 > **renderPriority**: `number`
 
-Defined in: [packages/dev/core/src/Lights/lightConstants.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightConstants.ts#L128)
+Defined in: [packages/dev/core/src/Lights/lightConstants.ts:128](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/lightConstants.ts#L128)
 
 Defines the rendering priority of the lights. It can help in case of fallback or number of lights
 exceeding the number allowed of the materials.
@@ -27,7 +27,7 @@ exceeding the number allowed of the materials.
 
 > **shadowEnabled**: `boolean`
 
-Defined in: [packages/dev/core/src/Lights/lightConstants.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/lightConstants.ts#L123)
+Defined in: [packages/dev/core/src/Lights/lightConstants.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/lightConstants.ts#L123)
 
 Gets or sets whether or not the shadows are enabled for this light. This can help turning off/on shadow without detaching
 the current shadow generator.

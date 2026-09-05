@@ -6,7 +6,7 @@
 
 # Interface: I3mfItem
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L322)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:322](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L322)
 
 Build item.
 The build section describes what to "print" or "instantiate" from the resources.
@@ -20,7 +20,7 @@ partnumber and metadatagroup allow attaching build-item specific info.
 
 > `optional` **metadatagroup?**: [`I3mfMetadataGroup`](I3mfMetadataGroup.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L333)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:333](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L333)
 
 Optional build-item metadata.
 
@@ -30,7 +30,7 @@ Optional build-item metadata.
 
 > **objectid**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:324](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L324)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:324](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L324)
 
 Referenced object id to build.
 
@@ -40,7 +40,7 @@ Referenced object id to build.
 
 > `optional` **partnumber?**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:330](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L330)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:330](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L330)
 
 Optional part number at the build item level.
 
@@ -50,6 +50,6 @@ Optional part number at the build item level.
 
 > `optional` **transform?**: [`IMatrix3d`](IMatrix3d.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L327)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L327)
 
 Optional placement transform (3x4).

@@ -6,7 +6,7 @@
 
 # Interface: I3mfModel
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L357)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L357)
 
 Root model element.
 
@@ -25,7 +25,7 @@ Notes:
 
 > `optional` **build?**: [`I3mfBuild`](I3mfBuild.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L374)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:374](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L374)
 
 Optional build section (what to instantiate/print).
 
@@ -35,7 +35,7 @@ Optional build section (what to instantiate/print).
 
 > `optional` **metadata?**: [`I3mfMetadata`](I3mfMetadata.md)[]
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:368](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L368)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:368](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L368)
 
 Optional model-level metadata entries.
 
@@ -45,7 +45,7 @@ Optional model-level metadata entries.
 
 > `optional` **recommendedextensions?**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L365)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L365)
 
 Declares extensions that may be used for better results.
 
@@ -55,7 +55,7 @@ Declares extensions that may be used for better results.
 
 > `optional` **requiredextensions?**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:362](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L362)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:362](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L362)
 
 Declares extensions that must be understood by consumers.
 
@@ -65,7 +65,7 @@ Declares extensions that must be understood by consumers.
 
 > `optional` **resources?**: [`I3mfResources`](I3mfResources.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L371)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L371)
 
 Optional resources section (objects, materials, etc.).
 
@@ -75,6 +75,6 @@ Optional resources section (objects, materials, etc.).
 
 > `optional` **unit?**: [`ST_Unit`](../enumerations/ST_Unit.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:359](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L359)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:359](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L359)
 
 Unit used for all coordinates in the model.

@@ -6,7 +6,7 @@
 
 # Enumeration: SourceTextureFormat
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:1](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L1)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:1](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L1)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:1](htt
 
 > **ETC1S**: `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:2](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L2)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:2](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L2)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:2](htt
 
 > **RGBA32**: `2`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L6)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L6)
 
 Uncompressed 8 bits per channel RGBA data, stored as-is in the container (no transcoding required)
 
@@ -32,4 +32,4 @@ Uncompressed 8 bits per channel RGBA data, stored as-is in the container (no tra
 
 > **UASTC4x4**: `1`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L4)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L4)

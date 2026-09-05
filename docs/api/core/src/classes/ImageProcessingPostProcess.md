@@ -6,7 +6,7 @@
 
 # Class: ImageProcessingPostProcess
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L18)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L36)
 
 ImageProcessingPostProcess
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/postProcesses/usePostProcess
 
 > **new ImageProcessingPostProcess**(`name`, `options`, `camera?`, `samplingMode?`, `engine?`, `reusable?`, `textureType?`, `imageProcessingConfiguration?`): `ImageProcessingPostProcess`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:323](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L323)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:380](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L380)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:3
 
 ##### options
 
-`number` \| [`PostProcessOptions`](../type-aliases/PostProcessOptions.md)
+`number` \| [`ImageProcessingPostProcessOptions`](../type-aliases/ImageProcessingPostProcessOptions.md)
 
 ##### camera?
 
@@ -74,7 +74,7 @@ Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:3
 
 > **adaptScaleToCurrentViewport**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L258)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:258](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L258)
 
 Modify the scale of the post process to be the same as the viewport (default: false)
 
@@ -88,7 +88,7 @@ Modify the scale of the post process to be the same as the viewport (default: fa
 
 > **alphaConstants**: [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L192)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L192)
 
 Sets the setAlphaBlendConstants of the babylon engine
 
@@ -102,7 +102,7 @@ Sets the setAlphaBlendConstants of the babylon engine
 
 > **alwaysForcePOT**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L234)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L234)
 
 Force textures to be a power of two (default: false)
 
@@ -116,7 +116,7 @@ Force textures to be a power of two (default: false)
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L197)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L197)
 
 Animations to be used for the post processing
 
@@ -130,7 +130,7 @@ Animations to be used for the post processing
 
 > **autoClear**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L168)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:168](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L168)
 
 If the buffer needs to be cleared before applying the post process. (default: true)
 Should be set to false if shader will overwrite all previous pixels.
@@ -145,7 +145,7 @@ Should be set to false if shader will overwrite all previous pixels.
 
 > **clearColor**: [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L162)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L162)
 
 Clear color to use when screen clearing
 
@@ -159,7 +159,7 @@ Clear color to use when screen clearing
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L263)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L263)
 
 Specifies if the post process should be serialized
 
@@ -173,7 +173,7 @@ Specifies if the post process should be serialized
 
 > **enablePixelPerfectMode**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:204](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L204)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:204](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L204)
 
 Enable Pixel Perfect mode where texture is not scaled to be power of 2.
 Can only be used on a single postprocess or on the last one of a chain. (default: false)
@@ -188,7 +188,7 @@ Can only be used on a single postprocess or on the last one of a chain. (default
 
 > **externalTextureSamplerBinding**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L291)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L291)
 
 if externalTextureSamplerBinding is true, the "apply" method won't bind the textureSampler texture, it is expected to be done by the "outside" (by the onApplyObservable observer most probably).
 counter-productive in some cases because if the texture bound by "apply" is different from the currently texture bound, (the one set by the onApplyObservable observer, for eg) some
@@ -204,7 +204,7 @@ internal structures (materialContext) will be dirtified, which may impact perfor
 
 > **forceAutoClearInAlphaMode**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L174)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L174)
 
 If clearing the buffer should be forced in autoClear mode, even when alpha mode is enabled (default: false).
 By default, the buffer will only be cleared if alpha mode is disabled (and autoClear is true).
@@ -219,7 +219,7 @@ By default, the buffer will only be cleared if alpha mode is disabled (and autoC
 
 > **forceFullscreenViewport**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L210)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L210)
 
 Force the postprocess to be applied without taking in account viewport
 
@@ -233,7 +233,7 @@ Force the postprocess to be applied without taking in account viewport
 
 > **height**: `number` = `-1`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L141)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L141)
 
 Height of the texture to apply the post process on
 
@@ -247,7 +247,7 @@ Height of the texture to apply the post process on
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L216)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L216)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -265,7 +265,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **nodeMaterialSource**: [`Nullable`](../type-aliases/Nullable.md)\<[`NodeMaterial`](NodeMaterial.md)\> = `null`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L146)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L146)
 
 Gets the node material used to create this postprocess (null if the postprocess was manually created)
 
@@ -279,7 +279,7 @@ Gets the node material used to create this postprocess (null if the postprocess 
 
 > **onActivateObservable**: [`Observable`](Observable.md)\<[`Camera`](Camera.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L347)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L347)
 
 An event triggered when the postprocess is activated.
 
@@ -293,7 +293,7 @@ An event triggered when the postprocess is activated.
 
 > **onAfterRenderObservable**: [`Observable`](Observable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L413)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L413)
 
 An event triggered after rendering the postprocess
 
@@ -307,7 +307,7 @@ An event triggered after rendering the postprocess
 
 > **onApplyObservable**: [`Observable`](Observable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L381)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L381)
 
 An event triggered when the postprocess applies its effect.
 
@@ -321,7 +321,7 @@ An event triggered when the postprocess applies its effect.
 
 > **onBeforeRenderObservable**: [`Observable`](Observable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L397)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:397](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L397)
 
 An event triggered before rendering the postprocess
 
@@ -335,7 +335,7 @@ An event triggered before rendering the postprocess
 
 > `readonly` **onDisposeObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L429)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:429](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L429)
 
 An event triggered when the post-process is disposed
 
@@ -349,7 +349,7 @@ An event triggered when the post-process is disposed
 
 > **onEffectCreatedObservable**: [`Observable`](Observable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L340)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:340](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L340)
 
 Executed when the effect was created
 
@@ -367,7 +367,7 @@ effect that was created for this post process
 
 > **onSizeChangedObservable**: [`Observable`](Observable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L365)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L365)
 
 An event triggered when the postprocess changes its size.
 
@@ -381,7 +381,7 @@ An event triggered when the postprocess changes its size.
 
 > **renderTargetSamplingMode**: `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L157)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L157)
 
 Sampling mode used by the shader
 
@@ -395,7 +395,7 @@ Sampling mode used by the shader
 
 > **scaleMode**: `number` = `Constants.SCALEMODE_FLOOR`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L229)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L229)
 
 Scale mode for the post process (default: Engine.SCALEMODE_FLOOR)
 
@@ -415,7 +415,7 @@ Scale mode for the post process (default: Engine.SCALEMODE_FLOOR)
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L119)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:119](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L119)
 
 Gets or sets the unique id of the post process
 
@@ -429,7 +429,7 @@ Gets or sets the unique id of the post process
 
 > **width**: `number` = `-1`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L135)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L135)
 
 Width of the texture to apply the post process on
 
@@ -445,7 +445,7 @@ Width of the texture to apply the post process on
 
 > **get** **alphaMode**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L180)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:180](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L180)
 
 Type of alpha mode to use when performing the post process (default: Engine.ALPHA_DISABLE)
 
@@ -457,7 +457,7 @@ Type of alpha mode to use when performing the post process (default: Engine.ALPH
 
 > **set** **alphaMode**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L184)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:184](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L184)
 
 ##### Parameters
 
@@ -481,7 +481,7 @@ Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:184](https:
 
 > **get** **aspectRatio**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:971](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L971)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:971](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L971)
 
 The aspect ratio of the output texture.
 
@@ -501,7 +501,7 @@ The aspect ratio of the output texture.
 
 > **get** **colorCurves**(): [`Nullable`](../type-aliases/Nullable.md)\<[`ColorCurves`](ColorCurves.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L50)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L68)
 
 Gets Color curves setup used in the effect if colorCurvesEnabled is set to true .
 
@@ -513,7 +513,7 @@ Gets Color curves setup used in the effect if colorCurvesEnabled is set to true 
 
 > **set** **colorCurves**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L56)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L74)
 
 Sets Color curves setup used in the effect if colorCurvesEnabled is set to true .
 
@@ -535,7 +535,7 @@ Sets Color curves setup used in the effect if colorCurvesEnabled is set to true 
 
 > **get** **colorCurvesEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L63)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L81)
 
 Gets whether the color curves effect is enabled.
 
@@ -547,7 +547,7 @@ Gets whether the color curves effect is enabled.
 
 > **set** **colorCurvesEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L69)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L87)
 
 Sets whether the color curves effect is enabled.
 
@@ -569,7 +569,7 @@ Sets whether the color curves effect is enabled.
 
 > **get** **colorGradingEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L89)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L107)
 
 Gets whether the color grading effect is enabled.
 
@@ -581,7 +581,7 @@ Gets whether the color grading effect is enabled.
 
 > **set** **colorGradingEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L95)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:113](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L113)
 
 Gets whether the color grading effect is enabled.
 
@@ -603,7 +603,7 @@ Gets whether the color grading effect is enabled.
 
 > **get** **colorGradingTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L76)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:94](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L94)
 
 Gets Color grading LUT texture used in the effect if colorGradingEnabled is set to true.
 
@@ -615,7 +615,7 @@ Gets Color grading LUT texture used in the effect if colorGradingEnabled is set 
 
 > **set** **colorGradingTexture**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L82)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:100](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L100)
 
 Sets Color grading LUT texture used in the effect if colorGradingEnabled is set to true.
 
@@ -637,7 +637,7 @@ Sets Color grading LUT texture used in the effect if colorGradingEnabled is set 
 
 > **get** **contrast**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L141)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L159)
 
 Gets contrast used in the effect.
 
@@ -649,7 +649,7 @@ Gets contrast used in the effect.
 
 > **set** **contrast**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L147)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L165)
 
 Sets contrast used in the effect.
 
@@ -671,7 +671,7 @@ Sets contrast used in the effect.
 
 > **get** **ditheringEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:297](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L297)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:354](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L354)
 
 Gets whether the dithering effect is enabled.
 
@@ -683,7 +683,7 @@ Gets whether the dithering effect is enabled.
 
 > **set** **ditheringEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:303](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L303)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L360)
 
 Sets whether the dithering effect is enabled.
 
@@ -705,7 +705,7 @@ Sets whether the dithering effect is enabled.
 
 > **get** **ditheringIntensity**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:284](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L284)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:341](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L341)
 
 Gets intensity of the dithering effect.
 
@@ -717,7 +717,7 @@ Gets intensity of the dithering effect.
 
 > **set** **ditheringIntensity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L290)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L347)
 
 Sets intensity of the dithering effect.
 
@@ -739,7 +739,7 @@ Sets intensity of the dithering effect.
 
 > **get** **exposure**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L102)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L120)
 
 Gets exposure used in the effect.
 
@@ -751,7 +751,7 @@ Gets exposure used in the effect.
 
 > **set** **exposure**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L108)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:126](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L126)
 
 Sets exposure used in the effect.
 
@@ -773,7 +773,7 @@ Sets exposure used in the effect.
 
 > **get** **fromLinearSpace**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:311](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L311)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:368](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L368)
 
 Gets whether the input of the processing is in Gamma or Linear Space.
 
@@ -785,7 +785,7 @@ Gets whether the input of the processing is in Gamma or Linear Space.
 
 > **set** **fromLinearSpace**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L317)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:374](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L374)
 
 Sets whether the input of the processing is in Gamma or Linear Space.
 
@@ -807,7 +807,7 @@ Sets whether the input of the processing is in Gamma or Linear Space.
 
 > **get** **imageProcessingConfiguration**(): [`ImageProcessingConfiguration`](ImageProcessingConfiguration.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L26)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L44)
 
 Gets the image processing configuration used either in this material.
 
@@ -819,7 +819,7 @@ Gets the image processing configuration used either in this material.
 
 > **set** **imageProcessingConfiguration**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L35)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L53)
 
 Sets the Default image processing configuration used either in the this material.
 
@@ -843,7 +843,7 @@ If sets to null, the scene one is in use.
 
 > **get** **inputTexture**(): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L435)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L435)
 
 The input texture for this post process and the output texture of the previous post process. When added to a pipeline the previous post process will
 render it's output into this texture and this texture will be used as textureSampler in the fragment shader of this post process.
@@ -856,7 +856,7 @@ render it's output into this texture and this texture will be used as textureSam
 
 > **set** **inputTexture**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L439)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L439)
 
 ##### Parameters
 
@@ -880,7 +880,7 @@ Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:439](https:
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L42)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L60)
 
 If the post process is supported.
 
@@ -900,7 +900,7 @@ If the post process is supported.
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L123)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L123)
 
 Name of the PostProcess.
 
@@ -912,7 +912,7 @@ Name of the PostProcess.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L127)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L127)
 
 ##### Parameters
 
@@ -936,7 +936,7 @@ Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:127](https:
 
 > **set** **onActivate**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L353)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:353](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L353)
 
 A function that is added to the onActivateObservable
 
@@ -962,7 +962,7 @@ A function that is added to the onActivateObservable
 
 > **set** **onAfterRender**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L419)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L419)
 
 A function that is added to the onAfterRenderObservable
 
@@ -988,7 +988,7 @@ A function that is added to the onAfterRenderObservable
 
 > **set** **onApply**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L387)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:387](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L387)
 
 A function that is added to the onApplyObservable
 
@@ -1014,7 +1014,7 @@ A function that is added to the onApplyObservable
 
 > **set** **onBeforeRender**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L403)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L403)
 
 A function that is added to the onBeforeRenderObservable
 
@@ -1040,7 +1040,7 @@ A function that is added to the onBeforeRenderObservable
 
 > **set** **onSizeChanged**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L371)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L371)
 
 A function that is added to the onSizeChangedObservable
 
@@ -1066,7 +1066,7 @@ A function that is added to the onSizeChangedObservable
 
 > **get** **samples**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L242)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L242)
 
 Number of sample textures (default: 1)
 
@@ -1078,7 +1078,7 @@ Number of sample textures (default: 1)
 
 > **set** **samples**(`n`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L246)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:246](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L246)
 
 ##### Parameters
 
@@ -1102,7 +1102,7 @@ Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:246](https:
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L282)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L282)
 
 Gets the shader language type used to generate vertex and fragment source code.
 
@@ -1116,13 +1116,47 @@ Gets the shader language type used to generate vertex and fragment source code.
 
 ***
 
+### temperature
+
+#### Get Signature
+
+> **get** **temperature**(): `number`
+
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L185)
+
+Gets the white balance correlated color temperature, in Kelvin, used in the effect.
+
+##### Returns
+
+`number`
+
+#### Set Signature
+
+> **set** **temperature**(`value`): `void`
+
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:191](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L191)
+
+Sets the white balance correlated color temperature, in Kelvin, used in the effect.
+
+##### Parameters
+
+###### value
+
+`number`
+
+##### Returns
+
+`void`
+
+***
+
 ### texelSize
 
 #### Get Signature
 
 > **get** **texelSize**(): [`Vector2`](Vector2.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:466](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L466)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:466](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L466)
 
 Gets the texel size of the postprocess.
 See https://en.wikipedia.org/wiki/Texel_(graphics)
@@ -1137,13 +1171,47 @@ See https://en.wikipedia.org/wiki/Texel_(graphics)
 
 ***
 
+### tint
+
+#### Get Signature
+
+> **get** **tint**(): `number`
+
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:198](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L198)
+
+Gets the white balance tint offset used in the effect.
+
+##### Returns
+
+`number`
+
+#### Set Signature
+
+> **set** **tint**(`value`): `void`
+
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:204](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L204)
+
+Sets the white balance tint offset used in the effect.
+
+##### Parameters
+
+###### value
+
+`number`
+
+##### Returns
+
+`void`
+
+***
+
 ### toneMappingEnabled
 
 #### Get Signature
 
 > **get** **toneMappingEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L115)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L133)
 
 Gets whether tonemapping is enabled or not.
 
@@ -1155,7 +1223,7 @@ Gets whether tonemapping is enabled or not.
 
 > **set** **toneMappingEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L121)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L139)
 
 Sets whether tonemapping is enabled or not
 
@@ -1177,7 +1245,7 @@ Sets whether tonemapping is enabled or not
 
 > **get** **toneMappingType**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L128)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L146)
 
 Gets the type of tone mapping effect.
 
@@ -1189,7 +1257,7 @@ Gets the type of tone mapping effect.
 
 > **set** **toneMappingType**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L134)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L152)
 
 Sets the type of tone mapping effect.
 
@@ -1211,7 +1279,7 @@ Sets the type of tone mapping effect.
 
 > **get** **vignetteBlendMode**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:258](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L258)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:315](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L315)
 
 Gets the vignette blend mode allowing different kind of effect.
 
@@ -1223,7 +1291,7 @@ Gets the vignette blend mode allowing different kind of effect.
 
 > **set** **vignetteBlendMode**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L264)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:321](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L321)
 
 Sets the vignette blend mode allowing different kind of effect.
 
@@ -1245,7 +1313,7 @@ Sets the vignette blend mode allowing different kind of effect.
 
 > **get** **vignetteCameraFov**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L245)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:302](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L302)
 
 Gets Camera field of view used by the Vignette effect.
 
@@ -1257,7 +1325,7 @@ Gets Camera field of view used by the Vignette effect.
 
 > **set** **vignetteCameraFov**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L251)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:308](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L308)
 
 Sets Camera field of view used by the Vignette effect.
 
@@ -1279,7 +1347,7 @@ Sets Camera field of view used by the Vignette effect.
 
 > **get** **vignetteCenterX**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L207)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:264](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L264)
 
 Vignette center X Offset.
 
@@ -1291,7 +1359,7 @@ Vignette center X Offset.
 
 > **set** **vignetteCenterX**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L210)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L267)
 
 ##### Parameters
 
@@ -1311,7 +1379,7 @@ Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:2
 
 > **get** **vignetteCenterY**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L197)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:254](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L254)
 
 Vignette center Y Offset.
 
@@ -1323,7 +1391,7 @@ Vignette center Y Offset.
 
 > **set** **vignetteCenterY**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L200)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L257)
 
 ##### Parameters
 
@@ -1343,7 +1411,7 @@ Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:2
 
 > **get** **vignetteCentreX**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L168)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:225](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L225)
 
 Gets Vignette center X Offset.
 
@@ -1359,7 +1427,7 @@ use vignetteCenterX instead
 
 > **set** **vignetteCentreX**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L175)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:232](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L232)
 
 Sets Vignette center X Offset.
 
@@ -1385,7 +1453,7 @@ use vignetteCenterX instead
 
 > **get** **vignetteCentreY**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L183)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:240](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L240)
 
 Gets Vignette center Y Offset.
 
@@ -1401,7 +1469,7 @@ use vignetteCenterY instead
 
 > **set** **vignetteCentreY**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L190)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L247)
 
 Sets Vignette center Y Offset.
 
@@ -1427,7 +1495,7 @@ use vignetteCenterY instead
 
 > **get** **vignetteColor**(): [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L231)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L288)
 
 Gets Color of the vignette applied on the screen through the chosen blend mode (vignetteBlendMode)
 if vignetteEnabled is set to true.
@@ -1440,7 +1508,7 @@ if vignetteEnabled is set to true.
 
 > **set** **vignetteColor**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L238)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:295](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L295)
 
 Sets Color of the vignette applied on the screen through the chosen blend mode (vignetteBlendMode)
 if vignetteEnabled is set to true.
@@ -1463,7 +1531,7 @@ if vignetteEnabled is set to true.
 
 > **get** **vignetteEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L271)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:328](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L328)
 
 Gets whether the vignette effect is enabled.
 
@@ -1475,7 +1543,7 @@ Gets whether the vignette effect is enabled.
 
 > **set** **vignetteEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L277)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L334)
 
 Sets whether the vignette effect is enabled.
 
@@ -1497,7 +1565,7 @@ Sets whether the vignette effect is enabled.
 
 > **get** **vignetteStretch**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L154)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:211](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L211)
 
 Gets Vignette stretch size.
 
@@ -1509,7 +1577,7 @@ Gets Vignette stretch size.
 
 > **set** **vignetteStretch**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L160)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:217](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L217)
 
 Sets Vignette stretch size.
 
@@ -1531,7 +1599,7 @@ Sets Vignette stretch size.
 
 > **get** **vignetteWeight**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:217](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L217)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:274](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L274)
 
 Gets Vignette weight or intensity of the vignette effect.
 
@@ -1543,7 +1611,7 @@ Gets Vignette weight or intensity of the vignette effect.
 
 > **set** **vignetteWeight**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L223)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L280)
 
 Sets Vignette weight or intensity of the vignette effect.
 
@@ -1559,13 +1627,47 @@ Sets Vignette weight or intensity of the vignette effect.
 
 ***
 
+### whiteBalanceEnabled
+
+#### Get Signature
+
+> **get** **whiteBalanceEnabled**(): `boolean`
+
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L172)
+
+Gets whether the white balance effect is enabled.
+
+##### Returns
+
+`boolean`
+
+#### Set Signature
+
+> **set** **whiteBalanceEnabled**(`value`): `void`
+
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:178](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L178)
+
+Sets whether the white balance effect is enabled.
+
+##### Parameters
+
+###### value
+
+`boolean`
+
+##### Returns
+
+`void`
+
+***
+
 ### ForceGLSL
 
 #### Get Signature
 
 > **get** `static` **ForceGLSL**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L95)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L95)
 
 Force all the postprocesses to compile to glsl even on WebGPU engines.
 False by default. This is mostly meant for backward compatibility.
@@ -1578,7 +1680,7 @@ False by default. This is mostly meant for backward compatibility.
 
 > **set** `static` **ForceGLSL**(`force`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L99)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L99)
 
 ##### Parameters
 
@@ -1600,7 +1702,7 @@ Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:99](https:/
 
 > **activate**(`cameraOrScene`, `sourceTexture?`, `forceDepthStencil?`): [`RenderTargetWrapper`](RenderTargetWrapper.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:879](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L879)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:879](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L879)
 
 Activates the post process by intializing the textures to be used when executed. Notifies onActivateObservable.
 When this post process is used in a pipeline, this is call will bind the input texture of this post process to the output of the previous.
@@ -1641,7 +1743,7 @@ The render target wrapper that was bound to be written to.
 
 > **apply**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Effect`](Effect.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:994](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L994)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:994](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L994)
 
 Binds all textures and uniforms to the shader, this will be run on every pass.
 
@@ -1661,7 +1763,7 @@ the effect corresponding to this post process. Null if not compiled or not ready
 
 > **clone**(): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1151)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1151)
 
 Clones this post process
 
@@ -1681,7 +1783,7 @@ a new post process similar to this one
 
 > **dispose**(`camera?`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L370)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:432](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L432)
 
 Disposes the post process.
 
@@ -1707,7 +1809,7 @@ The camera to dispose the post process on.
 
 > **getCamera**(): [`Camera`](Camera.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L458)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L458)
 
 Gets the camera which post process is applied to.
 
@@ -1727,7 +1829,7 @@ The camera the post process is applied to.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L360)
+Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:422](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts#L422)
 
 "ImageProcessingPostProcess"
 
@@ -1747,7 +1849,7 @@ Defined in: [packages/dev/core/src/PostProcesses/imageProcessingPostProcess.ts:3
 
 > **getEffect**(): [`Effect`](Effect.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:686](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L686)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:686](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L686)
 
 The effect that is created when initializing the post process.
 
@@ -1767,7 +1869,7 @@ The created effect corresponding to the postprocess.
 
 > **getEffectName**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L332)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L332)
 
 Returns the fragment url or shader name used in the post process.
 
@@ -1787,7 +1889,7 @@ the fragment url or name in the shader store.
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:678](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L678)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:678](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L678)
 
 Gets the engine which this post process belongs to.
 
@@ -1807,7 +1909,7 @@ The engine the post process was enabled with.
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:986](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L986)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:986](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L986)
 
 Get a value indicating if the post-process is ready to be used
 
@@ -1827,7 +1929,7 @@ true if the post-process is ready (shader is compiled)
 
 > **isReusable**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:744](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L744)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:744](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L744)
 
 The post process is reusable if it can be used multiple times within one frame.
 
@@ -1847,7 +1949,7 @@ If the post process is reusable
 
 > **markTextureDirty**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:749](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L749)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:749](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L749)
 
 invalidate frameBuffer to hint the postprocess to create a depth buffer
 
@@ -1865,7 +1967,7 @@ invalidate frameBuffer to hint the postprocess to create a depth buffer
 
 > **resize**(`width`, `height`, `camera?`, `needMipMaps?`, `forceDepthStencil?`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:801](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L801)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:801](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L801)
 
 Resizes the post-process texture
 
@@ -1915,7 +2017,7 @@ True to force post-process texture creation with stencil depth and buffer (defau
 
 > **restoreDefaultInputTexture**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L447)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L447)
 
 Since inputTexture should always be defined, if we previously manually set `inputTexture`,
 the only way to unset it is to use this function to restore its internal state
@@ -1934,7 +2036,7 @@ the only way to unset it is to use this function to restore its internal state
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1127)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1127)
 
 Serializes the post process to a JSON object
 
@@ -1954,7 +2056,7 @@ the JSON object
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1059](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1059)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1059](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1059)
 
 Sets the required values to the prepass renderer.
 
@@ -1982,7 +2084,7 @@ true if the pre pass is needed.
 
 > **shareOutputWith**(`postProcess`): [`PostProcess`](PostProcess.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:695](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L695)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:695](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L695)
 
 To avoid multiple redundant textures for multiple post process, the output the output texture for this post process can be shared with another.
 
@@ -2010,7 +2112,7 @@ This post process.
 
 > **updateEffect**(`defines?`, `uniforms?`, `samplers?`, `indexParameters?`, `onCompiled?`, `onError?`, `vertexUrl?`, `fragmentUrl?`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:726](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L726)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:726](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L726)
 
 Updates the effect with the current post process compile time values and recompiles the shader.
 
@@ -2078,7 +2180,7 @@ The url of the fragment shader to be used (default: the one given at constructio
 
 > **useOwnOutput**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:707](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L707)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:707](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L707)
 
 Reverses the effect of calling shareOutputWith and returns the post process back to its original state.
 This should be called if the post process that shares output with this post process is disabled/disposed.
@@ -2097,7 +2199,7 @@ This should be called if the post process that shares output with this post proc
 
 > `static` **Parse**(`parsedPostProcess`, `scene`, `rootUrl`): [`Nullable`](../type-aliases/Nullable.md)\<[`PostProcess`](PostProcess.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1180)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:1180](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L1180)
 
 Creates a material from parsed material data
 
@@ -2137,7 +2239,7 @@ a new post process
 
 > `static` **RegisterShaderCodeProcessing**(`postProcessName`, `customShaderCodeProcessing?`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L111)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.pure.ts#L111)
 
 Registers a shader code processing with a post process name.
 

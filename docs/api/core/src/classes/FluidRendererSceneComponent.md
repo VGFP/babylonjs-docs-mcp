@@ -6,7 +6,7 @@
 
 # Class: FluidRendererSceneComponent
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L36)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L36)
 
 Defines the fluid renderer scene component responsible to render objects as fluids
 
@@ -20,7 +20,7 @@ Defines the fluid renderer scene component responsible to render objects as flui
 
 > **new FluidRendererSceneComponent**(`scene`): `FluidRendererSceneComponent`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L51)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L51)
 
 Creates a new instance of the component for the given scene
 
@@ -42,7 +42,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"FluidRenderer"` = `SceneComponentConstants.NAME_FLUIDRENDERER`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L40)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L40)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -56,7 +56,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L45)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L45)
 
 The scene the component belongs to.
 
@@ -70,7 +70,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L104)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L104)
 
 Disposes the component and the associated resources
 
@@ -88,7 +88,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L79)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L79)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -107,7 +107,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L58)
+Defined in: [packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/fluidRenderer/fluidRenderer.pure.ts#L58)
 
 Registers the component in a given scene
 

@@ -6,7 +6,7 @@
 
 # Class: DataReader
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L24)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L24)
 
 Utility class for reading from a data buffer
 
@@ -16,7 +16,7 @@ Utility class for reading from a data buffer
 
 > **new DataReader**(`buffer`): `DataReader`
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L42)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L42)
 
 Constructor
 
@@ -38,7 +38,7 @@ The buffer to read
 
 > `readonly` **buffer**: [`IDataBuffer`](../interfaces/IDataBuffer.md)
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L28)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L28)
 
 The data buffer associated with this data reader.
 
@@ -48,7 +48,7 @@ The data buffer associated with this data reader.
 
 > **byteOffset**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L33)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L33)
 
 The current byte offset from the beginning of the data buffer.
 
@@ -58,7 +58,7 @@ The current byte offset from the beginning of the data buffer.
 
 > **loadAsync**(`byteLength`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L51)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L51)
 
 Loads the given byte length.
 
@@ -82,7 +82,7 @@ A promise that resolves when the load is complete
 
 > **readString**(`byteLength`): `string`
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L85)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L85)
 
 Read a string from the currently loaded data range.
 
@@ -106,7 +106,7 @@ The string read
 
 > **readUint32**(): `number`
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L61)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L61)
 
 Read a unsigned 32-bit integer from the currently loaded data range.
 
@@ -122,7 +122,7 @@ The 32-bit integer read
 
 > **readUint8Array**(`byteLength`): `Uint8Array`
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L73)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L73)
 
 Read a byte array from the currently loaded data range.
 
@@ -146,7 +146,7 @@ The byte array read
 
 > **skipBytes**(`byteLength`): `void`
 
-Defined in: [packages/dev/core/src/Misc/dataReader.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/dataReader.ts#L93)
+Defined in: [packages/dev/core/src/Misc/dataReader.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/dataReader.ts#L93)
 
 Skips the given byte length the currently loaded data range.
 

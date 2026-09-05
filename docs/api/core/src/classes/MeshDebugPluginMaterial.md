@@ -6,7 +6,7 @@
 
 # Class: MeshDebugPluginMaterial
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L435)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L435)
 
 Plugin that implements various mesh debug visualizations,
 List of available visualizations can be found in MeshDebugMode enum.
@@ -21,7 +21,7 @@ List of available visualizations can be found in MeshDebugMode enum.
 
 > **new MeshDebugPluginMaterial**(`material`, `options?`): `MeshDebugPluginMaterial`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L583)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L583)
 
 Creates a new MeshDebugPluginMaterial
 
@@ -53,7 +53,7 @@ Options for the mesh debug plugin
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -67,7 +67,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -85,7 +85,7 @@ Helper function to mark defines as being dirty.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -99,7 +99,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -113,7 +113,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -127,7 +127,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -141,7 +141,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **shadedDiffuseColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L485)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:485](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L485)
 
 Diffuse color used to shade the mesh.
 Defaults to (1.0, 1.0, 1.0).
@@ -152,7 +152,7 @@ Defaults to (1.0, 1.0, 1.0).
 
 > **shadedSpecularColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L492)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:492](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L492)
 
 Specular color used to shade the mesh.
 Defaults to (0.8, 0.8, 0.8).
@@ -163,7 +163,7 @@ Defaults to (0.8, 0.8, 0.8).
 
 > **shadedSpecularPower**: `number`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L499)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:499](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L499)
 
 Specular power used to shade the mesh.
 Defaults to 10.
@@ -174,7 +174,7 @@ Defaults to 10.
 
 > **uvPrimaryColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:548](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L548)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:548](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L548)
 
 1st color of checkerboard grid in UV1 or UV2 modes.
 Defaults to (1.0, 1.0, 1.0).
@@ -185,7 +185,7 @@ Defaults to (1.0, 1.0, 1.0).
 
 > **uvScale**: `number`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L541)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L541)
 
 Size of tiles in UV1 or UV2 modes.
 Defaults to 20.
@@ -196,7 +196,7 @@ Defaults to 20.
 
 > **uvSecondaryColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:555](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L555)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:555](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L555)
 
 2nd color of checkerboard grid in UV1 or UV2 modes.
 Defaults to (0.5, 0.5, 0.5).
@@ -207,7 +207,7 @@ Defaults to (0.5, 0.5, 0.5).
 
 > **vertexColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:527](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L527)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:527](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L527)
 
 Color of vertices in TRIANGLES_VERTICES and VERTICES mode.
 Defaults to (0.0, 0.0, 0.0).
@@ -218,7 +218,7 @@ Defaults to (0.0, 0.0, 0.0).
 
 > **vertexRadius**: `number`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L534)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L534)
 
 Radius of dots drawn over vertices in TRIANGLE_VERTICES and VERTICES mode.
 Defaults to 1.2.
@@ -229,7 +229,7 @@ Defaults to 1.2.
 
 > **wireframeThickness**: `number`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:506](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L506)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:506](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L506)
 
 Width of edge lines in TRIANGLES and TRIANGLE_VERTICES modes.
 Defaults to 0.7.
@@ -240,7 +240,7 @@ Defaults to 0.7.
 
 > **wireframeTrianglesColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L513)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:513](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L513)
 
 Color of edge lines in TRIANGLES mode.
 Defaults to (0.0, 0.0, 0.0).
@@ -251,7 +251,7 @@ Defaults to (0.0, 0.0, 0.0).
 
 > **wireframeVerticesColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L520)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:520](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L520)
 
 Color of edge lines in TRIANGLES_VERTICES modes.
 Defaults to (0.8, 0.8, 0.8).
@@ -262,7 +262,7 @@ Defaults to (0.8, 0.8, 0.8).
 
 > `static` **MaterialColors**: [`Color3`](Color3.md)[] = `defaultMaterialColors`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L446)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L446)
 
 Color palette used for MATERIALIDS mode.
 Defaults to `defaultMaterialColors`
@@ -275,7 +275,7 @@ Defaults to `defaultMaterialColors`
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:618](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L618)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:618](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L618)
 
 Gets whether the mesh debug plugin is enabled in the material.
 
@@ -287,7 +287,7 @@ Gets whether the mesh debug plugin is enabled in the material.
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:625](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L625)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:625](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L625)
 
 Sets whether the mesh debug plugin is enabled in the material.
 
@@ -307,7 +307,7 @@ enabled
 
 ### mode
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:469](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L469)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:469](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L469)
 
 The mesh debug visualization.
 Defaults to NONE.
@@ -316,7 +316,7 @@ Defaults to NONE.
 
 ### multiply
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L478)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:478](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L478)
 
 Whether the mesh debug visualization should multiply with color underneath.
 Defaults to true.
@@ -327,7 +327,7 @@ Defaults to true.
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:260](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L260)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -367,7 +367,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`uniformBuffer`): `void`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:694](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L694)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:694](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L694)
 
 Bind the uniform buffer
 
@@ -393,7 +393,7 @@ Uniform buffer
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -417,7 +417,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -443,7 +443,7 @@ define the config where to copy the info
 
 > **dispose**(`_forceDisposeTextures?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L166)
 
 Disposes the resources of the material.
 
@@ -469,7 +469,7 @@ Forces the disposal of all textures.
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -495,7 +495,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`_activeTextures`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:245](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L245)
 
 Returns an array of the actively used textures.
 
@@ -521,7 +521,7 @@ Array of BaseTextures
 
 > **getAnimatables**(`_animatables`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L251)
 
 Returns the animatable textures.
 
@@ -547,7 +547,7 @@ Array of animatable textures.
 
 > **getAttributes**(`attributes`): `void`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L664)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L664)
 
 Get the shader attributes
 
@@ -573,7 +573,7 @@ Array of attributes
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:611](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L611)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:611](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L611)
 
 Get the class name
 
@@ -593,7 +593,7 @@ Class name
 
 > **getCustomCode**(`shaderType`, `shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:715](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L715)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:715](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L715)
 
 Get shader code
 
@@ -627,7 +627,7 @@ Shader code
 
 > **getSamplers**(`_samplers`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:268](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L268)
 
 Gets the samplers used by the plugin.
 
@@ -653,7 +653,7 @@ list that the sampler names should be added to.
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -679,7 +679,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(`shaderLanguage?`): `object`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L673)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L673)
 
 Get the shader uniforms
 
@@ -715,7 +715,7 @@ Uniforms
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -759,7 +759,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -779,7 +779,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`_texture`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:223](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L223)
 
 Checks to see if a texture is used in the material.
 
@@ -807,7 +807,7 @@ Base texture to use.
 
 > **isCompatible**(`shaderLanguage`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:568](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L568)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:568](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L568)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language.
 
@@ -835,7 +835,7 @@ true if the plugin is compatible with the shader language
 
 > **isReadyForSubMesh**(`_defines`, `_scene`, `_engine`, `_subMesh`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L140)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L140)
 
 Specifies that the submesh is ready to be used.
 
@@ -881,7 +881,7 @@ the submesh to check for readiness
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -919,7 +919,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`defines`, `scene`, `mesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:644](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L644)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:644](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L644)
 
 Prepare the defines
 
@@ -957,7 +957,7 @@ Mesh associated with material
 
 > **prepareDefinesBeforeAttributes**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L208)
 
 Sets the defines for the next rendering. Called before PrepareDefinesForAttributes is called.
 
@@ -995,7 +995,7 @@ the mesh being rendered
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 
@@ -1015,7 +1015,7 @@ Serializes this plugin configuration.
 
 > `static` **PrepareMeshForTrianglesAndVerticesMode**(`mesh`, `returnRollback?`): () => `void`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:756](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L756)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:756](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L756)
 
 Renders triangles in a mesh 3 times by tripling the indices in the index buffer.
 Used to prepare a mesh to be rendered in `TRIANGLES`, `VERTICES`, or `TRIANGLES_VERTICES` modes.
@@ -1048,7 +1048,7 @@ a rollback function if `returnRollback` is true, otherwise an empty function.
 
 > `static` **Reset**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:742](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L742)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:742](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L742)
 
 Resets static variables of the plugin to their original state
 

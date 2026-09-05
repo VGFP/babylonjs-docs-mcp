@@ -6,7 +6,7 @@
 
 # Interface: InternalTextureCreationOptions
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L7)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:7](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L7)
 
 Define options used to create an internal texture
 
@@ -20,7 +20,7 @@ Define options used to create an internal texture
 
 > `optional` **comparisonFunction?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L29)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L29)
 
 Comparison function. Used only for depth textures (default: 0)
 
@@ -30,7 +30,7 @@ Comparison function. Used only for depth textures (default: 0)
 
 > `optional` **createMipMaps?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L9)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L9)
 
 Specifies if mipmaps must be created. If undefined, the value from generateMipMaps is taken instead
 
@@ -40,7 +40,7 @@ Specifies if mipmaps must be created. If undefined, the value from generateMipMa
 
 > `optional` **createMSAATexture?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L27)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L27)
 
 If the MSAA texture must be created right away (default: false)
 
@@ -50,7 +50,7 @@ If the MSAA texture must be created right away (default: false)
 
 > `optional` **creationFlags?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L21)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L21)
 
 Texture creation flags
 
@@ -60,7 +60,7 @@ Texture creation flags
 
 > `optional` **format?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L17)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L17)
 
 Defines format (RGBA by default)
 
@@ -70,7 +70,7 @@ Defines format (RGBA by default)
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L11)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L11)
 
 Specifies if mipmaps must be generated
 
@@ -80,7 +80,7 @@ Specifies if mipmaps must be generated
 
 > `optional` **isCube?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L31)
 
 If the created texture is a cube texture
 
@@ -90,7 +90,7 @@ If the created texture is a cube texture
 
 > `optional` **label?**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L25)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L25)
 
 Label of the texture (used for debugging only)
 
@@ -100,7 +100,7 @@ Label of the texture (used for debugging only)
 
 > `optional` **samples?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L19)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L19)
 
 Defines sample count (1 by default)
 
@@ -110,7 +110,7 @@ Defines sample count (1 by default)
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L15)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L15)
 
 Defines sampling mode (trilinear by default)
 
@@ -120,7 +120,7 @@ Defines sampling mode (trilinear by default)
 
 > `optional` **type?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L13)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L13)
 
 Defines texture type (unsigned byte by default)
 
@@ -130,6 +130,6 @@ Defines texture type (unsigned byte by default)
 
 > `optional` **useSRGBBuffer?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L23)
+Defined in: [packages/dev/core/src/Materials/Textures/textureCreationOptions.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureCreationOptions.ts#L23)
 
 Creates the RTT in sRGB space

@@ -6,7 +6,7 @@
 
 # Interface: IMatrix3d
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L39)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L39)
 
 ## Properties
 
@@ -14,4 +14,4 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:39](h
 
 > **values**: [`ST_Matrix3D`](../type-aliases/ST_Matrix3D.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L41)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L41)

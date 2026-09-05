@@ -6,7 +6,7 @@
 
 # Class: Known3mfRelationshipTypes
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L39)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L39)
 
 Common OPC and 3MF relationship Type URIs.
 
@@ -26,7 +26,7 @@ Common OPC and 3MF relationship Type URIs.
 
 > `readonly` `static` **Known**: `ReadonlySet`\<`string`\>
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L63)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L63)
 
 Convenience set for quick checks
 
@@ -36,7 +36,7 @@ Convenience set for quick checks
 
 > `readonly` `static` **MustPreserve**: `"http://schemas.openxmlformats.org/package/2006/relationships/mustpreserve"` = `"http://schemas.openxmlformats.org/package/2006/relationships/mustpreserve"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L58)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L58)
 
 OPC core: indicates parts that must be preserved when editing the package
 
@@ -46,7 +46,7 @@ OPC core: indicates parts that must be preserved when editing the package
 
 > `readonly` `static` **PrintTicket**: `"http://schemas.microsoft.com/3dmanufacturing/2013/01/printticket"` = `"http://schemas.microsoft.com/3dmanufacturing/2013/01/printticket"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L53)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L53)
 
 3MF (print ticket): optional printing settings part (rarely used by slicers)
 
@@ -56,7 +56,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:5
 
 > `readonly` `static` **ThreeDimModel**: `"http://schemas.microsoft.com/3dmanufacturing/2013/01/3dmodel"` = `"http://schemas.microsoft.com/3dmanufacturing/2013/01/3dmodel"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L43)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L43)
 
 3MF core: points to the main .model part of the package
 
@@ -66,7 +66,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:4
 
 > `readonly` `static` **Thumbnail**: `"http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail"` = `"http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L48)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L48)
 
 OPC core: points to a package thumbnail (often used by 3MF packages)
 
@@ -76,7 +76,7 @@ OPC core: points to a package thumbnail (often used by 3MF packages)
 
 > `static` **IsKnown**(`type`): `boolean`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L75)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L75)
 
 Test if the relationship Type is one of the common known URIs above
 
@@ -98,7 +98,7 @@ true if the relationship Type is one of the common known URIs above
 
 > `static` **IsThreeDimModel**(`type`): `boolean`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L84)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L84)
 
 test if the relationship Type is the main 3MF model entry point
 

@@ -6,7 +6,7 @@
 
 # Class: ThreeMfContentType
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L28)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L28)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:28](https://
 
 > **new ThreeMfContentType**(`ext`, `ct`): `ThreeMfContentType`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L45)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L45)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:45](https://
 
 > **ct**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L38)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L38)
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:38](https://
 
 > **ext**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L33)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.ts#L33)
 
 #### Implementation of
 

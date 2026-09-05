@@ -6,7 +6,7 @@
 
 # Class: RichType\<T\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L34)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L34)
 
 A rich type represents extra information about a type,
 such as its name and a default value constructor.
@@ -23,7 +23,7 @@ such as its name and a default value constructor.
 
 > **new RichType**\<`T`\>(`typeName`, `defaultValue`, `animationType?`): `RichType`\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L41)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L41)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ The default value of the type.
 
 > **animationType**: `number` = `-1`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L54)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L54)
 
 [-1] The ANIMATIONTYPE of the type, if available
 
@@ -65,7 +65,7 @@ Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:54](http
 
 > **defaultValue**: `T`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L49)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L49)
 
 The default value of the type.
 
@@ -75,7 +75,7 @@ The default value of the type.
 
 > **typeName**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L45)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L45)
 
 The name given to the type.
 
@@ -85,7 +85,7 @@ The name given to the type.
 
 > **typeTransformer**: (`value`) => `T`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L39)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L39)
 
 A function that can be used to transform a value of any type into a value of this rich type.
 This can be used, for example, between vector4 and quaternion.
@@ -106,7 +106,7 @@ This can be used, for example, between vector4 and quaternion.
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L61)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphRichTypes.pure.ts#L61)
 
 Serializes this rich type into a serialization object.
 

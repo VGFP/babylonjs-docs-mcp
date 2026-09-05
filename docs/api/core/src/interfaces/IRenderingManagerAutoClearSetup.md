@@ -6,7 +6,7 @@
 
 # Interface: IRenderingManagerAutoClearSetup
 
-Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/renderingManager.ts#L17)
+Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/renderingManager.ts#L17)
 
 Interface describing the different options available in the rendering manager
 regarding Auto Clear between groups.
@@ -17,7 +17,7 @@ regarding Auto Clear between groups.
 
 > **autoClear**: `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/renderingManager.ts#L21)
+Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/renderingManager.ts#L21)
 
 Defines whether or not autoclear is enable.
 
@@ -27,7 +27,7 @@ Defines whether or not autoclear is enable.
 
 > **depth**: `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/renderingManager.ts#L25)
+Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/renderingManager.ts#L25)
 
 Defines whether or not to autoclear the depth buffer.
 
@@ -37,6 +37,6 @@ Defines whether or not to autoclear the depth buffer.
 
 > **stencil**: `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/renderingManager.ts#L29)
+Defined in: [packages/dev/core/src/Rendering/renderingManager.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/renderingManager.ts#L29)
 
 Defines whether or not to autoclear the stencil buffer.

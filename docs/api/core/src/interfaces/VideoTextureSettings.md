@@ -6,7 +6,7 @@
 
 # Interface: VideoTextureSettings
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L36)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L36)
 
 Settings for finer control over video usage
 
@@ -16,7 +16,7 @@ Settings for finer control over video usage
 
 > `optional` **autoPlay?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L40)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L40)
 
 Applies `autoplay` to video, if specified
 
@@ -26,7 +26,7 @@ Applies `autoplay` to video, if specified
 
 > **autoUpdateTexture**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L55)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L55)
 
 Automatically updates internal texture from video at every frame in the render loop
 
@@ -36,7 +36,7 @@ Automatically updates internal texture from video at every frame in the render l
 
 > `optional` **format?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L65)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:65](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L65)
 
 Defines the associated texture format.
 
@@ -46,7 +46,7 @@ Defines the associated texture format.
 
 > `optional` **independentVideoSource?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L71)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L71)
 
 Notify babylon to not modify any video settings and not control the video's playback.
 Set this to true if you are controlling the way the video is being played, stopped and paused.
@@ -57,7 +57,7 @@ Set this to true if you are controlling the way the video is being played, stopp
 
 > `optional` **loop?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L50)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L50)
 
 Applies `loop` to video, if specified
 
@@ -67,7 +67,7 @@ Applies `loop` to video, if specified
 
 > `optional` **muted?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L45)
 
 Applies `muted` to video, if specified
 
@@ -77,6 +77,6 @@ Applies `muted` to video, if specified
 
 > `optional` **poster?**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L60)
+Defined in: [packages/dev/core/src/Materials/Textures/videoTexture.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/videoTexture.pure.ts#L60)
 
 Image src displayed during the video loading or until the user interacts with the video.

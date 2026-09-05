@@ -6,7 +6,7 @@
 
 # Class: VertexBuffer
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L343)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:343](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L343)
 
 Specialized buffer used to store vertex data
 
@@ -16,7 +16,7 @@ Specialized buffer used to store vertex data
 
 > `readonly` **byteOffset**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L436)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L436)
 
 Gets the byte offset.
 
@@ -26,7 +26,7 @@ Gets the byte offset.
 
 > `readonly` **byteStride**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:431](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L431)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:431](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L431)
 
 Gets the byte stride.
 
@@ -36,7 +36,7 @@ Gets the byte stride.
 
 > **effectiveBuffer**: [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [packages/dev/core/src/Buffers/buffer.align.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.align.types.ts#L22)
+Defined in: [packages/dev/core/src/Buffers/buffer.align.types.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.align.types.ts#L22)
 
 Gets the effective buffer, that is the buffer that is actually sent to the GPU.
 It could be different from VertexBuffer.getBuffer() if a new buffer must be created under the hood because of the forceVertexBufferStrideAndOffsetMultiple4Bytes engine flag.
@@ -47,7 +47,7 @@ It could be different from VertexBuffer.getBuffer() if a new buffer must be crea
 
 > **effectiveByteOffset**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.align.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.align.types.ts#L16)
+Defined in: [packages/dev/core/src/Buffers/buffer.align.types.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.align.types.ts#L16)
 
 Gets the effective byte offset, that is the byte offset of the buffer that is actually sent to the GPU.
 It could be different from VertexBuffer.byteOffset if a new buffer must be created under the hood because of the forceVertexBufferStrideAndOffsetMultiple4Bytes engine flag.
@@ -58,7 +58,7 @@ It could be different from VertexBuffer.byteOffset if a new buffer must be creat
 
 > **effectiveByteStride**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.align.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.align.types.ts#L10)
+Defined in: [packages/dev/core/src/Buffers/buffer.align.types.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.align.types.ts#L10)
 
 Gets the effective byte stride, that is the byte stride of the buffer that is actually sent to the GPU.
 It could be different from VertexBuffer.byteStride if a new buffer must be created under the hood because of the forceVertexBufferStrideAndOffsetMultiple4Bytes engine flag.
@@ -69,7 +69,7 @@ It could be different from VertexBuffer.byteStride if a new buffer must be creat
 
 > `readonly` **engine**: [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:462](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L462)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:462](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L462)
 
 Gets the engine associated with the buffer
 
@@ -79,7 +79,7 @@ Gets the engine associated with the buffer
 
 > `readonly` **hashCode**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L457)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:457](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L457)
 
 Gets a hash code representing the format (type, normalized, size, instanced, stride) of this buffer
 All buffers with the same format will have the same hash code
@@ -90,7 +90,7 @@ All buffers with the same format will have the same hash code
 
 > `readonly` **normalized**: `boolean`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:441](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L441)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:441](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L441)
 
 Gets whether integer data values should be normalized into a certain range when being casted to a float.
 
@@ -100,7 +100,7 @@ Gets whether integer data values should be normalized into a certain range when 
 
 > `readonly` **type**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L446)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L446)
 
 Gets the data type of each component in the array.
 
@@ -110,7 +110,7 @@ Gets the data type of each component in the array.
 
 > `readonly` **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L451)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:451](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L451)
 
 Gets the unique id of this vertex buffer
 
@@ -120,7 +120,7 @@ Gets the unique id of this vertex buffer
 
 > `readonly` `static` **BYTE**: `number` = `Constants.BYTE`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L364)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L364)
 
 The byte type.
 
@@ -130,7 +130,7 @@ The byte type.
 
 > `readonly` `static` **ColorInstanceKind**: `string` = `Constants.ColorInstanceKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:848](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L848)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:848](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L848)
 
 Instance Colors
 
@@ -140,7 +140,7 @@ Instance Colors
 
 > `readonly` `static` **ColorKind**: `string` = `Constants.ColorKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:844](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L844)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:844](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L844)
 
 Colors
 
@@ -150,7 +150,7 @@ Colors
 
 > `readonly` `static` **FLOAT**: `number` = `Constants.FLOAT`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L396)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L396)
 
 The float type.
 
@@ -160,7 +160,7 @@ The float type.
 
 > `readonly` `static` **HALF\_FLOAT**: `number` = `Constants.HALF_FLOAT`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:402](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L402)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:402](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L402)
 
 The half float type.
 Note: supported as a vertex attribute type only on the WebGL and WebGPU engines, not on Babylon Native.
@@ -171,7 +171,7 @@ Note: supported as a vertex attribute type only on the WebGL and WebGPU engines,
 
 > `readonly` `static` **INT**: `number` = `Constants.INT`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L385)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:385](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L385)
 
 The integer type.
 Note: supported as a vertex attribute type only on the WebGL and WebGPU engines, not on Babylon Native.
@@ -182,7 +182,7 @@ Note: supported as a vertex attribute type only on the WebGL and WebGPU engines,
 
 > `readonly` `static` **MatricesIndicesExtraKind**: `string` = `Constants.MatricesIndicesExtraKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:860](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L860)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:860](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L860)
 
 Additional matrix indices (for bones)
 
@@ -192,7 +192,7 @@ Additional matrix indices (for bones)
 
 > `readonly` `static` **MatricesIndicesKind**: `string` = `Constants.MatricesIndicesKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:852](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L852)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:852](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L852)
 
 Matrix indices (for bones)
 
@@ -202,7 +202,7 @@ Matrix indices (for bones)
 
 > `readonly` `static` **MatricesWeightsExtraKind**: `string` = `Constants.MatricesWeightsExtraKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:864](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L864)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:864](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L864)
 
 Additional matrix weights (for bones)
 
@@ -212,7 +212,7 @@ Additional matrix weights (for bones)
 
 > `readonly` `static` **MatricesWeightsKind**: `string` = `Constants.MatricesWeightsKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:856](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L856)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:856](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L856)
 
 Matrix weights (for bones)
 
@@ -222,7 +222,7 @@ Matrix weights (for bones)
 
 > `readonly` `static` **NormalKind**: `string` = `Constants.NormalKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L812)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:812](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L812)
 
 Normals
 
@@ -232,7 +232,7 @@ Normals
 
 > `readonly` `static` **PositionKind**: `string` = `Constants.PositionKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:808](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L808)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:808](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L808)
 
 Positions
 
@@ -242,7 +242,7 @@ Positions
 
 > `readonly` `static` **SHORT**: `number` = `Constants.SHORT`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L374)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L374)
 
 The short type.
 
@@ -252,7 +252,7 @@ The short type.
 
 > `readonly` `static` **TangentKind**: `string` = `Constants.TangentKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:816](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L816)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:816](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L816)
 
 Tangents
 
@@ -262,7 +262,7 @@ Tangents
 
 > `readonly` `static` **UNSIGNED\_BYTE**: `number` = `Constants.UNSIGNED_BYTE`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L369)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L369)
 
 The unsigned byte type.
 
@@ -272,7 +272,7 @@ The unsigned byte type.
 
 > `readonly` `static` **UNSIGNED\_INT**: `number` = `Constants.UNSIGNED_INT`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L391)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L391)
 
 The unsigned integer type.
 Note: supported as a vertex attribute type only on the WebGL and WebGPU engines, not on Babylon Native.
@@ -283,7 +283,7 @@ Note: supported as a vertex attribute type only on the WebGL and WebGPU engines,
 
 > `readonly` `static` **UNSIGNED\_SHORT**: `number` = `Constants.UNSIGNED_SHORT`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L379)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L379)
 
 The unsigned short type.
 
@@ -293,7 +293,7 @@ The unsigned short type.
 
 > `readonly` `static` **UV2Kind**: `string` = `Constants.UV2Kind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:824](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L824)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:824](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L824)
 
 Texture coordinates 2
 
@@ -303,7 +303,7 @@ Texture coordinates 2
 
 > `readonly` `static` **UV3Kind**: `string` = `Constants.UV3Kind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:828](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L828)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:828](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L828)
 
 Texture coordinates 3
 
@@ -313,7 +313,7 @@ Texture coordinates 3
 
 > `readonly` `static` **UV4Kind**: `string` = `Constants.UV4Kind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:832](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L832)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:832](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L832)
 
 Texture coordinates 4
 
@@ -323,7 +323,7 @@ Texture coordinates 4
 
 > `readonly` `static` **UV5Kind**: `string` = `Constants.UV5Kind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:836](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L836)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:836](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L836)
 
 Texture coordinates 5
 
@@ -333,7 +333,7 @@ Texture coordinates 5
 
 > `readonly` `static` **UV6Kind**: `string` = `Constants.UV6Kind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:840](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L840)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:840](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L840)
 
 Texture coordinates 6
 
@@ -343,7 +343,7 @@ Texture coordinates 6
 
 > `readonly` `static` **UVKind**: `string` = `Constants.UVKind`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:820](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L820)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:820](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L820)
 
 Texture coordinates
 
@@ -355,7 +355,7 @@ Texture coordinates
 
 > **get** **instanceDivisor**(): `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L414)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:414](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L414)
 
 Gets or sets the instance divisor when in instanced mode
 
@@ -367,7 +367,7 @@ Gets or sets the instance divisor when in instanced mode
 
 > **set** **instanceDivisor**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L418)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L418)
 
 ##### Parameters
 
@@ -387,7 +387,7 @@ Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:418](https://github.co
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L407)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:407](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L407)
 
 Gets a boolean indicating if the Buffer is disposed
 
@@ -401,7 +401,7 @@ Gets a boolean indicating if the Buffer is disposed
 
 > **create**(`data?`): `void`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L750)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:750](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L750)
 
 Store data into the buffer. If the buffer was already used it will be either recreated or updated depending on isUpdatable property
 
@@ -423,7 +423,7 @@ defines the data to store
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:780](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L780)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:780](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L780)
 
 Disposes the VertexBuffer and the underlying WebGLBuffer.
 
@@ -437,7 +437,7 @@ Disposes the VertexBuffer and the underlying WebGLBuffer.
 
 > **forEach**(`count`, `callback`): `void`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:793](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L793)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:793](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L793)
 
 Enumerates each value of this vertex buffer as numbers.
 
@@ -465,7 +465,7 @@ the callback function called for each value
 
 > **getBuffer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataBuffer`](DataBuffer.md)\>
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L688)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:688](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L688)
 
 Gets underlying native buffer
 
@@ -481,7 +481,7 @@ underlying native buffer
 
 > **getData**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DataArray`](../type-aliases/DataArray.md)\>
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:665](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L665)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:665](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L665)
 
 Gets the raw data from the underlying buffer.
 Note: The data may include more than just this vertex buffer's values.
@@ -498,7 +498,7 @@ the buffer data as a DataArray, or null.
 
 > **getFloatData**(`totalVertices`, `forceCopy?`): [`Nullable`](../type-aliases/Nullable.md)\<[`FloatArray`](../type-aliases/FloatArray.md)\>
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L675)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:675](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L675)
 
 Gets this vertex buffer's data as a float array. Float data is constructed if the vertex buffer data cannot be returned directly.
 
@@ -528,7 +528,7 @@ a float array containing vertex data
 
 > **getInstanceDivisor**(): `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:740](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L740)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:740](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L740)
 
 Returns the instancing divisor, zero for non-instanced (integer).
 
@@ -544,7 +544,7 @@ a number
 
 > **getIsInstanced**(): `boolean`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:732](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L732)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:732](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L732)
 
 Gets a boolean indicating is the internal buffer of the VertexBuffer is instanced
 
@@ -560,7 +560,7 @@ true if this buffer is instanced
 
 > **getKind**(): `string`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L646)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:646](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L646)
 
 Returns the kind of the VertexBuffer (string)
 
@@ -576,7 +576,7 @@ a string
 
 > **getOffset**(): `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:715](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L715)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:715](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L715)
 
 Returns the offset as a multiple of the type byte length.
 
@@ -596,7 +596,7 @@ Please use byteOffset instead.
 
 > **getSize**(`sizeInBytes?`): `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:724](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L724)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:724](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L724)
 
 Returns the number of components or the byte size per vertex attribute
 
@@ -620,7 +620,7 @@ the number of components
 
 > **getStrideSize**(): `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:706](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L706)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:706](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L706)
 
 Gets the stride in float32 units (i.e. byte stride / 4).
 May not be an integer if the byte stride is not divisible by 4.
@@ -641,7 +641,7 @@ Please use byteStride instead.
 
 > **getWrapperBuffer**(): [`Buffer`](Buffer.md)
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L696)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:696](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L696)
 
 Gets the Buffer instance that wraps the native GPU buffer
 
@@ -657,7 +657,7 @@ the wrapper buffer
 
 > **isUpdatable**(): `boolean`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:656](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L656)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:656](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L656)
 
 Gets a boolean indicating if the VertexBuffer is updatable?
 
@@ -673,7 +673,7 @@ true if the buffer is updatable
 
 > **update**(`data`): `void`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:760](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L760)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:760](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L760)
 
 Updates the underlying buffer according to the passed numeric array or Float32Array.
 This function will create a new buffer if the current one is not updatable
@@ -696,7 +696,7 @@ defines the data to store
 
 > **updateDirectly**(`data`, `offset`, `useBytes?`): `void`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:772](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L772)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:772](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L772)
 
 Updates directly the underlying WebGLBuffer according to the passed numeric array or Float32Array.
 Returns the directly updated WebGLBuffer.

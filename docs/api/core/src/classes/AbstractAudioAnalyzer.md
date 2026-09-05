@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractAudioAnalyzer
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L60)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L60)
 
 An AudioAnalyzer converts time-domain audio data into the frequency-domain.
 
@@ -26,7 +26,7 @@ An AudioAnalyzer converts time-domain audio data into the frequency-domain.
 
 > `abstract` **fftSize**: [`AudioAnalyzerFFTSizeType`](../type-aliases/AudioAnalyzerFFTSizeType.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L64)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L64)
 
 The size of the FFT (fast fourier transform) to use when converting time-domain data to frequency-domain data. Default is 2048.
 
@@ -36,7 +36,7 @@ The size of the FFT (fast fourier transform) to use when converting time-domain 
 
 > `abstract` **isEnabled**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L78)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L78)
 
 Whether the analyzer is enabled or not.
 - The data retrieval functions return an empty array if the analyzer is not enabled.
@@ -51,7 +51,7 @@ Whether the analyzer is enabled or not.
 
 > `abstract` **maxDecibels**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L88)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L88)
 
 The maximum decibel value for the range of the analyzer. Default is -30.
 
@@ -61,7 +61,7 @@ The maximum decibel value for the range of the analyzer. Default is -30.
 
 > `abstract` **minDecibels**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L83)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L83)
 
 The minimum decibel value for the range of the analyzer. Default is -100.
 
@@ -71,7 +71,7 @@ The minimum decibel value for the range of the analyzer. Default is -100.
 
 > `abstract` **smoothing**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L93)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L93)
 
 A number between 0 and 1 that determines how quickly the analyzer's value changes. Default is 0.8.
 
@@ -83,7 +83,7 @@ A number between 0 and 1 that determines how quickly the analyzer's value change
 
 > **get** **frequencyBinCount**(): `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L69)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L69)
 
 The number of data values that will be returned when calling getByteFrequencyData() or getFloatFrequencyData(). This is always half the `fftSize`.
 
@@ -97,7 +97,7 @@ The number of data values that will be returned when calling getByteFrequencyDat
 
 > `abstract` **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L98)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L98)
 
 Releases associated resources.
 
@@ -111,7 +111,7 @@ Releases associated resources.
 
 > `abstract` **enableAsync**(): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L103)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L103)
 
 Enables the analyzer
 
@@ -125,7 +125,7 @@ Enables the analyzer
 
 > `abstract` **getByteFrequencyData**(): `Uint8Array`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L109)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L109)
 
 Gets the current frequency data as a byte array
 
@@ -141,7 +141,7 @@ a Uint8Array if the analyzer is enabled, otherwise an empty array
 
 > **getByteTimeDomainData**(): `Uint8Array`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L115)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L115)
 
 Gets the current waveform data as a byte array
 
@@ -157,7 +157,7 @@ a Uint8Array with length `fftSize` if the analyzer is enabled, otherwise an empt
 
 > `abstract` **getFloatFrequencyData**(): `Float32Array`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L123)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L123)
 
 Gets the current frequency data as a float array
 
@@ -173,7 +173,7 @@ a Float32Array if the analyzer is enabled, otherwise an empty array
 
 > **getFloatTimeDomainData**(): `Float32Array`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L129)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractAudioAnalyzer.ts#L129)
 
 Gets the current waveform data as a float array
 

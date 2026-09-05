@@ -6,7 +6,7 @@
 
 # Interface: IDisposable
 
-Defined in: [packages/dev/core/src/scene.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/scene.pure.ts#L118)
+Defined in: [packages/dev/core/src/scene.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/scene.pure.ts#L118)
 
 Define an interface for all classes that will hold resources
 
@@ -28,7 +28,7 @@ Define an interface for all classes that will hold resources
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/scene.pure.ts#L122)
+Defined in: [packages/dev/core/src/scene.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/scene.pure.ts#L122)
 
 Releases all held resources
 

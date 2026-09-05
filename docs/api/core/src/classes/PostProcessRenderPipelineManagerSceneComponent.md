@@ -6,7 +6,7 @@
 
 # Class: PostProcessRenderPipelineManagerSceneComponent
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L13)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L13)
 
 Defines the Render Pipeline scene component responsible to rendering pipelines
 
@@ -20,7 +20,7 @@ Defines the Render Pipeline scene component responsible to rendering pipelines
 
 > **new PostProcessRenderPipelineManagerSceneComponent**(`scene`): `PostProcessRenderPipelineManagerSceneComponent`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L28)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L28)
 
 Creates a new instance of the component for the given scene
 
@@ -42,7 +42,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"PostProcessRenderPipelineManager"` = `SceneComponentConstants.NAME_POSTPROCESSRENDERPIPELINEMANAGER`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L17)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L17)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -56,7 +56,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L22)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L22)
 
 The scene the component belongs to.
 
@@ -70,7 +70,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L52)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L52)
 
 Disposes the component and the associated resources
 
@@ -88,7 +88,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L43)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L43)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -107,7 +107,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L35)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipelineManagerSceneComponent.pure.ts#L35)
 
 Registers the component in a given scene
 

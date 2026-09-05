@@ -6,7 +6,7 @@
 
 # Class: InteractivityGraphToFlowGraphParser
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L60)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L60)
 
 Parses a KHR_interactivity graph definition (the raw glTF JSON object) into
 the serialized FlowGraph form consumed by ParseFlowGraphAsync.
@@ -21,7 +21,7 @@ and nodes in order and emits an [ISerializedFlowGraph](../../../../../core/src/i
 
 > **new InteractivityGraphToFlowGraphParser**(`_interactivityGraph`, `_gltf`, `_animationTargetFps?`): `InteractivityGraphToFlowGraphParser`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L79)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L79)
 
 #### Parameters
 
@@ -47,7 +47,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/int
 
 > **\_animationTargetFps**: `number` = `60`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L82)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L82)
 
 ## Accessors
 
@@ -57,7 +57,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/int
 
 > **get** **arrays**(): `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L93)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L93)
 
 ##### Returns
 
@@ -89,7 +89,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/int
 
 > **getVariableName**(`index`): `string`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:578](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L578)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:578](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L578)
 
 Returns the deterministic FlowGraph user-variable name used for the
 static variable at the given declaration index.
@@ -114,7 +114,7 @@ the FlowGraph variable name (e.g. `staticVariable_3`).
 
 > **serializeToFlowGraph**(): [`ISerializedFlowGraph`](../../../../../core/src/interfaces/ISerializedFlowGraph.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:588](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L588)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:588](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L588)
 
 Serializes the parsed interactivity graph into the [ISerializedFlowGraph](../../../../../core/src/interfaces/ISerializedFlowGraph.md)
 payload consumed by `ParseFlowGraphAsync`. Performs node-connection wiring

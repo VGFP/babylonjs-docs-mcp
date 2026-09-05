@@ -6,7 +6,7 @@
 
 # Class: FlowGraphGetAssetBlock\<T\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L41)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L41)
 
 A block that will deliver an asset as an output, based on its type and place in the assets index.
 
@@ -29,7 +29,7 @@ meaning it can be a Scene, an AssetsContainers, and any other class that extends
 
 > **new FlowGraphGetAssetBlock**\<`T`\>(`config`): `FlowGraphGetAssetBlock`\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L57)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L57)
 
 #### Parameters
 
@@ -53,7 +53,7 @@ the configuration of the block
 
 > **config**: [`IFlowGraphGetAssetBlockConfiguration`](../interfaces/IFlowGraphGetAssetBlockConfiguration.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L61)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L61)
 
 the configuration of the block
 
@@ -67,7 +67,7 @@ the configuration of the block
 
 > **dataInputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
 
 The data inputs of the block.
 
@@ -81,7 +81,7 @@ The data inputs of the block.
 
 > **dataOutputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
 
 The data outputs of the block.
 
@@ -95,7 +95,7 @@ The data outputs of the block.
 
 > `readonly` **index**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`FlowGraphNumber`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L55)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L55)
 
 Input connection: The index of the asset in the corresponding array in the assets context.
 
@@ -105,7 +105,7 @@ Input connection: The index of the asset in the corresponding array in the asset
 
 > **metadata**: `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
 
 Metadata that can be used by the block.
 
@@ -119,7 +119,7 @@ Metadata that can be used by the block.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
 
 The name of the block.
 
@@ -133,7 +133,7 @@ The name of the block.
 
 > `readonly` **type**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L50)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L50)
 
 Input connection: The type of the asset.
 
@@ -143,7 +143,7 @@ Input connection: The type of the asset.
 
 > **uniqueId**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
 
 A randomly generated GUID for each block.
 
@@ -157,7 +157,7 @@ A randomly generated GUID for each block.
 
 > `readonly` **value**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<[`Nullable`](../type-aliases/Nullable.md)\<[`AssetType`](../type-aliases/AssetType.md)\<`T`\>\>\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L45)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L45)
 
 Output connection: The value of the property.
 
@@ -167,7 +167,7 @@ Output connection: The value of the property.
 
 > **deserialize**(`_serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
 
 Deserializes this block
 
@@ -193,7 +193,7 @@ the object to deserialize from
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L81)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphGetAssetBlock.pure.ts#L81)
 
 Gets the class name of this block
 
@@ -213,7 +213,7 @@ the class name
 
 > **getDataInput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
 
 Given the name of a data input, returns the connection if it exists
 
@@ -241,7 +241,7 @@ the connection if it exists, undefined otherwise
 
 > **getDataOutput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
 
 Given the name of a data output, returns the connection if it exists
 
@@ -269,7 +269,7 @@ the connection if it exists, undefined otherwise
 
 > **registerDataInput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
 
 Registers a data input on the block.
 
@@ -315,7 +315,7 @@ the created connection
 
 > **registerDataOutput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
 
 Registers a data output on the block.
 
@@ -361,7 +361,7 @@ the created connection
 
 > **serialize**(`serializationObject?`, `_valueSerializeFunction?`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
 
 Serializes this block
 

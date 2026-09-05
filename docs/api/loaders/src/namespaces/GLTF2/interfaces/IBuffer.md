@@ -6,7 +6,7 @@
 
 # Interface: IBuffer
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L77)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L77)
 
 Loader interface with additional members.
 
@@ -20,7 +20,7 @@ Loader interface with additional members.
 
 > **byteLength**: `number`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:486](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L486)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:486](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L486)
 
 The length of the buffer in bytes
 
@@ -34,7 +34,7 @@ The length of the buffer in bytes
 
 > `optional` **extensions?**: `object`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
 
 Dictionary object with extension-specific objects
 
@@ -52,7 +52,7 @@ Dictionary object with extension-specific objects
 
 > `optional` **extras?**: `any`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
 
 Application-Specific data
 
@@ -66,7 +66,7 @@ Application-Specific data
 
 > **index**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
 
 The index of this item in the array.
 
@@ -80,7 +80,7 @@ The index of this item in the array.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
 
 The user-defined name of this object
 
@@ -94,7 +94,7 @@ The user-defined name of this object
 
 > `optional` **uri?**: `string`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:482](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L482)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:482](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L482)
 
 The uri of the buffer.  Relative paths are relative to the .gltf file.  Instead of referencing an external file, the uri can also be a data-uri
 

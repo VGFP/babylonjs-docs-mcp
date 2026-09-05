@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphKeyboardEventBlockConfiguration
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts#L12)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts#L12)
 
 Configuration for keyboard event blocks.
 
@@ -28,7 +28,7 @@ Configuration for keyboard event blocks.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -42,6 +42,6 @@ The name of the block.
 
 > `optional` **stopPropagation?**: `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts#L16)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphKeyboardEventBlock.ts#L16)
 
 When true, prevent the event from propagating to other listeners.

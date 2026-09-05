@@ -6,7 +6,7 @@
 
 # Class: OBJExport
 
-Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/OBJ/objSerializer.ts#L12)
+Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/OBJ/objSerializer.ts#L12)
 
 Class for generating OBJ data from a Babylon scene.
 
@@ -26,7 +26,7 @@ Class for generating OBJ data from a Babylon scene.
 
 > `static` **MTL**(`mesh`, `materialName?`): `string`
 
-Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/OBJ/objSerializer.ts#L149)
+Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/OBJ/objSerializer.ts#L149)
 
 Exports the material(s) of a mesh in .MTL file format (text)
 
@@ -56,7 +56,7 @@ the mtl content
 
 > `static` **OBJ**(`meshes`, `materials?`, `matlibname?`, `globalposition?`): `string`
 
-Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/OBJ/objSerializer.ts#L21)
+Defined in: [packages/dev/serializers/src/OBJ/objSerializer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/OBJ/objSerializer.ts#L21)
 
 Exports the geometry of a Mesh array in .OBJ file format (text)
 

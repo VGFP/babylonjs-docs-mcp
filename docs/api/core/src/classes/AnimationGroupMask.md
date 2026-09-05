@@ -6,7 +6,7 @@
 
 # Class: AnimationGroupMask
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L20)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L20)
 
 Defines a mask used to filter animation targets.
 If you apply a mask to an animation group (see the AnimationGroup.mask property), only the animations whose target names match the mask will play.
@@ -18,7 +18,7 @@ Note that a target is defined by its name (string). This means that the same mas
 
 > **new AnimationGroupMask**(`names?`, `mode?`): `AnimationGroupMask`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L36)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L36)
 
 Creates a new mask
 
@@ -46,7 +46,7 @@ Defines the mode for the mask (default: AnimationGroupMaskMode.Include)
 
 > **disabled**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L29)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L29)
 
 Gets or sets a boolean indicating if the mask is disabled (default is false)
 
@@ -56,7 +56,7 @@ Gets or sets a boolean indicating if the mask is disabled (default is false)
 
 > **mode**: [`AnimationGroupMaskMode`](../enumerations/AnimationGroupMaskMode.md) = `AnimationGroupMaskMode.Include`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L41)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L41)
 
 [0] Defines the mode for the mask
 
@@ -66,7 +66,7 @@ Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:41](https://
 
 > **addTargetName**(`name`): `void`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L53)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L53)
 
 Adds one or several target names to the mask
 
@@ -88,7 +88,7 @@ The name(s) to add to the mask
 
 > **hasTarget**(`name`): `boolean`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L85)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L85)
 
 Checks if the mask includes a target name.
 This method is intended to know if a given target name is included in the mask, not if the name is actually retained by the mask (see retainsTarget() instead).
@@ -113,7 +113,7 @@ True if the mask includes the name, false otherwise
 
 > **removeTargetName**(`name`): `void`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L68)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L68)
 
 Removes one or several target names from the mask
 
@@ -135,7 +135,7 @@ The name(s) to remove from the mask
 
 > **retainsTarget**(`name`): `boolean`
 
-Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroupMask.ts#L96)
+Defined in: [packages/dev/core/src/Animations/animationGroupMask.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroupMask.ts#L96)
 
 Checks if the mask retains a target name.
 Note that in the "Exclude" mode, this will return false if the mask includes the name, and true otherwise!

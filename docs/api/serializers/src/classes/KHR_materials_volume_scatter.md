@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_volume\_scatter
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L27)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L27)
 
 TODO: In-progress specification
 [Specification](https://github.com/KhronosGroup/glTF/blob/7ea427ed55d44427e83c0a6d1c87068b1a4151c5/extensions/2.0/Khronos/KHR_materials_volume_scatter/README.md)
@@ -21,7 +21,7 @@ TODO: In-progress specification
 
 > **new KHR\_materials\_volume\_scatter**(`exporter`): `KHR_materials_volume_scatter`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L41)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L41)
 
 #### Parameters
 
@@ -39,7 +39,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_vo
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L32)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L32)
 
 Defines whether this extension is enabled
 
@@ -53,7 +53,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_materials_volume_scatter"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L29)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L29)
 
 Name of this extension
 
@@ -67,7 +67,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L35)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L35)
 
 Defines whether this extension is required
 
@@ -81,7 +81,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L45)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L45)
 
 Releases all held resources
 
@@ -99,7 +99,7 @@ Releases all held resources
 
 > `optional` **postExportMaterialAdditionalTexturesAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)[]\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L59)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L59)
 
 After exporting a material, deal with additional textures
 
@@ -139,7 +139,7 @@ array of additional textures to export
 
 > `optional` **postExportMaterialAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<`IMaterial`\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L100)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_volume\_scatter.pure.ts:100](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_volume_scatter.pure.ts#L100)
 
 After exporting a material
 

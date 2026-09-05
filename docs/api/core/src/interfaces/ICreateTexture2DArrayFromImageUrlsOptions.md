@@ -6,7 +6,7 @@
 
 # Interface: ICreateTexture2DArrayFromImageUrlsOptions
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L35)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L35)
 
 Options controlling the creation of a 2D array texture from a list of image urls.
 
@@ -20,7 +20,7 @@ Options controlling the creation of a 2D array texture from a list of image urls
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L37)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L37)
 
 Defines if mip levels should be generated (true by default)
 
@@ -30,7 +30,7 @@ Defines if mip levels should be generated (true by default)
 
 > `optional` **imageBitmapOptions?**: `ImageBitmapOptions`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L43)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L43)
 
 Options forwarded to createImageBitmap when decoding each url
 
@@ -40,7 +40,7 @@ Options forwarded to createImageBitmap when decoding each url
 
 > `optional` **invertY?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L27)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L27)
 
 Defines if the source must be stored with the Y axis inverted (false by default)
 
@@ -54,7 +54,7 @@ Defines if the source must be stored with the Y axis inverted (false by default)
 
 > `optional` **premultiplyAlpha?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L29)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L29)
 
 Defines if the source alpha must be premultiplied (false by default)
 
@@ -68,7 +68,7 @@ Defines if the source alpha must be premultiplied (false by default)
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L39)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L39)
 
 Defines the sampling mode to use (Texture.TRILINEAR_SAMPLINGMODE by default)
 
@@ -78,6 +78,6 @@ Defines the sampling mode to use (Texture.TRILINEAR_SAMPLINGMODE by default)
 
 > `optional` **textureType?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L41)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L41)
 
 Defines the texture type (Constants.TEXTURETYPE_UNSIGNED_BYTE by default)

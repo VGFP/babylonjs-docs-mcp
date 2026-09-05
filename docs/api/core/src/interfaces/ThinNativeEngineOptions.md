@@ -6,7 +6,7 @@
 
 # Interface: ThinNativeEngineOptions
 
-Defined in: [packages/dev/core/src/Engines/thinNativeEngine.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinNativeEngine.pure.ts#L131)
+Defined in: [packages/dev/core/src/Engines/thinNativeEngine.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/thinNativeEngine.pure.ts#L131)
 
 Options to create the Native engine
 
@@ -20,6 +20,6 @@ Options to create the Native engine
 
 > `optional` **adaptToDeviceRatio?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/thinNativeEngine.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinNativeEngine.pure.ts#L135)
+Defined in: [packages/dev/core/src/Engines/thinNativeEngine.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/thinNativeEngine.pure.ts#L135)
 
 defines whether to adapt to the device's viewport characteristics (default: false)

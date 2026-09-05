@@ -6,7 +6,7 @@
 
 # Interface: IWebXRLegacyHitResult
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L38)
+Defined in: [packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L38)
 
 Interface defining the babylon result of raycasting/hit-test
 
@@ -20,7 +20,7 @@ Interface defining the babylon result of raycasting/hit-test
 
 > **transformationMatrix**: [`Matrix`](../classes/Matrix.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L42)
+Defined in: [packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L42)
 
 Transformation matrix that can be applied to a node that will put it in the hit point location
 
@@ -30,6 +30,6 @@ Transformation matrix that can be applied to a node that will put it in the hit 
 
 > **xrHitResult**: `XRHitResult` \| `XRHitTestResult`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L46)
+Defined in: [packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHitTestLegacy.ts#L46)
 
 The native hit test result

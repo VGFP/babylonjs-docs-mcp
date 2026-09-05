@@ -6,7 +6,7 @@
 
 # Interface: I3mfComponent
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L202)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:202](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L202)
 
 Component reference inside a composite object.
 A composite object is an object whose content is <components> rather than <mesh>.
@@ -20,7 +20,7 @@ transform (3x4) positions that referenced object within the composite.
 
 > **objectid**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:204](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L204)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:204](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L204)
 
 Referenced object id.
 
@@ -30,7 +30,7 @@ Referenced object id.
 
 > `optional` **transform?**: [`IMatrix3d`](IMatrix3d.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L210)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:210](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L210)
 
 Optional transform applied to the referenced object within the component.
 Represented as a 3x4 matrix.

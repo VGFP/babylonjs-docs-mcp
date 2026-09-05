@@ -8,7 +8,7 @@
 
 > **RegisterTiledBoxBuilder**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.pure.ts#L289)
+Defined in: [packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.pure.ts:289](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/tiledBoxBuilder.pure.ts#L289)
 
 Register side effects for the tiled box builder.
 Safe to call multiple times; only the first call has an effect.

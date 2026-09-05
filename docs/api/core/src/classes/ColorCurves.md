@@ -6,7 +6,7 @@
 
 # Class: ColorCurves
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L15)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L15)
 
 The color grading curves provide additional color adjustment that is applied after any color grading transform (3D LUT).
 They allow basic adjustment of saturation and small exposure adjustments, along with color filter tinting to provide white balance adjustment or more stylistic effects.
@@ -29,7 +29,7 @@ corresponding to low luminance, medium luminance, and high luminance areas respe
 
 > `static` **PrepareUniforms**: (`uniformsList`) => `void` = `PrepareUniformsForColorCurves`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L334)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L334)
 
 Prepare the list of uniforms associated with the ColorCurves effects.
 
@@ -53,7 +53,7 @@ The list of uniforms used in the effect
 
 > **get** **globalDensity**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L60)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L60)
 
 Gets the global Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -67,7 +67,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **set** **globalDensity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L68)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L68)
 
 Sets the global Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -91,7 +91,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **get** **globalExposure**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L92)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L92)
 
 Gets the global Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -104,7 +104,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **globalExposure**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L99)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L99)
 
 Sets the global Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -127,7 +127,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **globalHue**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L44)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L44)
 
 Gets the global Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -140,7 +140,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **set** **globalHue**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L51)
 
 Sets the global Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -163,7 +163,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **get** **globalSaturation**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L76)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L76)
 
 Gets the global Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -176,7 +176,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **globalSaturation**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L83)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L83)
 
 Sets the global Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -199,7 +199,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **highlightsDensity**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L136)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L136)
 
 Gets the highlights Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -213,7 +213,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **set** **highlightsDensity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L144)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L144)
 
 Sets the highlights Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -237,7 +237,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **get** **highlightsExposure**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L167)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:167](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L167)
 
 Gets the highlights Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -250,7 +250,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **highlightsExposure**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L174)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L174)
 
 Sets the highlights Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -273,7 +273,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **highlightsHue**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L120)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L120)
 
 Gets the highlights Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -286,7 +286,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **set** **highlightsHue**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L127)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L127)
 
 Sets the highlights Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -309,7 +309,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **get** **highlightsSaturation**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L152)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L152)
 
 Gets the highlights Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -322,7 +322,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **highlightsSaturation**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L159)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L159)
 
 Sets the highlights Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -345,7 +345,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **midtonesDensity**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L211)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L211)
 
 Gets the midtones Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -359,7 +359,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **set** **midtonesDensity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L219)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L219)
 
 Sets the midtones Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -383,7 +383,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **get** **midtonesExposure**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L242)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L242)
 
 Gets the midtones Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -396,7 +396,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **midtonesExposure**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L249)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:249](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L249)
 
 Sets the midtones Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -419,7 +419,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **midtonesHue**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L195)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:195](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L195)
 
 Gets the midtones Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -432,7 +432,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **set** **midtonesHue**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L202)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L202)
 
 Sets the midtones Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -455,7 +455,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **get** **midtonesSaturation**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L227)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:227](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L227)
 
 Gets the midtones Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -468,7 +468,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **midtonesSaturation**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L234)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L234)
 
 Sets the midtones Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -491,7 +491,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **shadowsDensity**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L279)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:279](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L279)
 
 Gets the shadows Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -505,7 +505,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **set** **shadowsDensity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L287)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L287)
 
 Sets the shadows Density value.
 The density value is in range [-100,+100] where 0 means the color filter has no effect and +100 means the color filter has maximum effect.
@@ -529,7 +529,7 @@ Values less than zero provide a filter of opposite hue.
 
 > **get** **shadowsExposure**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L310)
 
 Gets the shadows Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -542,7 +542,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **shadowsExposure**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L317)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L317)
 
 Sets the shadows Exposure value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase exposure and negative values decrease exposure.
@@ -565,7 +565,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **get** **shadowsHue**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L263)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:263](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L263)
 
 Gets the shadows Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -578,7 +578,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **set** **shadowsHue**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L270)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L270)
 
 Sets the shadows Hue value.
 The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green and 240=blue. The default value is 30 degrees (orange).
@@ -601,7 +601,7 @@ The hue value is a standard HSB hue in the range [0,360] where 0=red, 120=green 
 
 > **get** **shadowsSaturation**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L295)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:295](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L295)
 
 Gets the shadows Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -614,7 +614,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **set** **shadowsSaturation**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L302)
 
 Sets the shadows Saturation value.
 This is an adjustment value in the range [-100,+100], where the default value of 0.0 makes no adjustment, positive values increase saturation and negative values decrease saturation.
@@ -635,7 +635,7 @@ This is an adjustment value in the range [-100,+100], where the default value of
 
 > **clone**(): `ColorCurves`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L473)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L473)
 
 Clones the current color curve instance.
 
@@ -651,7 +651,7 @@ The cloned curves
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L326)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L326)
 
 Returns the class name
 
@@ -667,7 +667,7 @@ The class name
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/colorCurves.pure.ts#L481)
+Defined in: [packages/dev/core/src/Materials/colorCurves.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/colorCurves.pure.ts#L481)
 
 Serializes the current color curve instance to a json representation.
 

@@ -6,7 +6,7 @@
 
 # Interface: ISimplificationTask
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L32)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L32)
 
 Interface used to define a simplification task
 
@@ -16,7 +16,7 @@ Interface used to define a simplification task
 
 > **mesh**: [`Mesh`](../classes/Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L44)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L44)
 
 Mesh to simplify
 
@@ -26,7 +26,7 @@ Mesh to simplify
 
 > **parallelProcessing**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L52)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L52)
 
 Defines if parallel processing can be used
 
@@ -36,7 +36,7 @@ Defines if parallel processing can be used
 
 > **settings**: [`ISimplificationSettings`](ISimplificationSettings.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L36)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L36)
 
 Array of settings
 
@@ -46,7 +46,7 @@ Array of settings
 
 > **simplificationType**: [`QUADRATIC`](../enumerations/SimplificationType.md#quadratic)
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L40)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L40)
 
 Simplification type
 
@@ -56,7 +56,7 @@ Simplification type
 
 > `optional` **successCallback?**: () => `void`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L48)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L48)
 
 Callback called on success
 

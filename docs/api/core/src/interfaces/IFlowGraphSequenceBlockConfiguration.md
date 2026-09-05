@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphSequenceBlockConfiguration
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts#L13)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts#L13)
 
 Configuration for the sequence block.
 
@@ -24,7 +24,7 @@ Configuration for the sequence block.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -38,6 +38,6 @@ The name of the block.
 
 > `optional` **outputSignalCount?**: `number`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Execution/ControlFlow/flowGraphSequenceBlock.pure.ts#L17)
 
 The number of output signals. Defaults to 1.

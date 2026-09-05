@@ -6,7 +6,7 @@
 
 # Interface: ICompressedFormatCapabilities
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L202)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:202](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L202)
 
 The compressed texture formats supported by the browser
 
@@ -16,7 +16,7 @@ The compressed texture formats supported by the browser
 
 > `optional` **astc?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L206)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:206](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L206)
 
 Whether the browser supports ASTC
 
@@ -26,7 +26,7 @@ Whether the browser supports ASTC
 
 > `optional` **bptc?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L211)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:211](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L211)
 
 Whether the browser supports BPTC
 
@@ -36,7 +36,7 @@ Whether the browser supports BPTC
 
 > `optional` **etc1?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L231)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:231](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L231)
 
 Whether the browser supports ETC1
 
@@ -46,7 +46,7 @@ Whether the browser supports ETC1
 
 > `optional` **etc2?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L226)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:226](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L226)
 
 Whether the browser supports ETC2
 
@@ -56,7 +56,7 @@ Whether the browser supports ETC2
 
 > `optional` **pvrtc?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L221)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:221](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L221)
 
 Whether the browser supports PVRTC
 
@@ -66,6 +66,6 @@ Whether the browser supports PVRTC
 
 > `optional` **s3tc?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L216)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L216)
 
 Whether the browser supports S3TC

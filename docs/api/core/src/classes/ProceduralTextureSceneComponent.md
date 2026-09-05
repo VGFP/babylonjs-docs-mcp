@@ -6,7 +6,7 @@
 
 # Class: ProceduralTextureSceneComponent
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L9)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L9)
 
 Defines the Procedural Texture scene component responsible to manage any Procedural Texture
 in a given scene.
@@ -21,7 +21,7 @@ in a given scene.
 
 > **new ProceduralTextureSceneComponent**(`scene`): `ProceduralTextureSceneComponent`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L24)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L24)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"ProceduralTexture"` = `SceneComponentConstants.NAME_PROCEDURALTEXTURE`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L13)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L13)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L18)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L18)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L46)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L46)
 
 Disposes the component and the associated resources.
 
@@ -89,7 +89,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L39)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L39)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -108,7 +108,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Procedurals/proceduralTextureSceneComponent.ts#L31)
 
 Registers the component in a given scene
 

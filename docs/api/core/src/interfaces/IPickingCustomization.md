@@ -6,7 +6,7 @@
 
 # Interface: IPickingCustomization
 
-Defined in: [packages/dev/core/src/Culling/ray.core.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/ray.core.ts#L31)
+Defined in: [packages/dev/core/src/Culling/ray.core.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Culling/ray.core.ts#L31)
 
 This class allows user to customize internal picking mechanism
 
@@ -16,7 +16,7 @@ This class allows user to customize internal picking mechanism
 
 > `optional` **internalPickerForMesh?**: (`pickingInfo`, `rayFunction`, `mesh`, `world`, `fastCheck?`, `onlyBoundingInfo?`, `trianglePredicate?`, `skipBoundingInfo?`) => [`PickingInfo`](../classes/PickingInfo.md)
 
-Defined in: [packages/dev/core/src/Culling/ray.core.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Culling/ray.core.ts#L35)
+Defined in: [packages/dev/core/src/Culling/ray.core.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Culling/ray.core.ts#L35)
 
 Predicate to select faces when a mesh intersection is detected
 

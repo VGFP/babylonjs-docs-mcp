@@ -6,7 +6,7 @@
 
 # Enumeration: PhysicsEventType
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L130)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:130](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L130)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:130](https
 
 > **COLLISION\_CONTINUED**: `"COLLISION_CONTINUED"`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L132)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L132)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:132](https
 
 > **COLLISION\_FINISHED**: `"COLLISION_FINISHED"`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L133)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L133)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:133](https
 
 > **COLLISION\_STARTED**: `"COLLISION_STARTED"`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L131)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L131)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:131](https
 
 > **TRIGGER\_ENTERED**: `"TRIGGER_ENTERED"`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L134)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L134)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:134](https
 
 > **TRIGGER\_EXITED**: `"TRIGGER_EXITED"`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L135)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L135)

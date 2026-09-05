@@ -6,7 +6,7 @@
 
 # Class: FlowGraphGetPhysicsMassPropertiesBlock
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L17)
 
 **`Experimental`**
 
@@ -23,7 +23,7 @@ Outputs the mass, center of mass (local space), and principal inertia.
 
 > **new FlowGraphGetPhysicsMassPropertiesBlock**(`config?`): `FlowGraphGetPhysicsMassPropertiesBlock`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L42)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L42)
 
 **`Experimental`**
 
@@ -51,7 +51,7 @@ optional configuration for the block
 
 > `readonly` **body**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<[`PhysicsBody`](PhysicsBody.md)\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L21)
 
 **`Experimental`**
 
@@ -63,7 +63,7 @@ Input connection: The physics body to read mass properties from.
 
 > `readonly` **centerOfMass**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L31)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L31)
 
 **`Experimental`**
 
@@ -75,7 +75,7 @@ Output connection: The center of mass in local space.
 
 > `optional` **config?**: [`IFlowGraphBlockConfiguration`](../interfaces/IFlowGraphBlockConfiguration.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L87)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L87)
 
 **`Experimental`**
 
@@ -91,7 +91,7 @@ the configuration of the block
 
 > **dataInputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
 
 **`Experimental`**
 
@@ -107,7 +107,7 @@ The data inputs of the block.
 
 > **dataOutputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
 
 **`Experimental`**
 
@@ -123,7 +123,7 @@ The data outputs of the block.
 
 > `readonly` **inertia**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L36)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L36)
 
 **`Experimental`**
 
@@ -135,7 +135,7 @@ Output connection: The principal moments of inertia.
 
 > `readonly` **mass**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L26)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L26)
 
 **`Experimental`**
 
@@ -147,7 +147,7 @@ Output connection: The total mass in kilograms.
 
 > **metadata**: `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
 
 **`Experimental`**
 
@@ -163,7 +163,7 @@ Metadata that can be used by the block.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
 
 **`Experimental`**
 
@@ -179,7 +179,7 @@ The name of the block.
 
 > **uniqueId**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
 
 **`Experimental`**
 
@@ -195,7 +195,7 @@ A randomly generated GUID for each block.
 
 > **deserialize**(`_serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
 
 **`Experimental`**
 
@@ -223,7 +223,7 @@ the object to deserialize from
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L73)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Physics/flowGraphGetPhysicsMassPropertiesBlock.pure.ts#L73)
 
 **`Experimental`**
 
@@ -243,7 +243,7 @@ class name of the block.
 
 > **getDataInput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
 
 **`Experimental`**
 
@@ -273,7 +273,7 @@ the connection if it exists, undefined otherwise
 
 > **getDataOutput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
 
 **`Experimental`**
 
@@ -303,7 +303,7 @@ the connection if it exists, undefined otherwise
 
 > **registerDataInput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
 
 **`Experimental`**
 
@@ -351,7 +351,7 @@ the created connection
 
 > **registerDataOutput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
 
 **`Experimental`**
 
@@ -399,7 +399,7 @@ the created connection
 
 > **serialize**(`serializationObject?`, `_valueSerializeFunction?`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
 
 **`Experimental`**
 

@@ -6,7 +6,7 @@
 
 # Enumeration: HandConstraintOrientation
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts#L39)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts#L39)
 
 Orientations for the hand zones and for the attached node
 
@@ -16,7 +16,7 @@ Orientations for the hand zones and for the attached node
 
 > **HAND\_ROTATION**: `1`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts#L47)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts#L47)
 
 Orientation is determined by the rotation of the palm
 
@@ -26,6 +26,6 @@ Orientation is determined by the rotation of the palm
 
 > **LOOK\_AT\_CAMERA**: `0`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts#L43)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/handConstraintBehavior.ts#L43)
 
 Orientation is towards the camera

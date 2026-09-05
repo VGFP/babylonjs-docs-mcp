@@ -6,7 +6,7 @@
 
 # Class: Utf8XmlWriterToBytes
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L9)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L9)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:9](h
 
 > **new Utf8XmlWriterToBytes**(`_sink`, `_opts?`): `Utf8XmlWriterToBytes`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L16)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L16)
 
 #### Parameters
 
@@ -42,7 +42,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:16](
 
 > **count**: `number` = `0`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L11)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L11)
 
 #### Implementation of
 
@@ -54,7 +54,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:11](
 
 > **clear**(): `void`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L73)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L73)
 
 #### Returns
 
@@ -70,7 +70,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:73](
 
 > **finish**(): `void`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L66)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L66)
 
 #### Returns
 
@@ -82,7 +82,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:66](
 
 > **flush**(): `this`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L49)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L49)
 
 #### Returns
 
@@ -94,7 +94,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:49](
 
 > **write**(...`data`): [`IXmlWriter`](../interfaces/IXmlWriter.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L25)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.bytes.ts#L25)
 
 #### Parameters
 

@@ -6,7 +6,7 @@
 
 # Class: OutlineRenderer
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L23)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L23)
 
 This class is responsible to draw the outline/overlay of meshes.
 It should not be used directly but through the available method on mesh.
@@ -21,7 +21,7 @@ It should not be used directly but through the available method on mesh.
 
 > **new OutlineRenderer**(`scene`): `OutlineRenderer`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L71)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:71](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L71)
 
 Instantiates a new outline renderer. (There could be only one per scene).
 
@@ -43,7 +43,7 @@ Defines the scene it belongs to
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L51)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L51)
 
 Gets or sets a boolean indicating if the renderer is enabled
 
@@ -53,7 +53,7 @@ Gets or sets a boolean indicating if the renderer is enabled
 
 > **name**: `string` = `SceneComponentConstants.NAME_OUTLINERENDERER`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L31)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L31)
 
 The name of the component. Each component must have a unique name.
 
@@ -67,7 +67,7 @@ The name of the component. Each component must have a unique name.
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L36)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L36)
 
 The scene the component belongs to.
 
@@ -81,7 +81,7 @@ The scene the component belongs to.
 
 > **zOffset**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L41)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L41)
 
 Defines a zOffset default Factor to prevent zFighting between the overlay and the mesh.
 
@@ -91,7 +91,7 @@ Defines a zOffset default Factor to prevent zFighting between the overlay and th
 
 > **zOffsetUnits**: `number` = `4`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L46)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L46)
 
 Defines a zOffset default Unit to prevent zFighting between the overlay and the mesh.
 
@@ -103,7 +103,7 @@ Defines a zOffset default Unit to prevent zFighting between the overlay and the 
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L63)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L63)
 
 Gets the shader language used in the Outline renderer.
 
@@ -117,7 +117,7 @@ Gets the shader language used in the Outline renderer.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L105)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L105)
 
 Disposes the component and the associated resources.
 
@@ -135,7 +135,7 @@ Disposes the component and the associated resources.
 
 > **isReady**(`subMesh`, `useInstances`, `renderPassId?`): `boolean`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L207)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:208](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L208)
 
 Returns whether or not the outline renderer is ready for a given submesh.
 All the dependencies e.g. submeshes, texture, effect... mus be ready
@@ -172,7 +172,7 @@ true if ready otherwise false
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L98)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L98)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -191,7 +191,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L89)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L89)
 
 Register the component to one instance of a scene.
 
@@ -209,7 +209,7 @@ Register the component to one instance of a scene.
 
 > **render**(`subMesh`, `batch`, `useOverlay?`, `renderPassId?`): `void`
 
-Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L118)
+Defined in: [packages/dev/core/src/Rendering/outlineRenderer.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/outlineRenderer.pure.ts#L118)
 
 Renders the outline in the canvas.
 

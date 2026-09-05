@@ -8,7 +8,7 @@
 
 > **AnimationGroupClipKeys**(`sourceAnimationGroup`, `fromKey`, `toKey`, `name?`, `dontCloneAnimations?`): [`AnimationGroup`](../classes/AnimationGroup.md)
 
-Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:1206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animationGroup.pure.ts#L1206)
+Defined in: [packages/dev/core/src/Animations/animationGroup.pure.ts:1206](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animationGroup.pure.ts#L1206)
 
 Creates a new animation, keeping only the keys that are inside a given key range
 

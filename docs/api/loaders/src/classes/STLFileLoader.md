@@ -6,7 +6,7 @@
 
 # Class: STLFileLoader
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L16)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L16)
 
 STL file type loader.
 This is a babylon scene loader plugin.
@@ -31,7 +31,7 @@ This is a babylon scene loader plugin.
 
 > `readonly` **extensions**: `object` = `STLFileLoaderMetadata.extensions`
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L37)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L37)
 
 Defines the extensions the stl loader is able to load.
 force data to come in as an ArrayBuffer
@@ -55,7 +55,7 @@ we'll convert to string if it looks like it's an ASCII .stl
 
 > `readonly` **name**: `"stl"` = `STLFileLoaderMetadata.name`
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L30)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L30)
 
 Defines the name of the plugin.
 
@@ -69,7 +69,7 @@ Defines the name of the plugin.
 
 > `static` **DO\_NOT\_ALTER\_FILE\_COORDINATES**: `boolean` = `false`
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L44)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L44)
 
 Defines if Y and Z axes are swapped or not when loading an STL file.
 The default is false to maintain backward compatibility. When set to
@@ -81,7 +81,7 @@ true, coordinates from the STL file are used without change.
 
 > **importMesh**(`meshesNames`, `scene`, `data`, `rootUrl`, `meshes`): `boolean`
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L55)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L55)
 
 Import meshes into a scene.
 
@@ -133,7 +133,7 @@ True if successful or false otherwise
 
 > **load**(`scene`, `data`, `rootUrl`): `boolean`
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L118)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L118)
 
 Load into a scene.
 
@@ -173,7 +173,7 @@ true if successful or false otherwise
 
 > **loadAssetContainer**(`scene`, `data`, `rootUrl`): [`AssetContainer`](../../../core/src/classes/AssetContainer.md)
 
-Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L130)
+Defined in: [packages/dev/loaders/src/STL/stlFileLoader.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/STL/stlFileLoader.pure.ts#L130)
 
 Load into an asset container.
 

@@ -6,7 +6,7 @@
 
 # Interface: IBasePhysicsCollisionEvent
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L141)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L141)
 
 Base collision object
 
@@ -20,7 +20,7 @@ Base collision object
 
 > **collidedAgainst**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L149)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L149)
 
 2nd physics body that collided
 
@@ -30,7 +30,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:149](https
 
 > **collidedAgainstIndex**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L157)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L157)
 
 index in instances array for the collidedAgainst
 
@@ -40,7 +40,7 @@ index in instances array for the collidedAgainst
 
 > **collider**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L145)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L145)
 
 1st physics body that collided
 
@@ -50,7 +50,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:145](https
 
 > **colliderIndex**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L153)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L153)
 
 index in instances array for the collider
 
@@ -60,6 +60,6 @@ index in instances array for the collider
 
 > **type**: [`PhysicsEventType`](../enumerations/PhysicsEventType.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L161)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L161)
 
 Event type

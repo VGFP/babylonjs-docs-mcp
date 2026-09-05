@@ -6,7 +6,7 @@
 
 # Interface: I3mfTriangle
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L140)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L140)
 
 3MF triangle.
 v1/v2/v3 are indices into the vertices list (<vertices> \<vertex .../\>...</vertices>).
@@ -21,7 +21,7 @@ Property assignment:
 
 > `optional` **p1?**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L152)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L152)
 
 Optional per-vertex property indices for v1/v2/v3.
 These are indices into the property group's entry list (the group referenced by pid).
@@ -32,7 +32,7 @@ These are indices into the property group's entry list (the group referenced by 
 
 > `optional` **p2?**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L154)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:154](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L154)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:154](
 
 > `optional` **p3?**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L156)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L156)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:156](
 
 > `optional` **pid?**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L162)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:162](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L162)
 
 Property group id for this triangle.
 If present, it overrides the object-level pid for this specific triangle.
@@ -59,7 +59,7 @@ If present, it overrides the object-level pid for this specific triangle.
 
 > **v1**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L142)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L142)
 
 Index of first vertex in the vertices array.
 
@@ -69,7 +69,7 @@ Index of first vertex in the vertices array.
 
 > **v2**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L144)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:144](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L144)
 
 Index of second vertex in the vertices array.
 
@@ -79,6 +79,6 @@ Index of second vertex in the vertices array.
 
 > **v3**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L146)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L146)
 
 Index of third vertex in the vertices array.

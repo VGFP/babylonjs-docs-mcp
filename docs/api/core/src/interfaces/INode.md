@@ -6,7 +6,7 @@
 
 # Interface: INode
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L68)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L68)
 
 Regular node of a decision tree
 
@@ -19,7 +19,7 @@ If all checks are successful, the "yes" node will be selected, else the "no" nod
 
 > `optional` **alpha?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L88)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L88)
 
 Checks if alpha is present in the texture
 
@@ -29,7 +29,7 @@ Checks if alpha is present in the texture
 
 > `optional` **cap?**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L78)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L78)
 
 The name of the capability to check. Can be one of the following:
      astc
@@ -45,7 +45,7 @@ The name of the capability to check. Can be one of the following:
 
 > `optional` **needsPowerOfTwo?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L98)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L98)
 
 Checks that the texture is a power of two
 
@@ -55,7 +55,7 @@ Checks that the texture is a power of two
 
 > `optional` **no?**: [`ILeaf`](ILeaf.md) \| `INode`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:108](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L108)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:108](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L108)
 
 The node to select if at least one check is not successful
 
@@ -65,7 +65,7 @@ The node to select if at least one check is not successful
 
 > `optional` **option?**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L83)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L83)
 
 The name of the option to check from the options object passed to the KTX2 decode function. [IKTX2DecoderOptions](IKTX2DecoderOptions.md)
 
@@ -75,7 +75,7 @@ The name of the option to check from the options object passed to the KTX2 decod
 
 > `optional` **transcodeFormat?**: [`TranscodeTarget`](../enumerations/TranscodeTarget.md) \| [`TranscodeTarget`](../enumerations/TranscodeTarget.md)[]
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L93)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L93)
 
 Checks the currently selected transcoding format.
 
@@ -85,6 +85,6 @@ Checks the currently selected transcoding format.
 
 > `optional` **yes?**: [`ILeaf`](ILeaf.md) \| `INode`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L103)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L103)
 
 The node to select if all checks are successful

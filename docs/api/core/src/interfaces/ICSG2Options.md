@@ -6,7 +6,7 @@
 
 # Interface: ICSG2Options
 
-Defined in: [packages/dev/core/src/Meshes/csg2.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/csg2.ts#L39)
+Defined in: [packages/dev/core/src/Meshes/csg2.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/csg2.ts#L39)
 
 Interface to customize the Manifold library import
 
@@ -16,7 +16,7 @@ Interface to customize the Manifold library import
 
 > **manifoldInstance**: `any`
 
-Defined in: [packages/dev/core/src/Meshes/csg2.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/csg2.ts#L47)
+Defined in: [packages/dev/core/src/Meshes/csg2.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/csg2.ts#L47)
 
 Custom manifold instance
 
@@ -26,7 +26,7 @@ Custom manifold instance
 
 > **manifoldMeshInstance**: `any`
 
-Defined in: [packages/dev/core/src/Meshes/csg2.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/csg2.ts#L51)
+Defined in: [packages/dev/core/src/Meshes/csg2.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/csg2.ts#L51)
 
 Custom manifold mesh instance
 
@@ -36,6 +36,6 @@ Custom manifold mesh instance
 
 > `optional` **manifoldUrl?**: `string`
 
-Defined in: [packages/dev/core/src/Meshes/csg2.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/csg2.ts#L43)
+Defined in: [packages/dev/core/src/Meshes/csg2.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/csg2.ts#L43)
 
 Custom manifold URL

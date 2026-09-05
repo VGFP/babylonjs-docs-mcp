@@ -6,7 +6,7 @@
 
 # Class: FrameGraphExecuteTask
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L7)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:7](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L7)
 
 Task used to execute a custom function.
 
@@ -20,7 +20,7 @@ Task used to execute a custom function.
 
 > **new FrameGraphExecuteTask**(`name`, `frameGraph`): `FrameGraphExecuteTask`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L32)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L32)
 
 Creates a new execute task.
 
@@ -52,7 +52,7 @@ The frame graph the task belongs to.
 
 > `optional` **customIsReady?**: () => `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L21)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L21)
 
 Custom readiness check (optional).
 
@@ -66,7 +66,7 @@ Custom readiness check (optional).
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -80,7 +80,7 @@ The (texture) dependencies of the task (optional).
 
 > **func**: (`context`) => `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L11)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L11)
 
 The function to execute.
 
@@ -100,7 +100,7 @@ The function to execute.
 
 > `optional` **funcDisabled?**: (`context`) => `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L16)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L16)
 
 The function to execute when the task is disabled (optional).
 
@@ -120,7 +120,7 @@ The function to execute when the task is disabled (optional).
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -134,7 +134,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -148,7 +148,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -164,7 +164,7 @@ An observable that is triggered after the textures have been allocated.
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -176,7 +176,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -200,7 +200,7 @@ Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://gith
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L30)
 
 The name of the task.
 
@@ -212,7 +212,7 @@ The name of the task.
 
 > **set** **name**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L34)
 
 ##### Parameters
 
@@ -236,7 +236,7 @@ Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:34](https://gith
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -256,7 +256,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -274,7 +274,7 @@ Gets the disabled passes of the task.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L120)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L120)
 
 Disposes of the task.
 
@@ -292,7 +292,7 @@ Disposes of the task.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L36)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L36)
 
 Gets the current class name
 
@@ -312,7 +312,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -333,7 +333,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L23)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L23)
 
 Checks if the task is ready to be executed.
 
@@ -353,7 +353,7 @@ True if the task is ready to be executed, else false.
 
 > **record**(): [`FrameGraphPass`](FrameGraphPass.md)\<[`FrameGraphContext`](FrameGraphContext.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L40)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Misc/executeTask.ts#L40)
 
 Records the task in the frame graph. Use this function to add content (render passes, ...) to the task.
 

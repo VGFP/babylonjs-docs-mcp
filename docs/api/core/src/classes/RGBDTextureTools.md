@@ -6,7 +6,7 @@
 
 # Class: RGBDTextureTools
 
-Defined in: [packages/dev/core/src/Misc/rgbdTextureTools.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/rgbdTextureTools.ts#L14)
+Defined in: [packages/dev/core/src/Misc/rgbdTextureTools.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/rgbdTextureTools.ts#L14)
 
 Class used to host RGBD texture specific utilities
 
@@ -26,7 +26,7 @@ Class used to host RGBD texture specific utilities
 
 > `static` **EncodeTextureToRGBD**(`internalTexture`, `scene`, `outputTextureType?`): `Promise`\<[`InternalTexture`](InternalTexture.md)\>
 
-Defined in: [packages/dev/core/src/Misc/rgbdTextureTools.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/rgbdTextureTools.ts#L137)
+Defined in: [packages/dev/core/src/Misc/rgbdTextureTools.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/rgbdTextureTools.ts#L137)
 
 Encode the texture to RGBD if possible.
 
@@ -62,7 +62,7 @@ a promise with the internalTexture having its texture replaced by the result of 
 
 > `static` **ExpandRGBDTexture**(`texture`): `void`
 
-Defined in: [packages/dev/core/src/Misc/rgbdTextureTools.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/rgbdTextureTools.ts#L19)
+Defined in: [packages/dev/core/src/Misc/rgbdTextureTools.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/rgbdTextureTools.ts#L19)
 
 Expand the RGBD Texture from RGBD to Half Float if possible.
 

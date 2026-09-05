@@ -6,7 +6,7 @@
 
 # Interface: WebGPUEngineOptions
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L138)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L138)
 
 Options to create the WebGPU engine
 
@@ -20,7 +20,7 @@ Options to create the WebGPU engine
 
 > `optional` **adaptToDeviceRatio?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L161)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L161)
 
 Defines whether to adapt to the device's viewport characteristics (default: false)
 
@@ -34,7 +34,7 @@ Defines whether to adapt to the device's viewport characteristics (default: fals
 
 > `optional` **antialias?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L166)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L166)
 
 Defines whether MSAA is enabled on the canvas.
 
@@ -48,7 +48,7 @@ Defines whether MSAA is enabled on the canvas.
 
 > `optional` **audioEngine?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L116)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L116)
 
 Defines if webaudio should be initialized as well
 
@@ -66,7 +66,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/audio/playingSoundsMusic
 
 > `optional` **audioEngineOptions?**: `IAudioEngineOptions`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L120)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L120)
 
 Specifies options for the audio engine
 
@@ -80,7 +80,7 @@ Specifies options for the audio engine
 
 > `optional` **canvasTabIndex?**: `number`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L189)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L189)
 
 Defines the tab index to set on the rendering canvas (default: 1).
 Any value >= 0 makes the canvas focusable so it can capture keyboard events and places it in the
@@ -97,7 +97,7 @@ Use -1 to keep the canvas focusable programmatically (via focus()) while excludi
 
 > `optional` **deterministicLockstep?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L126)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L126)
 
 Defines if animations should run using a deterministic lock step
 
@@ -115,7 +115,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/animation/advanced_animation
 
 > `optional` **deviceDescriptor?**: `GPUDeviceDescriptor`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L170)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L171)
 
 Defines the device descriptor used to create a device once we have retrieved an appropriate adapter
 
@@ -125,7 +125,7 @@ Defines the device descriptor used to create a device once we have retrieved an 
 
 > `optional` **doNotHandleContextLost?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L135)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L135)
 
 Defines that engine should ignore context lost events
 If this event happens when this parameter is true, you will have to reload the page to restore rendering
@@ -140,7 +140,7 @@ If this event happens when this parameter is true, you will have to reload the p
 
 > `optional` **doNotHandleTouchAction?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L140)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L140)
 
 Defines that engine should ignore modifying touch action attribute and style
 If not handle, you might need to set it up on your side for expected touch devices behavior.
@@ -155,7 +155,7 @@ If not handle, you might need to set it up on your side for expected touch devic
 
 > `optional` **enableAllFeatures?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L176)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L177)
 
 When requesting the device, enable all the features supported by the adapter. Default: false
 Note that this setting is ignored if you explicitely set deviceDescriptor.requiredFeatures
@@ -166,7 +166,7 @@ Note that this setting is ignored if you explicitely set deviceDescriptor.requir
 
 > `optional` **enableGPUDebugMarkers?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L192)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L193)
 
 Defines whether we should generate debug markers in the gpu command lists (can be seen with PIX for eg). Default: false
 
@@ -176,7 +176,7 @@ Defines whether we should generate debug markers in the gpu command lists (can b
 
 > `optional` **featureLevel?**: `string`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L142)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L142)
 
 The featureLevel property of the GPURequestAdapterOptions interface
 
@@ -190,7 +190,7 @@ The featureLevel property of the GPURequestAdapterOptions interface
 
 > `optional` **forceFallbackAdapter?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L155)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L155)
 
 When set to true, indicates that only a fallback adapter may be returned when requesting an adapter.
 If the user agent does not support a fallback adapter, will cause requestAdapter() to resolve to null.
@@ -206,7 +206,7 @@ Default: false
 
 > `optional` **glslangOptions?**: [`GlslangOptions`](GlslangOptions.md)
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L197)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:198](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L198)
 
 Options to load the associated Glslang library
 
@@ -216,7 +216,7 @@ Options to load the associated Glslang library
 
 > `optional` **limitDeviceRatio?**: `number`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L111)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L111)
 
 Defines if the engine should no exceed a specified device ratio
 
@@ -234,7 +234,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio
 
 > `optional` **lockstepMaxSteps?**: `number`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L128)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:128](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L128)
 
 Defines the maximum steps to use with deterministic lock step mode
 
@@ -248,7 +248,7 @@ Defines the maximum steps to use with deterministic lock step mode
 
 > `optional` **powerPreference?**: `GPUPowerPreference`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L148)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:148](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L148)
 
 Defines the category of adapter to use.
 Is it the discrete or integrated device.
@@ -263,7 +263,7 @@ Is it the discrete or integrated device.
 
 > `optional` **premultipliedAlpha?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L176)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:176](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L176)
 
 Defines whether the canvas should be created in "premultiplied" mode (if false, the canvas is created in the "opaque" mode) (true by default)
 
@@ -277,7 +277,7 @@ Defines whether the canvas should be created in "premultiplied" mode (if false, 
 
 > `optional` **setMaximumLimits?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:182](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L182)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L183)
 
 When requesting the device, set the required limits to the maximum possible values (the ones from adapter.limits). Default: false
 Note that this setting is ignored if you explicitely set deviceDescriptor.requiredLimits
@@ -288,7 +288,7 @@ Note that this setting is ignored if you explicitely set deviceDescriptor.requir
 
 > `optional` **stencil?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L171)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L171)
 
 Defines whether the stencil buffer should be enabled.
 
@@ -302,7 +302,7 @@ Defines whether the stencil buffer should be enabled.
 
 > `optional` **swapChainFormat?**: `GPUTextureFormat`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L187)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:188](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L188)
 
 Defines the requested Swap Chain Format.
 
@@ -312,7 +312,7 @@ Defines the requested Swap Chain Format.
 
 > `optional` **timeStep?**: `number`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L130)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L130)
 
 Defines the seconds between each deterministic lock step
 
@@ -326,7 +326,7 @@ Defines the seconds between each deterministic lock step
 
 > `optional` **twgslOptions?**: [`TwgslOptions`](TwgslOptions.md)
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L202)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:203](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L203)
 
 Options to load the associated Twgsl library
 
@@ -336,7 +336,7 @@ Options to load the associated Twgsl library
 
 > `optional` **useExactSrgbConversions?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L181)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L181)
 
 True if the more expensive but exact conversions should be used for transforming colors to and from linear space within shaders.
 Otherwise, the default is to use a cheaper approximation.
@@ -351,7 +351,7 @@ Otherwise, the default is to use a cheaper approximation.
 
 > `optional` **useHighPrecisionMatrix?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L146)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L146)
 
 Make the matrix computations to be performed in 64 bits instead of 32 bits. False by default.
 Note that setting useLargeWorldRendering will also set high precision matrices
@@ -366,7 +366,7 @@ Note that setting useLargeWorldRendering will also set high precision matrices
 
 > `readonly` `optional` **useLargeWorldRendering?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/abstractEngine.pure.ts#L156)
+Defined in: [packages/dev/core/src/Engines/abstractEngine.pure.ts:156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/abstractEngine.pure.ts#L156)
 
 LargeWorldRendering helps avoid floating point imprecision of rendering large worlds by
 1. Forcing highPrecisionMatrices (matrix computations in 64 bits instead of 32)
@@ -385,7 +385,9 @@ If you'd like to have only specific scenes using the offset logic, you can set t
 
 > `optional` **xrCompatible?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L165)
+Defined in: [packages/dev/core/src/Engines/webgpuEngine.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/webgpuEngine.pure.ts#L166)
+
+**`Experimental`**
 
 When set to true, requests a GPU adapter that is compatible with the user agent's XR device,
 as required to create a WebGPU-compatible WebXR session (see the WebXR/WebGPU binding spec).
@@ -393,6 +395,7 @@ This mirrors the WebGL `xrCompatible` context attribute and must be set when the
 created (adapter-request time): WebGPU has no post-hoc "make XR compatible" step, so it cannot
 be toggled on later. Leave unset/false for the default non-XR path.
 Default: false
+ WebGPU-XR support is experimental and may change.
 
 #### Overrides
 

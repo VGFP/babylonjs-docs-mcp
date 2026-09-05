@@ -6,7 +6,7 @@
 
 # Class: MultiLinePoint
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L16)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L16)
 
 Class used to store a point for a MultiLine object.
 The point can be pure 2D coordinates, a mesh or a control
@@ -17,7 +17,7 @@ The point can be pure 2D coordinates, a mesh or a control
 
 > **new MultiLinePoint**(`multiLine`): `MultiLinePoint`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L34)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L34)
 
 Creates a new MultiLinePoint
 
@@ -41,7 +41,7 @@ defines the source MultiLine object
 
 > **get** **control**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Control`](Control.md)\>
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L74)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L74)
 
 Gets or sets the control associated with this point
 
@@ -53,7 +53,7 @@ Gets or sets the control associated with this point
 
 > **set** **control**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L78)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L78)
 
 ##### Parameters
 
@@ -73,7 +73,7 @@ Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:78](https://github.com/Ba
 
 > **get** **mesh**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`AbstractMesh`](../../../core/src/classes/AbstractMesh.md)\>
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L99)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L99)
 
 Gets or sets the mesh associated with this point
 
@@ -85,7 +85,7 @@ Gets or sets the mesh associated with this point
 
 > **set** **mesh**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L103)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L103)
 
 ##### Parameters
 
@@ -105,7 +105,7 @@ Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:103](https://github.com/B
 
 > **get** **x**(): `string` \| `number`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L44)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L44)
 
 Gets or sets x coordinate
 
@@ -117,7 +117,7 @@ Gets or sets x coordinate
 
 > **set** **x**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L48)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L48)
 
 ##### Parameters
 
@@ -137,7 +137,7 @@ Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:48](https://github.com/Ba
 
 > **get** **y**(): `string` \| `number`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L59)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L59)
 
 Gets or sets y coordinate
 
@@ -149,7 +149,7 @@ Gets or sets y coordinate
 
 > **set** **y**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L63)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L63)
 
 ##### Parameters
 
@@ -167,7 +167,7 @@ Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:63](https://github.com/Ba
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L153)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L153)
 
 Release associated resources
 
@@ -181,7 +181,7 @@ Release associated resources
 
 > **resetLinks**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L122)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:122](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L122)
 
 Resets links
 
@@ -195,7 +195,7 @@ Resets links
 
 > **translate**(): [`Vector3`](../../../core/src/classes/Vector3.md)
 
-Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/multiLinePoint.ts#L131)
+Defined in: [packages/dev/gui/src/2D/multiLinePoint.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/multiLinePoint.ts#L131)
 
 Gets a translation vector with Z component
 

@@ -6,7 +6,7 @@
 
 # Class: ClipboardEventTypes
 
-Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/clipboardEvents.ts#L4)
+Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/clipboardEvents.ts#L4)
 
 Gather the list of clipboard event types as constants.
 
@@ -26,7 +26,7 @@ Gather the list of clipboard event types as constants.
 
 > `readonly` `static` **COPY**: `1` = `0x01`
 
-Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/clipboardEvents.ts#L8)
+Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/clipboardEvents.ts#L8)
 
 The clipboard event is fired when a copy command is active (pressed).
 
@@ -36,7 +36,7 @@ The clipboard event is fired when a copy command is active (pressed).
 
 > `readonly` `static` **CUT**: `2` = `0x02`
 
-Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/clipboardEvents.ts#L12)
+Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/clipboardEvents.ts#L12)
 
 The clipboard event is fired when a cut command is active (pressed).
 
@@ -46,6 +46,6 @@ The clipboard event is fired when a cut command is active (pressed).
 
 > `readonly` `static` **PASTE**: `3` = `0x03`
 
-Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/clipboardEvents.ts#L17)
+Defined in: [packages/dev/core/src/Events/clipboardEvents.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/clipboardEvents.ts#L17)
 
 The clipboard event is fired when a paste command is active (pressed).

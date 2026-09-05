@@ -6,7 +6,7 @@
 
 # Interface: IWebXRHandTrackingOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L39)
 
 Configuration interface for the hand tracking feature
 
@@ -16,7 +16,7 @@ Configuration interface for the hand tracking feature
 
 > `optional` **handMeshes?**: `object`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L89)
+Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L89)
 
 Configuration object for the hand meshes.
 
@@ -101,7 +101,7 @@ Are the meshes prepared for a left-handed system. Default hand meshes are right-
 
 > `optional` **jointMeshes?**: `object`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L48)
+Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L48)
 
 Configuration object for the joint meshes.
 
@@ -193,6 +193,6 @@ It should have the general size of a single unit, as the instances will be scale
 
 > **xrInput**: [`WebXRInput`](../classes/WebXRInput.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRHandTracking.pure.ts#L43)
 
 The xrInput that will be used as source for new hands

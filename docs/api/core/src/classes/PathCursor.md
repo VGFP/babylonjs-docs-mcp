@@ -6,7 +6,7 @@
 
 # Class: PathCursor
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L7)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:7](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L7)
 
 A cursor which tracks a point on a path
 
@@ -16,7 +16,7 @@ A cursor which tracks a point on a path
 
 > **new PathCursor**(`_path`): `PathCursor`
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L27)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L27)
 
 Initializes the path cursor
 
@@ -38,7 +38,7 @@ The path to track
 
 > **animations**: `Animation`[]
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L21)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L21)
 
 The animation array of the path cursor
 
@@ -48,7 +48,7 @@ The animation array of the path cursor
 
 > **value**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L16)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L16)
 
 The value of the path cursor
 
@@ -58,7 +58,7 @@ The value of the path cursor
 
 > **getPoint**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L33)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L33)
 
 Gets the cursor point on the path
 
@@ -74,7 +74,7 @@ A point on the path cursor at the cursor location
 
 > **move**(`step`): `PathCursor`
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L66)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L66)
 
 Moves the cursor by the step amount
 If the step amount is greater than one, an exception is thrown
@@ -99,7 +99,7 @@ This path cursor
 
 > **moveAhead**(`step?`): `PathCursor`
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L43)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L43)
 
 Moves the cursor ahead by the step amount
 
@@ -123,7 +123,7 @@ This path cursor
 
 > **moveBack**(`step?`): `PathCursor`
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L54)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L54)
 
 Moves the cursor behind by the step amount
 
@@ -147,7 +147,7 @@ This path cursor
 
 > **onchange**(`f`): `PathCursor`
 
-Defined in: [packages/dev/core/src/Animations/pathCursor.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/pathCursor.ts#L110)
+Defined in: [packages/dev/core/src/Animations/pathCursor.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/pathCursor.ts#L110)
 
 Executes a function on change
 

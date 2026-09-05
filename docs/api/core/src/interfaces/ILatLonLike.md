@@ -6,7 +6,7 @@
 
 # Interface: ILatLonLike
 
-Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:2](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L2)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:2](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.geospatial.ts#L2)
 
 Latitude and longitude in radians.
 
@@ -20,7 +20,7 @@ Latitude and longitude in radians.
 
 > **lat**: `number`
 
-Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L4)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.geospatial.ts#L4)
 
 Latitude in radians.
 
@@ -30,6 +30,6 @@ Latitude in radians.
 
 > **lon**: `number`
 
-Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.geospatial.ts#L6)
+Defined in: [packages/dev/core/src/Maths/math.geospatial.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.geospatial.ts#L6)
 
 Longitude in radians.

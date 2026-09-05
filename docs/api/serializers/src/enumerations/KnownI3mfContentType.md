@@ -6,7 +6,7 @@
 
 # Enumeration: KnownI3mfContentType
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L6)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L6)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:6
 
 > **BeamLattice**: `"application/vnd.ms-package.3dmanufacturing-beamlattice+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L20)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L20)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:2
 
 > **Colors**: `"application/vnd.ms-package.3dmanufacturing-colors+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L15)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L15)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Jpeg**: `"image/jpeg"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L25)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L25)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:2
 
 > **Materials**: `"application/vnd.ms-package.3dmanufacturing-material+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L14)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L14)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Model**: `"application/vnd.ms-package.3dmanufacturing-3dmodel+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L11)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L11)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Png**: `"image/png"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L24)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L24)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:2
 
 > **Production**: `"application/vnd.ms-package.3dmanufacturing-production+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L18)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L18)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Relationships**: `"application/vnd.openxmlformats-package.relationships+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L8)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L8)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:8
 
 > **SecureContent**: `"application/vnd.ms-package.3dmanufacturing-securecontent+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L21)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L21)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:2
 
 > **Slice**: `"application/vnd.ms-package.3dmanufacturing-slice+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L19)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L19)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Texture**: `"application/vnd.ms-package.3dmanufacturing-texture+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L16)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L16)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Texture2D**: `"application/vnd.ms-package.3dmanufacturing-texture2d+xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L17)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L17)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:1
 
 > **Tiff**: `"image/tiff"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L26)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L26)
 
 ***
 
@@ -118,4 +118,4 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:2
 
 > **Xml**: `"application/xml"`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L27)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.opc.interfaces.ts#L27)

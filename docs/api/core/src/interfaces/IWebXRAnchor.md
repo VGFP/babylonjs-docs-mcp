@@ -6,7 +6,7 @@
 
 # Interface: IWebXRAnchor
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L35)
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L35)
 
 A babylon container for an XR Anchor
 
@@ -16,7 +16,7 @@ A babylon container for an XR Anchor
 
 > `optional` **attachedNode?**: [`TransformNode`](../classes/TransformNode.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L52)
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L57)
 
 if defined, this object will be constantly updated by the anchor's position and rotation
 
@@ -26,9 +26,19 @@ if defined, this object will be constantly updated by the anchor's position and 
 
 > **id**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L39)
 
 A babylon-assigned ID for this anchor
+
+***
+
+### persistentHandle?
+
+> `optional` **persistentHandle?**: `string`
+
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L52)
+
+The persistent handle associated with this anchor, if one was requested or the anchor was restored from one
 
 ***
 
@@ -36,7 +46,7 @@ A babylon-assigned ID for this anchor
 
 > **transformationMatrix**: [`Matrix`](../classes/Matrix.md)
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L43)
 
 Transformation matrix to apply to an object attached to this anchor
 
@@ -46,7 +56,7 @@ Transformation matrix to apply to an object attached to this anchor
 
 > **xrAnchor**: `XRAnchor`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L47)
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L47)
 
 The native anchor object
 
@@ -56,7 +66,7 @@ The native anchor object
 
 > **remove**(): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L57)
+Defined in: [packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAnchorSystem.pure.ts#L62)
 
 Remove this anchor from the scene
 

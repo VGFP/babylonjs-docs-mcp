@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_ior
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L14)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L14)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_ior/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_io
 
 > **new KHR\_materials\_ior**(): `KHR_materials_ior`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L26)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L26)
 
 #### Returns
 
@@ -32,7 +32,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_io
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L19)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L19)
 
 Defines whether this extension is enabled
 
@@ -46,7 +46,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_materials_ior"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L16)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L16)
 
 Name of this extension
 
@@ -60,7 +60,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L22)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L22)
 
 Defines whether this extension is required
 
@@ -74,7 +74,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L29)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L29)
 
 Dispose
 
@@ -92,7 +92,7 @@ Dispose
 
 > `optional` **postExportMaterialAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<`IMaterial`\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L57)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L57)
 
 After exporting a material
 

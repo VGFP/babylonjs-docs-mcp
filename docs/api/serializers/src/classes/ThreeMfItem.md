@@ -6,7 +6,7 @@
 
 # Class: ThreeMfItem
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:469](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L469)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:469](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L469)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:469](https://git
 
 > **new ThreeMfItem**(`objectid`, `transform?`, `partnumber?`): `ThreeMfItem`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:493](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L493)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:493](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L493)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:493](https://git
 
 > `optional` **metadatagroup?**: [`I3mfMetadataGroup`](../interfaces/I3mfMetadataGroup.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:491](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L491)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:491](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L491)
 
 #### Implementation of
 
@@ -56,7 +56,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:491](https://git
 
 > **objectid**: `number`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:474](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L474)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:474](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L474)
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:474](https://git
 
 > `optional` **partnumber?**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:486](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L486)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:486](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L486)
 
 #### Implementation of
 
@@ -80,7 +80,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:486](https://git
 
 > `optional` **transform?**: [`Matrix3d`](Matrix3d.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:480](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L480)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:480](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L480)
 
 #### Implementation of
 

@@ -6,7 +6,7 @@
 
 # Class: GeometryBufferRendererSceneComponent
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L16)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L16)
 
 Defines the Geometry Buffer scene component responsible to manage a G-Buffer useful
 in several rendering techniques.
@@ -21,7 +21,7 @@ in several rendering techniques.
 
 > **new GeometryBufferRendererSceneComponent**(`scene`): `GeometryBufferRendererSceneComponent`
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L31)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L31)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"GeometryBufferRenderer"` = `SceneComponentConstants.NAME_GEOMETRYBUFFERRENDERER`
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L20)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L20)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L25)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L25)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L53)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L53)
 
 Disposes the component and the associated resources
 
@@ -89,7 +89,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L46)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L46)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -108,7 +108,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L38)
+Defined in: [packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Rendering/geometryBufferRendererSceneComponent.pure.ts#L38)
 
 Registers the component in a given scene
 

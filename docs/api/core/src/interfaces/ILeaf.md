@@ -6,7 +6,7 @@
 
 # Interface: ILeaf
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L45)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L45)
 
 Leaf node of a decision tree
 It defines the transcoding format to use to transcode the texture as well as the corresponding format to use at the engine level when creating the texture
@@ -17,7 +17,7 @@ It defines the transcoding format to use to transcode the texture as well as the
 
 > **engineFormat**: [`EngineFormat`](../enumerations/EngineFormat.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L54)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L54)
 
 The format to use when creating the texture at the engine level after it has been transcoded to transcodeFormat
 
@@ -27,7 +27,7 @@ The format to use when creating the texture at the engine level after it has bee
 
 > `optional` **roundToMultiple4?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L59)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L59)
 
 Whether the texture must be rounded to a multiple of 4 (should normally be the case for all compressed formats). Default: true
 
@@ -37,6 +37,6 @@ Whether the texture must be rounded to a multiple of 4 (should normally be the c
 
 > **transcodeFormat**: [`TranscodeTarget`](../enumerations/TranscodeTarget.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L49)
+Defined in: [packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/ktx2decoderTypes.ts#L49)
 
 The format to transcode to

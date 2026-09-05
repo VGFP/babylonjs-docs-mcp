@@ -6,7 +6,7 @@
 
 # Class: KHR\_texture\_basisu
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L14)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L14)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_texture_basisu/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basi
 
 > **new KHR\_texture\_basisu**(`exporter`): `KHR_texture_basisu`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L29)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L29)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basi
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L17)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L17)
 
 Defines whether this extension is enabled
 
@@ -52,7 +52,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_texture_basisu"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L15)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L15)
 
 The name of this extension
 
@@ -66,7 +66,7 @@ The name of this extension
 
 > **required**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L19)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L19)
 
 Gets a boolean indicating that this extension is required for the file to work
 
@@ -82,7 +82,7 @@ Gets a boolean indicating that this extension is required for the file to work
 
 > **get** **wasUsed**(): `boolean`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L23)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L23)
 
 Gets a boolean indicating that this extension was used
 
@@ -100,7 +100,7 @@ Gets a boolean indicating that this extension was used
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L33)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L33)
 
 Releases all held resources
 
@@ -118,7 +118,7 @@ Releases all held resources
 
 > **postExportTexture**(`_`, `textureInfo`): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L40)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_texture\_basisu.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_texture_basisu.pure.ts#L40)
 
 Called after a texture is exported to register the encoded image MIME type.
 

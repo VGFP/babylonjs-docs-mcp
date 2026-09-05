@@ -6,7 +6,7 @@
 
 # Interface: IBehaviorAware\<T\>
 
-Defined in: [packages/dev/core/src/Behaviors/behavior.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/behavior.ts#L33)
+Defined in: [packages/dev/core/src/Behaviors/behavior.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/behavior.ts#L33)
 
 Interface implemented by classes supporting behaviors
 
@@ -22,7 +22,7 @@ Interface implemented by classes supporting behaviors
 
 > **addBehavior**(`behavior`): `T`
 
-Defined in: [packages/dev/core/src/Behaviors/behavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/behavior.ts#L39)
+Defined in: [packages/dev/core/src/Behaviors/behavior.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/behavior.ts#L39)
 
 Attach a behavior
 
@@ -46,7 +46,7 @@ the current host
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](Behavior.md)\<`T`\>\>
 
-Defined in: [packages/dev/core/src/Behaviors/behavior.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/behavior.ts#L51)
+Defined in: [packages/dev/core/src/Behaviors/behavior.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/behavior.ts#L51)
 
 Gets a behavior using its name to search
 
@@ -70,7 +70,7 @@ the behavior or null if not found
 
 > **removeBehavior**(`behavior`): `T`
 
-Defined in: [packages/dev/core/src/Behaviors/behavior.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/behavior.ts#L45)
+Defined in: [packages/dev/core/src/Behaviors/behavior.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/behavior.ts#L45)
 
 Remove a behavior from the current object
 

@@ -6,7 +6,7 @@
 
 # Interface: IMouseEvent
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L107)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L107)
 
 Native friendly interface for MouseEvent Object
 
@@ -25,7 +25,7 @@ Native friendly interface for MouseEvent Object
 
 > **altKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L116)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L116)
 
 Status of Alt key being pressed
 
@@ -35,7 +35,7 @@ Status of Alt key being pressed
 
 > **button**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L121)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L121)
 
 Value of single mouse button pressed
 
@@ -45,7 +45,7 @@ Value of single mouse button pressed
 
 > **buttons**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L126)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:126](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L126)
 
 Value of all mouse buttons pressed
 
@@ -55,7 +55,7 @@ Value of all mouse buttons pressed
 
 > **clientX**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L131)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L131)
 
 Current X coordinate
 
@@ -65,7 +65,7 @@ Current X coordinate
 
 > **clientY**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L136)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:136](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L136)
 
 Current Y coordinate
 
@@ -75,7 +75,7 @@ Current Y coordinate
 
 > **ctrlKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L141)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L141)
 
 Status of Ctrl key being pressed
 
@@ -85,7 +85,7 @@ Status of Ctrl key being pressed
 
 > `optional` **currentTarget?**: `any`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L28)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L28)
 
 Current target for an event
 
@@ -99,7 +99,7 @@ Current target for an event
 
 > `optional` **detail?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L146)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L146)
 
 Provides current click count
 
@@ -109,7 +109,7 @@ Provides current click count
 
 > **inputIndex**: [`LeftClick`](../enumerations/PointerInput.md#leftclick) \| [`MiddleClick`](../enumerations/PointerInput.md#middleclick) \| [`RightClick`](../enumerations/PointerInput.md#rightclick) \| [`BrowserBack`](../enumerations/PointerInput.md#browserback) \| [`BrowserForward`](../enumerations/PointerInput.md#browserforward) \| [`MouseWheelX`](../enumerations/PointerInput.md#mousewheelx) \| [`MouseWheelY`](../enumerations/PointerInput.md#mousewheely) \| [`MouseWheelZ`](../enumerations/PointerInput.md#mousewheelz) \| [`Move`](../enumerations/PointerInput.md#move)
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L111)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L111)
 
 Subset of possible PointerInput values for events, excluding ones that CANNOT be in events organically
 
@@ -123,7 +123,7 @@ Subset of possible PointerInput values for events, excluding ones that CANNOT be
 
 > **metaKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L151)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L151)
 
 Status of Meta key (eg. Windows key) being pressed
 
@@ -133,7 +133,7 @@ Status of Meta key (eg. Windows key) being pressed
 
 > **movementX**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L156)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L156)
 
 Delta of movement on X axis
 
@@ -143,7 +143,7 @@ Delta of movement on X axis
 
 > **movementY**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L161)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L161)
 
 Delta of movement on Y axis
 
@@ -153,7 +153,7 @@ Delta of movement on Y axis
 
 > `optional` **mozMovementX?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L167)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:167](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L167)
 
 Delta of movement on X axis
 
@@ -167,7 +167,7 @@ Use 'movementX' instead
 
 > `optional` **mozMovementY?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L173)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L173)
 
 Delta of movement on Y axis
 
@@ -181,7 +181,7 @@ Use 'movementY' instead
 
 > `optional` **msMovementX?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L179)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:179](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L179)
 
 Delta of movement on X axis
 
@@ -195,7 +195,7 @@ Use 'movementX' instead
 
 > `optional` **msMovementY?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L185)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L185)
 
 Delta of movement on Y axis
 
@@ -209,7 +209,7 @@ Use 'movementY' instead
 
 > **offsetX**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L190)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:190](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L190)
 
 Current coordinate of X within container
 
@@ -219,7 +219,7 @@ Current coordinate of X within container
 
 > **offsetY**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L195)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:195](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L195)
 
 Current coordinate of Y within container
 
@@ -229,7 +229,7 @@ Current coordinate of Y within container
 
 > **pageX**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:200](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L200)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:200](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L200)
 
 Horizontal coordinate of event
 
@@ -239,7 +239,7 @@ Horizontal coordinate of event
 
 > **pageY**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L205)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:205](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L205)
 
 Vertical coordinate of event
 
@@ -249,7 +249,7 @@ Vertical coordinate of event
 
 > **preventDefault**: () => `void`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L49)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L49)
 
 Tells user agent what to do when not explicitly handled
 
@@ -267,7 +267,7 @@ Tells user agent what to do when not explicitly handled
 
 > **shiftKey**: `boolean`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L210)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:210](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L210)
 
 Status of Shift key being pressed
 
@@ -277,7 +277,7 @@ Status of Shift key being pressed
 
 > `optional` **srcElement?**: `any`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L34)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L34)
 
 Alias for target
 
@@ -295,7 +295,7 @@ Use target instead
 
 > **target**: `any`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L44)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L44)
 
 Reference to object where object was dispatched
 
@@ -309,7 +309,7 @@ Reference to object where object was dispatched
 
 > **type**: `string`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L39)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L39)
 
 Type of event
 
@@ -323,7 +323,7 @@ Type of event
 
 > `optional` **webkitMovementX?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L216)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L216)
 
 Delta of movement on X axis
 
@@ -337,7 +337,7 @@ Use 'movementX' instead
 
 > `optional` **webkitMovementY?**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L222)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:222](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L222)
 
 Delta of movement on Y axis
 
@@ -351,7 +351,7 @@ Use 'movementY' instead
 
 > **x**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:227](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L227)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:227](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L227)
 
 Alias of clientX
 
@@ -361,6 +361,6 @@ Alias of clientX
 
 > **y**: `number`
 
-Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:232](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Events/deviceInputEvents.ts#L232)
+Defined in: [packages/dev/core/src/Events/deviceInputEvents.ts:232](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Events/deviceInputEvents.ts#L232)
 
 Alias of clientY

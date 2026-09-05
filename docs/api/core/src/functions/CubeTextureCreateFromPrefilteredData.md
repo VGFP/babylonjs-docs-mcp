@@ -8,7 +8,7 @@
 
 > **CubeTextureCreateFromPrefilteredData**(`url`, `scene`, `forcedExtension?`, `createPolynomials?`): [`CubeTexture`](../classes/CubeTexture.md)
 
-Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:545](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L545)
+Defined in: [packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts:545](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/cubeTexture.pure.ts#L545)
 
 Creates and return a texture created from prefilterd data by tools like IBL Baker or Lys.
 

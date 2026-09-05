@@ -6,7 +6,7 @@
 
 # Class: Node
 
-Defined in: [packages/dev/core/src/node.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L46)
+Defined in: [packages/dev/core/src/node.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L46)
 
 Node is the basic class for all scene objects (Mesh, Light, Camera.)
 
@@ -27,7 +27,7 @@ Node is the basic class for all scene objects (Mesh, Light, Camera.)
 
 > **new Node**(`name`, `scene?`, `isPure?`): `Node`
 
-Defined in: [packages/dev/core/src/node.ts:396](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L396)
+Defined in: [packages/dev/core/src/node.ts:396](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L396)
 
 Creates a new Node
 
@@ -61,7 +61,7 @@ indicates this Node is just a Node, and not a derived class like Mesh or Camera
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/node.ts:175](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L175)
+Defined in: [packages/dev/core/src/node.ts:175](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L175)
 
 Gets a list of Animations associated with the node
 
@@ -71,7 +71,7 @@ Gets a list of Animations associated with the node
 
 > **id**: `string`
 
-Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L97)
+Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L97)
 
 Gets or sets the id of the node
 
@@ -81,7 +81,7 @@ Gets or sets the id of the node
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L129)
+Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L129)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -95,7 +95,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **metadata**: `any` = `null`
 
-Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L115)
+Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L115)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -105,7 +105,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/node.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L91)
+Defined in: [packages/dev/core/src/node.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L91)
 
 Gets or sets the name of the node
 
@@ -115,7 +115,7 @@ Gets or sets the name of the node
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L148)
+Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L148)
 
 Observable fired when an accessibility tag is changed
 
@@ -125,7 +125,7 @@ Observable fired when an accessibility tag is changed
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<`Node`\>
 
-Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L352)
+Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L352)
 
 An event triggered when the mesh is disposed
 
@@ -135,7 +135,7 @@ An event triggered when the mesh is disposed
 
 > **onReady**: [`Nullable`](../type-aliases/Nullable.md)\<(`node`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L181)
+Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L181)
 
 Callback raised when the node is ready to be used
 
@@ -145,7 +145,7 @@ Callback raised when the node is ready to be used
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L123)
+Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L123)
 
 For internal use only. Please do not use.
 
@@ -155,7 +155,7 @@ For internal use only. Please do not use.
 
 > **state**: `string` = `""`
 
-Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L109)
+Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L109)
 
 Gets or sets a string used to store user defined state for the node
 
@@ -165,7 +165,7 @@ Gets or sets a string used to store user defined state for the node
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L103)
+Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L103)
 
 Gets or sets the unique id of the node
 
@@ -177,7 +177,7 @@ Gets or sets the unique id of the node
 
 > **get** **accessibilityTag**(): [`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L139)
+Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L139)
 
 ##### Returns
 
@@ -187,7 +187,7 @@ Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Bab
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L134)
+Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L134)
 
 Gets or sets the accessibility tag to describe the node for accessibility purpose.
 
@@ -209,7 +209,7 @@ Gets or sets the accessibility tag to describe the node for accessibility purpos
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:327](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L327)
+Defined in: [packages/dev/core/src/node.ts:327](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L327)
 
 Gets or sets the animation properties override
 
@@ -221,7 +221,7 @@ Gets or sets the animation properties override
 
 > **set** **animationPropertiesOverride**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L334)
+Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L334)
 
 ##### Parameters
 
@@ -241,7 +241,7 @@ Defined in: [packages/dev/core/src/node.ts:334](https://github.com/BabylonJS/Bab
 
 > **get** **behaviors**(): [`Behavior`](../interfaces/Behavior.md)\<`Node`\>[]
 
-Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L485)
+Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L485)
 
 Gets the list of attached behaviors
 
@@ -261,7 +261,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L153)
+Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L153)
 
 Gets or sets a boolean used to define if the node must be serialized
 
@@ -273,7 +273,7 @@ Gets or sets a boolean used to define if the node must be serialized
 
 > **set** **doNotSerialize**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L165)
+Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L165)
 
 ##### Parameters
 
@@ -293,7 +293,7 @@ Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Bab
 
 > **get** **inheritVisibility**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L271)
+Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L271)
 
 If set to true, this node, when renderable, will only be visible if its parent(s) are also visible.
 
@@ -311,7 +311,7 @@ false
 
 > **set** **inheritVisibility**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L275)
+Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L275)
 
 ##### Parameters
 
@@ -331,7 +331,7 @@ Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Bab
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L283)
+Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L283)
 
 Gets or sets a boolean indicating whether this node is visible, either this node itself when it is renderable or its renderable child nodes when `inheritVisibility` is true.
 
@@ -349,7 +349,7 @@ true
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L291)
+Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L291)
 
 ##### Parameters
 
@@ -369,7 +369,7 @@ Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Bab
 
 > **get** **onClonedObservable**(): [`Observable`](Observable.md)\<`Node`\>
 
-Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L386)
+Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L386)
 
 An event triggered when the node is cloned
 
@@ -385,7 +385,7 @@ An event triggered when the node is cloned
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L358)
+Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L358)
 
 Sets a callback that will be raised when the node will be disposed
 
@@ -407,7 +407,7 @@ Sets a callback that will be raised when the node will be disposed
 
 > **get** **onEffectiveEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L379)
+Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L379)
 
 An event triggered when the effective enabled state of the node changes, i.e. whenever the value returned by [isEnabled](#isenabled) changes.
 Unlike [onEnabledStateChangedObservable](#onenabledstatechangedobservable), this fires for changes caused by an ancestor's enabled state as well as this node's own state.
@@ -425,7 +425,7 @@ The observable is created on first access, so no cost is incurred for nodes that
 
 > **get** **onEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L370)
+Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L370)
 
 An event triggered when the enabled state of the node changes.
 This only reflects changes to the node's own enabled flag (as set via [setEnabled](#setenabled)), not changes inherited from an ancestor.
@@ -443,7 +443,7 @@ Use [onEffectiveEnabledStateChangedObservable](#oneffectiveenabledstatechangedob
 
 > **get** **parent**(): [`Nullable`](../type-aliases/Nullable.md)\<`Node`\>
 
-Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L263)
+Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L263)
 
 ##### Returns
 
@@ -453,7 +453,7 @@ Defined in: [packages/dev/core/src/node.ts:263](https://github.com/BabylonJS/Bab
 
 > **set** **parent**(`parent`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:224](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L224)
+Defined in: [packages/dev/core/src/node.ts:224](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L224)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -479,7 +479,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **worldMatrixFromCache**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L529)
+Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L529)
 
 Returns directly the latest state of the mesh World matrix.
 A Matrix is returned.
@@ -494,7 +494,7 @@ A Matrix is returned.
 
 > **addBehavior**(`behavior`, `attachImmediately?`): `Node`
 
-Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L434)
+Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L434)
 
 Attach a behavior to the node
 
@@ -532,7 +532,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L956)
+Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L956)
 
 Will start the animation sequence
 
@@ -574,7 +574,7 @@ the object created for this animation. If range does not exist, it will return n
 
 > **clone**(`name`, `newParent`, `doNotCloneChildren?`): [`Nullable`](../type-aliases/Nullable.md)\<`Node`\>
 
-Defined in: [packages/dev/core/src/node.ts:915](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L915)
+Defined in: [packages/dev/core/src/node.ts:915](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L915)
 
 Clone the current node
 
@@ -610,7 +610,7 @@ the new transform node
 
 > **computeWorldMatrix**(`_force?`): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/node.ts:991](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L991)
+Defined in: [packages/dev/core/src/node.ts:991](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L991)
 
 Computes the world matrix of the node
 
@@ -634,7 +634,7 @@ the world matrix
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L873)
+Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L873)
 
 Creates an animation range for this node
 
@@ -668,7 +668,7 @@ defines the end key
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L890)
+Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L890)
 
 Delete a specific animation range
 
@@ -696,7 +696,7 @@ defines if animation frames from the range must be deleted as well
 
 > **dispose**(`doNotRecurse?`, `disposeMaterialAndTextures?`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:1003](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1003)
+Defined in: [packages/dev/core/src/node.ts:1003](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L1003)
 
 Releases resources associated with this node.
 
@@ -724,7 +724,7 @@ Set to true to also dispose referenced materials and textures (false by default)
 
 > **getAnimationByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L855)
+Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L855)
 
 Get an animation by name
 
@@ -748,7 +748,7 @@ null if not found else the requested animation
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L904)
+Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L904)
 
 Get an animation range by name
 
@@ -772,7 +772,7 @@ null if not found else the requested animation range
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L939)
+Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L939)
 
 Gets the list of all animation ranges defined on this node
 
@@ -788,7 +788,7 @@ an array
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](../interfaces/Behavior.md)\<`Node`\>\>
 
-Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L495)
+Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L495)
 
 Gets an attached behavior by name
 
@@ -836,7 +836,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getChildMeshes**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L781)
+Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L781)
 
 Get all child-meshes of this node
 
@@ -870,7 +870,7 @@ an array of AbstractMesh
 
 > **getChildMeshes**(`directDescendantsOnly?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L789)
+Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L789)
 
 Get all child-meshes of this node
 
@@ -916,7 +916,7 @@ defines if true only direct descendants of 'this' will be considered, if false d
 
 > **getChildren**\<`T`\>(`predicate?`, `directDescendantsOnly?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:811](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L811)
+Defined in: [packages/dev/core/src/node.ts:811](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L811)
 
 Get all direct children of this node
 
@@ -950,7 +950,7 @@ an array of Node
 
 > **getChildren**(`predicate?`, `directDescendantsOnly?`): `Node`[]
 
-Defined in: [packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L819)
+Defined in: [packages/dev/core/src/node.ts:819](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L819)
 
 Get all direct children of this node
 
@@ -980,7 +980,7 @@ an array of Node
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/node.ts:342](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L342)
+Defined in: [packages/dev/core/src/node.ts:342](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L342)
 
 Gets a string identifying the name of the class
 
@@ -1012,7 +1012,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDescendants**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L751)
+Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L751)
 
 Will return all nodes that have this node as ascendant
 
@@ -1046,7 +1046,7 @@ all children nodes of all types
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): `Node`[]
 
-Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L759)
+Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L759)
 
 Will return all nodes that have this node as ascendant
 
@@ -1076,7 +1076,7 @@ all children nodes of all types
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L420)
+Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L420)
 
 Gets the engine of the node
 
@@ -1092,7 +1092,7 @@ a Engine
 
 > **getHierarchyBoundingVectors**(`includeDescendants?`, `predicate?`): `object`
 
-Defined in: [packages/dev/core/src/node.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1058)
+Defined in: [packages/dev/core/src/node.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L1058)
 
 Return the minimum and maximum world vectors of the entire hierarchy under current node
 
@@ -1130,7 +1130,7 @@ the new bounding vectors
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L412)
+Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L412)
 
 Gets the scene of the node
 
@@ -1146,7 +1146,7 @@ a scene
 
 > **getWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/node.ts:509](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L509)
+Defined in: [packages/dev/core/src/node.ts:509](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L509)
 
 Returns the latest update of the World matrix
 
@@ -1162,7 +1162,7 @@ a Matrix
 
 > **isDescendantOf**(`ancestor`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L713)
+Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L713)
 
 Is this node a descendant of the given node?
 The function will iterate up the hierarchy until the ancestor was found or no more parents defined
@@ -1187,7 +1187,7 @@ a boolean indicating if this node is a descendant of the given node
 
 > **isDisposed**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L216)
+Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L216)
 
 Gets a boolean indicating if the node has been disposed
 
@@ -1203,7 +1203,7 @@ true if the node was disposed
 
 > **isEnabled**(`checkAncestors?`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L633)
+Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L633)
 
 Is this node enabled?
 If the node has a parent, all ancestors will be checked and false will be returned if any are false (not enabled), otherwise will return true
@@ -1233,7 +1233,7 @@ To observe changes to the value returned when calling this with `checkAncestors`
 
 > **isReady**(`_completeCheck?`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:609](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L609)
+Defined in: [packages/dev/core/src/node.ts:609](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L609)
 
 Is this node ready to be used/rendered
 
@@ -1257,7 +1257,7 @@ true if the node is ready
 
 > **markAsDirty**(`_property?`): `Node`
 
-Defined in: [packages/dev/core/src/node.ts:618](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L618)
+Defined in: [packages/dev/core/src/node.ts:618](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L618)
 
 Flag the  node as dirty (Forcing it to update everything)
 
@@ -1281,7 +1281,7 @@ this node
 
 > **removeBehavior**(`behavior`): `Node`
 
-Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L464)
+Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L464)
 
 Remove an attached behavior
 
@@ -1313,7 +1313,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **serializeAnimationRanges**(): `any`
 
-Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L970)
+Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L970)
 
 Serialize animation ranges into a JSON compatible object
 
@@ -1329,7 +1329,7 @@ serialization object
 
 > **setEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L685)
+Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L685)
 
 Set the enabled state of this node
 
@@ -1351,7 +1351,7 @@ defines the new enabled state
 
 > `static` **AddNodeConstructor**(`type`, `constructorFunc`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L63)
+Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L63)
 
 Add a new node constructor
 
@@ -1379,7 +1379,7 @@ defines the constructor function
 
 > `static` **Construct**(`type`, `name`, `scene`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<() => `Node`\>
 
-Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L75)
+Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L75)
 
 Returns a node constructor based on type name
 
@@ -1421,7 +1421,7 @@ the new constructor or null
 
 > `static` **ParseAnimationRanges**(`node`, `parsedNode`, `_scene`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1044)
+Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L1044)
 
 Parse animation range data from a serialization object and store them into a given node
 

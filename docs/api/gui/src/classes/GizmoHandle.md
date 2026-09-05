@@ -6,7 +6,7 @@
 
 # Abstract Class: GizmoHandle
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L32)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L32)
 
 Base class for SlateGizmo handles
 
@@ -21,7 +21,7 @@ Base class for SlateGizmo handles
 
 > **new GizmoHandle**(`gizmo`, `scene`): `GizmoHandle`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L96)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L96)
 
 Creates a handle for a SlateGizmo
 
@@ -49,7 +49,7 @@ scene
 
 > **node**: [`TransformNode`](../../../core/src/classes/TransformNode.md)
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L89)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L89)
 
 Node of this handle
 
@@ -61,7 +61,7 @@ Node of this handle
 
 > **set** **drag**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L76)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L76)
 
 Sets drag state
 
@@ -83,7 +83,7 @@ Sets drag state
 
 > **get** **gizmo**(): [`SlateGizmo`](SlateGizmo.md)
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L57)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L57)
 
 Returns the gizmo carrying this handle
 
@@ -99,7 +99,7 @@ Returns the gizmo carrying this handle
 
 > **set** **hover**(`value`): `void`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L64)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L64)
 
 Sets hover state
 
@@ -121,7 +121,7 @@ Sets hover state
 
 > **get** **state**(): [`HandleState`](../enumerations/HandleState.md)
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L48)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L48)
 
 The current state of the handle
 
@@ -135,7 +135,7 @@ The current state of the handle
 
 > `abstract` **createNode**(): [`TransformNode`](../../../core/src/classes/TransformNode.md)
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L155)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:155](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L155)
 
 Creates the meshes and parent node of the handle
 Should be overridden by child classes
@@ -152,7 +152,7 @@ created node
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L160)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:160](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L160)
 
 Disposes the handle
 
@@ -166,7 +166,7 @@ Disposes the handle
 
 > **setDragBehavior**(`dragStartFn`, `dragFn`, `dragEndFn`): `void`
 
-Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L138)
+Defined in: [packages/dev/gui/src/3D/gizmos/gizmoHandle.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/3D/gizmos/gizmoHandle.ts#L138)
 
 Binds callbacks from dragging interaction
 

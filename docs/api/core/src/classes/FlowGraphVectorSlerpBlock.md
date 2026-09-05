@@ -6,7 +6,7 @@
 
 # Class: FlowGraphVectorSlerpBlock
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts#L373)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts#L373)
 
 Spherical linear interpolation between two vectors.
 Supports float2 and float3 vectors; the interpolation coefficient is a number.
@@ -21,7 +21,7 @@ Supports float2 and float3 vectors; the interpolation coefficient is a number.
 
 > **new FlowGraphVectorSlerpBlock**(`config?`): `FlowGraphVectorSlerpBlock`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts#L374)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMathBlocks.pure.ts#L374)
 
 #### Parameters
 
@@ -43,7 +43,7 @@ Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphVectorMat
 
 > **a**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`FlowGraphVector`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L14)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L14)
 
 First input of this block
 
@@ -57,7 +57,7 @@ First input of this block
 
 > **b**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`FlowGraphVector`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L18)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L18)
 
 Second input of this block
 
@@ -71,7 +71,7 @@ Second input of this block
 
 > **c**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L22)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L22)
 
 Third input of this block
 
@@ -85,7 +85,7 @@ Third input of this block
 
 > `optional` **config?**: [`IFlowGraphBlockConfiguration`](../interfaces/IFlowGraphBlockConfiguration.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L87)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L87)
 
 the configuration of the block
 
@@ -99,7 +99,7 @@ the configuration of the block
 
 > **dataInputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L68)
 
 The data inputs of the block.
 
@@ -113,7 +113,7 @@ The data inputs of the block.
 
 > **dataOutputs**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\>[]
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L72)
 
 The data outputs of the block.
 
@@ -127,7 +127,7 @@ The data outputs of the block.
 
 > `readonly` **isValid**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts#L22)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts#L22)
 
 Output connection: Whether the value is valid.
 
@@ -141,7 +141,7 @@ Output connection: Whether the value is valid.
 
 > **metadata**: `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L77)
 
 Metadata that can be used by the block.
 
@@ -155,7 +155,7 @@ Metadata that can be used by the block.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L64)
 
 The name of the block.
 
@@ -169,7 +169,7 @@ The name of the block.
 
 > **uniqueId**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L60)
 
 A randomly generated GUID for each block.
 
@@ -183,7 +183,7 @@ A randomly generated GUID for each block.
 
 > `readonly` **value**: [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`FlowGraphVector`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts#L17)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphCachedOperationBlock.ts#L17)
 
 The output of the operation
 
@@ -197,7 +197,7 @@ The output of the operation
 
 > **\_doOperation**(`context`): `FlowGraphVector`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L44)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L44)
 
 the operation performed by this block
 
@@ -225,7 +225,7 @@ the result of the operation
 
 > **deserialize**(`_serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L181)
 
 Deserializes this block
 
@@ -251,7 +251,7 @@ the object to deserialize from
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L52)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphTernaryOperationBlock.ts#L52)
 
 Gets the class name of this block
 
@@ -271,7 +271,7 @@ the class name
 
 > **getDataInput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L134)
 
 Given the name of a data input, returns the connection if it exists
 
@@ -299,7 +299,7 @@ the connection if it exists, undefined otherwise
 
 > **getDataOutput**(`name`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`any`\> \| `undefined`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L143)
 
 Given the name of a data output, returns the connection if it exists
 
@@ -327,7 +327,7 @@ the connection if it exists, undefined otherwise
 
 > **registerDataInput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L110)
 
 Registers a data input on the block.
 
@@ -373,7 +373,7 @@ the created connection
 
 > **registerDataOutput**\<`T`\>(`name`, `richType`, `defaultValue?`): [`FlowGraphDataConnection`](FlowGraphDataConnection.md)\<`T`\>
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L123)
 
 Registers a data output on the block.
 
@@ -419,7 +419,7 @@ the created connection
 
 > **serialize**(`serializationObject?`, `_valueSerializeFunction?`): `void`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L152)
 
 Serializes this block
 

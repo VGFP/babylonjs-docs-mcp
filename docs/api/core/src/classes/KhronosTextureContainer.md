@@ -6,7 +6,7 @@
 
 # Class: KhronosTextureContainer
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L9)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L9)
 
 for description see https://www.khronos.org/opengles/sdk/tools/KTX/
 for file layout see https://www.khronos.org/opengles/sdk/tools/KTX/file_format_spec/
@@ -17,7 +17,7 @@ for file layout see https://www.khronos.org/opengles/sdk/tools/KTX/file_format_s
 
 > **new KhronosTextureContainer**(`data`, `facesExpected`): `KhronosTextureContainer`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L81)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L81)
 
 Creates a new KhronosTextureContainer
 
@@ -45,7 +45,7 @@ should be either 1 or 6, based whether a cube texture or or
 
 > **bytesOfKeyValueData**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L66)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L66)
 
 Gets the bytes of key value data
 
@@ -55,7 +55,7 @@ Gets the bytes of key value data
 
 > **data**: `ArrayBufferView`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L83)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L83)
 
 contents of the KTX container file
 
@@ -65,7 +65,7 @@ contents of the KTX container file
 
 > **glBaseInternalFormat**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L38)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L38)
 
 Gets the base internal format
 
@@ -75,7 +75,7 @@ Gets the base internal format
 
 > **glFormat**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L30)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L30)
 
 Gets the openGL format
 
@@ -85,7 +85,7 @@ Gets the openGL format
 
 > **glInternalFormat**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L34)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L34)
 
 Gets the openGL internal format
 
@@ -95,7 +95,7 @@ Gets the openGL internal format
 
 > **glType**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L22)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L22)
 
 Gets the openGL type
 
@@ -105,7 +105,7 @@ Gets the openGL type
 
 > **glTypeSize**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L26)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L26)
 
 Gets the openGL type size
 
@@ -115,7 +115,7 @@ Gets the openGL type size
 
 > **isInvalid**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L74)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L74)
 
 If the container has been made invalid (eg. constructor failed to correctly load array buffer)
 
@@ -125,7 +125,7 @@ If the container has been made invalid (eg. constructor failed to correctly load
 
 > **loadType**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L70)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L70)
 
 Gets the load type
 
@@ -135,7 +135,7 @@ Gets the load type
 
 > **numberOfArrayElements**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L54)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L54)
 
 Gets the number of array elements
 
@@ -145,7 +145,7 @@ Gets the number of array elements
 
 > **numberOfFaces**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L58)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L58)
 
 Gets the number of faces
 
@@ -155,7 +155,7 @@ Gets the number of faces
 
 > **numberOfMipmapLevels**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L62)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L62)
 
 Gets the number of mipmap levels
 
@@ -165,7 +165,7 @@ Gets the number of mipmap levels
 
 > **pixelDepth**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L50)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L50)
 
 Gets image depth in pixels
 
@@ -175,7 +175,7 @@ Gets image depth in pixels
 
 > **pixelHeight**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L46)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L46)
 
 Gets image height in pixel
 
@@ -185,7 +185,7 @@ Gets image height in pixel
 
 > **pixelWidth**: `number`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L42)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L42)
 
 Gets image width in pixel
 
@@ -195,7 +195,7 @@ Gets image width in pixel
 
 > `static` **IsValid**(`data`): `boolean`
 
-Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/khronosTextureContainer.ts#L190)
+Defined in: [packages/dev/core/src/Misc/khronosTextureContainer.ts:190](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/khronosTextureContainer.ts#L190)
 
 Checks if the given data starts with a KTX file identifier.
 

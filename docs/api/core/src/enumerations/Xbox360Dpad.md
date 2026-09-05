@@ -6,7 +6,7 @@
 
 # Enumeration: Xbox360Dpad
 
-Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/xboxGamepad.ts#L30)
+Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gamepads/xboxGamepad.ts#L30)
 
 Defines values for XBox360 DPad
 
@@ -16,7 +16,7 @@ Defines values for XBox360 DPad
 
 > **Down**: `13`
 
-Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/xboxGamepad.ts#L34)
+Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gamepads/xboxGamepad.ts#L34)
 
 Down
 
@@ -26,7 +26,7 @@ Down
 
 > **Left**: `14`
 
-Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/xboxGamepad.ts#L36)
+Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gamepads/xboxGamepad.ts#L36)
 
 Left
 
@@ -36,7 +36,7 @@ Left
 
 > **Right**: `15`
 
-Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/xboxGamepad.ts#L38)
+Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gamepads/xboxGamepad.ts#L38)
 
 Right
 
@@ -46,6 +46,6 @@ Right
 
 > **Up**: `12`
 
-Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gamepads/xboxGamepad.ts#L32)
+Defined in: [packages/dev/core/src/Gamepads/xboxGamepad.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gamepads/xboxGamepad.ts#L32)
 
 Up

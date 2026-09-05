@@ -6,7 +6,7 @@
 
 # Class: PlayAnimationAction
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L269)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:269](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L269)
 
 This defines an action responsible to start an animation once triggered.
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/events/actions
 
 > **new PlayAnimationAction**(`triggerOptions`, `target`, `from`, `to`, `loop?`, `condition?`): `PlayAnimationAction`
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L296)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L296)
 
 Instantiate the action
 
@@ -80,7 +80,7 @@ defines the trigger related conditions
 
 > **from**: `number`
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L273)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L273)
 
 Where the animation should start (animation frame)
 
@@ -90,7 +90,7 @@ Where the animation should start (animation frame)
 
 > `optional` **loop?**: `boolean`
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L283)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L283)
 
 Define if the animation should loop or stop after the first play.
 
@@ -100,7 +100,7 @@ Define if the animation should loop or stop after the first play.
 
 > **onBeforeExecuteObservable**: [`Observable`](Observable.md)\<[`Action`](Action.md)\>
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L102)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L102)
 
 An event triggered prior to action being executed.
 
@@ -114,7 +114,7 @@ An event triggered prior to action being executed.
 
 > **to**: `number`
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L278)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:278](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L278)
 
 Where the animation should stop (animation frame)
 
@@ -124,7 +124,7 @@ Where the animation should stop (animation frame)
 
 > **trigger**: `number`
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L86)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L86)
 
 Trigger for the action
 
@@ -138,7 +138,7 @@ Trigger for the action
 
 > **triggerOptions**: `any`
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L111)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L111)
 
 the trigger, with or without parameters, for the action
 
@@ -152,7 +152,7 @@ the trigger, with or without parameters, for the action
 
 > **execute**(): `void`
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L310)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L310)
 
 Execute the action and play the animation.
 
@@ -170,7 +170,7 @@ Execute the action and play the animation.
 
 > **getTriggerParameter**(): `any`
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L137)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L137)
 
 Gets the trigger parameter
 
@@ -190,7 +190,7 @@ the trigger parameter
 
 > **serialize**(`parent`): `any`
 
-Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/directActions.pure.ts#L320)
+Defined in: [packages/dev/core/src/Actions/directActions.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/directActions.pure.ts#L320)
 
 Serializes the actions and its related information.
 
@@ -218,7 +218,7 @@ the serialized object
 
 > **setTriggerParameter**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L145)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L145)
 
 Sets the trigger parameter
 
@@ -244,7 +244,7 @@ defines the new trigger parameter
 
 > **skipToNextActiveAction**(): `void`
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L196)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L196)
 
 Skips to next active action
 
@@ -262,7 +262,7 @@ Skips to next active action
 
 > **then**(`action`): [`Action`](Action.md)
 
-Defined in: [packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/action.pure.ts#L214)
+Defined in: [packages/dev/core/src/Actions/action.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/action.pure.ts#L214)
 
 Adds action to chain of actions, may be a DoNothingAction
 

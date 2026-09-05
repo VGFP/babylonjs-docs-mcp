@@ -6,7 +6,7 @@
 
 # Class: WebXREyeTracking
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L15)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L15)
 
 The WebXR Eye Tracking feature grabs eye data from the device and provides it in an easy-access format.
 Currently only enabled for BabylonNative applications.
@@ -21,7 +21,7 @@ Currently only enabled for BabylonNative applications.
 
 > **new WebXREyeTracking**(`_xrSessionManager`): `WebXREyeTracking`
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L47)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L47)
 
 Creates a new instance of the XR eye tracking feature.
 
@@ -47,7 +47,7 @@ An instance of WebXRSessionManager.
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -61,7 +61,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -75,7 +75,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -89,7 +89,7 @@ Is this feature disposed?
 
 > `readonly` **onEyeTrackingEndedObservable**: [`Observable`](Observable.md)\<`void`\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L37)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L37)
 
 This observable will notify registered observers when eye tracking ends
 
@@ -99,7 +99,7 @@ This observable will notify registered observers when eye tracking ends
 
 > `readonly` **onEyeTrackingFrameUpdateObservable**: [`Observable`](Observable.md)\<[`Ray`](Ray.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L41)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L41)
 
 This observable will notify registered observers on each frame that has valid tracking
 
@@ -109,7 +109,7 @@ This observable will notify registered observers on each frame that has valid tr
 
 > `readonly` **onEyeTrackingStartedObservable**: [`Observable`](Observable.md)\<[`Ray`](Ray.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L33)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L33)
 
 This observable will notify registered observers when eye tracking starts
 
@@ -119,7 +119,7 @@ This observable will notify registered observers when eye tracking starts
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -133,7 +133,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -147,7 +147,7 @@ Observers registered here will be executed when the feature is detached
 
 > `readonly` `static` **Name**: `"xr-eye-tracking"` = `WebXRFeatureName.EYE_TRACKING`
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L22)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L22)
 
 The module's name
 
@@ -157,7 +157,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L28)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L28)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -171,7 +171,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -193,7 +193,7 @@ Is this feature attached
 
 > **get** **isEyeGazeValid**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L77)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L77)
 
 Returns whether the gaze data is valid or not
 
@@ -211,7 +211,7 @@ true if the data is valid
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -223,7 +223,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -249,7 +249,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(`force?`): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L84)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L84)
 
 attach this feature
 
@@ -277,7 +277,7 @@ true if successful, false is failed or already attached
 
 > **detach**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L120)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L120)
 
 detach this feature.
 
@@ -297,7 +297,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L62)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L62)
 
 Dispose this feature and all of the resources attached.
 
@@ -315,7 +315,7 @@ Dispose this feature and all of the resources attached.
 
 > **getEyeGaze**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Ray`](Ray.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L85)
+Defined in: [packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXREyeTracking.pure.ts#L85)
 
 Get a reference to the gaze ray. This data is valid while eye tracking persists, and will be set to null when gaze data is no longer available
 
@@ -331,7 +331,7 @@ a reference to the gaze ray if it exists and is valid, returns null otherwise.
 
 > **isCompatible**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

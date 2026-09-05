@@ -6,7 +6,7 @@
 
 # Class: EffectLayerSceneComponent
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L20)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L20)
 
 Defines the layer scene component responsible to manage any effect layers
 in a given scene.
@@ -21,7 +21,7 @@ in a given scene.
 
 > **new EffectLayerSceneComponent**(`scene?`): `EffectLayerSceneComponent`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L40)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L40)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"EffectLayer"` = `SceneComponentConstants.NAME_EFFECTLAYER`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L24)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L24)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L29)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L29)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **addFromContainer**(`container`): `void`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L95)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L95)
 
 Adds all the elements from the container to the scene
 
@@ -97,7 +97,7 @@ the container holding the elements
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L124)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L124)
 
 Disposes the component and the associated resources.
 
@@ -115,7 +115,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L68)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L68)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -134,7 +134,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L51)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L51)
 
 Registers the component in a given scene
 
@@ -152,7 +152,7 @@ Registers the component in a given scene
 
 > **removeFromContainer**(`container`, `dispose?`): `void`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L109)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L109)
 
 Removes all the elements in the container from the scene
 
@@ -184,7 +184,7 @@ if the removed element should be disposed (default: false)
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L79)
+Defined in: [packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Layers/effectLayerSceneComponent.pure.ts#L79)
 
 Serializes the component data to the specified json object
 

@@ -8,7 +8,7 @@
 
 > **RegisterCascadedShadowGenerator**(): `void`
 
-Defined in: [packages/dev/core/src/Lights/Shadows/cascadedShadowGenerator.pure.ts:1161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/Shadows/cascadedShadowGenerator.pure.ts#L1161)
+Defined in: [packages/dev/core/src/Lights/Shadows/cascadedShadowGenerator.pure.ts:1158](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/Shadows/cascadedShadowGenerator.pure.ts#L1158)
 
 Register side effects for cascadedShadowGenerator.
 Safe to call multiple times; only the first call has an effect.

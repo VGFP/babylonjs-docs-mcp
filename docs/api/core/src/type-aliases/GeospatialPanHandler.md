@@ -8,7 +8,7 @@
 
 > **GeospatialPanHandler** = `object`
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L25)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L25)
 
 Handler for geospatial pan (globe drag) interactions.
 Pan uses screen coordinates and needs a lifecycle (start/update/stop) because
@@ -20,7 +20,7 @@ it establishes a drag plane on the globe surface to anchor the cursor.
 
 > **start**(`screenX`, `screenY`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L27)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L27)
 
 Begin a pan gesture at screen position
 
@@ -44,7 +44,7 @@ Begin a pan gesture at screen position
 
 > **stop**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L31)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L31)
 
 End the pan gesture
 
@@ -58,7 +58,7 @@ End the pan gesture
 
 > **update**(`screenX`, `screenY`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L29)
+Defined in: [packages/dev/core/src/Cameras/geospatialCameraMovement.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCameraMovement.ts#L29)
 
 Continue panning to new screen position
 

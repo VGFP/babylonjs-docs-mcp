@@ -6,7 +6,7 @@
 
 # Interface: IWebAudioEngineOptions
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L23)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L23)
 
 Options for creating a v2 audio engine that uses the WebAudio API.
 
@@ -20,7 +20,7 @@ Options for creating a v2 audio engine that uses the WebAudio API.
 
 > **audioContext**: `AudioContext`
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L27)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L27)
 
 The audio context to be used by the engine.
 
@@ -30,7 +30,7 @@ The audio context to be used by the engine.
 
 > `optional` **defaultUIParentElement?**: `HTMLElement`
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L31)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L31)
 
 The default UI's parent element. Defaults to the last created graphics engine's canvas if it exists; otherwise the HTML document's body.
 
@@ -40,7 +40,7 @@ The default UI's parent element. Defaults to the last created graphics engine's 
 
 > `optional` **disableDefaultUI?**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L35)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L35)
 
 Set to `true` to disable the default UI. Defaults to `false`.
 
@@ -50,7 +50,7 @@ Set to `true` to disable the default UI. Defaults to `false`.
 
 > **listenerAutoUpdate**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L19)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L19)
 
 Whether to automatically update the position and rotation of the listener. Defaults to `true`.
 
@@ -64,7 +64,7 @@ Whether to automatically update the position and rotation of the listener. Defau
 
 > **listenerEnabled**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L23)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L23)
 
 Set to `true` to enable the listener. Defaults to `false`.
 
@@ -78,7 +78,7 @@ Set to `true` to enable the listener. Defaults to `false`.
 
 > **listenerMinUpdateTime**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L28)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L28)
 
 The minimum update time in seconds of the listener if it is attached to a mesh, scene or transform node. Defaults to `0`.
 - The listener's position and rotation will not update faster than this time, but they may update slower depending on the frame rate.
@@ -93,7 +93,7 @@ The minimum update time in seconds of the listener if it is attached to a mesh, 
 
 > **listenerPosition**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L32)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L32)
 
 The listener position. Defaults to (0, 0, 0).
 
@@ -107,7 +107,7 @@ The listener position. Defaults to (0, 0, 0).
 
 > **listenerRotation**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L36)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L36)
 
 The listener rotation, as Euler angles. Defaults to (0, 0, 0).
 
@@ -121,7 +121,7 @@ The listener rotation, as Euler angles. Defaults to (0, 0, 0).
 
 > **listenerRotationQuaternion**: [`Quaternion`](../classes/Quaternion.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L40)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/subProperties/abstractSpatialAudioListener.ts#L40)
 
 The listener rotation, as a quaternion. Defaults to (0, 0, 0, 1).
 
@@ -135,7 +135,7 @@ The listener rotation, as a quaternion. Defaults to (0, 0, 0, 1).
 
 > **parameterRampDuration**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L43)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L43)
 
 The smoothing duration to use when changing audio parameters, in seconds. Defaults to `0.01` (10 milliseconds).
 
@@ -149,7 +149,7 @@ The smoothing duration to use when changing audio parameters, in seconds. Defaul
 
 > **resumeOnInteraction**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L39)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L39)
 
 Set to `true` to automatically resume the audio context when the user interacts with the page. Defaults to `true`.
 
@@ -159,7 +159,7 @@ Set to `true` to automatically resume the audio context when the user interacts 
 
 > **resumeOnPause**: `boolean`
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L43)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L43)
 
 Set to `true` to automatically resume the audio context when the browser pauses audio playback. Defaults to `true`.
 
@@ -169,7 +169,7 @@ Set to `true` to automatically resume the audio context when the browser pauses 
 
 > **resumeOnPauseRetryInterval**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L47)
+Defined in: [packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/webAudio/webAudioEngine.ts#L47)
 
 The interval in milliseconds to try resuming audio playback when `resumeOnPause` is `true`. Defaults to `1000`.
 
@@ -179,7 +179,7 @@ The interval in milliseconds to try resuming audio playback when `resumeOnPause`
 
 > **volume**: `number`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L47)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/audioEngineV2.ts#L47)
 
 The initial output volume of the audio engine. Defaults to `1`.
 

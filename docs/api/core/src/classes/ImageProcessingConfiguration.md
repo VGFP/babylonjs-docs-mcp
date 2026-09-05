@@ -6,7 +6,7 @@
 
 # Class: ImageProcessingConfiguration
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L21)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L23)
 
 This groups together the common properties used for image processing either in direct forward pass
 or through post processing effect depending on the use of the image processing pipeline in your scene
@@ -28,7 +28,7 @@ or not.
 
 > **colorCurves**: [`Nullable`](../type-aliases/Nullable.md)\<[`ColorCurves`](ColorCurves.md)\>
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L43)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L45)
 
 Color curves setup used in the effect if colorCurvesEnabled is set to true
 
@@ -38,7 +38,7 @@ Color curves setup used in the effect if colorCurvesEnabled is set to true
 
 > **onUpdateParameters**: [`Observable`](Observable.md)\<`ImageProcessingConfiguration`\>
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L446)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:552](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L552)
 
 An event triggered when the configuration changes and requires Shader to Update some parameters.
 
@@ -48,7 +48,7 @@ An event triggered when the configuration changes and requires Shader to Update 
 
 > **outputTextureHeight**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:441](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L441)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:547](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L547)
 
 Height of the output texture used in the post process. If not provided, uses the height of the screen.
 
@@ -58,7 +58,7 @@ Height of the output texture used in the post process. If not provided, uses the
 
 > **outputTextureWidth**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:435](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L435)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L541)
 
 Width of the output texture used in the post process. If not provided, uses the width of the screen.
 
@@ -68,7 +68,7 @@ Width of the output texture used in the post process. If not provided, uses the 
 
 > **vignetteCameraFov**: `number` = `0.5`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L283)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:389](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L389)
 
 Camera field of view used by the Vignette effect.
 
@@ -78,7 +78,7 @@ Camera field of view used by the Vignette effect.
 
 > **vignetteCenterX**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:236](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L236)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:342](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L342)
 
 Vignette center X Offset.
 
@@ -88,7 +88,7 @@ Vignette center X Offset.
 
 > **vignetteCenterY**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:242](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L242)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L348)
 
 Vignette center Y Offset.
 
@@ -98,7 +98,7 @@ Vignette center Y Offset.
 
 > **vignetteColor**: [`Color4`](Color4.md)
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L277)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:383](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L383)
 
 Color of the vignette applied on the screen through the chosen blend mode (vignetteBlendMode)
 if vignetteEnabled is set to true.
@@ -109,7 +109,7 @@ if vignetteEnabled is set to true.
 
 > **vignetteStretch**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L230)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L336)
 
 Vignette stretch size.
 
@@ -119,7 +119,7 @@ Vignette stretch size.
 
 > **vignetteWeight**: `number` = `1.5`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L270)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:376](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L376)
 
 Vignette weight or intensity of the vignette effect.
 
@@ -129,7 +129,7 @@ Vignette weight or intensity of the vignette effect.
 
 > `static` **PrepareSamplers**: (`samplersList`, `defines`) => `void` = `PrepareSamplersForImageProcessing`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:475](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L475)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:581](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L581)
 
 Prepare the list of samplers associated with the Image Processing effects.
 
@@ -157,7 +157,7 @@ the list of defines currently in use
 
 > `static` **PrepareUniforms**: (`uniforms`, `defines`) => `void` = `PrepareUniformsForImageProcessing`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:468](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L468)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:574](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L574)
 
 Prepare the list of uniforms associated with the Image Processing effects.
 
@@ -185,7 +185,7 @@ the list of defines currently in use
 
 > `readonly` `static` **TONEMAPPING\_ACES**: `1` = `1`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L31)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L33)
 
 ACES Tone mapping (used by default in unreal and unity). This can help getting closer
 to other engines rendering to increase portability.
@@ -196,7 +196,7 @@ to other engines rendering to increase portability.
 
 > `readonly` `static` **TONEMAPPING\_KHR\_PBR\_NEUTRAL**: `2` = `2`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L37)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L39)
 
 Neutral Tone mapping developped by the Khronos group in order to constrain
 values between 0 and 1 without shifting Hue.
@@ -207,7 +207,7 @@ values between 0 and 1 without shifting Hue.
 
 > `readonly` `static` **TONEMAPPING\_STANDARD**: `0` = `0`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L25)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L27)
 
 Default tone mapping applied in BabylonJS.
 
@@ -219,7 +219,7 @@ Default tone mapping applied in BabylonJS.
 
 > **get** **applyByPostProcess**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L396)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:502](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L502)
 
 Gets whether the image processing is applied through a post process or not.
 
@@ -231,7 +231,7 @@ Gets whether the image processing is applied through a post process or not.
 
 > **set** **applyByPostProcess**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:402](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L402)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:508](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L508)
 
 Sets whether the image processing is applied through a post process or not.
 
@@ -253,7 +253,7 @@ Sets whether the image processing is applied through a post process or not.
 
 > **get** **colorCurvesEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L50)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L52)
 
 Gets whether the color curves effect is enabled.
 
@@ -265,7 +265,7 @@ Gets whether the color curves effect is enabled.
 
 > **set** **colorCurvesEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L58)
 
 Sets whether the color curves effect is enabled.
 
@@ -287,7 +287,7 @@ Sets whether the color curves effect is enabled.
 
 > **get** **colorGradingBGR**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L130)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L132)
 
 Gets whether the color grading texture contains BGR values.
 
@@ -299,7 +299,7 @@ Gets whether the color grading texture contains BGR values.
 
 > **set** **colorGradingBGR**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L136)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L138)
 
 Sets whether the color grading texture contains BGR values.
 
@@ -321,7 +321,7 @@ Sets whether the color grading texture contains BGR values.
 
 > **get** **colorGradingEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L90)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L92)
 
 Gets whether the color grading effect is enabled.
 
@@ -333,7 +333,7 @@ Gets whether the color grading effect is enabled.
 
 > **set** **colorGradingEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L96)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L98)
 
 Sets whether the color grading effect is enabled.
 
@@ -355,7 +355,7 @@ Sets whether the color grading effect is enabled.
 
 > **get** **colorGradingTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L70)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L72)
 
 Color grading LUT texture used in the effect if colorGradingEnabled is set to true
 
@@ -367,7 +367,7 @@ Color grading LUT texture used in the effect if colorGradingEnabled is set to tr
 
 > **set** **colorGradingTexture**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L76)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L78)
 
 Color grading LUT texture used in the effect if colorGradingEnabled is set to true
 
@@ -389,7 +389,7 @@ Color grading LUT texture used in the effect if colorGradingEnabled is set to tr
 
 > **get** **colorGradingWithGreenDepth**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L110)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:112](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L112)
 
 Gets whether the color grading effect is using a green depth for the 3d Texture.
 
@@ -401,7 +401,7 @@ Gets whether the color grading effect is using a green depth for the 3d Texture.
 
 > **set** **colorGradingWithGreenDepth**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L116)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L118)
 
 Sets whether the color grading effect is using a green depth for the 3d Texture.
 
@@ -423,7 +423,7 @@ Sets whether the color grading effect is using a green depth for the 3d Texture.
 
 > **get** **contrast**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L211)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:213](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L213)
 
 Gets the contrast used in the effect.
 
@@ -435,7 +435,7 @@ Gets the contrast used in the effect.
 
 > **set** **contrast**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:217](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L217)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:219](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L219)
 
 Sets the contrast used in the effect.
 
@@ -457,7 +457,7 @@ Sets the contrast used in the effect.
 
 > **get** **ditheringEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L331)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:437](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L437)
 
 Gets whether the dithering effect is enabled.
 The dithering effect can be used to reduce banding.
@@ -470,7 +470,7 @@ The dithering effect can be used to reduce banding.
 
 > **set** **ditheringEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:338](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L338)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:444](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L444)
 
 Sets whether the dithering effect is enabled.
 The dithering effect can be used to reduce banding.
@@ -493,7 +493,7 @@ The dithering effect can be used to reduce banding.
 
 > **get** **ditheringIntensity**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L352)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:458](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L458)
 
 Gets the dithering intensity. 0 is no dithering. Default is 1.0 / 255.0.
 
@@ -505,7 +505,7 @@ Gets the dithering intensity. 0 is no dithering. Default is 1.0 / 255.0.
 
 > **set** **ditheringIntensity**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L358)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:464](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L464)
 
 Sets the dithering intensity. 0 is no dithering. Default is 1.0 / 255.0.
 
@@ -527,7 +527,7 @@ Sets the dithering intensity. 0 is no dithering. Default is 1.0 / 255.0.
 
 > **get** **exposure**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L153)
 
 Gets the Exposure used in the effect.
 
@@ -539,7 +539,7 @@ Gets the Exposure used in the effect.
 
 > **set** **exposure**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L157)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L159)
 
 Sets the Exposure used in the effect.
 
@@ -561,7 +561,7 @@ Sets the Exposure used in the effect.
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L416)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:522](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L522)
 
 Gets whether the image processing is enabled or not.
 
@@ -573,7 +573,7 @@ Gets whether the image processing is enabled or not.
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L422)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:528](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L528)
 
 Sets whether the image processing is enabled or not.
 
@@ -595,7 +595,7 @@ Sets whether the image processing is enabled or not.
 
 > **get** **skipFinalColorClamp**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:374](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L374)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:480](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L480)
 
 If apply by post process is set to true, setting this to true will skip the final color clamp step in the fragment shader
 Applies to PBR materials.
@@ -608,7 +608,7 @@ Applies to PBR materials.
 
 > **set** **skipFinalColorClamp**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L381)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:487](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L487)
 
 If apply by post process is set to true, setting this to true will skip the final color clamp step in the fragment shader
 Applies to PBR materials.
@@ -625,13 +625,97 @@ Applies to PBR materials.
 
 ***
 
+### temperature
+
+#### Get Signature
+
+> **get** **temperature**(): `number`
+
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L257)
+
+Gets the correlated color temperature, in Kelvin, of the illuminant to neutralize when whiteBalanceEnabled
+is set to true - i.e. the light the scene is assumed to have been lit with, not a "warm"/"cool" creative
+adjustment. Lower values (e.g. ~2000-3500 K) correspond to warm/orange sources such as tungsten or candle
+light; higher values (e.g. ~7000-10000 K) correspond to cool/blue sources such as shade or overcast sky.
+Clamped to the tabulated range (roughly 1667 K and above) - the getter reflects the clamped value. Default is 6500.
+
+##### Returns
+
+`number`
+
+#### Set Signature
+
+> **set** **temperature**(`value`): `void`
+
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L267)
+
+Sets the correlated color temperature, in Kelvin, of the illuminant to neutralize when whiteBalanceEnabled
+is set to true - i.e. the light the scene is assumed to have been lit with, not a "warm"/"cool" creative
+adjustment. Lower values (e.g. ~2000-3500 K) correspond to warm/orange sources such as tungsten or candle
+light; higher values (e.g. ~7000-10000 K) correspond to cool/blue sources such as shade or overcast sky.
+Clamped to the tabulated range (roughly 1667 K and above) - the getter reflects the clamped value. Default is 6500.
+
+##### Parameters
+
+###### value
+
+`number`
+
+##### Returns
+
+`void`
+
+***
+
+### tint
+
+#### Get Signature
+
+> **get** **tint**(): `number`
+
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L287)
+
+Gets the white balance tint offset used in the effect if whiteBalanceEnabled is set to true, on the
+green/magenta axis perpendicular to temperature - e.g. to correct for illuminants (such as some
+fluorescent lights) that a color temperature alone can't fully neutralize. Positive values shift the
+corrected image toward magenta (compensating a green-tinted illuminant); negative values shift it toward
+green (compensating a magenta-tinted illuminant). Clamped to [-150, 150] - the getter reflects the clamped value. Default is 0 (no tint offset).
+
+##### Returns
+
+`number`
+
+#### Set Signature
+
+> **set** **tint**(`value`): `void`
+
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:297](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L297)
+
+Sets the white balance tint offset used in the effect if whiteBalanceEnabled is set to true, on the
+green/magenta axis perpendicular to temperature - e.g. to correct for illuminants (such as some
+fluorescent lights) that a color temperature alone can't fully neutralize. Positive values shift the
+corrected image toward magenta (compensating a green-tinted illuminant); negative values shift it toward
+green (compensating a magenta-tinted illuminant). Clamped to [-150, 150] - the getter reflects the clamped value. Default is 0 (no tint offset).
+
+##### Parameters
+
+###### value
+
+`number`
+
+##### Returns
+
+`void`
+
+***
+
 ### toneMappingEnabled
 
 #### Get Signature
 
 > **get** **toneMappingEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L171)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L173)
 
 Gets whether the tone mapping effect is enabled.
 
@@ -643,7 +727,7 @@ Gets whether the tone mapping effect is enabled.
 
 > **set** **toneMappingEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:179](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L179)
 
 Sets whether the tone mapping effect is enabled.
 
@@ -665,7 +749,7 @@ Sets whether the tone mapping effect is enabled.
 
 > **get** **toneMappingType**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L191)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L193)
 
 Gets the type of tone mapping effect.
 
@@ -677,7 +761,7 @@ Gets the type of tone mapping effect.
 
 > **set** **toneMappingType**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L197)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:199](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L199)
 
 Sets the type of tone mapping effect used in BabylonJS.
 
@@ -699,7 +783,7 @@ Sets the type of tone mapping effect used in BabylonJS.
 
 > **get** **vignetteBlendMode**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L290)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L396)
 
 Gets the vignette blend mode allowing different kind of effect.
 
@@ -711,7 +795,7 @@ Gets the vignette blend mode allowing different kind of effect.
 
 > **set** **vignetteBlendMode**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L296)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:402](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L402)
 
 Sets the vignette blend mode allowing different kind of effect.
 
@@ -733,7 +817,7 @@ Sets the vignette blend mode allowing different kind of effect.
 
 > **get** **vignetteCentreX**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:259](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L259)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L365)
 
 Back Compat: Vignette center X Offset.
 
@@ -749,7 +833,7 @@ use vignetteCenterX instead
 
 > **set** **vignetteCentreX**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L262)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L368)
 
 ##### Parameters
 
@@ -769,7 +853,7 @@ Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.t
 
 > **get** **vignetteCentreY**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:248](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L248)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L354)
 
 Back Compat: Vignette center Y Offset.
 
@@ -785,7 +869,7 @@ use vignetteCenterY instead
 
 > **set** **vignetteCentreY**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:251](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L251)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L357)
 
 ##### Parameters
 
@@ -805,7 +889,7 @@ Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.t
 
 > **get** **vignetteEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:416](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L416)
 
 Gets whether the vignette effect is enabled.
 
@@ -817,9 +901,43 @@ Gets whether the vignette effect is enabled.
 
 > **set** **vignetteEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L316)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:422](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L422)
 
 Sets whether the vignette effect is enabled.
+
+##### Parameters
+
+###### value
+
+`boolean`
+
+##### Returns
+
+`void`
+
+***
+
+### whiteBalanceEnabled
+
+#### Get Signature
+
+> **get** **whiteBalanceEnabled**(): `boolean`
+
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:233](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L233)
+
+Gets whether the white balance effect is enabled.
+
+##### Returns
+
+`boolean`
+
+#### Set Signature
+
+> **set** **whiteBalanceEnabled**(`value`): `void`
+
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L239)
+
+Sets whether the white balance effect is enabled.
 
 ##### Parameters
 
@@ -839,7 +957,7 @@ Sets whether the vignette effect is enabled.
 
 > **get** `static` **VIGNETTEMODE\_MULTIPLY**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:627](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L627)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:747](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L747)
 
 Used to apply the vignette as a mix with the pixel color.
 
@@ -855,7 +973,7 @@ Used to apply the vignette as a mix with the pixel color.
 
 > **get** `static` **VIGNETTEMODE\_OPAQUE**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:634](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L634)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:754](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L754)
 
 Used to apply the vignette as a replacement of the pixel color.
 
@@ -869,7 +987,7 @@ Used to apply the vignette as a replacement of the pixel color.
 
 > **bind**(`effect`, `overrideAspectRatio?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:550](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L550)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:665](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L665)
 
 Binds the image processing to the shader.
 
@@ -897,7 +1015,7 @@ Override the aspect ratio of the effect
 
 > **clone**(): `ImageProcessingConfiguration`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:608](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L608)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:728](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L728)
 
 Clones the current image processing instance.
 
@@ -913,7 +1031,7 @@ The cloned image processing
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L459)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:565](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L565)
 
 Gets the current class name.
 
@@ -929,7 +1047,7 @@ Gets the current class name.
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:540](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L540)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:655](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L655)
 
 Returns true if all the image processing information are ready.
 
@@ -945,7 +1063,7 @@ True if ready, otherwise, false
 
 > **prepareDefines**(`defines`, `forPostProcess?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:482](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L482)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:588](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L588)
 
 Prepare the list of defines associated to the shader.
 
@@ -973,7 +1091,7 @@ Define if we are currently in post process mode or not
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:616](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L616)
+Defined in: [packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts:736](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/imageProcessingConfiguration.pure.ts#L736)
 
 Serializes the current image processing instance to a json representation.
 

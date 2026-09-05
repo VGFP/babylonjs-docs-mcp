@@ -6,7 +6,7 @@
 
 # Interface: IMaterial
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L133)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L133)
 
 Loader interface with additional members.
 
@@ -20,7 +20,7 @@ Loader interface with additional members.
 
 > `optional` **alphaCutoff?**: `number`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:668](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L668)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:668](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L668)
 
 The alpha cutoff value of the material
 
@@ -34,7 +34,7 @@ The alpha cutoff value of the material
 
 > `optional` **alphaMode?**: `MaterialAlphaMode`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:664](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L664)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:664](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L664)
 
 The alpha rendering mode of the material
 
@@ -48,7 +48,7 @@ The alpha rendering mode of the material
 
 > `optional` **doubleSided?**: `boolean`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:672](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L672)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:672](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L672)
 
 Specifies whether the material is double sided
 
@@ -62,7 +62,7 @@ Specifies whether the material is double sided
 
 > `optional` **emissiveFactor?**: `number`[]
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:660](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L660)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:660](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L660)
 
 The RGB components of the emissive color of the material. These values are linear. If an emissiveTexture is specified, this value is multiplied with the texel values
 
@@ -76,7 +76,7 @@ The RGB components of the emissive color of the material. These values are linea
 
 > `optional` **extensions?**: `object`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
 
 Dictionary object with extension-specific objects
 
@@ -94,7 +94,7 @@ Dictionary object with extension-specific objects
 
 > `optional` **extras?**: `any`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
 
 Application-Specific data
 
@@ -108,7 +108,7 @@ Application-Specific data
 
 > **index**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
 
 The index of this item in the array.
 
@@ -122,7 +122,7 @@ The index of this item in the array.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:298](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L298)
 
 The user-defined name of this object
 

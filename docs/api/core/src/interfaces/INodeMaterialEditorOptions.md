@@ -6,7 +6,7 @@
 
 # Interface: INodeMaterialEditorOptions
 
-Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L86)
+Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L86)
 
 Interface used to configure the node material editor
 
@@ -16,7 +16,7 @@ Interface used to configure the node material editor
 
 > `optional` **editorURL?**: `string`
 
-Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L88)
+Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L88)
 
 Define the URL to load node editor script from
 
@@ -26,7 +26,7 @@ Define the URL to load node editor script from
 
 > `optional` **nodeEditorConfig?**: `object`
 
-Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L90)
+Defined in: [packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/nodeMaterial.pure.ts#L90)
 
 Additional configuration for the NME
 

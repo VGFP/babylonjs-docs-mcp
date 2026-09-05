@@ -8,7 +8,7 @@
 
 > **CreateResizedCopy**(`texture`, `width`, `height`, `useBilinearMode?`): [`Texture`](../classes/Texture.md)
 
-Defined in: [packages/dev/core/src/Misc/textureTools.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/textureTools.ts#L26)
+Defined in: [packages/dev/core/src/Misc/textureTools.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/textureTools.ts#L26)
 
 Uses the GPU to create a copy texture rescaled at a given size
 

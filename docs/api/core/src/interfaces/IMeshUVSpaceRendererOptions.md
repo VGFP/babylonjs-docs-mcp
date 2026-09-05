@@ -6,7 +6,7 @@
 
 # Interface: IMeshUVSpaceRendererOptions
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L22)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L22)
 
 **`Since`**
 
@@ -19,7 +19,7 @@ Options for the MeshUVSpaceRenderer
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L38)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L38)
 
 Generate mip maps. Default: true
 
@@ -29,7 +29,7 @@ Generate mip maps. Default: true
 
 > `optional` **height?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L30)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L30)
 
 Height of the texture. Default: 1024
 
@@ -39,7 +39,7 @@ Height of the texture. Default: 1024
 
 > `optional` **optimizeUVAllocation?**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L43)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L43)
 
 Optimize UV allocation. Default: true
 If you plan to use the texture as a decal map and rotate / offset the texture, you should set this to false
@@ -50,7 +50,7 @@ If you plan to use the texture as a decal map and rotate / offset the texture, y
 
 > `optional` **textureType?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L34)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L34)
 
 Type of the texture. Default: Constants.TEXTURETYPE_UNSIGNED_BYTE
 
@@ -60,7 +60,7 @@ Type of the texture. Default: Constants.TEXTURETYPE_UNSIGNED_BYTE
 
 > `optional` **uvEdgeBlending?**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L47)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L47)
 
 If true, a post processing effect will be applied to the texture to fix seams. Default: false
 
@@ -70,6 +70,6 @@ If true, a post processing effect will be applied to the texture to fix seams. D
 
 > `optional` **width?**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L26)
+Defined in: [packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUVSpaceRenderer.pure.ts#L26)
 
 Width of the texture. Default: 1024

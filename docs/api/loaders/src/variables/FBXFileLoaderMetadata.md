@@ -8,7 +8,7 @@
 
 > `const` **FBXFileLoaderMetadata**: `object`
 
-Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.metadata.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/FBX/fbxFileLoader.metadata.ts#L6)
+Defined in: [packages/dev/loaders/src/FBX/fbxFileLoader.metadata.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/FBX/fbxFileLoader.metadata.ts#L6)
 
 Defines the FBX loader plugin metadata.
 

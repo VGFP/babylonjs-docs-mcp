@@ -6,7 +6,7 @@
 
 # Class: SceneLoaderFlags
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L6)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L6)
 
 Class used to represent data loading progression
 
@@ -28,7 +28,7 @@ Class used to represent data loading progression
 
 > **get** `static` **CleanBoneMatrixWeights**(): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L52)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L52)
 
 Gets or set a boolean indicating if matrix weights must be cleaned upon loading
 
@@ -40,7 +40,7 @@ Gets or set a boolean indicating if matrix weights must be cleaned upon loading
 
 > **set** `static` **CleanBoneMatrixWeights**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L56)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L56)
 
 ##### Parameters
 
@@ -60,7 +60,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:56](https://githu
 
 > **get** `static` **ForceFullSceneLoadingForIncremental**(): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L16)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L16)
 
 Gets or sets a boolean indicating if entire scene must be loaded even if scene contains incremental data
 
@@ -72,7 +72,7 @@ Gets or sets a boolean indicating if entire scene must be loaded even if scene c
 
 > **set** `static` **ForceFullSceneLoadingForIncremental**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L20)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L20)
 
 ##### Parameters
 
@@ -92,7 +92,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:20](https://githu
 
 > **get** `static` **loggingLevel**(): `number`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L40)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L40)
 
 **`Ignorenaming`**
 
@@ -106,7 +106,7 @@ Defines the current logging level (while loading the scene)
 
 > **set** `static` **loggingLevel**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L45)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L45)
 
 ##### Parameters
 
@@ -126,7 +126,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:45](https://githu
 
 > **get** `static` **ShowLoadingScreen**(): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L27)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L27)
 
 Gets or sets a boolean indicating if loading screen must be displayed while loading a scene
 
@@ -138,7 +138,7 @@ Gets or sets a boolean indicating if loading screen must be displayed while load
 
 > **set** `static` **ShowLoadingScreen**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L31)
+Defined in: [packages/dev/core/src/Loading/sceneLoaderFlags.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoaderFlags.ts#L31)
 
 ##### Parameters
 

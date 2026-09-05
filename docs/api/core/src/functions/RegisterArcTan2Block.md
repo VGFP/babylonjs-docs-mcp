@@ -8,7 +8,7 @@
 
 > **RegisterArcTan2Block**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Node/Blocks/arcTan2Block.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Node/Blocks/arcTan2Block.pure.ts#L72)
+Defined in: [packages/dev/core/src/Materials/Node/Blocks/arcTan2Block.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Node/Blocks/arcTan2Block.pure.ts#L72)
 
 Register side effects for arcTan2Block.
 Safe to call multiple times; only the first call has an effect.

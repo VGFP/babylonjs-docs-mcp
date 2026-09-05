@@ -6,7 +6,7 @@
 
 # Interface: IPropertyDescriptionForEdition
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L81)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L81)
 
 Interface that describes an editable property
 
@@ -16,7 +16,7 @@ Interface that describes an editable property
 
 > **className**: `string`
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L93)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L93)
 
 name of the class that contains the property
 
@@ -26,7 +26,7 @@ name of the class that contains the property
 
 > **displayName**: `string`
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L85)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L85)
 
 display name of the property
 
@@ -36,7 +36,7 @@ display name of the property
 
 > **groupName**: `string`
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L89)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L89)
 
 group of the property - all properties with the same group value will be displayed in a specific section
 
@@ -46,7 +46,7 @@ group of the property - all properties with the same group value will be display
 
 > **options**: [`IEditablePropertyOption`](IEditablePropertyOption.md)
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L91)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L91)
 
 options for the property
 
@@ -56,7 +56,7 @@ options for the property
 
 > **propertyName**: `string`
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L83)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L83)
 
 name of the property
 
@@ -66,6 +66,6 @@ name of the property
 
 > **type**: [`PropertyTypeForEdition`](../enumerations/PropertyTypeForEdition.md)
 
-Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Decorators/nodeDecorator.ts#L87)
+Defined in: [packages/dev/core/src/Decorators/nodeDecorator.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Decorators/nodeDecorator.ts#L87)
 
 type of the property

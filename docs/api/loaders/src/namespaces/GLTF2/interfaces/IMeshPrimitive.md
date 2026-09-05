@@ -6,7 +6,7 @@
 
 # Interface: IMeshPrimitive
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L167)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:167](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L167)
 
 Loader interface with additional members.
 
@@ -20,7 +20,7 @@ Loader interface with additional members.
 
 > **attributes**: `object`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:682](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L682)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:682](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L682)
 
 A dictionary object, where each key corresponds to mesh attribute semantic and each value is the index of the accessor containing attribute's data
 
@@ -38,7 +38,7 @@ A dictionary object, where each key corresponds to mesh attribute semantic and e
 
 > `optional` **extensions?**: `object`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L282)
 
 Dictionary object with extension-specific objects
 
@@ -56,7 +56,7 @@ Dictionary object with extension-specific objects
 
 > `optional` **extras?**: `any`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:288](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L288)
 
 Application-Specific data
 
@@ -70,7 +70,7 @@ Application-Specific data
 
 > **index**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
+Defined in: [packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/glTFLoaderInterfaces.ts#L20)
 
 The index of this item in the array.
 
@@ -84,7 +84,7 @@ The index of this item in the array.
 
 > `optional` **indices?**: `number`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:688](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L688)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:688](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L688)
 
 The index of the accessor that contains the indices
 
@@ -98,7 +98,7 @@ The index of the accessor that contains the indices
 
 > `optional` **material?**: `number`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:692](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L692)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:692](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L692)
 
 The index of the material to apply to this primitive when rendering
 
@@ -112,7 +112,7 @@ The index of the material to apply to this primitive when rendering
 
 > `optional` **mode?**: `MeshPrimitiveMode`
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:696](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L696)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:696](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L696)
 
 The type of primitives to render. All valid values correspond to WebGL enums
 
@@ -126,7 +126,7 @@ The type of primitives to render. All valid values correspond to WebGL enums
 
 > `optional` **targets?**: `object`[]
 
-Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:700](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L700)
+Defined in: [packages/public/glTF2Interface/babylon.glTF2Interface.d.ts:700](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/public/glTF2Interface/babylon.glTF2Interface.d.ts#L700)
 
 An array of Morph Targets, each  Morph Target is a dictionary mapping attributes (only POSITION, NORMAL, and TANGENT supported) to their deviations in the Morph Target
 

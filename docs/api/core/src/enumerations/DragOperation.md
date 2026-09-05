@@ -6,7 +6,7 @@
 
 # Enumeration: DragOperation
 
-Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L116)
+Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L116)
 
 Dragging operation in observable
 
@@ -16,7 +16,7 @@ Dragging operation in observable
 
 > **Rotation**: `0`
 
-Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L117)
+Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L117)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:117](https://githu
 
 > **Scaling**: `1`
 
-Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L118)
+Defined in: [packages/dev/core/src/Gizmos/boundingBoxGizmo.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gizmos/boundingBoxGizmo.ts#L118)

@@ -6,7 +6,7 @@
 
 # Class: GLTF2Export
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L73)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L73)
 
 Class for generating glTF data from a Babylon scene.
 
@@ -26,7 +26,7 @@ Class for generating glTF data from a Babylon scene.
 
 > `static` **GLBAsync**(`scene`, `fileName`, `options?`): `Promise`\<[`GLTFData`](GLTFData.md)\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L100)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:100](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L100)
 
 Exports the scene to .glb file format
 
@@ -62,7 +62,7 @@ Returns the exported data
 
 > `static` **GLTFAsync**(`scene`, `fileName`, `options?`): `Promise`\<[`GLTFData`](GLTFData.md)\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L81)
+Defined in: [packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/glTFSerializer.ts#L81)
 
 Exports the scene to .gltf file format
 

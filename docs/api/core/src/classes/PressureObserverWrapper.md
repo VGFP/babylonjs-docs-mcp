@@ -6,7 +6,7 @@
 
 # Class: PressureObserverWrapper
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:7](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L7)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:7](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L7)
 
 A wrapper for the experimental pressure api which allows a callback to be called whenever certain thresholds are met.
 
@@ -16,7 +16,7 @@ A wrapper for the experimental pressure api which allows a callback to be called
 
 > **new PressureObserverWrapper**(`options?`): `PressureObserverWrapper`
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L21)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L21)
 
 A pressure observer will call this callback, whenever these thresholds are met.
 
@@ -38,7 +38,7 @@ An object containing the thresholds used to decide what value to to return for e
 
 > **onPressureChanged**: [`Observable`](Observable.md)\<`PressureRecord`[]\>
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L15)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L15)
 
 An event triggered when the cpu usage/speed meets certain thresholds.
 Note: pressure is an experimental API.
@@ -51,7 +51,7 @@ Note: pressure is an experimental API.
 
 > **get** `static` **IsAvailable**(): `boolean`
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L33)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L33)
 
 Returns true if PressureObserver is available for use, false otherwise.
 
@@ -65,7 +65,7 @@ Returns true if PressureObserver is available for use, false otherwise.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L68)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L68)
 
 Release the associated resources.
 
@@ -79,7 +79,7 @@ Release the associated resources.
 
 > **observe**(`source`): `void`
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L41)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L41)
 
 Method that must be called to begin observing changes, and triggering callbacks.
 
@@ -101,7 +101,7 @@ defines the source to observe
 
 > **unobserve**(`source`): `void`
 
-Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L57)
+Defined in: [packages/dev/core/src/Misc/pressureObserverWrapper.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/pressureObserverWrapper.ts#L57)
 
 Method that must be called to stop observing changes and triggering callbacks (cleanup function).
 

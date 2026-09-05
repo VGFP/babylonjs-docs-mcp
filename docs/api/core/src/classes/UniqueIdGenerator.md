@@ -6,7 +6,7 @@
 
 # Class: UniqueIdGenerator
 
-Defined in: [packages/dev/core/src/Misc/uniqueIdGenerator.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/uniqueIdGenerator.ts#L4)
+Defined in: [packages/dev/core/src/Misc/uniqueIdGenerator.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/uniqueIdGenerator.ts#L4)
 
 Helper class used to generate session unique ID
 
@@ -28,7 +28,7 @@ Helper class used to generate session unique ID
 
 > **get** `static` **UniqueId**(): `number`
 
-Defined in: [packages/dev/core/src/Misc/uniqueIdGenerator.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/uniqueIdGenerator.ts#L11)
+Defined in: [packages/dev/core/src/Misc/uniqueIdGenerator.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/uniqueIdGenerator.ts#L11)
 
 Gets an unique (relatively to the current scene) Id
 

@@ -8,7 +8,7 @@
 
 > **computeMaxExtents**(`meshes`, `animationGroup?`, `animationStep?`): `object`[]
 
-Defined in: [packages/dev/core/src/Meshes/meshUtils.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshUtils.ts#L36)
+Defined in: [packages/dev/core/src/Meshes/meshUtils.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshUtils.ts#L36)
 
 Computes the maximum extents of the given meshes considering animation, skeleton, and morph targets.
 

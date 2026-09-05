@@ -6,7 +6,7 @@
 
 # Class: WebXRMotionControllerTeleportation
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L165)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L165)
 
 This is a teleportation feature to be used with WebXR-enabled motion controllers.
 When enabled and attached, the feature will allow a user to move around and rotate in the scene using
@@ -22,7 +22,7 @@ the input of the attached controllers.
 
 > **new WebXRMotionControllerTeleportation**(`_xrSessionManager`, `_options`): `WebXRMotionControllerTeleportation`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L314)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L314)
 
 constructs a new teleportation system
 
@@ -54,7 +54,7 @@ configuration object for this feature
 
 > **backwardsMovementEnabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L218)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:218](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L218)
 
 Is movement backwards enabled
 
@@ -64,7 +64,7 @@ Is movement backwards enabled
 
 > **backwardsTeleportationDistance**: `number` = `0.7`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L222)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:222](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L222)
 
 Distance to travel when moving backwards
 
@@ -74,7 +74,7 @@ Distance to travel when moving backwards
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -88,7 +88,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -102,7 +102,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -116,7 +116,7 @@ Is this feature disposed?
 
 > **onAfterCameraTeleport**: [`Observable`](Observable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L277)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L277)
 
 Observable raised after camera teleportation
 
@@ -126,7 +126,7 @@ Observable raised after camera teleportation
 
 > **onAfterCameraTeleportRotation**: [`Observable`](Observable.md)\<[`Quaternion`](Quaternion.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L267)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L267)
 
 Observable raised after camera rotation
 
@@ -136,7 +136,7 @@ Observable raised after camera rotation
 
 > **onBeforeCameraTeleport**: [`Observable`](Observable.md)\<[`Vector3`](Vector3.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L272)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:272](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L272)
 
 Observable raised before camera teleportation
 
@@ -146,7 +146,7 @@ Observable raised before camera teleportation
 
 > **onBeforeCameraTeleportRotation**: [`Observable`](Observable.md)\<`number`\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L262)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L262)
 
 Observable raised before camera rotation
 
@@ -156,7 +156,7 @@ Observable raised before camera rotation
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -170,7 +170,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -184,7 +184,7 @@ Observers registered here will be executed when the feature is detached
 
 > **onTargetMeshPositionUpdatedObservable**: [`Observable`](Observable.md)\<[`PickingInfo`](PickingInfo.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L250)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:250](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L250)
 
 This observable will notify when the target mesh position was updated.
 The picking info it provides contains the point to which the target mesh will move ()
@@ -195,7 +195,7 @@ The picking info it provides contains the point to which the target mesh will mo
 
 > **parabolicCheckRadius**: `number` = `5`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L228)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:228](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L228)
 
 The distance from the user to the inspection point in the direction of the controller
 A higher number will allow the user to move further
@@ -207,7 +207,7 @@ defaults to 5 (meters, in xr units)
 
 > **parabolicRayEnabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L234)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:234](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L234)
 
 Should the module support parabolic ray on top of direct ray
 If enabled, the user will be able to point "at the sky" and move according to predefined radius distance
@@ -219,7 +219,7 @@ Very helpful when moving between floors / different heights
 
 > **rotationAngle**: `number`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L244)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:244](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L244)
 
 How much rotation should be applied when rotating right and left
 
@@ -229,7 +229,7 @@ How much rotation should be applied when rotating right and left
 
 > **skipNextTeleportation**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L202)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L202)
 
 Skip the next teleportation. This can be controlled by the user to prevent the user from teleportation
 to sections that are not yet "unlocked", but should still show the teleportation mesh.
@@ -240,7 +240,7 @@ to sections that are not yet "unlocked", but should still show the teleportation
 
 > **straightRayEnabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L240)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L240)
 
 The second type of ray - straight line.
 Should it be enabled or should the parabolic line be the only one.
@@ -251,7 +251,7 @@ Should it be enabled or should the parabolic line be the only one.
 
 > **teleportationEnabled**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L255)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L255)
 
 Is teleportation enabled. Can be used to allow rotation only.
 
@@ -261,7 +261,7 @@ Is teleportation enabled. Can be used to allow rotation only.
 
 > `readonly` `static` **Name**: `"xr-controller-teleportation"` = `WebXRFeatureName.TELEPORTATION`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L207)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:207](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L207)
 
 The module's name
 
@@ -271,7 +271,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:213](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L213)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:213](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L213)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -285,7 +285,7 @@ This number does not correspond to the webxr specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -307,7 +307,7 @@ Is this feature attached
 
 > **get** **rotationEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L283)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L283)
 
 Is rotation enabled when moving forward?
 Disabling this feature will prevent the user from deciding the direction when teleporting
@@ -320,7 +320,7 @@ Disabling this feature will prevent the user from deciding the direction when te
 
 > **set** **rotationEnabled**(`enabled`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L291)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L291)
 
 Sets whether rotation is enabled or not
 
@@ -344,7 +344,7 @@ is rotation enabled when teleportation is shown
 
 > **get** **snapPointsOnly**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L344)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L344)
 
 Get the snapPointsOnly flag
 
@@ -356,7 +356,7 @@ Get the snapPointsOnly flag
 
 > **set** **snapPointsOnly**(`snapToPoints`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L352)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:352](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L352)
 
 Sets the snapPointsOnly flag
 
@@ -380,7 +380,7 @@ should teleportation be exclusively to snap points
 
 > **get** **teleportationTargetMesh**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractMesh`](AbstractMesh.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L305)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:305](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L305)
 
 Exposes the currently set teleportation target mesh.
 
@@ -396,7 +396,7 @@ Exposes the currently set teleportation target mesh.
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -408,7 +408,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -434,7 +434,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **addBlockerMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L368)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:368](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L368)
 
 Add a mesh to the list of meshes blocking the teleportation ray
 
@@ -456,7 +456,7 @@ The mesh to add to the teleportation-blocking meshes
 
 > **addFloorMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L360)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L360)
 
 Add a new mesh to the floor meshes array
 
@@ -478,7 +478,7 @@ the mesh to use as floor mesh
 
 > **addSnapPoint**(`newSnapPoint`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L377)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:377](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L377)
 
 Add a new snap-to point to fix teleportation to this position
 
@@ -500,7 +500,7 @@ The new Snap-To point
 
 > **attach**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L381)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:381](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L381)
 
 attach this feature
 
@@ -520,7 +520,7 @@ true if successful, false is failed or already attached
 
 > **detach**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L401)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L401)
 
 detach this feature.
 
@@ -540,7 +540,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L419)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:419](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L419)
 
 Dispose this feature and all of the resources attached
 
@@ -558,7 +558,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it
@@ -579,7 +579,7 @@ whether or not the feature is compatible in this environment
 
 > **removeBlockerMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L447)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:447](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L447)
 
 Remove a mesh from the blocker meshes array
 
@@ -601,7 +601,7 @@ the mesh to remove
 
 > **removeFloorMesh**(`mesh`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L436)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:436](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L436)
 
 Remove a mesh from the floor meshes array
 
@@ -623,7 +623,7 @@ the mesh to remove
 
 > **removeFloorMeshByName**(`name`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L459)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:459](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L459)
 
 Remove a mesh from the floor meshes array using its name
 
@@ -645,7 +645,7 @@ the mesh name to remove
 
 > **removeSnapPoint**(`snapPointToRemove`): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L471)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:471](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L471)
 
 This function will iterate through the array, searching for this point or equal to it. It will then remove it from the snap-to array
 
@@ -669,7 +669,7 @@ was the point found and removed or not
 
 > **setSelectionFeature**(`selectionFeature`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L498)
+Defined in: [packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts:498](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRControllerTeleportation.pure.ts#L498)
 
 This function sets a selection feature that will be disabled when
 the forward ray is shown and will be reattached when hidden.

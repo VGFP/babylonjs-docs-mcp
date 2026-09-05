@@ -6,7 +6,7 @@
 
 # Interface: ISerializedFlowGraphContext
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L74)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L74)
 
 A Serialized Flow Graph Context
 
@@ -16,7 +16,7 @@ A Serialized Flow Graph Context
 
 > `optional` **\_assetsContext?**: `object`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L100)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:100](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L100)
 
 Assets context, if not the scene
 
@@ -30,7 +30,7 @@ Assets context, if not the scene
 
 > **\_connectionValues**: `object`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L95)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L95)
 
 Values of the connection points
 
@@ -44,7 +44,7 @@ Values of the connection points
 
 > **\_userVariables**: `object`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L86)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L86)
 
 User variables
 
@@ -58,7 +58,7 @@ User variables
 
 > `optional` **\_variableTypes?**: `object`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L91)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L91)
 
 Optional type annotations for user variables.
 Keys are variable names; values are type name strings.
@@ -73,7 +73,7 @@ Keys are variable names; values are type name strings.
 
 > `optional` **enableLogging?**: `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L105)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:105](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L105)
 
 Should logging be enabled?
 
@@ -83,7 +83,7 @@ Should logging be enabled?
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L82)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L82)
 
 An optional user-facing name for the context
 
@@ -93,6 +93,6 @@ An optional user-facing name for the context
 
 > **uniqueId**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L78)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L78)
 
 The unique id of the context

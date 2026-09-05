@@ -6,7 +6,7 @@
 
 # Interface: IUploadImageToTexture2DArrayLayerOptions
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L25)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L25)
 
 Options controlling how an image source is uploaded into a 2D array texture layer.
 
@@ -20,7 +20,7 @@ Options controlling how an image source is uploaded into a 2D array texture laye
 
 > `optional` **invertY?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L27)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L27)
 
 Defines if the source must be stored with the Y axis inverted (false by default)
 
@@ -30,6 +30,6 @@ Defines if the source must be stored with the Y axis inverted (false by default)
 
 > `optional` **premultiplyAlpha?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L29)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L29)
 
 Defines if the source alpha must be premultiplied (false by default)

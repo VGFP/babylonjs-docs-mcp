@@ -8,7 +8,7 @@
 
 > **CreateLines**(`name`, `options`, `scene?`): [`LinesMesh`](../classes/LinesMesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts#L196)
+Defined in: [packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/linesBuilder.pure.ts#L196)
 
 Creates a line mesh
 A line mesh is considered as a parametric shape since it has no predefined original shape. Its shape is determined by the passed array of points as an input parameter

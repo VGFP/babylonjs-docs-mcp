@@ -6,7 +6,7 @@
 
 # Enumeration: TextureColorSpace
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L19)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L19)
 
 Specifies the color space of a texture operand.
 When `sRGB` is set the sampled RGB values are converted to linear space before any channel
@@ -18,7 +18,7 @@ swizzle, factor multiplication, or arithmetic operation. Alpha is always treated
 
 > **Linear**: `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L21)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L21)
 
 Texture data is already in linear space (default). No conversion applied.
 
@@ -28,6 +28,6 @@ Texture data is already in linear space (default). No conversion applied.
 
 > **SRGB**: `1`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L23)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L23)
 
 Texture data is in sRGB (gamma) space. RGB channels are linearized (IEC 61966-2-1) before use.

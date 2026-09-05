@@ -6,7 +6,7 @@
 
 # Interface: PhysicsHitData
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1173)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1173)
 
 Interface for a physics hit data
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **contactPoint**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1181)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1181)
 
 The contact point
 
@@ -30,7 +30,7 @@ The contact point
 
 > **distanceFromOrigin**: `number`
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1185)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1185)
 
 The distance from the origin to the contact point
 
@@ -40,7 +40,7 @@ The distance from the origin to the contact point
 
 > **force**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1177)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1177)
 
 The force applied at the contact point
 
@@ -50,6 +50,6 @@ The force applied at the contact point
 
 > `optional` **instanceIndex?**: `number`
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1189)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1189)
 
 For an instanced physics body (mesh with thin instances), the index of the thin instance the hit applies to

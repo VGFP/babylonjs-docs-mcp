@@ -8,7 +8,7 @@
 
 > **RegisterKHR\_materials\_diffuse\_roughness**(): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_roughness.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_roughness.pure.ts#L89)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_diffuse\_roughness.pure.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_diffuse_roughness.pure.ts#L89)
 
 Registers the KHR_materials_diffuse_roughness glTF loader extension.
 Safe to call multiple times; only the first call has an effect.

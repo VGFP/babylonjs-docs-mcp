@@ -6,7 +6,7 @@
 
 # Enumeration: TextureChannel
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L68)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L68)
 
 Specifies which channel of a texture to read for an operation.
 When a single channel is selected its scalar value is broadcast to RGB; alpha
@@ -26,7 +26,7 @@ is either preserved from the original sample or replicated when `A` is chosen.
 
 > **A**: `4`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L78)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L78)
 
 Broadcast the alpha channel to all four components: AAAA.
 
@@ -36,7 +36,7 @@ Broadcast the alpha channel to all four components: AAAA.
 
 > **B**: `3`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L76)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L76)
 
 Broadcast the blue channel to RGB; preserve alpha: BBBA.
 
@@ -46,7 +46,7 @@ Broadcast the blue channel to RGB; preserve alpha: BBBA.
 
 > **G**: `2`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L74)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L74)
 
 Broadcast the green channel to RGB; preserve alpha: GGGA.
 
@@ -56,7 +56,7 @@ Broadcast the green channel to RGB; preserve alpha: GGGA.
 
 > **R**: `1`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L72)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L72)
 
 Broadcast the red channel to RGB; preserve alpha: RRRA.
 
@@ -66,6 +66,6 @@ Broadcast the red channel to RGB; preserve alpha: RRRA.
 
 > **RGBA**: `0`
 
-Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L70)
+Defined in: [packages/dev/core/src/Materials/Textures/textureProcessor.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/textureProcessor.ts#L70)
 
 Use all four channels as sampled (default).

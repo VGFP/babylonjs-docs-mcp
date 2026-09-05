@@ -6,7 +6,7 @@
 
 # Class: WebXRMeshDetector
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L99)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L104)
 
 The mesh detector is used to detect meshes in the real world when in AR
 
@@ -20,7 +20,7 @@ The mesh detector is used to detect meshes in the real world when in AR
 
 > **new WebXRMeshDetector**(`_xrSessionManager`, `_options?`): `WebXRMeshDetector`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L126)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L131)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:126](ht
 
 > `optional` **dependsOn?**: `string`[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L63)
 
 The dependencies of this feature, if any
 
@@ -60,7 +60,7 @@ The dependencies of this feature, if any
 
 > **disableAutoAttach**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L29)
 
 Should auto-attach be disabled?
 
@@ -74,7 +74,7 @@ Should auto-attach be disabled?
 
 > **isDisposed**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L24)
 
 Is this feature disposed?
 
@@ -88,7 +88,7 @@ Is this feature disposed?
 
 > **onFeatureAttachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L54)
 
 Observers registered here will be executed when the feature is attached
 
@@ -102,7 +102,7 @@ Observers registered here will be executed when the feature is attached
 
 > **onFeatureDetachObservable**: [`Observable`](Observable.md)\<[`IWebXRFeature`](../interfaces/IWebXRFeature.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L58)
 
 Observers registered here will be executed when the feature is detached
 
@@ -116,7 +116,7 @@ Observers registered here will be executed when the feature is detached
 
 > **onMeshAddedObservable**: [`Observable`](Observable.md)\<[`IWebXRVertexData`](../interfaces/IWebXRVertexData.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L116)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L121)
 
 Observers registered here will be executed when a new mesh was added to the session
 
@@ -126,7 +126,7 @@ Observers registered here will be executed when a new mesh was added to the sess
 
 > **onMeshRemovedObservable**: [`Observable`](Observable.md)\<[`IWebXRVertexData`](../interfaces/IWebXRVertexData.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L120)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L125)
 
 Observers registered here will be executed when a mesh is no longer detected in the session
 
@@ -136,7 +136,7 @@ Observers registered here will be executed when a mesh is no longer detected in 
 
 > **onMeshUpdatedObservable**: [`Observable`](Observable.md)\<[`IWebXRVertexData`](../interfaces/IWebXRVertexData.md)\>
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:124](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L124)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L129)
 
 Observers registered here will be executed when an existing mesh updates
 
@@ -146,7 +146,7 @@ Observers registered here will be executed when an existing mesh updates
 
 > `readonly` `static` **Name**: `"xr-mesh-detection"` = `WebXRFeatureName.MESH_DETECTION`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L105)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L110)
 
 The module's name
 
@@ -156,7 +156,7 @@ The module's name
 
 > `readonly` `static` **Version**: `1` = `1`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L111)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L116)
 
 The (Babylon) version of this module.
 This is an integer representing the implementation version.
@@ -170,7 +170,7 @@ This number does not correspond to the WebXR specs version
 
 > **get** **attached**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L74)
 
 Is this feature attached
 
@@ -192,7 +192,7 @@ Is this feature attached
 
 > **get** **xrNativeFeatureName**(): `string`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L39)
 
 The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
@@ -204,7 +204,7 @@ The name of the native xr feature name (like anchor, hit-test, or hand-tracking)
 
 > **set** **xrNativeFeatureName**(`name`): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L43)
 
 The name of the native xr feature name, if applicable (like anchor, hit-test, or hand-tracking)
 
@@ -230,7 +230,7 @@ The name of the native xr feature name, if applicable (like anchor, hit-test, or
 
 > **attach**(`force?`): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L84)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L84)
 
 attach this feature
 
@@ -258,7 +258,7 @@ true if successful, false is failed or already attached
 
 > **detach**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L144)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L149)
 
 detach this feature.
 
@@ -278,7 +278,7 @@ true if successful, false if failed or already detached
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L165)
+Defined in: [packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRMeshDetector.pure.ts#L170)
 
 Dispose this feature and all of the resources attached
 
@@ -296,7 +296,7 @@ Dispose this feature and all of the resources attached
 
 > **isCompatible**(): `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
+Defined in: [packages/dev/core/src/XR/features/WebXRAbstractFeature.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRAbstractFeature.ts#L149)
 
 This function will be executed during before enabling the feature and can be used to not-allow enabling it.
 Note that at this point the session has NOT started, so this is purely checking if the browser supports it

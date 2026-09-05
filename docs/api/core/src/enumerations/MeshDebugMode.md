@@ -6,7 +6,7 @@
 
 # Enumeration: MeshDebugMode
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:303](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L303)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:303](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L303)
 
 Supported visualizations of MeshDebugPluginMaterial
 
@@ -16,7 +16,7 @@ Supported visualizations of MeshDebugPluginMaterial
 
 > **MATERIALIDS**: `7`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:338](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L338)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:338](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L338)
 
 An arbitrary, distinguishable color to identify the material
 
@@ -26,7 +26,7 @@ An arbitrary, distinguishable color to identify the material
 
 > **NONE**: `0`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:307](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L307)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:307](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L307)
 
 Material without any mesh debug visualization
 
@@ -36,7 +36,7 @@ Material without any mesh debug visualization
 
 > **TRIANGLES**: `1`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L312)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L312)
 
 A wireframe of the mesh
 NOTE: For this mode to work correctly, convertToUnIndexedMesh() or MeshDebugPluginMaterial.PrepareMeshForTrianglesAndVerticesMode() must first be called on mesh.
@@ -47,7 +47,7 @@ NOTE: For this mode to work correctly, convertToUnIndexedMesh() or MeshDebugPlug
 
 > **TRIANGLES\_VERTICES**: `3`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L322)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L322)
 
 A wireframe of the mesh, with points drawn over vertices
 NOTE: For this mode to work correctly, MeshDebugPluginMaterial.PrepareMeshForTrianglesAndVerticesMode() must first be called on mesh.
@@ -58,7 +58,7 @@ NOTE: For this mode to work correctly, MeshDebugPluginMaterial.PrepareMeshForTri
 
 > **UV0**: `4`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L326)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:326](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L326)
 
 A checkerboard grid of the mesh's UV set 0
 
@@ -68,7 +68,7 @@ A checkerboard grid of the mesh's UV set 0
 
 > **UV1**: `5`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L330)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:330](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L330)
 
 A checkerboard grid of the mesh's UV set 1
 
@@ -78,7 +78,7 @@ A checkerboard grid of the mesh's UV set 1
 
 > **VERTEXCOLORS**: `6`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L334)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L334)
 
 The mesh's vertex colors displayed as the primary texture
 
@@ -88,7 +88,7 @@ The mesh's vertex colors displayed as the primary texture
 
 > **VERTICES**: `2`
 
-Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L317)
+Defined in: [packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts:317](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/meshDebugPluginMaterial.pure.ts#L317)
 
 Points drawn over vertices of mesh
 NOTE: For this mode to work correctly, MeshDebugPluginMaterial.PrepareMeshForTrianglesAndVerticesMode() must first be called on mesh.

@@ -6,7 +6,7 @@
 
 # Class: ExrLoaderGlobalConfiguration
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts#L9)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts#L9)
 
 Class used to store configuration of the exr loader
 
@@ -26,7 +26,7 @@ Class used to store configuration of the exr loader
 
 > `static` **DefaultOutputType**: [`EXROutputType`](../enumerations/EXROutputType.md) = `EXROutputType.HalfFloat`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts#L13)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts#L13)
 
 Defines the default output type to use (Half float by default)
 
@@ -36,6 +36,6 @@ Defines the default output type to use (Half float by default)
 
 > `static` **FFLATEUrl**: `string` = `"https://unpkg.com/fflate@0.8.2"`
 
-Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts#L18)
+Defined in: [packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/Loaders/EXR/exrLoader.configuration.ts#L18)
 
 Url to use to load the fflate library (for zip decompression)

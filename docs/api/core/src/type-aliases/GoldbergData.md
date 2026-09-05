@@ -8,7 +8,7 @@
 
 > **GoldbergData** = `object`
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L15)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L15)
 
 Defines the set of goldberg data used to create the polygon
 
@@ -18,7 +18,7 @@ Defines the set of goldberg data used to create the polygon
 
 > **adjacentFaces**: `number`[][]
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L55)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L55)
 
 Defines the number of adjacent faces per goldberg faces
 
@@ -28,7 +28,7 @@ Defines the number of adjacent faces per goldberg faces
 
 > **faceCenters**: [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L23)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L23)
 
 The list of Goldberg faces centers
 
@@ -38,7 +38,7 @@ The list of Goldberg faces centers
 
 > **faceColors**: [`Color4`](../classes/Color4.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L19)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L19)
 
 The list of Goldberg faces colors
 
@@ -48,7 +48,7 @@ The list of Goldberg faces colors
 
 > **faceXaxis**: [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L31)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L31)
 
 The list of Goldberg faces Y axis
 
@@ -58,7 +58,7 @@ The list of Goldberg faces Y axis
 
 > **faceYaxis**: [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L35)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L35)
 
 The list of Goldberg faces X axis
 
@@ -68,7 +68,7 @@ The list of Goldberg faces X axis
 
 > **faceZaxis**: [`Vector3`](../classes/Vector3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L27)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L27)
 
 The list of Goldberg faces Z axis
 
@@ -78,7 +78,7 @@ The list of Goldberg faces Z axis
 
 > **nbFaces**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L47)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L47)
 
 Defines the total number of goldberg faces
 
@@ -88,7 +88,7 @@ Defines the total number of goldberg faces
 
 > **nbFacesAtPole**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L51)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L51)
 
 Defines the number of goldberg faces at the pole
 
@@ -98,7 +98,7 @@ Defines the number of goldberg faces at the pole
 
 > **nbSharedFaces**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L39)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L39)
 
 Defines the number of shared faces
 
@@ -108,6 +108,6 @@ Defines the number of shared faces
 
 > **nbUnsharedFaces**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L43)
+Defined in: [packages/dev/core/src/Meshes/goldbergMesh.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/goldbergMesh.pure.ts#L43)
 
 Defines the number of unshared faces

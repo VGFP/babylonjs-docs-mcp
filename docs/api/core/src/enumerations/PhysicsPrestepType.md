@@ -6,7 +6,7 @@
 
 # Enumeration: PhysicsPrestepType
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L360)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L360)
 
 Indicates how to handle position/rotation change of transform node attached to a physics body
 
@@ -16,7 +16,7 @@ Indicates how to handle position/rotation change of transform node attached to a
 
 > **ACTION**: `2`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:363](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L363)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:363](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L363)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:363](https
 
 > **DISABLED**: `0`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:361](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L361)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:361](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L361)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:361](https
 
 > **TELEPORT**: `1`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:362](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L362)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:362](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L362)

@@ -6,7 +6,7 @@
 
 # ~~Class: SceneLoader~~
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1312)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1312](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1312)
 
 Class used to load scene from various file formats using registered plugins
 
@@ -35,7 +35,7 @@ The module level functions are more efficient for bundler tree shaking and allow
 
 > `readonly` `static` **DETAILED\_LOGGING**: `3` = `Constants.SCENELOADER_DETAILED_LOGGING`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1331)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1331)
 
 Detailed logging while loading
 
@@ -45,7 +45,7 @@ Detailed logging while loading
 
 > `readonly` `static` **MINIMAL\_LOGGING**: `1` = `Constants.SCENELOADER_MINIMAL_LOGGING`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1321)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1321](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1321)
 
 Minimal logging while loading
 
@@ -55,7 +55,7 @@ Minimal logging while loading
 
 > `readonly` `static` **NO\_LOGGING**: `0` = `Constants.SCENELOADER_NO_LOGGING`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1316](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1316)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1316](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1316)
 
 No logging while loading
 
@@ -65,7 +65,7 @@ No logging while loading
 
 > `readonly` `static` **OnPluginActivatedObservable**: [`Observable`](Observable.md)\<[`ISceneLoaderPlugin`](../interfaces/ISceneLoaderPlugin.md) \| [`ISceneLoaderPluginAsync`](../interfaces/ISceneLoaderPluginAsync.md)\> = `onPluginActivatedObservable`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1385](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1385)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1385](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1385)
 
 Event raised when a plugin is used to load a scene
 
@@ -75,7 +75,7 @@ Event raised when a plugin is used to load a scene
 
 > `readonly` `static` **SUMMARY\_LOGGING**: `2` = `Constants.SCENELOADER_SUMMARY_LOGGING`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1326](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1326)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1326](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1326)
 
 Summary logging while loading
 
@@ -87,7 +87,7 @@ Summary logging while loading
 
 > **get** `static` **CleanBoneMatrixWeights**(): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1372](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1372)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1372](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1372)
 
 Gets or set a boolean indicating if matrix weights must be cleaned upon loading
 
@@ -99,7 +99,7 @@ Gets or set a boolean indicating if matrix weights must be cleaned upon loading
 
 > **set** `static` **CleanBoneMatrixWeights**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1376](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1376)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1376](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1376)
 
 ##### Parameters
 
@@ -119,7 +119,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1376](https://github.c
 
 > **get** `static` **ForceFullSceneLoadingForIncremental**(): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1336)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1336)
 
 Gets or sets a boolean indicating if entire scene must be loaded even if scene contains incremental data
 
@@ -131,7 +131,7 @@ Gets or sets a boolean indicating if entire scene must be loaded even if scene c
 
 > **set** `static` **ForceFullSceneLoadingForIncremental**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1340)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1340](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1340)
 
 ##### Parameters
 
@@ -151,7 +151,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1340](https://github.c
 
 > **get** `static` **loggingLevel**(): `number`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1360)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1360)
 
 **`Ignorenaming`**
 
@@ -165,7 +165,7 @@ Defines the current logging level (while loading the scene)
 
 > **set** `static` **loggingLevel**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1365)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1365)
 
 ##### Parameters
 
@@ -185,7 +185,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1365](https://github.c
 
 > **get** `static` **ShowLoadingScreen**(): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1347)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1347)
 
 Gets or sets a boolean indicating if loading screen must be displayed while loading a scene
 
@@ -197,7 +197,7 @@ Gets or sets a boolean indicating if loading screen must be displayed while load
 
 > **set** `static` **ShowLoadingScreen**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1351)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1351](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1351)
 
 ##### Parameters
 
@@ -215,7 +215,7 @@ Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1351](https://github.c
 
 > `static` **Append**(`rootUrl`, `sceneFilename?`, `scene?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1559](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1559)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1559](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1559)
 
 Append a scene
 
@@ -283,7 +283,7 @@ Please use the module level [AppendSceneAsync](../functions/AppendSceneAsync-1.m
 
 > `static` **AppendAsync**(`rootUrl`, `sceneFilename?`, `scene?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1591](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1591)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1591](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1591)
 
 Append a scene
 
@@ -341,7 +341,7 @@ Please use the module level [AppendSceneAsync](../functions/AppendSceneAsync-1.m
 
 > `static` **GetDefaultPlugin**(): `IRegisteredPlugin` \| `undefined`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1391)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1391](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1391)
 
 Gets the default plugin (used to load Babylon files)
 
@@ -357,7 +357,7 @@ the .babylon plugin
 
 > `static` **GetPluginForExtension**(`extension`): [`ISceneLoaderPlugin`](../interfaces/ISceneLoaderPlugin.md) \| [`ISceneLoaderPluginAsync`](../interfaces/ISceneLoaderPluginAsync.md) \| [`ISceneLoaderPluginFactory`](../interfaces/ISceneLoaderPluginFactory.md) \| `undefined`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1402)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1402](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1402)
 
 Gets a plugin that can load the given extension
 
@@ -381,7 +381,7 @@ a plugin or null if none works
 
 > `static` **ImportAnimations**(`rootUrl`, `sceneFilename?`, `scene?`, `overwriteAnimations?`, `animationGroupLoadingMode?`, `targetConverter?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1672](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1672)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1672](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1672)
 
 Import animations from a file into a scene
 
@@ -467,7 +467,7 @@ Please use the module level [ImportAnimationsAsync](../functions/ImportAnimation
 
 > `static` **ImportAnimationsAsync**(`rootUrl`, `sceneFilename?`, `scene?`, `overwriteAnimations?`, `animationGroupLoadingMode?`, `targetConverter?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1712](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1712)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1712](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1712)
 
 Import animations from a file into a scene
 
@@ -555,7 +555,7 @@ Please use the module level [ImportAnimationsAsync](../functions/ImportAnimation
 
 > `static` **ImportMesh**(`meshNames`, `rootUrl`, `sceneFilename?`, `scene?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`, `pluginOptions?`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1437](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1437)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1437](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1437)
 
 Import meshes into a scene
 
@@ -659,7 +659,7 @@ Set to "y-down" for assets authored with inverted green/Y normal maps.
 
 ###### gltf?
 
-\{ `alwaysComputeBoundingBox?`: `boolean`; `alwaysComputeSkeletonRootNode?`: `boolean`; `animationStartMode?`: [`GLTFLoaderAnimationStartMode`](../../../loaders/src/enumerations/GLTFLoaderAnimationStartMode.md); `capturePerformanceCounters?`: `boolean`; `compileMaterials?`: `boolean`; `compileShadowGenerators?`: `boolean`; `coordinateSystemMode?`: [`GLTFLoaderCoordinateSystemMode`](../../../loaders/src/enumerations/GLTFLoaderCoordinateSystemMode.md); `createInstances?`: `boolean`; `customRootNode?`: [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>; `dontUseTransmissionHelper?`: `boolean`; `enabled?`: `boolean`; `extensionOptions?`: \{\[`key`: `string`\]: \{\[`key`: `string`\]: `unknown`; `enabled?`: `boolean`; \} \| `undefined`; `EXT_lights_area?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_ies?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_image_based?`: \{ `enabled?`: `boolean`; \}; `EXT_mesh_gpu_instancing?`: \{ `enabled?`: `boolean`; \}; `EXT_meshopt_compression?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_avif?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_webp?`: \{ `enabled?`: `boolean`; \}; `ExtrasAsMetadata?`: \{ `enabled?`: `boolean`; \}; `KHR_animation_pointer?`: \{ `enabled?`: `boolean`; \}; `KHR_draco_mesh_compression?`: \{ `enabled?`: `boolean`; \}; `KHR_gaussian_splatting?`: \{ `enabled?`: `boolean`; \}; `KHR_interactivity?`: \{ `enabled?`: `boolean`; \}; `KHR_lights_punctual?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_anisotropy?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_clearcoat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_coat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_roughness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_dispersion?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_emissive_strength?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_fuzz?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_ior?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_iridescence?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_pbrSpecularGlossiness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_sheen?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_specular?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_unlit?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_variants?`: \{ `defaultVariant?`: `string`; `enabled?`: `boolean`; `onLoaded?`: (`controller`) => `void`; \}; `KHR_materials_volume?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_volume_scatter?`: \{ `enabled?`: `boolean`; \}; `KHR_mesh_quantization?`: \{ `enabled?`: `boolean`; \}; `KHR_node_hoverability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_selectability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_visibility?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_basisu?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_transform?`: \{ `enabled?`: `boolean`; \}; `KHR_xmp_json_ld?`: \{ `enabled?`: `boolean`; \}; `MSFT_audio_emitter?`: \{ `enabled?`: `boolean`; \}; `MSFT_lod?`: \{ `enabled?`: `boolean`; `maxLODsToLoad?`: `number`; \}; `MSFT_minecraftMesh?`: \{ `enabled?`: `boolean`; \}; `MSFT_sRGBFactors?`: \{ `enabled?`: `boolean`; \}; \}; `loadAllMaterials?`: `boolean`; `loadMorphTargets?`: `boolean`; `loadNodeAnimations?`: `boolean`; `loadOnlyMaterials?`: `boolean`; `loadSkins?`: `boolean`; `loggingEnabled?`: `boolean`; `onCameraLoaded?`: (`camera`) => `void`; `onMaterialLoaded?`: (`material`) => `void`; `onMeshLoaded?`: (`mesh`) => `void`; `onParsed?`: (`loaderData`) => `void`; `onSkinLoaded?`: (`node`, `skinnedNode`) => `void`; `onTextureLoaded?`: (`texture`) => `void`; `onValidated?`: (`results`) => `void`; `skipMaterials?`: `boolean`; `targetFps?`: `number`; `transparencyAsCoverage?`: `boolean`; `useClipPlane?`: `boolean`; `useGltfTextureNames?`: `boolean`; `useMaxMorphTargetInfluencers?`: `boolean`; `useOpenPBR?`: `boolean`; `useRangeRequests?`: `boolean`; `useSRGBBuffers?`: `boolean`; `validate?`: `boolean`; `preprocessUrlAsync?`: `Promise`\<`string`\>; \}
+\{ `alwaysComputeBoundingBox?`: `boolean`; `alwaysComputeSkeletonRootNode?`: `boolean`; `animationStartMode?`: [`GLTFLoaderAnimationStartMode`](../../../loaders/src/enumerations/GLTFLoaderAnimationStartMode.md); `capturePerformanceCounters?`: `boolean`; `compileMaterials?`: `boolean`; `compileShadowGenerators?`: `boolean`; `coordinateSystemMode?`: [`GLTFLoaderCoordinateSystemMode`](../../../loaders/src/enumerations/GLTFLoaderCoordinateSystemMode.md); `createInstances?`: `boolean`; `customRootNode?`: [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>; `dontUseTransmissionHelper?`: `boolean`; `enabled?`: `boolean`; `extensionOptions?`: \{\[`key`: `string`\]: \{\[`key`: `string`\]: `unknown`; `enabled?`: `boolean`; \} \| `undefined`; `EXT_lights_area?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_ies?`: \{ `enabled?`: `boolean`; \}; `EXT_lights_image_based?`: \{ `enabled?`: `boolean`; \}; `EXT_mesh_gpu_instancing?`: \{ `enabled?`: `boolean`; \}; `EXT_meshopt_compression?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_avif?`: \{ `enabled?`: `boolean`; \}; `EXT_texture_webp?`: \{ `enabled?`: `boolean`; \}; `ExtrasAsMetadata?`: \{ `enabled?`: `boolean`; \}; `KHR_animation_pointer?`: \{ `enabled?`: `boolean`; \}; `KHR_draco_mesh_compression?`: \{ `enabled?`: `boolean`; \}; `KHR_gaussian_splatting?`: \{ `enabled?`: `boolean`; \}; `KHR_interactivity?`: \{ `enabled?`: `boolean`; \}; `KHR_lights_punctual?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_anisotropy?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_clearcoat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_coat?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_roughness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_diffuse_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_dispersion?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_emissive_strength?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_fuzz?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_ior?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_iridescence?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_pbrSpecularGlossiness?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_sheen?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_specular?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_transmission?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_unlit?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_variants?`: \{ `defaultVariant?`: `string`; `enabled?`: `boolean`; `onLoaded?`: (`controller`) => `void`; \}; `KHR_materials_volume?`: \{ `enabled?`: `boolean`; \}; `KHR_materials_volume_scatter?`: \{ `enabled?`: `boolean`; \}; `KHR_mesh_quantization?`: \{ `enabled?`: `boolean`; \}; `KHR_node_hoverability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_selectability?`: \{ `enabled?`: `boolean`; \}; `KHR_node_visibility?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_basisu?`: \{ `enabled?`: `boolean`; \}; `KHR_texture_transform?`: \{ `enabled?`: `boolean`; \}; `KHR_xmp_json_ld?`: \{ `enabled?`: `boolean`; \}; `MSFT_audio_emitter?`: \{ `enabled?`: `boolean`; \}; `MSFT_lod?`: \{ `enabled?`: `boolean`; `maxLODsToLoad?`: `number`; \}; `MSFT_minecraftMesh?`: \{ `enabled?`: `boolean`; \}; `MSFT_sRGBFactors?`: \{ `enabled?`: `boolean`; \}; \}; `loadAllMaterials?`: `boolean`; `loadMorphTargets?`: `boolean`; `loadNodeAnimations?`: `boolean`; `loadOnlyMaterials?`: `boolean`; `loadSkins?`: `boolean`; `loggingEnabled?`: `boolean`; `onCameraLoaded?`: (`camera`) => `void`; `onMaterialLoaded?`: (`material`) => `void`; `onMeshLoaded?`: (`mesh`) => `void`; `onParsed?`: (`loaderData`) => `void`; `onSkinLoaded?`: (`node`, `skinnedNode`) => `void`; `onTextureLoaded?`: (`texture`) => `void`; `onValidated?`: (`results`) => `void`; `preprocessUrlAsync?`: (`url`, `rootUrl?`) => `Promise`\<`string`\>; `skipMaterials?`: `boolean`; `targetFps?`: `number`; `transparencyAsCoverage?`: `boolean`; `useClipPlane?`: `boolean`; `useGltfTextureNames?`: `boolean`; `useMaxMorphTargetInfluencers?`: `boolean`; `useOpenPBR?`: `boolean`; `useRangeRequests?`: `boolean`; `useSRGBBuffers?`: `boolean`; `validate?`: `boolean`; \}
 
 Defines options for the glTF loader.
 
@@ -1345,6 +1345,13 @@ Callback raised when the loader creates a texture after parsing the glTF propert
 
 Callback raised after the asset is validated.
 
+###### gltf.preprocessUrlAsync?
+
+(`url`, `rootUrl?`) => `Promise`\<`string`\> = `DefaultPreprocessUrlAsync`
+
+Function called before loading a URL referenced by the asset.
+Setting this function allows parent-relative asset URIs and makes the callback responsible for URI safety.
+
 ###### gltf.skipMaterials?
 
 `boolean` = `false`
@@ -1418,11 +1425,9 @@ If true, load the color (gamma encoded) textures into sRGB buffers (if supported
 
 Defines if the loader should validate the asset.
 
-###### gltf.preprocessUrlAsync?
-
 ###### obj?
 
-\{ `computeNormals?`: `boolean`; `enabled?`: `boolean`; `importVertexColors?`: `boolean`; `invertTextureY?`: `boolean`; `invertY?`: `boolean`; `materialLoadingFailsSilently?`: `boolean`; `optimizeNormals?`: `boolean`; `optimizeWithUV?`: `boolean`; `skipMaterials?`: `boolean`; `useLegacyBehavior?`: `boolean`; `UVScaling?`: [`Vector2`](Vector2.md); \}
+\{ `computeNormals?`: `boolean`; `enabled?`: `boolean`; `encoding?`: `string`; `importVertexColors?`: `boolean`; `invertTextureY?`: `boolean`; `invertY?`: `boolean`; `materialLoadingFailsSilently?`: `boolean`; `optimizeNormals?`: `boolean`; `optimizeWithUV?`: `boolean`; `skipMaterials?`: `boolean`; `useLegacyBehavior?`: `boolean`; `UVScaling?`: [`Vector2`](Vector2.md); \}
 
 Defines options for the obj loader.
 
@@ -1437,6 +1442,14 @@ Compute the normals for the model, even if normals are present in the file.
 `boolean`
 
 Defines if the plugin is enabled
+
+###### obj.encoding?
+
+`string`
+
+Defines the character encoding used to decode OBJ and MTL files.
+Use "auto" to detect UTF-8/UTF-16 and fall back to GB18030, or provide an encoding label supported by TextDecoder.
+Defaults to "auto".
 
 ###### obj.importVertexColors?
 
@@ -1608,7 +1621,7 @@ Please use the module level [ImportMeshAsync](../functions/ImportMeshAsync.md) i
 
 > `static` **ImportMeshAsync**(`meshNames`, `rootUrl`, `sceneFilename?`, `scene?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`ISceneLoaderAsyncResult`](../interfaces/ISceneLoaderAsyncResult.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1481)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1481](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1481)
 
 Import meshes into a scene
 
@@ -1672,7 +1685,7 @@ Please use the module level [ImportMeshAsync](../functions/ImportMeshAsync.md) i
 
 > `static` **IsPluginForExtensionAvailable**(`extension`): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1411](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1411)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1411](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1411)
 
 Gets a boolean indicating that the given extension can be loaded
 
@@ -1696,7 +1709,7 @@ true if the extension is supported
 
 > `static` **Load**(`rootUrl`, `sceneFilename?`, `engine?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1505)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1505](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1505)
 
 Load a scene
 
@@ -1764,7 +1777,7 @@ Please use the module level [LoadSceneAsync](../functions/LoadSceneAsync-1.md) i
 
 > `static` **LoadAssetContainer**(`rootUrl`, `sceneFilename?`, `scene?`, `onSuccess?`, `onProgress?`, `onError?`, `pluginExtension?`, `name?`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1614](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1614)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1614](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1614)
 
 Load a scene into an asset container
 
@@ -1832,7 +1845,7 @@ Please use the module level [LoadAssetContainerAsync](../functions/LoadAssetCont
 
 > `static` **LoadAssetContainerAsync**(`rootUrl`, `sceneFilename?`, `scene?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`AssetContainer`](AssetContainer.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1646)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1646](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1646)
 
 Load a scene into an asset container
 
@@ -1890,7 +1903,7 @@ Please use the module level [LoadAssetContainerAsync](../functions/LoadAssetCont
 
 > `static` **LoadAsync**(`rootUrl`, `sceneFilename?`, `engine?`, `onProgress?`, `pluginExtension?`, `name?`): `Promise`\<[`Scene`](Scene.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1536](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1536)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1536](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1536)
 
 Load a scene
 
@@ -1948,7 +1961,7 @@ Please use the module level [LoadSceneAsync](../functions/LoadSceneAsync-1.md) i
 
 > `static` **RegisterPlugin**(`plugin`): `void`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L1419)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:1419](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L1419)
 
 Adds a new plugin to the list of registered plugins
 

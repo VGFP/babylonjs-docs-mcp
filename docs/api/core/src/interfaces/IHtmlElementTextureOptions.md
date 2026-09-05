@@ -6,7 +6,7 @@
 
 # Interface: IHtmlElementTextureOptions
 
-Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L19)
+Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L19)
 
 Defines the options related to the creation of an HtmlElementTexture
 
@@ -16,7 +16,7 @@ Defines the options related to the creation of an HtmlElementTexture
 
 > **engine**: [`Nullable`](../type-aliases/Nullable.md)\<[`AbstractEngine`](../classes/AbstractEngine.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L35)
+Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L35)
 
 Defines the engine instance to use the texture with. It is not mandatory if you define a scene.
 
@@ -26,7 +26,7 @@ Defines the engine instance to use the texture with. It is not mandatory if you 
 
 > `optional` **format?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L31)
+Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L31)
 
 Defines the associated texture format.
 
@@ -36,7 +36,7 @@ Defines the associated texture format.
 
 > `optional` **generateMipMaps?**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L23)
+Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L23)
 
 Defines whether mip maps should be created or not.
 
@@ -46,7 +46,7 @@ Defines whether mip maps should be created or not.
 
 > `optional` **samplingMode?**: `number`
 
-Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L27)
+Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L27)
 
 Defines the sampling mode of the texture.
 
@@ -56,6 +56,6 @@ Defines the sampling mode of the texture.
 
 > **scene**: [`Nullable`](../type-aliases/Nullable.md)\<[`Scene`](../classes/Scene.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/htmlElementTexture.pure.ts#L39)
 
 Defines the scene the texture belongs to. It is not mandatory if you define an engine.

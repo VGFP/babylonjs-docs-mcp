@@ -8,7 +8,7 @@
 
 > **CreateTexture2DArrayFromKTX2Async**(`scene`, `data`, `options?`): `Promise`\<[`RawTexture2DArray`](../classes/RawTexture2DArray.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L136)
+Defined in: [packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts:136](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/rawTexture2DArray.functions.ts#L136)
 
 Creates a 2D array texture from a single KTX2 file holding several array layers (layerCount greater than 1).
 This is the single-file counterpart to CreateTexture2DArrayFromImageUrlsAsync: rather than fetching one image

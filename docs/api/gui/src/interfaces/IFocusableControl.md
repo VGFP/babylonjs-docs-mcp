@@ -6,7 +6,7 @@
 
 # Interface: IFocusableControl
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L8)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L8)
 
 Interface used to define a control that can receive focus
 
@@ -16,7 +16,7 @@ Interface used to define a control that can receive focus
 
 > `optional` **focusBorderColor?**: `string`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L45)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L45)
 
 Gets or sets the color used to draw the focus border
 Defaults to "white"
@@ -27,7 +27,7 @@ Defaults to "white"
 
 > `optional` **tabIndex?**: `number`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L39)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L39)
 
 Gets or sets the tabIndex of the control
 
@@ -37,7 +37,7 @@ Gets or sets the tabIndex of the control
 
 > **blur**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L34)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L34)
 
 Function to unfocus the control programmatically
 
@@ -51,7 +51,7 @@ Function to unfocus the control programmatically
 
 > **focus**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L30)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L30)
 
 Function to focus the control programmatically
 
@@ -65,7 +65,7 @@ Function to focus the control programmatically
 
 > **keepsFocusWith**(): [`Nullable`](../../../core/src/type-aliases/Nullable.md)\<[`Control`](../classes/Control.md)[]\>
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L26)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L26)
 
 Function called to get the list of controls that should not steal the focus from this control
 
@@ -81,7 +81,7 @@ an array of controls
 
 > **onBlur**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L16)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L16)
 
 Function called when the control loses the focus
 
@@ -95,7 +95,7 @@ Function called when the control loses the focus
 
 > **onFocus**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L12)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L12)
 
 Function called when the control receives the focus
 
@@ -109,7 +109,7 @@ Function called when the control receives the focus
 
 > **processKeyboard**(`evt`): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/focusableControl.ts#L21)
+Defined in: [packages/dev/gui/src/2D/controls/focusableControl.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/focusableControl.ts#L21)
 
 Function called to let the control handle keyboard events
 

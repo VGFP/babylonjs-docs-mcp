@@ -6,7 +6,7 @@
 
 # Interface: ISimplificationSettings
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.common.ts#L6)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.common.ts#L6)
 
 Expected simplification settings.
 Quality should be between 0 and 1 (1 being 100%, 0 being 0%)
@@ -21,7 +21,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **distance**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.common.ts#L14)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.common.ts#L14)
 
 Gets or sets the distance when this optimized version should be used
 
@@ -31,7 +31,7 @@ Gets or sets the distance when this optimized version should be used
 
 > `optional` **optimizeMesh?**: `boolean`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.common.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.common.ts#L18)
 
 Gets an already optimized mesh
 
@@ -41,6 +41,6 @@ Gets an already optimized mesh
 
 > **quality**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.common.ts#L10)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.common.ts#L10)
 
 Gets or sets the expected quality

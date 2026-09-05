@@ -6,7 +6,7 @@
 
 # Class: AttachToBoxBehavior
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L24)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L24)
 
 A behavior that when attached to a mesh will will place a specified node on the meshes face pointing towards the camera
 
@@ -20,7 +20,7 @@ A behavior that when attached to a mesh will will place a specified node on the 
 
 > **new AttachToBoxBehavior**(`_ui`): `AttachToBoxBehavior`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L62)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L62)
 
 Creates the AttachToBoxBehavior, used to attach UI to the closest face of the box to a camera
 
@@ -42,7 +42,7 @@ The transform node that should be attached to the mesh
 
 > **distanceAwayFromBottomOfFace**: `number` = `0.15`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L36)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L36)
 
 [0.15] The distance from the bottom of the face that the UI should be attached to (default: 0.15)
 
@@ -52,7 +52,7 @@ Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:36](h
 
 > **distanceAwayFromFace**: `number` = `0.15`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L32)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L32)
 
 [0.15] The distance away from the face of the mesh that the UI should be attached to (default: 0.15)
 
@@ -62,7 +62,7 @@ Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:32](h
 
 > **name**: `string` = `"AttachToBoxBehavior"`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L28)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L28)
 
 ["AttachToBoxBehavior"] The name of the behavior
 
@@ -78,7 +78,7 @@ Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:28](h
 
 > **get** **attachedNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Mesh`](Mesh.md)\>
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L54)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L54)
 
 Attached node of this behavior
 
@@ -98,7 +98,7 @@ Gets the current attached target
 
 > **attach**(`target`): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L107)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L107)
 
 Attaches the AttachToBoxBehavior to the passed in mesh
 
@@ -124,7 +124,7 @@ The mesh that the specified node will be attached to
 
 > **detach**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:188](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L188)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:188](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L188)
 
 Detaches the behavior from the mesh
 
@@ -142,7 +142,7 @@ Detaches the behavior from the mesh
 
 > **init**(): `void`
 
-Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L69)
+Defined in: [packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Behaviors/Meshes/attachToBoxBehavior.ts#L69)
 
 Initializes the behavior
 

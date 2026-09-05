@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphDataSwitchBlockConfiguration\<T\>
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L11)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L11)
 
 Configuration for a block.
 
@@ -30,7 +30,7 @@ Configuration for a block.
 
 > **cases**: `FlowGraphNumber`[]
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L16)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L16)
 
 The possible values for the selection.
 
@@ -40,7 +40,7 @@ The possible values for the selection.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -54,7 +54,7 @@ The name of the block.
 
 > `optional` **treatCasesAsIntegers?**: `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L22)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/flowGraphDataSwitchBlock.pure.ts#L22)
 
 If true, the cases will be treated as integers, meaning 1.1, 1.0, 0.1e1  and 1 will a single case - "1".
 This is the default behavior in glTF interactivity.

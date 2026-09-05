@@ -8,7 +8,7 @@
 
 > **ConstrainedBodyPair** = `object`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
 
 Represents a pair of bodies connected by a constraint.
 
@@ -18,7 +18,7 @@ Represents a pair of bodies connected by a constraint.
 
 > **childBody**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https
 
 > **childBodyIndex**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https
 
 > **parentBody**: [`PhysicsBody`](../classes/PhysicsBody.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https
 
 > **parentBodyIndex**: `number`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L378)

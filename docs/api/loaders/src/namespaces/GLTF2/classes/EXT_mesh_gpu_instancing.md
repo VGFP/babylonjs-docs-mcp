@@ -6,7 +6,7 @@
 
 # Class: EXT\_mesh\_gpu\_instancing
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L19)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L19)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_mesh_gpu_instancing/README.md)
 [Playground Sample](https://playground.babylonjs.com/#QFIGLW#9)
@@ -21,7 +21,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instan
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L28)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L28)
 
 Defines whether this extension is enabled.
 
@@ -35,7 +35,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"EXT_mesh_gpu_instancing"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L23)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L23)
 
 The name of this extension.
 

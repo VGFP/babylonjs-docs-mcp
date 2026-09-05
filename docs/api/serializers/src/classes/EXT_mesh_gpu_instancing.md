@@ -6,7 +6,7 @@
 
 # Class: EXT\_mesh\_gpu\_instancing
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L30)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L30)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Vendor/EXT_mesh_gpu_instancing/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_in
 
 > **new EXT\_mesh\_gpu\_instancing**(`exporter`): `EXT_mesh_gpu_instancing`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L49)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L49)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_in
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L35)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L35)
 
 Defines whether this extension is enabled
 
@@ -52,7 +52,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"EXT_mesh_gpu_instancing"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L32)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L32)
 
 Name of this extension
 
@@ -66,7 +66,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L38)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L38)
 
 Defines whether this extension is required
 
@@ -80,7 +80,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L53)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L53)
 
 Releases all held resources
 
@@ -98,7 +98,7 @@ Releases all held resources
 
 > **postExportNodeAsync**(`context`, `node`, `babylonNode`, `nodeMap`, `convertToRightHanded`, `bufferManager`): `Promise`\<[`Nullable`](../../../core/src/type-aliases/Nullable.md)\<`INode`\>\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L70)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/EXT\_mesh\_gpu\_instancing.pure.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/EXT_mesh_gpu_instancing.pure.ts#L70)
 
 After node is exported
 

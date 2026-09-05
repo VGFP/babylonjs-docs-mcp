@@ -6,7 +6,7 @@
 
 # Class: ArcRotateCameraKeyboardMoveInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L17)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L17)
 
 Manage the keyboard inputs to control the movement of an arc rotate camera.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **angularSpeed**: `number` = `0.01`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L86)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L86)
 
 Rotation speed of the camera
 
@@ -44,7 +44,7 @@ Rotation speed of the camera
 
 > **camera**: [`ArcRotateCamera`](ArcRotateCamera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L21)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L21)
 
 Defines the camera the input is attached to.
 
@@ -58,7 +58,7 @@ Defines the camera the input is attached to.
 
 > **keysDown**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L33)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L33)
 
 Defines the list of key codes associated with the down action (decrease alpha)
 
@@ -68,7 +68,7 @@ Defines the list of key codes associated with the down action (decrease alpha)
 
 > **keysLeft**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L39)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L39)
 
 Defines the list of key codes associated with the left action (increase beta)
 
@@ -78,7 +78,7 @@ Defines the list of key codes associated with the left action (increase beta)
 
 > **keysReset**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L52)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L52)
 
 Defines the list of key codes associated with the reset action.
 Those keys reset the camera to its last stored state (with the method camera.storeState())
@@ -89,7 +89,7 @@ Those keys reset the camera to its last stored state (with the method camera.sto
 
 > **keysRight**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L45)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L45)
 
 Defines the list of key codes associated with the right action (decrease beta)
 
@@ -99,7 +99,7 @@ Defines the list of key codes associated with the right action (decrease beta)
 
 > **keysUp**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L27)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L27)
 
 Defines the list of key codes associated with the up action (increase alpha)
 
@@ -109,7 +109,7 @@ Defines the list of key codes associated with the up action (increase alpha)
 
 > **keysZoomIn**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:59](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L59)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:59](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L59)
 
 Defines the list of key codes associated with the zoom in action.
 Only used when CameraMovement is active — these keys always trigger zoom regardless of modifiers.
@@ -120,7 +120,7 @@ Only used when CameraMovement is active — these keys always trigger zoom regar
 
 > **keysZoomOut**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L66)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L66)
 
 Defines the list of key codes associated with the zoom out action.
 Only used when CameraMovement is active — these keys always trigger zoom regardless of modifiers.
@@ -131,7 +131,7 @@ Only used when CameraMovement is active — these keys always trigger zoom regar
 
 > **panningSensibility**: `number` = `50.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L73)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L73)
 
 Defines the panning sensibility of the inputs.
 (How fast is the camera panning)
@@ -142,7 +142,7 @@ Defines the panning sensibility of the inputs.
 
 > **zoomingSensibility**: `number` = `25.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L80)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:80](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L80)
 
 Defines the zooming sensibility of the inputs.
 (How fast is the camera zooming)
@@ -155,7 +155,7 @@ Defines the zooming sensibility of the inputs.
 
 > **get** **useAltToZoom**(): `boolean`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L97)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L97)
 
 Defines whether alt+arrows/wasd triggers zoom instead of rotation/pan.
 When disabled, alt+keyboard events are ignored by the zoom inputMap entry.
@@ -170,7 +170,7 @@ If set before the camera is attached, the value is cached and applied during `at
 
 > **set** **useAltToZoom**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L101)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L101)
 
 ##### Parameters
 
@@ -188,7 +188,7 @@ Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInp
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L151)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L151)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -214,7 +214,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:245](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L245)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:245](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L245)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -233,7 +233,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L226)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:226](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L226)
 
 Detach the current controls from the specified dom element.
 
@@ -251,7 +251,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:339](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L339)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:339](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L339)
 
 Gets the class name of the current input.
 
@@ -271,7 +271,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L347)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraKeyboardMoveInput.ts#L347)
 
 Get the friendly name associated with the input class.
 

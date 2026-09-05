@@ -6,7 +6,7 @@
 
 # Interface: IFrameGraphPass
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L88)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L88)
 
 Defines a pass in the frame graph.
 
@@ -16,7 +16,7 @@ Defines a pass in the frame graph.
 
 > **disabled**: `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L97)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L97)
 
 Whether the pass is disabled.
 
@@ -26,7 +26,7 @@ Whether the pass is disabled.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:92](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L92)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L92)
 
 The name of the pass.
 
@@ -36,7 +36,7 @@ The name of the pass.
 
 > **setExecuteFunc**(`func`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L110)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L110)
 
 Sets the function to execute when the pass is executed
 
@@ -58,7 +58,7 @@ The function to execute when the pass is executed
 
 > **setInitializeFunc**(`func`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L104)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTypes.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTypes.ts#L104)
 
 Initializes the pass.
 This function is called once before the first execution of the pass.

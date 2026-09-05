@@ -8,7 +8,7 @@
 
 > **VertexBufferGetDataType**(`data`): `number`
 
-Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:902](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/buffer.pure.ts#L902)
+Defined in: [packages/dev/core/src/Buffers/buffer.pure.ts:902](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/buffer.pure.ts#L902)
 
 Gets the vertex buffer type of the given data array.
 

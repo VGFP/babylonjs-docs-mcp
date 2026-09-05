@@ -6,7 +6,7 @@
 
 # Enumeration: TokenType
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L54)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L54)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:54](https:
 
 > **Attribute**: `2`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L57)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L57)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:57](https:
 
 > **Declaration**: `0`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L55)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L55)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:55](https:
 
 > **Tag**: `1`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L56)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L56)
 
 ***
 
@@ -38,4 +38,4 @@ Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:56](https:
 
 > **Text**: `3`
 
-Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L58)
+Defined in: [packages/dev/serializers/src/3MF/core/xml/xml.builder.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/xml/xml.builder.ts#L58)

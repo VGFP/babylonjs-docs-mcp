@@ -6,7 +6,7 @@
 
 # Class: Effect
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L147)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L147)
 
 Effect containing vertex and fragment shader that can be executed on an object.
 
@@ -20,7 +20,7 @@ Effect containing vertex and fragment shader that can be executed on an object.
 
 > **new Effect**(`baseName`, `attributesNamesOrOptions`, `uniformsNamesOrEngine`, `samplers?`, `engine?`, `defines?`, `fallbacks?`, `onCompiled?`, `onError?`, `indexParameters?`, `key?`, `shaderLanguage?`, `extraInitializationsAsync?`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L322)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:322](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L322)
 
 Instantiates an effect.
 An effect can be used to create/manage/execute vertex and fragment shaders.
@@ -115,7 +115,7 @@ additional async code to run before preparing the effect
 
 > `optional` **\_checkedNonFloatVertexBuffers?**: `boolean`
 
-Defined in: [packages/dev/core/src/Engines/thinNativeEngine.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Engines/thinNativeEngine.types.ts#L9)
+Defined in: [packages/dev/core/src/Engines/thinNativeEngine.types.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Engines/thinNativeEngine.types.ts#L9)
 
 internal
 
@@ -125,7 +125,7 @@ internal
 
 > **defines**: `string` = `""`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L181)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L181)
 
 String container all the define statements that should be set on the shader.
 
@@ -135,7 +135,7 @@ String container all the define statements that should be set on the shader.
 
 > **name**: `string` \| [`IShaderPath`](../type-aliases/IShaderPath.md)
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L177)
 
 Name of the effect.
 
@@ -145,7 +145,7 @@ Name of the effect.
 
 > **onBind**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L193)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:193](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L193)
 
 Callback that will be called when effect is bound.
 
@@ -155,7 +155,7 @@ Callback that will be called when effect is bound.
 
 > **onCompiled**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L185)
 
 Callback that will be called when the shader is compiled.
 
@@ -165,7 +165,7 @@ Callback that will be called when the shader is compiled.
 
 > **onCompileObservable**: [`Observable`](Observable.md)\<`Effect`\>
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L202)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:202](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L202)
 
 Observable that will be called when the shader is compiled.
 It is recommended to use executeWhenCompile() or to make sure that scene.isReady() is called to get this observable raised.
@@ -176,7 +176,7 @@ It is recommended to use executeWhenCompile() or to make sure that scene.isReady
 
 > **onError**: [`Nullable`](../type-aliases/Nullable.md)\<(`effect`, `errors`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L189)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L189)
 
 Callback that will be called if an error occurs during shader compilation.
 
@@ -186,7 +186,7 @@ Callback that will be called if an error occurs during shader compilation.
 
 > **onErrorObservable**: [`Observable`](Observable.md)\<`Effect`\>
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L206)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:206](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L206)
 
 Observable that will be called if an error occurs during shader compilation.
 
@@ -196,7 +196,7 @@ Observable that will be called if an error occurs during shader compilation.
 
 > **uniqueId**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L197)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:197](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L197)
 
 Unique ID of the effect.
 
@@ -206,7 +206,7 @@ Unique ID of the effect.
 
 > `static` **AutomaticallyClearCodeCache**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L172)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L172)
 
 Use this with caution
 See ClearCodeCache function comments
@@ -217,7 +217,7 @@ See ClearCodeCache function comments
 
 > `static` **IncludesShadersStore**: `object` = `EngineShaderStore.IncludesShadersStore`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1578](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1578)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1578](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1578)
 
 Store of each included file for a shader (The can be looked up using effect.key)
 
@@ -231,7 +231,7 @@ Store of each included file for a shader (The can be looked up using effect.key)
 
 > `static` **LogShaderCodeOnCompilationError**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L160)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L160)
 
 Enable logging of the shader code when a compilation error occurs
 
@@ -241,7 +241,7 @@ Enable logging of the shader code when a compilation error occurs
 
 > `static` **PersistentMode**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L166)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:166](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L166)
 
 Gets or sets a boolean indicating that effect ref counting is disabled
 If true, the effect will persist in memory until engine is disposed
@@ -252,7 +252,7 @@ If true, the effect will persist in memory until engine is disposed
 
 > `static` **ShadersStore**: `object` = `EngineShaderStore.ShadersStore`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1574](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1574)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1574](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1574)
 
 Store of each shader (The can be looked up using effect.key)
 
@@ -268,7 +268,7 @@ Store of each shader (The can be looked up using effect.key)
 
 > **get** **fragmentSourceCode**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:680](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L680)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:680](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L680)
 
 Gets the fragment shader source code of this effect
 This is the final source code that will be compiled, after all the processing has been done (pre-processing applied, code injection/replacement, etc)
@@ -285,7 +285,7 @@ This is the final source code that will be compiled, after all the processing ha
 
 > **get** **fragmentSourceCodeBeforeMigration**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:700](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L700)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:700](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L700)
 
 Gets the fragment shader source code before migration.
 This is the source code after the include directives have been replaced by their contents but before the code is migrated, i.e. before ShaderProcess._ProcessShaderConversion is executed.
@@ -303,7 +303,7 @@ This method is, among other things, responsible for parsing #if/#define directiv
 
 > **get** **isDisposed**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L216)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L216)
 
 Gets a boolean indicating that the effect was already disposed
 
@@ -319,7 +319,7 @@ Gets a boolean indicating that the effect was already disposed
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L976)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:976](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L976)
 
 Checks if the effect is supported. (Must be called after compilation)
 
@@ -335,7 +335,7 @@ Checks if the effect is supported. (Must be called after compilation)
 
 > **get** **key**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L473)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:473](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L473)
 
 Unique key for this effect
 
@@ -351,7 +351,7 @@ Unique key for this effect
 
 > **get** **onBindObservable**(): [`Observable`](Observable.md)\<`Effect`\>
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L226)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:226](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L226)
 
 Observable that will be called when effect is bound.
 
@@ -367,7 +367,7 @@ Observable that will be called when effect is bound.
 
 > **get** **rawFragmentSourceCode**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:714](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L714)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:714](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L714)
 
 Gets the fragment shader source code before it has been modified by any processing
 
@@ -383,7 +383,7 @@ Gets the fragment shader source code before it has been modified by any processi
 
 > **get** **rawVertexSourceCode**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:707](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L707)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:707](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L707)
 
 Gets the vertex shader source code before it has been modified by any processing
 
@@ -399,7 +399,7 @@ Gets the vertex shader source code before it has been modified by any processing
 
 > **get** **shaderLanguage**(): [`ShaderLanguage`](../enumerations/ShaderLanguage.md)
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L301)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:301](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L301)
 
 Gets the shader language type used to write vertex and fragment source code.
 
@@ -415,7 +415,7 @@ Gets the shader language type used to write vertex and fragment source code.
 
 > **get** **vertexSourceCode**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:670](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L670)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:670](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L670)
 
 Gets the vertex shader source code of this effect
 This is the final source code that will be compiled, after all the processing has been done (pre-processing applied, code injection/replacement, etc)
@@ -432,7 +432,7 @@ This is the final source code that will be compiled, after all the processing ha
 
 > **get** **vertexSourceCodeBeforeMigration**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:691](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L691)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:691](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L691)
 
 Gets the vertex shader source code before migration.
 This is the source code after the include directives have been replaced by their contents but before the code is migrated, i.e. before ShaderProcess._ProcessShaderConversion is executed.
@@ -450,7 +450,7 @@ This method is, among other things, responsible for parsing #if/#define directiv
 
 > **get** `static` **ShadersRepository**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L151)
 
 Gets or sets the relative url used to load shaders if using the engine in non-minified mode
 
@@ -462,7 +462,7 @@ Gets or sets the relative url used to load shaders if using the engine in non-mi
 
 > **set** `static` **ShadersRepository**(`repo`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L154)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L154)
 
 ##### Parameters
 
@@ -480,7 +480,7 @@ Defined in: [packages/dev/core/src/Materials/effect.pure.ts:154](https://github.
 
 > **allFallbacksProcessed**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:615](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L615)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:615](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L615)
 
 Gets a boolean indicating that all fallbacks were used during compilation
 
@@ -496,7 +496,7 @@ true if all fallbacks were used
 
 > **bindUniformBlock**(`blockName`, `index`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1043)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1043](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1043)
 
 Binds block to a uniform.
 
@@ -524,7 +524,7 @@ Index to bind.
 
 > **bindUniformBuffer**(`buffer`, `name`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1029](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1029)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1029](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1029)
 
 Binds a buffer to a uniform.
 
@@ -552,7 +552,7 @@ Name of the uniform variable to bind to.
 
 > **clearCodeCache**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1513](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1513)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1513](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1513)
 
 Use this wisely: It will remove the cached code from this effect
 It is probably ok to call it if you are not using ShadowDepthWrapper or if everything is already up and running
@@ -568,7 +568,7 @@ DO NOT CALL IT if you want to have support for context lost recovery
 
 > **dispose**(`force?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1524](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1524)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1524](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1524)
 
 Release all associated resources.
 
@@ -594,7 +594,7 @@ specifies if the effect must be released no matter what
 
 > **executeWhenCompiled**(`func`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:633](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L633)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:633](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L633)
 
 Adds a callback to the onCompiled observable and call the callback immediately if already ready.
 
@@ -616,7 +616,7 @@ The callback to be used.
 
 > **getAttributeLocation**(`index`): `number`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:532](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L532)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:532](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L532)
 
 Returns the attribute at the given index.
 
@@ -640,7 +640,7 @@ The location of the attribute.
 
 > **getAttributeLocationByName**(`name`): `number`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L541)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:541](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L541)
 
 Returns the attribute based on the name of the variable.
 
@@ -664,7 +664,7 @@ the attribute location.
 
 > **getAttributesCount**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L549)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:549](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L549)
 
 The number of attributes.
 
@@ -680,7 +680,7 @@ the number of attributes.
 
 > **getAttributesNames**(): `string`[]
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:523](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L523)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:523](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L523)
 
 The set of names of attribute variables for the shader.
 
@@ -696,7 +696,7 @@ An array of attribute names.
 
 > **getCompilationError**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:607](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L607)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:607](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L607)
 
 The error from the last compilation.
 
@@ -712,7 +712,7 @@ the error string.
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L507)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:507](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L507)
 
 The engine the effect was initialized with.
 
@@ -728,7 +728,7 @@ the engine.
 
 > **getIndexParameters**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:599](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L599)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:599](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L599)
 
 Returns the index parameters used to create the effect
 
@@ -744,7 +744,7 @@ The index parameters object
 
 > **getPipelineContext**(): [`Nullable`](../type-aliases/Nullable.md)\<[`IPipelineContext`](../interfaces/IPipelineContext.md)\>
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L515)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:515](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L515)
 
 The pipeline context for this effect
 
@@ -760,7 +760,7 @@ the associated pipeline context
 
 > **getPipelineGenerationOptions**(): `IPipelineGenerationOptions`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:722](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L722)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:722](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L722)
 
 Gets the pipeline generation options for this effect.
 
@@ -776,7 +776,7 @@ the pipeline generation options for this effect
 
 > **getSamplers**(): `string`[]
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:575](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L575)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:575](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L575)
 
 Returns an array of sampler variable names
 
@@ -792,7 +792,7 @@ The array of sampler variable names.
 
 > **getUniform**(`uniformName`): [`Nullable`](../type-aliases/Nullable.md)\<`WebGLUniformLocation`\>
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:567](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L567)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:567](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L567)
 
 Returns the attribute based on the name of the variable.
 
@@ -816,7 +816,7 @@ the location of the uniform.
 
 > **getUniformBuffersNames**(): `string`[]
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:591](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L591)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:591](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L591)
 
 Returns an array of uniform buffer variable names
 
@@ -832,7 +832,7 @@ The array of uniform buffer variable names.
 
 > **getUniformIndex**(`uniformName`): `number`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:558](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L558)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:558](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L558)
 
 Gets the index of a uniform variable.
 
@@ -856,7 +856,7 @@ the index.
 
 > **getUniformNames**(): `string`[]
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L583)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:583](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L583)
 
 Returns an array of uniform variable names
 
@@ -872,7 +872,7 @@ The array of uniform variable names.
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L481)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:481](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L481)
 
 If the effect has been compiled and prepared.
 
@@ -888,7 +888,7 @@ if the effect is compiled and prepared.
 
 > **setArray**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1285)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1285](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1285)
 
 Sets an array on a uniform variable.
 
@@ -918,7 +918,7 @@ this effect.
 
 > **setArray2**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1296)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1296)
 
 Sets an array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -948,7 +948,7 @@ this effect.
 
 > **setArray3**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1307](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1307)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1307](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1307)
 
 Sets an array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -978,7 +978,7 @@ this effect.
 
 > **setArray4**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1318](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1318)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1318](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1318)
 
 Sets an array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -1008,7 +1008,7 @@ this effect.
 
 > **setBool**(`uniformName`, `bool`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1386)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1386](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1386)
 
 Sets a boolean on a uniform variable.
 
@@ -1038,7 +1038,7 @@ this effect.
 
 > **setColor3**(`uniformName`, `color3`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1480](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1480)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1480](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1480)
 
 Sets a Color3 on a uniform variable.
 
@@ -1068,7 +1068,7 @@ this effect.
 
 > **setColor4**(`uniformName`, `color3`, `alpha`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1492](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1492)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1492](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1492)
 
 Sets a Color4 on a uniform variable.
 
@@ -1104,7 +1104,7 @@ this effect.
 
 > **setDepthStencilTexture**(`channel`, `texture`): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/renderTargetTexture.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/renderTargetTexture.types.ts#L11)
+Defined in: [packages/dev/core/src/Materials/Textures/renderTargetTexture.types.ts:11](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/renderTargetTexture.types.ts#L11)
 
 Sets a depth stencil texture from a render target on the engine to be used in the shader.
 
@@ -1132,7 +1132,7 @@ Texture to set.
 
 > **setDirectColor4**(`uniformName`, `color4`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1503](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1503)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1503](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1503)
 
 Sets a Color4 on a uniform variable
 
@@ -1162,7 +1162,7 @@ this effect.
 
 > **setFloat**(`uniformName`, `value`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1375](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1375)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1375](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1375)
 
 Sets a float on a uniform variable.
 
@@ -1192,7 +1192,7 @@ this effect.
 
 > **setFloat2**(`uniformName`, `x`, `y`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1409](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1409)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1409](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1409)
 
 Sets a float2 on a uniform variable.
 
@@ -1228,7 +1228,7 @@ this effect.
 
 > **setFloat3**(`uniformName`, `x`, `y`, `z`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1433](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1433)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1433](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1433)
 
 Sets a float3 on a uniform variable.
 
@@ -1270,7 +1270,7 @@ this effect.
 
 > **setFloat4**(`uniformName`, `x`, `y`, `z`, `w`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1469](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1469)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1469](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1469)
 
 Sets a float4 on a uniform variable.
 
@@ -1318,7 +1318,7 @@ this effect.
 
 > **setFloatArray**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1241](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1241)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1241](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1241)
 
 Sets an float array on a uniform variable.
 
@@ -1348,7 +1348,7 @@ this effect.
 
 > **setFloatArray2**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1252)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1252)
 
 Sets an float array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -1378,7 +1378,7 @@ this effect.
 
 > **setFloatArray3**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1263](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1263)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1263](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1263)
 
 Sets an float array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -1408,7 +1408,7 @@ this effect.
 
 > **setFloatArray4**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1274](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1274)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1274](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1274)
 
 Sets an float array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -1438,7 +1438,7 @@ this effect.
 
 > **setInt**(`uniformName`, `value`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1053](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1053)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1053](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1053)
 
 Sets an integer value on a uniform variable.
 
@@ -1468,7 +1468,7 @@ this effect.
 
 > **setInt2**(`uniformName`, `x`, `y`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1065](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1065)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1065](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1065)
 
 Sets an int2 value on a uniform variable.
 
@@ -1504,7 +1504,7 @@ this effect.
 
 > **setInt3**(`uniformName`, `x`, `y`, `z`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1078](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1078)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1078](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1078)
 
 Sets an int3 value on a uniform variable.
 
@@ -1546,7 +1546,7 @@ this effect.
 
 > **setInt4**(`uniformName`, `x`, `y`, `z`, `w`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1092)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1092](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1092)
 
 Sets an int4 value on a uniform variable.
 
@@ -1594,7 +1594,7 @@ this effect.
 
 > **setIntArray**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1103)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1103)
 
 Sets an int array on a uniform variable.
 
@@ -1624,7 +1624,7 @@ this effect.
 
 > **setIntArray2**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1114)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1114](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1114)
 
 Sets an int array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -1654,7 +1654,7 @@ this effect.
 
 > **setIntArray3**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1125)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1125)
 
 Sets an int array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -1684,7 +1684,7 @@ this effect.
 
 > **setIntArray4**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1136)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1136](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1136)
 
 Sets an int array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -1714,7 +1714,7 @@ this effect.
 
 > **setMatrices**(`uniformName`, `matrices`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1329)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1329](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1329)
 
 Sets matrices on a uniform variable.
 
@@ -1744,7 +1744,7 @@ this effect.
 
 > **setMatrix**(`uniformName`, `matrix`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1340](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1340)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1340](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1340)
 
 Sets matrix on a uniform variable.
 
@@ -1774,7 +1774,7 @@ this effect.
 
 > **setMatrix2x2**(`uniformName`, `matrix`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1363](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1363)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1363](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1363)
 
 Sets a 2x2 matrix on a uniform variable. (Specified as [1,2,3,4] will result in [1,2][3,4] matrix)
 
@@ -1804,7 +1804,7 @@ this effect.
 
 > **setMatrix3x3**(`uniformName`, `matrix`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1351](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1351)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1351](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1351)
 
 Sets a 3x3 matrix on a uniform variable. (Specified as [1,2,3,4,5,6,7,8,9] will result in [1,2,3][4,5,6][7,8,9] matrix)
 
@@ -1834,7 +1834,7 @@ this effect.
 
 > **setQuaternion**(`uniformName`, `quaternion`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1455](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1455)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1455](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1455)
 
 Sets a Quaternion on a uniform variable.
 
@@ -1864,7 +1864,7 @@ this effect.
 
 > **setTexture**(`channel`, `texture`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:995](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L995)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:995](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L995)
 
 Sets a texture on the engine to be used in the shader.
 
@@ -1892,7 +1892,7 @@ Texture to set.
 
 > **setTextureArray**(`channel`, `textures`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1004)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1004](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1004)
 
 Sets an array of textures on the engine to be used in the shader.
 
@@ -1920,7 +1920,7 @@ Textures to set.
 
 > **setTextureFromPostProcess**(`channel`, `postProcess`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.types.ts#L31)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.types.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.types.ts#L31)
 
 Sets a texture to be the input of the specified post process. (To use the output, pass in the next post process in the pipeline)
 
@@ -1948,7 +1948,7 @@ Post process to get the input texture from.
 
 > **setTextureFromPostProcessOutput**(`channel`, `postProcess`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/postProcess.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/postProcess.types.ts#L39)
+Defined in: [packages/dev/core/src/PostProcesses/postProcess.types.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/postProcess.types.ts#L39)
 
 (Warning! setTextureFromPostProcessOutput may be desired instead)
 Sets the input texture of the passed in post process to be input of this effect. (To use the output of the passed in post process use setTextureFromPostProcessOutput)
@@ -1977,7 +1977,7 @@ Post process to get the output texture from.
 
 > **setUInt**(`uniformName`, `value`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1147)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1147)
 
 Sets an unsigned integer value on a uniform variable.
 
@@ -2007,7 +2007,7 @@ this effect.
 
 > **setUInt2**(`uniformName`, `x`, `y`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1159)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1159)
 
 Sets an unsigned int2 value on a uniform variable.
 
@@ -2043,7 +2043,7 @@ this effect.
 
 > **setUInt3**(`uniformName`, `x`, `y`, `z`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1172)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1172](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1172)
 
 Sets an unsigned int3 value on a uniform variable.
 
@@ -2085,7 +2085,7 @@ this effect.
 
 > **setUInt4**(`uniformName`, `x`, `y`, `z`, `w`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1186)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1186](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1186)
 
 Sets an unsigned int4 value on a uniform variable.
 
@@ -2133,7 +2133,7 @@ this effect.
 
 > **setUIntArray**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1197)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1197](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1197)
 
 Sets an unsigned int array on a uniform variable.
 
@@ -2163,7 +2163,7 @@ this effect.
 
 > **setUIntArray2**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1208](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1208)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1208](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1208)
 
 Sets an unsigned int array 2 on a uniform variable. (Array is specified as single array eg. [1,2,3,4] will result in [[1,2],[3,4]] in the shader)
 
@@ -2193,7 +2193,7 @@ this effect.
 
 > **setUIntArray3**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1219](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1219)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1219](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1219)
 
 Sets an unsigned int array 3 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6] will result in [[1,2,3],[4,5,6]] in the shader)
 
@@ -2223,7 +2223,7 @@ this effect.
 
 > **setUIntArray4**(`uniformName`, `array`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1230)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1230](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1230)
 
 Sets an unsigned int array 4 on a uniform variable. (Array is specified as single array eg. [1,2,3,4,5,6,7,8] will result in [[1,2,3,4],[5,6,7,8]] in the shader)
 
@@ -2253,7 +2253,7 @@ this effect.
 
 > **setVector2**(`uniformName`, `vector2`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1397](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1397)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1397](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1397)
 
 Sets a Vector2 on a uniform variable.
 
@@ -2283,7 +2283,7 @@ this effect.
 
 > **setVector3**(`uniformName`, `vector3`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1420](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1420)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1420](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1420)
 
 Sets a Vector3 on a uniform variable.
 
@@ -2313,7 +2313,7 @@ this effect.
 
 > **setVector4**(`uniformName`, `vector4`): `Effect`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1444](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1444)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1444](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1444)
 
 Sets a Vector4 on a uniform variable.
 
@@ -2343,7 +2343,7 @@ this effect.
 
 > **whenCompiledAsync**(): `Promise`\<`Effect`\>
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L623)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:623](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L623)
 
 Wait until compilation before fulfilling.
 
@@ -2359,7 +2359,7 @@ a promise to wait for completion.
 
 > `static` **RegisterShader**(`name`, `pixelShader?`, `vertexShader?`, `shaderLanguage?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1561)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1561](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1561)
 
 This function will add a new shader to the shader store
 
@@ -2399,7 +2399,7 @@ the language the shader is written in (default: GLSL)
 
 > `static` **ResetCache**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1583](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/effect.pure.ts#L1583)
+Defined in: [packages/dev/core/src/Materials/effect.pure.ts:1583](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/effect.pure.ts#L1583)
 
 Resets the cache of effects.
 

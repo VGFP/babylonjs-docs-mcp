@@ -8,7 +8,7 @@
 
 > **GetTextureDataAsync**(`texture`, `width?`, `height?`, `face?`, `lod?`, `forceRTT?`, `slice?`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/core/src/Misc/textureTools.ts:378](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/textureTools.ts#L378)
+Defined in: [packages/dev/core/src/Misc/textureTools.ts:378](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/textureTools.ts#L378)
 
 Gets the pixel data of the specified texture, either by reading it directly
 or by rendering it to an intermediate RGBA texture and retrieving the bytes from it.

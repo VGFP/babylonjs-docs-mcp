@@ -6,7 +6,7 @@
 
 # Class: FollowCameraPointersInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L13)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L13)
 
 Manage the pointers inputs to control an follow camera.
 
@@ -38,7 +38,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **angularSensibilityX**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L33)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L33)
 
 Defines the pointer angular sensibility along the X axis or how fast is
 the camera rotating.
@@ -50,7 +50,7 @@ A negative number will reverse the axis direction.
 
 > **angularSensibilityY**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L41)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L41)
 
 Defines the pointer angular sensibility along the Y axis or how fast is
 the camera rotating.
@@ -62,7 +62,7 @@ A negative number will reverse the axis direction.
 
 > **axisPinchControlHeight**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:105](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L105)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:105](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L105)
 
 Pinch controls height. (Pinch modifies camera.heightOffset value.)
 
@@ -72,7 +72,7 @@ Pinch controls height. (Pinch modifies camera.heightOffset value.)
 
 > **axisPinchControlRadius**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L99)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L99)
 
 Pinch controls zoom. (Pinch modifies camera.radius value.)
 
@@ -82,7 +82,7 @@ Pinch controls zoom. (Pinch modifies camera.radius value.)
 
 > **axisPinchControlRotation**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L111)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L111)
 
 Pinch controls angle. (Pinch modifies camera.rotationOffset value.)
 
@@ -92,7 +92,7 @@ Pinch controls angle. (Pinch modifies camera.rotationOffset value.)
 
 > **axisXControlHeight**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L69)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L69)
 
 Pointer X axis controls height. (X axis modifies camera.heightOffset value.)
 
@@ -102,7 +102,7 @@ Pointer X axis controls height. (X axis modifies camera.heightOffset value.)
 
 > **axisXControlRadius**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L63)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L63)
 
 Pointer X axis controls zoom. (X axis modifies camera.radius value.)
 
@@ -112,7 +112,7 @@ Pointer X axis controls zoom. (X axis modifies camera.radius value.)
 
 > **axisXControlRotation**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L75)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L75)
 
 Pointer X axis controls angle. (X axis modifies camera.rotationOffset value.)
 
@@ -122,7 +122,7 @@ Pointer X axis controls angle. (X axis modifies camera.rotationOffset value.)
 
 > **axisYControlHeight**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L87)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L87)
 
 Pointer Y axis controls height. (Y axis modifies camera.heightOffset value.)
 
@@ -132,7 +132,7 @@ Pointer Y axis controls height. (Y axis modifies camera.heightOffset value.)
 
 > **axisYControlRadius**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:81](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L81)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:81](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L81)
 
 Pointer Y axis controls zoom. (Y axis modifies camera.radius value.)
 
@@ -142,7 +142,7 @@ Pointer Y axis controls zoom. (Y axis modifies camera.radius value.)
 
 > **axisYControlRotation**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L93)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L93)
 
 Pointer Y axis controls angle. (Y axis modifies camera.rotationOffset value.)
 
@@ -152,7 +152,7 @@ Pointer Y axis controls angle. (Y axis modifies camera.rotationOffset value.)
 
 > **buttons**: `number`[]
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L46)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L46)
 
 Defines the buttons associated with the input to handle camera move.
 
@@ -166,7 +166,7 @@ Defines the buttons associated with the input to handle camera move.
 
 > **camera**: [`FollowCamera`](FollowCamera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L17)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L17)
 
 Defines the camera the input is attached to.
 
@@ -180,7 +180,7 @@ Defines the camera the input is attached to.
 
 > **pinchDeltaPercentage**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L57)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L57)
 
 pinchDeltaPercentage will be used instead of pinchPrecision if different
 from 0.
@@ -193,7 +193,7 @@ pinch zoom is used.
 
 > **pinchPrecision**: `number` = `10000.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L48)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L48)
 
 Defines the pointer pinch precision or how fast is the camera zooming.
 A negative number will reverse the axis direction.
@@ -204,7 +204,7 @@ A negative number will reverse the axis direction.
 
 > **warningEnable**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L116)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L116)
 
 Log error messages if basic misconfiguration has occurred.
 
@@ -214,7 +214,7 @@ Log error messages if basic misconfiguration has occurred.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L52)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -240,7 +240,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:257](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L257)
 
 Detach the current controls from the specified dom element.
 
@@ -258,7 +258,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L23)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L23)
 
 Gets the class name of the current input.
 
@@ -278,7 +278,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:299](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L299)
 
 Get the friendly name associated with the input class.
 
@@ -298,7 +298,7 @@ the input friendly name
 
 > **onButtonDown**(`_evt`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L357)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L357)
 
 Called each time a new POINTERDOWN event occurs. Ie, for each button
 press.
@@ -326,7 +326,7 @@ Defines the event to track
 
 > **onButtonUp**(`_evt`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L365)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L365)
 
 Called each time a new POINTERUP event occurs. Ie, for each button
 release.
@@ -354,7 +354,7 @@ Defines the event to track
 
 > **onContextMenu**(`evt`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L347)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:347](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L347)
 
 Called on JS contextmenu event.
 Override this method to provide functionality.
@@ -381,7 +381,7 @@ the event to be handled
 
 > **onDoubleTap**(`type`, `evt?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L310)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L310)
 
 Called on pointer POINTERDOUBLETAP event.
 Override this method to provide functionality on POINTERDOUBLETAP event.
@@ -414,7 +414,7 @@ the pointer event that triggered the double tap (carries button / buttons state)
 
 > **onLostFocus**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:371](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L371)
+Defined in: [packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts:371](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/BaseCameraPointersInput.ts#L371)
 
 Called when window becomes inactive.
 Override this method to provide functionality.
@@ -433,10 +433,9 @@ Override this method to provide functionality.
 
 > **onMultiTouch**(`pointA`, `pointB`, `previousPinchSquaredDistance`, `pinchSquaredDistance`, `previousMultiTouchPanPosition`, `multiTouchPanPosition`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L140)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:155](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L155)
 
 Called on pointer POINTERMOVE event if multiple touches are active.
-Override this method to provide functionality.
 
 #### Parameters
 
@@ -444,9 +443,13 @@ Override this method to provide functionality.
 
 [`Nullable`](../type-aliases/Nullable.md)\<[`PointerTouch`](../interfaces/PointerTouch.md)\>
 
+First point in the pair
+
 ##### pointB
 
 [`Nullable`](../type-aliases/Nullable.md)\<[`PointerTouch`](../interfaces/PointerTouch.md)\>
+
+Second point in the pair
 
 ##### previousPinchSquaredDistance
 
@@ -486,16 +489,17 @@ Current center point between the points
 
 > **onTouch**(`pointA`, `offsetX`, `offsetY`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L118)
+Defined in: [packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts:124](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/followCameraPointersInput.ts#L124)
 
 Called on pointer POINTERMOVE event if only a single touch is active.
-Override this method to provide functionality.
 
 #### Parameters
 
 ##### pointA
 
 [`Nullable`](../type-aliases/Nullable.md)\<[`PointerTouch`](../interfaces/PointerTouch.md)\>
+
+The current position of the pointer
 
 ##### offsetX
 

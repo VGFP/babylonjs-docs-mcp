@@ -8,7 +8,7 @@
 
 > **RegisterScrollBar**(): `void`
 
-Defined in: [packages/dev/gui/src/2D/controls/sliders/scrollBar.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/gui/src/2D/controls/sliders/scrollBar.pure.ts#L216)
+Defined in: [packages/dev/gui/src/2D/controls/sliders/scrollBar.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/gui/src/2D/controls/sliders/scrollBar.pure.ts#L216)
 
 Registers the ScrollBar class with the type store for serialization support.
 Safe to call multiple times; only the first call has an effect.

@@ -8,7 +8,7 @@
 
 > **TargetCameraHandlers** = `object`
 
-Defined in: [packages/dev/core/src/Cameras/targetCameraMovement.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCameraMovement.ts#L16)
+Defined in: [packages/dev/core/src/Cameras/targetCameraMovement.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/targetCameraMovement.ts#L16)
 
 Handler shape for target/free camera interactions.
 Property names are the canonical interaction type strings used in inputMap entries.
@@ -20,7 +20,7 @@ All handlers are plain functions since none need multi-method lifecycle.
 
 > **rotate**: (`pitch`, `yaw`) => `void`
 
-Defined in: [packages/dev/core/src/Cameras/targetCameraMovement.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCameraMovement.ts#L28)
+Defined in: [packages/dev/core/src/Cameras/targetCameraMovement.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/targetCameraMovement.ts#L28)
 
 Rotate the camera by pitch/yaw deltas.
 pitch rotates around the local X axis (look up/down), yaw around the local Y axis (look left/right).
@@ -46,7 +46,7 @@ Mirrors the legacy `cameraRotation` accumulation surface (x = pitch, y = yaw).
 
 > **translate**: (`deltaX`, `deltaY`, `deltaZ`) => `void`
 
-Defined in: [packages/dev/core/src/Cameras/targetCameraMovement.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/targetCameraMovement.ts#L22)
+Defined in: [packages/dev/core/src/Cameras/targetCameraMovement.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/targetCameraMovement.ts#L22)
 
 Translate the camera by world-space deltas (already oriented; the camera applies them directly).
 Mirrors the legacy `cameraDirection` accumulation surface, which input classes populate after

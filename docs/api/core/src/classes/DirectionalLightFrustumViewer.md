@@ -6,7 +6,7 @@
 
 # Class: DirectionalLightFrustumViewer
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L22)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L22)
 
 **`Since`**
 
@@ -23,7 +23,7 @@ https://playground.babylonjs.com/#7EFGSG#4
 
 > **new DirectionalLightFrustumViewer**(`light`, `camera?`): `DirectionalLightFrustumViewer`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:112](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L112)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:112](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L112)
 
 Creates a new frustum viewer
 
@@ -53,7 +53,7 @@ camera used to retrieve the minZ / maxZ values if the shadowMinZ/shadowMaxZ valu
 
 > **get** **showLines**(): `boolean`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L75)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L75)
 
 true to display the edges of the frustum
 
@@ -65,7 +65,7 @@ true to display the edges of the frustum
 
 > **set** **showLines**(`show`): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L79)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L79)
 
 ##### Parameters
 
@@ -85,7 +85,7 @@ Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:79](ht
 
 > **get** **showPlanes**(): `boolean`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L93)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L93)
 
 true to display the planes of the frustum
 
@@ -97,7 +97,7 @@ true to display the planes of the frustum
 
 > **set** **showPlanes**(`show`): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L97)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L97)
 
 ##### Parameters
 
@@ -117,7 +117,7 @@ Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:97](ht
 
 > **get** **transparency**(): `number`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L60)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L60)
 
 Gets or sets the transparency of the frustum planes
 
@@ -129,7 +129,7 @@ Gets or sets the transparency of the frustum planes
 
 > **set** **transparency**(`alpha`): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L64)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L64)
 
 ##### Parameters
 
@@ -147,7 +147,7 @@ Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:64](ht
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L290)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:290](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L290)
 
 Dispose of the class / remove the frustum view
 
@@ -161,7 +161,7 @@ Dispose of the class / remove the frustum view
 
 > **hide**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L141)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L141)
 
 Hides the frustum
 
@@ -175,7 +175,7 @@ Hides the frustum
 
 > **show**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L126)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:126](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L126)
 
 Shows the frustum
 
@@ -189,7 +189,7 @@ Shows the frustum
 
 > **update**(): `void`
 
-Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L176)
+Defined in: [packages/dev/core/src/Debug/directionalLightFrustumViewer.ts:176](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Debug/directionalLightFrustumViewer.ts#L176)
 
 Updates the frustum.
 Call this method to update the frustum view if the light has changed position/direction

@@ -6,7 +6,7 @@
 
 # Class: MaterialDefines
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L4)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L4)
 
 Manages the defines for the Material
 
@@ -20,7 +20,7 @@ Manages the defines for the Material
 
 > **new MaterialDefines**(`externalProperties?`): `MaterialDefines`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L48)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L48)
 
 Creates a new instance
 
@@ -40,7 +40,7 @@ list of external properties to inject into the object
 
 > **VERTEXOUTPUT\_INVARIANT**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:5](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L5)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:5](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L5)
 
 ## Accessors
 
@@ -50,7 +50,7 @@ Defined in: [packages/dev/core/src/Materials/materialDefines.ts:5](https://githu
 
 > **get** **isDirty**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L64)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L64)
 
 Specifies if the material needs to be re-calculated
 
@@ -64,7 +64,7 @@ Specifies if the material needs to be re-calculated
 
 > **cloneTo**(`other`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L210)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:210](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L210)
 
 Clones this instance's defines to another instance
 
@@ -86,7 +86,7 @@ material defines to clone values to
 
 > **isEqual**(`other`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L190)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:190](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L190)
 
 Specifies if two material defines are equal
 
@@ -110,7 +110,7 @@ A material define instance to compare to
 
 > **markAllAsDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L93)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L93)
 
 Marks the material to indicate all of its defines need to be re-calculated
 
@@ -124,7 +124,7 @@ Marks the material to indicate all of its defines need to be re-calculated
 
 > **markAsAttributesDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L125)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L125)
 
 Marks the attribute state as changed
 
@@ -138,7 +138,7 @@ Marks the attribute state as changed
 
 > **markAsFresnelDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L141)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L141)
 
 Marks the fresnel state as changed
 
@@ -152,7 +152,7 @@ Marks the fresnel state as changed
 
 > **markAsImageProcessingDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L107)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L107)
 
 Marks the material to indicate that image processing needs to be re-calculated
 
@@ -166,7 +166,7 @@ Marks the material to indicate that image processing needs to be re-calculated
 
 > **markAsLightDirty**(`disposed?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L116)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L116)
 
 Marks the material to indicate the lights need to be re-calculated
 
@@ -188,7 +188,7 @@ Defines whether the light is dirty due to dispose or not
 
 > **markAsMiscDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L149)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L149)
 
 Marks the misc state as changed
 
@@ -202,7 +202,7 @@ Marks the misc state as changed
 
 > **markAsPrePassDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:157](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L157)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:157](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L157)
 
 Marks the prepass state as changed
 
@@ -216,7 +216,7 @@ Marks the prepass state as changed
 
 > **markAsProcessed**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L71)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:71](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L71)
 
 Marks the material to indicate that it has been re-calculated
 
@@ -230,7 +230,7 @@ Marks the material to indicate that it has been re-calculated
 
 > **markAsTexturesDirty**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L133)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L133)
 
 Marks the texture state as changed
 
@@ -244,7 +244,7 @@ Marks the texture state as changed
 
 > **markAsUnprocessed**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L86)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L86)
 
 Marks the material to indicate that it needs to be re-calculated
 
@@ -258,7 +258,7 @@ Marks the material to indicate that it needs to be re-calculated
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L165)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L165)
 
 Rebuilds the material defines
 
@@ -272,7 +272,7 @@ Rebuilds the material defines
 
 > **reset**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:225](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L225)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:225](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L225)
 
 Resets the material define values
 
@@ -286,7 +286,7 @@ Resets the material define values
 
 > **toString**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/materialDefines.ts:252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialDefines.ts#L252)
+Defined in: [packages/dev/core/src/Materials/materialDefines.ts:252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialDefines.ts#L252)
 
 Converts the material define values to a string
 

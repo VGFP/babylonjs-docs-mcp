@@ -6,7 +6,7 @@
 
 # Interface: ISimplifier
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L18)
 
 A simplifier interface for future simplification implementations
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **simplify**(`settings`, `successCallback`, `errorCallback?`): `void`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.ts#L26)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.ts#L26)
 
 Simplification of a given mesh according to the given settings.
 Since this requires computation, it is assumed that the function runs async.

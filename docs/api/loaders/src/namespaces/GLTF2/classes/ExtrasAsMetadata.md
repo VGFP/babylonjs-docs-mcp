@@ -6,7 +6,7 @@
 
 # Class: ExtrasAsMetadata
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts#L22)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts#L22)
 
 Store glTF extras (if present) in BJS objects' metadata
 
@@ -20,7 +20,7 @@ Store glTF extras (if present) in BJS objects' metadata
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts#L31)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts#L31)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"ExtrasAsMetadata"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts#L26)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/ExtrasAsMetadata.pure.ts#L26)
 
 The name of this extension.
 

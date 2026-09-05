@@ -6,7 +6,7 @@
 
 # Interface: I3mfResources
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:304](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L304)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:304](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L304)
 
 Model resources container.
 Holds object resources and optional property groups such as basematerials.
@@ -17,7 +17,7 @@ Holds object resources and optional property groups such as basematerials.
 
 > `optional` **basematerials?**: [`I3mfBaseMaterials`](I3mfBaseMaterials.md)[]
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:312](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L312)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:312](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L312)
 
 Optional base materials groups.
 Other property groups may exist in 3MF (colors, textures, etc.) but are not modeled here.
@@ -28,6 +28,6 @@ Other property groups may exist in 3MF (colors, textures, etc.) but are not mode
 
 > **object**: [`I3mfObject`](I3mfObject.md)[]
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:306](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L306)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:306](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L306)
 
 All objects available for build items and components.

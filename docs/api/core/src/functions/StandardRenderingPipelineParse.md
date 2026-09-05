@@ -8,7 +8,7 @@
 
 > **StandardRenderingPipelineParse**(`source`, `scene`, `rootUrl`): [`StandardRenderingPipeline`](../classes/StandardRenderingPipeline.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:1679](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L1679)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts:1679](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/standardRenderingPipeline.pure.ts#L1679)
 
 Parse the serialized pipeline
 

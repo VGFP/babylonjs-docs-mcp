@@ -6,7 +6,7 @@
 
 # Class: SSRRenderingPipeline
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L42)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L42)
 
 Render pipeline to produce Screen Space Reflections (SSR) effect
 
@@ -30,7 +30,7 @@ References:
 
 > **new SSRRenderingPipeline**(`name`, `scene`, `cameras?`, `forceGeometryBuffer?`, `textureType?`, `useScreenspaceDepth?`): `SSRRenderingPipeline`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:608](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L608)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:608](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L608)
 
 Constructor of the SSR rendering pipeline
 
@@ -86,7 +86,7 @@ Indicates if the depth buffer should be linear or screenspace (default: false). 
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -104,7 +104,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **SSRBlurRenderEffect**: `string` = `"SSRBlurRenderEffect"`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L50)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L50)
 
 The blur PostProcess effect id in the pipeline
 
@@ -114,7 +114,7 @@ The blur PostProcess effect id in the pipeline
 
 > **SSRCombineRenderEffect**: `string` = `"SSRCombineRenderEffect"`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L54)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L54)
 
 The PostProcess effect id in the pipeline that combines the SSR-Blur output with the original scene color
 
@@ -124,7 +124,7 @@ The PostProcess effect id in the pipeline that combines the SSR-Blur output with
 
 > **SSRRenderEffect**: `string` = `"SSRRenderEffect"`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L46)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L46)
 
 The SSR PostProcess effect id in the pipeline
 
@@ -134,7 +134,7 @@ The SSR PostProcess effect id in the pipeline
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
 
 Gets the unique id of the post process rendering pipeline
 
@@ -150,7 +150,7 @@ Gets the unique id of the post process rendering pipeline
 
 > **get** **attenuateBackfaceReflection**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L356)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:356](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L356)
 
 Gets or sets a boolean indicating if the backface reflections should be attenuated (default: false).
 
@@ -162,7 +162,7 @@ Gets or sets a boolean indicating if the backface reflections should be attenuat
 
 > **set** **attenuateBackfaceReflection**(`attenuate`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L360)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:360](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L360)
 
 ##### Parameters
 
@@ -182,7 +182,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **attenuateFacingCamera**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L344)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:344](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L344)
 
 Gets or sets a boolean indicating if the reflections should be attenuated when the reflection ray is facing the camera (the view direction) (default: false).
 
@@ -194,7 +194,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated when t
 
 > **set** **attenuateFacingCamera**(`attenuate`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L348)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:348](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L348)
 
 ##### Parameters
 
@@ -214,7 +214,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **attenuateIntersectionDistance**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L320)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L320)
 
 Gets or sets a boolean indicating if the reflections should be attenuated according to the distance of the intersection (default: true).
 
@@ -226,7 +226,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated accord
 
 > **set** **attenuateIntersectionDistance**(`attenuate`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:324](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L324)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:324](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L324)
 
 ##### Parameters
 
@@ -246,7 +246,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **attenuateIntersectionIterations**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L332)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L332)
 
 Gets or sets a boolean indicating if the reflections should be attenuated according to the number of iterations performed to find the intersection (default: true).
 
@@ -258,7 +258,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated accord
 
 > **set** **attenuateIntersectionIterations**(`attenuate`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L336)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L336)
 
 ##### Parameters
 
@@ -278,7 +278,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **attenuateScreenBorders**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L308)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L308)
 
 Gets or sets a boolean indicating if the reflections should be attenuated at the screen borders (default: true).
 
@@ -290,7 +290,7 @@ Gets or sets a boolean indicating if the reflections should be attenuated at the
 
 > **set** **attenuateScreenBorders**(`attenuate`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L312)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:312](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L312)
 
 ##### Parameters
 
@@ -310,7 +310,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **backfaceDepthRenderer**(): [`Nullable`](../type-aliases/Nullable.md)\<[`DepthRenderer`](DepthRenderer.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:411](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L411)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:411](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L411)
 
 Gets the depth renderer used to render the back faces of the scene to a depth texture.
 
@@ -326,7 +326,7 @@ Gets the depth renderer used to render the back faces of the scene to a depth te
 
 > **get** **backfaceDepthTextureDownsample**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L423)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L423)
 
 Gets or sets the downsample factor (default: 0) used to create the backface depth texture - used only if enableAutomaticThicknessComputation = true.
 Use 0 to render the depth at full resolution, 1 to render at half resolution, 2 to render at 1/4 resolution, etc.
@@ -340,7 +340,7 @@ Note that you will get rendering artefacts when using a value different from 0: 
 
 > **set** **backfaceDepthTextureDownsample**(`factor`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:427](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L427)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:427](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L427)
 
 ##### Parameters
 
@@ -360,7 +360,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **backfaceForceDepthWriteTransparentMeshes**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L442)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:442](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L442)
 
 Gets or sets a boolean (default: true) indicating if the depth of transparent meshes should be written to the backface depth texture (when automatic thickness computation is enabled).
 
@@ -372,7 +372,7 @@ Gets or sets a boolean (default: true) indicating if the depth of transparent me
 
 > **set** **backfaceForceDepthWriteTransparentMeshes**(`force`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L446)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:446](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L446)
 
 ##### Parameters
 
@@ -392,7 +392,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **blurDispersionStrength**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L225)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L225)
 
 Gets or sets the blur dispersion strength. Set this value to 0 to disable blurring (default: 0.03)
 The reflections are blurred based on the roughness of the surface and the distance between the pixel shaded and the reflected pixel: the higher the distance the more blurry the reflection is.
@@ -406,7 +406,7 @@ blurDispersionStrength allows to increase or decrease this effect.
 
 > **set** **blurDispersionStrength**(`strength`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L229)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:229](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L229)
 
 ##### Parameters
 
@@ -426,7 +426,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **blurDownsample**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L252)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:252](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L252)
 
 Gets or sets the downsample factor used to reduce the size of the textures used to blur the reflection effect (default: 0).
 Use 0 to blur at full resolution, 1 to render at half resolution, 2 to render at 1/3 resolution, etc.
@@ -439,7 +439,7 @@ Use 0 to blur at full resolution, 1 to render at half resolution, 2 to render at
 
 > **set** **blurDownsample**(`downsample`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L256)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:256](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L256)
 
 ##### Parameters
 
@@ -459,7 +459,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **cameras**(): [`Camera`](Camera.md)[]
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
 
 Gets the list of attached cameras
 
@@ -479,7 +479,7 @@ Gets the list of attached cameras
 
 > **get** **clipToFrustum**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L369)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:369](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L369)
 
 Gets or sets a boolean indicating if the ray should be clipped to the frustum (default: true).
 You can try to set this parameter to false to save some performances: it may produce some artefacts in some cases, but generally they won't really be visible
@@ -492,7 +492,7 @@ You can try to set this parameter to false to save some performances: it may pro
 
 > **set** **clipToFrustum**(`clip`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L373)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L373)
 
 ##### Parameters
 
@@ -512,7 +512,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **debug**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:530](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L530)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:530](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L530)
 
 Gets or sets a boolean indicating if the effect should be rendered in debug mode (default: false).
 In this mode, colors have this meaning:
@@ -531,7 +531,7 @@ You should try to get as few blue/red/yellow pixels as possible, as this means t
 
 > **set** **debug**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L534)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:534](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L534)
 
 ##### Parameters
 
@@ -551,7 +551,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **enableAutomaticThicknessComputation**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:399](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L399)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:399](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L399)
 
 Gets or sets a boolean defining if geometry thickness should be computed automatically (default: false).
 When enabled, a depth renderer is created which will render the back faces of the scene to a depth texture (meaning additional work for the GPU).
@@ -567,7 +567,7 @@ Note that for performance reasons, this option will only apply to the first came
 
 > **set** **enableAutomaticThicknessComputation**(`automatic`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L403)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:403](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L403)
 
 ##### Parameters
 
@@ -587,7 +587,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **enableSmoothReflections**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L267)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L267)
 
 Gets or sets whether or not smoothing reflections is enabled (default: false)
 Enabling smoothing will require more GPU power.
@@ -601,7 +601,7 @@ Note that this setting has no effect if step = 1: it's only used if step \> 1.
 
 > **set** **enableSmoothReflections**(`enabled`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L271)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L271)
 
 ##### Parameters
 
@@ -621,7 +621,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
 
 Gets the active engine
 
@@ -641,7 +641,7 @@ Gets the active engine
 
 > **get** **environmentTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`CubeTexture`](CubeTexture.md)\>
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L283)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L283)
 
 Gets or sets the environment cube texture used to define the reflection when the reflected rays of SSR leave the view space or when the maxDistance/maxSteps is reached.
 
@@ -653,7 +653,7 @@ Gets or sets the environment cube texture used to define the reflection when the
 
 > **set** **environmentTexture**(`texture`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L287)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L287)
 
 ##### Parameters
 
@@ -673,7 +673,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **environmentTextureIsProbe**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L296)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:296](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L296)
 
 Gets or sets the boolean defining if the environment texture is a standard cubemap (false) or a probe (true). Default value is false.
 Note: a probe cube texture is treated differently than an ordinary cube texture because the Y axis is reversed.
@@ -686,7 +686,7 @@ Note: a probe cube texture is treated differently than an ordinary cube texture 
 
 > **set** **environmentTextureIsProbe**(`isProbe`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L300)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L300)
 
 ##### Parameters
 
@@ -706,7 +706,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **generateOutputInGammaSpace**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:510](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L510)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:510](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L510)
 
 Gets or sets a boolean defining if the output color texture generated by the SSR pipeline should be in gamma space (default: true)
 If you have a post-process that comes after the SSR and that post-process needs the input to be in a linear space, you must disable generateOutputInGammaSpace
@@ -719,7 +719,7 @@ If you have a post-process that comes after the SSR and that post-process needs 
 
 > **set** **generateOutputInGammaSpace**(`gammaSpace`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:514](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L514)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:514](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L514)
 
 ##### Parameters
 
@@ -739,7 +739,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **inputTextureColorIsInGammaSpace**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:496](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L496)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:496](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L496)
 
 Gets or sets a boolean defining if the input color texture is in gamma space (default: true)
 The SSR effect works in linear space, so if the input texture is in gamma space, we must convert the texture to linear space before applying the effect
@@ -752,7 +752,7 @@ The SSR effect works in linear space, so if the input texture is in gamma space,
 
 > **set** **inputTextureColorIsInGammaSpace**(`gammaSpace`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:500](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L500)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:500](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L500)
 
 ##### Parameters
 
@@ -772,7 +772,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **isEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:464](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L464)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:464](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L464)
 
 Gets or sets a boolean indicating if the effect is enabled (default: true).
 
@@ -784,7 +784,7 @@ Gets or sets a boolean indicating if the effect is enabled (default: true).
 
 > **set** **isEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:468](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L468)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:468](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L468)
 
 ##### Parameters
 
@@ -804,7 +804,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L593)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:593](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L593)
 
 Returns true if SSR is supported by the running hardware
 
@@ -824,7 +824,7 @@ Returns true if SSR is supported by the running hardware
 
 > **get** **maxDistance**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L82)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L82)
 
 Gets or sets the maxDistance used to define how far we look for reflection during the ray-marching on the reflected ray (default: 1000).
 Note that this value is a view (camera) space distance (not pixels!).
@@ -837,7 +837,7 @@ Note that this value is a view (camera) space distance (not pixels!).
 
 > **set** **maxDistance**(`distance`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L86)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L86)
 
 ##### Parameters
 
@@ -857,7 +857,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **maxSteps**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L146)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L146)
 
 Maximum number of steps during the ray marching process after which we consider an intersection could not be found (default: 1000).
 Should be an integer value.
@@ -870,7 +870,7 @@ Should be an integer value.
 
 > **set** **maxSteps**(`steps`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L150)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L150)
 
 ##### Parameters
 
@@ -890,7 +890,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
 
 Gets pipeline name
 
@@ -910,7 +910,7 @@ Gets pipeline name
 
 > **get** **reflectionSpecularFalloffExponent**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L133)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:133](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L133)
 
 Gets or sets the falloff exponent used to compute the reflection strength. Higher values lead to fainter reflections (default: 1).
 
@@ -922,7 +922,7 @@ Gets or sets the falloff exponent used to compute the reflection strength. Highe
 
 > **set** **reflectionSpecularFalloffExponent**(`exponent`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L137)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:137](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L137)
 
 ##### Parameters
 
@@ -942,7 +942,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **reflectivityThreshold**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L186)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:186](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L186)
 
 Gets or sets the minimum value for one of the reflectivity component of the material to consider it for SSR (default: 0.04).
 If all r/g/b components of the reflectivity is below or equal this value, the pixel will not be considered reflective and SSR won't be applied.
@@ -955,7 +955,7 @@ If all r/g/b components of the reflectivity is below or equal this value, the pi
 
 > **set** **reflectivityThreshold**(`threshold`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L190)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:190](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L190)
 
 ##### Parameters
 
@@ -975,7 +975,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **roughnessFactor**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L160)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:160](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L160)
 
 Gets or sets the factor applied when computing roughness. Default value is 0.2.
 When blurring based on roughness is enabled (meaning blurDispersionStrength \> 0), roughnessFactor is used as a global roughness factor applied on all objects.
@@ -989,7 +989,7 @@ If you want to disable this global roughness set it to 0.
 
 > **set** **roughnessFactor**(`factor`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L164)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L164)
 
 ##### Parameters
 
@@ -1009,7 +1009,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **samples**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L73)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L73)
 
 ##### Returns
 
@@ -1019,7 +1019,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **set** **samples**(`sampleCount`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L62)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L62)
 
 MSAA sample count, setting this to 4 will provide 4x anti aliasing. (default: 1)
 
@@ -1041,7 +1041,7 @@ MSAA sample count, setting this to 4 will provide 4x anti aliasing. (default: 1)
 
 > **get** **scene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:586](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L586)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:586](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L586)
 
 Gets active scene
 
@@ -1057,7 +1057,7 @@ Gets active scene
 
 > **get** **selfCollisionNumSkip**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L173)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L173)
 
 Number of steps to skip at start when marching the ray to avoid self collisions (default: 1)
 1 should normally be a good value, depending on the scene you may need to use a higher value (2 or 3)
@@ -1070,7 +1070,7 @@ Number of steps to skip at start when marching the ray to avoid self collisions 
 
 > **set** **selfCollisionNumSkip**(`skip`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L177)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L177)
 
 ##### Parameters
 
@@ -1090,7 +1090,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **ssrDownsample**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L210)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:210](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L210)
 
 Gets or sets the downsample factor used to reduce the size of the texture used to compute the SSR contribution (default: 0).
 Use 0 to render the SSR contribution at full resolution, 1 to render at half resolution, 2 to render at 1/3 resolution, etc.
@@ -1104,7 +1104,7 @@ Note that it is used only when blurring is enabled (blurDispersionStrength \> 0)
 
 > **set** **ssrDownsample**(`downsample`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L214)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:214](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L214)
 
 ##### Parameters
 
@@ -1124,7 +1124,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **step**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L95)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L95)
 
 Gets or sets the step size used to iterate until the effect finds the color of the reflection's pixel. Should be an integer \>= 1 as it is the number of pixels we advance at each step (default: 1).
 Use higher values to improve performances (but at the expense of quality).
@@ -1137,7 +1137,7 @@ Use higher values to improve performances (but at the expense of quality).
 
 > **set** **step**(`step`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L99)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L99)
 
 ##### Parameters
 
@@ -1157,7 +1157,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **strength**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L121)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L121)
 
 Gets or sets the current reflection strength. 1.0 is an ideal value but can be increased/decreased for particular results (default: 1).
 
@@ -1169,7 +1169,7 @@ Gets or sets the current reflection strength. 1.0 is an ideal value but can be i
 
 > **set** **strength**(`strength`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L125)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L125)
 
 ##### Parameters
 
@@ -1189,7 +1189,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **thickness**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L109)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L109)
 
 Gets or sets the thickness value used as tolerance when computing the intersection between the reflected ray and the scene (default: 0.5).
 If setting "enableAutomaticThicknessComputation" to true, you can use lower values for "thickness" (even 0), as the geometry thickness
@@ -1203,7 +1203,7 @@ is automatically computed thank to the regular depth buffer + the backface depth
 
 > **set** **thickness**(`thickness`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L113)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:113](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L113)
 
 ##### Parameters
 
@@ -1223,7 +1223,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **get** **useFresnel**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L382)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:382](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L382)
 
 Gets or sets a boolean indicating whether the blending between the current color pixel and the reflection color should be done with a Fresnel coefficient (default: false).
 It is more physically accurate to use the Fresnel coefficient (otherwise it uses the reflectivity of the material for blending), but it is also more expensive when you use blur (when blurDispersionStrength \> 0).
@@ -1236,7 +1236,7 @@ It is more physically accurate to use the Fresnel coefficient (otherwise it uses
 
 > **set** **useFresnel**(`fresnel`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L386)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:386](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L386)
 
 ##### Parameters
 
@@ -1254,7 +1254,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRen
 
 > **addCamera**(`camera`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L664)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:664](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L664)
 
 Adds a camera to the pipeline
 
@@ -1276,7 +1276,7 @@ the camera to be added
 
 > **addEffect**(`renderEffect`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
 
 Adds an effect to the pipeline
 
@@ -1302,7 +1302,7 @@ the effect to add
 
 > **dispose**(`disableGeometryBufferRenderer?`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:683](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L683)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:683](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L683)
 
 Removes the internal pipeline assets and detaches the pipeline from the scene cameras
 
@@ -1328,7 +1328,7 @@ if the geometry buffer renderer should be disabled
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:656](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L656)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:656](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L656)
 
 Get the class name
 
@@ -1348,7 +1348,7 @@ Get the class name
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L551)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:551](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L551)
 
 Gets the scene the effect belongs to.
 
@@ -1364,7 +1364,7 @@ the scene the effect belongs to.
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:543](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L543)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:543](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L543)
 
 Checks if all the post processes in the pipeline are ready.
 
@@ -1380,7 +1380,7 @@ True if all the post processes in the pipeline are ready
 
 > **removeCamera**(`camera`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L673)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:673](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L673)
 
 Removes a camera from the pipeline
 
@@ -1402,7 +1402,7 @@ the camera to remove
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:1026](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L1026)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts:1026](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/ssrRenderingPipeline.pure.ts#L1026)
 
 Serializes the rendering pipeline (Used when exporting)
 
@@ -1418,7 +1418,7 @@ the serialized object
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
 
 Sets the required values to the prepass renderer.
 

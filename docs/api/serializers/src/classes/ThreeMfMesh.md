@@ -6,7 +6,7 @@
 
 # Class: ThreeMfMesh
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L254)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:254](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L254)
 
 ## Implements
 
@@ -18,7 +18,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:254](https://git
 
 > **new ThreeMfMesh**(`vertices?`, `triangles?`): `ThreeMfMesh`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L264)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:264](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L264)
 
 #### Parameters
 
@@ -40,7 +40,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:264](https://git
 
 > **triangles**: [`I3mfTriangles`](../interfaces/I3mfTriangles.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L262)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:262](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L262)
 
 #### Implementation of
 
@@ -52,7 +52,7 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:262](https://git
 
 > **vertices**: [`I3mfVertices`](../interfaces/I3mfVertices.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:258](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.ts#L258)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.ts:258](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.ts#L258)
 
 #### Implementation of
 

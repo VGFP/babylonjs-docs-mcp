@@ -6,7 +6,7 @@
 
 # ~~Class: AudioSceneComponent~~
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L22)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L22)
 
 Defines the sound scene component responsible to manage any sounds
 in a given scene.
@@ -25,7 +25,7 @@ please use AudioEngineV2 instead
 
 > **new AudioSceneComponent**(`scene?`): `AudioSceneComponent`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L74)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L74)
 
 Creates a new instance of the component for the given scene
 
@@ -47,7 +47,7 @@ Defines the scene to register the component in
 
 > **audioListenerPositionProvider**: [`Nullable`](../type-aliases/Nullable.md)\<() => [`Vector3`](Vector3.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L62)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L62)
 
 Gets or Sets a custom listener position for all sounds in the scene
 By default, this is the position of the first active camera
@@ -58,7 +58,7 @@ By default, this is the position of the first active camera
 
 > **audioListenerRotationProvider**: [`Nullable`](../type-aliases/Nullable.md)\<() => [`Vector3`](Vector3.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L68)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L68)
 
 Gets or Sets a custom listener rotation for all sounds in the scene
 By default, this is the rotation of the first active camera
@@ -69,7 +69,7 @@ By default, this is the rotation of the first active camera
 
 > **audioPositioningRefreshRate**: `number` = `500`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L56)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L56)
 
 Gets or sets a refresh rate when using 3D audio positioning
 
@@ -79,7 +79,7 @@ Gets or sets a refresh rate when using 3D audio positioning
 
 > `readonly` **name**: `"Audio"` = `SceneComponentConstants.NAME_AUDIO`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L28)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L28)
 
 The component name helpful to identify the component in the list of scene components.
 
@@ -93,7 +93,7 @@ The component name helpful to identify the component in the list of scene compon
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L33)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L33)
 
 The scene the component belongs to.
 
@@ -109,7 +109,7 @@ The scene the component belongs to.
 
 > **get** **audioEnabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L40)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L40)
 
 Gets whether audio is enabled or not.
 Please use related enable/disable method to switch state.
@@ -126,7 +126,7 @@ Please use related enable/disable method to switch state.
 
 > **get** **headphone**(): `boolean`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L49)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L49)
 
 Gets whether audio is outputting to headphone or not.
 Please use the according Switch methods to change output.
@@ -141,7 +141,7 @@ Please use the according Switch methods to change output.
 
 > **addFromContainer**(`container`): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L122)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:122](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L122)
 
 Adds all the elements from the container to the scene
 
@@ -167,7 +167,7 @@ the container holding the elements
 
 > **disableAudio**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L171)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:171](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L171)
 
 Disables audio in the associated scene.
 
@@ -181,7 +181,7 @@ Disables audio in the associated scene.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L155)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L155)
 
 Disposes the component and the associated resources.
 
@@ -199,7 +199,7 @@ Disposes the component and the associated resources.
 
 > **enableAudio**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L196)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:196](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L196)
 
 Enables audio in the associated scene.
 
@@ -213,7 +213,7 @@ Enables audio in the associated scene.
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L96)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L96)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -232,7 +232,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L88)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:88](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L88)
 
 Registers the component in a given scene
 
@@ -250,7 +250,7 @@ Registers the component in a given scene
 
 > **removeFromContainer**(`container`, `dispose?`): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L138)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L138)
 
 Removes all the elements in the container from the scene
 
@@ -282,7 +282,7 @@ if the removed element should be disposed (default: false)
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L104)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L104)
 
 Serializes the component data to the specified json object
 
@@ -308,7 +308,7 @@ The object to serialize to
 
 > **switchAudioModeForHeadphones**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L225)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:225](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L225)
 
 Switch audio to headphone output.
 
@@ -322,7 +322,7 @@ Switch audio to headphone output.
 
 > **switchAudioModeForNormalSpeakers**(): `void`
 
-Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L240)
+Defined in: [packages/dev/core/src/Audio/audioSceneComponent.pure.ts:240](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Audio/audioSceneComponent.pure.ts#L240)
 
 Switch audio to normal speakers.
 

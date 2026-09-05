@@ -6,7 +6,7 @@
 
 # Interface: ISceneLoaderAsyncResult
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L44)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L44)
 
 Interface used for the result of ImportMeshAsync
 
@@ -16,7 +16,7 @@ Interface used for the result of ImportMeshAsync
 
 > `readonly` **animationGroups**: [`AnimationGroup`](../classes/AnimationGroup.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L63)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L63)
 
 The array of loaded animation groups
 
@@ -26,7 +26,7 @@ The array of loaded animation groups
 
 > `readonly` **geometries**: [`Geometry`](../classes/Geometry.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L73)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L73)
 
 The array of loaded geometries
 
@@ -36,7 +36,7 @@ The array of loaded geometries
 
 > `readonly` **lights**: [`Light`](../classes/Light.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L78)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L78)
 
 The array of loaded lights
 
@@ -46,7 +46,7 @@ The array of loaded lights
 
 > `readonly` **meshes**: [`AbstractMesh`](../classes/AbstractMesh.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L48)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L48)
 
 The array of loaded meshes
 
@@ -56,7 +56,7 @@ The array of loaded meshes
 
 > `readonly` **particleSystems**: [`IParticleSystem`](IParticleSystem.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L53)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L53)
 
 The array of loaded particle systems
 
@@ -66,7 +66,7 @@ The array of loaded particle systems
 
 > `readonly` **skeletons**: [`Skeleton`](../classes/Skeleton.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L58)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L58)
 
 The array of loaded skeletons
 
@@ -76,7 +76,7 @@ The array of loaded skeletons
 
 > `readonly` **spriteManagers**: [`ISpriteManager`](ISpriteManager.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L83)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L83)
 
 The array of loaded sprite managers
 
@@ -86,6 +86,6 @@ The array of loaded sprite managers
 
 > `readonly` **transformNodes**: [`TransformNode`](../classes/TransformNode.md)[]
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L68)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L68)
 
 The array of loaded transform nodes

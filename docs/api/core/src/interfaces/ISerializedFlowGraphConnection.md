@@ -6,7 +6,7 @@
 
 # Interface: ISerializedFlowGraphConnection
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L111)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L111)
 
 A Serialized Flow Graph Connection
 
@@ -16,7 +16,7 @@ A Serialized Flow Graph Connection
 
 > **\_connectionType**: [`FlowGraphConnectionType`](../enumerations/FlowGraphConnectionType.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L123)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L123)
 
 The type of the connection
 
@@ -26,7 +26,7 @@ The type of the connection
 
 > **connectedPointIds**: `string`[]
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L127)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L127)
 
 The id of the connection that this is connected to
 
@@ -36,7 +36,7 @@ The id of the connection that this is connected to
 
 > `optional` **defaultValue?**: `any`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L132)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L132)
 
 The serialized default value of a data connection (set by the user for
 unconnected inputs).  Only present on data connections.
@@ -47,7 +47,7 @@ unconnected inputs).  Only present on data connections.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:119](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L119)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:119](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L119)
 
 The name of the connection
 
@@ -57,6 +57,6 @@ The name of the connection
 
 > **uniqueId**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L115)
+Defined in: [packages/dev/core/src/FlowGraph/typeDefinitions.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/typeDefinitions.ts#L115)
 
 The unique id of the connection

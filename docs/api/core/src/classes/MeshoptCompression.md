@@ -6,7 +6,7 @@
 
 # Class: MeshoptCompression
 
-Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L47)
+Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L47)
 
 Meshopt compression (https://github.com/zeux/meshoptimizer)
 
@@ -39,7 +39,7 @@ To update the configuration, use the following code:
 
 > **new MeshoptCompression**(): `MeshoptCompression`
 
-Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:80](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L80)
+Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:80](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L80)
 
 Constructor
 
@@ -53,7 +53,7 @@ Constructor
 
 > `static` **Configuration**: [`IMeshoptCompressionConfiguration`](../interfaces/IMeshoptCompressionConfiguration.md)
 
-Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L58)
+Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L58)
 
 The configuration. Defaults to the following:
 ```javascript
@@ -70,7 +70,7 @@ decoder: {
 
 > **get** `static` **Default**(): `MeshoptCompression`
 
-Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:69](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L69)
+Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:69](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L69)
 
 Default instance for the meshoptimizer object.
 
@@ -84,7 +84,7 @@ Default instance for the meshoptimizer object.
 
 > **decodeGltfBufferAsync**(`source`, `count`, `stride`, `mode`, `filter?`): `Promise`\<`Uint8Array`\<`ArrayBufferLike`\>\>
 
-Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L107)
+Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L107)
 
 Decode meshopt data.
 
@@ -136,7 +136,7 @@ https://github.com/zeux/meshoptimizer/tree/master/js#decoder
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L93)
+Defined in: [packages/dev/core/src/Meshes/Compression/meshoptCompression.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Compression/meshoptCompression.ts#L93)
 
 Stop all async operations and release resources.
 

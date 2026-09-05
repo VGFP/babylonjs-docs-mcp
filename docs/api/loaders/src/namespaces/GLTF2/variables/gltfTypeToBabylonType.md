@@ -8,7 +8,7 @@
 
 > `const` **gltfTypeToBabylonType**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L34)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_interactivity/interactivityGraphParser.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_interactivity/interactivityGraphParser.ts#L34)
 
 ## Index Signature
 

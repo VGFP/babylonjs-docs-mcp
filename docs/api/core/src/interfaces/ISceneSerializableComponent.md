@@ -6,7 +6,7 @@
 
 # Interface: ISceneSerializableComponent
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:147](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L147)
+Defined in: [packages/dev/core/src/sceneComponent.ts:147](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L147)
 
 This represents a SERIALIZABLE scene component.
 
@@ -22,7 +22,7 @@ This extends Scene Component to add Serialization methods on top.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L118)
+Defined in: [packages/dev/core/src/sceneComponent.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L118)
 
 The name of the component. Each component must have a unique name.
 
@@ -36,7 +36,7 @@ The name of the component. Each component must have a unique name.
 
 > **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L123)
+Defined in: [packages/dev/core/src/sceneComponent.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L123)
 
 The scene the component belongs to.
 
@@ -50,7 +50,7 @@ The scene the component belongs to.
 
 > **addFromContainer**(`container`): `void`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:152](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L152)
+Defined in: [packages/dev/core/src/sceneComponent.ts:152](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L152)
 
 Adds all the elements from the container to the scene
 
@@ -72,7 +72,7 @@ the container holding the elements
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L139)
+Defined in: [packages/dev/core/src/sceneComponent.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L139)
 
 Disposes the component and the associated resources.
 
@@ -90,7 +90,7 @@ Disposes the component and the associated resources.
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L134)
+Defined in: [packages/dev/core/src/sceneComponent.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L134)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -109,7 +109,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:128](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L128)
+Defined in: [packages/dev/core/src/sceneComponent.ts:128](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L128)
 
 Register the component to one instance of a scene.
 
@@ -127,7 +127,7 @@ Register the component to one instance of a scene.
 
 > **removeFromContainer**(`container`, `dispose?`): `void`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L159)
+Defined in: [packages/dev/core/src/sceneComponent.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L159)
 
 Removes all the elements in the container from the scene
 
@@ -155,7 +155,7 @@ if the removed element should be disposed (default: false)
 
 > **serialize**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/sceneComponent.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/sceneComponent.ts#L165)
+Defined in: [packages/dev/core/src/sceneComponent.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/sceneComponent.ts#L165)
 
 Serializes the component data to the specified json object
 

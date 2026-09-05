@@ -6,7 +6,7 @@
 
 # Interface: IWebXRControllerOptions
 
-Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRInputSource.ts#L18)
+Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRInputSource.ts#L18)
 
 Configuration options for the WebXR controller creation
 
@@ -16,7 +16,7 @@ Configuration options for the WebXR controller creation
 
 > `optional` **disableMotionControllerAnimation?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRInputSource.ts#L23)
+Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRInputSource.ts#L23)
 
 Should the controller mesh be animated when a user interacts with it
 The pressed buttons / thumbstick and touchpad animations will be disabled
@@ -27,7 +27,7 @@ The pressed buttons / thumbstick and touchpad animations will be disabled
 
 > `optional` **doNotLoadControllerMesh?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRInputSource.ts#L27)
+Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRInputSource.ts#L27)
 
 Do not load the controller mesh, in case a different mesh needs to be loaded.
 
@@ -37,7 +37,7 @@ Do not load the controller mesh, in case a different mesh needs to be loaded.
 
 > `optional` **forceControllerProfile?**: `string`
 
-Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRInputSource.ts#L32)
+Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRInputSource.ts#L32)
 
 Force a specific controller type for this controller.
 This can be used when creating your own profile or when testing different controllers
@@ -48,7 +48,7 @@ This can be used when creating your own profile or when testing different contro
 
 > `optional` **renderingGroupId?**: `number`
 
-Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXRInputSource.ts#L37)
+Defined in: [packages/dev/core/src/XR/webXRInputSource.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXRInputSource.ts#L37)
 
 Defines a rendering group ID for meshes that will be loaded.
 This is for the default controllers only.

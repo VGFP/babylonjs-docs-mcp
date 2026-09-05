@@ -6,7 +6,7 @@
 
 # Interface: IIESTextureData
 
-Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/IES/iesLoader.ts#L94)
+Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/IES/iesLoader.ts#L90)
 
 Interface for IES texture data.
 
@@ -16,7 +16,7 @@ Interface for IES texture data.
 
 > **data**: `Float32Array`
 
-Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:100](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/IES/iesLoader.ts#L100)
+Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/IES/iesLoader.ts#L96)
 
 The data of the texture
 
@@ -26,7 +26,7 @@ The data of the texture
 
 > **height**: `number`
 
-Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/IES/iesLoader.ts#L98)
+Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:94](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/IES/iesLoader.ts#L94)
 
 The height of the texture
 
@@ -36,6 +36,6 @@ The height of the texture
 
 > **width**: `number`
 
-Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Lights/IES/iesLoader.ts#L96)
+Defined in: [packages/dev/core/src/Lights/IES/iesLoader.ts:92](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Lights/IES/iesLoader.ts#L92)
 
 The width of the texture

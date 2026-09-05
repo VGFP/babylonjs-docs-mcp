@@ -6,7 +6,7 @@
 
 # Class: HtmlRaycastInteractionManager
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L50)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L50)
 
 Routes Babylon pointer events to a live HTML element rendered through an [HtmlTexture](HtmlTexture.md).
 
@@ -22,7 +22,7 @@ rather than a flat CSS overlay. For a perspective-correct overlay on planar surf
 
 > **new HtmlRaycastInteractionManager**(`scene`, `texture`, `mesh`, `options?`): `HtmlRaycastInteractionManager`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L72)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L72)
 
 Creates a raycast interaction manager.
 
@@ -62,7 +62,7 @@ optional configuration
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:244](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L244)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:244](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L244)
 
 Detaches the manager and stops forwarding pointer events.
 

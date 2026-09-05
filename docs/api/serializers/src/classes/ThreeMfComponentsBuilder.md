@@ -6,7 +6,7 @@
 
 # Class: ThreeMfComponentsBuilder
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L132)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L132)
 
 Fluent builder for a 3MF object made of components.
 A components object references other objects instead of defining its own geometry.
@@ -21,7 +21,7 @@ A components object references other objects instead of defining its own geometr
 
 > **new ThreeMfComponentsBuilder**(`id`, `type?`): `ThreeMfComponentsBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L138)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L138)
 
 Creates a new components object builder.
 
@@ -53,7 +53,7 @@ The 3MF object type. Defaults to `ST_ObjectType.model`.
 
 > **build**(): [`I3mfObject`](../interfaces/I3mfObject.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L114)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:114](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L114)
 
 Returns the object that has been built.
 
@@ -73,7 +73,7 @@ The built 3MF object resource.
 
 > **reset**(`id`, `type`): `void`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L123)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L123)
 
 Discards the current object and starts building a new one.
 
@@ -105,7 +105,7 @@ The 3MF object type of the new object.
 
 > **withComponent**(`id`, `t?`): `ThreeMfComponentsBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:149](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L149)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:149](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L149)
 
 Adds a component referencing another object resource.
 
@@ -135,7 +135,7 @@ This builder, to allow chaining.
 
 > **withName**(`name`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L83)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L83)
 
 Sets the human readable name of the object.
 
@@ -163,7 +163,7 @@ This builder, to allow chaining.
 
 > **withProperty**(`id`, `index?`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L104)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L104)
 
 Assigns the property resource used by the object.
 
@@ -197,7 +197,7 @@ This builder, to allow chaining.
 
 > **withThumbnail**(`thumbnail`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L93)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L93)
 
 Sets the thumbnail of the object.
 

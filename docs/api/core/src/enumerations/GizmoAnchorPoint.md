@@ -6,7 +6,7 @@
 
 # Enumeration: GizmoAnchorPoint
 
-Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L44)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gizmos/gizmo.ts#L44)
 
 Anchor options where the Gizmo can be positioned in relation to its anchored node
 
@@ -16,7 +16,7 @@ Anchor options where the Gizmo can be positioned in relation to its anchored nod
 
 > **Origin**: `0`
 
-Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L46)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gizmos/gizmo.ts#L46)
 
 The origin of the attached node
 
@@ -26,6 +26,6 @@ The origin of the attached node
 
 > **Pivot**: `1`
 
-Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Gizmos/gizmo.ts#L48)
+Defined in: [packages/dev/core/src/Gizmos/gizmo.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Gizmos/gizmo.ts#L48)
 
 The pivot point of the attached node

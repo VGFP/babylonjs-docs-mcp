@@ -8,7 +8,7 @@
 
 > **ReflectionProbeParse**(`parsedReflectionProbe`, `scene`, `rootUrl`): [`Nullable`](../type-aliases/Nullable.md)\<[`ReflectionProbe`](../classes/ReflectionProbe.md)\>
 
-Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L314)
+Defined in: [packages/dev/core/src/Probes/reflectionProbe.pure.ts:314](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Probes/reflectionProbe.pure.ts#L314)
 
 Parse the JSON representation of a reflection probe in order to recreate the reflection probe in the given scene.
 

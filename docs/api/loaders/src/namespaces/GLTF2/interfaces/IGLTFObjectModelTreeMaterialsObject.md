@@ -6,7 +6,7 @@
 
 # Interface: IGLTFObjectModelTreeMaterialsObject
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L138)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L138)
 
 Accessor tree describing the `/materials` section of the glTF Object Model.
 Covers core PBR properties as well as the family of KHR_materials_* extensions.
@@ -17,7 +17,7 @@ Covers core PBR properties as well as the family of KHR_materials_* extensions.
 
 > **\_\_array\_\_**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:141](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L141)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:141](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L141)
 
 #### \_\_target\_\_
 
@@ -429,6 +429,6 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:
 
 > **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IMaterial`](IMaterial.md)[], [`PBRMaterial`](../../../../../core/src/classes/PBRMaterial.md)[], [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:140](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L140)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:140](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L140)
 
 Number of materials in the array.

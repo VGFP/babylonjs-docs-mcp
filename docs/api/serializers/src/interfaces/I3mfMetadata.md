@@ -6,7 +6,7 @@
 
 # Interface: I3mfMetadata
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L96)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L96)
 
 Generic metadata entry.
 Metadata can appear at the model level (<metadata>) and inside metadata groups (<metadatagroup>).
@@ -22,7 +22,7 @@ Notes:
 
 > **name**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L98)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L98)
 
 Metadata key (required).
 
@@ -32,7 +32,7 @@ Metadata key (required).
 
 > `optional` **preserve?**: `boolean`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L101)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L101)
 
 If true, indicates the metadata should be preserved by consumers (optional).
 
@@ -42,7 +42,7 @@ If true, indicates the metadata should be preserved by consumers (optional).
 
 > `optional` **type?**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L104)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L104)
 
 Optional type information for the value.
 
@@ -52,6 +52,6 @@ Optional type information for the value.
 
 > **value**: `string`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L107)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L107)
 
 Metadata value (required).

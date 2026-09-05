@@ -6,7 +6,7 @@
 
 # Interface: IThreeMfSerializerBaseOptions
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L18)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L18)
 
 Options controlling how meshes are exported into the 3MF model.
 
@@ -24,7 +24,7 @@ Notes:
 
 > `optional` **metadata?**: `Record`\<`string`, `string`\>
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L27)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L27)
 
 ***
 
@@ -32,6 +32,6 @@ Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:27](h
 
 > `optional` **unit?**: [`ST_Unit`](../enumerations/ST_Unit.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L22)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.serializer.ts#L22)
 
 define the unit. Default is millimeter

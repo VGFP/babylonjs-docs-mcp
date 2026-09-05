@@ -6,7 +6,7 @@
 
 # Interface: CharacterSurfaceInfo
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:66](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L66)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:66](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L66)
 
 Surface information computed by checkSupport method
 
@@ -16,7 +16,7 @@ Surface information computed by checkSupport method
 
 > **averageAngularSurfaceVelocity**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L91)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L91)
 
 The average angular velocity of the surface.
 
@@ -26,7 +26,7 @@ The average angular velocity of the surface.
 
 > **averageSurfaceNormal**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L82)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L82)
 
 The average normal vector of the surface.
 This vector is perpendicular to the surface and points outwards.
@@ -37,7 +37,7 @@ This vector is perpendicular to the surface and points outwards.
 
 > **averageSurfaceVelocity**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L87)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L87)
 
 The average velocity of the surface.
 This vector represents the speed and direction in which the surface is moving.
@@ -48,7 +48,7 @@ This vector represents the speed and direction in which the surface is moving.
 
 > **isSurfaceDynamic**: `boolean`
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L73)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L73)
 
 Indicates whether the surface is dynamic.
 A dynamic surface is one that can change its properties over time,
@@ -61,6 +61,6 @@ surfaceInfo.supportedState is always CharacterSupportedState.SUPPORTED when isSu
 
 > **supportedState**: [`CharacterSupportedState`](../enumerations/CharacterSupportedState.md)
 
-Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:77](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/characterController.ts#L77)
+Defined in: [packages/dev/core/src/Physics/v2/characterController.ts:77](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/characterController.ts#L77)
 
 The supported state of the character on the surface.

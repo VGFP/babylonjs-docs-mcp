@@ -6,7 +6,7 @@
 
 # Class: ParticleTextureSourceBlock
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L30)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L30)
 
 Block used to provide a texture for particles in a particle system
 
@@ -20,7 +20,7 @@ Block used to provide a texture for particles in a particle system
 
 > **new ParticleTextureSourceBlock**(`name`): `ParticleTextureSourceBlock`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L125)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:125](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L125)
 
 Create a new ParticleTextureSourceBlock
 
@@ -46,7 +46,7 @@ defines the block name
 
 > **comments**: `string`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L86)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:86](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L86)
 
 A free comment about the block
 
@@ -60,7 +60,7 @@ A free comment about the block
 
 > **invertY**: `boolean` = `true`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L40)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L40)
 
 Gets or sets the strenght of the flow map effect
 
@@ -70,7 +70,7 @@ Gets or sets the strenght of the flow map effect
 
 > **onBuildObservable**: [`Observable`](Observable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L35)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L35)
 
 Gets an observable raised when the block is built
 
@@ -84,7 +84,7 @@ Gets an observable raised when the block is built
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`NodeParticleBlock`](NodeParticleBlock.md)\>
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L40)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L40)
 
 Gets an observable raised when the block is disposed
 
@@ -98,7 +98,7 @@ Gets an observable raised when the block is disposed
 
 > **onInputChangedObservable**: [`Observable`](Observable.md)\<[`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)\>
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L45)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L45)
 
 Gets an observable raised when the inputs of the block change
 
@@ -112,7 +112,7 @@ Gets an observable raised when the inputs of the block change
 
 > **serializedCachedData**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L45)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L45)
 
 Indicates if the texture data should be serialized as a base64 string.
 
@@ -122,7 +122,7 @@ Indicates if the texture data should be serialized as a base64 string.
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L25)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L25)
 
 Gets or sets the unique id of the node
 
@@ -136,7 +136,7 @@ Gets or sets the unique id of the node
 
 > **visibleOnFrame**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L89)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:89](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L89)
 
 Gets or sets a boolean indicating that this input can be edited from a collapsed frame
 
@@ -152,7 +152,7 @@ Gets or sets a boolean indicating that this input can be edited from a collapsed
 
 > **get** **inputs**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[]
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L113)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:113](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L113)
 
 Gets the list of input points
 
@@ -172,7 +172,7 @@ Gets the list of input points
 
 > **get** **isDebug**(): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L78)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:78](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L78)
 
 Gets a boolean indicating if this block is a debug block
 
@@ -192,7 +192,7 @@ Gets a boolean indicating if this block is a debug block
 
 > **get** **isInput**(): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L71)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:71](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L71)
 
 Gets a boolean indicating that this block is an input block
 
@@ -212,7 +212,7 @@ Gets a boolean indicating that this block is an input block
 
 > **get** **isSystem**(): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L64)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L64)
 
 Gets a boolean indicating that this block is a system block
 
@@ -232,7 +232,7 @@ Gets a boolean indicating that this block is a system block
 
 > **get** **isTeleportIn**(): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L57)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L57)
 
 Gets a boolean indicating if this block is a teleport in
 
@@ -252,7 +252,7 @@ Gets a boolean indicating if this block is a teleport in
 
 > **get** **isTeleportOut**(): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L50)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L50)
 
 Gets a boolean indicating if this block is a teleport out
 
@@ -272,7 +272,7 @@ Gets a boolean indicating if this block is a teleport out
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L94)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:94](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L94)
 
 Gets or set the name of the block
 
@@ -284,7 +284,7 @@ Gets or set the name of the block
 
 > **set** **name**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L98)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L98)
 
 ##### Parameters
 
@@ -308,7 +308,7 @@ Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:98](https
 
 > **get** **outputs**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)[]
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L118)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L118)
 
 Gets the list of output points
 
@@ -328,7 +328,7 @@ Gets the list of output points
 
 > **get** **sourceTexture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L87)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L87)
 
 Gets the texture directly set on this block.
 This value will not be serialized.
@@ -341,7 +341,7 @@ This value will not be serialized.
 
 > **set** **sourceTexture**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L95)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:95](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L95)
 
 Directly sets the texture to be used by this block.
 This value will not be serialized.
@@ -364,7 +364,7 @@ This value will not be serialized.
 
 > **get** **texture**(): [`Nullable`](../type-aliases/Nullable.md)\<[`BaseTexture`](BaseTexture.md)\>
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L109)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L109)
 
 Gets the texture set on this block.
 This value will not be serialized.
@@ -377,7 +377,7 @@ This value will not be serialized.
 
 > **set** **texture**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L117)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L117)
 
 Sets the texture to be used by this block.
 This value will not be serialized.
@@ -400,7 +400,7 @@ This value will not be serialized.
 
 > **get** **textureDataUrl**(): `string`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L68)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L68)
 
 Gets or sets the data URL of the texture to be used by this block.
 This is a base64 encoded string representing the texture data.
@@ -413,7 +413,7 @@ This is a base64 encoded string representing the texture data.
 
 > **set** **textureDataUrl**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L72)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:72](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L72)
 
 ##### Parameters
 
@@ -433,7 +433,7 @@ Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBl
 
 > **get** **textureOutput**(): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md)
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L142)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L142)
 
 Gets the texture output component
 
@@ -449,7 +449,7 @@ Gets the texture output component
 
 > **get** **url**(): `string`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L50)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L50)
 
 Gets or sets the URL of the texture to be used by this block.
 
@@ -461,7 +461,7 @@ Gets or sets the URL of the texture to be used by this block.
 
 > **set** **url**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L54)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L54)
 
 ##### Parameters
 
@@ -479,7 +479,7 @@ Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBl
 
 > **\_build**(`state`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L332)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:332](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L332)
 
 Builds the block
 
@@ -505,7 +505,7 @@ defines the current build state
 
 > **\_deserialize**(`serializationObject`): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L408)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:408](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L408)
 
 Deserializes this block from a serialization object
 
@@ -531,7 +531,7 @@ the serialization object
 
 > **build**(`state`): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L270)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:270](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L270)
 
 Builds the block
 
@@ -559,7 +559,7 @@ the built block
 
 > **clone**(): [`NodeParticleBlock`](NodeParticleBlock.md) \| `null`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:398](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L398)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:398](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L398)
 
 Clone the current block to a new identical block
 
@@ -579,7 +579,7 @@ a copy of the current block
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L423)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L423)
 
 Disposes the block and its associated resources
 
@@ -597,7 +597,7 @@ Disposes the block and its associated resources
 
 > **extractTextureContentAsync**(): `Promise`\<[`INodeParticleTextureData`](../interfaces/INodeParticleTextureData.md) \| `null`\>
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L150)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:150](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L150)
 
 Gets the texture content as a promise
 
@@ -613,7 +613,7 @@ a promise that resolves to the texture content, including width, height, and pix
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L135)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L135)
 
 Gets the current class name
 
@@ -633,7 +633,7 @@ the class name
 
 > **getInputByName**(`name`): [`NodeParticleConnectionPoint`](NodeParticleConnectionPoint.md) \| `null`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:193](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L193)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:193](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L193)
 
 Find an input by its name
 
@@ -661,7 +661,7 @@ the input or null if not found
 
 > **isAnAncestorOf**(`block`): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L144)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:144](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L144)
 
 Checks if the current block is an ancestor of a given block
 
@@ -689,7 +689,7 @@ true if block is a descendant
 
 > **isAnAncestorOfType**(`type`): `boolean`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L168)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:168](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L168)
 
 Checks if the current block is an ancestor of a given type
 
@@ -717,7 +717,7 @@ true if block is a descendant
 
 > **registerInput**(`name`, `type`, `isOptional?`, `value?`, `valueMin?`, `valueMax?`): `ParticleTextureSourceBlock`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L223)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:223](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L223)
 
 Register a new input. Must be called inside a block constructor
 
@@ -775,7 +775,7 @@ the current block
 
 > **registerOutput**(`name`, `type`, `point?`): `ParticleTextureSourceBlock`
 
-Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L246)
+Defined in: [packages/dev/core/src/Particles/Node/nodeParticleBlock.ts:246](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/nodeParticleBlock.ts#L246)
 
 Register a new output. Must be called inside a block constructor
 
@@ -815,7 +815,7 @@ the current block
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L390)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts:390](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/particleSourceTextureBlock.pure.ts#L390)
 
 Serializes this block
 

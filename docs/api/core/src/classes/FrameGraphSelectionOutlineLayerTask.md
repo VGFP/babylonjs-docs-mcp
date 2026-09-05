@@ -6,7 +6,7 @@
 
 # Class: FrameGraphSelectionOutlineLayerTask
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L8)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L8)
 
 Task which applies a selection outline effect to a texture.
 
@@ -20,7 +20,7 @@ Task which applies a selection outline effect to a texture.
 
 > **new FrameGraphSelectionOutlineLayerTask**(`name`, `frameGraph`, `scene`, `options?`): `FrameGraphSelectionOutlineLayerTask`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L29)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L29)
 
 Constructs a new selection outline layer task.
 
@@ -64,7 +64,7 @@ Options for the selection outline layer.
 
 > `optional` **dependencies?**: `Set`\<`number`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L68)
 
 The (texture) dependencies of the task (optional).
 
@@ -78,7 +78,7 @@ The (texture) dependencies of the task (optional).
 
 > **depthTexture**: `number` \| `undefined`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L20)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L20)
 
 The depth texture to use when rendering the selection outline layer.
 It must store the scene depth in camera view space Z, normalized or not.
@@ -91,7 +91,7 @@ Required only when layer.useDepthOcclusion is true and layer.occlusionStrength i
 
 > `readonly` **layer**: `ThinSelectionOutlineLayer`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L12)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L12)
 
 The selection outline layer object. Use this object to update the selection outline layer properties (e.g. intensity, blur kernel size).
 
@@ -105,7 +105,7 @@ The selection outline layer object. Use this object to update the selection outl
 
 > `optional` **layerTexture?**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L102)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L102)
 
 The layer texture to render the effect into.
 If not provided, a default texture will be created.
@@ -120,7 +120,7 @@ If not provided, a default texture will be created.
 
 > **objectRendererTask**: [`FrameGraphObjectRendererTask`](FrameGraphObjectRendererTask.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:96](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L96)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:96](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L96)
 
 The object renderer task used to render the objects in the texture to which the layer will be applied.
 This is needed because the layer may have to inject code in the rendering manager used by object renderer task.
@@ -135,7 +135,7 @@ This is needed because the layer may have to inject code in the rendering manage
 
 > **onAfterTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L107)
 
 An observable that is triggered after the task is executed.
 
@@ -149,7 +149,7 @@ An observable that is triggered after the task is executed.
 
 > **onBeforeTaskExecute**: [`Observable`](Observable.md)\<[`FrameGraphTask`](FrameGraphTask.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L102)
 
 An observable that is triggered before the task is executed.
 
@@ -163,7 +163,7 @@ An observable that is triggered before the task is executed.
 
 > **onTexturesAllocatedObservable**: [`Observable`](Observable.md)\<[`FrameGraphRenderContext`](FrameGraphRenderContext.md)\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L97)
 
 An observable that is triggered after the textures have been allocated.
 
@@ -177,7 +177,7 @@ An observable that is triggered after the textures have been allocated.
 
 > `readonly` **outputTexture**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L107)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L107)
 
 The output texture of the task (same as targetTexture, but the handle will be different).
 
@@ -191,7 +191,7 @@ The output texture of the task (same as targetTexture, but the handle will be di
 
 > **targetTexture**: `number`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L90)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L90)
 
 The target texture to apply the effect layer to.
 The effect will be blended with the contents of this texture.
@@ -208,7 +208,7 @@ The effect will be blended with the contents of this texture.
 
 > **get** **disabled**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L43)
 
 Whether the task is disabled.
 
@@ -220,7 +220,7 @@ Whether the task is disabled.
 
 > **set** **disabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L47)
 
 ##### Parameters
 
@@ -244,7 +244,7 @@ Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:47](https://gith
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:117](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L117)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:117](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L117)
 
 The name of the task.
 
@@ -256,7 +256,7 @@ The name of the task.
 
 > **set** **name**(`name`): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L121)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L121)
 
 The name of the task.
 
@@ -282,7 +282,7 @@ The name of the task.
 
 > **get** **objectRendererForLayer**(): [`FrameGraphObjectRendererTask`](FrameGraphObjectRendererTask.md)
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L142)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L142)
 
 Gets the object renderer used to render the layer.
 
@@ -302,7 +302,7 @@ Gets the object renderer used to render the layer.
 
 > **get** **passes**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L54)
 
 Gets the passes of the task.
 
@@ -322,7 +322,7 @@ Gets the passes of the task.
 
 > **get** **passesDisabled**(): [`IFrameGraphPass`](../interfaces/IFrameGraphPass.md)[]
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L61)
 
 Gets the disabled passes of the task.
 
@@ -340,7 +340,7 @@ Gets the disabled passes of the task.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:486](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L486)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:486](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L486)
 
 Disposes the layer task and its dependent tasks.
 
@@ -358,7 +358,7 @@ Disposes the layer task and its dependent tasks.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L38)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L38)
 
 Gets the current class name.
 
@@ -378,7 +378,7 @@ the class name
 
 > **initAsync**(): `Promise`\<`unknown`\>
 
-Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
+Defined in: [packages/dev/core/src/FrameGraph/frameGraphTask.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/frameGraphTask.ts#L90)
 
 This function is called once after the task has been added to the frame graph and before the frame graph is built for the first time.
 This allows you to initialize asynchronous resources, which is not possible in the constructor.
@@ -399,7 +399,7 @@ A promise that resolves when the initialization is complete.
 
 > **isReady**(): `boolean`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L230)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts:230](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/baseLayerTask.ts#L230)
 
 Checks whether the layer task is ready.
 
@@ -419,7 +419,7 @@ true if the layer task is ready
 
 > **record**(): `void`
 
-Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L42)
+Defined in: [packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FrameGraph/Tasks/Layers/selectionOutlineTask.ts#L42)
 
 Records the layer task into the frame graph.
 

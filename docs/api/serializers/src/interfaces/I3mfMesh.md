@@ -6,7 +6,7 @@
 
 # Interface: I3mfMesh
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L187)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L187)
 
 Mesh geometry content for an object.
 Exactly one of: mesh content OR components content should be provided in an object.
@@ -17,7 +17,7 @@ Exactly one of: mesh content OR components content should be provided in an obje
 
 > **triangles**: [`I3mfTriangles`](I3mfTriangles.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:192](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L192)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:192](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L192)
 
 Triangle list.
 
@@ -27,6 +27,6 @@ Triangle list.
 
 > **vertices**: [`I3mfVertices`](I3mfVertices.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L189)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.interfaces.ts#L189)
 
 Vertex list.

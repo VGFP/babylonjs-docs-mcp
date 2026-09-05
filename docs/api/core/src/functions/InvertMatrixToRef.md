@@ -8,7 +8,7 @@
 
 > **InvertMatrixToRef**(`source`, `target`): `boolean`
 
-Defined in: [packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts:207](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts#L207)
+Defined in: [packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts:207](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/ThinMaths/thinMath.matrix.functions.ts#L207)
 
 Inverts the given matrix and stores the result in the target matrix
 

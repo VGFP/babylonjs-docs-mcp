@@ -6,7 +6,7 @@
 
 # Class: SimplicationQueueSceneComponent
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L15)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L15)
 
 Defines the simplification queue scene component responsible to help scheduling the various simplification task
 created in a scene
@@ -21,7 +21,7 @@ created in a scene
 
 > **new SimplicationQueueSceneComponent**(`scene`): `SimplicationQueueSceneComponent`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L30)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L30)
 
 Creates a new instance of the component for the given scene
 
@@ -43,7 +43,7 @@ Defines the scene to register the component in
 
 > `readonly` **name**: `"SimplificationQueue"` = `SceneComponentConstants.NAME_SIMPLIFICATIONQUEUE`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L19)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L19)
 
 The component name helpfull to identify the component in the list of scene components.
 
@@ -57,7 +57,7 @@ The component name helpfull to identify the component in the list of scene compo
 
 > **scene**: [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L24)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L24)
 
 The scene the component belongs to.
 
@@ -71,7 +71,7 @@ The scene the component belongs to.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L52)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L52)
 
 Disposes the component and the associated resources
 
@@ -89,7 +89,7 @@ Disposes the component and the associated resources
 
 > **rebuild**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L45)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L45)
 
 Rebuilds the elements related to this component in case of
 context lost for instance.
@@ -108,7 +108,7 @@ context lost for instance.
 
 > **register**(): `void`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L37)
+Defined in: [packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplificationSceneComponent.pure.ts#L37)
 
 Registers the component in a given scene
 

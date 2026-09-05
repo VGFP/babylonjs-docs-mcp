@@ -6,7 +6,7 @@
 
 # Interface: ILatticeOptions
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L10)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L10)
 
 Interface used to define options for creating a lattice
 
@@ -16,7 +16,7 @@ Interface used to define options for creating a lattice
 
 > `optional` **autoAdaptToMesh?**: [`Mesh`](../classes/Mesh.md)
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L22)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L22)
 
 Optional mesh to adapt the size to
 
@@ -26,7 +26,7 @@ Optional mesh to adapt the size to
 
 > **position**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L18)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L18)
 
 the lattice position in object space
 
@@ -36,7 +36,7 @@ the lattice position in object space
 
 > **resolutionX**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L12)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L12)
 
 resolution on x axis
 
@@ -46,7 +46,7 @@ resolution on x axis
 
 > **resolutionY**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L14)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L14)
 
 resolution on y axis
 
@@ -56,7 +56,7 @@ resolution on y axis
 
 > **resolutionZ**: `number`
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L16)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L16)
 
 resolution on z axis
 
@@ -66,6 +66,6 @@ resolution on z axis
 
 > **size**: [`Vector3`](../classes/Vector3.md)
 
-Defined in: [packages/dev/core/src/Meshes/lattice.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/lattice.ts#L20)
+Defined in: [packages/dev/core/src/Meshes/lattice.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/lattice.ts#L20)
 
 size of the lattice along each axis in object space

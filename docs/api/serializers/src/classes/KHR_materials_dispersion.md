@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_dispersion
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L14)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L14)
 
 **`Experimental`**
 
@@ -22,7 +22,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_di
 
 > **new KHR\_materials\_dispersion**(): `KHR_materials_dispersion`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L27)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L27)
 
 **`Experimental`**
 
@@ -38,7 +38,7 @@ Constructor
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L19)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L19)
 
 **`Experimental`**
 
@@ -54,7 +54,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_materials_dispersion"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L16)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L16)
 
 **`Experimental`**
 
@@ -70,7 +70,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L22)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L22)
 
 **`Experimental`**
 
@@ -86,7 +86,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L30)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L30)
 
 **`Experimental`**
 
@@ -106,7 +106,7 @@ Dispose
 
 > `optional` **postExportMaterialAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<`IMaterial`\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L58)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_dispersion.pure.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_dispersion.pure.ts#L58)
 
 **`Experimental`**
 

@@ -8,7 +8,7 @@
 
 > **AnimationCreateMergeAndStartAnimation**(`name`, `node`, `targetProperty`, `framePerSecond`, `totalFrame`, `from`, `to`, `loopMode?`, `easingFunction?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](../classes/Animatable.md)\>
 
-Defined in: [packages/dev/core/src/Animations/animation.pure.ts:1376](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animation.pure.ts#L1376)
+Defined in: [packages/dev/core/src/Animations/animation.pure.ts:1376](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animation.pure.ts#L1376)
 
 Creates a new animation, merges it with the existing animations and starts it
 

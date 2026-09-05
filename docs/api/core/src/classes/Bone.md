@@ -6,7 +6,7 @@
 
 # Class: Bone
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L18)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L18)
 
 Class used to store bone information
 
@@ -24,7 +24,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/bonesSkeletons
 
 > **new Bone**(`name`, `skeleton`, `parentBone?`, `localMatrix?`, `restMatrix?`, `bindMatrix?`, `index?`): `Bone`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L97)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L97)
 
 Create a new bone
 
@@ -86,7 +86,7 @@ defines index of the bone in the hierarchy (default: null)
 
 > **animations**: [`Animation`](Animation.md)[] = `[]`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L29)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L29)
 
 Gets the animations associated with this bone
 
@@ -100,7 +100,7 @@ Gets the animations associated with this bone
 
 > **children**: `Bone`[] = `[]`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L26)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L26)
 
 Gets the list of child bones
 
@@ -110,7 +110,7 @@ Gets the list of child bones
 
 > **id**: `string`
 
-Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L97)
+Defined in: [packages/dev/core/src/node.ts:97](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L97)
 
 Gets or sets the id of the node
 
@@ -124,7 +124,7 @@ Gets or sets the id of the node
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L129)
+Defined in: [packages/dev/core/src/node.ts:129](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L129)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -142,7 +142,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > **length**: `number`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L34)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L34)
 
 Gets or sets bone length
 
@@ -152,7 +152,7 @@ Gets or sets bone length
 
 > **metadata**: `any` = `null`
 
-Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L115)
+Defined in: [packages/dev/core/src/node.ts:115](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L115)
 
 Gets or sets an object used to store user defined information for the node
 
@@ -166,7 +166,7 @@ Gets or sets an object used to store user defined information for the node
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L101)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L101)
 
 defines the bone name
 
@@ -180,7 +180,7 @@ defines the bone name
 
 > **onAccessibilityTagChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>\>
 
-Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L148)
+Defined in: [packages/dev/core/src/node.ts:148](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L148)
 
 Observable fired when an accessibility tag is changed
 
@@ -194,7 +194,7 @@ Observable fired when an accessibility tag is changed
 
 > **onDisposeObservable**: [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L352)
+Defined in: [packages/dev/core/src/node.ts:352](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L352)
 
 An event triggered when the mesh is disposed
 
@@ -208,7 +208,7 @@ An event triggered when the mesh is disposed
 
 > **onReady**: [`Nullable`](../type-aliases/Nullable.md)\<(`node`) => `void`\> = `null`
 
-Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L181)
+Defined in: [packages/dev/core/src/node.ts:181](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L181)
 
 Callback raised when the node is ready to be used
 
@@ -222,7 +222,7 @@ Callback raised when the node is ready to be used
 
 > **reservedDataStore**: `any` = `null`
 
-Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L123)
+Defined in: [packages/dev/core/src/node.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L123)
 
 For internal use only. Please do not use.
 
@@ -236,7 +236,7 @@ For internal use only. Please do not use.
 
 > **state**: `string` = `""`
 
-Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L109)
+Defined in: [packages/dev/core/src/node.ts:109](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L109)
 
 Gets or sets a string used to store user defined state for the node
 
@@ -250,7 +250,7 @@ Gets or sets a string used to store user defined state for the node
 
 > **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L103)
+Defined in: [packages/dev/core/src/node.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L103)
 
 Gets or sets the unique id of the node
 
@@ -266,7 +266,7 @@ Gets or sets the unique id of the node
 
 > **get** **accessibilityTag**(): [`Nullable`](../type-aliases/Nullable.md)\<`IAccessibilityTag`\>
 
-Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L139)
+Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L139)
 
 ##### Returns
 
@@ -276,7 +276,7 @@ Defined in: [packages/dev/core/src/node.ts:139](https://github.com/BabylonJS/Bab
 
 > **set** **accessibilityTag**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L134)
+Defined in: [packages/dev/core/src/node.ts:134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L134)
 
 Gets or sets the accessibility tag to describe the node for accessibility purpose.
 
@@ -302,7 +302,7 @@ Gets or sets the accessibility tag to describe the node for accessibility purpos
 
 > **get** **animationPropertiesOverride**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationPropertiesOverride`](AnimationPropertiesOverride.md)\>
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L439)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:439](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L439)
 
 Gets the animation properties override
 
@@ -322,7 +322,7 @@ Gets the animation properties override
 
 > **get** **behaviors**(): [`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>[]
 
-Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L485)
+Defined in: [packages/dev/core/src/node.ts:485](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L485)
 
 Gets the list of attached behaviors
 
@@ -346,7 +346,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **get** **doNotSerialize**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L153)
+Defined in: [packages/dev/core/src/node.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L153)
 
 Gets or sets a boolean used to define if the node must be serialized
 
@@ -358,7 +358,7 @@ Gets or sets a boolean used to define if the node must be serialized
 
 > **set** **doNotSerialize**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L165)
+Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L165)
 
 ##### Parameters
 
@@ -382,7 +382,7 @@ Defined in: [packages/dev/core/src/node.ts:165](https://github.com/BabylonJS/Bab
 
 > **get** **inheritVisibility**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L271)
+Defined in: [packages/dev/core/src/node.ts:271](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L271)
 
 If set to true, this node, when renderable, will only be visible if its parent(s) are also visible.
 
@@ -400,7 +400,7 @@ false
 
 > **set** **inheritVisibility**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L275)
+Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L275)
 
 ##### Parameters
 
@@ -424,7 +424,7 @@ Defined in: [packages/dev/core/src/node.ts:275](https://github.com/BabylonJS/Bab
 
 > **get** **isVisible**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L283)
+Defined in: [packages/dev/core/src/node.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L283)
 
 Gets or sets a boolean indicating whether this node is visible, either this node itself when it is renderable or its renderable child nodes when `inheritVisibility` is true.
 
@@ -442,7 +442,7 @@ true
 
 > **set** **isVisible**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L291)
+Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L291)
 
 ##### Parameters
 
@@ -466,7 +466,7 @@ Defined in: [packages/dev/core/src/node.ts:291](https://github.com/BabylonJS/Bab
 
 > **get** **onClonedObservable**(): [`Observable`](Observable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L386)
+Defined in: [packages/dev/core/src/node.ts:386](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L386)
 
 An event triggered when the node is cloned
 
@@ -486,7 +486,7 @@ An event triggered when the node is cloned
 
 > **set** **onDispose**(`callback`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L358)
+Defined in: [packages/dev/core/src/node.ts:358](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L358)
 
 Sets a callback that will be raised when the node will be disposed
 
@@ -512,7 +512,7 @@ Sets a callback that will be raised when the node will be disposed
 
 > **get** **onEffectiveEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L379)
+Defined in: [packages/dev/core/src/node.ts:379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L379)
 
 An event triggered when the effective enabled state of the node changes, i.e. whenever the value returned by [isEnabled](Node.md#isenabled) changes.
 Unlike [onEnabledStateChangedObservable](Node.md#onenabledstatechangedobservable), this fires for changes caused by an ancestor's enabled state as well as this node's own state.
@@ -534,7 +534,7 @@ The observable is created on first access, so no cost is incurred for nodes that
 
 > **get** **onEnabledStateChangedObservable**(): [`Observable`](Observable.md)\<`boolean`\>
 
-Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L370)
+Defined in: [packages/dev/core/src/node.ts:370](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L370)
 
 An event triggered when the enabled state of the node changes.
 This only reflects changes to the node's own enabled flag (as set via [setEnabled](Node.md#setenabled)), not changes inherited from an ancestor.
@@ -556,7 +556,7 @@ Use [onEffectiveEnabledStateChangedObservable](Node.md#oneffectiveenabledstatech
 
 > **get** **parent**(): `Bone`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L146)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:146](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L146)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -572,7 +572,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **set** **parent**(`newParent`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L174)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:174](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L174)
 
 Gets or sets the parent of the node (without keeping the current position in the scene)
 
@@ -602,7 +602,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/transforms/parent_pivot
 
 > **get** **position**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L396)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:396](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L396)
 
 Gets or sets current position (in local space)
 
@@ -614,7 +614,7 @@ Gets or sets current position (in local space)
 
 > **set** **position**(`newPosition`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L401)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:401](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L401)
 
 ##### Parameters
 
@@ -634,7 +634,7 @@ Defined in: [packages/dev/core/src/Bones/bone.pure.ts:401](https://github.com/Ba
 
 > **get** **rotation**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L409)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:409](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L409)
 
 Gets or sets current rotation (in local space)
 
@@ -646,7 +646,7 @@ Gets or sets current rotation (in local space)
 
 > **set** **rotation**(`newRotation`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L413)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:413](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L413)
 
 ##### Parameters
 
@@ -666,7 +666,7 @@ Defined in: [packages/dev/core/src/Bones/bone.pure.ts:413](https://github.com/Ba
 
 > **get** **rotationQuaternion**(): [`Quaternion`](Quaternion.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L418)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:418](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L418)
 
 Gets or sets current rotation quaternion (in local space)
 
@@ -678,7 +678,7 @@ Gets or sets current rotation quaternion (in local space)
 
 > **set** **rotationQuaternion**(`newRotation`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L423)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:423](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L423)
 
 ##### Parameters
 
@@ -698,7 +698,7 @@ Defined in: [packages/dev/core/src/Bones/bone.pure.ts:423](https://github.com/Ba
 
 > **get** **scaling**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L428)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L428)
 
 Gets or sets current scaling (in local space)
 
@@ -710,7 +710,7 @@ Gets or sets current scaling (in local space)
 
 > **set** **scaling**(`newScaling`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L432)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:432](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L432)
 
 ##### Parameters
 
@@ -730,7 +730,7 @@ Defined in: [packages/dev/core/src/Bones/bone.pure.ts:432](https://github.com/Ba
 
 > **get** **worldMatrixFromCache**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L529)
+Defined in: [packages/dev/core/src/node.ts:529](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L529)
 
 Returns directly the latest state of the mesh World matrix.
 A Matrix is returned.
@@ -749,7 +749,7 @@ A Matrix is returned.
 
 > **addBehavior**(`behavior`, `attachImmediately?`): [`Node`](Node.md)
 
-Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L434)
+Defined in: [packages/dev/core/src/node.ts:434](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L434)
 
 Attach a behavior to the node
 
@@ -787,7 +787,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **beginAnimation**(`name`, `loop?`, `speedRatio?`, `onAnimationEnd?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animatable`](Animatable.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L956)
+Defined in: [packages/dev/core/src/node.ts:956](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L956)
 
 Will start the animation sequence
 
@@ -833,7 +833,7 @@ the object created for this animation. If range does not exist, it will return n
 
 > **clone**(`name`, `newParent`, `doNotCloneChildren?`): [`Nullable`](../type-aliases/Nullable.md)\<[`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:915](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L915)
+Defined in: [packages/dev/core/src/node.ts:915](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L915)
 
 Clone the current node
 
@@ -873,7 +873,7 @@ the new transform node
 
 > **computeAbsoluteMatrices**(): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:940](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L940)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:940](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L940)
 
 Compute the absolute matrices of this bone and its children
 
@@ -887,7 +887,7 @@ Compute the absolute matrices of this bone and its children
 
 > **computeAbsoluteTransforms**(): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:967](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L967)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:967](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L967)
 
 Compute the absolute matrices of this bone and its children
 
@@ -905,7 +905,7 @@ Please use computeAbsoluteMatrices instead
 
 > **computeWorldMatrix**(`_force?`): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/node.ts:991](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L991)
+Defined in: [packages/dev/core/src/node.ts:991](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L991)
 
 Computes the world matrix of the node
 
@@ -933,7 +933,7 @@ the world matrix
 
 > **copyAnimationRange**(`source`, `rangeName`, `frameOffset`, `rescaleAsRequired`, `skelDimensionsRatio`): `boolean`
 
-Defined in: [packages/dev/core/src/Animations/animatable.types.ts:191](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animatable.types.ts#L191)
+Defined in: [packages/dev/core/src/Animations/animatable.types.ts:191](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animatable.types.ts#L191)
 
 Copy an animation range from another bone
 
@@ -981,7 +981,7 @@ true if operation was successful
 
 > **createAnimationRange**(`name`, `from`, `to`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L873)
+Defined in: [packages/dev/core/src/node.ts:873](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L873)
 
 Creates an animation range for this node
 
@@ -1019,7 +1019,7 @@ defines the end key
 
 > **deleteAnimationRange**(`name`, `deleteFrames?`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L890)
+Defined in: [packages/dev/core/src/node.ts:890](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L890)
 
 Delete a specific animation range
 
@@ -1051,7 +1051,7 @@ defines if animation frames from the range must be deleted as well
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1186](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1186)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1186](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1186)
 
 Releases associated resources
 
@@ -1069,7 +1069,7 @@ Releases associated resources
 
 > **getAbsoluteInverseBindMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L337)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:337](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L337)
 
 Gets the inverse of the bind matrix, in world space (relative to the skeleton root)
 
@@ -1085,7 +1085,7 @@ the inverse bind matrix, in world space
 
 > **getAbsoluteMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L354)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:354](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L354)
 
 Gets the bone matrix, in world space (relative to the skeleton root)
 
@@ -1101,7 +1101,7 @@ the bone matrix, in world space
 
 > **getAbsolutePosition**(`tNode?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:920](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L920)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:920](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L920)
 
 Get the absolute position of the bone (world space)
 
@@ -1125,7 +1125,7 @@ The absolute position of the bone
 
 > **getAbsolutePositionFromLocal**(`position`, `tNode?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1120)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1120)
 
 Get the world position of a point that is in the local space of the bone
 
@@ -1155,7 +1155,7 @@ The world position
 
 > **getAbsolutePositionFromLocalToRef**(`position`, `tNode?`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1134](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1134)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1134](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1134)
 
 Get the world position of a point that is in the local space of the bone and copy it to the result param
 
@@ -1189,7 +1189,7 @@ The vector3 that the world position should be copied to
 
 > **getAbsolutePositionToRef**(`tNode`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:933](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L933)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:933](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L933)
 
 Copy the absolute position of the bone (world space) to the result param
 
@@ -1217,7 +1217,7 @@ The vector3 to copy the absolute position to
 
 > **getAbsoluteTransform**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L364)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:364](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L364)
 
 Gets the bone matrix, in world space (relative to the skeleton root)
 
@@ -1237,7 +1237,7 @@ Please use getAbsoluteMatrix instead
 
 > **getAnimationByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Animation`](Animation.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L855)
+Defined in: [packages/dev/core/src/node.ts:855](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L855)
 
 Get an animation by name
 
@@ -1265,7 +1265,7 @@ null if not found else the requested animation
 
 > **getAnimationRange**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L904)
+Defined in: [packages/dev/core/src/node.ts:904](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L904)
 
 Get an animation range by name
 
@@ -1293,7 +1293,7 @@ null if not found else the requested animation range
 
 > **getAnimationRanges**(): [`Nullable`](../type-aliases/Nullable.md)\<[`AnimationRange`](AnimationRange.md)\>[]
 
-Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L939)
+Defined in: [packages/dev/core/src/node.ts:939](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L939)
 
 Gets the list of all animation ranges defined on this node
 
@@ -1313,7 +1313,7 @@ an array
 
 > **getBaseMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L230)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:230](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L230)
 
 Gets the bind matrix.
 
@@ -1333,7 +1333,7 @@ Please use getBindMatrix instead
 
 > **getBehaviorByName**(`name`): [`Nullable`](../type-aliases/Nullable.md)\<[`Behavior`](../interfaces/Behavior.md)\<[`Node`](Node.md)\>\>
 
-Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L495)
+Defined in: [packages/dev/core/src/node.ts:495](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L495)
 
 Gets an attached behavior by name
 
@@ -1365,7 +1365,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **getBindMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L221)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:221](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L221)
 
 Gets the bind matrix
 
@@ -1381,7 +1381,7 @@ the bind matrix
 
 > **getBindPose**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L273)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:273](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L273)
 
 Gets the bind matrix
 
@@ -1417,7 +1417,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getChildMeshes**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L781)
+Defined in: [packages/dev/core/src/node.ts:781](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L781)
 
 Get all child-meshes of this node
 
@@ -1455,7 +1455,7 @@ an array of AbstractMesh
 
 > **getChildMeshes**(`directDescendantsOnly?`, `predicate?`): [`AbstractMesh`](AbstractMesh.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L789)
+Defined in: [packages/dev/core/src/node.ts:789](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L789)
 
 Get all child-meshes of this node
 
@@ -1489,7 +1489,7 @@ an array of AbstractMesh
 
 > **getChildren**(): `Bone`[]
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L162)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:162](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L162)
 
 Returns an array containing the children of the bone
 
@@ -1509,7 +1509,7 @@ an array containing the children of the bone (can be empty if the bone has no ch
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L132)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L132)
 
 Gets the current object class name.
 
@@ -1545,7 +1545,7 @@ defines an optional predicate that will be called on every evaluated child, the 
 
 > **getDescendants**\<`T`\>(`directDescendantsOnly?`, `predicate?`): `T`[]
 
-Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L751)
+Defined in: [packages/dev/core/src/node.ts:751](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L751)
 
 Will return all nodes that have this node as ascendant
 
@@ -1583,7 +1583,7 @@ all children nodes of all types
 
 > **getDescendants**(`directDescendantsOnly?`, `predicate?`): [`Node`](Node.md)[]
 
-Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L759)
+Defined in: [packages/dev/core/src/node.ts:759](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L759)
 
 Will return all nodes that have this node as ascendant
 
@@ -1617,7 +1617,7 @@ all children nodes of all types
 
 > **getDirection**(`localAxis`, `tNode?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:977](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L977)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:977](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L977)
 
 Get the world direction from an axis that is in the local space of the bone
 
@@ -1647,7 +1647,7 @@ The world direction
 
 > **getDirectionToRef**(`localAxis`, `tNode?`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:991](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L991)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:991](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L991)
 
 Copy the world direction to a vector3 from an axis that is in the local space of the bone
 
@@ -1681,7 +1681,7 @@ The vector3 that the world direction will be copied to
 
 > **getEngine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L420)
+Defined in: [packages/dev/core/src/node.ts:420](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L420)
 
 Gets the engine of the node
 
@@ -1701,7 +1701,7 @@ a Engine
 
 > **getFinalMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L300)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:300](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L300)
 
 Gets the matrix used to store the final world transformation of the bone (ie. the matrix sent to shaders)
 
@@ -1717,7 +1717,7 @@ the final world matrix
 
 > **getHierarchyBoundingVectors**(`includeDescendants?`, `predicate?`): `object`
 
-Defined in: [packages/dev/core/src/node.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1058)
+Defined in: [packages/dev/core/src/node.ts:1058](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L1058)
 
 Return the minimum and maximum world vectors of the entire hierarchy under current node
 
@@ -1759,7 +1759,7 @@ the new bounding vectors
 
 > **getIndex**(): `number`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L170)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:170](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L170)
 
 Gets the node index in matrix array generated for rendering
 
@@ -1775,7 +1775,7 @@ the node index
 
 > **getInvertedAbsoluteTransform**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:346](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L346)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:346](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L346)
 
 Gets the inverse of the bind matrix, in world space (relative to the skeleton root)
 
@@ -1795,7 +1795,7 @@ Please use getAbsoluteInverseBindMatrix instead
 
 > **getLocalMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L212)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:212](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L212)
 
 Gets the local matrix
 
@@ -1811,7 +1811,7 @@ the local matrix
 
 > **getLocalPositionFromAbsolute**(`position`, `tNode?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1150](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1150)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1150](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1150)
 
 Get the local position of a point that is in world space
 
@@ -1841,7 +1841,7 @@ The local position
 
 > **getLocalPositionFromAbsoluteToRef**(`position`, `tNode?`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1164)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1164](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1164)
 
 Get the local position of a point that is in world space and copy it to the result param
 
@@ -1875,7 +1875,7 @@ The vector3 that the local position should be copied to
 
 > **getParent**(): [`Nullable`](../type-aliases/Nullable.md)\<`Bone`\>
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L154)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:154](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L154)
 
 Gets parent bone
 
@@ -1891,7 +1891,7 @@ a bone or null if the bone is the root of the bone hierarchy
 
 > **getPosition**(`space?`, `tNode?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:881](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L881)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:881](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L881)
 
 Get the position of the bone in local or world space
 
@@ -1921,7 +1921,7 @@ The position of the bone
 
 > **getPositionToRef**(`space?`, `tNode`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:895](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L895)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:895](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L895)
 
 Copy the position of the bone to a vector3 in local or world space
 
@@ -1955,7 +1955,7 @@ The vector3 to copy the position to
 
 > **getRestMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L238)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:238](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L238)
 
 Gets the rest matrix
 
@@ -1971,7 +1971,7 @@ the rest matrix
 
 > **getRestPose**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L247)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L247)
 
 Gets the rest matrix
 
@@ -1991,7 +1991,7 @@ Please use getRestMatrix instead
 
 > **getRotation**(`space?`, `tNode?`): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1009](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1009)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1009](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1009)
 
 Get the euler rotation of the bone in local or world space
 
@@ -2021,7 +2021,7 @@ The euler rotation
 
 > **getRotationMatrix**(`space?`, `tNode`): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1079](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1079)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1079](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1079)
 
 Get the rotation matrix of the bone in local or world space
 
@@ -2051,7 +2051,7 @@ The rotation matrix
 
 > **getRotationMatrixToRef**(`space?`, `tNode`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1093](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1093)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1093](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1093)
 
 Copy the rotation matrix of the bone to a matrix.  The rotation can be in either local or world space
 
@@ -2085,7 +2085,7 @@ The quaternion that the rotation should be copied to
 
 > **getRotationQuaternion**(`space?`, `tNode?`): [`Quaternion`](Quaternion.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1037](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1037)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1037](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1037)
 
 Get the quaternion rotation of the bone in either local or world space
 
@@ -2115,7 +2115,7 @@ The quaternion rotation
 
 > **getRotationQuaternionToRef**(`space?`, `tNode?`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1051](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1051)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1051](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1051)
 
 Copy the quaternion rotation of the bone to a quaternion.  The rotation can be in either local or world space
 
@@ -2149,7 +2149,7 @@ The quaternion that the rotation should be copied to
 
 > **getRotationToRef**(`space?`, `tNode?`, `result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1023](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1023)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1023](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1023)
 
 Copy the euler rotation of the bone to a vector3.  The rotation can be in either local or world space
 
@@ -2183,7 +2183,7 @@ The vector3 that the rotation should be copied to
 
 > **getScale**(): [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:662](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L662)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:662](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L662)
 
 Gets the current scaling in local space
 
@@ -2199,7 +2199,7 @@ the current scaling vector
 
 > **getScaleToRef**(`result`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:671](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L671)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:671](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L671)
 
 Gets the current scaling in local space and stores it in a target vector
 
@@ -2221,7 +2221,7 @@ defines the target vector
 
 > **getScene**(): [`Scene`](Scene.md)
 
-Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L412)
+Defined in: [packages/dev/core/src/node.ts:412](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L412)
 
 Gets the scene of the node
 
@@ -2241,7 +2241,7 @@ a scene
 
 > **getSkeleton**(): [`Skeleton`](Skeleton.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L142)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:142](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L142)
 
 Gets the parent skeleton
 
@@ -2257,7 +2257,7 @@ a skeleton
 
 > **getTransformNode**(): [`Nullable`](../type-aliases/Nullable.md)\<[`TransformNode`](TransformNode.md)\>
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L391)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:391](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L391)
 
 Gets the node used to drive the bone's transformation
 
@@ -2273,7 +2273,7 @@ a transform node or null
 
 > **getWorldMatrix**(): [`Matrix`](Matrix.md)
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L309)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:309](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L309)
 
 Gets the matrix used to store the final world transformation of the bone (ie. the matrix sent to shaders)
 
@@ -2297,7 +2297,7 @@ Please use getFinalMatrix instead
 
 > **isDescendantOf**(`ancestor`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L713)
+Defined in: [packages/dev/core/src/node.ts:713](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L713)
 
 Is this node a descendant of the given node?
 The function will iterate up the hierarchy until the ancestor was found or no more parents defined
@@ -2326,7 +2326,7 @@ a boolean indicating if this node is a descendant of the given node
 
 > **isDisposed**(): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L216)
+Defined in: [packages/dev/core/src/node.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L216)
 
 Gets a boolean indicating if the node has been disposed
 
@@ -2346,7 +2346,7 @@ true if the node was disposed
 
 > **isEnabled**(`checkAncestors?`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L633)
+Defined in: [packages/dev/core/src/node.ts:633](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L633)
 
 Is this node enabled?
 If the node has a parent, all ancestors will be checked and false will be returned if any are false (not enabled), otherwise will return true
@@ -2380,7 +2380,7 @@ To observe changes to the value returned when calling this with `checkAncestors`
 
 > **isReady**(`_completeCheck?`): `boolean`
 
-Defined in: [packages/dev/core/src/node.ts:609](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L609)
+Defined in: [packages/dev/core/src/node.ts:609](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L609)
 
 Is this node ready to be used/rendered
 
@@ -2408,7 +2408,7 @@ true if the node is ready
 
 > **linkTransformNode**(`transformNode`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L373)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:373](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L373)
 
 Links with the given transform node.
 The local matrix of this bone is overwritten by the transform of the node every frame.
@@ -2431,7 +2431,7 @@ defines the transform node to link to
 
 > **markAsDirty**(): `Bone`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:522](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L522)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:522](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L522)
 
 Flag the bone as dirty (Forcing it to update everything)
 
@@ -2451,7 +2451,7 @@ this bone
 
 > **removeBehavior**(`behavior`): [`Node`](Node.md)
 
-Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L464)
+Defined in: [packages/dev/core/src/node.ts:464](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L464)
 
 Remove an attached behavior
 
@@ -2483,7 +2483,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/behaviors
 
 > **returnToRest**(): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L316)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:316](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L316)
 
 Sets the local matrix to the rest matrix
 
@@ -2497,7 +2497,7 @@ Sets the local matrix to the rest matrix
 
 > **rotate**(`axis`, `amount`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:711](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L711)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:711](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L711)
 
 Add a rotation to the bone on an axis in local or world space
 
@@ -2537,7 +2537,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **scale**(`x`, `y`, `z`, `scaleChildren?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:618](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L618)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:618](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L618)
 
 Scale the bone on the x, y and z axes (in local space)
 
@@ -2577,7 +2577,7 @@ sets this to true if children of the bone should be scaled as well (false by def
 
 > **serializeAnimationRanges**(): `any`
 
-Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L970)
+Defined in: [packages/dev/core/src/node.ts:970](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L970)
 
 Serialize animation ranges into a JSON compatible object
 
@@ -2597,7 +2597,7 @@ serialization object
 
 > **setAbsolutePosition**(`position`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:607](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L607)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:607](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L607)
 
 Set the absolute position of the bone (world space)
 
@@ -2625,7 +2625,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **setAxisAngle**(`axis`, `angle`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:725](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L725)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:725](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L725)
 
 Set the rotation of the bone to a particular axis angle in local or world space
 
@@ -2665,7 +2665,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **setBindMatrix**(`matrix`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L283)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L283)
 
 Sets the bind matrix
 This will trigger a recomputation of the absolute bind and absolute inverse bind matrices for this bone and its children
@@ -2689,7 +2689,7 @@ the local-space bind matrix to set for this bone
 
 > **setBindPose**(`matrix`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L292)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:292](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L292)
 
 Sets the bind matrix
 
@@ -2715,7 +2715,7 @@ Please use setBindMatrix instead
 
 > **setCurrentPoseAsRest**(): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1179](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L1179)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:1179](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L1179)
 
 Set the current local matrix as the restMatrix for this bone.
 
@@ -2729,7 +2729,7 @@ Set the current local matrix as the restMatrix for this bone.
 
 > **setEnabled**(`value`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L685)
+Defined in: [packages/dev/core/src/node.ts:685](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L685)
 
 Set the enabled state of this node
 
@@ -2755,7 +2755,7 @@ defines the new enabled state
 
 > **setParent**(`parent`, `updateAbsoluteBindMatrices?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L183)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L183)
 
 Sets the parent bone
 
@@ -2783,7 +2783,7 @@ defines if the absolute bind and absolute inverse bind matrices must be updated
 
 > **setPosition**(`position`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L598)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:598](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L598)
 
 Set the position of the bone in local or world space
 
@@ -2817,7 +2817,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **setRestMatrix**(`matrix`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L255)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:255](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L255)
 
 Sets the rest matrix
 
@@ -2839,7 +2839,7 @@ the local-space rest matrix to set for this bone
 
 > **setRestPose**(`matrix`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L264)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:264](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L264)
 
 Sets the rest matrix
 
@@ -2865,7 +2865,7 @@ Please use setRestMatrix instead
 
 > **setRotation**(`rotation`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:752](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L752)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:752](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L752)
 
 Set the euler rotation of the bone in local or world space
 
@@ -2899,7 +2899,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **setRotationMatrix**(`rotMat`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:791](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L791)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:791](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L791)
 
 Set the rotation matrix of the bone in local or world space
 
@@ -2933,7 +2933,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **setRotationQuaternion**(`quat`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:762](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L762)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:762](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L762)
 
 Set the quaternion rotation of the bone in local or world space
 
@@ -2967,7 +2967,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **setScale**(`scale`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:652](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L652)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:652](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L652)
 
 Set the bone scaling in local space
 
@@ -2989,7 +2989,7 @@ defines the scaling vector
 
 > **setYawPitchRoll**(`yaw`, `pitch`, `roll`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:684](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L684)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:684](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L684)
 
 Set the yaw, pitch, and roll of the bone in local or world space
 
@@ -3035,7 +3035,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **translate**(`vec`, `space?`, `tNode?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:588](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L588)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:588](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L588)
 
 Translate the bone in local or world space
 
@@ -3069,7 +3069,7 @@ A TransformNode whose world matrix is to be applied to the calculated absolute m
 
 > **updateMatrix**(`bindMatrix`, `updateAbsoluteBindMatrices?`, `updateLocalMatrix?`): `void`
 
-Defined in: [packages/dev/core/src/Bones/bone.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Bones/bone.pure.ts#L479)
+Defined in: [packages/dev/core/src/Bones/bone.pure.ts:479](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Bones/bone.pure.ts#L479)
 
 Update the bind (and optionally the local) matrix
 
@@ -3103,7 +3103,7 @@ defines if the local matrix should also be updated with the matrix passed in par
 
 > `static` **AddNodeConstructor**(`type`, `constructorFunc`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L63)
+Defined in: [packages/dev/core/src/node.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L63)
 
 Add a new node constructor
 
@@ -3135,7 +3135,7 @@ defines the constructor function
 
 > `static` **Construct**(`type`, `name`, `scene`, `options?`): [`Nullable`](../type-aliases/Nullable.md)\<() => [`Node`](Node.md)\>
 
-Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L75)
+Defined in: [packages/dev/core/src/node.ts:75](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L75)
 
 Returns a node constructor based on type name
 
@@ -3181,7 +3181,7 @@ the new constructor or null
 
 > `static` **ParseAnimationRanges**(`node`, `parsedNode`, `_scene`): `void`
 
-Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/node.ts#L1044)
+Defined in: [packages/dev/core/src/node.ts:1044](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/node.ts#L1044)
 
 Parse animation range data from a serialization object and store them into a given node
 

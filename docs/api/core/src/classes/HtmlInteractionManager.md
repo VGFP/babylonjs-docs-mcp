@@ -6,7 +6,7 @@
 
 # Class: HtmlInteractionManager
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts:62](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts#L62)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts:62](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts#L62)
 
 Overlays the live HTML element of an [HtmlTexture](HtmlTexture.md) on top of the projected face of a planar mesh,
 so the browser hit-tests the real DOM element natively (enabling focus, text selection and form input).
@@ -24,7 +24,7 @@ perspective skew, so steeply oblique faces will not be perspective-correct.
 
 > **new HtmlInteractionManager**(`scene`, `texture`, `mesh`, `options?`): `HtmlInteractionManager`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts#L87)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts#L87)
 
 Creates an overlay interaction manager.
 
@@ -64,7 +64,7 @@ optional configuration
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts#L167)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts:167](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlInteractionManager.ts#L167)
 
 Detaches the manager and stops updating the overlay.
 

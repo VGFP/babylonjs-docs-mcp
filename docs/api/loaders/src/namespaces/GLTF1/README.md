@@ -5,3 +5,9 @@
 [@babylonjs/root](../../../../README.md) / [loaders/src](../../README.md) / GLTF1
 
 # GLTF1
+
+## Functions
+
+- [RegisterGLTF1Loader](functions/RegisterGLTF1Loader.md)
+- [RegisterGLTFBinaryExtension](functions/RegisterGLTFBinaryExtension.md)
+- [RegisterGLTFMaterialsCommonExtension](functions/RegisterGLTFMaterialsCommonExtension.md)

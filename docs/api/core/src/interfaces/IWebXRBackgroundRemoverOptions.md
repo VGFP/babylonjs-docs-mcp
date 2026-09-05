@@ -6,7 +6,7 @@
 
 # Interface: IWebXRBackgroundRemoverOptions
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L12)
+Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L12)
 
 Options interface for the background remover plugin
 
@@ -16,7 +16,7 @@ Options interface for the background remover plugin
 
 > `optional` **backgroundMeshes?**: [`AbstractMesh`](../classes/AbstractMesh.md)[]
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L16)
+Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L16)
 
 Further background meshes to disable when entering AR
 
@@ -26,7 +26,7 @@ Further background meshes to disable when entering AR
 
 > `optional` **environmentHelperRemovalFlags?**: `object`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L21)
+Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L21)
 
 flags to configure the removal of the environment helper.
 If not set, the entire background will be removed. If set, flags should be set as well.
@@ -49,6 +49,6 @@ Should the skybox be removed (default false)
 
 > `optional` **ignoreEnvironmentHelper?**: `boolean`
 
-Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L34)
+Defined in: [packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/features/WebXRBackgroundRemover.pure.ts#L34)
 
 don't disable the environment helper

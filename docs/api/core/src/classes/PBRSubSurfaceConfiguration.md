@@ -6,7 +6,7 @@
 
 # Class: PBRSubSurfaceConfiguration
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L68)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L68)
 
 Plugin that implements the sub surface component of the PBR material
 
@@ -20,7 +20,7 @@ Plugin that implements the sub surface component of the PBR material
 
 > **new PBRSubSurfaceConfiguration**(`material`, `addToPluginList?`): `PBRSubSurfaceConfiguration`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:412](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L412)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:412](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L412)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:4
 
 > **applyAlbedoAfterSubSurface**: `boolean` = `PBRSubSurfaceConfiguration.DEFAULT_APPLY_ALBEDO_AFTERSUBSURFACE`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:365](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L365)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:365](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L365)
 
 This property only exists for backward compatibility reasons.
 Set it to true if your rendering in 8.0+ is different from that in 7 when you use sub-surface properties (transmission, refraction, etc.). Default is false.
@@ -58,7 +58,7 @@ Note however that the PBR calculation is wrong when this property is set to true
 
 > **diffusionDistance**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:300](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L300)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:300](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L300)
 
 Defines how far each channel transmit through the media.
 It is defined as a color to simplify it selection.
@@ -69,7 +69,7 @@ It is defined as a color to simplify it selection.
 
 > **dispersion**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:293](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L293)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:293](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L293)
 
 Defines the Abbe number for the volume.
 
@@ -79,7 +79,7 @@ Defines the Abbe number for the volume.
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -93,7 +93,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > **legacyTranslucency**: `boolean` = `PBRSubSurfaceConfiguration.DEFAULT_LEGACY_TRANSLUCENCY`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:372](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L372)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:372](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L372)
 
 This property only exists for backward compatibility reasons.
 Set it to true if your rendering in 8.0+ is different from that in 7 when you use sub-surface translucency. Default is false.
@@ -104,7 +104,7 @@ Set it to true if your rendering in 8.0+ is different from that in 7 when you us
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -122,7 +122,7 @@ Helper function to mark defines as being dirty.
 
 > **maximumThickness**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:267](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L267)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:267](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L267)
 
 Defines the maximum thickness stored in the thickness map.
 
@@ -132,7 +132,7 @@ Defines the maximum thickness stored in the thickness map.
 
 > **minimumThickness**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:261](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L261)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:261](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L261)
 
 Defines the minimum thickness stored in the thickness map.
 If no thickness map is defined, this value will be used to simulate thickness.
@@ -143,7 +143,7 @@ If no thickness map is defined, this value will be used to simulate thickness.
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -157,7 +157,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -171,7 +171,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **refractionIntensity**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L153)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L153)
 
 Defines the refraction intensity of the material.
 The refraction when enabled replaces the Diffuse part of the material.
@@ -183,7 +183,7 @@ The intensity helps transitioning between diffuse and refraction.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -197,7 +197,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -211,7 +211,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 > **tintColor**: [`Color3`](Color3.md)
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:280](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L280)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:280](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L280)
 
 Defines the volume tint of the material.
 This is used for both translucency and scattering.
@@ -222,7 +222,7 @@ This is used for both translucency and scattering.
 
 > **tintColorAtDistance**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:287](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L287)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:287](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L287)
 
 Defines the distance at which the tint color should be found in the media.
 This is used for refraction only.
@@ -233,7 +233,7 @@ This is used for refraction only.
 
 > **translucencyColor**: [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](Color3.md)\> = `null`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:336](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L336)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:336](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L336)
 
 Defines the translucency tint of the material.
 If not set, the tint color will be used instead.
@@ -244,7 +244,7 @@ If not set, the tint color will be used instead.
 
 > **translucencyIntensity**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L161)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L161)
 
 Defines the translucency intensity of the material.
 When translucency has been enabled, this defines how much of the "translucency"
@@ -256,7 +256,7 @@ is added to the diffuse part of the material.
 
 > **useThicknessAsDepth**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:273](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L273)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:273](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L273)
 
 Defines that the thickness should be used as a measure of the depth volume.
 
@@ -266,7 +266,7 @@ Defines that the thickness should be used as a measure of the depth volume.
 
 > `static` **DEFAULT\_APPLY\_ALBEDO\_AFTERSUBSURFACE**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L76)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L76)
 
 Default value used for applyAlbedoAfterSubSurface.
 
@@ -280,7 +280,7 @@ Note however that the PBR calculation is wrong when this property is set to true
 
 > `static` **DEFAULT\_LEGACY\_TRANSLUCENCY**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:84](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L84)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:84](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L84)
 
 Default value used for legacyTranslucency.
 
@@ -295,7 +295,7 @@ Set it to true if your rendering in 8.0+ is different from that in 7 when you us
 
 > **get** **disableAlphaBlending**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:751](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L751)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:751](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L751)
 
 Returns true if alpha blending should be disabled.
 
@@ -307,7 +307,7 @@ Returns true if alpha blending should be disabled.
 
 ### indexOfRefraction
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:211](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L211)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:211](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L211)
 
 Index of refraction of the material base layer.
 https://en.wikipedia.org/wiki/List_of_refractive_indices
@@ -320,7 +320,7 @@ From dielectric fresnel rules: F0 = square((iorT - iorI) / (iorT + iorI))
 
 ### invertRefractionY
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:244](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L244)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:244](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L244)
 
 Controls if refraction needs to be inverted on Y. This could be useful for procedural texture.
 
@@ -328,7 +328,7 @@ Controls if refraction needs to be inverted on Y. This could be useful for proce
 
 ### isDispersionEnabled
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L110)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L110)
 
 Defines if dispersion is enabled in the material.
 
@@ -336,7 +336,7 @@ Defines if dispersion is enabled in the material.
 
 ### isRefractionEnabled
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:94](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L94)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:94](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L94)
 
 Defines if the refraction is enabled in the material.
 
@@ -344,7 +344,7 @@ Defines if the refraction is enabled in the material.
 
 ### isScatteringEnabled
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:118](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L118)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:118](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L118)
 
 Defines if the sub surface scattering is enabled in the material.
 
@@ -352,7 +352,7 @@ Defines if the sub surface scattering is enabled in the material.
 
 ### isTranslucencyEnabled
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:102](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L102)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:102](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L102)
 
 Defines if the translucency is enabled in the material.
 
@@ -364,7 +364,7 @@ Defines if the translucency is enabled in the material.
 
 > **get** **legacyTransluceny**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:379](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L379)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:379](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L379)
 
 Keeping for backward compatibility... Should not be used anymore. It has been replaced by
 the property with the correct spelling.
@@ -381,7 +381,7 @@ legacyTranslucency
 
 > **set** **legacyTransluceny**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:382](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L382)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:382](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L382)
 
 ##### Parameters
 
@@ -397,7 +397,7 @@ Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:3
 
 ### linkRefractionWithTransparency
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:254](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L254)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:254](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L254)
 
 This parameters will make the material used its opacity to control how much it is refracting against not.
 Materials half opaque for instance using refraction could benefit from this control.
@@ -406,7 +406,7 @@ Materials half opaque for instance using refraction could benefit from this cont
 
 ### refractionIntensityTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L320)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L320)
 
 Stores the intensity of the refraction. If provided, it takes precedence over thicknessTexture + useMaskFromThicknessTexture
 * the green (red if useGltfStyleTextures = true) channel is the refraction intensity.
@@ -415,7 +415,7 @@ Stores the intensity of the refraction. If provided, it takes precedence over th
 
 ### refractionTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:197](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L197)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:197](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L197)
 
 Defines the texture to use for refraction.
 
@@ -427,7 +427,7 @@ Defines the texture to use for refraction.
 
 > **get** **scatteringDiffusionProfile**(): [`Nullable`](../type-aliases/Nullable.md)\<[`Color3`](Color3.md)\>
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:127](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L127)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:127](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L127)
 
 Diffusion profile for subsurface scattering.
 Useful for better scattering in the skins or foliages.
@@ -440,7 +440,7 @@ Useful for better scattering in the skins or foliages.
 
 > **set** **scatteringDiffusionProfile**(`c`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L135)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L135)
 
 ##### Parameters
 
@@ -456,7 +456,7 @@ Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:1
 
 ### thicknessTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:189](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L189)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:189](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L189)
 
 Stores the average thickness of a mesh in a texture (The texture is holding the values linearly).
 The red (or green if useGltfStyleTextures=true) channel of the texture should contain the thickness remapped between 0 and 1.
@@ -468,7 +468,7 @@ The other channels might be use as a mask to vary the different effects intensit
 
 ### translucencyColorTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:346](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L346)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:346](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L346)
 
 Defines the translucency tint color of the material as a texture.
 This is multiplied against the translucency color to add variety and realism to the material.
@@ -478,7 +478,7 @@ If translucencyColor is not set, the tint color will be used instead.
 
 ### translucencyIntensityTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:329](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L329)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:329](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L329)
 
 Stores the intensity of the translucency. If provided, it takes precedence over thicknessTexture + useMaskFromThicknessTexture
 * the blue (alpha if useGltfStyleTextures = true) channel is the translucency intensity.
@@ -487,7 +487,7 @@ Stores the intensity of the translucency. If provided, it takes precedence over 
 
 ### useAlbedoToTintRefraction
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L169)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:169](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L169)
 
 When enabled, transparent surfaces will be tinted with the albedo colour (independent of thickness)
 
@@ -495,7 +495,7 @@ When enabled, transparent surfaces will be tinted with the albedo colour (indepe
 
 ### useAlbedoToTintTranslucency
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L177)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L177)
 
 When enabled, translucent surfaces will be tinted with the albedo colour (independent of thickness)
 
@@ -503,7 +503,7 @@ When enabled, translucent surfaces will be tinted with the albedo colour (indepe
 
 ### useGltfStyleTextures
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:357](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L357)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:357](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L357)
 
 Use channels layout used by glTF:
 * thicknessTexture: the green (instead of red) channel is the thickness
@@ -514,7 +514,7 @@ Use channels layout used by glTF:
 
 ### useMaskFromThicknessTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:311](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L311)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:311](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L311)
 
 Stores the intensity of the different subsurface effects in the thickness texture.
 Note that if refractionIntensityTexture and/or translucencyIntensityTexture is provided it takes precedence over thicknessTexture + useMaskFromThicknessTexture
@@ -529,7 +529,7 @@ Note that if refractionIntensityTexture and/or translucencyIntensityTexture is p
 
 > **get** **volumeIndexOfRefraction**(): `number`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:223](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L223)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:223](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L223)
 
 Index of refraction of the material's volume.
 https://en.wikipedia.org/wiki/List_of_refractive_indices
@@ -545,7 +545,7 @@ the volume will use the same IOR as the surface.
 
 > **set** **volumeIndexOfRefraction**(`value`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:229](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L229)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:229](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L229)
 
 ##### Parameters
 
@@ -563,7 +563,7 @@ Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:2
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:886](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L886)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:886](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L886)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -603,7 +603,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`uniformBuffer`, `scene`, `engine`, `subMesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:620](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L620)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:620](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L620)
 
 Binds subsurface data for a sub mesh.
 
@@ -647,7 +647,7 @@ defines the sub mesh being rendered
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -671,7 +671,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -697,7 +697,7 @@ define the config where to copy the info
 
 > **dispose**(`forceDisposeTextures?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:858](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L858)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:858](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L858)
 
 Disposes the subsurface textures.
 
@@ -723,7 +723,7 @@ defines whether to dispose the textures
 
 > **fillRenderTargetTextures**(`renderTargets`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:759](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L759)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:759](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L759)
 
 Fills the list of render target textures.
 
@@ -749,7 +749,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`activeTextures`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:806](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L806)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:806](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L806)
 
 Adds the active subsurface textures.
 
@@ -775,7 +775,7 @@ defines the list of active textures to update
 
 > **getAnimatables**(`animatables`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:832](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L832)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:832](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L832)
 
 Adds the animatable subsurface textures.
 
@@ -801,7 +801,7 @@ defines the list of animatables to update
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -839,7 +839,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:882](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L882)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:882](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L882)
 
 Gets the current class name useful for serialization or dynamic coding.
 
@@ -859,7 +859,7 @@ The class name.
 
 > **getCustomCode**(`_shaderType`, `_shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
 
 Returns a list of custom shader code fragments to customize the shader.
 
@@ -896,7 +896,7 @@ replaced by the code provided.
 
 > **getSamplers**(`samplers`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:900](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L900)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:900](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L900)
 
 Adds the subsurface sampler names.
 
@@ -922,7 +922,7 @@ defines the list of sampler names to update
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -948,7 +948,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:912](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L912)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:912](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L912)
 
 Gets the description of the uniforms to add to the ubo (if engine supports ubos) or to inject directly in the vertex/fragment shaders (if engine does not support ubos)
 
@@ -980,7 +980,7 @@ the description of the uniforms
 
 > **hardBindForSubMesh**(`uniformBuffer`, `scene`, `engine`, `subMesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:598](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L598)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:598](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L598)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -1024,7 +1024,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:794](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L794)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:794](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L794)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -1044,7 +1044,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`texture`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:770](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L770)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:770](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L770)
 
 Checks whether subsurface rendering uses a texture.
 
@@ -1072,7 +1072,7 @@ true if the texture is used by subsurface rendering
 
 > **isCompatible**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:408](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L408)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:408](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L408)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language.
 
@@ -1092,7 +1092,7 @@ true if the plugin is compatible with the shader language
 
 > **isReadyForSubMesh**(`defines`, `scene`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L428)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L428)
 
 Checks whether the subsurface textures are ready for the sub mesh.
 
@@ -1126,7 +1126,7 @@ true if subsurface is ready
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -1164,7 +1164,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
 
 Sets the defines for the next rendering
 
@@ -1202,7 +1202,7 @@ the mesh being rendered
 
 > **prepareDefinesBeforeAttributes**(`defines`, `scene`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:476](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L476)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts:476](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrSubSurfaceConfiguration.ts#L476)
 
 Updates shader defines for subsurface rendering before attributes are processed.
 
@@ -1234,7 +1234,7 @@ defines the scene to use for texture checks
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 

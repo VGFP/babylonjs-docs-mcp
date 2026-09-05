@@ -8,7 +8,7 @@
 
 > **IComputeShaderPath** = `object`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L23)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L23)
 
 Defines the route to the shader code. The priority is as follows:
  * object: `{ computeSource: "compute shader code string"}` for directly passing the shader code
@@ -22,7 +22,7 @@ Defines the route to the shader code. The priority is as follows:
 
 > `optional` **compute?**: `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L32)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L32)
 
 Used with Effect.ShadersStore. If the `vertex` is set to `"custom`, then
 Babylon.js will read from Effect.ShadersStore["customVertexShader"]
@@ -33,7 +33,7 @@ Babylon.js will read from Effect.ShadersStore["customVertexShader"]
 
 > `optional` **computeElement?**: `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L36)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L36)
 
 Used with shader code in script tags
 
@@ -43,6 +43,6 @@ Used with shader code in script tags
 
 > `optional` **computeSource?**: `string`
 
-Defined in: [packages/dev/core/src/Compute/computeEffect.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Compute/computeEffect.ts#L27)
+Defined in: [packages/dev/core/src/Compute/computeEffect.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Compute/computeEffect.ts#L27)
 
 Directly pass the shader code

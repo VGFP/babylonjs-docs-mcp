@@ -6,7 +6,7 @@
 
 # Class: WebXREnterExitUI
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:82](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L82)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:82](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L82)
 
 UI to allow the user to enter/exit XR mode
 
@@ -20,7 +20,7 @@ UI to allow the user to enter/exit XR mode
 
 > **new WebXREnterExitUI**(`_scene`, `options`): `WebXREnterExitUI`
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:107](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L107)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:107](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L107)
 
 Construct a new EnterExit UI class
 
@@ -48,7 +48,7 @@ babylon scene object to use
 
 > **activeButtonChangedObservable**: [`Observable`](Observable.md)\<[`Nullable`](../type-aliases/Nullable.md)\<[`WebXREnterExitUIButton`](WebXREnterExitUIButton.md)\>\>
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L99)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L99)
 
 Fired every time the active button is changed.
 
@@ -62,7 +62,7 @@ When exiting xr the callback parameter will be null)
 
 > **options**: [`WebXREnterExitUIOptions`](WebXREnterExitUIOptions.md)
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:110](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L110)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:110](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L110)
 
 version of the options passed to this UI
 
@@ -72,7 +72,7 @@ version of the options passed to this UI
 
 > `readonly` **overlay**: `HTMLDivElement`
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L90)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L90)
 
 The HTML Div Element to which buttons are added.
 
@@ -82,7 +82,7 @@ The HTML Div Element to which buttons are added.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:240](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L240)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:240](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L240)
 
 Disposes of the XR UI component
 
@@ -100,7 +100,7 @@ Disposes of the XR UI component
 
 > **setHelperAsync**(`helper`, `renderTarget?`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:176](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L176)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:176](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L176)
 
 Set the helper to be used with this UI component.
 The UI is bound to an experience helper. If not provided the UI can still be used but the events should be registered by the developer.
@@ -131,7 +131,7 @@ a promise that resolves when the ui is ready
 
 > `static` **CreateAsync**(`scene`, `helper`, `options`): `Promise`\<`WebXREnterExitUI`\>
 
-Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:206](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/XR/webXREnterExitUI.ts#L206)
+Defined in: [packages/dev/core/src/XR/webXREnterExitUI.ts:206](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/XR/webXREnterExitUI.ts#L206)
 
 Creates UI to allow the user to enter/exit XR mode
 

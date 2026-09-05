@@ -6,7 +6,7 @@
 
 # Interface: PhysicsVortexEventData
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1233](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1233)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1233](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1233)
 
 Interface for vortex event data
 
@@ -20,6 +20,6 @@ https://doc.babylonjs.com/features/featuresDeepDive/physics/usingPhysicsEngine#f
 
 > **cylinder**: [`Mesh`](../classes/Mesh.md)
 
-Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/physicsHelper.ts#L1237)
+Defined in: [packages/dev/core/src/Physics/physicsHelper.ts:1237](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/physicsHelper.ts#L1237)
 
 A cylinder used for the vortex event

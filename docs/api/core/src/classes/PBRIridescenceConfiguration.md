@@ -6,7 +6,7 @@
 
 # Class: PBRIridescenceConfiguration
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L31)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L31)
 
 Plugin that implements the iridescence (thin film) component of the PBR material
 
@@ -20,7 +20,7 @@ Plugin that implements the iridescence (thin film) component of the PBR material
 
 > **new PBRIridescenceConfiguration**(`material`, `addToPluginList?`): `PBRIridescenceConfiguration`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:120](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L120)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:120](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L120)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:
 
 > **doNotSerialize**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L56)
 
 Specifies if the material plugin should be serialized, `true` to skip serialization
 
@@ -60,7 +60,7 @@ Specifies if the material plugin should be serialized, `true` to skip serializat
 
 > **indexOfRefraction**: `number` = `PBRIridescenceConfiguration._DefaultIndexOfRefraction`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L85)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L85)
 
 Defines the maximum thickness of the thin-film layer given in nanometers (nm).
 
@@ -70,7 +70,7 @@ Defines the maximum thickness of the thin-film layer given in nanometers (nm).
 
 > **intensity**: `number` = `1`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L67)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L67)
 
 Defines the iridescence layer strength (between 0 and 1) it defaults to 1.
 
@@ -80,7 +80,7 @@ Defines the iridescence layer strength (between 0 and 1) it defaults to 1.
 
 > `readonly` **markAllDefinesAsDirty**: () => `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:85](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L85)
 
 Helper function to mark defines as being dirty.
 
@@ -98,7 +98,7 @@ Helper function to mark defines as being dirty.
 
 > **maximumThickness**: `number` = `PBRIridescenceConfiguration._DefaultMaximumThickness`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L79)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L79)
 
 Defines the maximum thickness of the thin-film layer given in nanometers (nm). This will be the thickness used if not thickness texture has been set.
 
@@ -108,7 +108,7 @@ Defines the maximum thickness of the thin-film layer given in nanometers (nm). T
 
 > **minimumThickness**: `number` = `PBRIridescenceConfiguration._DefaultMinimumThickness`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:73](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L73)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:73](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L73)
 
 Defines the minimum thickness of the thin-film layer given in nanometers (nm).
 
@@ -118,7 +118,7 @@ Defines the minimum thickness of the thin-film layer given in nanometers (nm).
 
 > **name**: `string`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L33)
 
 Defines the name of the plugin
 
@@ -132,7 +132,7 @@ Defines the name of the plugin
 
 > **priority**: `number` = `500`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L39)
 
 Defines the priority of the plugin. Lower numbers run first.
 
@@ -146,7 +146,7 @@ Defines the priority of the plugin. Lower numbers run first.
 
 > **registerForExtraEvents**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L51)
 
 Indicates that this plugin should be notified for the extra events (HasRenderTargetTextures / FillRenderTargetTextures / HardBindForSubMesh)
 
@@ -160,7 +160,7 @@ Indicates that this plugin should be notified for the extra events (HasRenderTar
 
 > **resolveIncludes**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:45](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L45)
 
 Indicates that any #include directive in the plugin code must be replaced by the corresponding code.
 
@@ -172,7 +172,7 @@ Indicates that any #include directive in the plugin code must be replaced by the
 
 ### isEnabled
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L61)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L61)
 
 Defines if the iridescence is enabled in the material.
 
@@ -180,7 +180,7 @@ Defines if the iridescence is enabled in the material.
 
 ### texture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L93)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L93)
 
 Stores the iridescence intensity in a texture (red channel)
 
@@ -188,7 +188,7 @@ Stores the iridescence intensity in a texture (red channel)
 
 ### thicknessTexture
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:101](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L101)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:101](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L101)
 
 Stores the iridescence thickness in a texture (green channel)
 
@@ -198,7 +198,7 @@ Stores the iridescence thickness in a texture (green channel)
 
 > **addFallbacks**(`defines`, `fallbacks`, `currentRank`): `number`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:294](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L294)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:294](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L294)
 
 Add fallbacks to the effect fallbacks list.
 
@@ -238,7 +238,7 @@ the new fallback rank.
 
 > **bindForSubMesh**(`uniformBuffer`, `scene`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:194](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L194)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:194](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L194)
 
 Binds iridescence data for a sub mesh.
 
@@ -270,7 +270,7 @@ defines the scene to use for texture binding
 
 > **collectDefines**(`defines`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:185](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L185)
 
 Collects all defines.
 
@@ -294,7 +294,7 @@ The object to append to.
 
 > **copyTo**(`plugin`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:302](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L302)
 
 Makes a duplicate of the current configuration into another one.
 
@@ -320,7 +320,7 @@ define the config where to copy the info
 
 > **dispose**(`forceDisposeTextures?`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:283](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L283)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:283](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L283)
 
 Disposes the iridescence textures.
 
@@ -346,7 +346,7 @@ defines whether to dispose the textures
 
 > **fillRenderTargetTextures**(`_renderTargets`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L239)
 
 Fills the list of render target textures.
 
@@ -372,7 +372,7 @@ the list of render targets to update
 
 > **getActiveTextures**(`activeTextures`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:255](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L255)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:255](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L255)
 
 Adds the active iridescence textures.
 
@@ -398,7 +398,7 @@ defines the list of active textures to update
 
 > **getAnimatables**(`animatables`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:269](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L269)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:269](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L269)
 
 Adds the animatable iridescence textures.
 
@@ -424,7 +424,7 @@ defines the list of animatables to update
 
 > **getAttributes**(`_attributes`, `_scene`, `_mesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:276](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L276)
 
 Gets the attributes used by the plugin.
 
@@ -462,7 +462,7 @@ the mesh being rendered.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:290](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L290)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:290](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L290)
 
 Gets the current class name useful for serialization or dynamic coding.
 
@@ -482,7 +482,7 @@ The class name.
 
 > **getCustomCode**(`_shaderType`, `_shaderLanguage?`): [`Nullable`](../type-aliases/Nullable.md)\<\{\[`pointName`: `string`\]: `string`; \}\>
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:177](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L177)
 
 Returns a list of custom shader code fragments to customize the shader.
 
@@ -519,7 +519,7 @@ replaced by the code provided.
 
 > **getSamplers**(`samplers`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:305](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L305)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:305](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L305)
 
 Adds the iridescence sampler names.
 
@@ -545,7 +545,7 @@ defines the list of sampler names to update
 
 > **getUniformBuffersNames**(`_ubos`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:282](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L282)
 
 Gets the uniform buffers names added by the plugin.
 
@@ -571,7 +571,7 @@ list that the ubo names should be added to.
 
 > **getUniforms**(): `object`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:309](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L309)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:309](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L309)
 
 Gets the description of the uniforms to add to the ubo (if engine supports ubos) or to inject directly in the vertex/fragment shaders (if engine does not support ubos)
 
@@ -603,7 +603,7 @@ the description of the uniforms
 
 > **hardBindForSubMesh**(`_uniformBuffer`, `_scene`, `_engine`, `_subMesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:151](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L151)
 
 Binds the material data (this function is called even if mustRebind() returns false)
 
@@ -647,7 +647,7 @@ the submesh to bind data for
 
 > **hasRenderTargetTextures**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:231](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L231)
 
 Gets a boolean indicating that current material needs to register RTT
 
@@ -667,7 +667,7 @@ true if this uses a render target otherwise false.
 
 > **hasTexture**(`texture`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:239](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L239)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:239](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L239)
 
 Checks whether iridescence uses a texture.
 
@@ -695,7 +695,7 @@ true if the texture is used by iridescence
 
 > **isCompatible**(): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:116](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L116)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:116](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L116)
 
 Gets a boolean indicating that the plugin is compatible with a given shader language.
 
@@ -715,7 +715,7 @@ true if the plugin is compatible with the shader language
 
 > **isReadyForSubMesh**(`defines`, `scene`): `boolean`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:132](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L132)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:132](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L132)
 
 Checks whether the iridescence textures are ready for the sub mesh.
 
@@ -749,7 +749,7 @@ true if iridescence is ready
 
 > **parse**(`source`, `scene`, `rootUrl`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:320](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L320)
 
 Parses a plugin configuration from a serialized object.
 
@@ -787,7 +787,7 @@ Defines the rootUrl to load from
 
 > **prepareDefines**(`_defines`, `_scene`, `_mesh`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:216](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L216)
 
 Sets the defines for the next rendering
 
@@ -825,7 +825,7 @@ the mesh being rendered
 
 > **prepareDefinesBeforeAttributes**(`defines`, `scene`): `void`
 
-Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:161](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L161)
+Defined in: [packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts:161](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/PBR/pbrIridescenceConfiguration.ts#L161)
 
 Updates shader defines for iridescence before attributes are processed.
 
@@ -857,7 +857,7 @@ defines the scene to use for texture checks
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
+Defined in: [packages/dev/core/src/Materials/materialPluginBase.pure.ts:310](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialPluginBase.pure.ts#L310)
 
 Serializes this plugin configuration.
 

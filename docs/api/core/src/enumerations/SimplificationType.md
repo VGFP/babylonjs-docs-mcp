@@ -6,7 +6,7 @@
 
 # Enumeration: SimplificationType
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.common.ts#L47)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.common.ts#L47)
 
 The implemented types of simplification
 At the moment only Quadratic Error Decimation is implemented
@@ -21,6 +21,6 @@ https://doc.babylonjs.com/features/featuresDeepDive/mesh/simplifyingMeshes
 
 > **QUADRATIC**: `0`
 
-Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:49](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/meshSimplification.common.ts#L49)
+Defined in: [packages/dev/core/src/Meshes/meshSimplification.common.ts:49](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/meshSimplification.common.ts#L49)
 
 Quadratic error decimation

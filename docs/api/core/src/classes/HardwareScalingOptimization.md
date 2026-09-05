@@ -6,7 +6,7 @@
 
 # Class: HardwareScalingOptimization
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:113](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L113)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:113](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L113)
 
 Defines an optimization used to increase or decrease the rendering resolution
 
@@ -24,7 +24,7 @@ More details at https://doc.babylonjs.com/features/featuresDeepDive/scene/sceneO
 
 > **new HardwareScalingOptimization**(`priority?`, `maximumScale?`, `step?`): `HardwareScalingOptimization`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L131)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L131)
 
 Creates the HardwareScalingOptimization object
 
@@ -62,7 +62,7 @@ defines the step to use between two passes (0.5 by default)
 
 > **maximumScale**: `number` = `2`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:139](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L139)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:139](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L139)
 
 [2] Defines the maximum scale to use (2 by default)
 
@@ -72,7 +72,7 @@ Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:139](https://github.co
 
 > **priority**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:135](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L135)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:135](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L135)
 
 [0] Defines the priority of this optimization (0 by default which means first in the list)
 
@@ -86,7 +86,7 @@ Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:135](https://github.co
 
 > **step**: `number` = `0.25`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:143](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L143)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:143](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L143)
 
 [0.25] Defines the step to use between two passes (0.5 by default)
 
@@ -96,7 +96,7 @@ Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:143](https://github.co
 
 > **apply**(`scene`, `optimizer`): `boolean`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:154](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L154)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:154](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L154)
 
 This function will be called by the SceneOptimizer when its priority is reached in order to apply the change required by the current optimization
 
@@ -130,7 +130,7 @@ true if everything that can be done was applied
 
 > **getDescription**(): `string`
 
-Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/sceneOptimizer.ts#L121)
+Defined in: [packages/dev/core/src/Misc/sceneOptimizer.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/sceneOptimizer.ts#L121)
 
 Gets a string describing the action executed by the current optimization
 

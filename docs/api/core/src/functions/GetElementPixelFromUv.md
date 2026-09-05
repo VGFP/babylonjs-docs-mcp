@@ -8,7 +8,7 @@
 
 > **GetElementPixelFromUv**(`u`, `v`, `width`, `height`, `invertY?`): `object`
 
-Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L25)
+Defined in: [packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/HTML/htmlRaycastInteractionManager.ts#L25)
 
 Maps a UV coordinate sampled from an [HtmlTexture](../classes/HtmlTexture.md) to a pixel position inside the source element.
 

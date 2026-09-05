@@ -6,7 +6,7 @@
 
 # Interface: ITransmissionHelperOptions
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L39)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L39)
 
 Options for the TransmissionHelper.
 
@@ -16,7 +16,7 @@ Options for the TransmissionHelper.
 
 > `optional` **clearColor?**: [`Color4`](../../../../../core/src/classes/Color4.md)
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L74)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L74)
 
 Clear color of the opaque texture. If not provided, use the scene clear color (which will be converted to linear space).
 If provided, should be in linear space
@@ -27,7 +27,7 @@ If provided, should be in linear space
 
 > **generateMipmaps**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L68)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L68)
 
 Defines if the mipmaps for the refraction render target texture must be generated (default: true)
 
@@ -37,7 +37,7 @@ Defines if the mipmaps for the refraction render target texture must be generate
 
 > **lodGenerationOffset**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L58)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L58)
 
 Offset to apply when selecting the LOD level to sample the refraction texture (default: -4)
 
@@ -47,7 +47,7 @@ Offset to apply when selecting the LOD level to sample the refraction texture (d
 
 > **lodGenerationScale**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:53](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L53)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:53](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L53)
 
 Scale to apply when selecting the LOD level to sample the refraction texture (default: 1)
 
@@ -57,7 +57,7 @@ Scale to apply when selecting the LOD level to sample the refraction texture (de
 
 > **renderSize**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L43)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L43)
 
 The size of the render buffers (default: 1024)
 
@@ -67,7 +67,7 @@ The size of the render buffers (default: 1024)
 
 > **renderTargetTextureType**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L63)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L63)
 
 Type of the refraction render target texture (default: TEXTURETYPE_HALF_FLOAT)
 
@@ -77,6 +77,6 @@ Type of the refraction render target texture (default: TEXTURETYPE_HALF_FLOAT)
 
 > **samples**: `number`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L48)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/transmissionHelper.ts#L48)
 
 The number of samples to use when generating the render target texture for opaque meshes (default: 4)

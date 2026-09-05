@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphContextConfiguration
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L34)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L34)
 
 Construction parameters for the context.
 
@@ -16,7 +16,7 @@ Construction parameters for the context.
 
 > `readonly` `optional` **assetsContext?**: `IAssetContainer`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L56)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L56)
 
 The assets context used by the flow graph context.
 If none is provided, a default one will be created.
@@ -27,7 +27,7 @@ If none is provided, a default one will be created.
 
 > `readonly` **coordinator**: [`FlowGraphCoordinator`](../classes/FlowGraphCoordinator.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:42](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L42)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:42](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L42)
 
 The event coordinator used by the flow graph context.
 
@@ -37,7 +37,7 @@ The event coordinator used by the flow graph context.
 
 > `readonly` **scene**: [`Scene`](../classes/Scene.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:38](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L38)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:38](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L38)
 
 The scene that the flow graph context belongs to.
 
@@ -47,7 +47,7 @@ The scene that the flow graph context belongs to.
 
 > `readonly` `optional` **sceneEventCoordinator?**: `FlowGraphSceneEventCoordinator`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L50)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphContext.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphContext.ts#L50)
 
 The scene event coordinator that tracks runtime event state
 (e.g. currently pressed keyboard keys).

@@ -6,7 +6,7 @@
 
 # Interface: IStencilState
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:64](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L64)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:64](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L64)
 
 Interface defining the stencil state.
 
@@ -20,7 +20,7 @@ Interface defining the stencil state.
 
 > **backFunc**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L46)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L46)
 
 The stencil comparison function to use for back faces.
 
@@ -34,7 +34,7 @@ The stencil comparison function to use for back faces.
 
 > **backOpDepthFail**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:58](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L58)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:58](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L58)
 
 The operation to perform when the stencil test passes but the depth test fails for back faces.
 
@@ -48,7 +48,7 @@ The operation to perform when the stencil test passes but the depth test fails f
 
 > **backOpStencilDepthPass**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L50)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L50)
 
 The operation to perform when both the stencil and depth tests pass for back faces.
 
@@ -62,7 +62,7 @@ The operation to perform when both the stencil and depth tests pass for back fac
 
 > **backOpStencilFail**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:54](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L54)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:54](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L54)
 
 The operation to perform when the stencil test fails for back faces.
 
@@ -76,7 +76,7 @@ The operation to perform when the stencil test fails for back faces.
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L8)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L8)
 
 Whether the stencil test is enabled or not.
 
@@ -90,7 +90,7 @@ Whether the stencil test is enabled or not.
 
 > **func**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L28)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L28)
 
 The stencil comparison function to use for front faces.
 
@@ -104,7 +104,7 @@ The stencil comparison function to use for front faces.
 
 > **funcMask**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L17)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L17)
 
 The stencil mask to use for reading.
 
@@ -118,7 +118,7 @@ The stencil mask to use for reading.
 
 > **funcRef**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L22)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L22)
 
 The reference value to use for the stencil test.
 
@@ -132,7 +132,7 @@ The reference value to use for the stencil test.
 
 > **mask**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:13](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L13)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:13](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L13)
 
 The stencil mask to use for writing.
 
@@ -146,7 +146,7 @@ The stencil mask to use for writing.
 
 > **opDepthFail**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L40)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L40)
 
 The operation to perform when the stencil test passes but the depth test fails for front faces.
 
@@ -160,7 +160,7 @@ The operation to perform when the stencil test passes but the depth test fails f
 
 > **opStencilDepthPass**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L32)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L32)
 
 The operation to perform when both the stencil and depth tests pass for front faces.
 
@@ -174,7 +174,7 @@ The operation to perform when both the stencil and depth tests pass for front fa
 
 > **opStencilFail**: `number`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L36)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L36)
 
 The operation to perform when the stencil test fails for front faces.
 
@@ -188,7 +188,7 @@ The operation to perform when the stencil test fails for front faces.
 
 > **reset**(): `void`
 
-Defined in: [packages/dev/core/src/States/IStencilState.ts:68](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/States/IStencilState.ts#L68)
+Defined in: [packages/dev/core/src/States/IStencilState.ts:68](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/States/IStencilState.ts#L68)
 
 Resets the stencil state to default values.
 

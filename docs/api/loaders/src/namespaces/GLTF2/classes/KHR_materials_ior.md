@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_ior
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L16)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L16)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_ior/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pu
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L30)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L30)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_materials_ior"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L25)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L25)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > **order**: `number` = `180`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L35)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_ior.pure.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_ior.pure.ts#L35)
 
 Defines a number that determines the order the extensions are applied.
 

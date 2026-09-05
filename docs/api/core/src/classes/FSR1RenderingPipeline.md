@@ -6,7 +6,7 @@
 
 # Class: FSR1RenderingPipeline
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L14)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L14)
 
 FidelityFX Super Resolution (FSR) 1 render pipeline.
 This can be used to render the scene at a lower resolution and upscale it.
@@ -21,7 +21,7 @@ This can be used to render the scene at a lower resolution and upscale it.
 
 > **new FSR1RenderingPipeline**(`name`, `scene`, `cameras?`): `FSR1RenderingPipeline`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:121](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L121)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:121](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L121)
 
 Creates a new FSR 1 rendering pipeline
 
@@ -59,7 +59,7 @@ The array of cameras that the rendering pipeline will be attached to (default: s
 
 > **FSR1SharpenEffect**: `string` = `"FSR1SharpenEffect"`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:111](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L111)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:111](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L111)
 
 The FSR sharpen PostProcess ID in the pipeline
 
@@ -69,7 +69,7 @@ The FSR sharpen PostProcess ID in the pipeline
 
 > **FSR1UpscaleEffect**: `string` = `"FSR1UpscaleEffect"`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L103)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:103](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L103)
 
 The FSR upscale PostProcess ID in the pipeline
 
@@ -79,7 +79,7 @@ The FSR upscale PostProcess ID in the pipeline
 
 > **inspectableCustomProperties**: [`IInspectable`](../interfaces/IInspectable.md)[]
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L26)
 
 List of inspectable custom properties (used by the Inspector)
 
@@ -97,7 +97,7 @@ https://doc.babylonjs.com/toolsAndResources/inspector#extensibility
 
 > `readonly` **uniqueId**: `number` = `UniqueIdGenerator.UniqueId`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L47)
 
 Gets the unique id of the post process rendering pipeline
 
@@ -111,7 +111,7 @@ Gets the unique id of the post process rendering pipeline
 
 > `readonly` `static` **SCALE\_BALANCED**: `1.7` = `1.7`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L26)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L26)
 
 AMD's recommended `scaleFactor` for a "Balanced" preset (equal to 1.7)
 
@@ -121,7 +121,7 @@ AMD's recommended `scaleFactor` for a "Balanced" preset (equal to 1.7)
 
 > `readonly` `static` **SCALE\_PERFORMANCE**: `2` = `2`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L30)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L30)
 
 AMD's recommended `scaleFactor` for a "Performance" preset (equal to 2)
 
@@ -131,7 +131,7 @@ AMD's recommended `scaleFactor` for a "Performance" preset (equal to 2)
 
 > `readonly` `static` **SCALE\_QUALITY**: `1.5` = `1.5`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L22)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L22)
 
 AMD's recommended `scaleFactor` for a "Quality" preset (equal to 1.5)
 
@@ -141,7 +141,7 @@ AMD's recommended `scaleFactor` for a "Quality" preset (equal to 1.5)
 
 > `readonly` `static` **SCALE\_ULTRA\_QUALITY**: `1.3` = `1.3`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L18)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L18)
 
 AMD's recommended `scaleFactor` for an "Ultra Quality" preset (equal to 1.3)
 
@@ -153,7 +153,7 @@ AMD's recommended `scaleFactor` for an "Ultra Quality" preset (equal to 1.3)
 
 > **get** **cameras**(): [`Camera`](Camera.md)[]
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:50](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L50)
 
 Gets the list of attached cameras
 
@@ -173,7 +173,7 @@ Gets the list of attached cameras
 
 > **get** **engine**(): [`AbstractEngine`](AbstractEngine.md)
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:57](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L57)
 
 Gets the active engine
 
@@ -193,7 +193,7 @@ Gets the active engine
 
 > **get** **isSupported**(): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L37)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L37)
 
 Returns true if FSR is supported by the running hardware
 
@@ -213,7 +213,7 @@ Returns true if FSR is supported by the running hardware
 
 > **get** **name**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:40](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L40)
 
 Gets pipeline name
 
@@ -233,7 +233,7 @@ Gets pipeline name
 
 > **get** **samples**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L51)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L51)
 
 MSAA sample count (default: 4).
 Disabling MSAA is not recommended since aliased edges will be exaggerated by the FSR pass.
@@ -247,7 +247,7 @@ Always have at least one AA solution enabled, whether that be MSAA with this set
 
 > **set** **samples**(`samples`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:55](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L55)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:55](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L55)
 
 ##### Parameters
 
@@ -267,7 +267,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1Re
 
 > **get** **scaleFactor**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:70](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L70)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:70](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L70)
 
 How much smaller to render the scene at (default: 1.5).
 For example, a value of 2 will render the scene at half resolution.
@@ -280,7 +280,7 @@ For example, a value of 2 will render the scene at half resolution.
 
 > **set** **scaleFactor**(`factor`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:74](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L74)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:74](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L74)
 
 ##### Parameters
 
@@ -300,7 +300,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1Re
 
 > **get** **sharpnessStops**(): `number`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:87](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L87)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:87](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L87)
 
 The number of stops (halving) of the reduction of sharpness (default: 0.2).
 A value of 0 indicates a maximum sharpness.
@@ -313,7 +313,7 @@ A value of 0 indicates a maximum sharpness.
 
 > **set** **sharpnessStops**(`stops`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:91](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L91)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:91](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L91)
 
 ##### Parameters
 
@@ -331,7 +331,7 @@ Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1Re
 
 > **addEffect**(`renderEffect`): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:106](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L106)
 
 Adds an effect to the pipeline
 
@@ -357,7 +357,7 @@ the effect to add
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:156](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L156)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts:156](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/Pipelines/fsr1RenderingPipeline.ts#L156)
 
 Disposes of the pipeline
 
@@ -375,7 +375,7 @@ Disposes of the pipeline
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L83)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L83)
 
 Gets the class name
 
@@ -395,7 +395,7 @@ Gets the class name
 
 > **setPrePassRenderer**(`prePassRenderer`): `boolean`
 
-Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
+Defined in: [packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts:277](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/PostProcesses/RenderPipeline/postProcessRenderPipeline.ts#L277)
 
 Sets the required values to the prepass renderer.
 

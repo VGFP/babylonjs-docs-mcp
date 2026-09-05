@@ -6,7 +6,7 @@
 
 # Interface: IScreenshotSize
 
-Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:5](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L5)
+Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:5](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L5)
 
 Interface for screenshot methods with describe argument called `size` as object with options
 
@@ -20,7 +20,7 @@ https://doc.babylonjs.com/api/classes/babylon.screenshottools
 
 > `optional` **finalHeight?**: `number`
 
-Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L36)
+Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L36)
 
 Height of the final screenshot image.
 If only one of the two values is provided, the other will be calculated based on the camera's aspect ratio.
@@ -33,7 +33,7 @@ finalWidth and finalHeight are used only by CreateScreenshotUsingRenderTarget, n
 
 > `optional` **finalWidth?**: `number`
 
-Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L28)
+Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L28)
 
 Width of the final screenshot image.
 If only one of the two values is provided, the other will be calculated based on the camera's aspect ratio.
@@ -46,7 +46,7 @@ finalWidth and finalHeight are used only by CreateScreenshotUsingRenderTarget, n
 
 > `optional` **height?**: `number`
 
-Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:9](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L9)
+Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:9](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L9)
 
 number in pixels for canvas height. It is the height of the texture used to render the scene
 
@@ -56,7 +56,7 @@ number in pixels for canvas height. It is the height of the texture used to rend
 
 > `optional` **precision?**: `number`
 
-Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L15)
+Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L15)
 
 multiplier allowing render at a higher or lower resolution
 If value is defined then width and height will be multiplied by this value
@@ -67,6 +67,6 @@ If value is defined then width and height will be multiplied by this value
 
 > `optional` **width?**: `number`
 
-Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L20)
+Defined in: [packages/dev/core/src/Misc/interfaces/screenshotSize.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/interfaces/screenshotSize.ts#L20)
 
 number in pixels for canvas width. It is the width of the texture used to render the scene

@@ -6,7 +6,7 @@
 
 # Class: ArcRotateCameraMouseWheelInput
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L27)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L27)
 
 Manage the mouse wheel inputs to control an arc rotate camera.
 
@@ -34,7 +34,7 @@ https://doc.babylonjs.com/features/featuresDeepDive/cameras/customizingCameraInp
 
 > **camera**: [`ArcRotateCamera`](ArcRotateCamera.md)
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L31)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L31)
 
 Defines the camera the input is attached to.
 
@@ -48,7 +48,7 @@ Defines the camera the input is attached to.
 
 > **customComputeDeltaFromMouseWheel**: [`Nullable`](../type-aliases/Nullable.md)\<(`wheelDelta`, `input`, `event`) => `number`\> = `null`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L56)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L56)
 
 If set, this function will be used to set the radius delta that will be added to the current camera radius
 
@@ -58,7 +58,7 @@ If set, this function will be used to set the radius delta that will be added to
 
 > **wheelDeltaPercentage**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L51)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L51)
 
 wheelDeltaPercentage will be used instead of wheelPrecision if different from 0.
 It defines the percentage of current camera.radius to use as delta when wheel is used.
@@ -69,7 +69,7 @@ It defines the percentage of current camera.radius to use as delta when wheel is
 
 > **wheelPrecision**: `number` = `3.0`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L37)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:37](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L37)
 
 Gets or Set the mouse wheel precision or how fast is the camera zooming.
 
@@ -79,7 +79,7 @@ Gets or Set the mouse wheel precision or how fast is the camera zooming.
 
 > **zoomToMouseLocation**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L44)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L44)
 
 Gets or Set the boolean value that controls whether or not the mouse wheel
 zooms to the location of the mouse pointer or not.  The default is false.
@@ -90,7 +90,7 @@ zooms to the location of the mouse pointer or not.  The default is false.
 
 > **attachControl**(`noPreventDefault?`): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L79)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:79](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L79)
 
 Attach the input controls to a specific dom element to get the input from.
 
@@ -116,7 +116,7 @@ Defines whether event caught by the controls should call preventdefault() (https
 
 > **checkInputs**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:174](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L174)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:174](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L174)
 
 Update the current camera state depending on the inputs that have been used this frame.
 This is a dynamically created lambda to avoid the performance penalty of looping for inputs in the render loop.
@@ -135,7 +135,7 @@ This is a dynamically created lambda to avoid the performance penalty of looping
 
 > **detachControl**(): `void`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:162](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L162)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:162](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L162)
 
 Detach the current controls from the specified dom element.
 
@@ -153,7 +153,7 @@ Detach the current controls from the specified dom element.
 
 > **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:219](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L219)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:219](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L219)
 
 Gets the class name of the current input.
 
@@ -173,7 +173,7 @@ the class name
 
 > **getSimpleName**(): `string`
 
-Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:227](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L227)
+Defined in: [packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts:227](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/Inputs/arcRotateCameraMouseWheelInput.ts#L227)
 
 Get the friendly name associated with the input class.
 

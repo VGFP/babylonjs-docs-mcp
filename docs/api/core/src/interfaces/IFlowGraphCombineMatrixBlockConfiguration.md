@@ -6,7 +6,7 @@
 
 # ~~Interface: IFlowGraphCombineMatrixBlockConfiguration~~
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts#L145)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts:145](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts#L145)
 
 Configuration for the matrix combine blocks.
 
@@ -37,7 +37,7 @@ The unset behaviour is unchanged for graphs that never set the flag, but anyone 
 
 > `optional` **inputIsColumnMajor?**: `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts#L153)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts:153](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Data/Math/flowGraphMathCombineExtractBlocks.pure.ts#L153)
 
 Whether the input is already in column-major order. Defaults to `true`.
 
@@ -54,7 +54,7 @@ Note the inverted meaning versus previous releases (see the interface deprecatio
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 

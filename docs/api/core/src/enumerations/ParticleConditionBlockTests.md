@@ -6,7 +6,7 @@
 
 # Enumeration: ParticleConditionBlockTests
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L14)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L14)
 
 Conditions supported by the condition block
 
@@ -16,7 +16,7 @@ Conditions supported by the condition block
 
 > **And**: `8`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L32)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:32](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L32)
 
 Logical And
 
@@ -26,7 +26,7 @@ Logical And
 
 > **Equal**: `0`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L16)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L16)
 
 Equal
 
@@ -36,7 +36,7 @@ Equal
 
 > **GreaterOrEqual**: `5`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L26)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L26)
 
 GreaterOrEqual
 
@@ -46,7 +46,7 @@ GreaterOrEqual
 
 > **GreaterThan**: `3`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L22)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L22)
 
 GreaterThan
 
@@ -56,7 +56,7 @@ GreaterThan
 
 > **LessOrEqual**: `4`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L24)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:24](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L24)
 
 LessOrEqual
 
@@ -66,7 +66,7 @@ LessOrEqual
 
 > **LessThan**: `2`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L20)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L20)
 
 LessThan
 
@@ -76,7 +76,7 @@ LessThan
 
 > **NotEqual**: `1`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L18)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L18)
 
 NotEqual
 
@@ -86,7 +86,7 @@ NotEqual
 
 > **Or**: `7`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L30)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L30)
 
 Logical Or
 
@@ -96,6 +96,6 @@ Logical Or
 
 > **Xor**: `6`
 
-Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L28)
+Defined in: [packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Particles/Node/Blocks/Conditions/particleConditionBlock.pure.ts#L28)
 
 Logical Exclusive OR

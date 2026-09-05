@@ -6,7 +6,7 @@
 
 # Enumeration: PhysicsConstraintAxis
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:31](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L31)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:31](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L31)
 
 The constraint specific axis to use when setting Friction, `ConstraintAxisLimitMode`, max force, ...
 
@@ -16,7 +16,7 @@ The constraint specific axis to use when setting Friction, `ConstraintAxisLimitM
 
 > **ANGULAR\_X**: `3`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:51](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L51)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:51](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L51)
 
 Rotation around the primary axis of the constraint (i.e. the
 axis specified by PhysicsConstraintParameters.axisA/axisB)
@@ -27,7 +27,7 @@ axis specified by PhysicsConstraintParameters.axisA/axisB)
 
 > **ANGULAR\_Y**: `4`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:56](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L56)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:56](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L56)
 
 Rotation around the second axis of the constraint (i.e. the
 axis specified by PhysicsConstraintParameters.perpAxisA/perpAxisB)
@@ -38,7 +38,7 @@ axis specified by PhysicsConstraintParameters.perpAxisA/perpAxisB)
 
 > **ANGULAR\_Z**: `5`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:61](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L61)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:61](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L61)
 
 Rotation around the third axis of the constraint. This axis is
 computed from the cross product of axisA/axisB and perpAxisA/perpAxisB)
@@ -49,7 +49,7 @@ computed from the cross product of axisA/axisB and perpAxisA/perpAxisB)
 
 > **LINEAR\_DISTANCE**: `6`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:67](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L67)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:67](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L67)
 
 A 3D distance limit; similar to specifying the LINEAR_X/Y/Z axes
 individually, but the distance calculation uses all three axes
@@ -61,7 +61,7 @@ simultaneously, instead of individually.
 
 > **LINEAR\_X**: `0`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:36](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L36)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:36](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L36)
 
 Translation along the primary axis of the constraint (i.e. the
 direction specified by PhysicsConstraintParameters.axisA/axisB)
@@ -72,7 +72,7 @@ direction specified by PhysicsConstraintParameters.axisA/axisB)
 
 > **LINEAR\_Y**: `1`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L41)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L41)
 
 Translation along the second axis of the constraint (i.e. the
 direction specified by PhysicsConstraintParameters.perpAxisA/perpAxisB)
@@ -83,7 +83,7 @@ direction specified by PhysicsConstraintParameters.perpAxisA/perpAxisB)
 
 > **LINEAR\_Z**: `2`
 
-Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:46](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L46)
+Defined in: [packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts:46](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Physics/v2/IPhysicsEnginePlugin.ts#L46)
 
 Translation along the third axis of the constraint. This axis is
 computed from the cross product of axisA/axisB and perpAxisA/perpAxisB)

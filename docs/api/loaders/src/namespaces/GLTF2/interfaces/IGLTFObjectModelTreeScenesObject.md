@@ -6,7 +6,7 @@
 
 # Interface: IGLTFObjectModelTreeScenesObject
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:331](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L331)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:331](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L331)
 
 Accessor tree describing the `/scenes` section of the glTF Object Model.
 Per-scene root-node refs are exposed under `nodes/{i}`.
@@ -17,7 +17,7 @@ Per-scene root-node refs are exposed under `nodes/{i}`.
 
 > **\_\_array\_\_**: `object`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:334](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L334)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:334](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L334)
 
 #### \_\_target\_\_
 
@@ -47,6 +47,6 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:
 
 > **length**: [`IObjectAccessor`](../../../../../core/src/interfaces/IObjectAccessor.md)\<[`IScene`](IScene.md)[], `any`, [`FlowGraphInteger`](../../../../../core/src/classes/FlowGraphInteger.md)\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:333](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L333)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts:333](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/objectModelMapping.ts#L333)
 
 Number of scenes in the array.

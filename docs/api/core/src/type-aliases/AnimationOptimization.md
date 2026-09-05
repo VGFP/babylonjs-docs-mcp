@@ -8,7 +8,7 @@
 
 > **AnimationOptimization** = \{ `mergeRuntimeAnimations`: `false`; \} \| \{ `mergeKeyFrames`: `boolean`; `mergeRuntimeAnimations`: `true`; \}
 
-Defined in: [packages/dev/core/src/Animations/animation.optimizations.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animation.optimizations.ts#L6)
+Defined in: [packages/dev/core/src/Animations/animation.optimizations.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animation.optimizations.ts#L6)
 
 Interface used to define the optimization options for animations
 

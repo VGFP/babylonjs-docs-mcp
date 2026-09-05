@@ -6,7 +6,7 @@
 
 # Class: PositionNormalVertex
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L6)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L6)
 
 Contains position and normal vectors for a vertex
 
@@ -16,7 +16,7 @@ Contains position and normal vectors for a vertex
 
 > **new PositionNormalVertex**(`position?`, `normal?`): `PositionNormalVertex`
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L12)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L12)
 
 Creates a PositionNormalVertex
 
@@ -44,7 +44,7 @@ the normal of the vertex (defaut: 0,1,0)
 
 > **normal**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L16)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L16)
 
 [Vector3.Up()] the normal of the vertex (defaut: 0,1,0)
 
@@ -54,7 +54,7 @@ Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:16](https://github
 
 > **position**: [`Vector3`](Vector3.md)
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L14)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L14)
 
 [Vector3.Zero()] the position of the vertex (defaut: 0,0,0)
 
@@ -64,7 +64,7 @@ Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:14](https://github
 
 > **clone**(): `PositionNormalVertex`
 
-Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Maths/math.vertexFormat.ts#L23)
+Defined in: [packages/dev/core/src/Maths/math.vertexFormat.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Maths/math.vertexFormat.ts#L23)
 
 Clones the PositionNormalVertex
 

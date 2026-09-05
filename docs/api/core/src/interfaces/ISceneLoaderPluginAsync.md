@@ -6,7 +6,7 @@
 
 # Interface: ISceneLoaderPluginAsync
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:249](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L249)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:249](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L249)
 
 Interface used to define an async SceneLoader plugin
 
@@ -20,7 +20,7 @@ Interface used to define an async SceneLoader plugin
 
 > `readonly` **extensions**: `string` \| [`ISceneLoaderPluginExtensions`](ISceneLoaderPluginExtensions.md)
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:131](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L131)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:131](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L131)
 
 The file extensions supported by the plugin.
 
@@ -34,7 +34,7 @@ The file extensions supported by the plugin.
 
 > `readonly` **name**: `string`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:126](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L126)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:126](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L126)
 
 The friendly name of the plugin.
 
@@ -48,7 +48,7 @@ The friendly name of the plugin.
 
 > `optional` **canDirectLoad**(`data`): `boolean`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L138)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L138)
 
 The callback that returns true if the data can be directly loaded.
 
@@ -76,7 +76,7 @@ if the data can be loaded directly
 
 > `optional` **directLoad**(`scene`, `data`): `unknown`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:187](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L187)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:187](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L187)
 
 The callback that returns the data to pass to the plugin if the data can be directly loaded.
 
@@ -110,7 +110,7 @@ data to pass to the plugin
 
 > **importMeshAsync**(`meshesNames`, `scene`, `data`, `rootUrl`, `onProgress?`, `fileName?`): `Promise`\<[`ISceneLoaderAsyncResult`](ISceneLoaderAsyncResult.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:260](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L260)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:260](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L260)
 
 Import meshes into a scene.
 
@@ -164,7 +164,7 @@ The loaded objects (e.g. meshes, particle systems, skeletons, animation groups, 
 
 > **loadAssetContainerAsync**(`scene`, `data`, `rootUrl`, `onProgress?`, `fileName?`): `Promise`\<[`AssetContainer`](../classes/AssetContainer.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:289](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L289)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:289](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L289)
 
 Load into an asset container.
 
@@ -212,7 +212,7 @@ The loaded asset container
 
 > **loadAsync**(`scene`, `data`, `rootUrl`, `onProgress?`, `fileName?`): `Promise`\<`void`\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:278](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L278)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:278](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L278)
 
 Load into a scene.
 
@@ -260,7 +260,7 @@ Nothing
 
 > `optional` **loadFile**(`scene`, `fileOrUrl`, `rootUrl`, `onSuccess`, `onProgress?`, `useArrayBuffer?`, `onError?`, `name?`): [`Nullable`](../type-aliases/Nullable.md)\<[`IFileRequest`](IFileRequest.md)\>
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:169](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L169)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:169](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L169)
 
 The callback called when loading from a url.
 
@@ -330,7 +330,7 @@ a file request object
 
 > `optional` **rewriteRootURL**(`rootUrl`, `responseURL?`): `string`
 
-Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:195](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Loading/sceneLoader.ts#L195)
+Defined in: [packages/dev/core/src/Loading/sceneLoader.ts:195](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Loading/sceneLoader.ts#L195)
 
 The callback that allows custom handling of the root url based on the response url.
 

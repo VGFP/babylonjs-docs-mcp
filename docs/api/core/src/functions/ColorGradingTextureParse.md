@@ -8,7 +8,7 @@
 
 > **ColorGradingTextureParse**(`parsedTexture`, `scene`): [`Nullable`](../type-aliases/Nullable.md)\<[`ColorGradingTexture`](../classes/ColorGradingTexture.md)\>
 
-Defined in: [packages/dev/core/src/Materials/Textures/colorGradingTexture.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/Textures/colorGradingTexture.pure.ts#L308)
+Defined in: [packages/dev/core/src/Materials/Textures/colorGradingTexture.pure.ts:308](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/Textures/colorGradingTexture.pure.ts#L308)
 
 Parses a color grading texture serialized by Babylon.
 

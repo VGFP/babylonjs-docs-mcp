@@ -8,7 +8,7 @@
 
 > **GeospatialCameraOptions** = `object`
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L22)
+Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L22)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:22](https://
 
 > `optional` **pickPredicate?**: [`MeshPredicate`](MeshPredicate.md)
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L30)
+Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L30)
 
 If supplied, will be used by the movement class when picking the globe. Can later update camera.movement.pickPredicate directly
 
@@ -26,6 +26,6 @@ If supplied, will be used by the movement class when picking the globe. Can late
 
 > **planetRadius**: `number`
 
-Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L26)
+Defined in: [packages/dev/core/src/Cameras/geospatialCamera.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Cameras/geospatialCamera.pure.ts#L26)
 
 Radius of the planet being orbited

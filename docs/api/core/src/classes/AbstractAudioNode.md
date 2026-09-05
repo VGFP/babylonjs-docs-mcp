@@ -6,7 +6,7 @@
 
 # Abstract Class: AbstractAudioNode
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L23)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L23)
 
 Abstract class for an audio node.
 
@@ -30,7 +30,7 @@ There are 3 types of audio nodes:
 
 > `readonly` **engine**: [`AudioEngineV2`](AudioEngineV2.md)
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:39](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L39)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:39](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L39)
 
 The audio engine this node belongs to.
 
@@ -40,7 +40,7 @@ The audio engine this node belongs to.
 
 > `readonly` **onDisposeObservable**: [`Observable`](Observable.md)\<`AbstractAudioNode`\>
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:44](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L44)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:44](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L44)
 
 Observable for when the audio node is disposed.
 
@@ -50,7 +50,7 @@ Observable for when the audio node is disposed.
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:63](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L63)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:63](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L63)
 
 Releases associated resources.
 - Triggers `onDisposeObservable`.
@@ -69,7 +69,7 @@ Releases associated resources.
 
 > `abstract` **getClassName**(): `string`
 
-Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L90)
+Defined in: [packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/AudioV2/abstractAudio/abstractAudioNode.ts#L90)
 
 Gets a string identifying the name of the class
 

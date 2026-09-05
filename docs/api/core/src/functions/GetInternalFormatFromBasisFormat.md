@@ -8,7 +8,7 @@
 
 > **GetInternalFormatFromBasisFormat**(`basisFormat`, `engine`): `number`
 
-Defined in: [packages/dev/core/src/Misc/basis.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/basis.pure.ts#L136)
+Defined in: [packages/dev/core/src/Misc/basis.pure.ts:136](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/basis.pure.ts#L136)
 
 Get the internal format to be passed to texImage2D corresponding to the .basis format value
 

@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_variants
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L43)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:43](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L43)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_variants/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_varian
 
 > **enabled**: `boolean`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L52)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:52](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L52)
 
 Defines whether this extension is enabled.
 
@@ -34,7 +34,7 @@ Defines whether this extension is enabled.
 
 > `readonly` **name**: `"KHR_materials_variants"` = `NAME`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L47)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L47)
 
 The name of this extension.
 
@@ -48,7 +48,7 @@ The name of this extension.
 
 > **getAvailableVariants**(`rootNode`): `string`[]
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L90)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L90)
 
 Gets the list of available variant names for this asset.
 
@@ -72,7 +72,7 @@ the list of all the variant names for this model
 
 > **getLastSelectedVariant**(`rootNode`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`string` \| `string`[]\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L178)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:178](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L178)
 
 Gets the last selected variant name(s) or null if original.
 
@@ -96,7 +96,7 @@ The selected variant name(s).
 
 > **reset**(`rootNode`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L155)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:155](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L155)
 
 Reset back to the original before selecting a variant.
 
@@ -118,7 +118,7 @@ The glTF root node
 
 > **selectVariant**(`rootNode`, `variantName`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L130)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:130](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L130)
 
 Select a variant given a variant name or a list of variant names.
 
@@ -146,7 +146,7 @@ The variant name(s) to select.
 
 > `static` **GetAvailableVariants**(`rootNode`): `string`[]
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L76)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:76](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L76)
 
 Gets the list of available variant names for this asset.
 
@@ -170,7 +170,7 @@ the list of all the variant names for this model
 
 > `static` **GetLastSelectedVariant**(`rootNode`): [`Nullable`](../../../../../core/src/type-aliases/Nullable.md)\<`string` \| `string`[]\>
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L164)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:164](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L164)
 
 Gets the last selected variant name(s) or null if original.
 
@@ -194,7 +194,7 @@ The selected variant name(s).
 
 > `static` **Reset**(`rootNode`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L138)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:138](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L138)
 
 Reset back to the original before selecting a variant.
 
@@ -216,7 +216,7 @@ The glTF root node
 
 > `static` **SelectVariant**(`rootNode`, `variantName`): `void`
 
-Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L99)
+Defined in: [packages/dev/loaders/src/glTF/2.0/Extensions/KHR\_materials\_variants.pure.ts:99](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/glTF/2.0/Extensions/KHR_materials_variants.pure.ts#L99)
 
 Select a variant given a variant name or a list of variant names.
 

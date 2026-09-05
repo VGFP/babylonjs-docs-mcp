@@ -6,7 +6,7 @@
 
 # Enumeration: JoystickAxis
 
-Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/virtualJoystick.ts#L12)
+Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/virtualJoystick.ts#L12)
 
 Defines the potential axis of a Joystick
 
@@ -16,7 +16,7 @@ Defines the potential axis of a Joystick
 
 > **X**: `0`
 
-Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/virtualJoystick.ts#L14)
+Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/virtualJoystick.ts#L14)
 
 X axis
 
@@ -26,7 +26,7 @@ X axis
 
 > **Y**: `1`
 
-Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/virtualJoystick.ts#L16)
+Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/virtualJoystick.ts#L16)
 
 Y axis
 
@@ -36,6 +36,6 @@ Y axis
 
 > **Z**: `2`
 
-Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:18](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Misc/virtualJoystick.ts#L18)
+Defined in: [packages/dev/core/src/Misc/virtualJoystick.ts:18](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Misc/virtualJoystick.ts#L18)
 
 Z axis

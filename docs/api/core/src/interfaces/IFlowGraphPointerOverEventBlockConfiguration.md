@@ -6,7 +6,7 @@
 
 # Interface: IFlowGraphPointerOverEventBlockConfiguration
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts#L17)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts#L17)
 
 Configuration for the pointer over event block.
 
@@ -24,7 +24,7 @@ Configuration for the pointer over event block.
 
 > `optional` **name?**: `string`
 
-Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
+Defined in: [packages/dev/core/src/FlowGraph/flowGraphBlock.ts:47](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/flowGraphBlock.ts#L47)
 
 The name of the block.
 
@@ -38,7 +38,7 @@ The name of the block.
 
 > `optional` **stopPropagation?**: `boolean`
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts#L21)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts#L21)
 
 Should this mesh block propagation of the event.
 
@@ -48,6 +48,6 @@ Should this mesh block propagation of the event.
 
 > `optional` **targetMesh?**: [`AbstractMesh`](../classes/AbstractMesh.md)
 
-Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts#L26)
+Defined in: [packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts:26](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/FlowGraph/Blocks/Event/flowGraphPointerOverEventBlock.pure.ts#L26)
 
 The mesh to listen to. Can also be set by the asset input.

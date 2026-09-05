@@ -6,7 +6,7 @@
 
 # Class: ThreeMfMeshBuilder
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:159](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L159)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:159](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L159)
 
 Fluent builder for a 3MF object holding a mesh.
 Vertices and triangles are generated from Babylon vertex data and can be post processed through handlers.
@@ -21,7 +21,7 @@ Vertices and triangles are generated from Babylon vertex data and can be post pr
 
 > **new ThreeMfMeshBuilder**(`id`): `ThreeMfMeshBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:173](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L173)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:173](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L173)
 
 Creates a new mesh object builder.
 
@@ -47,7 +47,7 @@ The unique resource id of the object within the model.
 
 > `optional` **\_th?**: [`TriangleHandler`](../type-aliases/TriangleHandler.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:167](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L167)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:167](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L167)
 
 Optional handler invoked for every triangle before it is added to the mesh.
 
@@ -57,7 +57,7 @@ Optional handler invoked for every triangle before it is added to the mesh.
 
 > `optional` **\_vh?**: [`VertexHandler`](../type-aliases/VertexHandler.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:163](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L163)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:163](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L163)
 
 Optional handler invoked for every vertex before it is added to the mesh.
 
@@ -67,7 +67,7 @@ Optional handler invoked for every vertex before it is added to the mesh.
 
 > **build**(): [`I3mfObject`](../interfaces/I3mfObject.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:114](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L114)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:114](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L114)
 
 Returns the object that has been built.
 
@@ -87,7 +87,7 @@ The built 3MF object resource.
 
 > **reset**(`id`, `type`): `void`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:123](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L123)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:123](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L123)
 
 Discards the current object and starts building a new one.
 
@@ -119,7 +119,7 @@ The 3MF object type of the new object.
 
 > **withData**(`data`): `ThreeMfMeshBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:194](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L194)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:194](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L194)
 
 Builds the mesh content of the object from the provided vertex data.
 
@@ -143,7 +143,7 @@ This builder, to allow chaining.
 
 > **withMaterial**(`id`, `i`): `ThreeMfMeshBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:205](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L205)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:205](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L205)
 
 Assigns the material used by the mesh.
 
@@ -173,7 +173,7 @@ This builder, to allow chaining.
 
 > **withName**(`name`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:83](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L83)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:83](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L83)
 
 Sets the human readable name of the object.
 
@@ -201,7 +201,7 @@ This builder, to allow chaining.
 
 > **withPostProcessHandlers**(`vertex`, `triangle?`): `ThreeMfMeshBuilder`
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:183](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L183)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:183](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L183)
 
 Registers the handlers used to post process the generated geometry.
 
@@ -231,7 +231,7 @@ This builder, to allow chaining.
 
 > **withProperty**(`id`, `index?`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:104](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L104)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:104](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L104)
 
 Assigns the property resource used by the object.
 
@@ -265,7 +265,7 @@ This builder, to allow chaining.
 
 > **withThumbnail**(`thumbnail`): [`ThreeMfObjectBuilder`](ThreeMfObjectBuilder.md)
 
-Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:93](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L93)
+Defined in: [packages/dev/serializers/src/3MF/core/model/3mf.builder.ts:93](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/3MF/core/model/3mf.builder.ts#L93)
 
 Sets the thumbnail of the object.
 

@@ -8,7 +8,7 @@
 
 > **PrepareAttributesForBakedVertexAnimation**(`attribs`, `mesh`, `defines`): `void`
 
-Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:428](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/materialHelper.functions.ts#L428)
+Defined in: [packages/dev/core/src/Materials/materialHelper.functions.ts:428](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/materialHelper.functions.ts#L428)
 
 Prepares the list of attributes required for baked vertex animations according to the effect defines.
 

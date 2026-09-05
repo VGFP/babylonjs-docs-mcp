@@ -6,7 +6,7 @@
 
 # Class: DataBuffer
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:4](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L4)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:4](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L4)
 
 Class used to store gfx data (like WebGLBuffer)
 
@@ -16,7 +16,7 @@ Class used to store gfx data (like WebGLBuffer)
 
 > **new DataBuffer**(): `DataBuffer`
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:33](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L33)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:33](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L33)
 
 Constructs the buffer
 
@@ -30,7 +30,7 @@ Constructs the buffer
 
 > **capacity**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L12)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L12)
 
 Gets or sets the size of the underlying buffer
 
@@ -40,7 +40,7 @@ Gets or sets the size of the underlying buffer
 
 > **is32Bits**: `boolean` = `false`
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:16](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L16)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:16](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L16)
 
 Gets or sets a boolean indicating if the buffer contains 32bits indices
 
@@ -50,7 +50,7 @@ Gets or sets a boolean indicating if the buffer contains 32bits indices
 
 > **references**: `number` = `0`
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L10)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L10)
 
 Gets or sets the number of objects referencing this buffer
 
@@ -60,7 +60,7 @@ Gets or sets the number of objects referencing this buffer
 
 > `readonly` **uniqueId**: `number`
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L28)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:28](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L28)
 
 Gets the unique id of this buffer
 
@@ -72,7 +72,7 @@ Gets the unique id of this buffer
 
 > **get** **underlyingResource**(): `any`
 
-Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Buffers/dataBuffer.ts#L21)
+Defined in: [packages/dev/core/src/Buffers/dataBuffer.ts:21](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Buffers/dataBuffer.ts#L21)
 
 Gets the underlying buffer
 

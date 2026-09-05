@@ -6,7 +6,7 @@
 
 # Class: KHR\_materials\_specular
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L15)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:15](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L15)
 
 [Specification](https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_materials_specular/README.md)
 
@@ -20,7 +20,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_sp
 
 > **new KHR\_materials\_specular**(`exporter`): `KHR_materials_specular`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L29)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:29](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L29)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_sp
 
 > **enabled**: `boolean` = `true`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L20)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L20)
 
 Defines whether this extension is enabled
 
@@ -52,7 +52,7 @@ Defines whether this extension is enabled
 
 > `readonly` **name**: `"KHR_materials_specular"` = `NAME`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L17)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L17)
 
 Name of this extension
 
@@ -66,7 +66,7 @@ Name of this extension
 
 > **required**: `boolean` = `false`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L23)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:23](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L23)
 
 Defines whether this extension is required
 
@@ -80,7 +80,7 @@ Defines whether this extension is required
 
 > **dispose**(): `void`
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L34)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:34](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L34)
 
 Dispose
 
@@ -98,7 +98,7 @@ Dispose
 
 > `optional` **postExportMaterialAdditionalTexturesAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<[`BaseTexture`](../../../core/src/classes/BaseTexture.md)[]\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L48)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L48)
 
 After exporting a material, deal with the additional textures
 
@@ -138,7 +138,7 @@ array of additional textures to export
 
 > `optional` **postExportMaterialAsync**(`context`, `node`, `babylonMaterial`): `Promise`\<`IMaterial`\>
 
-Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L90)
+Defined in: [packages/dev/serializers/src/glTF/2.0/Extensions/KHR\_materials\_specular.pure.ts:90](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/glTF/2.0/Extensions/KHR_materials_specular.pure.ts#L90)
 
 After exporting a material
 

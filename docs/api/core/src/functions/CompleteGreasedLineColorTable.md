@@ -8,7 +8,7 @@
 
 > **CompleteGreasedLineColorTable**(`pointCount`, `colors`, `colorDistribution`, `defaultColor`): [`Color3`](../classes/Color3.md)[]
 
-Defined in: [packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:422](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L422)
+Defined in: [packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts:422](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Meshes/Builders/greasedLineBuilder.ts#L422)
 
 Completes the color table/fill the missing color entries. It means it creates a color entry for every point of the line mesh.
 You can provide more points the colors when creating the mesh. This function will fill the empty entries.

@@ -6,7 +6,7 @@
 
 # Class: BVHExporter
 
-Defined in: [packages/dev/serializers/src/BVH/bvhSerializer.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/BVH/bvhSerializer.ts#L19)
+Defined in: [packages/dev/serializers/src/BVH/bvhSerializer.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/BVH/bvhSerializer.ts#L19)
 
 ## Constructors
 
@@ -24,7 +24,7 @@ Defined in: [packages/dev/serializers/src/BVH/bvhSerializer.ts:19](https://githu
 
 > `static` **Export**(`skeleton`, `animationNames?`, `frameRate?`): `string`
 
-Defined in: [packages/dev/serializers/src/BVH/bvhSerializer.ts:20](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/serializers/src/BVH/bvhSerializer.ts#L20)
+Defined in: [packages/dev/serializers/src/BVH/bvhSerializer.ts:20](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/serializers/src/BVH/bvhSerializer.ts#L20)
 
 #### Parameters
 

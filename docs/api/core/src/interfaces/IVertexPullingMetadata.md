@@ -6,7 +6,7 @@
 
 # Interface: IVertexPullingMetadata
 
-Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:8](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L8)
+Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:8](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L8)
 
 Interface representing metadata for vertex pulling
 
@@ -16,7 +16,7 @@ Interface representing metadata for vertex pulling
 
 > **normalized**: `boolean`
 
-Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L27)
+Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:27](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L27)
 
 Whether integer data should be normalized when read
 
@@ -26,7 +26,7 @@ Whether integer data should be normalized when read
 
 > **offset**: `number`
 
-Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L12)
+Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:12](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L12)
 
 Offset in vertex buffer where data starts
 
@@ -36,7 +36,7 @@ Offset in vertex buffer where data starts
 
 > **stride**: `number`
 
-Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:17](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L17)
+Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:17](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L17)
 
 Stride between elements in the vertex buffer
 
@@ -46,6 +46,6 @@ Stride between elements in the vertex buffer
 
 > **type**: `number`
 
-Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:22](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L22)
+Defined in: [packages/dev/core/src/Materials/vertexPullingHelper.functions.ts:22](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Materials/vertexPullingHelper.functions.ts#L22)
 
 Type of the vertex buffer (e.g., float, int)

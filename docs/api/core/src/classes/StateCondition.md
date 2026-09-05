@@ -6,7 +6,7 @@
 
 # Class: StateCondition
 
-Defined in: [packages/dev/core/src/Actions/condition.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L247)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:247](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/condition.pure.ts#L247)
 
 Defines a state condition as an extension of Condition
 
@@ -20,7 +20,7 @@ Defines a state condition as an extension of Condition
 
 > **new StateCondition**(`actionManager`, `target`, `value`): `StateCondition`
 
-Defined in: [packages/dev/core/src/Actions/condition.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L262)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:262](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/condition.pure.ts#L262)
 
 Creates a new StateCondition
 
@@ -58,7 +58,7 @@ to compare with target state
 
 > **value**: `string`
 
-Defined in: [packages/dev/core/src/Actions/condition.pure.ts:266](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L266)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:266](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/condition.pure.ts#L266)
 
 Value to compare with target state
 
@@ -68,7 +68,7 @@ Value to compare with target state
 
 > **isValid**(): `boolean`
 
-Defined in: [packages/dev/core/src/Actions/condition.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L277)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:277](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/condition.pure.ts#L277)
 
 Gets a boolean indicating if the current condition is met
 
@@ -88,7 +88,7 @@ the validity of the state
 
 > **serialize**(): `any`
 
-Defined in: [packages/dev/core/src/Actions/condition.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Actions/condition.pure.ts#L285)
+Defined in: [packages/dev/core/src/Actions/condition.pure.ts:285](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Actions/condition.pure.ts#L285)
 
 Serialize the StateCondition into a JSON compatible object
 

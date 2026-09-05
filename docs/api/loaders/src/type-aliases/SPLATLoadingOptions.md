@@ -8,7 +8,7 @@
 
 > **SPLATLoadingOptions** = `object`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:6](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L6)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:6](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L6)
 
 Options for loading Gaussian Splatting and PLY files
 
@@ -18,7 +18,7 @@ Options for loading Gaussian Splatting and PLY files
 
 > `optional` **deflateURL?**: `string`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:19](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L19)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:19](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L19)
 
 URL to load fflate from. If null or undefined, will load from unpkg.com
 (https://unpkg.com/fflate/umd/index.js)
@@ -29,7 +29,7 @@ URL to load fflate from. If null or undefined, will load from unpkg.com
 
 > `optional` **disableAutoCameraLimits?**: `boolean`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:30](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L30)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:30](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L30)
 
 Disable automatic camera limits from being applied if they exist in the splat file
 
@@ -39,7 +39,7 @@ Disable automatic camera limits from being applied if they exist in the splat fi
 
 > `optional` **fflate?**: `unknown`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:25](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L25)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:25](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L25)
 
 Instance of [fflate](https://github.com/101arrowz/fflate) to avoid
 dynamically loading of the lib to global if needed, useful for bundler users.
@@ -56,7 +56,7 @@ import * as fflate from 'fflate';
 
 > `optional` **flipY?**: `boolean`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:14](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L14)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:14](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L14)
 
 Spatial Y Flip for splat position and orientation
 
@@ -66,7 +66,7 @@ Spatial Y Flip for splat position and orientation
 
 > `optional` **gaussianSplattingMesh?**: [`GaussianSplattingMesh`](../../../core/src/classes/GaussianSplattingMesh.md)
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L35)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L35)
 
 Mesh that will be used to load data instead of creating a new one
 
@@ -76,7 +76,7 @@ Mesh that will be used to load data instead of creating a new one
 
 > `optional` **keepInRam?**: `boolean`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:10](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L10)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:10](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L10)
 
 Defines if buffers should be kept in memory for editing purposes
 
@@ -86,7 +86,7 @@ Defines if buffers should be kept in memory for editing purposes
 
 > `optional` **needsRotationScaleTextures?**: `boolean`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:41](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L41)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:41](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L41)
 
 Generate rotation and scale matrix textures required for voxel-based IBL shadows.
 Required for IBL shadows to work if keepInRam is false.
@@ -97,7 +97,7 @@ Required for IBL shadows to work if keepInRam is false.
 
 > `optional` **spzLibraryUrl?**: `string`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:60](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L60)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:60](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L60)
 
 URL to load the spz WASM ES module from (e.g. the @adobe/spz package).
 When provided, the WASM-based SPZ loader is used, which supports extra features
@@ -119,7 +119,7 @@ spzLibraryUrl: "https://unpkg.com/@adobe/spz@0.2.0/dist/spz.js"
 
 > `optional` **useSogTextures?**: `boolean`
 
-Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:48](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L48)
+Defined in: [packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts:48](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/loaders/src/SPLAT/splatLoadingOptions.ts#L48)
 
 Load SOG files as raw GPU textures and dequantize in the shader.
 Skips the CPU decode pass and yields much faster load times.

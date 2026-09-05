@@ -8,7 +8,7 @@
 
 > **OptimizeAnimations**(`scene`, `options?`): `void`
 
-Defined in: [packages/dev/core/src/Animations/animation.optimizations.ts:35](https://github.com/BabylonJS/Babylon.js/blob/f22fdbe48b108ab1ffb5586a12fa5a7b3060d09d/packages/dev/core/src/Animations/animation.optimizations.ts#L35)
+Defined in: [packages/dev/core/src/Animations/animation.optimizations.ts:35](https://github.com/BabylonJS/Babylon.js/blob/8fc9bce8645980fefc18c7550fb28469d6da3a62/packages/dev/core/src/Animations/animation.optimizations.ts#L35)
 
 This is a destructive optimization that merges all animatables into the first one.
 That animatable will also host all the runtime animations.
